@@ -3,3 +3,7 @@ filesystem/sys/
 filesystem/proc/
 filesystem/tmp/
 *~
+# File is over github size limit
+filesystem/usr/share/icons/HighContrast/icon-theme.cache
+# Ignore redundant squashed filesystem
+extract-cd/casper/filesystem.squashfs
