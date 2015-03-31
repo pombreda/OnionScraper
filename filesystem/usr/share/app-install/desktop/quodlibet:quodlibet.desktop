@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=quodlibet
+X-AppInstall-Popcon=83
+X-AppInstall-Section=universe
+
+Name=Quod Libet
+GenericName=Music Player
+Comment=Listen to, browse, or edit your audio collection
+Exec=quodlibet
+Terminal=false
+StartupNotify=true
+Type=Application
+Icon=quodlibet
+Categories=AudioVideo;Audio;Player;GTK;
+
+#http://live.gnome.org/GnomeGoals/NotificationSource
+X-GNOME-UsesNotifications=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=netanim
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Network animator
+Comment=Network animator based on Qt4 working with ns-3
+Exec=NetAnim
+Icon=NetAnim
+Type=Application
+Categories=Network;
+
+X-Ubuntu-Gettext-Domain=app-install-data

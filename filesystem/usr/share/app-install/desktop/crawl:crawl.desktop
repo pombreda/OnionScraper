@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=crawl
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Type=Application
+
+Name=Dungeon Crawl
+Exec=/usr/games/crawl
+Terminal=true
+Icon=crawl
+Categories=Game;AdventureGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

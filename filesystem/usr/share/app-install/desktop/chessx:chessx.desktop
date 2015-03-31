@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=chessx
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=ChessX
+Comment=Chess database
+GenericName=Chess Game
+Icon=chessx
+Exec=chessx
+Terminal=false
+Type=Application
+Categories=Game;BoardGame;
+MimeType=application/x-chess-pgn;
+Keywords=PGN;FEN;Database;
+
+X-Ubuntu-Gettext-Domain=app-install-data

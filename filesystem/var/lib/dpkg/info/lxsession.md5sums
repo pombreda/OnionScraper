@@ -1,0 +1,15 @@
+38204f8048d2c2d82ea6e080aeb93ca6  usr/bin/lxclipboard
+7d19529e76802001630bb29c111c1b37  usr/bin/lxlock
+20b612e82b1a6035860f208c7acdb17d  usr/bin/lxsession
+d0c25e91217e840249ab93bf65196706  usr/bin/lxsession-db
+65711963fcaed526c2a7ff20241fd622  usr/bin/lxsession-default
+6d0a73c9d811bcda222724ece275c554  usr/bin/lxsession-default-terminal
+44bd0747d28c0142a30ec6d4bc152af6  usr/bin/lxsession-message-gtk
+861017df0e4006db67ec73e97219c732  usr/bin/lxsession-xdg-autostart
+3cf44fa024e958445a0442a97fcfd8f4  usr/bin/lxsession-xsettings
+8bb594bc28f7e29c2cb2aa35ecf0ad6a  usr/bin/lxsettings-daemon
+06e9770b5389f527b62981bd01ea0166  usr/share/doc/lxsession/README.gz
+b9a0433a9ec9b30a15d9604b5cc9d040  usr/share/doc/lxsession/copyright
+541db73249c50010ff64b332943d1e1a  usr/share/doc/lxsession/examples/conffiles.conf.example
+73dbebc428f13dabd4fe82e7e17999ae  usr/share/doc/lxsession/examples/desktop.conf.example.gz
+b7d11c18f1ea482da52c323841b30863  usr/share/lintian/overrides/lxsession

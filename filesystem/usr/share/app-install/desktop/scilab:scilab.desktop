@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=scilab
+X-AppInstall-Popcon=134
+X-AppInstall-Section=universe
+
+Comment=Scientific software package for numerical computations
+Exec=scilab -f
+GenericName=Scientific Software Package
+Icon=scilab
+MimeType=application/x-scilab-sci;application/x-scilab-sce;application/x-scilab-tst;application/x-scilab-dem;application/x-scilab-sod;application/x-scilab-xcos;application/x-scilab-zcos;application/x-scilab-bin;application/x-scilab-cosf;application/x-scilab-cos;
+Name=Scilab
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Science;Math;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=trustedqsl
+X-AppInstall-Popcon=10
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=TrustedQSL
+Comment=Sign QSO data for upload to LoTW
+Exec=tqsl %F
+TryExec=tqsl
+Icon=trustedqsl
+Terminal=false
+Type=Application
+Categories=Application;HamRadio;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

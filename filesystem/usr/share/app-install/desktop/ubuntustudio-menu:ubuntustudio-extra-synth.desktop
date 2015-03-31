@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Name=Extra Sound Generators
+GenericName=Software Installer
+Comment=Allows the installation of Soft Synths and Sound Generators
+Exec=ubuntustudio-installer ams horgand sineshaper amsynth monobristol blepvco nekobee zynaddsubfx bristol wsynth-dssi mx44
+Icon=ubuntustudio-installer
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=Install;
+
+X-Ubuntu-Gettext-Domain=app-install-data

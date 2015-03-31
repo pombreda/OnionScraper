@@ -1,0 +1,5 @@
+04cdedf0fdc7c2930e86fe593f096c44  usr/lib/x86_64-linux-gnu/lxpanel/plugins/lxde_power_manager.la
+16aaf2f3aa3aeaff68e9c9417d2e39ef  usr/lib/x86_64-linux-gnu/lxpanel/plugins/lxde_power_manager.so
+82ee5371c0ac551d96ccecc74c00b19c  usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so
+cac1c4ee08640a5647bf65c215a8013d  usr/share/doc/xfce4-power-manager-plugins/copyright
+48105049144d77cf11807de7f471383d  usr/share/xfce4/panel/plugins/power-manager-plugin.desktop

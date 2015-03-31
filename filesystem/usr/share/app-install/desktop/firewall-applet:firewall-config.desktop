@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=firewall-applet
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+Name=Firewall
+Comment=Firewall Configuration
+Icon=firewall-config
+Categories=System;Settings;Security;
+Exec=/usr/bin/firewall-config
+Type=Application
+StartupNotify=true
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

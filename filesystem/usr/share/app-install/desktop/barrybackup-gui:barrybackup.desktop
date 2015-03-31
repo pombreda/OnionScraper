@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=barrybackup-gui
+X-AppInstall-Popcon=21
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=Barry Backup
+Comment=Backup and restore databases on the BlackBerry Handheld
+Exec=barrybackup
+Icon=barry_backup_menu_icon
+Terminal=false
+Type=Application
+StartupWMClass=barrybackup-gui
+Categories=Utility;
+Keywords=BlackBerry;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

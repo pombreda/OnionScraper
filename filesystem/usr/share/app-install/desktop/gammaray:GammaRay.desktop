@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=gammaray
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=GammaRay
+Comment=Qt-application inspection and manipulation tool
+GenericName=Qt Inspection Tool
+Exec=gammaray
+Icon=GammaRay
+Type=Application
+Categories=Qt;Development;
+X-KDE-StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

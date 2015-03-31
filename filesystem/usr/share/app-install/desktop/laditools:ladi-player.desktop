@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=laditools
+X-AppInstall-Popcon=78
+X-AppInstall-Section=universe
+
+Name=LADI Player
+Type=Application
+Comment=Control LADI system
+Terminal=false
+Exec=ladi-player
+Icon=ladi-player
+Categories=GTK;AudioVideo;Audio;
+GenericName=LADI system controller
+
+X-Ubuntu-Gettext-Domain=app-install-data

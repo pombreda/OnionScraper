@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Suorita komento päätteessä">
+								<longdesc>Tosi, jos tämäntyyppisen URL:n käsittelyyn käytettävä komento tulisi ajaa päätteessä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot;-URLien käsittelijä">
+								<longdesc>Komento jota käytetään &quot;ymsgr&quot;-URLien käsittelyyn, jos käytössä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Määritellyn komennon tulee käsitellä &quot;ymsgr&quot;-URLt">
+								<longdesc>Tosi, jos &quot;komento&quot;-avaimessa määriteltyä komentoa tulisi käyttää &quot;ymsgr&quot;-URLien käsittelyyn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Suorita komento päätteessä">
+								<longdesc>Tosi, jos tämäntyyppisen URL:n käsittelyyn käytettävä komento tulisi ajaa päätteessä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot;-URLien käsittelijä">
+								<longdesc>Komento jota käytetään &quot;xmpp&quot;-URLien käsittelyyn, jos käytössä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Määritellyn komennon tulee käsitellä &quot;xmpp&quot;-URLt">
+								<longdesc>Tosi, jos &quot;komento&quot;-avaimessa määriteltyä komentoa tulisi käyttää &quot;xmpp&quot;-URLien käsittelyyn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Suorita komento päätteessä">
+								<longdesc>Tosi, jos tämäntyyppisen URL:n käsittelyyn käytettävä komento tulisi ajaa päätteessä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot;-URLien käsittelijä">
+								<longdesc>Komento jota käytetään &quot;sip&quot;-URLien käsittelyyn, jos käytössä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Määritellyn komennon tulee käsitellä &quot;sip&quot;-URLt">
+								<longdesc>Tosi, jos &quot;komento&quot;-avaimessa määriteltyä komentoa tulisi käyttää &quot;sip&quot;-URLien käsittelyyn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Suorita komento päätteessä">
+								<longdesc>Tosi, jos tämäntyyppisen URL:n käsittelyyn käytettävä komento tulisi ajaa päätteessä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot;-URLien käsittelijä">
+								<longdesc>Komento jota käytetään &quot;msnim&quot;-URLien käsittelyyn, jos käytössä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Määritellyn komennon tulee käsitellä &quot;msnim&quot;-URLt">
+								<longdesc>Tosi, jos &quot;komento&quot;-avaimessa määriteltyä komentoa tulisi käyttää &quot;msnim&quot;-URLien käsittelyyn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Suorita komento päätteessä">
+								<longdesc>Tosi, jos tämäntyyppisen URL:n käsittelyyn käytettävä komento tulisi ajaa päätteessä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot;-URLien käsittelijä">
+								<longdesc>Komento jota käytetään &quot;irc&quot;-URLien käsittelyyn, jos käytössä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Määritellyn komennon tulee käsitellä &quot;irc&quot;-URLt">
+								<longdesc>Tosi, jos &quot;komento&quot;-avaimessa määriteltyä komentoa tulisi käyttää &quot;irc&quot;-URLien käsittelyyn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Suorita komento päätteessä">
+								<longdesc>Tosi, jos tämäntyyppisen URL:n käsittelyyn käytettävä komento tulisi ajaa päätteessä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot;-URLien käsittelijä">
+								<longdesc>Komento jota käytetään &quot;icq&quot;-URLien käsittelyyn, jos käytössä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Määritellyn komennon tulee käsitellä &quot;icq&quot;-URLt">
+								<longdesc>Tosi, jos &quot;komento&quot;-avaimessa määriteltyä komentoa tulisi käyttää &quot;icq&quot;-URLien käsittelyyn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Suorita komento päätteessä">
+								<longdesc>Tosi, jos tämäntyyppisen URL:n käsittelyyn käytettävä komento tulisi ajaa päätteessä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot;-URLien käsittelijä">
+								<longdesc>Komento jota käytetään &quot;gg&quot;-URLien käsittelyyn, jos käytössä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Määritellyn komennon tulee käsitellä &quot;gg&quot;-URLt">
+								<longdesc>Tosi, jos &quot;komento&quot;-avaimessa määriteltyä komentoa tulisi käyttää &quot;gg&quot;-URLien käsittelyyn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Suorita komento päätteessä">
+								<longdesc>Tosi, jos tämäntyyppisen URL:n käsittelyyn käytettävä komento tulisi ajaa päätteessä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot;-URLien käsittelijä">
+								<longdesc>Komento jota käytetään &quot;aim&quot;-URLien käsittelyyn, jos käytössä.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Määritellyn komennon tulee käsitellä &quot;aim&quot;-URLt">
+								<longdesc>Tosi, jos &quot;komento&quot;-avaimessa määriteltyä komentoa tulisi käyttää &quot;aim&quot;-URLien käsittelyyn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

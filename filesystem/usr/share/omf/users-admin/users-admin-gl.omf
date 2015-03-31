@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>Manual da Ferramenta de Administración de Usuarios</title>
+    <date>Xuño de 2004</date>
+    <version identifier="Manual da Ferramenta de Administración de Usuarios V0.35" date="Xuño de 2004"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      A ferramenta de administración de Usuarios permítelle engadir, eliminar e modificar os usuarios e grupos existentes no seu sistema.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/users-admin/gl/users-admin.xml"/>
+    <language code="gl"/>
+    <relation seriesid="96a3093c-85dd-11da-9b62-8f8e4c73e091"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

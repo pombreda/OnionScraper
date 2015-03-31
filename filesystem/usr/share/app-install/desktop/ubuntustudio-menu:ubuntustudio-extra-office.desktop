@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Name=Extra Office Applications
+GenericName=Software Installer
+Comment=Allows the installation of abiword, gnumeric and libreoffice
+Exec=ubuntustudio-installer abiword gnumeric libreoffice
+Icon=ubuntustudio-installer
+Terminal=false
+Type=Application
+Categories=Office;
+StartupNotify=true
+Keywords=Install;
+
+X-Ubuntu-Gettext-Domain=app-install-data

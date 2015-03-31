@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=krita
+X-AppInstall-Popcon=629
+X-AppInstall-Section=universe
+
+Name=Krita
+Exec=krita %u
+MimeType=application/x-krita-flipbook;
+Type=Application
+Icon=krita
+Categories=Qt;KDE;Office;Graphics;
+StartupNotify=true
+X-KDE-ServiceTypes=Calligra/Application
+X-Calligra-DefaultMimeTypes=application/x-krita-flipbook;
+X-DBUS-StartupType=Multi
+X-DBUS-ServiceName=org.krita.krita
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

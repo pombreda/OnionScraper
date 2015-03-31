@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=pcalendar
+X-AppInstall-Popcon=22
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Periodic Calendar
+GenericName=Periodic Calendar
+Keywords=Menstrual cycle tracking
+Comment=Utility for tracking menstrual cycles and predicting fertility periods
+Icon=pcalendar
+Exec=pcalendar
+Terminal=false
+StartupNotify=false
+Categories=Application;Utility;Calendar;Java;
+MimeType=application/x-periodic-calendar;application/x-periodic-calendar-encrypted;
+
+X-Ubuntu-Gettext-Domain=app-install-data

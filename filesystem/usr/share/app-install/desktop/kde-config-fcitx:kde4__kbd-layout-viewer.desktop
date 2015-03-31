@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=kde-config-fcitx
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Exec=kbd-layout-viewer
+Icon=input-keyboard
+Type=Application
+
+Name=Keyboard layout viewer
+Comment=View keyboard layout
+
+X-KDE-Keywords=keyboard;input;im
+X-KDE-Keywords[de]=Tastatur;Eingabe;Eingabemethode
+X-KDE-Keywords[zh_CN]=keyboard;input;im;输入法;键盘;输入
+X-KDE-Keywords[zh_TW]=keyboard;input;im;輸入法;鍵盤;輸入
+X-KDE-Keywords[ja]=keyboard;input;im
+
+Categories=Qt;KDE;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

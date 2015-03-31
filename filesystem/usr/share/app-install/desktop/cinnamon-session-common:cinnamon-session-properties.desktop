@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon-session-common
+X-AppInstall-Popcon=316
+X-AppInstall-Section=universe
+
+Name=Startup Applications
+Comment=Choose what applications to start when you log in
+Exec=cinnamon-session-properties
+Icon=cinnamon-session-properties
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;GNOME;Settings;X-GNOME-PersonalSettings;
+OnlyShowIn=X-Cinnamon;
+NoDisplay=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

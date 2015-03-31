@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=click-update-manager
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Update Manager
+Comment=UpdateManager for Click packages
+Exec=/usr/bin/qmlscene $@ /usr/share/click-update-manager/updatemanager.qml
+Icon=update_manager_icon
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

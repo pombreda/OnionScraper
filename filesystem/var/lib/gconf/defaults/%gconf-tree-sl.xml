@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;ymsgr">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;ymsgr&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;ymsgr&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;ymsgr&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;xmpp">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;xmpp&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;xmpp&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;xmpp&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;sip">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;sip&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;sip&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;sip&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;msnim">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;msnim&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;msnim&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;msnim&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;irc">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;irc&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;irc&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;irc&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;icq">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;icq&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;icq&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;icq&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;gg">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;gg&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;gg&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;gg&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Zaženi ukaz v sistemskem oknu">
+								<longdesc>Resnično, če naj bo ukaz, ki naj ravna s to vrsto URL-ja, zagnan v konzoli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Upravljač za URL-je &quot;aim">
+								<longdesc>Ukaz za ravnanje z URL-ji &quot;aim&quot;, če je to omogočeno.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ali naj navedeni ukaz upravlja z URL-ji &quot;aim&quot;">
+								<longdesc>Resnično, če naj navedeni ukaz v polju &quot;ukaz&quot; (&quot;command&quot;) upravlja z URL-ji &quot;aim&quot;</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cardpeek
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Name=Cardpeek
+Comment=Tool to read the contents of smart cards
+Exec=cardpeek
+Icon=cardpeek
+Terminal=false
+Type=Application
+Categories=GTK;System;Security;
+
+X-Ubuntu-Gettext-Domain=app-install-data

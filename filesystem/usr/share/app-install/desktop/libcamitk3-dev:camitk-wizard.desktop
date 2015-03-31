@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=libcamitk3-dev
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=CamiTK-wizard
+GenericName=Computer Assisted Medical Intervention ToolKit Wizard
+Exec=camitk-wizard
+Icon=camitk-wizard
+Categories=Development;Building
+Keywords=CamiTK;Extension;CEP;Plugin
+X-Ubuntu-Gettext-Domain=app-install-data

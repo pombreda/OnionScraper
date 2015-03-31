@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=menulibre
+X-AppInstall-Popcon=145
+X-AppInstall-Section=universe
+
+Name=Menu Editor
+Comment=Add or remove applications from the menu
+Exec=/usr/bin/menulibre
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;Settings;DesktopSettings;Utility;
+Keywords=Configuration;Menu;User;
+Icon=menulibre
+
+X-Ubuntu-Gettext-Domain=app-install-data

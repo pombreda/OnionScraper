@@ -1,0 +1,17 @@
+
+[Desktop Entry]
+X-AppInstall-Package=veromix
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=veromix
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Veromix
+Comment=Mixer for the PulseAudio sound server (GTK+)
+Icon=veromix
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

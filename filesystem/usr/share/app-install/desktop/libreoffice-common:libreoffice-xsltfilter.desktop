@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=libreoffice
+X-AppInstall-Popcon=1
+X-AppInstall-Section=main
+
+Version=1.0
+Terminal=false
+Type=Application
+Exec=libreoffice %U
+MimeType=application/vnd.oasis.opendocument.text-flat-xml;application/vnd.oasis.opendocument.spreadsheet-flat-xml;application/vnd.oasis.opendocument.graphics-flat-xml;application/vnd.oasis.opendocument.presentation-flat-xml;
+Name=LibreOffice XSLT based filters
+GenericName=XSLT based filters
+NoDisplay=true
+StartupNotify=true
+X-GIO-NoFuse=true
+X-KDE-Protocols=file,http,smb,ftp,webdav
+
+X-Ubuntu-Gettext-Domain=app-install-data

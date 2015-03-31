@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=idle-python3.4
+X-AppInstall-Popcon=42
+X-AppInstall-Section=main
+
+Name=IDLE (using Python-3.4)
+Comment=Integrated Development Environment for Python (using Python-3.4)
+Exec=/usr/bin/idle-python3.4
+Icon=_usr_share_pixmaps_python3.4
+Terminal=false
+Type=Application
+Categories=Application;Development;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

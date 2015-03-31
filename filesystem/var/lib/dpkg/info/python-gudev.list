@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/gudev.so
+/usr/share
+/usr/share/pygobject
+/usr/share/pygobject/2.0
+/usr/share/pygobject/2.0/defs
+/usr/share/pygobject/2.0/defs/gudev.defs
+/usr/share/doc
+/usr/share/doc/python-gudev
+/usr/share/doc/python-gudev/changelog.Debian.gz
+/usr/share/doc/python-gudev/copyright

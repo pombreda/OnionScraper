@@ -1,0 +1,34 @@
+[Desktop Entry]
+X-AppInstall-Package=claws-mail
+X-AppInstall-Popcon=185
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Claws Mail
+GenericName=E-mail client
+Exec=claws-mail %u
+Icon=claws-mail
+Categories=Network;Email;
+Keywords=lightweight fast x-window extensible plugin pop3 imap nntp
+Comment=Lightweight and Fast GTK+ based Mail Client
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=x-scheme-handler/mailto;
+X-Info=Claws Mail
+
+Actions=GetMail;ComposeMail;SendFile;
+
+[Desktop Action GetMail]
+Exec=claws-mail --receive-all
+Name=Get Mail
+
+[Desktop Action ComposeMail]
+Exec=claws-mail --compose
+Name=Email...
+
+[Desktop Action SendFile]
+Exec=claws-mail --compose --attach %f
+Name=Send file...
+
+X-Ubuntu-Gettext-Domain=app-install-data

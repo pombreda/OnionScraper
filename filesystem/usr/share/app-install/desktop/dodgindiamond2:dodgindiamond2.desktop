@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=dodgindiamond2
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Dodgin' Diamond 2
+GenericName=Arcade Game
+Exec=dodgindiamond2
+Icon=dodgindiamond2
+Terminal=false
+Categories=Game;ArcadeGame;
+Comment=Little shoot-'em-up arcade game for one or two player
+Keywords=arcade;game;shooter;action;space;
+
+X-Ubuntu-Gettext-Domain=app-install-data

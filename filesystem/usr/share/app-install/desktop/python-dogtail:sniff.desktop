@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=python-dogtail
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=AT-SPI Browser
+Comment=Browse your Assistive Technology-enabled desktop
+Exec=sniff
+Terminal=false
+Type=Application
+Icon=dogtail-head
+StartupNotify=true
+Categories=Development;
+
+X-Ubuntu-Gettext-Domain=app-install-data

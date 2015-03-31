@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-control-center
+X-AppInstall-Popcon=167
+X-AppInstall-Section=universe
+
+Name=Windows
+Comment=Set your window properties
+Exec=mate-window-properties
+Icon=preferences-system-windows
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;DesktopSettings;
+Keywords=mate-control-center;MATE;window;manager;properties;marco;preferences;
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

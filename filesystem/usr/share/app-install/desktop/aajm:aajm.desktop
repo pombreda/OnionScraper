@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=aajm
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Type=Application
+GenericName=JuggleMaster
+Name=ASCII art JuggleMaster
+Exec=/usr/games/aajm
+Terminal=false
+Categories=Game;Simulation;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="documents-formats" xml:lang="en-CA">
+
+  <info>
+    <credit type="author copyright">
+      <name>Michael Hill</name>
+      <email>mdhill@src.gnome.org</email>
+      <years>2012</years>
+    </credit>
+    <desc>
+      <app>Documents</app> displays a number of popular document types.
+    </desc>
+    <link type="guide" xref="documents#view" group="#first"/>
+    <revision pkgversion="3.5.90" date="2012-08-31" status="review"/>
+    <revision version="13.10" date="2013-10-24" status="review"/>
+  </info>
+
+  <title>Formats supported</title>
+
+  <p><app>Documents</app> displays PDF, DVI, XPS, PostScript and the formats
+   supported by <app>Document Viewer</app> (Evince), <app>Microsoft Office</app>,
+   <app>LibreOffice</app> and <app>Google Docs</app>.</p>
+
+</page>

@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/lxpanel
+/usr/lib/x86_64-linux-gnu/lxpanel/plugins
+/usr/lib/x86_64-linux-gnu/lxpanel/plugins/indicator.so
+/usr/share
+/usr/share/doc
+/usr/share/doc/lxpanel-indicator-applet-plugin
+/usr/share/doc/lxpanel-indicator-applet-plugin/copyright
+/usr/share/doc/lxpanel-indicator-applet-plugin/changelog.Debian.gz

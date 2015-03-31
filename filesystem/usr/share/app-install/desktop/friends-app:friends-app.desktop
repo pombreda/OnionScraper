@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=friends-app
+X-AppInstall-Popcon=41
+X-AppInstall-Section=universe
+
+Name=Friends
+Type=Application
+Comment=What are your friends up to?
+Exec=friends-app %U
+Icon=friends
+Categories=Network;
+Keywords=friends;gwibber;facebook;twitter;identica;foursquare;linkedin;flickr;social;share;
+X-GNOME-Gettext-Domain=friends
+X-Ayatana-Appmenu-Show-Stubs=False
+X-Ubuntu-Touch=true
+X-Ubuntu-StageHint=SideStage
+
+X-Ubuntu-Gettext-Domain=app-install-data

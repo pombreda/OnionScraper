@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Jalankan perintah dalam terminal">
+								<longdesc>Benar jika perintah yang digunakan untuk menangani jenis URL ini dijalankan dalamterminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Penanganan untuk URL &quot;ymsgr&quot; ">
+								<longdesc>Perintah yang digunakan untuk menangani URL &quot;ymsgr&quot; , jika diaktifkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Perlukah perintah yang ditetapkan menangani URL &quot;ymsgr&quot; ">
+								<longdesc>Benar jika perintah yang ditetapkan dalam kunci &quot;command&quot; perlu menangani URL&quot;ymsgr&quot; .</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Jalankan perintah dalam terminal">
+								<longdesc>Benar jika perintah yang digunakan untuk menangani jenis URL ini dijalankan dalamterminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Penanganan untuk URL &quot;xmpp&quot; ">
+								<longdesc>Perintah yang digunakan untuk menangani URL &quot;xmpp&quot; , jika diaktifkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Perlukah perintah yang ditetapkan menangani URL &quot;xmpp&quot; ">
+								<longdesc>Benar jika perintah yang ditetapkan dalam kunci &quot;command&quot; perlu menangani URL&quot;xmpp&quot; .</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Jalankan perintah dalam terminal">
+								<longdesc>Benar jika perintah yang digunakan untuk menangani jenis URL ini dijalankan dalamterminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Penanganan untuk URL &quot;sip&quot; ">
+								<longdesc>Perintah yang digunakan untuk menangani URL &quot;sip&quot; , jika diaktifkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Perlukah perintah yang ditetapkan menangani URL &quot;sip&quot; ">
+								<longdesc>Benar jika perintah yang ditetapkan dalam kunci &quot;command&quot; perlu menangani URL&quot;sip&quot; .</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Jalankan perintah dalam terminal">
+								<longdesc>Benar jika perintah yang digunakan untuk menangani jenis URL ini dijalankan dalamterminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Penanganan untuk URL &quot;msnim&quot; ">
+								<longdesc>Perintah yang digunakan untuk menangani URL &quot;msnim&quot; , jika diaktifkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Perlukah perintah yang ditetapkan menangani URL &quot;msnim&quot; ">
+								<longdesc>Benar jika perintah yang ditetapkan dalam kunci &quot;command&quot; perlu menangani URL&quot;msnim&quot; .</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Jalankan perintah dalam terminal">
+								<longdesc>Benar jika perintah yang digunakan untuk menangani jenis URL ini dijalankan dalamterminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Penanganan untuk URL &quot;irc&quot; ">
+								<longdesc>Perintah yang digunakan untuk menangani URL &quot;irc&quot;  jika diaktifkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Perlukah perintah yang ditetapkan menangani URL &quot;irc&quot; ">
+								<longdesc>Benar jika perintah yang ditetapkan dalam kunci &quot;command&quot; perlu menangani URL&quot;irc&quot; .</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Jalankan perintah dalam terminal">
+								<longdesc>Benar jika perintah yang digunakan untuk menangani jenis URL ini dijalankan dalamterminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Penanganan untuk URL &quot;icq&quot; ">
+								<longdesc>Perintah yang digunakan untuk menangani URL &quot;icq&quot; , jika diaktifkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Perlukah perintah yang ditetapkan menangani URL &quot;icq&quot; ">
+								<longdesc>Benar jika perintah yang ditetapkan dalam kunci &quot;command&quot; perlu menangani URL&quot;icq&quot; .</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Jalankan perintah dalam terminal">
+								<longdesc>Benar jika perintah yang digunakan untuk menangani jenis URL ini dijalankan dalamterminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Penanganan untuk URL &quot;gg&quot; ">
+								<longdesc>Perintah yang digunakan untuk menangani URL &quot;gg&quot; , jika diaktifkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Perlukah perintah yang ditetapkan menangani URL &quot;gg&quot; ">
+								<longdesc>Benar jika perintah yang ditetapkan dalam kunci &quot;command&quot; perlu menangani URL &quot;gg&quot; .</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Jalankan perintah dalam terminal">
+								<longdesc>Benar jika perintah yang digunakan untuk menangani jenis URL ini dijalankan dalamterminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Penanganan untuk URL &quot;aim&quot; ">
+								<longdesc>Perintah yang digunakan untuk menangani URL &quot;aim&quot; , jika diaktifkan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Perlukah perintah yang ditetapkan menangani URL &quot;aim&quot; ">
+								<longdesc>Benar jika perintah yang ditetapkan dalam kunci &quot;command&quot; perlu menangani URL-URL&quot;aim&quot; .</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

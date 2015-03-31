@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=drumkv1
+X-AppInstall-Popcon=39
+X-AppInstall-Section=universe
+
+Name=drumkv1
+Version=1.0
+GenericName=MIDI
+Comment=drumkv1 is an old school drum-kit sampler
+Keywords=audio;sound;jackd;lv2;plugin;sampler;
+Exec=/usr/bin/drumkv1_jack
+Icon=drumkv1
+Categories=Audio;AudioVideo;Midi;X-Alsa;X-Jack;Qt;
+Terminal=false
+Type=Application
+X-SuSE-translate=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

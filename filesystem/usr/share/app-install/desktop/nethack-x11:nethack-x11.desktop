@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=nethack-x11
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Type=Application
+Name=X NetHack
+GenericName=NetHack (X interface)
+Icon=nethack
+Exec=/usr/games/xnethack
+Terminal=false
+Categories=Game;AdventureGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

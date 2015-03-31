@@ -1,0 +1,9 @@
+e8b119f6d00146274dac314ba4bd21b8  usr/bin/syslinux
+114a332543d206a1884a7da2dedebb02  usr/lib/SYSLINUX/altmbr.bin
+0897ba470594ea2ea0c3dbbe4afcfbf3  usr/lib/SYSLINUX/gptmbr.bin
+8cb37afc263a219ebb7586f9c495114e  usr/lib/SYSLINUX/mbr.bin
+d1655e5bb676db5a14fbf5665a7d51ea  usr/share/doc/syslinux/README.txt.gz
+f4df8af8c2a1920a689a3c2c3f71254d  usr/share/doc/syslinux/changelog.Debian.gz
+ab9d6379bfc044ab6103687e1f6a08a0  usr/share/doc/syslinux/copyright
+0198ca77b6b856020f4465611207f98b  usr/share/lintian/overrides/syslinux
+70ec98b5a68a70d781c95f5f0908404b  usr/share/man/man1/syslinux.1.gz

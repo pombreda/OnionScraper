@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=zescrow-client
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=zEscrow
+Comment=Backup eCryptfs configuration and mount passphrases
+Icon=zEscrow
+Exec=zEscrow-gui
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;System;Settings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

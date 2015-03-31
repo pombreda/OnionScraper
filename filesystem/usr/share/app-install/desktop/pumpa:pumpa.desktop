@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=pumpa
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Pumpa
+Exec=/usr/bin/pumpa
+Icon=_usr_share_icons_hicolor_32x32_apps_pumpa
+Terminal=false
+Type=Application
+Categories=Network;
+Keywords=pump.io;social network;microblog;
+
+X-Ubuntu-Gettext-Domain=app-install-data

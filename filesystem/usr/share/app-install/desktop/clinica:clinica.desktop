@@ -1,0 +1,26 @@
+[Desktop Entry]
+X-AppInstall-Package=clinica
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Clinica
+Comment=Medical records manager
+Exec=clinica
+Icon=clinica
+Terminal=false
+Categories=Application;GTK;
+X-Ayatana-Desktop-Shortcuts=NewPatient;Calendar;
+
+[NewPatient Shortcut Group]
+Name=Create a new patient
+Exec=clinica --new-patient
+OnlyShowIn=Unity;
+
+[Calendar Shortcut Group]
+Name=Show the calendar
+Exec=clinica --calendar
+OnlyShowIn=Unity;
+
+X-Ubuntu-Gettext-Domain=app-install-data

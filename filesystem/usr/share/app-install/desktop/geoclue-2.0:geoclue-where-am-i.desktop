@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=geoclue-2.0
+X-AppInstall-Popcon=82
+X-AppInstall-Section=universe
+
+Name=Where am I?
+GenericName=Demo geolocation application
+Comment=Find your current location
+Keywords=geolocation;
+Exec=/usr/lib/geoclue-2.0/demos/where-am-i
+Icon=mark-location-symbolic
+NoDisplay=true
+Terminal=true
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

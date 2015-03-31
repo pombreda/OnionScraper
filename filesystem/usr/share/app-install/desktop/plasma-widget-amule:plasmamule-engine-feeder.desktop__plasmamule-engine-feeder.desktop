@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=plasma-widget-amule
+X-AppInstall-Popcon=28
+X-AppInstall-Section=universe
+
+Exec=plasmamule-engine-feeder %U
+Type=Application
+Name=file- and linkhandler for plasmamule
+Comment=Sends ed2k://, magnet: or *.emulecollection to the engine
+Icon=application-x-emulecollection
+MimeType=application/x-emulecollection;
+NoDisplay=true
+StartupNotify=false
+StartupWMClass=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=sylpheed
+X-AppInstall-Popcon=252
+X-AppInstall-Section=universe
+
+Name=Sylpheed
+Comment=E-Mail client
+Exec=sylpheed %u
+Icon=sylpheed
+MimeType=message/rfc822;x-scheme-handler/mailto;
+Terminal=false
+Type=Application
+Categories=GTK;Network;Email;News;
+Keywords=lightweight;user-friendly;keyboard-oriented;mh;imap;pop3;nntp;japanese;plugins;gpg;
+
+X-Ubuntu-Gettext-Domain=app-install-data

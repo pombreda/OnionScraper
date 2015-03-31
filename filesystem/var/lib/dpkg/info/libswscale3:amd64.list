@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libswscale.so.3.0.0
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libswscale3
+/usr/share/doc
+/usr/share/doc/libswscale3
+/usr/share/doc/libswscale3/copyright
+/usr/lib/x86_64-linux-gnu/libswscale.so.3
+/usr/share/doc/libswscale3/NEWS.Debian.gz
+/usr/share/doc/libswscale3/changelog.Debian.gz

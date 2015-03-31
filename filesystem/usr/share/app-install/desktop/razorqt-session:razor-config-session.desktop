@@ -1,0 +1,52 @@
+[Desktop Entry]
+X-AppInstall-Package=razorqt-session
+X-AppInstall-Popcon=17
+X-AppInstall-Section=universe
+
+OnlyShowIn=X-RAZOR;
+Type=Application
+Exec=razor-config-session
+Terminal=false
+Categories=Settings;DesktopSettings;Qt;X-RAZOR;
+Icon=preferences-system-session-services
+Name=Razor Session Configurator
+Comment=Configure Razor-Qt session module
+GenericName=Razor Session Configurator
+
+Icon[he]=preferences-system-session-services
+Icon[nl]=instellingen-systeem-sessie-diensten
+Icon[zh_CN]=系统会话服务首选项
+Icon[id_ID]=preferences-system-session-services
+Icon[it]=preferences-system-session-services
+Icon[el_GR]=προτιμήσεις υπηρεσιών συνεδρίας συστήματος
+Icon[hu]=preferences-system-session-services
+Icon[uk]=preferences-system-session-services
+Icon[cs]=Služby nastavení sezení systému
+Icon[es_VE]=preferences-system-session-services
+Icon[zh_TW]=系統會話服務偏好設定
+Icon[es_MX]=preferences-system-session-services
+Icon[ru]=preferences-system-session-services
+Icon[gl]=preferencias-dos-servizos-sesión-do-sistema
+Icon[de]=preferences-system-session-services
+Icon[sl]=preferences-system-session-services
+Icon[ar]=تفضيلات خدمات جلسة النِّظام
+Icon[th_TH]=ค่าปรับแต่ง-ระบบ-วาระงาน-บริการ
+Icon[eo]=preferences-system-session-services
+Icon[da_DK]=indstilling-system-session-tjenester
+Icon[de_DE]=einstellungen-system-sitzung-dienste
+Icon[pl_PL]=preferences-system-session-services
+Icon[pt_BR]=preferences-system-session-services
+Icon[fr]=preferences-system-session-services
+Icon[es]=preferences-system-session-services
+Icon[cs_CZ]=Služby nastavení sezení systému
+Icon[ja]=システムセッションサービス初期設定
+Icon[ro_RO]=preferences-system-session-services
+Icon[tr]=preferences-system-session-services
+Icon[da]=indstillinger-system-session-tjenester
+Icon[fi]=asetukset-järjestelmä-istunto-palvelut
+Icon[lt]=preferences-system-session-services
+Icon[it_IT]=preferences-system-session-services
+Icon[pt]=preferences-system-session-services
+Icon[eu]=hobespenak-sistema-saioa-zerbitzuak
+
+X-Ubuntu-Gettext-Domain=app-install-data

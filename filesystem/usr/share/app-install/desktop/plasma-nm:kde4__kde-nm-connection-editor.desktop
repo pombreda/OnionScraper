@@ -1,0 +1,17 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+X-AppInstall-Package=plasma-nm
+X-AppInstall-Popcon=4343
+X-AppInstall-Section=universe
+
+Name=kde-nm-connection-editor
+GenericName=Connection editor
+Comment=Edit your network connections
+Exec=kde-nm-connection-editor
+Icon=network-defaultroute
+Type=Application
+Terminal=false
+Categories=Qt;KDE;Network;
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

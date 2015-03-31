@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>Handbok för Nätverksadministrationsverktyg</title>
+    <date>Juni 2004</date>
+    <version identifier="Handbok för Nätverksadministrationsverktyg v0.35" date="Juni 2004"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      Nätverksadministrationsverktyget låter dig ange sättet som ditt system ansluter till andra datorer och till Internet.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/network-admin/sv/network-admin.xml"/>
+    <language code="sv"/>
+    <relation seriesid="46630d52-85db-11da-9553-d620e14d440c"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

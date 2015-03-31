@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=mmass
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=mMass
+Comment=Mass spectrum viewer and data analysis proteomics tool
+Type=Application
+Exec=/usr/bin/mmass
+Icon=mmass
+Categories=Education;Science;Biology;Chemistry
+Keywords=Mass spectrometry;Data analysis
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;ymsgr&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;ymsgr&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;ymsgr&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;xmpp&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;xmpp&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;xmpp&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;sip&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;sip&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;sip&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;msnim&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;msnim&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;msnim&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;irc&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;irc&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;irc&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;icq&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;icq&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;icq&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;gg&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;gg&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;gg&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ਇੱਕ ਟਰਮੀਨਲ ਵਿੱਚ ਕਮਾਂਡ ਚਲਾਓ">
+								<longdesc>ਸਹੀਂ, ਜੇ ਕਮਾਂਡ ਨੂੰ ਇਸ ਟਾਈਪ ਦੇ URL ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਟਰਮੀਨਲ ਤੋਂ ਚਲਾਉਣਾ ਹੈ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URL ਲਈ ਹੈਂਡਲਰ">
+								<longdesc>&quot;aim&quot; URL ਹੈਂਡਲ ਕਰਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕਮਾਂਡ, ਜੇ ਯੋਗ ਕੀਤੀ ਹੈ ਤਾਂ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ਕੀ ਦਿੱਤੀ ਕਮਾਂਡ &quot;aim&quot; URL ਨੂੰ ਹੈਂਡਲ ਕਰੇ।">
+								<longdesc>ਸਹੀਂ, ਜੇ &quot;command&quot; ਕੀ ਵਿੱਚ ਦਿੱਤੀ ਕਮਾਂਡ &quot;aim&quot; URL ਹੈਂਡਲ ਕਰੇ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

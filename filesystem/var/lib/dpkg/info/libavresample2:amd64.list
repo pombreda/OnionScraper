@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libavresample.so.2.1.0
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libavresample2
+/usr/share/doc
+/usr/share/doc/libavresample2
+/usr/share/doc/libavresample2/copyright
+/usr/lib/x86_64-linux-gnu/libavresample.so.2
+/usr/share/doc/libavresample2/NEWS.Debian.gz
+/usr/share/doc/libavresample2/changelog.Debian.gz

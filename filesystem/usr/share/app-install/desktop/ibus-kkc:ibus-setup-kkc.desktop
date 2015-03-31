@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=ibus-kkc
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Kana Kanji Conversion Preferences
+Comment=Customize Kana Kanji Conversion input-method
+Exec=/usr/lib/ibus/ibus-setup-kkc
+Icon=_usr_share_ibus-kkc_icons_ibus-kkc
+NoDisplay=true
+Type=Application
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

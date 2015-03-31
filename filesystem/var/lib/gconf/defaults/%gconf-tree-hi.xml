@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="प्रोग्राम टर्मिनल में चलाएँ">
+								<longdesc>सही यदि प्रोग्राम जो इस प्रकार के यूआरएल को हैंडल करने का अभ्यस्त है उसे टर्मिनल में चलाया जाना चाहिये.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URL के लिए नियंत्रक">
+								<longdesc>&quot;yrmsgr&quot; URL के नियंत्रण के लिए प्रयुक्त कमांड, अगर सक्रिय किया था.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="क्या निर्दिष्ट कमांड के &quot;ymsgr&quot; URL को नियंत्रित करना चाहिए">
+								<longdesc>सही है  यदि &quot;command&quot; कुंजी में निर्दिष्ट कमांड को &quot;ymsgr&quot; URL को नियंत्रित करना चाहिए.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="प्रोग्राम टर्मिनल में चलाएँ">
+								<longdesc>सही यदि प्रोग्राम जो इस प्रकार के यूआरएल को हैंडल करने का अभ्यस्त है उसे टर्मिनल में चलाया जाना चाहिये.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URL के लिए नियंत्रक">
+								<longdesc>&quot;xmpp&quot; URL के नियंत्रण के लिए प्रयुक्त कमांड, अगर सक्रिय किया था.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="क्या निर्दिष्ट कमांड के &quot;xmpp&quot; URL को नियंत्रित करना चाहिए">
+								<longdesc>सही है यदि &quot;command&quot; कुंजी में निर्दिष्ट कमांड को &quot;xmpp&quot; URL को नियंत्रित करना चाहिए.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="प्रोग्राम टर्मिनल में चलाएँ">
+								<longdesc>सही यदि प्रोग्राम जो इस प्रकार के यूआरएल को हैंडल करने का अभ्यस्त है उसे टर्मिनल में चलाया जाना चाहिये.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URL के लिए नियंत्रक">
+								<longdesc>&quot;sip&quot; URL के नियंत्रण के लिए प्रयुक्त कमांड, अगर सक्रिय किया था.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="क्या निर्दिष्ट कमांड के &quot;sip&quot; URL को नियंत्रित करना चाहिए">
+								<longdesc>सही है यदि &quot;command&quot; कुंजी में निर्दिष्ट कमांड को &quot;sip&quot; URL को नियंत्रित करना चाहिए.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="प्रोग्राम टर्मिनल में चलाएँ">
+								<longdesc>सही यदि प्रोग्राम जो इस प्रकार के यूआरएल को हैंडल करने का अभ्यस्त है उसे टर्मिनल में चलाया जाना चाहिये.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URL के लिए नियंत्रक">
+								<longdesc>&quot;msnim&quot; URL के नियंत्रण के लिए प्रयुक्त कमांड, अगर सक्रिय किया था.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="क्या निर्दिष्ट कमांड के &quot;msnim&quot; URL को नियंत्रित करना चाहिए">
+								<longdesc>सही है यदि &quot;command&quot; कुंजी में निर्दिष्ट कमांड को &quot;msnim&quot; URL को नियंत्रित करना चाहिए.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="प्रोग्राम टर्मिनल में चलाएँ">
+								<longdesc>सही यदि प्रोग्राम जो इस प्रकार के यूआरएल को हैंडल करने का अभ्यस्त है उसे टर्मिनल में चलाया जाना चाहिये.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URL के लिए नियंत्रक">
+								<longdesc>&quot;irc&quot; URL के नियंत्रण के लिए प्रयुक्त कमांड, अगर सक्रिय किया था.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="क्या निर्दिष्ट कमांड के &quot;irc&quot; URL को नियंत्रित करना चाहिए">
+								<longdesc>सही है यदि &quot;command&quot; कुंजी में निर्दिष्ट कमांड को &quot;irc&quot; URL को नियंत्रित करना चाहिए.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="प्रोग्राम टर्मिनल में चलाएँ">
+								<longdesc>सही यदि प्रोग्राम जो इस प्रकार के यूआरएल को हैंडल करने का अभ्यस्त है उसे टर्मिनल में चलाया जाना चाहिये.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URL के लिए नियंत्रक">
+								<longdesc>&quot;icq&quot; URL के नियंत्रण के लिए प्रयुक्त कमांड, अगर सक्रिय किया था.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="क्या निर्दिष्ट कमांड के &quot;icq&quot; URL को नियंत्रित करना चाहिए">
+								<longdesc>सही है यदि &quot;command&quot; कुंजी में निर्दिष्ट कमांड को &quot;icq&quot; URL को नियंत्रित करना चाहिए.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="प्रोग्राम टर्मिनल में चलाएँ">
+								<longdesc>सही यदि प्रोग्राम जो इस प्रकार के यूआरएल को हैंडल करने का अभ्यस्त है उसे टर्मिनल में चलाया जाना चाहिये.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URL के लिए नियंत्रक">
+								<longdesc>&quot;gg&quot; URL के नियंत्रण के लिए प्रयुक्त कमांड, अगर सक्रिय किया था.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="क्या निर्दिष्ट कमांड के &quot;gg&quot; URL को नियंत्रित करना चाहिए">
+								<longdesc>सही है यदि &quot;command&quot; कुंजी में निर्दिष्ट कमांड को &quot;gg&quot; URL को नियंत्रित करना चाहिए.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="प्रोग्राम टर्मिनल में चलाएँ">
+								<longdesc>सही यदि प्रोग्राम जो इस प्रकार के यूआरएल को हैंडल करने का अभ्यस्त है उसे टर्मिनल में चलाया जाना चाहिये.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URLs के लिये नियंत्रक">
+								<longdesc>&quot;aim&quot; URLs के नियंत्रण के लिये प्रयुक्त कमांड, अगर सक्रिय किया गया.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="क्या निर्दिष्ट कमांड को &quot;aim&quot; URLs का नियंत्रण करना चाहिये">
+								<longdesc>सही अगर &quot;command&quot; कुंजी में निर्दिष्ट कमांड को &quot;aim&quot; URLs का नियंत्रण करना चाहिये.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

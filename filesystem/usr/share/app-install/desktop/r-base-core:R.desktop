@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=r-base-core
+X-AppInstall-Popcon=1080
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=R
+Comment=R software environment for statistical computing and graphics
+Exec=R
+Icon=rlogo_icon
+Terminal=true
+StartupNotify=false
+Categories=Graphics;Science;Math
+
+X-Ubuntu-Gettext-Domain=app-install-data

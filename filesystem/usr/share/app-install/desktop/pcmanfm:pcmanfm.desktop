@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=pcmanfm
+X-AppInstall-Popcon=2458
+X-AppInstall-Section=universe
+
+Type=Application
+Icon=system-file-manager
+Name=File Manager PCManFM
+GenericName=File Manager
+Comment=Browse the file system and manage the files
+Categories=System;FileTools;FileManager;Utility;Core;GTK;
+Exec=pcmanfm %U
+StartupNotify=true
+Terminal=false
+MimeType=inode/directory;
+
+X-Ubuntu-Gettext-Domain=app-install-data

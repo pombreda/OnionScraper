@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=colorhug-client
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Name=ColorHug Documentation
+Comment=Documentation for the ColorHug display colorimeter
+Icon=colorimeter-colorhug
+URL=help:colorhug-client
+Terminal=false
+Type=Link
+
+X-Ubuntu-Gettext-Domain=app-install-data

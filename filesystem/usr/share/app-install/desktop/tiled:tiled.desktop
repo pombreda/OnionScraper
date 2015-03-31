@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=tiled
+X-AppInstall-Popcon=12
+X-AppInstall-Section=universe
+
+Name=Tiled
+Comment=Tile map editor
+Exec=tiled
+Terminal=false
+Type=Application
+Icon=tiled
+Categories=Graphics;2DGraphics;
+X-Desktop-File-Install-Version=0.1
+
+X-Ubuntu-Gettext-Domain=app-install-data

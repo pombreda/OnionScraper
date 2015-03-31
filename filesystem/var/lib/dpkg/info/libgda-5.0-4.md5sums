@@ -1,0 +1,10 @@
+41c0a278d805345fcf66c08649111bf1  usr/lib/libgda-5.0.so.4.1.1
+78073f0fd9b8eb3343111dcb4c794a05  usr/lib/libgda-5.0/providers/libgda-sqlite.so
+48e5ceef5a82a34f20f666fd65dd97c7  usr/lib/libgda-5.0/providers/libgda-web.so
+ac2d97b4ed356dafa5c0a650119c0b96  usr/lib/libgda-report-5.0.so.4.1.1
+91270b92997175939e71b95ee8ff40e0  usr/lib/libgda-xslt-5.0.so.4.1.1
+3699af3abc13e3a08a493975435934a9  usr/share/doc/libgda-5.0-4/AUTHORS
+99026f6b2ee0d7ac60f6bf9b08bca9cb  usr/share/doc/libgda-5.0-4/NEWS.gz
+86cc4912090fbfec4b186a2681dfe123  usr/share/doc/libgda-5.0-4/README
+65cb5459e0ef3f4b3545ca0a149b5a8c  usr/share/doc/libgda-5.0-4/changelog.Debian.gz
+411d3341eca75b8eafab6ed40889776f  usr/share/doc/libgda-5.0-4/copyright

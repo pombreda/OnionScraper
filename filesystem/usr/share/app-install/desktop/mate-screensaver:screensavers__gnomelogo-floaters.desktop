@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-screensaver
+X-AppInstall-Popcon=324
+X-AppInstall-Section=universe
+
+Name=Floating GNOME
+Comment=Bubbles the GNOME logo around the screen
+Exec=/usr/lib/mate-screensaver/floaters /usr/share/pixmaps/gnome-logo-white.svg
+TryExec=/usr/lib/mate-screensaver/floaters
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;
+Keywords=MATE;screensaver;GNOME;logo;bubbles;
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

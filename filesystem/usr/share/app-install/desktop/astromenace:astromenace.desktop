@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=astromenace
+X-AppInstall-Popcon=7
+X-AppInstall-Section=multiverse
+
+Name=AstroMenace
+Exec=/usr/games/AstroMenace
+Icon=astromenace
+Type=Application
+Categories=Game;
+Comment=hardcore 3D space shooter with spaceship upgrade possibilities
+Terminal=false
+Keywords=Game;Spaceship;Shooter;
+
+X-Ubuntu-Gettext-Domain=app-install-data

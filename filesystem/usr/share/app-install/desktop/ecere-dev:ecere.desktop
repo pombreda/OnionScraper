@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=ecere-dev
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=
+Name=Ecere IDE
+Type=Application
+Comment=Ecere IDE
+Terminal=false
+Exec=ide
+#Path=$(HOME)
+Icon=ecere
+Categories=Development
+GenericName=Ecere IDE
+
+X-Ubuntu-Gettext-Domain=app-install-data

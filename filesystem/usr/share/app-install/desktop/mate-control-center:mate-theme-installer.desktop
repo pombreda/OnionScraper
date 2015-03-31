@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-control-center
+X-AppInstall-Popcon=167
+X-AppInstall-Section=universe
+
+Name=Theme Installer
+Comment=Installs themes packages for various parts of the desktop
+Exec=mate-appearance-properties -i %u
+Icon=preferences-desktop-theme
+Terminal=false
+Type=Application
+MimeType=application/x-mate-theme-package;
+StartupNotify=true
+Categories=GTK;Settings;
+Keywords=mate-control-center;MATE;install;desktop;themes;
+NoDisplay=true
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

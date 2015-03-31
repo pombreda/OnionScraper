@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-utils
+X-AppInstall-Popcon=129
+X-AppInstall-Section=universe
+
+Name=Log File Viewer
+Comment=View or monitor system log files
+Exec=mate-system-log
+Icon=logviewer
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;System;Monitor;
+Keywords=MATE;monitor;view;system;log;files;logviewer;
+OnlyShowIn=MATE;
+X-MATE-DocPath=mate-system-log/mate-system-log.xml
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-utils
+X-MATE-Bugzilla-Component=logview
+X-MATE-Bugzilla-Version=1.8.0
+
+X-Ubuntu-Gettext-Domain=app-install-data

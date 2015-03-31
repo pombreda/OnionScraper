@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=mancala
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Mancala
+Comment=A board game involving count and capture
+Exec=/usr/games/xmancala
+Terminal=false
+Categories=Game;BoardGame;
+Keywords=Mancala;Pallanguzhi;Omweso;Oware;Kalah;Bao;
+
+X-Ubuntu-Gettext-Domain=app-install-data

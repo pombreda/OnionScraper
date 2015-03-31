@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-webapps-facebookmessenger
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=FacebookMessenger
+Type=Application
+Icon=unity-webapps-facebook
+MimeType=
+Actions=S0;S1;S2;S3;S4;S5;S6;S7;S8;S9;S10;
+Exec=unity-webapps-runner -n 'RmFjZWJvb2tNZXNzZW5nZXI=' -d 'facebook.com' %u
+StartupWMClass=FacebookMessengerfacebookcom
+    
+X-Ubuntu-Gettext-Domain=app-install-data

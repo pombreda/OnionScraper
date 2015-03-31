@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=upstart-monitor
+X-AppInstall-Popcon=9
+X-AppInstall-Section=main
+
+Encoding=UTF-8
+Comment=Upstart Event Monitor
+Name=upstart-monitor
+Exec=upstart-monitor
+Icon=upstart-monitor
+Type=Application
+Categories=GNOME;GTK;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

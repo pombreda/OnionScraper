@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=declarative-plasmoids
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=News Reader
+GenericName=Feed Reader
+Comment=A news feed reader for touch tablets
+Exec=export PLASMA_CUSTOM_PREFIX_PATHS=platformcontents/application/generic/:platformcontents/application/tablet/:contents/ && plasma-windowed -graphicssystem raster org.kde.news-qml
+Terminal=false
+Icon=active-news
+Type=Application
+Categories=Qt;KDE;News;
+
+X-Ubuntu-Gettext-Domain=app-install-data

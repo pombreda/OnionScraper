@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=nestopia
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=Nestopia
+Comment=Accurate NES Emulator
+Exec=nestopia
+Icon=nestopia
+Terminal=false
+Type=Application
+Categories=Game;Emulator;
+
+X-Ubuntu-Gettext-Domain=app-install-data

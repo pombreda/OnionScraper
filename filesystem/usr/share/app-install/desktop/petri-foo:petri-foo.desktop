@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=petri-foo
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Petri-Foo
+GenericName=Petri-Foo
+Comment=Sound Sampler
+Keywords=audio;sound;jackd;midi;sampler;
+Icon=petri-foo
+TryExec=petri-foo
+Exec=petri-foo
+Terminal=false
+Categories=Application;Audio;AudioVideo;AudioVideoEditing;X-Jack;Midi;X-Alsa;
+MimeType=application/petri-foo;
+
+X-Ubuntu-Gettext-Domain=app-install-data

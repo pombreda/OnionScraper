@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=choreonoid
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Chorenoid
+Exec=/usr/bin/choreonoid
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=choreonoid
+Categories=Development;Science;Engineering;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Xhiroje urdhrin në terminal">
+								<longdesc>E vërtetë nëse urdhri i përdorur për trajtimin e këtij lloji URL-je do të duhej xhiruar në një terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Trajtuesi për URL-ra &quot;ymsgr&quot;">
+								<longdesc>Urdhri i përdorur për të trajtuar URL-ra &quot;ymsgr&quot;, në qoftë i aktivizuar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Në duhet a jo të trajtojë URL-ra  &quot;ymsgr&quot; urdhri i treguar">
+								<longdesc>E vërtetë nëse urdhri i treguar te pjesa &quot;command&quot; do të duhej të trajtonte URL-ra &quot;ymsgr&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Xhiroje urdhrin në terminal">
+								<longdesc>E vërtetë nëse urdhri i përdorur për trajtimin e këtij lloji URL-je do të duhej xhiruar në një terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Trajtuesi për URL-ra &quot;xmpp&quot;">
+								<longdesc>Urdhri i përdorur për të trajtuar URL-ra &quot;xmpp&quot;, në qoftë i aktivizuar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Në duhet a jo të trajtojë URL-ra  &quot;xmpp&quot; urdhri i treguar">
+								<longdesc>E vërtetë nëse urdhri i treguar te pjesa &quot;command&quot; do të duhej të trajtonte URL-ra &quot;xmpp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Xhiroje urdhrin në terminal">
+								<longdesc>E vërtetë nëse urdhri i përdorur për trajtimin e këtij lloji URL-je do të duhej xhiruar në një terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Trajtuesi për URL-ra &quot;sip&quot;">
+								<longdesc>Urdhri i përdorur për të trajtuar URL-ra &quot;sip&quot;, në qoftë i aktivizuar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Në duhet a jo të trajtojë URL-ra  &quot;sip&quot; urdhri i treguar">
+								<longdesc>E vërtetë nëse urdhri i treguar te pjesa &quot;command&quot; do të duhej të trajtonte URL-ra &quot;sip&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Xhiroje urdhrin në terminal">
+								<longdesc>E vërtetë nëse urdhri i përdorur për trajtimin e këtij lloji URL-je do të duhej xhiruar në një terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Trajtuesi për URL-ra &quot;msnim&quot;">
+								<longdesc>Urdhri i përdorur për të trajtuar URL-ra &quot;msnim&quot;, në qoftë i aktivizuar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Në duhet a jo të trajtojë URL-ra  &quot;msnim&quot; urdhri i treguar">
+								<longdesc>E vërtetë nëse urdhri i treguar te pjesa &quot;command&quot; do të duhej të trajtonte URL-ra &quot;msnim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Xhiroje urdhrin në terminal">
+								<longdesc>E vërtetë nëse urdhri i përdorur për trajtimin e këtij lloji URL-je do të duhej xhiruar në një terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Trajtuesi për URL-ra &quot;irc&quot;">
+								<longdesc>Urdhri i përdorur për të trajtuar URL-ra &quot;irc&quot;, në qoftë i aktivizuar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Në duhet a jo të trajtojë URL-ra  &quot;irc&quot; urdhri i treguar">
+								<longdesc>E vërtetë nëse urdhri i treguar te pjesa &quot;command&quot; do të duhej të trajtonte URL-ra &quot;irc&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Xhiroje urdhrin në terminal">
+								<longdesc>E vërtetë nëse urdhri i përdorur për trajtimin e këtij lloji URL-je do të duhej xhiruar në një terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Trajtuesi për URL-ra &quot;icq&quot;">
+								<longdesc>Urdhri i përdorur për të trajtuar URL-ra &quot;icq&quot;, në qoftë i aktivizuar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Në duhet a jo të trajtojë URL-ra  &quot;icq&quot; urdhri i treguar">
+								<longdesc>E vërtetë nëse urdhri i treguar te pjesa &quot;command&quot; do të duhej të trajtonte URL-ra &quot;icq&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Xhiroje urdhrin në terminal">
+								<longdesc>E vërtetë nëse urdhri i përdorur për trajtimin e këtij lloji URL-je do të duhej xhiruar në një terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Trajtuesi për URL-ra &quot;gg&quot;">
+								<longdesc>Urdhri i përdorur për të trajtuar URL-ra &quot;gg&quot;, në qoftë i aktivizuar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Në duhet a jo të trajtojë URL-ra  &quot;gg&quot; urdhri i treguar">
+								<longdesc>E vërtetë nëse urdhri i treguar te pjesa &quot;command&quot; do të duhej të trajtonte URL-ra &quot;gg&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Xhiroje urdhrin në terminal">
+								<longdesc>E vërtetë nëse urdhri i përdorur për trajtimin e këtij lloji URL-je do të duhej xhiruar në një terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Trajtuesi për URL-ra &quot;aim&quot;">
+								<longdesc>Urdhri i përdorur për të trajtuar URL-ra &quot;aim&quot;, në qoftë i aktivizuar.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Në duhet a jo të trajtojë URL-ra  &quot;aim&quot; urdhri i treguar">
+								<longdesc>E vërtetë nëse urdhri i treguar te pjesa &quot;command&quot; do të duhej të trajtonte URL-ra &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

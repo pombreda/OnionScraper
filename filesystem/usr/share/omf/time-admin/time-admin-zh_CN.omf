@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>日期/时间管理工具手册</title>
+    <date>2004年6月</date>
+    <version identifier="日期/时间管理工具手册 V0.35" date="2004年6月"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      日期/时间管理工具允许您设置系统的时间、日期和时区，也可以设置时间服务器同步本地时间。
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/time-admin/zh_CN/time-admin.xml"/>
+    <language code="zh_CN"/>
+    <relation seriesid="fe3461fa-85dc-11da-9ee2-c686bd2a57de"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

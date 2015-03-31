@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=survex-aven
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Aven Cave Surveying Tool
+GenericName=Cave Surveying Tool
+Comment=Visualise cave surveys
+Type=Application
+Exec=aven
+Icon=aven
+Categories=Education;Geology;Science;
+Keywords=caving;survey;data;visualisation;visualization;OpenGL;wxWidgets;3D
+
+X-Ubuntu-Gettext-Domain=app-install-data

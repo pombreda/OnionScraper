@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=gambas3-ide
+X-AppInstall-Popcon=44
+X-AppInstall-Section=universe
+
+Name=Gambas3
+Comment=Gambas3 Integrated Development Environment
+Exec=gambas3
+Type=Application
+Icon=gambas3
+Categories=Development;
+
+X-Ubuntu-Gettext-Domain=app-install-data

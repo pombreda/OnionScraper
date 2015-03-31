@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=ibus-input-pad
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=IBus Input Pad Setup
+Comment=Set up IBus Input Pad engine
+Exec=/usr/lib/ibus/ibus-setup-input-pad
+Icon=_usr_share_pixmaps_input-pad
+NoDisplay=true
+Type=Application
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

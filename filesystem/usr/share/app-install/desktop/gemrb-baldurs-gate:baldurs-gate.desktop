@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gemrb-baldurs-gate
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Baldur's Gate - GemRB
+GenericName=Baldur's Gate
+Comment=Baldur's Gate game running with GemRB
+Type=Application
+Icon=baldurs-gate
+Terminal=true
+Exec=baldurs-gate
+Categories=Game;RolePlaying;Emulator;
+Keywords=roleplay;rpg;adventure;game;2d;isometric;gemrb;infinite engine;black isle;
+
+X-Ubuntu-Gettext-Domain=app-install-data

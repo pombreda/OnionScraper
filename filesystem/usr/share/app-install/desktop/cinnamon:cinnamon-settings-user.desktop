@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Icon=cs-user
+Exec=cinnamon-settings user
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Account details
+Comment=Change your user preferences and password
+
+X-Ubuntu-Gettext-Domain=app-install-data

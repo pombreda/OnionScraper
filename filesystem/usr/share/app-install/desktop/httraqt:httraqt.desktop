@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=httraqt
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=HTTraQt
+Comment=Web copier
+GenericName=HTTraQt
+TryExec=httraqt
+Exec=httraqt
+Terminal=false
+Icon=httraqt
+Type=Application
+Categories=Network;Qt;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=dozzaqueux
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec=/usr/bin/dozzaqueux
+Icon=dozzzaqueux
+Terminal=false
+Name=Dozzaqueux
+GenericName=Simulator for chemical mixtures
+Comment=Simulator for chemical mixtures
+Categories=GNOME;Application;Video;Education;Science;
+X-Ubuntu-Gettext-Domain=app-install-data

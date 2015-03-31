@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-installer
+X-AppInstall-Popcon=96
+X-AppInstall-Section=universe
+
+Name=Ubuntu Studio Meta Installer
+GenericName=Software Installer
+Comment=Used to install Ubuntu Studio Software Metas
+Exec=ubuntustudio-installer ubuntustudio-audio ubuntustudio-menu linux-lowlatency ubuntustudio-graphics ubuntustudio-photography ubuntustudio-publishing ubuntustudio-video
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=ubuntustudio-installer
+Categories=System;
+Keywords=Install;Apps;
+
+X-Ubuntu-Gettext-Domain=app-install-data

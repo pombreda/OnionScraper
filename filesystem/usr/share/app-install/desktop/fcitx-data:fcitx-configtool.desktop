@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=fcitx-data
+X-AppInstall-Popcon=81
+X-AppInstall-Section=universe
+
+Name=Fcitx Configuration
+GenericName=Input Method Configuration
+Comment=Change Fcitx Configuration
+Exec=fcitx-configtool
+Icon=fcitx
+MimeType=
+Type=Application
+Categories=Settings;
+X-KDE-StartupNotify=false
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

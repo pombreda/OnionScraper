@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-control-center
+X-AppInstall-Popcon=167
+X-AppInstall-Section=universe
+
+Name=Monitors
+Comment=Change resolution and position of monitors
+Exec=mate-display-properties
+Icon=mate-preferences-desktop-display
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;HardwareSettings;
+Keywords=mate-control-center;MATE;resolution;position;monitors;display;properties;
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

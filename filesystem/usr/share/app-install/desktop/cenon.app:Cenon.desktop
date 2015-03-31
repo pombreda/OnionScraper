@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=cenon.app
+X-AppInstall-Popcon=64
+X-AppInstall-Section=universe
+
+Type=Application
+Categories=Graphics;2DGraphics;VectorGraphics;
+Name=Cenon
+Comment=Vector graphics application for GNUstep
+Keywords=svg;gerber;graphics;vector;design;publishing;
+Icon=_usr_lib_GNUstep_Applications_Cenon.app_Resources_Cenon
+Exec=Cenon
+MimeType=
+
+X-Ubuntu-Gettext-Domain=app-install-data

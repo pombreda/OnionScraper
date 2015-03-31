@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=openmsx-data
+X-AppInstall-Popcon=11
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=openMSX
+Comment=MSX emulator
+Type=Application
+Exec=openmsx
+Icon=_usr_share_openmsx_icons_openMSX-logo-128
+DocPath=/usr/share/doc/openmsx/manual/index.html
+Terminal=false
+Categories=Emulator;Game
+
+X-Ubuntu-Gettext-Domain=app-install-data

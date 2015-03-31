@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=tilp2
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Name=TILP
+Comment=TI Calculators Linking Program
+GenericName=TI Linking Program
+Version=1.0
+Type=Application
+Exec=/usr/bin/tilp
+Icon=_usr_share_tilp2_pixmaps_tilp
+Terminal=false
+Categories=Utility;GTK;X-KDE-Utilities-Peripherals;
+MimeType=application/x-tilp;
+
+X-Ubuntu-Gettext-Domain=app-install-data

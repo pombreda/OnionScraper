@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=simon
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+Name=Sam
+Exec=sam %i -caption %c
+Icon=sam
+Type=Application
+X-DocPath=sam/index.html
+GenericName=Acoustic Modeller
+Terminal=false
+Categories=Qt;KDE;Utility;Accessibility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

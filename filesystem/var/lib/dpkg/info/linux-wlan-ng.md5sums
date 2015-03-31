@@ -1,0 +1,14 @@
+f7a93d7e88cc5c85d3ab1df1cc39e4c8  lib/udev/rules.d/84-linux-wlan-ng.rules
+277b604a116268e74b3cd39af4e50d50  sbin/nwepgen
+93aab3a7396a5f93e9c7a65d561204c7  sbin/wlancfg
+14b5a30a28e2d19c490d7e691b5c7466  sbin/wlanctl-ng
+b8cded7f34dcbae4e622fc9059cc4386  usr/share/doc/linux-wlan-ng/README.Debian.gz
+045eb78c502ef0cde7ad98dea4dd8392  usr/share/doc/linux-wlan-ng/TODO.Debian
+7671899474bc9dc427cde8c92e391372  usr/share/doc/linux-wlan-ng/changelog.Debian.gz
+47a3fbf2769fe80dfb41f8e138dd1a49  usr/share/doc/linux-wlan-ng/copyright
+ef5357d2b3a7e078000920b42214b263  usr/share/doc/linux-wlan-ng/examples/pda.pl.gz
+587d924ef005dd4d8f888abd5e6fa357  usr/share/doc/linux-wlan-ng/examples/rc.wlan
+70fdf47552d543761b593e79f24684e5  usr/share/man/man8/nwepgen.8.gz
+3f85354c57c4e61708bc5559c60a79fb  usr/share/man/man8/wlancfg.8.gz
+207f29aebc5be2a555c945d1f16099ed  usr/share/man/man8/wlanctl-ng.8.gz
+52cae97fb7b29f217bb1fef9354936e4  usr/share/man/man8/wland.8.gz

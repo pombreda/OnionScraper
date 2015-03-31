@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=cantata
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Cantata
+GenericName=Music Player Client
+Icon=cantata
+Exec=cantata %U
+Categories=Qt;KDE;AudioVideo;Player;
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=com.googlecode.cantata
+Keywords=Music;MPD;
+
+X-Ubuntu-Gettext-Domain=app-install-data

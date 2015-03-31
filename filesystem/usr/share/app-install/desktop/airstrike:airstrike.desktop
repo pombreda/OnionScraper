@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=airstrike
+X-AppInstall-Popcon=39
+X-AppInstall-Section=universe
+
+Name=Airstrike
+Comment=Dogfight an enemy plane
+Exec=airstrike
+Icon=airstrike
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Game;ActionGame;
+Keywords=dogfight;plane;zeppelin;air;combat;
+
+X-Ubuntu-Gettext-Domain=app-install-data

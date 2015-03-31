@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=konversation
+X-AppInstall-Popcon=122
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=konversation -caption %c %u
+Icon=konversation
+X-DocPath=konversation/index.html
+MimeType=x-scheme-handler/irc;x-scheme-handler/ircs;
+GenericName=IRC Client
+Terminal=false
+Name=Konversation
+Categories=Qt;KDE;Network;IRCClient;
+X-KDE-ServiceTypes=DBUS/InstantMessenger
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=org.kde.konversation
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

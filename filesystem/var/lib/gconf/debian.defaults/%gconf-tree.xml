@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="apps">
+		<dir name="gksu">
+			<entry name="sudo-mode" mtime="1414004626" type="bool" value="true"/>
+		</dir>
+	</dir>
+	<dir name="desktop">
+		<dir name="gnome">
+			<dir name="url-handlers">
+				<dir name="transmission-gtk">
+					<entry name="enabled" mtime="1414004626" type="bool" value="true"/>
+					<entry name="needs_terminal" mtime="1414004626" type="bool" value="false"/>
+					<entry name="command" mtime="1414004626" type="string">
+						<stringvalue>/usr/bin/transmission-gtk %s</stringvalue>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

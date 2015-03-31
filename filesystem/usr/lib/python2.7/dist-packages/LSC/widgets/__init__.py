@@ -1,0 +1,1 @@
+../../../../../share/pyshared/LSC/widgets/__init__.py

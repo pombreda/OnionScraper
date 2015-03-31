@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=adanaxisgpl
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Name=Adanaxis
+GenericName=Adanaxis
+Comment=Fly your ship in a 4d environment
+Type=Application
+Exec=adanaxisgpl
+Icon=adanaxisgpl-48
+Terminal=false
+Categories=Game;ActionGame;
+Keywords=ship;space;4D;shooter;mouse;joystick;rotation;axis;
+
+X-Ubuntu-Gettext-Domain=app-install-data

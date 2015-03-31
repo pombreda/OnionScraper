@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=fslview
+X-AppInstall-Popcon=21
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+GenericName=MRI Image Viewer
+Name=FSLView
+Exec=fslview %F
+TryExec=fslview
+Type=Application
+Terminal=false
+Comment=This program is part of FSL
+Categories=Education;Graphics;Science;DataVisualization;MedicalSoftware;Qt;Viewer;
+Icon=fslview
+
+X-Ubuntu-Gettext-Domain=app-install-data

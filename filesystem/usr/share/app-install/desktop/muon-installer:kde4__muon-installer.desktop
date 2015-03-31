@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=muon-installer
+X-AppInstall-Popcon=591
+X-AppInstall-Section=universe
+
+Name=Muon Software Center
+Exec=muon-installer %i -caption %c
+Icon=applications-other
+Type=Application
+X-DocPath=muon/index.html
+GenericName=Software Center
+Categories=Qt;KDE;System;
+Keywords=program;software;repository;package;install;remove;update;apps;applications;
+
+X-Ubuntu-Gettext-Domain=app-install-data

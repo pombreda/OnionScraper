@@ -1,0 +1,11 @@
+/.
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/plymouth
+/lib/x86_64-linux-gnu/plymouth/label.so
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/plymouth-label
+/usr/share/doc/plymouth-label/copyright
+/usr/share/doc/plymouth-label/changelog.Debian.gz

@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libupower-glib1
+/usr/share/doc/libupower-glib1/changelog.Debian.gz
+/usr/share/doc/libupower-glib1/copyright
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libupower-glib.so.1.0.4
+/usr/lib/x86_64-linux-gnu/libupower-glib.so.1

@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-utils
+X-AppInstall-Popcon=129
+X-AppInstall-Section=universe
+
+Name=Dictionary
+Comment=Check word definitions and spellings in an online dictionary
+Exec=mate-dictionary
+Terminal=false
+Type=Application
+Icon=accessories-dictionary
+StartupNotify=true
+Categories=GTK;Office;Dictionary;
+Keywords=MATE;dictionary;applet;thesaurus;spelling;definitions;online;
+OnlyShowIn=MATE;
+X-MATE-DocPath=mate-dictionary/mate-dictionary.xml
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-utils
+X-MATE-Bugzilla-Component=gdict
+X-MATE-Bugzilla-Version=1.8.0
+
+X-Ubuntu-Gettext-Domain=app-install-data

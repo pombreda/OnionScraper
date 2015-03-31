@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=Application;Other
+X-AppInstall-Package=workrave
+X-AppInstall-Popcon=200
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Workrave
+Type=Application
+Categories=Utility;GTK;Accessibility;
+Exec=workrave
+Icon=workrave
+Comment=Assists in the prevention and recovery of Repetitive Strain Injury (RSI)
+
+X-Ubuntu-Gettext-Domain=app-install-data

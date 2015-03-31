@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-scope-gdrive
+X-AppInstall-Popcon=239
+X-AppInstall-Section=main
+
+Categories=Office;
+Exec=
+GenericName=unity-scope-gdrive
+Icon=unity-scope-gdrive
+Name=Google Drive scope for Unity
+NoDisplay=true
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

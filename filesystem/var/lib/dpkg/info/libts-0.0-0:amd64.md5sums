@@ -1,0 +1,17 @@
+c0ca2af255edc368edb4397c6d5f2529  usr/lib/x86_64-linux-gnu/libts-0.0.so.0.1.1
+183889ffb8f13127da3ad7ab62ab68d1  usr/lib/x86_64-linux-gnu/ts0/arctic2.so
+d8e2c714b090fc9f94a9d68fc7c965d7  usr/lib/x86_64-linux-gnu/ts0/collie.so
+615c70349f1485934227a95642361e4b  usr/lib/x86_64-linux-gnu/ts0/corgi.so
+11ef7e93a3e3de4a45f74ee1e0fbdb62  usr/lib/x86_64-linux-gnu/ts0/dejitter.so
+7b1a1526c638a8f1b8b38506da8102b3  usr/lib/x86_64-linux-gnu/ts0/h3600.so
+1a2d4ee14b4242a8534fb7bc1b79ba7f  usr/lib/x86_64-linux-gnu/ts0/input.so
+7278dd26a1d39b5d25c164c34b57f298  usr/lib/x86_64-linux-gnu/ts0/linear.so
+505e3f775f47814745f64c4665e0b0ff  usr/lib/x86_64-linux-gnu/ts0/linear_h2200.so
+ed12ba65551b2ce8b41fb6efd2278283  usr/lib/x86_64-linux-gnu/ts0/mk712.so
+d1f200bd97a034b569ff87f4ad6b66e6  usr/lib/x86_64-linux-gnu/ts0/pthres.so
+17ba1a03b686db325d8a9c8b602ffc3d  usr/lib/x86_64-linux-gnu/ts0/ucb1x00.so
+305f82f10b715804b116e3a2ca147a03  usr/lib/x86_64-linux-gnu/ts0/variance.so
+8bf73aca9754fcdc72e9b548ca692cc1  usr/share/doc/libts-0.0-0/AUTHORS
+63f22c92e421c2b5e5a24c242fee884d  usr/share/doc/libts-0.0-0/README.gz
+b9edfd536f28464cace9d690eb666fa0  usr/share/doc/libts-0.0-0/changelog.Debian.gz
+e82889d82166d17d82bcdc95f0432be6  usr/share/doc/libts-0.0-0/copyright

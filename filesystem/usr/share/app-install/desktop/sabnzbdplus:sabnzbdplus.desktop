@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=sabnzbdplus
+X-AppInstall-Popcon=510
+X-AppInstall-Section=multiverse
+
+Name=SABnzbd+
+GenericName=Binary newsgrabber
+Comment=Download from usenet
+Exec=sabnzbdplus --browser 1
+Icon=sabnzbdplus
+Terminal=false
+Type=Application
+Categories=Network;FileTransfer;
+Keywords=usenet;binaries;download;nzb;nntp;
+
+X-Ubuntu-Gettext-Domain=app-install-data

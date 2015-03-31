@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=indicator-multiload
+X-AppInstall-Popcon=2598
+X-AppInstall-Section=universe
+
+Name=System Load Indicator
+Comment=A system load monitor capable of displaying graphs for CPU, ram, and swap space use, plus network traffic.
+Exec=indicator-multiload
+Terminal=false
+Type=Application
+Icon=utilities-system-monitor
+Categories=GNOME;System;
+
+X-Ubuntu-Gettext-Domain=app-install-data

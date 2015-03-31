@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustiť príkaz v termináli">
+								<longdesc>Pravda, ak bude príkaz používaný na spracovanie tohto druhu adries spustený v termináli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Príkaz pre adresy „ymsgr“">
+								<longdesc>Príkaz na obsluhu adries typu „ymsgr“, ak je povolené.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Či má zadaný príkaz obsluhovať adresy „ymsgr“">
+								<longdesc>Pravda, ak príkaz zadaný v kľúči „command“ má spracovávať URL adresy „ymsgr“.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustiť príkaz v termináli">
+								<longdesc>Pravda, ak bude príkaz používaný na spracovanie tohto druhu adries spustený v termináli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Príkaz pre adresy „xmpp“">
+								<longdesc>Príkaz na obsluhu adries typu „xmpp“, ak je povolené.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Či má zadaný príkaz obsluhovať adresy „xmpp“">
+								<longdesc>Pravda, ak príkaz zadaný v kľúči „command“ má spracovávať URL adresy „xmpp“.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustiť príkaz v termináli">
+								<longdesc>Pravda, ak bude príkaz používaný na spracovanie tohto druhu adries spustený v termináli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Príkaz pre adresy „sip“">
+								<longdesc>Príkaz na obsluhu adries typu „sip“, ak je povolené.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Či má zadaný príkaz obsluhovať adresy „sip“">
+								<longdesc>Pravda, ak príkaz zadaný v kľúči „command“ má spracovávať URL adresy „sip“.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustiť príkaz v termináli">
+								<longdesc>Pravda, ak bude príkaz používaný na spracovanie tohto druhu adries spustený v termináli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Príkaz pre adresy „msnim“">
+								<longdesc>Príkaz na obsluhu adries typu „msnim“, ak je povolené.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Či má zadaný príkaz obsluhovať adresy „msnim“">
+								<longdesc>Pravda, ak príkaz zadaný v kľúči „command“ má spracovávať URL adresy „msnim“.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustiť príkaz v termináli">
+								<longdesc>Pravda, ak bude príkaz používaný na spracovanie tohto druhu adries spustený v termináli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Príkaz pre adresy „irc“">
+								<longdesc>Príkaz na obsluhu adries typu „irc“, ak je povolené.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Či má zadaný príkaz obsluhovať adresy „irc“">
+								<longdesc>Pravda, ak príkaz zadaný v kľúči „command“ má spracovávať URL adresy „irc“.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustiť príkaz v termináli">
+								<longdesc>Pravda, ak bude príkaz používaný na spracovanie tohto druhu adries spustený v termináli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Príkaz pre adresy „icq“">
+								<longdesc>Príkaz na obsluhu adries typu „icq“, ak je povolené.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Či má zadaný príkaz obsluhovať adresy „icq“">
+								<longdesc>Pravda, ak príkaz zadaný v kľúči „command“ má spracovávať URL adresy „icq“.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustiť príkaz v termináli">
+								<longdesc>Pravda, ak bude príkaz používaný na spracovanie tohto druhu adries spustený v termináli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Príkaz pre adresy „gg“">
+								<longdesc>Príkaz na obsluhu adries typu „gg“, ak je povolené.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Či má zadaný príkaz obsluhovať adresy „gg“">
+								<longdesc>Pravda, ak príkaz zadaný v kľúči „command“ má spracovávať URL adresy „aim“.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustiť príkaz v termináli">
+								<longdesc>Pravda, ak bude príkaz používaný na spracovanie tohto druhu adries spustený v termináli.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Príkaz pre adresy „aim“">
+								<longdesc>Príkaz na obsluhu adries typu „aim“, ak je povolené.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Či má zadaný príkaz obsluhovať adresy „aim“">
+								<longdesc>Pravda, ak príkaz zadaný v kľúči „command“ má spracovávať URL adresy „aim“.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

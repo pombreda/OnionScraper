@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=notes-app
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=qmlscene -qt5 /usr/share/notes-app/NotesApp.qml
+Name=Notes
+GenericName=Notes application for Ubuntu
+Icon=_usr_share_notes-app_notepad@30
+Terminal=false
+Path=/usr/share/notes-app
+X-Ubuntu-Touch=true
+X-Ubuntu-StageHint=SideStage
+
+X-Ubuntu-Single-Instance=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

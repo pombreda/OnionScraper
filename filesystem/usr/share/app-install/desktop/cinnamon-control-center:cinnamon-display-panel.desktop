@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon-control-center
+X-AppInstall-Popcon=117
+X-AppInstall-Section=universe
+
+Exec=cinnamon-settings display
+Icon=cs-display
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;HardwareSettings;X-Cinnamon-Settings-Panel;
+OnlyShowIn=X-Cinnamon;
+X-Cinnamon-Settings-Panel=display
+# Translators: those are keywords for the display control-center panel
+Keywords=Panel;Projector;xrandr;Screen;Resolution;Refresh;
+Name=Displays
+Comment=Change resolution and position of monitors and projectors
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

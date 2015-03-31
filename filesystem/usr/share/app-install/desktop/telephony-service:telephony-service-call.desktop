@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=telephony-service
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Phone Calls
+Exec=telephony-service-indicator
+Icon=telephony-service-call
+NoDisplay=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

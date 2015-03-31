@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=hotot-qt
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Hotot Qt
+GenericName=Hotot Twitter Client
+Type=Application
+Comment=Lightweight Twitter client based on Qt and WebKit
+Exec=hotot-qt
+Icon=hotot
+Categories=Qt;Network;InstantMessaging;
+
+X-Ubuntu-Gettext-Domain=app-install-data

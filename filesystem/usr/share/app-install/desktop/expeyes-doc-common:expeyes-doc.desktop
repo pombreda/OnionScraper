@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=expeyes-doc-common
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Version=0.9.0
+Type=Application
+
+Exec=expeyes-doc
+Icon=eyes-doc
+
+Name=expEYES Manual
+
+Comment=expEYES User Manual
+Categories=Electronics;Education;Science;
+MimeType=application/x-pdf
+
+Terminal=false
+NoDisplay=false
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

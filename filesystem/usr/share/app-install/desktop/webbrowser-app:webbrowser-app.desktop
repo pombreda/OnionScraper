@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=webbrowser-app
+X-AppInstall-Popcon=900
+X-AppInstall-Section=main
+
+Version=1.0
+Name=Browser
+GenericName=Web Browser
+Comment=Browse the World Wide Web
+Keywords=Internet;WWW;Browser;Web;Explorer
+Type=Application
+Icon=_usr_share_webbrowser-app_webbrowser-app
+Exec=webbrowser-app %u
+Terminal=false
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;
+X-Ubuntu-Touch=true
+
+X-Ubuntu-Single-Instance=true
+X-Ubuntu-Default-Department-ID=web-browsers
+X-Screenshot=/usr/share/webbrowser-app/screenshot.png
+
+X-Ubuntu-Gettext-Domain=app-install-data

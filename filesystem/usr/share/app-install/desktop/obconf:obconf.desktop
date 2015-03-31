@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=obconf
+X-AppInstall-Popcon=373
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Openbox Configuration Manager
+GenericName=Configuration Manager
+Comment=Tweak settings for Openbox
+Icon=obconf
+Exec=obconf %f
+Categories=Settings;DesktopSettings;GTK;
+MimeType=application/x-openbox-theme;
+StartupNotify=true
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

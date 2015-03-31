@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=converseen
+X-AppInstall-Popcon=21
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Converseen
+GenericName=Converseen
+Comment=Batch image converter
+Exec=converseen
+Icon=converseen
+Terminal=false
+Categories=Qt;KDE;Graphics;
+
+X-Ubuntu-Gettext-Domain=app-install-data

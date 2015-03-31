@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gitso
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Name=Gitso
+Comment=Connect to others using VNC protocol
+Exec=gitso
+Icon=_usr_share_gitso_icon
+Terminal=false
+MimeType=application/x-remote-connection;
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Network;RemoteAccess;
+Keywords=remote assistance;reverse VNC;VNC;support;help;screen;network;
+
+X-Ubuntu-Gettext-Domain=app-install-data

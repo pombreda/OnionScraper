@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=aranym
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=ARAnyM
+Comment=Virtual Machine for Atari 32-bit applications
+Exec=aranym
+Icon=aranym
+Terminal=false
+Type=Application
+Categories=System;Emulator;
+
+X-Ubuntu-Gettext-Domain=app-install-data

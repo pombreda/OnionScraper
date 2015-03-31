@@ -1,0 +1,51 @@
+[Desktop Entry]
+X-AppInstall-Package=razorqt-desktop
+X-AppInstall-Popcon=17
+X-AppInstall-Section=universe
+
+OnlyShowIn=X-RAZOR;
+Type=Application
+Exec=razor-config-desktop
+Terminal=false
+Categories=Settings;DesktopSettings;Qt;X-RAZOR;
+Icon=preferences-desktop
+Name=Razor Desktop Configurator
+Comment=Configure Razor-Qt desktop module
+GenericName=Razor Desktop Configurator
+
+Icon[pt]=preferences-desktop
+Icon[hu]=preferences-desktop
+Icon[nl]=instellingen-bureaublad
+Icon[de_DE]=Einstellungen-Desktop
+Icon[ar]=تفضيلات سطح المكتب
+Icon[es_MX]=preferences-desktop
+Icon[th_TH]=ค่าปรับแต่ง-โต๊ะงาน
+Icon[fr]=preferences-desktop
+Icon[cs]=Nastavení pracovní plochy
+Icon[el_GR]=προτιμήσεις επιφάνειας εργασίας 
+Icon[es_VE]=preferences-desktop
+Icon[it_IT]=preferences-desktop
+Icon[he]=preferences-desktop
+Icon[pt_BR]=preferences-desktop
+Icon[gl]=preferencias-escritorio
+Icon[da]=indstillinger-skrivebord
+Icon[ja]=デスクトップ初期設定
+Icon[es]=preferences-desktop
+Icon[tr]=preferences-desktop
+Icon[uk]=preferences-desktop
+Icon[lt]=preferences-desktop
+Icon[id_ID]=preferensi-desktop
+Icon[da_DK]=indstillinger-skrivebord
+Icon[eu]=hobespenak-mahaigaina
+Icon[ru]=настройки рабочего стола
+Icon[zh_CN]=桌面首选项
+Icon[ro_RO]=preferences-desktop
+Icon[zh_TW]=桌面偏好設定
+Icon[cs_CZ]=Nastavení pracovní plochy
+Icon[eo]=preferences-desktop
+Icon[sl]=preferences-desktop
+Icon[pl_PL]=ustawienia-pulpit
+Icon[fi]=asetukset-työpöytä
+Icon[de]=preferences-desktop
+
+X-Ubuntu-Gettext-Domain=app-install-data

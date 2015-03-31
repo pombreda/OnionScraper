@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=account-polld
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Categories=Office;
+Exec=
+GenericName=account-polld
+Name=Notifications
+NoDisplay=true
+Terminal=false
+Type=Application
+Icon=indicator-messages
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

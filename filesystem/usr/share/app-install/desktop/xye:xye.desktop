@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=xye
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Exec=xye
+Type=Application
+Categories=Application;Game;
+Name=Xye
+GenericName=Xye
+Comment=Solve puzzles and action challenges in order to get all the gems in the room.
+Terminal=false
+StartupNotify=false
+Icon=xye
+Keywords=game;puzzle;logic;gems;
+MimeType=application/xye-xml
+
+X-Ubuntu-Gettext-Domain=app-install-data

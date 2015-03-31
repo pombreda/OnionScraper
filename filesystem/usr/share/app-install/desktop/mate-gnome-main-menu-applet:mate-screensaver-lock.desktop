@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-gnome-main-menu-applet
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Lock Screen
+Version=1.0
+Icon=gnome-lockscreen
+Exec=mate-screensaver-command --lock
+Terminal=false
+Type=Application
+Categories=Application;System;
+Keywords=MATE;main;menu;lock;screen;
+OnlyShowIn=MATE;
+Hidden=true
+X-Ubuntu-Gettext-Domain=app-install-data

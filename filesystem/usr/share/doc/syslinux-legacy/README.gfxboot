@@ -1,0 +1,41 @@
+Graphical boot screen
+=====================
+
+  syslinux/isolinux support a graphical boot screen using VESA BIOS
+  extensions. (Note that this is different from the graphics support that
+  syslinux comes with).
+
+  To use it you have to prepare a special boot logo file and put a line like
+  this into syslinux.cfg/isolinux.cfg:
+
+    gfxboot foo
+
+  The tools to create 'foo' from the above example are in the gfxboot
+  package. Please _do_ have a look at its documentation before you begin.
+
+  Note that you cannot use comboot images and graphics at the same time as
+  the memory used overlaps the comboot loading area.
+
+  If you encouter problems with the graphics code, hold down SHIFT while
+  syslinux starts. This will put it into 'failsafe' mode that lets you
+  interactively skip critical parts (like monitor detection).
+
+
+
+Spread boot images over several floppy disks (syslinux)
+=======================================================
+
+  You can prepare boot disks with a file system that spans several disks.
+  The 'mkbootdisk' script from the openSUSE project can create a suitable
+  file system.
+
+  syslinux will ask you for disk changes if necessary. To enable this
+  feature, use
+
+    disksize <size_of_single_disk_in_sectors>
+
+  Note that every individual disk must have at least a valid FAT boot
+  sector. syslinux will use the serial number stored there to verify that
+  the correct disk has been inserted (its last hex digit is the zero based
+  disk number).
+

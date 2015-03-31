@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kaddressbook
+X-AppInstall-Popcon=837
+X-AppInstall-Section=universe
+
+Name=KAddressbook import file
+Type=Application
+Exec=kaddressbook --import %u
+Icon=kmail
+MimeType=text/vcard;text/x-ldif;
+
+X-KDE-StartupNotify=true
+Categories=Qt;KDE;Office;ContactManagement;
+Hidden=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

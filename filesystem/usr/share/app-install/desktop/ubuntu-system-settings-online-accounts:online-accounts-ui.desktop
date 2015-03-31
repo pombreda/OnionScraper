@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntu-system-settings-online-accounts
+X-AppInstall-Popcon=29
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Version=1.0
+Name=Online Accounts
+Comment=Create and edit Online Accounts
+Exec=/usr/bin/online-accounts-ui
+Icon=
+Type=Application
+Terminal=false
+NoDisplay=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

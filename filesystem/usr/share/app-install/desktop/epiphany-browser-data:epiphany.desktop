@@ -1,0 +1,25 @@
+[Desktop Entry]
+X-AppInstall-Package=epiphany-browser
+X-AppInstall-Popcon=971
+X-AppInstall-Section=universe
+
+Name=Web
+GenericName=Web Browser
+X-GNOME-FullName=Epiphany Web Browser
+Comment=Browse the web
+Keywords=web;browser;internet;
+Exec=epiphany-browser %U
+StartupNotify=true
+Terminal=false
+Type=Application
+Icon=web-browser
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=epiphany
+X-GNOME-Bugzilla-Component=BugBuddyBugs
+X-GNOME-Bugzilla-Version=3.10.3
+X-GNOME-UsesNotifications=true
+Categories=Network;GNOME;GTK;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

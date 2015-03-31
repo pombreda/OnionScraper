@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=mess-desktop-entries
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+Name=NES ROM Player
+Comment=Play Nintendo Entertainment System games
+Type=Application
+Exec=/usr/games/mess nes -cartridge %f
+Terminal=false
+NoDisplay=true
+MimeType=application/x-nes-rom;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

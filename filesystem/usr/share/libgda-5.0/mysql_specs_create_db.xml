@@ -1,0 +1,2031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serv_op>
+  <parameters id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+  </parameters>
+  <parameters xml:lang="ar" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="خادم قاعدة بيانات" descr="Host on which the database server is running" xml:lang="ar"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="ar"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="ar"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ar"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ar"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="ar"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="ar"></parameter>
+  </parameters>
+  <parameters xml:lang="az" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="az"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="az"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="az"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="az"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="az"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="az"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="az"></parameter>
+  </parameters>
+  <parameters xml:lang="ca" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="ca"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="ca"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Sòcol UNIX" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="ca"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ca"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ca"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Requereix SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="ca"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="ca"></parameter>
+  </parameters>
+  <parameters xml:lang="ca@valencia" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="ca@valencia"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="ca@valencia"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Sòcol UNIX" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="ca@valencia"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ca@valencia"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ca@valencia"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Requereix SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="ca@valencia"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="ca@valencia"></parameter>
+  </parameters>
+  <parameters xml:lang="cs" id="SERVER_CNX_P" name="Parametry přístupu k serveru">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Databázový server" descr="Hostitel, na kterém databázový server běží" xml:lang="cs"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Port databázového serveru" xml:lang="cs"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIXový soket" descr="Celá cesta k soketu UNIX, který se má používat pro místní připojování" xml:lang="cs"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Přihlašovací jméno správce" descr="Přihlašovací jméno (které má oprávnění vytvářet databáze)" xml:lang="cs"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Heslo správce" xml:lang="cs"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Vyžadovat SSL" descr="Zda používat nebo nepoužívat SSL pro navázání spojení" xml:lang="cs"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Připojovací protokol" descr="Vysloveně určený připojovací protokol, který se má použít. To je užitečné, když by ostatní parametry připojení normálně způsobily použití jiného protokolu, než který chcete" xml:lang="cs"></parameter>
+  </parameters>
+  <parameters xml:lang="da" id="SERVER_CNX_P" name="Parametre for serveradgang">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Databaseserver" descr="Vært hvor databaseserveren kører" xml:lang="da"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Databaseserverport" xml:lang="da"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX-sokkel" descr="Fuld sti på UNIX-soklen der skal bruges når der forbindes lokalt" xml:lang="da"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Logind for administrator" descr="Logindnavn (som har rettigheder til at oprette databaser)" xml:lang="da"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Adgangskode for administrator" xml:lang="da"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Kræv SSL" descr="Hvorvidt der skal bruges SSL for at etablere forbindelsen" xml:lang="da"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="da"></parameter>
+  </parameters>
+  <parameters xml:lang="de" id="SERVER_CNX_P" name="Parameter für Serverzugriff">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Datenbankserver" descr="Rechner, auf dem der Datenbankserver läuft" xml:lang="de"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Port des Datenbankservers" xml:lang="de"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX-Socket" descr="Voller Pfad des UNIX-Socket, der für die lokale Verbindung genutzt werden soll" xml:lang="de"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator-Benutzername" descr="Anmeldename (mit den Rechten zum Anlegen einer Datenbank)" xml:lang="de"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator-Passwort" xml:lang="de"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Erfordert SSL" descr="Legt fest, ob SSL für den Verbindungsaufbau verwendet werden soll" xml:lang="de"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Verbindungsprotokoll" descr="Legt explizit ein zu verwendendes Verbindungsprotokoll fest. Nützlich, wenn andere Verbindungsparamter normalerweise den Einsatz eines Protokolls einleiten, das Sie nicht verwenden wollen" xml:lang="de"></parameter>
+  </parameters>
+  <parameters xml:lang="dz" id="SERVER_CNX_P" name="སར་བར་འཛུལ་སྤྱོད་འབད་ནི་ཚད་བཟུང་ཚུ།">
+    
+    <parameter id="HOST" gdatype="gchararray" name="གནས་སྡུད་གཞི་རྟེན་སར་བར།" descr="གནས་སྡུད་གཞི་རྟེན་སར་བར་འདི་གཡོག་བཀོལ་མི་ཧོསིཊི་གུ།" xml:lang="dz"></parameter>
+    <parameter id="PORT" gdatype="gint" name="འདྲེན་ལམ།" descr="གནས་སྡུད་གཞི་རྟེན་སར་བར་འདྲེན་ལམ།" xml:lang="dz"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="ཡུ་ནིགསི་སོ་ཀེཊི།" descr="ཉེ་གནས་ལུ་མཐུད་ལམ་མཐུད་པའི་སྐབས་ལག་ལེན་འཐབ་ནི་ ཡུ་ནིགསི་ སོཀེཊི་གི་འགྲུལ་ལམ་གངམ།" xml:lang="dz"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="བདག་སྐྱོང་པའི་ནང་བསྐྱོད།" descr="ནང་བསྐྱོད་མིང་(གནས་སྡུད་གཞི་རྟེན་ཚུ་གསར་བསྐྲུན་འབད་ནི་དབང་ཡོད་མི)" xml:lang="dz"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="བདག་སྐྱོང་པའི་ཆོག་ཡིག" xml:lang="dz"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="ཨེསི་ཨེསི་ཨེལ་དགོས་མཁོ་ཡོདཔ།" descr="མཐུད་ལམ་གཞི་བཙུགས་འབད་ནི་ཨེསི་ཨེསི་ཨེལ་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།" xml:lang="dz"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="dz"></parameter>
+  </parameters>
+  <parameters xml:lang="el" id="SERVER_CNX_P" name="Παράμετροι πρόσβασης εξυπηρετητή">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Εξυπηρετητής βάσης δεδομένων" descr="Ο οικοδεσπότης στον οποίον ο εξυπηρετητής βάσης δεδομένων τρέχει" xml:lang="el"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Θύρα" descr="Θύρα εξυπηρετητή βάσης δεδομένων" xml:lang="el"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Υποδοχή UNIX" descr="Πλήρης διαδρομή της υποδοχής UNIX για χρήση σε τοπική σύνδεση" xml:lang="el"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Σύνδεση διαχειριστή" descr="Όνομα σύνδεσης (που έχει τα δικαιώματα δημιουργίας βάσεων δεδομένων)" xml:lang="el"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Κωδικός διαχειριστή" xml:lang="el"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Απαιτείται SSL" descr="Εάν θα χρησιμοποιηθεί ή όχι SSL για δημιουργία σύνδεσης" xml:lang="el"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Πρωτόκολλο σύνδεσης" descr="Καθορίζει σαφώς ένα πρωτόκολλο σύνδεσης για χρήση. Είναι χρήσιμο όταν οι άλλες παράμετροι σύνδεσης κανονικά θα μπορούσαν να προκαλέσουν τη χρήση ενός πρωτοκόλλου άλλου από το επιθυμητό" xml:lang="el"></parameter>
+  </parameters>
+  <parameters xml:lang="en_CA" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="en_CA"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="en_CA"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="en_CA"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="en_CA"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="en_CA"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="en_CA"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="en_CA"></parameter>
+  </parameters>
+  <parameters xml:lang="en_GB" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="en_GB"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="en_GB"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="en_GB"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="en_GB"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="en_GB"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="en_GB"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="en_GB"></parameter>
+  </parameters>
+  <parameters xml:lang="eo" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Datumbaza servilo" descr="Host on which the database server is running" xml:lang="eo"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Pordo" descr="Database server port" xml:lang="eo"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="eo"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="eo"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="eo"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="eo"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="eo"></parameter>
+  </parameters>
+  <parameters xml:lang="es" id="SERVER_CNX_P" name="Parámetros de acceso al servidor">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Servidor de bases de datos" descr="Equipo en el que el servidor de la base de datos se está ejecutando" xml:lang="es"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Puerto" descr="Puerto del servidor de base de datos" xml:lang="es"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Socket UNIX" descr="Ruta completa al socket UNIX que usar al conectar localmente" xml:lang="es"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Entrada del administrador" descr="Nombre de usuario (que tenga derechos para crear bases de datos)" xml:lang="es"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Contraseña del administrador" xml:lang="es"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Requiere SSL" descr="Indica si se debe usar o no SSL para establecer la conexión" xml:lang="es"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Protocolo de la conexión" descr="Especifica explícitamente un protocolo de conexión que usar. Esto es útil cuando otros parámetros de conexión especifican el protocolo que usar en lugar del que quiere." xml:lang="es"></parameter>
+  </parameters>
+  <parameters xml:lang="eu" id="SERVER_CNX_P" name="Zerbitzariaren sarbideko parametroak">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Datu-base zerbitzaria" descr="Ostalaria, datu-base zerbitzaria exekutatzen ari dena" xml:lang="eu"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Ataka" descr="Datu-base zerbitzariaren ataka" xml:lang="eu"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX socket-a" descr="UNIX socket-aren bide-izen osoa lokaleko konexioan erabiltzeko" xml:lang="eu"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administratzailearen saio-hasiera" descr="Erabiltzaile-izena (datu-baseak sortzeko baimena duena)" xml:lang="eu"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administratzailearen pasahitza" xml:lang="eu"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="SSL behar du" descr="Konexioak ezartzean SSL erabili edo ez" xml:lang="eu"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Konexioaren protokoloa" descr="Erabiliko den konexioaren protokoloa zehazten du esplizitoki. Erabilgarria da konexioaren beste parametroek nahi ez duzun bestelako protokolo bat erabiltzera bultzatzen dizuten egoeretan" xml:lang="eu"></parameter>
+  </parameters>
+  <parameters xml:lang="fa" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="fa"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="fa"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="fa"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="fa"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="fa"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="fa"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="fa"></parameter>
+  </parameters>
+  <parameters xml:lang="fi" id="SERVER_CNX_P" name="Palvelimen pääsyparametrit">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Tietokantapalvelin" descr="Palvelin, jossa tietokantapalvelin on ajossa" xml:lang="fi"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Portti" descr="Tietokantapalvelimen portti" xml:lang="fi"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX-pistoke" descr="Koko polku UNIX-pistokkeeseen, johon yhdistetään paikallisesti" xml:lang="fi"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Ylläpitäjän kirjautuminen" descr="Kirjautumisnimi, jolla on oikeus luoda tietokantoja" xml:lang="fi"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Ylläpitäjän salasana" xml:lang="fi"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Vaadi SSL:ää" descr="Käytetäänkö SSL-salausta yhteyden muodostamisessa" xml:lang="fi"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="fi"></parameter>
+  </parameters>
+  <parameters xml:lang="fr" id="SERVER_CNX_P" name="Paramètres d&apos;accès au serveur">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Serveur de base de données" descr="Hôte sur lequel fonctionne le serveur de base de données" xml:lang="fr"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Port du serveur de base de données" xml:lang="fr"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Socket UNIX" descr="Chemin complet de la socket UNIX pour la connexion en local" xml:lang="fr"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Identifiant administrateur" descr="Nom de connexion (avec le droit de créer des bases de données)" xml:lang="fr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Mot de passe administrateur" xml:lang="fr"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Utiliser une connexion sécurisée" descr="Indique si l&apos;on doit utiliser une connexion sécurisée par SSL" xml:lang="fr"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="fr"></parameter>
+  </parameters>
+  <parameters xml:lang="ga" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="ga"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="ga"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="ga"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ga"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ga"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="ga"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="ga"></parameter>
+  </parameters>
+  <parameters xml:lang="gl" id="SERVER_CNX_P" name="Parámetros de acceso ao servidor">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Servidor de bases de datos" descr="Máquina na que se está a executar o servidor de bases de datos" xml:lang="gl"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Porto" descr="Porto do servidor de bases de datos" xml:lang="gl"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Conectador UNIX" descr="Ruta completa do conectador UNIX a usar cando se conecta en forma local" xml:lang="gl"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Acceso de administrador" descr="Nome de usuario (que teña dereitos para crear bases de datos)" xml:lang="gl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Contrasinal do administrador" xml:lang="gl"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Requirir SSL" descr="Usar ou non SSL para estabelecer a conexión" xml:lang="gl"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Protocolo de conexión" descr="Especifica explícitamente un protocolo de conexión a usar. É útil cando os parámetros da outra conexión normalmente causarían que se use protocolo distinto do que quere " xml:lang="gl"></parameter>
+  </parameters>
+  <parameters xml:lang="hr" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="hr"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="hr"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="hr"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="hr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="hr"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="hr"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="hr"></parameter>
+  </parameters>
+  <parameters xml:lang="hu" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="hu"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="hu"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="hu"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="hu"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="hu"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="hu"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="hu"></parameter>
+  </parameters>
+  <parameters xml:lang="id" id="SERVER_CNX_P" name="Parameter akses server">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Server basis data" descr="Host tempat berjalannya server basis data" xml:lang="id"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Port server basis data" xml:lang="id"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Soket UNIX" descr="Path lengkap dari soket UNIX yang dipakai ketika menyambung ke lokal" xml:lang="id"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Log masuk administrator" descr="Nama log masuk (yang punya hak untuk membuat basis data)" xml:lang="id"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Sandi administrator" xml:lang="id"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Perlu SSL" descr="Apakah memakai SSL atau tidak untuk menjalin koneksi" xml:lang="id"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Protokol koneksi" descr="Secara eksplisit menyatakan suatu protokol koneksi yang dipakai. Ini berguna ketika parameter koneksi lain biasanya akan menyebabkan suatu protokol berbeda dari yang Anda inginkan dipakai" xml:lang="id"></parameter>
+  </parameters>
+  <parameters xml:lang="it" id="SERVER_CNX_P" name="Parametri di accesso al server">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Server database" descr="Host su cui è in esecuzione il database server" xml:lang="it"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Porta" descr="Porta del database server" xml:lang="it"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Socket UNIX" descr="Percorso completo del socket UNIX da usare per la connessione locale" xml:lang="it"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Login amministratore" descr="Nome di login (che possiede i permessi per creare database)" xml:lang="it"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Password amministratore" xml:lang="it"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Richiede SSL" descr="Uso di SSL per l&apos;instaurazione della connessione" xml:lang="it"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Protocollo di connessione" descr="Specifica un protocollo di connessione da usare. Utile quando altri parametri di connessione causerebbero l&apos;uso di un protocollo al posto di quello voluto" xml:lang="it"></parameter>
+  </parameters>
+  <parameters xml:lang="ja" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="データベース・サーバー" descr="Host on which the database server is running" xml:lang="ja"></parameter>
+    <parameter id="PORT" gdatype="gint" name="ポート" descr="データベース・サーバーのポート" xml:lang="ja"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIXソケット" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="ja"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ja"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ja"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="ja"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="ja"></parameter>
+  </parameters>
+  <parameters xml:lang="ko" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="ko"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="ko"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="ko"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ko"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ko"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="ko"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="ko"></parameter>
+  </parameters>
+  <parameters xml:lang="lt" id="SERVER_CNX_P" name="Serverio prisijungimo parametrai">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Duomenų bazės serveris" descr="Mazgas, ant kurio paleistas duomenų bazės serveris" xml:lang="lt"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Prievadas" descr="Duomenų bazė serverio prievadas" xml:lang="lt"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX jungtis" descr="Pilnas kelias iki UNIX jungties, kuri bus naudojama jungiantis lokaliai" xml:lang="lt"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administracinis prisijungimas" descr="Prisijungimo vardas (su duomenų bazių kūrimo teisėmis)" xml:lang="lt"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administracinis slaptažodis" xml:lang="lt"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Būtinas SSL" descr="Nustato, ar prisijungimo metu bus naudojamas SSL kodavimas" xml:lang="lt"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="lt"></parameter>
+  </parameters>
+  <parameters xml:lang="lv" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="lv"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="lv"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="lv"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="lv"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="lv"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="lv"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="lv"></parameter>
+  </parameters>
+  <parameters xml:lang="mk" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="mk"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="mk"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="mk"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="mk"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="mk"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="mk"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="mk"></parameter>
+  </parameters>
+  <parameters xml:lang="ml" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="ml"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="ml"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="ml"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ml"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ml"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="ml"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="ml"></parameter>
+  </parameters>
+  <parameters xml:lang="ms" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="ms"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="ms"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="ms"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="ms"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="ms"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="ms"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="ms"></parameter>
+  </parameters>
+  <parameters xml:lang="nb" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Databasetjener" descr="Host on which the database server is running" xml:lang="nb"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Port på databasetjener" xml:lang="nb"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="nb"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="nb"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Passord for administrator" xml:lang="nb"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Krev SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="nb"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="nb"></parameter>
+  </parameters>
+  <parameters xml:lang="ne" id="SERVER_CNX_P" name="सर्भर पहुँच परिमिति">
+    
+    <parameter id="HOST" gdatype="gchararray" name="डाटाबेस सर्भर" descr="चलिरहेको डाटावेस सर्भरको होस्ट" xml:lang="ne"></parameter>
+    <parameter id="PORT" gdatype="gint" name="पोर्ट" descr="डाटाबेस सर्भर पोर्ट" xml:lang="ne"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX सोकेट" descr="स्थानीय रूपमा जडान गर्नका लागि UNIX SOCKETको पूरा बाटो" xml:lang="ne"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="प्रशासक लगइन" descr="लगइन नाम ( जोसँग डाटाबेस सिर्जना गर्ने अधिकारहरू छ)" xml:lang="ne"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="प्रशासक पासवर्ड" xml:lang="ne"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="SSL आवश्यक पर्छ" descr="जडान स्थापानाका लागि SSL प्रयोग गर्न पर्छ वा पर्दैन" xml:lang="ne"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="ne"></parameter>
+  </parameters>
+  <parameters xml:lang="nl" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Databaseserver" descr="Host on which the database server is running" xml:lang="nl"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Poort" descr="Database server port" xml:lang="nl"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="nl"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="nl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="nl"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Vereist SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="nl"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="nl"></parameter>
+  </parameters>
+  <parameters xml:lang="oc" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Servidor de basa de donadas" descr="Host on which the database server is running" xml:lang="oc"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Pòrt" descr="Database server port" xml:lang="oc"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="oc"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="oc"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="oc"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="oc"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="oc"></parameter>
+  </parameters>
+  <parameters xml:lang="pa" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="pa"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="pa"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="pa"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="pa"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="pa"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="pa"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="pa"></parameter>
+  </parameters>
+  <parameters xml:lang="pl" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="pl"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="pl"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="pl"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="pl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="pl"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="pl"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="pl"></parameter>
+  </parameters>
+  <parameters xml:lang="pt" id="SERVER_CNX_P" name="Parâmetros de acesso ao servidor">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Servidor de base de dados" descr="Máquina onde a base de dados se encontra em execução" xml:lang="pt"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Porto" descr="Porto do servidor de base de dados" xml:lang="pt"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Socket UNIX" descr="Caminho completo do socket UNIX a utilizar ao se ligar localmente" xml:lang="pt"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Login de administrador" descr="Nome de login (que tem direito de criação de bases de dados)" xml:lang="pt"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Palavra-chave do administrador" xml:lang="pt"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Requerer SSL" descr="Utilizar ou não SSL para estabelecer ligação" xml:lang="pt"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="pt"></parameter>
+  </parameters>
+  <parameters xml:lang="pt_BR" id="SERVER_CNX_P" name="Parâmetros de acesso ao servidor">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Servidor de banco de dados" descr="A máquina em que o servidor do banco de dados executa" xml:lang="pt_BR"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Porta" descr="Porta do servidor de banco de dados" xml:lang="pt_BR"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Soquete UNIX" descr="Caminho completo do soquete UNIX a utilizar em conexões locais" xml:lang="pt_BR"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Usuário administrador" descr="Nome de usuário (que tem direito de criar bancos de dados)" xml:lang="pt_BR"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Senha de administrador" xml:lang="pt_BR"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Exige SSL" descr="Se utiliza ou não SSL para estabelecer a conexão" xml:lang="pt_BR"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Protocolo da conexão" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="pt_BR"></parameter>
+  </parameters>
+  <parameters xml:lang="ru" id="SERVER_CNX_P" name="Параметры доступа к серверу">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Сервер баз данных" descr="Узел, на котором запущен сервер баз данных" xml:lang="ru"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Порт" descr="Порт сервера баз данных" xml:lang="ru"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Сокет UNIX" descr="Полный путь к сокету UNIX, который будет использоваться для локального соединения" xml:lang="ru"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Имя пользователя администратора" descr="Имя пользователя (у которого есть права на создание баз данных)" xml:lang="ru"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Пароль администратора" xml:lang="ru"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Требуется SSL" descr="Использовать или нет SSL для создания соединения" xml:lang="ru"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="ru"></parameter>
+  </parameters>
+  <parameters xml:lang="rw" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="rw"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Umuyoboro" descr="Database server port" xml:lang="rw"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="rw"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="rw"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="rw"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="rw"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="rw"></parameter>
+  </parameters>
+  <parameters xml:lang="sk" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="sk"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="sk"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="sk"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="sk"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="sk"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="sk"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="sk"></parameter>
+  </parameters>
+  <parameters xml:lang="sl" id="SERVER_CNX_P" name="Parametri dostopa do strežnika">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Strežnik podatkovnih zbirk" descr="Gostitelj na katerem teče strežnik podatkovne zbirke" xml:lang="sl"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Vrata" descr="Vrata strežnika podatkovnih zbirk" xml:lang="sl"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Vtič UNIX" descr="Polna pot unix vtiča za uporabo pri krajevnih povezavah" xml:lang="sl"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Skrbniška prijava" descr="Prijavno ime (z dovoljenji za ustvarjanje podatkovnih zbirk)" xml:lang="sl"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Skrbniško geslo" xml:lang="sl"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Zahtevan SSL" descr="Ali naj bo uporabljen SSL za ustvarjanje povezave" xml:lang="sl"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Protokol povezave" descr="Izrečno določa protokol za povezavo. Možnost je uporabna pri povezavah, kjer bi bil sicer samodejno uporabljan drug protokol od želenega." xml:lang="sl"></parameter>
+  </parameters>
+  <parameters xml:lang="sq" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="sq"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="sq"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="sq"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="sq"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="sq"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="sq"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="sq"></parameter>
+  </parameters>
+  <parameters xml:lang="sr" id="SERVER_CNX_P" name="Параметри приступа серверу">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Сервер базе података" descr="Домаћин на коме ради сервер базе података" xml:lang="sr"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Прикључник" descr="Прикључник базе података" xml:lang="sr"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Јуникс прикључница" descr="Пуна путања ЈУНИКС прикључнице за коришћење приликом месног повезивања" xml:lang="sr"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Пријава администратора" descr="Име пријаве (које има права да ствара базе података)" xml:lang="sr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Лозинка администратора" xml:lang="sr"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Захтевај ССЛ" descr="Да ли ће се користити ССЛ за успостављање везе или не" xml:lang="sr"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Протокол повезивања" descr="Изричито наводи протокол повезивања за коришћење. Корисно је када би други параметри повезивања обично проузроковали коришћење протокола а не оног кога ви желите" xml:lang="sr"></parameter>
+  </parameters>
+  <parameters xml:lang="sr@Latn" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="sr@Latn"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="sr@Latn"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="sr@Latn"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="sr@Latn"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="sr@Latn"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="sr@Latn"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="sr@Latn"></parameter>
+  </parameters>
+  <parameters xml:lang="sr@latin" id="SERVER_CNX_P" name="Parametri pristupa serveru">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Server baze podataka" descr="Domaćin na kome radi server baze podataka" xml:lang="sr@latin"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Priključnik" descr="Priključnik baze podataka" xml:lang="sr@latin"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Juniks priključnica" descr="Puna putanja JUNIKS priključnice za korišćenje prilikom mesnog povezivanja" xml:lang="sr@latin"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Prijava administratora" descr="Ime prijave (koje ima prava da stvara baze podataka)" xml:lang="sr@latin"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Lozinka administratora" xml:lang="sr@latin"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Zahtevaj SSL" descr="Da li će se koristiti SSL za uspostavljanje veze ili ne" xml:lang="sr@latin"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Protokol povezivanja" descr="Izričito navodi protokol povezivanja za korišćenje. Korisno je kada bi drugi parametri povezivanja obično prouzrokovali korišćenje protokola a ne onog koga vi želite" xml:lang="sr@latin"></parameter>
+  </parameters>
+  <parameters xml:lang="sv" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Databasserver" descr="Host on which the database server is running" xml:lang="sv"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Databasserverns port" xml:lang="sv"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX-uttag" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="sv"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="sv"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="sv"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Kräver SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="sv"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="sv"></parameter>
+  </parameters>
+  <parameters xml:lang="tg" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="tg"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Порт" descr="Database server port" xml:lang="tg"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="tg"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="tg"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="tg"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="tg"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="tg"></parameter>
+  </parameters>
+  <parameters xml:lang="tr" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="tr"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port" xml:lang="tr"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="tr"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="tr"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="tr"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="tr"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="tr"></parameter>
+  </parameters>
+  <parameters xml:lang="uk" id="SERVER_CNX_P" name="Server access parameters">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running" xml:lang="uk"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Порт" descr="Database server port" xml:lang="uk"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Сокет UNIX" descr="Full path of the UNIX socket to use when connecting locally" xml:lang="uk"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Administrator login" descr="Login name (which has the rights to create databases)" xml:lang="uk"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Administrator password" xml:lang="uk"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Потребує SSL" descr="Whether or not to use SSL to establish the connection" xml:lang="uk"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="uk"></parameter>
+  </parameters>
+  <parameters xml:lang="vi" id="SERVER_CNX_P" name="Tham số truy cập máy phục vụ">
+    
+    <parameter id="HOST" gdatype="gchararray" name="Máy phục vụ cơ sở dữ liệu" descr="Máy trên đó chạy trình phục vụ cơ sở dữ liệu" xml:lang="vi"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Cổng" descr="Cổng của máy phục vụ cơ sở dữ liệu" xml:lang="vi"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="Ổ cắm UNIX" descr="Đường dẫn đầy đủ của ổ cắm UNIX cần dùng khi kết nối cục bộ" xml:lang="vi"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="Tên đăng nhập quản trị" descr="Tên đăng nhập (mà có quyền tạo cơ sở dữ liệu)" xml:lang="vi"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="Mật khẩu quản trị" xml:lang="vi"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Cần thiết SSL" descr="Có nên dùng SSL để thiết lập kết nối hay không" xml:lang="vi"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="vi"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_CN" id="SERVER_CNX_P" name="服务器访问参数">
+    
+    <parameter id="HOST" gdatype="gchararray" name="数据库服务器" descr="正自 运行数据库服务器的主机" xml:lang="zh_CN"></parameter>
+    <parameter id="PORT" gdatype="gint" name="端口" descr="数据库服务器端口" xml:lang="zh_CN"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="本地连接时使用的 UNIX 套接字的完整路径" xml:lang="zh_CN"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="管理员登录" descr="登录名 (其有创建数据库的权利)" xml:lang="zh_CN"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="管理员口令" xml:lang="zh_CN"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="要求 SSL" descr="是否使用 SSL 创建连接" xml:lang="zh_CN"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="zh_CN"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_HK" id="SERVER_CNX_P" name="伺服器存取參數">
+    
+    <parameter id="HOST" gdatype="gchararray" name="資料庫伺服器" descr="運行資料庫伺服器的主機" xml:lang="zh_HK"></parameter>
+    <parameter id="PORT" gdatype="gint" name="連接埠" descr="資料庫伺服器連接埠" xml:lang="zh_HK"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="本機連接時使用的 UNIX socket 完整路徑" xml:lang="zh_HK"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="管理員登入" descr="登入名稱（具有建立資料庫權利的）" xml:lang="zh_HK"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="管理員密碼" xml:lang="zh_HK"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="需要 SSL" descr="是否要使用 SSL 建立連線" xml:lang="zh_HK"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="zh_HK"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_TW" id="SERVER_CNX_P" name="伺服器存取參數">
+    
+    <parameter id="HOST" gdatype="gchararray" name="資料庫伺服器" descr="運行資料庫伺服器的主機" xml:lang="zh_TW"></parameter>
+    <parameter id="PORT" gdatype="gint" name="連接埠" descr="資料庫伺服器連接埠" xml:lang="zh_TW"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="本機連接時使用的 UNIX socket 完整路徑" xml:lang="zh_TW"></parameter>
+    <parameter id="ADM_LOGIN" gdatype="gchararray" name="管理員登入" descr="登入名稱（具有建立資料庫權利的）" xml:lang="zh_TW"></parameter>
+    <parameter plugin="string:HIDDEN=true" id="ADM_PASSWORD" gdatype="gchararray" name="管理員密碼" xml:lang="zh_TW"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="需要 SSL" descr="是否要使用 SSL 建立連線" xml:lang="zh_TW"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want" xml:lang="zh_TW"></parameter>
+  </parameters>
+
+    
+  <parameters id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database"></parameter>
+  </parameters>
+  <parameters xml:lang="ar" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="ar"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="ar"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="ar"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="ar"></parameter>
+  </parameters>
+  <parameters xml:lang="az" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="az"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="az"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="az"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="az"></parameter>
+  </parameters>
+  <parameters xml:lang="ca" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de dades" descr="The name of a database to create" xml:lang="ca"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="ca"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="ca"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="ca"></parameter>
+  </parameters>
+  <parameters xml:lang="ca@valencia" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de dades" descr="The name of a database to create" xml:lang="ca@valencia"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="ca@valencia"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="ca@valencia"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="ca@valencia"></parameter>
+  </parameters>
+  <parameters xml:lang="cs" id="DB_DEF_P" name="Popis databáze">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Název databáze" descr="Název databáze, která se má vytvořit" xml:lang="cs"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Jen když zatím neexistuje" descr="Vytvořit databázi, jen pokud zatím neexistuje" xml:lang="cs"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Znaková sada" descr="Kódování znakové sady, které se má použít pro novou databázi" xml:lang="cs"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Porovnávání" descr="Metoda porovnávání, která se má použít v nové databázi" xml:lang="cs"></parameter>
+  </parameters>
+  <parameters xml:lang="da" id="DB_DEF_P" name="Databasebeskrivelse">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasenavn" descr="Navn på en database til oprettelse" xml:lang="da"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Kun hvis den endnu ikke findes" descr="Opret kun database hvis den endnu ikke findes" xml:lang="da"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Tegnsæt" descr="Tegnsætskodning der skal bruges i den nye database" xml:lang="da"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Kollation" descr="Kollationsmetode til brug i den nye database" xml:lang="da"></parameter>
+  </parameters>
+  <parameters xml:lang="de" id="DB_DEF_P" name="Datenbankbeschreibung">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datenbankname" descr="Name der zu erstellenden Datenbank" xml:lang="de"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Nur wenn noch nicht vorhanden" descr="Datenbank erstellen, falls diese noch nicht existiert" xml:lang="de"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Zeichensatz" descr="Für die neue Datenbank zu verwendender Zeichensatz" xml:lang="de"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Alphabetische Sortierung" descr="In der neuen Datenbank zu verwendende Sortierungsmethode" xml:lang="de"></parameter>
+  </parameters>
+  <parameters xml:lang="dz" id="DB_DEF_P" name="གནས་སྡུད་གཞི་རྟེན་གྱི་འགྲེལ་བཤད།">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="གནས་སྡུད་གཞི་རྟེན་མིང་།" descr="གསར་བསྐྲུན་འབད་ནི་གནས་སྡུད་གཞི་རྟེན་ཅིག་གི་མིང་འདི།" xml:lang="dz"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="ད་ལྟོ་ཚུན་ཚོད་གནས་མེད་པ་ཅིན་རྐྱངམ་ཅིག" descr="ད་ལྟོ་ཚུན་ཚོད་གནས་མེད་པ་ཅིན་རྐྱངམ་ཅིག་གནས་སྡུད་གཞི་རྟེན་གསར་བསྐྲུན་འབད།" xml:lang="dz"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="ཡིག་འབྲུ་གཞི་སྒྲིག" descr="གནས་སྡུད་གཞི་རྟེན་གསརཔ་ནང་ལག་ལེན་འཐབ་ནི་ཡིག་འབྲུ་གི་ཨིན་ཀོ་ཌིང་གཞི་སྒྲིག་འབད།" xml:lang="dz"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="གོ་སྒྲིག" descr="གནས་སྡུད་གཞི་རྟེན་གསརཔ་ནང་ལག་ལེན་འཐབ་ནི་གོ་སྒྲིག་ཐབས་ལམ།" xml:lang="dz"></parameter>
+  </parameters>
+  <parameters xml:lang="el" id="DB_DEF_P" name="Περιγραφή της βάσης δεδομένων">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Όνομα βάσης δεδομένων" descr="Το όνομα της δημιουργούμενης βάσης δεδομένων" xml:lang="el"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Μόνο εάν δεν υπάρχει ακόμα" descr="Δημιουργία βάσης δεδομένων μόνο εάν δεν υπάρχει ακόμα" xml:lang="el"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Σύνολο χαρακτήρων" descr="Η κωδικοποίηση συνόλου χαρακτήρων για χρήση στη νέα βάση δεδομένων" xml:lang="el"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Ταξινόμηση" descr="Η μέθοδος ταξινόμησης για χρήση στη νέα βάση δεδομένων" xml:lang="el"></parameter>
+  </parameters>
+  <parameters xml:lang="en_CA" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="en_CA"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="en_CA"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="en_CA"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="en_CA"></parameter>
+  </parameters>
+  <parameters xml:lang="en_GB" id="DB_DEF_P" name="Database&apos;s description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="en_GB"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="en_GB"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="en_GB"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="en_GB"></parameter>
+  </parameters>
+  <parameters xml:lang="eo" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datumbaznomo" descr="The name of a database to create" xml:lang="eo"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="eo"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="eo"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="eo"></parameter>
+  </parameters>
+  <parameters xml:lang="es" id="DB_DEF_P" name="Descripción de la base de datos">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nombre de la base de datos" descr="El nombre de la base de datos que crear" xml:lang="es"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Sólo si aún no existe" descr="Crear la base de datos sólo si no existe aún" xml:lang="es"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Conjunto de caracteres" descr="Codificación del conjunto de caracteres a usar en la nueva base de datos" xml:lang="es"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Cotejamiento" descr="Método de cotejamiento que usar en la base de datos nueva" xml:lang="es"></parameter>
+  </parameters>
+  <parameters xml:lang="eu" id="DB_DEF_P" name="Datu-basearen azalpena">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datu-basearen izena" descr="Datu-basearen izena sortzeko" xml:lang="eu"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Soilik oraindik ez bada existitzen" descr="Sortu datu-basea oraindik ez bada existitzen soilik" xml:lang="eu"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Karaktere-multzoa" descr="Karaktere-multzoaren kodeketa datu-base berrian erabiltzeko" xml:lang="eu"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Erkatu" descr="Erkatzeko metodoa datu-base berrian erabiltzeko" xml:lang="eu"></parameter>
+  </parameters>
+  <parameters xml:lang="fa" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="fa"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="fa"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="fa"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="fa"></parameter>
+  </parameters>
+  <parameters xml:lang="fi" id="DB_DEF_P" name="Tietokannan kuvaus">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Tietokannan nimi" descr="Luotavan tietokannan nimi" xml:lang="fi"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Vain jos se ei ole vielä olemassa" descr="Luo tietokanta vain, jos se ei ole jo olemassa" xml:lang="fi"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Merkistö" descr="Uudessa tietokannassa käytettävä merkistön koodaus" xml:lang="fi"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Vertailu" descr="Uudessa tietokannassa käytettävä vertailutapa" xml:lang="fi"></parameter>
+  </parameters>
+  <parameters xml:lang="fr" id="DB_DEF_P" name="Description de la base de données">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de données" descr="Nom d&apos;une base de données à créer" xml:lang="fr"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Seulement si non existant" descr="Créer la base de données seulement si elle n&apos;existe pas encore" xml:lang="fr"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Jeu de caractères" descr="Codage du jeu de caractères pour la nouvelle base de données" xml:lang="fr"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Méthode de collation pour la nouvelle base de données" xml:lang="fr"></parameter>
+  </parameters>
+  <parameters xml:lang="ga" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="ga"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="ga"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="ga"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="ga"></parameter>
+  </parameters>
+  <parameters xml:lang="gl" id="DB_DEF_P" name="Descrición da base de datos">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome da base de datos" descr="O nome da base de datos a crear" xml:lang="gl"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Só se aínda non existe" descr="Crear a base de datos só se aínda non existe" xml:lang="gl"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Conxunto de caracteres" descr="Codificación do conxunto de caracteres a usar na nova base de datos" xml:lang="gl"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Cotexo" descr="Método de cotexo a usar na base de datos nova" xml:lang="gl"></parameter>
+  </parameters>
+  <parameters xml:lang="hr" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="hr"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="hr"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="hr"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="hr"></parameter>
+  </parameters>
+  <parameters xml:lang="hu" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Adatbázis neve" descr="The name of a database to create" xml:lang="hu"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="hu"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="hu"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="hu"></parameter>
+  </parameters>
+  <parameters xml:lang="id" id="DB_DEF_P" name="Deskripsi basis data">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nama basis data" descr="Nama basis data untuk dibuat" xml:lang="id"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Hanya bila belum ada" descr="Buat basis data hanya bila belum ada" xml:lang="id"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Gugus karakter" descr="Pengkodean gugus karakter yang dipakai dalam basis data baru" xml:lang="id"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Kolasi" descr="Metoda kolasi yang dipakai dalam basis data baru" xml:lang="id"></parameter>
+  </parameters>
+  <parameters xml:lang="it" id="DB_DEF_P" name="Descrizione database">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome database" descr="Nome di un database da creare" xml:lang="it"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Solo se non esiste già" descr="Crea il database solo se non esiste già" xml:lang="it"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Set di caratteri" descr="Codifica caratteri da usare nel nuovo database" xml:lang="it"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Metodo collation da usare nel nuovo database" xml:lang="it"></parameter>
+  </parameters>
+  <parameters xml:lang="ja" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="データベース名" descr="作成するデータベースの名前" xml:lang="ja"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="ja"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="ja"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="ja"></parameter>
+  </parameters>
+  <parameters xml:lang="ko" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="ko"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="ko"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="ko"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="ko"></parameter>
+  </parameters>
+  <parameters xml:lang="lt" id="DB_DEF_P" name="Duomenų bazės aprašymas">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Duomenų bazės vardas" descr="Sukuriamos duomenų bazės vardas" xml:lang="lt"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="lt"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Simbolių koduotė" descr="Naujoje duomenų bazėje naudojama simbolių koduotė" xml:lang="lt"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="lt"></parameter>
+  </parameters>
+  <parameters xml:lang="lv" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="lv"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="lv"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="lv"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="lv"></parameter>
+  </parameters>
+  <parameters xml:lang="mk" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="mk"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="mk"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="mk"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="mk"></parameter>
+  </parameters>
+  <parameters xml:lang="ml" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="ml"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="ml"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="ml"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="ml"></parameter>
+  </parameters>
+  <parameters xml:lang="ms" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="ms"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="ms"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="ms"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="ms"></parameter>
+  </parameters>
+  <parameters xml:lang="nb" id="DB_DEF_P" name="Beskrivelse av database">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasenavn" descr="Navn på databasen som skal opprettes" xml:lang="nb"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="nb"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Tegnsett" descr="Character set encoding to use in the new database" xml:lang="nb"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="nb"></parameter>
+  </parameters>
+  <parameters xml:lang="ne" id="DB_DEF_P" name="डाटावेशको वर्णन">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="डाटाबेस नाम" descr="सिर्जना गर्न डाटाबेसको नाम" xml:lang="ne"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="यदि यो अहिले अवस्थित छैन भने मात्र" descr="यदि यो अहिले अवस्थित छैन भने डाटावेश मात्र सिर्जना गर्नुहोस्" xml:lang="ne"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="क्यारेक्टर सेट" descr="नयाँ डाटाबेसमा प्रयोग गर्नका लागि क्यारेक्टर सेट सङ्केतन" xml:lang="ne"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="मिलान" descr="नयाँ डाटाबेसमा प्रयोग गर्नका लागि मिलान विधि" xml:lang="ne"></parameter>
+  </parameters>
+  <parameters xml:lang="nl" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database naam" descr="The name of a database to create" xml:lang="nl"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="nl"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="nl"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="nl"></parameter>
+  </parameters>
+  <parameters xml:lang="oc" id="DB_DEF_P" name="Descripcion">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="oc"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="oc"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Jòc de caractèrs" descr="Character set encoding to use in the new database" xml:lang="oc"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Emplaçament" descr="Collation method to use in the new database" xml:lang="oc"></parameter>
+  </parameters>
+  <parameters xml:lang="pa" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="pa"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="pa"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="pa"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="pa"></parameter>
+  </parameters>
+  <parameters xml:lang="pl" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="pl"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="pl"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="pl"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="pl"></parameter>
+  </parameters>
+  <parameters xml:lang="pt" id="DB_DEF_P" name="Descrição da base de dados">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome da base de dados" descr="Nome da base de dados a criar" xml:lang="pt"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Apenas se ainda não existe" descr="Criar base de dados apenas se ainda não existir" xml:lang="pt"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Conjunto de caracteres" descr="Codificação dos caracteres a utilizar na nova base de dados" xml:lang="pt"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Junção" descr="Método de junção a utilizar na nova base de dados" xml:lang="pt"></parameter>
+  </parameters>
+  <parameters xml:lang="pt_BR" id="DB_DEF_P" name="Descrição do banco de dados">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome do banco de dados" descr="O nome do banco de dados a ser criado" xml:lang="pt_BR"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Somente se ainda não existir" descr="Cria um banco de dados somente se ainda não existir um" xml:lang="pt_BR"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Codificação de caracteres" descr="A codificação de caracteres a usar no novo banco de dados" xml:lang="pt_BR"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="pt_BR"></parameter>
+  </parameters>
+  <parameters xml:lang="ru" id="DB_DEF_P" name="Описание базы данных">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Имя базы данных" descr="Имя создаваемой базы данных" xml:lang="ru"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Только если ещё не существует" descr="Создать базу данных, если она ещё не существует" xml:lang="ru"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Набор символов" descr="Кодировка символов, которая будет использована в новой базе данных" xml:lang="ru"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Сопоставление" descr="Метод сопоставления, который будет использоваться новой базой данных" xml:lang="ru"></parameter>
+  </parameters>
+  <parameters xml:lang="rw" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="rw"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="rw"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="rw"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="rw"></parameter>
+  </parameters>
+  <parameters xml:lang="sk" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="sk"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="sk"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="sk"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="sk"></parameter>
+  </parameters>
+  <parameters xml:lang="sl" id="DB_DEF_P" name="Opis podatkovne zbirke">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Ime podatkovne zbirke" descr="Ime podatkovne zbirke za ustvarjanje" xml:lang="sl"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Le v kolikor še ne obstaja" descr="Ustvari podatkovno zbirko le v primeru, da še ne obstaja" xml:lang="sl"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Znakovni nabor" descr="Znakovni nabor uporabljen pri novih zbirkah podatkov." xml:lang="sl"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Zbiranje" descr="Način zbiranja uporabljen v novih podatkovnih zbirkah" xml:lang="sl"></parameter>
+  </parameters>
+  <parameters xml:lang="sq" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="sq"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="sq"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="sq"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="sq"></parameter>
+  </parameters>
+  <parameters xml:lang="sr" id="DB_DEF_P" name="Опис базе података">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Назив базе података" descr="Назив базе података за стварање" xml:lang="sr"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Само ако још увек не постоји" descr="Направите базу података само ако још увек не постоји" xml:lang="sr"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Скуп знакова" descr="Кодирање скупа знакова за коришћење у новој бази података" xml:lang="sr"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Сравњивање" descr="Начин сравњивања за коришћење у новој бази података" xml:lang="sr"></parameter>
+  </parameters>
+  <parameters xml:lang="sr@Latn" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="sr@Latn"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="sr@Latn"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="sr@Latn"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="sr@Latn"></parameter>
+  </parameters>
+  <parameters xml:lang="sr@latin" id="DB_DEF_P" name="Opis baze podataka">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Naziv baze podataka" descr="Naziv baze podataka za stvaranje" xml:lang="sr@latin"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Samo ako još uvek ne postoji" descr="Napravite bazu podataka samo ako još uvek ne postoji" xml:lang="sr@latin"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Skup znakova" descr="Kodiranje skupa znakova za korišćenje u novoj bazi podataka" xml:lang="sr@latin"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Sravnjivanje" descr="Način sravnjivanja za korišćenje u novoj bazi podataka" xml:lang="sr@latin"></parameter>
+  </parameters>
+  <parameters xml:lang="sv" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasnamn" descr="The name of a database to create" xml:lang="sv"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Endast om den inte redan finns" descr="Create database only if it does not yet exist" xml:lang="sv"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Teckentabell" descr="Character set encoding to use in the new database" xml:lang="sv"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Sortering" descr="Collation method to use in the new database" xml:lang="sv"></parameter>
+  </parameters>
+  <parameters xml:lang="tg" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="tg"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="tg"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="tg"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="tg"></parameter>
+  </parameters>
+  <parameters xml:lang="tr" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to create" xml:lang="tr"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="tr"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="tr"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="tr"></parameter>
+  </parameters>
+  <parameters xml:lang="uk" id="DB_DEF_P" name="Database's description">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Назва бази даних" descr="The name of a database to create" xml:lang="uk"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="uk"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Character set" descr="Character set encoding to use in the new database" xml:lang="uk"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Collation" descr="Collation method to use in the new database" xml:lang="uk"></parameter>
+  </parameters>
+  <parameters xml:lang="vi" id="DB_DEF_P" name="Mô tả co sở dữ liệu">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Tên cơ sở dữ liệu" descr="Tên của cơ sở dữ liệu cần tạo" xml:lang="vi"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Chỉ nếu nó chưa tồn tại" descr="Tạo co sở dữ liệu chỉ nếu nó chưa tồn tại" xml:lang="vi"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="Bộ ký tự" descr="Bộ ký tự cần dùng cho cơ sở dữ liệu mới" xml:lang="vi"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="Đối hợp" descr="Phương pháp đối chiếu cần dùng trong cơ sở dữ liệu mới" xml:lang="vi"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_CN" id="DB_DEF_P" name="数据库描述">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="数据库名" descr="要创建的数据库的名称" xml:lang="zh_CN"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="只在尚未存在时" descr="只创建尚不存在的数据库" xml:lang="zh_CN"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="字符集" descr="在新数据库中使用的字符集编码" xml:lang="zh_CN"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="排序规则" descr="要在新数据库中使用的排序方法" xml:lang="zh_CN"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_HK" id="DB_DEF_P" name="資料庫的說明">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="資料庫名稱" descr="要建立的資料庫的名稱" xml:lang="zh_HK"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="zh_HK"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="字符集" descr="用於新資料庫的字符集編碼" xml:lang="zh_HK"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="理序 (Collation)" descr="用於新資料庫的理序 (Collation) 方法" xml:lang="zh_HK"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_TW" id="DB_DEF_P" name="資料庫的說明">
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="資料庫名稱" descr="要建立的資料庫的名稱" xml:lang="zh_TW"></parameter>
+    <parameter id="DB_IFNOTEXISTS" gdatype="gboolean" name="Only if it does not yet exist" descr="Create database only if it does not yet exist" xml:lang="zh_TW"></parameter>
+    <parameter source="csets:0" id="DB_CSET" gdatype="gchararray" name="字元集" descr="用於新資料庫的字元集編碼" xml:lang="zh_TW"></parameter>
+    <parameter id="DB_COLLATION" gdatype="gchararray" name="理序 (Collation)" descr="用於新資料庫的理序 (Collation) 方法" xml:lang="zh_TW"></parameter>
+  </parameters>
+  <sources>
+    <gda_array name="csets">
+      <gda_array_field name="id" gdatype="gchararray"/>
+      <gda_array_field name="text" gdatype="gchararray"/>
+      <gda_array_data>
+        <gda_array_row>
+          <gda_value>utf8</gda_value>
+          <gda_value>UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="cs">UTF-8 / unikód</gda_value>
+          <gda_value xml:lang="da">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="de">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="dz">ཡུ་ཊི་ཨེཕ་-༨ ཡུ་ནི་ཀོཌི།</gda_value>
+          <gda_value xml:lang="el">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="en_GB">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="eo">UTF-8 Unikodo</gda_value>
+          <gda_value xml:lang="es">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="eu">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="fi">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="fr">Unicode (UTF-8)</gda_value>
+          <gda_value xml:lang="gl">Unicode UTF-8</gda_value>
+          <gda_value xml:lang="id">Unicode UTF-8</gda_value>
+          <gda_value xml:lang="it">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="ja">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="lt">UTF-8 Unikodas</gda_value>
+          <gda_value xml:lang="nb">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="ne">UTF-८ युनिकोड</gda_value>
+          <gda_value xml:lang="pt">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="pt_BR">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="ru">UTF-8 Юникод</gda_value>
+          <gda_value xml:lang="sl">Unicode (UTF-8)</gda_value>
+          <gda_value xml:lang="sr">УТФ‑8 уникод</gda_value>
+          <gda_value xml:lang="sr@latin">UTF‑8 unikod</gda_value>
+          <gda_value xml:lang="sv">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="vi">UTF-8 Unicode</gda_value>
+          <gda_value xml:lang="zh_CN">UTF-8 Unicode</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>latin1</gda_value>
+          <gda_value>ISO 8859-1 West European</gda_value>
+          <gda_value xml:lang="cs">ISO 8859-1 / západní Evropa</gda_value>
+          <gda_value xml:lang="da">ISO 8859-1 vesteuropæisk</gda_value>
+          <gda_value xml:lang="de">ISO 8859-1 Westeuropäisch</gda_value>
+          <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༡ ནུབ་ཕྱོགས་ཡུ་རོ་པིན།</gda_value>
+          <gda_value xml:lang="el">ISO 8859-1 Δυτικοευρωπαϊκή</gda_value>
+          <gda_value xml:lang="en_GB">ISO 8859-1 West European</gda_value>
+          <gda_value xml:lang="es">ISO 8859-1 Europa occidental</gda_value>
+          <gda_value xml:lang="eu">ISO 8859-1 Europako Mendebaldekoa</gda_value>
+          <gda_value xml:lang="fi">ISO-8859-1 länsieurooppalainen</gda_value>
+          <gda_value xml:lang="fr">Europe occidentale (ISO-8859-1)</gda_value>
+          <gda_value xml:lang="gl">ISO 8859-1 europeo occidental</gda_value>
+          <gda_value xml:lang="id">ISO 8859-1 Eropa Barat</gda_value>
+          <gda_value xml:lang="it">ISO 8859-1 Europa ovest</gda_value>
+          <gda_value xml:lang="lt">ISO 8859-1 Vakarų Europos</gda_value>
+          <gda_value xml:lang="ne">ISO ८८५९-१ पश्चिम यूरोपेली</gda_value>
+          <gda_value xml:lang="pt">ISO 8859-1 Europeu Ocidental</gda_value>
+          <gda_value xml:lang="pt_BR">ISO 8859-1 Europa ocidental</gda_value>
+          <gda_value xml:lang="ru">ISO 8859-1 Западная Европа</gda_value>
+          <gda_value xml:lang="sl">Zahodno_evropsko (ISO-8859-1)</gda_value>
+          <gda_value xml:lang="sr">ИСО 8859-1 западно-европски</gda_value>
+          <gda_value xml:lang="sr@latin">ISO 8859-1 zapadno-evropski</gda_value>
+          <gda_value xml:lang="sv">ISO 8859-1 Västeuropeisk</gda_value>
+          <gda_value xml:lang="vi">ISO 8859-1 vùng Tây Âu</gda_value>
+          <gda_value xml:lang="zh_CN">ISO 8859-1 西欧</gda_value>
+          <gda_value xml:lang="zh_HK">ISO 8859-1 西歐</gda_value>
+          <gda_value xml:lang="zh_TW">ISO 8859-1 西歐</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>latin2</gda_value>
+          <gda_value>ISO 8859-2 Central European</gda_value>
+          <gda_value xml:lang="cs">ISO 8859-2 / střední Evropa</gda_value>
+          <gda_value xml:lang="da">ISO 8859-2 centraleuropæisk</gda_value>
+          <gda_value xml:lang="de">ISO 8859-2 Mitteleuropäisch</gda_value>
+          <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༢ དབུས་ཡུ་རོ་པིན།</gda_value>
+          <gda_value xml:lang="el">ISO 8859-2 Κεντροευρωπαϊκή</gda_value>
+          <gda_value xml:lang="en_GB">ISO 8859-2 Central European</gda_value>
+          <gda_value xml:lang="es">ISO 8859-2 Europa central</gda_value>
+          <gda_value xml:lang="eu">ISO 8859-2 Europako Erdialdekoa</gda_value>
+          <gda_value xml:lang="fi">ISO-8859-2 keskieurooppalainen</gda_value>
+          <gda_value xml:lang="fr">Europe centrale (ISO 8859-2)</gda_value>
+          <gda_value xml:lang="gl">ISO 8859-2 centroeuropeo</gda_value>
+          <gda_value xml:lang="id">ISO 8859-2 Eropa Tengah</gda_value>
+          <gda_value xml:lang="it">ISO 8859-2 Europa centrale</gda_value>
+          <gda_value xml:lang="lt">ISO 8859-2 Centrinės Europos</gda_value>
+          <gda_value xml:lang="ne">ISO ८८५९-२ मध्य यूरोपेली</gda_value>
+          <gda_value xml:lang="pt">ISO 8859-2 Europeu Central</gda_value>
+          <gda_value xml:lang="pt_BR">ISO 8859-2 Europa central</gda_value>
+          <gda_value xml:lang="ru">ISO 8859-2 Центральная Европа</gda_value>
+          <gda_value xml:lang="sl">Srednjeevropski (ISO-8859-2)</gda_value>
+          <gda_value xml:lang="sr">ИСО 8859-2 централно-европски</gda_value>
+          <gda_value xml:lang="sr@latin">ISO 8859-2 centralno-evropski</gda_value>
+          <gda_value xml:lang="sv">ISO 8859-2 Centraleuropeisk</gda_value>
+          <gda_value xml:lang="vi">ISO 8859-2 vùng Trung Âu</gda_value>
+          <gda_value xml:lang="zh_CN">ISO 8859-2 中欧</gda_value>
+          <gda_value xml:lang="zh_HK">ISO 8859-2 中歐</gda_value>
+          <gda_value xml:lang="zh_TW">ISO 8859-2 中歐</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>ascii</gda_value>
+          <gda_value>US ASCII</gda_value>
+          <gda_value xml:lang="cs">US ASCII</gda_value>
+          <gda_value xml:lang="da">US ASCII</gda_value>
+          <gda_value xml:lang="de">US ASCII</gda_value>
+          <gda_value xml:lang="dz">ཡུ་ཨེསི་ ཨེ་ཨེསི་སི་ཨའི་ཨའི།</gda_value>
+          <gda_value xml:lang="el">US ASCII</gda_value>
+          <gda_value xml:lang="en_GB">US ASCII</gda_value>
+          <gda_value xml:lang="es">ASCII EE. UU.</gda_value>
+          <gda_value xml:lang="eu">AEBko ASCII</gda_value>
+          <gda_value xml:lang="fi">US ASCII</gda_value>
+          <gda_value xml:lang="fr">ASCII</gda_value>
+          <gda_value xml:lang="gl">ASCII EE.UU.</gda_value>
+          <gda_value xml:lang="id">US ASCII</gda_value>
+          <gda_value xml:lang="it">ASCII US</gda_value>
+          <gda_value xml:lang="ja">US ASCII</gda_value>
+          <gda_value xml:lang="lt">US ASCII</gda_value>
+          <gda_value xml:lang="nb">US ASCII</gda_value>
+          <gda_value xml:lang="ne">US ASCII</gda_value>
+          <gda_value xml:lang="pt">ASCII dos EUA</gda_value>
+          <gda_value xml:lang="pt_BR">ASCII Estadunidense</gda_value>
+          <gda_value xml:lang="ru">ASCII США</gda_value>
+          <gda_value xml:lang="sl">Angleško (US-ASCII)</gda_value>
+          <gda_value xml:lang="sr">САД АСКРИ</gda_value>
+          <gda_value xml:lang="sr@latin">SAD ASKRI</gda_value>
+          <gda_value xml:lang="sv">US ASCII</gda_value>
+          <gda_value xml:lang="vi">Mỹ ASCII</gda_value>
+          <gda_value xml:lang="zh_CN">US ASCII</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>big5</gda_value>
+          <gda_value>Big5 Traditional Chinese</gda_value>
+          <gda_value xml:lang="cs">Big5 / tradiční čínština</gda_value>
+          <gda_value xml:lang="da">Big5 traditionelt kinesisk</gda_value>
+          <gda_value xml:lang="de">Big5 Traditionelles Chinesisch</gda_value>
+          <gda_value xml:lang="dz">བིག་༥ རྒྱ་ནག་གི་སྔོན་སྲོལ།</gda_value>
+          <gda_value xml:lang="el">Παραδοσιακά Κινέζικα Big5</gda_value>
+          <gda_value xml:lang="en_GB">Big5 Traditional Chinese</gda_value>
+          <gda_value xml:lang="es">Big5 chino tradicional</gda_value>
+          <gda_value xml:lang="eu">Big5 txinatar tradizionala</gda_value>
+          <gda_value xml:lang="fi">Big5 perinteinen kiinalainen</gda_value>
+          <gda_value xml:lang="fr">Chinois traditionnel Big5</gda_value>
+          <gda_value xml:lang="gl">Big5 chinés tradicional</gda_value>
+          <gda_value xml:lang="id">Cina Tradisional Big5</gda_value>
+          <gda_value xml:lang="it">Big5 cinese tradizionale</gda_value>
+          <gda_value xml:lang="lt">Big5 Tradicinė kinų</gda_value>
+          <gda_value xml:lang="ne">बिग५ परम्परागत चिनीयाँ</gda_value>
+          <gda_value xml:lang="pt">Chinês Tradicional Big5</gda_value>
+          <gda_value xml:lang="pt_BR">Big5 Chinês tradicional</gda_value>
+          <gda_value xml:lang="ru">Big5 Традиционный Китайский</gda_value>
+          <gda_value xml:lang="sl">Tradicionalni kitajski (Big5)</gda_value>
+          <gda_value xml:lang="sr">Биг5 традиционални кинески</gda_value>
+          <gda_value xml:lang="sr@latin">Big5 tradicionalni kineski</gda_value>
+          <gda_value xml:lang="vi">Big5 Hoà truyền thống</gda_value>
+          <gda_value xml:lang="zh_CN">Big5 正体中文</gda_value>
+          <gda_value xml:lang="zh_HK">Big5 繁體中文</gda_value>
+          <gda_value xml:lang="zh_TW">Big5 繁體中文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>dec8</gda_value>
+          <gda_value>DEC West European</gda_value>
+          <gda_value xml:lang="cs">DEC / západní Evropa</gda_value>
+          <gda_value xml:lang="da">DEC vesteuropæisk</gda_value>
+          <gda_value xml:lang="de">DEC Westeuropäisch</gda_value>
+          <gda_value xml:lang="dz">ཌི་ཨི་སི་ནུབ་ཕྱོགས་ཡུ་རོ་པིན།</gda_value>
+          <gda_value xml:lang="el">Δυτικοευρωπαϊκά DEC</gda_value>
+          <gda_value xml:lang="en_GB">DEC West European</gda_value>
+          <gda_value xml:lang="es">DEC Europa occidental</gda_value>
+          <gda_value xml:lang="eu">DEC Europako Mendebala</gda_value>
+          <gda_value xml:lang="fi">DEC länsieurooppalainen</gda_value>
+          <gda_value xml:lang="fr">Europe occidentale (DEC)</gda_value>
+          <gda_value xml:lang="gl">DEC europeo occidental</gda_value>
+          <gda_value xml:lang="id">DEC Eropa Barat</gda_value>
+          <gda_value xml:lang="it">DEC Europa ovest</gda_value>
+          <gda_value xml:lang="lt">DEC Vakarų Europos</gda_value>
+          <gda_value xml:lang="ne">DEC पश्चिम यूरोपेली</gda_value>
+          <gda_value xml:lang="pt">DEC Europeu Ocidental</gda_value>
+          <gda_value xml:lang="pt_BR">DEC Europa ocidental</gda_value>
+          <gda_value xml:lang="ru">DEC Западная Европа</gda_value>
+          <gda_value xml:lang="sl">Zahodnoevropski (DEC)</gda_value>
+          <gda_value xml:lang="sr">ДЕЦ западно-европски</gda_value>
+          <gda_value xml:lang="sr@latin">DEC zapadno-evropski</gda_value>
+          <gda_value xml:lang="sv">DEC Västeuropeisk</gda_value>
+          <gda_value xml:lang="vi">DEC vùng Tây Âu</gda_value>
+          <gda_value xml:lang="zh_CN">DEC 西欧</gda_value>
+          <gda_value xml:lang="zh_HK">DEC 西歐</gda_value>
+          <gda_value xml:lang="zh_TW">DEC 西歐</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>cp850</gda_value>
+          <gda_value>DOS West European</gda_value>
+          <gda_value xml:lang="cs">DOS / západní Evropa</gda_value>
+          <gda_value xml:lang="da">DOS vesteuropæisk</gda_value>
+          <gda_value xml:lang="de">DOS Westeuropäisch</gda_value>
+          <gda_value xml:lang="dz">ཌི་ཨོ་ཨེསི་ནུབ་ཕྱོགས་ཡུ་རོ་པིན།</gda_value>
+          <gda_value xml:lang="el">Δυτικοευρωπαϊκά DOS</gda_value>
+          <gda_value xml:lang="en_GB">DOS West European</gda_value>
+          <gda_value xml:lang="es">DOS Europa occidental</gda_value>
+          <gda_value xml:lang="eu">DOS Europako Mendebaldekoa</gda_value>
+          <gda_value xml:lang="fi">DOS länsieurooppalainen</gda_value>
+          <gda_value xml:lang="fr">Europe occidentale (DOS)</gda_value>
+          <gda_value xml:lang="gl">DOS europeo occidental</gda_value>
+          <gda_value xml:lang="id">DOS Eropa Barat</gda_value>
+          <gda_value xml:lang="it">DOS Europa ovest</gda_value>
+          <gda_value xml:lang="lt">DOS Vakarų Europos</gda_value>
+          <gda_value xml:lang="ne">DOS पश्चिम यूरोपेली</gda_value>
+          <gda_value xml:lang="pt">DOS Europeu Ocidental</gda_value>
+          <gda_value xml:lang="pt_BR">DOS Europa ocidental</gda_value>
+          <gda_value xml:lang="ru">DOS Западная Европа</gda_value>
+          <gda_value xml:lang="sl">zahodnoevropski (DOS)</gda_value>
+          <gda_value xml:lang="sr">ДОС западно-европски</gda_value>
+          <gda_value xml:lang="sr@latin">DOS zapadno-evropski</gda_value>
+          <gda_value xml:lang="sv">DOS Västeuropeisk</gda_value>
+          <gda_value xml:lang="vi">DOS vùng Tây Âu</gda_value>
+          <gda_value xml:lang="zh_CN">DOS 西欧</gda_value>
+          <gda_value xml:lang="zh_HK">DOS 西歐</gda_value>
+          <gda_value xml:lang="zh_TW">DOS 西歐</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>hp8</gda_value>
+          <gda_value>HP West European</gda_value>
+          <gda_value xml:lang="cs">HP / západní Evropa</gda_value>
+          <gda_value xml:lang="da">HP vesteuropæisk</gda_value>
+          <gda_value xml:lang="de">HP Westeuropäisch</gda_value>
+          <gda_value xml:lang="dz">ཨེཆ་པི་ནུབ་ཕྱོགས་ཡུ་རོ་པིན།</gda_value>
+          <gda_value xml:lang="el">Δυτικοευρωπαϊκά HP</gda_value>
+          <gda_value xml:lang="en_GB">HP West European</gda_value>
+          <gda_value xml:lang="es">HP Europa occidental</gda_value>
+          <gda_value xml:lang="eu">HP Europako Mendebaldekoa</gda_value>
+          <gda_value xml:lang="fi">HP länsieurooppalainen</gda_value>
+          <gda_value xml:lang="fr">Europe occidentale (HP)</gda_value>
+          <gda_value xml:lang="gl">HP europeo occidental</gda_value>
+          <gda_value xml:lang="id">HP Eropa Barat</gda_value>
+          <gda_value xml:lang="it">HP Europa ovest</gda_value>
+          <gda_value xml:lang="lt">HP Vakarų Europos</gda_value>
+          <gda_value xml:lang="ne">HP पश्चिम यूरोपेली</gda_value>
+          <gda_value xml:lang="pt">HP Europeu Ocidental</gda_value>
+          <gda_value xml:lang="pt_BR">HP Europeu ocidental</gda_value>
+          <gda_value xml:lang="ru">HP Западная Европа</gda_value>
+          <gda_value xml:lang="sl">Zahodnoevropski (HP)</gda_value>
+          <gda_value xml:lang="sr">ХП западно-европски</gda_value>
+          <gda_value xml:lang="sr@latin">HP zapadno-evropski</gda_value>
+          <gda_value xml:lang="sv">HP Västeuropeisk</gda_value>
+          <gda_value xml:lang="vi">HP vùng Tây Âu</gda_value>
+          <gda_value xml:lang="zh_CN">HP 西欧</gda_value>
+          <gda_value xml:lang="zh_HK">HP 西歐</gda_value>
+          <gda_value xml:lang="zh_TW">HP 西歐</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>koi8r</gda_value>
+          <gda_value>KOI8-R Relcom Russian</gda_value>
+          <gda_value xml:lang="cs">KOI8-R Relcom / ruština</gda_value>
+          <gda_value xml:lang="da">KOI8-R Relcom russisk</gda_value>
+          <gda_value xml:lang="de">KOI8-R Relcom-Russisch</gda_value>
+          <gda_value xml:lang="dz">ཀེ་ཨོ་ཨའི་༨-ཨར་ རིལ་ཀོམ་ ར་་ཤི་ཡཱན།</gda_value>
+          <gda_value xml:lang="el">Ρώσικα Relcom KOI8-R</gda_value>
+          <gda_value xml:lang="en_GB">KOI8-R Relcom Russian</gda_value>
+          <gda_value xml:lang="es">KOI8-R Relcom ruso</gda_value>
+          <gda_value xml:lang="eu">KOI8-R Relcom Errusiera</gda_value>
+          <gda_value xml:lang="fi">KOI8-R venäläinen</gda_value>
+          <gda_value xml:lang="fr">Russe Relcom (KOI8-R)</gda_value>
+          <gda_value xml:lang="gl">KOI8-R relcom ruso</gda_value>
+          <gda_value xml:lang="id">Rusia Relcom KOI8-R</gda_value>
+          <gda_value xml:lang="it">KOI8-R russo Relcom</gda_value>
+          <gda_value xml:lang="lt">KOI8-R Rusų (Relcom)</gda_value>
+          <gda_value xml:lang="ne">KOI8-आर रेलकम रसीयाली</gda_value>
+          <gda_value xml:lang="pt">KOI8-R Relcom Russo</gda_value>
+          <gda_value xml:lang="pt_BR">KOI8-R Relcom Russo</gda_value>
+          <gda_value xml:lang="ru">KOI8-R Россия Реклом</gda_value>
+          <gda_value xml:lang="sl">Ruski (KOI8-R Relcom)</gda_value>
+          <gda_value xml:lang="sr">КОИ8-Р релком руски</gda_value>
+          <gda_value xml:lang="sr@latin">KOI8-R relkom ruski</gda_value>
+          <gda_value xml:lang="sv">KOI8-R Relcom ryska</gda_value>
+          <gda_value xml:lang="vi">KOI8-R Relcom Nga</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>swe7</gda_value>
+          <gda_value>7bit Swedish</gda_value>
+          <gda_value xml:lang="cs">7bitová švédština</gda_value>
+          <gda_value xml:lang="da">7bit svensk</gda_value>
+          <gda_value xml:lang="de">7bit Schwedisch</gda_value>
+          <gda_value xml:lang="dz">སུའི་ཌིཤི་ བིཊི་༧</gda_value>
+          <gda_value xml:lang="el">Σουηδικά 7 δυαδικών</gda_value>
+          <gda_value xml:lang="en_GB">7bit Swedish</gda_value>
+          <gda_value xml:lang="es">7bit sueco</gda_value>
+          <gda_value xml:lang="eu">7bit suediarra</gda_value>
+          <gda_value xml:lang="fi">7-bittinen ruotsalainen</gda_value>
+          <gda_value xml:lang="fr">Suédois sur 7 bits</gda_value>
+          <gda_value xml:lang="gl">7bit  sueco</gda_value>
+          <gda_value xml:lang="id">Swedia 7bit</gda_value>
+          <gda_value xml:lang="it">7bit svedese</gda_value>
+          <gda_value xml:lang="lt">7bit Švedų</gda_value>
+          <gda_value xml:lang="nb">7bit svensk</gda_value>
+          <gda_value xml:lang="ne">७ बिट स्वेडिस</gda_value>
+          <gda_value xml:lang="pt">Sueco 7bit</gda_value>
+          <gda_value xml:lang="pt_BR">7bit Sueco</gda_value>
+          <gda_value xml:lang="ru">7bit Швеция</gda_value>
+          <gda_value xml:lang="sl">Švedski (7bitni)</gda_value>
+          <gda_value xml:lang="sr">7-битни шведски</gda_value>
+          <gda_value xml:lang="sr@latin">7-bitni švedski</gda_value>
+          <gda_value xml:lang="sv">7-bitars svenska</gda_value>
+          <gda_value xml:lang="vi">7bit Thuỵ Điển</gda_value>
+          <gda_value xml:lang="zh_CN">7位 瑞典语</gda_value>
+          <gda_value xml:lang="zh_HK">7位元瑞典文</gda_value>
+          <gda_value xml:lang="zh_TW">7位元瑞典文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>ujis</gda_value>
+          <gda_value>EUC-JP Japanese</gda_value>
+          <gda_value xml:lang="cs">EUC-JP / japonština</gda_value>
+          <gda_value xml:lang="da">EUC-JP japansk</gda_value>
+          <gda_value xml:lang="de">EUC-JP Japanisch</gda_value>
+          <gda_value xml:lang="dz">ཨི་ཡུ་སི་-ཇེ་པི་ཇ་པ་ནིསི།</gda_value>
+          <gda_value xml:lang="el">Ιαπωνικά EUC-JP</gda_value>
+          <gda_value xml:lang="en_GB">EUC-JP Japanese</gda_value>
+          <gda_value xml:lang="es">EUC-JP japonés</gda_value>
+          <gda_value xml:lang="eu">EUC-JP Japoniera</gda_value>
+          <gda_value xml:lang="fi">EUC-JP japanilainen</gda_value>
+          <gda_value xml:lang="fr">Japonais (EUC-JP)</gda_value>
+          <gda_value xml:lang="gl">EUC xaponés</gda_value>
+          <gda_value xml:lang="id">Jepang EUC-JP</gda_value>
+          <gda_value xml:lang="it">EUC-JP giapponese</gda_value>
+          <gda_value xml:lang="ja">EUC-JP 日本語</gda_value>
+          <gda_value xml:lang="lt">EUC-JP Japonų</gda_value>
+          <gda_value xml:lang="ne">EUC-JP जापानी</gda_value>
+          <gda_value xml:lang="pt">Japonês EUC-JP</gda_value>
+          <gda_value xml:lang="pt_BR">EUC-JP Japonês</gda_value>
+          <gda_value xml:lang="ru">EUC-JP Япония</gda_value>
+          <gda_value xml:lang="sl">Japonski (EUC-JP)</gda_value>
+          <gda_value xml:lang="sr">ЕУЦ‑ЈП јапански</gda_value>
+          <gda_value xml:lang="sr@latin">EUC‑JP japanski</gda_value>
+          <gda_value xml:lang="sv">EUC-JP Japanska</gda_value>
+          <gda_value xml:lang="vi">EUC-JP Nhật</gda_value>
+          <gda_value xml:lang="zh_CN">EUC-JP 日语</gda_value>
+          <gda_value xml:lang="zh_HK">EUC-JP 日文</gda_value>
+          <gda_value xml:lang="zh_TW">EUC-JP 日文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>sjis</gda_value>
+          <gda_value>Shift-JIS Japanese</gda_value>
+          <gda_value xml:lang="cs">Shift-JIS / japonština</gda_value>
+          <gda_value xml:lang="da">Shift-JIS japansk</gda_value>
+          <gda_value xml:lang="de">Shift-JIS Japanisch</gda_value>
+          <gda_value xml:lang="dz">སོར་ལྡེ་-ཇེ་ཨའི་ཨེསི་ ཇ་པ་ནིསི།</gda_value>
+          <gda_value xml:lang="el">Ιαπωνικά Shift-JIS</gda_value>
+          <gda_value xml:lang="en_GB">Shift-JIS Japanese</gda_value>
+          <gda_value xml:lang="es">Shift-JIS japonés</gda_value>
+          <gda_value xml:lang="eu">Shift-JIS Japoniera</gda_value>
+          <gda_value xml:lang="fi">Shift-JIS japanilainen</gda_value>
+          <gda_value xml:lang="fr">Japonais (Shift-JIS)</gda_value>
+          <gda_value xml:lang="gl">Xaponés Shift-JIS</gda_value>
+          <gda_value xml:lang="id">Jepang Shift-JIS</gda_value>
+          <gda_value xml:lang="it">Shift-JIS Giapponese</gda_value>
+          <gda_value xml:lang="ja">Shift-JIS 日本語</gda_value>
+          <gda_value xml:lang="lt">Shift-JIS Japonų</gda_value>
+          <gda_value xml:lang="nb">Shift-JIS japansk</gda_value>
+          <gda_value xml:lang="ne">सिफ्ट-JIS जापानी</gda_value>
+          <gda_value xml:lang="pt">Shift-JIS Japonês</gda_value>
+          <gda_value xml:lang="pt_BR">Shift-JIS Japonês</gda_value>
+          <gda_value xml:lang="ru">Shift-JIS Япония</gda_value>
+          <gda_value xml:lang="sl">Japonski (Shift-JIS)</gda_value>
+          <gda_value xml:lang="sr">ШИФТ‑ЈИС јапански</gda_value>
+          <gda_value xml:lang="sr@latin">ŠIFT‑JIS japanski</gda_value>
+          <gda_value xml:lang="sv">Shift-JIS Japanska</gda_value>
+          <gda_value xml:lang="vi">Shift-JIS Nhật</gda_value>
+          <gda_value xml:lang="zh_CN">Shift-JIS 日语</gda_value>
+          <gda_value xml:lang="zh_HK">Shift-JIS 日文</gda_value>
+          <gda_value xml:lang="zh_TW">Shift-JIS 日文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>hebrew</gda_value>
+          <gda_value>ISO 8859-8 Hebrew</gda_value>
+          <gda_value xml:lang="cs">ISO 8859-8 / hebrejština</gda_value>
+          <gda_value xml:lang="da">ISO 8859-8 hebraisk</gda_value>
+          <gda_value xml:lang="de">ISO 8859-8 Hebräisch</gda_value>
+          <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༨ ཧེབ་བིརིའུ།</gda_value>
+          <gda_value xml:lang="el">Εβραϊκά ISO 8859-8</gda_value>
+          <gda_value xml:lang="en_GB">ISO 8859-8 Hebrew</gda_value>
+          <gda_value xml:lang="es">ISO 8859-8 hebreo</gda_value>
+          <gda_value xml:lang="eu">ISO 8859-8 Hebreera</gda_value>
+          <gda_value xml:lang="fi">ISO-8859-8 heprealainen</gda_value>
+          <gda_value xml:lang="fr">Hébreux (ISO 8859-8)</gda_value>
+          <gda_value xml:lang="gl">ISO 8859-8 hebreo</gda_value>
+          <gda_value xml:lang="id">ISO 8859-8 Ibrani</gda_value>
+          <gda_value xml:lang="it">ISO 8859-8 ebraico</gda_value>
+          <gda_value xml:lang="lt">ISO 8859-8 Žydų</gda_value>
+          <gda_value xml:lang="ne">ISO ८८५९-८ हिब्रु</gda_value>
+          <gda_value xml:lang="pt">ISO 8859-8 Hebreu</gda_value>
+          <gda_value xml:lang="pt_BR">ISO 8859-8 Hebreu</gda_value>
+          <gda_value xml:lang="ru">ISO 8859-8 Иврит</gda_value>
+          <gda_value xml:lang="sl">Hebrejski (ISO-8859-8)</gda_value>
+          <gda_value xml:lang="sr">ИСО 8859-8 хебрејски</gda_value>
+          <gda_value xml:lang="sr@latin">ISO 8859-8 hebrejski</gda_value>
+          <gda_value xml:lang="sv">ISO 8859-8 Hebreiska</gda_value>
+          <gda_value xml:lang="vi">ISO 8859-8 Do Thái</gda_value>
+          <gda_value xml:lang="zh_CN">ISO 8859-8 希伯来语</gda_value>
+          <gda_value xml:lang="zh_HK">ISO 8859-8 希伯來文</gda_value>
+          <gda_value xml:lang="zh_TW">ISO 8859-8 希伯來文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>tis620</gda_value>
+          <gda_value>TIS620 Thai</gda_value>
+          <gda_value xml:lang="cs">TIS620 / thajština</gda_value>
+          <gda_value xml:lang="da">TIS620 Thai</gda_value>
+          <gda_value xml:lang="de">TIS620 Thai</gda_value>
+          <gda_value xml:lang="dz">ཊི་ཨའི་ཨེསི་༦༢༠་ ཐཱའི།</gda_value>
+          <gda_value xml:lang="el">Τάι TIS620</gda_value>
+          <gda_value xml:lang="en_GB">TIS620 Thai</gda_value>
+          <gda_value xml:lang="es">TIS620 tailandés</gda_value>
+          <gda_value xml:lang="eu">TIS620 Thailandiera</gda_value>
+          <gda_value xml:lang="fi">TIS620 thaimaalainen</gda_value>
+          <gda_value xml:lang="fr">Thaï (TIS620)</gda_value>
+          <gda_value xml:lang="gl">Tailandés TIS620</gda_value>
+          <gda_value xml:lang="id">TIS620 Thai</gda_value>
+          <gda_value xml:lang="it">TIS620 Thai</gda_value>
+          <gda_value xml:lang="ja">TIS620 タイ語</gda_value>
+          <gda_value xml:lang="lt">TIS620 Tajų</gda_value>
+          <gda_value xml:lang="nb">TIS620 Thai</gda_value>
+          <gda_value xml:lang="ne">TIS६२० थाई</gda_value>
+          <gda_value xml:lang="pt">TIS620 Tailandês</gda_value>
+          <gda_value xml:lang="pt_BR">TIS620 Tailandês</gda_value>
+          <gda_value xml:lang="ru">TIS620 Тайский</gda_value>
+          <gda_value xml:lang="sl">Tajski (TIS620)</gda_value>
+          <gda_value xml:lang="sr">ТИС620 тајландски</gda_value>
+          <gda_value xml:lang="sr@latin">TIS620 tajlandski</gda_value>
+          <gda_value xml:lang="sv">TIS620 Thai</gda_value>
+          <gda_value xml:lang="vi">TIS620 Thái</gda_value>
+          <gda_value xml:lang="zh_CN">TIS620 日语</gda_value>
+          <gda_value xml:lang="zh_HK">TIS620 泰文</gda_value>
+          <gda_value xml:lang="zh_TW">TIS620 泰文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>euckr</gda_value>
+          <gda_value>EUC-KR Korean</gda_value>
+          <gda_value xml:lang="cs">EUC-KR / korejština</gda_value>
+          <gda_value xml:lang="da">EUC-KR koreansk</gda_value>
+          <gda_value xml:lang="de">EUC-KR Koreanisch</gda_value>
+          <gda_value xml:lang="dz">ཨི་ཡུ་སི་-ཀེ་ཨར་ ཀོ་རི་ཡའི།</gda_value>
+          <gda_value xml:lang="el">Κορεατικά EUC-KR</gda_value>
+          <gda_value xml:lang="en_GB">EUC-KR Korean</gda_value>
+          <gda_value xml:lang="es">EUC-KR coreano</gda_value>
+          <gda_value xml:lang="eu">EUC-KR Koreera</gda_value>
+          <gda_value xml:lang="fi">eUC-KR korealainen</gda_value>
+          <gda_value xml:lang="fr">Coréen (EUC-KR)</gda_value>
+          <gda_value xml:lang="gl">EUC coreano</gda_value>
+          <gda_value xml:lang="id">Korea EUC-KR</gda_value>
+          <gda_value xml:lang="it">EUC-KR coreano</gda_value>
+          <gda_value xml:lang="ja">EUC-KR 韓国語</gda_value>
+          <gda_value xml:lang="lt">EUC-KR Korėjiečių</gda_value>
+          <gda_value xml:lang="ne">EUC-KR कोरीयाली</gda_value>
+          <gda_value xml:lang="pt">Corêano EUC-KR</gda_value>
+          <gda_value xml:lang="pt_BR">EUC-KR Coreano</gda_value>
+          <gda_value xml:lang="ru">EUC-KR Корейский</gda_value>
+          <gda_value xml:lang="sl">Korejski (EUC-KR))</gda_value>
+          <gda_value xml:lang="sr">ЕУЦ‑КР корејски</gda_value>
+          <gda_value xml:lang="sr@latin">EUC‑KR korejski</gda_value>
+          <gda_value xml:lang="sv">EUC-KR Koreanska</gda_value>
+          <gda_value xml:lang="vi">EUC-KR Triều Tiên</gda_value>
+          <gda_value xml:lang="zh_CN">EUC-KR 朝鲜语</gda_value>
+          <gda_value xml:lang="zh_HK">EUC-KR 韓文</gda_value>
+          <gda_value xml:lang="zh_TW">EUC-KR 韓文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>koi8u</gda_value>
+          <gda_value>KOI8-U Ukrainian</gda_value>
+          <gda_value xml:lang="cs">KOI8-U / ukrajinština</gda_value>
+          <gda_value xml:lang="da">KOI8-U ukrainsk</gda_value>
+          <gda_value xml:lang="de">KOI8-U Ukrainisch</gda_value>
+          <gda_value xml:lang="dz">ཀེ་ཨོ་ཨའི་༨-ཡུ་ ཡུཀ་རའི་ནི་ཡཱན།</gda_value>
+          <gda_value xml:lang="el">Ουκρανικά KOI8-U</gda_value>
+          <gda_value xml:lang="en_GB">KOI8-U Ukrainian</gda_value>
+          <gda_value xml:lang="es">KOI8-U ucraniano</gda_value>
+          <gda_value xml:lang="eu">KOI8-U Ukraniera</gda_value>
+          <gda_value xml:lang="fi">KOI8-U ukrainalainen</gda_value>
+          <gda_value xml:lang="fr">Ukrainien (KOI8-U)</gda_value>
+          <gda_value xml:lang="gl">KOI8-U ucraíno</gda_value>
+          <gda_value xml:lang="id">KOI8-U Ukraina</gda_value>
+          <gda_value xml:lang="it">KOI8-U ucraino</gda_value>
+          <gda_value xml:lang="lt">KOI8-U Ukrainiečių</gda_value>
+          <gda_value xml:lang="nb">KOI8-U ukrainsk</gda_value>
+          <gda_value xml:lang="ne">KOI8-यू यूक्रेनीयन</gda_value>
+          <gda_value xml:lang="pt">KOI8-U Ucraniano</gda_value>
+          <gda_value xml:lang="pt_BR">KOI8-U Ucraniano</gda_value>
+          <gda_value xml:lang="ru">KOI8-U Украинский</gda_value>
+          <gda_value xml:lang="sl">Ukrajinski (KOI8-U)</gda_value>
+          <gda_value xml:lang="sr">КОИ8‑У украјински</gda_value>
+          <gda_value xml:lang="sr@latin">KOI8‑U ukrajinski</gda_value>
+          <gda_value xml:lang="sv">KOI8-U Ukrainiska</gda_value>
+          <gda_value xml:lang="vi">KOI8-U U-cợ-rainh</gda_value>
+          <gda_value xml:lang="zh_CN">KOI8-U 乌克兰文</gda_value>
+          <gda_value xml:lang="zh_HK">KOI8-U 烏克蘭文</gda_value>
+          <gda_value xml:lang="zh_TW">KOI8-U 烏克蘭文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>gb2312</gda_value>
+          <gda_value>GB2312 Simplified Chinese</gda_value>
+          <gda_value xml:lang="cs">GB2312 / zjednodušená čínština</gda_value>
+          <gda_value xml:lang="da">GB2312 forenklet kinesisk</gda_value>
+          <gda_value xml:lang="de">GB2312 Vereinfachtes Chinesisch</gda_value>
+          <gda_value xml:lang="dz">ཇི་བི་༢༣༡༢་ འཇམ་སམ་བཟོས་པའི་རྒྱ་ནག་གི་སྐད།</gda_value>
+          <gda_value xml:lang="el">Απλοποιημένα κινέζικα GB2312</gda_value>
+          <gda_value xml:lang="en_GB">GB2312 Simplified Chinese</gda_value>
+          <gda_value xml:lang="es">GB2312 chino simplificado</gda_value>
+          <gda_value xml:lang="eu">GB2312 Txinatar soildua</gda_value>
+          <gda_value xml:lang="fi">GB2312 yksinkertaistettu kiinalainen</gda_value>
+          <gda_value xml:lang="fr">Chinois simplifié (GB2312)</gda_value>
+          <gda_value xml:lang="gl">GB2312 chinés simplificado</gda_value>
+          <gda_value xml:lang="id">GB2312 Cina Disederhanakan</gda_value>
+          <gda_value xml:lang="it">GB2312 cinese semplificato</gda_value>
+          <gda_value xml:lang="lt">GB2312 Supaprastinta kinų</gda_value>
+          <gda_value xml:lang="ne">GB२३१२ सरलीकृत चिनीयाँ</gda_value>
+          <gda_value xml:lang="pt">Chinês Simplificado GB2312</gda_value>
+          <gda_value xml:lang="pt_BR">GB2312 Chinês simplificado</gda_value>
+          <gda_value xml:lang="ru">GB2312 Упрощенный Китайский</gda_value>
+          <gda_value xml:lang="sl">Poenostavljeni kitajski (GB2312)</gda_value>
+          <gda_value xml:lang="sr">ГБ2312 поједностаљени кинески</gda_value>
+          <gda_value xml:lang="sr@latin">GB2312 pojednostaljeni kineski</gda_value>
+          <gda_value xml:lang="sv">GB2312 Förenklad kinesiska</gda_value>
+          <gda_value xml:lang="vi">GB2312 Hoà phổ thông</gda_value>
+          <gda_value xml:lang="zh_CN">GB2312 简体中文</gda_value>
+          <gda_value xml:lang="zh_HK">GB2312 簡體中文</gda_value>
+          <gda_value xml:lang="zh_TW">GB2312 簡體中文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>greek</gda_value>
+          <gda_value>ISO 8859-7 Greek</gda_value>
+          <gda_value xml:lang="cs">ISO 8859-7 / řečtina</gda_value>
+          <gda_value xml:lang="da">ISO 8859-7 græsk</gda_value>
+          <gda_value xml:lang="de">ISO 8859-7 Griechisch</gda_value>
+          <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༧ གི་རིཀ།</gda_value>
+          <gda_value xml:lang="el">Ελληνικά ISO 8859-7</gda_value>
+          <gda_value xml:lang="en_GB">ISO 8859-7 Greek</gda_value>
+          <gda_value xml:lang="es">ISO 8859-7 griego</gda_value>
+          <gda_value xml:lang="eu">ISO 8859-7 Greziera</gda_value>
+          <gda_value xml:lang="fi">ISO-8859-7 kreikkalainen</gda_value>
+          <gda_value xml:lang="fr">Grec (ISO 8859-7)</gda_value>
+          <gda_value xml:lang="gl">ISO 8859-7 grego</gda_value>
+          <gda_value xml:lang="id">Yunani ISO-8859-7</gda_value>
+          <gda_value xml:lang="it">ISO 8859-7 greco</gda_value>
+          <gda_value xml:lang="lt">ISO 8859-7 Graikų</gda_value>
+          <gda_value xml:lang="ne">ISO ८८५९-७ ग्रीक</gda_value>
+          <gda_value xml:lang="pt">ISO 8859-7 Grego</gda_value>
+          <gda_value xml:lang="pt_BR">ISO 8859-7 Grego</gda_value>
+          <gda_value xml:lang="ru">ISO 8859-7 Греческий</gda_value>
+          <gda_value xml:lang="sl">Grško (ISO-8859-7)</gda_value>
+          <gda_value xml:lang="sr">ИСО 8859-7 грчки</gda_value>
+          <gda_value xml:lang="sr@latin">ISO 8859-7 grčki</gda_value>
+          <gda_value xml:lang="sv">ISO 8859-7 Grekiska</gda_value>
+          <gda_value xml:lang="vi">ISO 8859-7 Hy Lạp</gda_value>
+          <gda_value xml:lang="zh_CN">ISO 8859-7 希腊语</gda_value>
+          <gda_value xml:lang="zh_HK">ISO 8859-7 希臘文 </gda_value>
+          <gda_value xml:lang="zh_TW">ISO 8859-7 希臘文 </gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>cp1250</gda_value>
+          <gda_value>Windows Central European</gda_value>
+          <gda_value xml:lang="cs">Windows / střední Evropa</gda_value>
+          <gda_value xml:lang="da">Windows centraleuropæisk</gda_value>
+          <gda_value xml:lang="de">Windows Mitteleuropäisch</gda_value>
+          <gda_value xml:lang="dz">ཝིནཌོསི་དབུས་ཡུ་རོ་པི་ཡཱན།</gda_value>
+          <gda_value xml:lang="el">Κεντροευρωπαϊκά Windows</gda_value>
+          <gda_value xml:lang="en_GB">Windows Central European</gda_value>
+          <gda_value xml:lang="es">Windows europeo central</gda_value>
+          <gda_value xml:lang="eu">Windows Europako Erdialdekoa</gda_value>
+          <gda_value xml:lang="fi">Windows, keskieurooppalainen</gda_value>
+          <gda_value xml:lang="fr">Europe centrale (Windows)</gda_value>
+          <gda_value xml:lang="gl">Windows centroeuropeo</gda_value>
+          <gda_value xml:lang="id">Windows Eropa Tengah</gda_value>
+          <gda_value xml:lang="it">Windows Europa centrale</gda_value>
+          <gda_value xml:lang="lt">Windows Centrinės Europos</gda_value>
+          <gda_value xml:lang="nb">Windows sentraleuropeisk</gda_value>
+          <gda_value xml:lang="ne">सञ्झ्याल मध्य यूरोपेली</gda_value>
+          <gda_value xml:lang="pt">Europeu Central Windows</gda_value>
+          <gda_value xml:lang="pt_BR">Windows Europa central</gda_value>
+          <gda_value xml:lang="ru">Windows Центральная Европа</gda_value>
+          <gda_value xml:lang="sl">Srednjeevropsko (Windows)</gda_value>
+          <gda_value xml:lang="sr">Виндоуз централно-европски</gda_value>
+          <gda_value xml:lang="sr@latin">Vindouz centralno-evropski</gda_value>
+          <gda_value xml:lang="sv">Windows Centraleuropeisk</gda_value>
+          <gda_value xml:lang="vi">Windows vùng Trung Âu</gda_value>
+          <gda_value xml:lang="zh_CN">Windows 中欧</gda_value>
+          <gda_value xml:lang="zh_HK">Windows 中歐</gda_value>
+          <gda_value xml:lang="zh_TW">Windows 中歐</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>gbk</gda_value>
+          <gda_value>GBK Simplified Chinese</gda_value>
+          <gda_value xml:lang="cs">GBK / zjednodušená čínština</gda_value>
+          <gda_value xml:lang="da">GBK forenklet kinesisk</gda_value>
+          <gda_value xml:lang="de">GBK Vereinfachtes Chinesisch</gda_value>
+          <gda_value xml:lang="dz">ཇི་བི་ཀེ་ འཇམ་སམ་བཟོས་པའི་རྒྱ་ནག་གི་སྐད།</gda_value>
+          <gda_value xml:lang="el">Απλοποιημένα κινέζικα GBK</gda_value>
+          <gda_value xml:lang="en_GB">GBK Simplified Chinese</gda_value>
+          <gda_value xml:lang="es">GBK chino simplificado</gda_value>
+          <gda_value xml:lang="eu">GBK Txinatar soildua</gda_value>
+          <gda_value xml:lang="fi">GBK yksinkertaistettu kiinalainen</gda_value>
+          <gda_value xml:lang="fr">Chinois simplifié (GBK)</gda_value>
+          <gda_value xml:lang="gl">GBK chinés simplificado</gda_value>
+          <gda_value xml:lang="id">GBK Cina Disederhanakan</gda_value>
+          <gda_value xml:lang="it">GBK cinese semplificato</gda_value>
+          <gda_value xml:lang="lt">GBK Supaprastinta kinų</gda_value>
+          <gda_value xml:lang="ne">GBK सरलीकृत चिनीयाँ</gda_value>
+          <gda_value xml:lang="pt">Chinês Simplificado GBK</gda_value>
+          <gda_value xml:lang="pt_BR">GBK Chinês simplificado</gda_value>
+          <gda_value xml:lang="ru">GBK Упрощённый Китайский</gda_value>
+          <gda_value xml:lang="sl">Poenostavljeni kitajski (GBK)</gda_value>
+          <gda_value xml:lang="sr">ГБК поједностаљени кинески</gda_value>
+          <gda_value xml:lang="sr@latin">GBK pojednostaljeni kineski</gda_value>
+          <gda_value xml:lang="sv">GBK Förenklad kinesiska</gda_value>
+          <gda_value xml:lang="vi">GBK Hoà phổ thông</gda_value>
+          <gda_value xml:lang="zh_CN">GBK 简体中文</gda_value>
+          <gda_value xml:lang="zh_HK">GBK 簡體中文</gda_value>
+          <gda_value xml:lang="zh_TW">GBK 簡體中文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>latin5</gda_value>
+          <gda_value>ISO 8859-9 Turkish</gda_value>
+          <gda_value xml:lang="cs">ISO 8859-9 / turečtina</gda_value>
+          <gda_value xml:lang="da">ISO 8859-9 tyrkisk</gda_value>
+          <gda_value xml:lang="de">ISO 8859-9 Türkisch</gda_value>
+          <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༩ ཊར་ཀིཤ།</gda_value>
+          <gda_value xml:lang="el">Τουρκικά ISO 8859-9</gda_value>
+          <gda_value xml:lang="en_GB">ISO 8859-9 Turkish</gda_value>
+          <gda_value xml:lang="es">ISO 8859-9 turco</gda_value>
+          <gda_value xml:lang="eu">ISO 8859-9 Turkiera</gda_value>
+          <gda_value xml:lang="fi">ISO-8859-9 turkkilainen</gda_value>
+          <gda_value xml:lang="fr">Turque (ISO 8859-9)</gda_value>
+          <gda_value xml:lang="gl">ISO 8859-9 turco</gda_value>
+          <gda_value xml:lang="id">ISO 8859-9 Turki</gda_value>
+          <gda_value xml:lang="it">ISO 8859-9 turco</gda_value>
+          <gda_value xml:lang="lt">ISO 8859-9 Turkų</gda_value>
+          <gda_value xml:lang="ne">ISO ८८५९-९ टर्कीस</gda_value>
+          <gda_value xml:lang="pt">ISO 8859-9 Turco</gda_value>
+          <gda_value xml:lang="pt_BR">ISO 8859-9 Turco</gda_value>
+          <gda_value xml:lang="ru">ISO 8859-9 Турецкий</gda_value>
+          <gda_value xml:lang="sl">Turški (ISO-8859-9)</gda_value>
+          <gda_value xml:lang="sr">ИСО 8859-9 турски</gda_value>
+          <gda_value xml:lang="sr@latin">ISO 8859-9 turski</gda_value>
+          <gda_value xml:lang="sv">ISO 8859-9 Turkiska</gda_value>
+          <gda_value xml:lang="vi">ISO 8859-9 Thổ Nhĩ Kỳ</gda_value>
+          <gda_value xml:lang="zh_CN">ISO 8859-9 土耳其文</gda_value>
+          <gda_value xml:lang="zh_HK">ISO 8859-9 土耳其文</gda_value>
+          <gda_value xml:lang="zh_TW">ISO 8859-9 土耳其文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>armscii8</gda_value>
+          <gda_value>ARMSCII-8 Armenian</gda_value>
+          <gda_value xml:lang="cs">ARMSCII-8 / arménština</gda_value>
+          <gda_value xml:lang="da">ARMSCII-8 armensk</gda_value>
+          <gda_value xml:lang="de">ARMSCII-8 Armenisch</gda_value>
+          <gda_value xml:lang="dz">ཨེ་ཨར་ཨེམ་ཨེསི་ཨའི་ཨའི་-༨་ཨར་མི་ནི་ཡཱན།</gda_value>
+          <gda_value xml:lang="el">Αρμένικα ARMSCII-8</gda_value>
+          <gda_value xml:lang="en_GB">ARMSCII-8 Armenian</gda_value>
+          <gda_value xml:lang="es">ARMSCII-8 armenio</gda_value>
+          <gda_value xml:lang="eu">ARMSCII-8 Armeniarra</gda_value>
+          <gda_value xml:lang="fi">ARMSCII-8 armenialainen</gda_value>
+          <gda_value xml:lang="fr">Arménien (ARMSCII-8)</gda_value>
+          <gda_value xml:lang="gl">ARMSCII-8 armenio</gda_value>
+          <gda_value xml:lang="id">Armenia ARMSCII-8</gda_value>
+          <gda_value xml:lang="it">ARMSCII-8 armeno</gda_value>
+          <gda_value xml:lang="lt">ARMSCII-8 Armėnų</gda_value>
+          <gda_value xml:lang="ne">ARMSCII-८ आर्मेनीयन</gda_value>
+          <gda_value xml:lang="pt">Arménio ARMSCII-8</gda_value>
+          <gda_value xml:lang="pt_BR">ARMSCII-8 Armênio</gda_value>
+          <gda_value xml:lang="ru">ARMSCII-8 Армянский</gda_value>
+          <gda_value xml:lang="sl">Armenski (ARMSCII-8)</gda_value>
+          <gda_value xml:lang="sr">АРМСЦИИ-8 арменски</gda_value>
+          <gda_value xml:lang="sr@latin">ARMSCII-8 armenski</gda_value>
+          <gda_value xml:lang="vi">ARMSCII-8 Ac-mê-ni</gda_value>
+          <gda_value xml:lang="zh_CN">ARMSCII-8 亚美尼亚语</gda_value>
+          <gda_value xml:lang="zh_HK">ARMSCII-8 阿美尼亞文</gda_value>
+          <gda_value xml:lang="zh_TW">ARMSCII-8 阿美尼亞文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>ucs2</gda_value>
+          <gda_value>UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="cs">UCS-2 / unikód</gda_value>
+          <gda_value xml:lang="da">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="de">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="dz">ཡུ་སི་ཨེསི་-༢ ཡུ་ནི་ཀོཌི།</gda_value>
+          <gda_value xml:lang="el">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="en_GB">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="es">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="eu">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="fi">UCS2- Unicode</gda_value>
+          <gda_value xml:lang="fr">Unicode (UCS-2)</gda_value>
+          <gda_value xml:lang="gl">Unicode UCS-2</gda_value>
+          <gda_value xml:lang="id">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="it">UCS-2 unicode</gda_value>
+          <gda_value xml:lang="ja">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="lt">UCS-2 Unikodas</gda_value>
+          <gda_value xml:lang="nb">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="ne">UCS-२ युनिकोड</gda_value>
+          <gda_value xml:lang="pt">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="pt_BR">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="ru">UCS-2 Юникод</gda_value>
+          <gda_value xml:lang="sl">Unicode (UCS-2)</gda_value>
+          <gda_value xml:lang="sr">УСЦ-2 уникод</gda_value>
+          <gda_value xml:lang="sr@latin">USC-2 unikod</gda_value>
+          <gda_value xml:lang="sv">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="vi">UCS-2 Unicode</gda_value>
+          <gda_value xml:lang="zh_CN">UCS-2 Unicode</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>cp866</gda_value>
+          <gda_value>DOS Russian</gda_value>
+          <gda_value xml:lang="cs">DOS / ruština</gda_value>
+          <gda_value xml:lang="da">DOS russisk</gda_value>
+          <gda_value xml:lang="de">DOS Russisch</gda_value>
+          <gda_value xml:lang="dz">ཌི་ཨོ་ཨེསི་ར་ཤི་ཡཱན།</gda_value>
+          <gda_value xml:lang="el">Ρώσικα DOS</gda_value>
+          <gda_value xml:lang="en_GB">DOS Russian</gda_value>
+          <gda_value xml:lang="es">DOS ruso</gda_value>
+          <gda_value xml:lang="eu">DOS Errusiarra</gda_value>
+          <gda_value xml:lang="fi">DOS venäläinen</gda_value>
+          <gda_value xml:lang="fr">Russe (DOS)</gda_value>
+          <gda_value xml:lang="gl">DOS ruso</gda_value>
+          <gda_value xml:lang="id">DOS Rusia</gda_value>
+          <gda_value xml:lang="it">DOS russo</gda_value>
+          <gda_value xml:lang="lt">DOS Rusų</gda_value>
+          <gda_value xml:lang="ne">DOS रसियाली</gda_value>
+          <gda_value xml:lang="pt">DOS Russo</gda_value>
+          <gda_value xml:lang="pt_BR">DOS Russo</gda_value>
+          <gda_value xml:lang="ru">DOS Русский</gda_value>
+          <gda_value xml:lang="sl">Ruski (DOS)</gda_value>
+          <gda_value xml:lang="sr">ДОС руски</gda_value>
+          <gda_value xml:lang="sr@latin">DOS ruski</gda_value>
+          <gda_value xml:lang="sv">DOS Ryska</gda_value>
+          <gda_value xml:lang="vi">DOS Nga</gda_value>
+          <gda_value xml:lang="zh_CN">DOS 俄语</gda_value>
+          <gda_value xml:lang="zh_HK">DOS 俄文</gda_value>
+          <gda_value xml:lang="zh_TW">DOS 俄文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>keybcs2</gda_value>
+          <gda_value>DOS Kamenicky Czech-Slovak</gda_value>
+          <gda_value xml:lang="cs">DOS bratří Kamenických / čeština, slovenština</gda_value>
+          <gda_value xml:lang="da">DOS Kamenicky tjekkisk-slovakisk</gda_value>
+          <gda_value xml:lang="de">DOS Kamenicky Tschechisch/Slowakisch</gda_value>
+          <gda_value xml:lang="dz">ཌོ་ཨོ་ཨེསི་ཀཱ་མི་ནིཀེ་ཅེཛི་-སོལོ་བཱཀ།</gda_value>
+          <gda_value xml:lang="el">Τσεχοσλοβάκικα DOS Kamenicky</gda_value>
+          <gda_value xml:lang="en_GB">DOS Kamenicky Czech-Slovak</gda_value>
+          <gda_value xml:lang="es">DOS Kamenicky checo-eslovaco</gda_value>
+          <gda_value xml:lang="eu">DOS Kamenicky Txekiera-Slovakiera</gda_value>
+          <gda_value xml:lang="fi">DOS Kamenicy tšekkoslovakialainen</gda_value>
+          <gda_value xml:lang="fr">Tchèque-slovaque Kamenicky (DOS)</gda_value>
+          <gda_value xml:lang="gl">DOS Kamenicky checo-slovaco</gda_value>
+          <gda_value xml:lang="id">DOS Kamenicky Ceko-Slowakia</gda_value>
+          <gda_value xml:lang="it">DOS Kamenicky ceco-slovacco</gda_value>
+          <gda_value xml:lang="lt">DOS Kamenicky Čekų-Slovakų</gda_value>
+          <gda_value xml:lang="ne">DOS कमेनीक्की चेक-स्लोभाक</gda_value>
+          <gda_value xml:lang="pt">DOS Kamenicky Checo-eslovaco</gda_value>
+          <gda_value xml:lang="pt_BR">DOS Kamenicky Tchecoslováquia</gda_value>
+          <gda_value xml:lang="ru">DOS Kamenicky Чешкий-Словатский</gda_value>
+          <gda_value xml:lang="sl">Kamenicky (DOS)</gda_value>
+          <gda_value xml:lang="sr">ДОС каменички чехословачки</gda_value>
+          <gda_value xml:lang="sr@latin">DOS kamenički čehoslovački</gda_value>
+          <gda_value xml:lang="sv">DOS Kamenicky Tjeckska-Slovakiska</gda_value>
+          <gda_value xml:lang="vi">DOS Kamenicky Séc-Xlô-vác</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>macce</gda_value>
+          <gda_value>Mac Central European</gda_value>
+          <gda_value xml:lang="cs">MAC / střední Evropa</gda_value>
+          <gda_value xml:lang="da">Mac centraleuropæisk</gda_value>
+          <gda_value xml:lang="de">Mac Mitteleuropäisch</gda_value>
+          <gda_value xml:lang="dz">མེཀ་ དབུས་ཡུ་རོ་པིན།</gda_value>
+          <gda_value xml:lang="el">Κεντροευρωπαϊκά Mac</gda_value>
+          <gda_value xml:lang="en_GB">Mac Central European</gda_value>
+          <gda_value xml:lang="es">Mac Europa central</gda_value>
+          <gda_value xml:lang="eu">Mac Europako Erdialdekoa</gda_value>
+          <gda_value xml:lang="fi">Mac keskieurooppalainen</gda_value>
+          <gda_value xml:lang="fr">Europe centrale (Mac)</gda_value>
+          <gda_value xml:lang="gl">Mac centroeuropeo</gda_value>
+          <gda_value xml:lang="id">Mac Eropa Tengah</gda_value>
+          <gda_value xml:lang="it">Mac Europa centrale</gda_value>
+          <gda_value xml:lang="lt">Mac Centrinės Europos</gda_value>
+          <gda_value xml:lang="nb">Mac sentraleuropeisk</gda_value>
+          <gda_value xml:lang="ne">म्याक मध्य यूरोपेली</gda_value>
+          <gda_value xml:lang="pt">Mac Europeu Central</gda_value>
+          <gda_value xml:lang="pt_BR">Mac Europa central</gda_value>
+          <gda_value xml:lang="ru">Mac Центрально-Европейский</gda_value>
+          <gda_value xml:lang="sl">Srednjeevropsko (_MacCE)</gda_value>
+          <gda_value xml:lang="sr">Мак средње-европски</gda_value>
+          <gda_value xml:lang="sr@latin">Mak srednje-evropski</gda_value>
+          <gda_value xml:lang="sv">Mac Centraleuropeisk</gda_value>
+          <gda_value xml:lang="vi">Mac vùng Trung Âu</gda_value>
+          <gda_value xml:lang="zh_CN">Mac 中欧</gda_value>
+          <gda_value xml:lang="zh_HK">Mac 中歐</gda_value>
+          <gda_value xml:lang="zh_TW">Mac 中歐</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>macroman</gda_value>
+          <gda_value>Mac West European</gda_value>
+          <gda_value xml:lang="cs">MAC / západní Evropa</gda_value>
+          <gda_value xml:lang="da">Mac vesteuropæisk</gda_value>
+          <gda_value xml:lang="de">Mac Westeuropäisch</gda_value>
+          <gda_value xml:lang="dz">མེཀ་ ནུབ་ཕྱོགས་ཡུ་རོ་པིན།</gda_value>
+          <gda_value xml:lang="el">Δυτικοευρωπαϊκά Mac</gda_value>
+          <gda_value xml:lang="en_GB">Mac West European</gda_value>
+          <gda_value xml:lang="es">Mac Europa occidental</gda_value>
+          <gda_value xml:lang="eu">Mac Europako Mendebaldekoa</gda_value>
+          <gda_value xml:lang="fi">Mac länsieurooppalainen</gda_value>
+          <gda_value xml:lang="fr">Europe occidentale (Mac)</gda_value>
+          <gda_value xml:lang="gl">Mac europeo occidental</gda_value>
+          <gda_value xml:lang="id">Mac Eropa Barat</gda_value>
+          <gda_value xml:lang="it">Mac Europa ovest</gda_value>
+          <gda_value xml:lang="lt">Mac Vakarų Europos</gda_value>
+          <gda_value xml:lang="nb">Mac vesteruopeisk</gda_value>
+          <gda_value xml:lang="ne">म्याक पश्चिम यूरोपेली</gda_value>
+          <gda_value xml:lang="pt">Mac Europeu Ocidental</gda_value>
+          <gda_value xml:lang="pt_BR">Mac Europa ocidental</gda_value>
+          <gda_value xml:lang="ru">Mac Западно-Европейский</gda_value>
+          <gda_value xml:lang="sl">Zahodno evropski (MAC)</gda_value>
+          <gda_value xml:lang="sr">Мак западно-европски</gda_value>
+          <gda_value xml:lang="sr@latin">Mak zapadno-evropski</gda_value>
+          <gda_value xml:lang="sv">Mac Västeuropeisk</gda_value>
+          <gda_value xml:lang="vi">Mac vùng Tây Âu</gda_value>
+          <gda_value xml:lang="zh_CN">Mac 西欧</gda_value>
+          <gda_value xml:lang="zh_HK">Mac 西歐</gda_value>
+          <gda_value xml:lang="zh_TW">Mac 西歐</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>cp852</gda_value>
+          <gda_value>DOS Central European</gda_value>
+          <gda_value xml:lang="cs">DOS / střední Evropa</gda_value>
+          <gda_value xml:lang="da">DOS centraleuropæisk</gda_value>
+          <gda_value xml:lang="de">DOS Mitteleuropäisch</gda_value>
+          <gda_value xml:lang="dz">ཌི་ཨོ་ཨེསི་དབུས་ཡུ་རོ་པིན།</gda_value>
+          <gda_value xml:lang="el">Κεντροευρωπαϊκά DOS</gda_value>
+          <gda_value xml:lang="en_GB">DOS Central European</gda_value>
+          <gda_value xml:lang="es">DOS Europa central</gda_value>
+          <gda_value xml:lang="eu">DOS Europako Erdialdekoa</gda_value>
+          <gda_value xml:lang="fi">DOS keskieurooppalainen</gda_value>
+          <gda_value xml:lang="fr">Europe centrale (DOS)</gda_value>
+          <gda_value xml:lang="gl">DOS centroeuropeo</gda_value>
+          <gda_value xml:lang="id">DOS Eropa Tengah</gda_value>
+          <gda_value xml:lang="it">DOS centro Europa</gda_value>
+          <gda_value xml:lang="lt">DOS Centrinės Europos</gda_value>
+          <gda_value xml:lang="ne">DOS मध्य यूरोपेली</gda_value>
+          <gda_value xml:lang="pt">DOS da Europa Central</gda_value>
+          <gda_value xml:lang="pt_BR">DOS Europa central</gda_value>
+          <gda_value xml:lang="ru">DOS Центрально-Европейский</gda_value>
+          <gda_value xml:lang="sl">Srednjeevropski (DOS)</gda_value>
+          <gda_value xml:lang="sr">ДОС средње-европски</gda_value>
+          <gda_value xml:lang="sr@latin">DOS srednje-evropski</gda_value>
+          <gda_value xml:lang="sv">DOS Centraleuropeisk</gda_value>
+          <gda_value xml:lang="vi">DOS vùng Trung Âu</gda_value>
+          <gda_value xml:lang="zh_CN">DOS 中欧</gda_value>
+          <gda_value xml:lang="zh_HK">DOS 中歐</gda_value>
+          <gda_value xml:lang="zh_TW">DOS 中歐</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>latin7</gda_value>
+          <gda_value>ISO 8859-13 Baltic</gda_value>
+          <gda_value xml:lang="cs">ISO 8859-13 / baltické</gda_value>
+          <gda_value xml:lang="da">ISO 8859-13 baltisk</gda_value>
+          <gda_value xml:lang="de">ISO 8859-13 Baltisch</gda_value>
+          <gda_value xml:lang="dz">ཨའི་ཨེསི་ཨོ་ ༨༨༥༩-༡༣་ བཱལ་ཊིཀ།</gda_value>
+          <gda_value xml:lang="el">Βαλτικά ISO 8859-13</gda_value>
+          <gda_value xml:lang="en_GB">ISO 8859-13 Baltic</gda_value>
+          <gda_value xml:lang="es">ISO 8859-13 báltico</gda_value>
+          <gda_value xml:lang="eu">ISO 8859-13 Baltikokoa</gda_value>
+          <gda_value xml:lang="fi">ISO-8859-13 balttilainen</gda_value>
+          <gda_value xml:lang="fr">Balte (ISO 8859-13)</gda_value>
+          <gda_value xml:lang="gl">ISO 8859-13 báltico</gda_value>
+          <gda_value xml:lang="id">Baltik ISO-8859-13</gda_value>
+          <gda_value xml:lang="it">ISO 8859-13 baltico</gda_value>
+          <gda_value xml:lang="lt">ISO 8859-13 Pabaltijo</gda_value>
+          <gda_value xml:lang="ne">ISO ८८५९-१३ बाल्टिक</gda_value>
+          <gda_value xml:lang="pt">ISO 8859-13 Báltico</gda_value>
+          <gda_value xml:lang="pt_BR">ISO 8859-13 Báltico</gda_value>
+          <gda_value xml:lang="ru">ISO 8859-13 стран Балтии</gda_value>
+          <gda_value xml:lang="sl">Baltski (ISO-8859-13)</gda_value>
+          <gda_value xml:lang="sr">ИСО 8859-13 балтички</gda_value>
+          <gda_value xml:lang="sr@latin">ISO 8859-13 baltički</gda_value>
+          <gda_value xml:lang="sv">ISO 8859-13 Baltisk</gda_value>
+          <gda_value xml:lang="vi">ISO 8859-13 Ban-tích</gda_value>
+          <gda_value xml:lang="zh_CN">ISO 8859-13 波罗的海</gda_value>
+          <gda_value xml:lang="zh_HK">ISO 8859-13 波羅的海</gda_value>
+          <gda_value xml:lang="zh_TW">ISO 8859-13 波羅的海</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>cp1251</gda_value>
+          <gda_value>Windows Cyrillic</gda_value>
+          <gda_value xml:lang="cs">Windows / cyrilice</gda_value>
+          <gda_value xml:lang="da">Windows kyrillisk</gda_value>
+          <gda_value xml:lang="de">Windows Kyrillisch</gda_value>
+          <gda_value xml:lang="dz">ཝིནཌོསི་སི་རི་ལིཀ།</gda_value>
+          <gda_value xml:lang="el">Κυριλλικά Windows</gda_value>
+          <gda_value xml:lang="en_GB">Windows Cyrillic</gda_value>
+          <gda_value xml:lang="es">Windows cirílico</gda_value>
+          <gda_value xml:lang="eu">Windows Zirilikoa</gda_value>
+          <gda_value xml:lang="fi">Windows, kyrillinen</gda_value>
+          <gda_value xml:lang="fr">Cyrillique (Windows)</gda_value>
+          <gda_value xml:lang="gl">Windows cirílico</gda_value>
+          <gda_value xml:lang="id">Cyrillic Windows</gda_value>
+          <gda_value xml:lang="it">Windows cirillico</gda_value>
+          <gda_value xml:lang="lt">Windows Kirilica</gda_value>
+          <gda_value xml:lang="nb">Windows kyrillisk</gda_value>
+          <gda_value xml:lang="ne">सञ्झ्याल सिरिलिक</gda_value>
+          <gda_value xml:lang="pt">Cirílico Windows</gda_value>
+          <gda_value xml:lang="pt_BR">Windows Cirílico</gda_value>
+          <gda_value xml:lang="ru">Windows Кириллица</gda_value>
+          <gda_value xml:lang="sl">Cirilica (Windows)</gda_value>
+          <gda_value xml:lang="sr">Виндоуз ћирилични</gda_value>
+          <gda_value xml:lang="sr@latin">Vindouz ćirilični</gda_value>
+          <gda_value xml:lang="sv">Windows Kyrillisk</gda_value>
+          <gda_value xml:lang="vi">Windows ki-rin</gda_value>
+          <gda_value xml:lang="zh_CN">Windows 西里尔语</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>cp1256</gda_value>
+          <gda_value>Windows Arabic</gda_value>
+          <gda_value xml:lang="cs">Windows / arabština</gda_value>
+          <gda_value xml:lang="da">Windows arabisk</gda_value>
+          <gda_value xml:lang="de">Windows Arabisch</gda_value>
+          <gda_value xml:lang="dz">ཝིནཌོསི་ཨ་ར་བིཀ།</gda_value>
+          <gda_value xml:lang="el">Αραβικά Windows</gda_value>
+          <gda_value xml:lang="en_GB">Windows Arabic</gda_value>
+          <gda_value xml:lang="es">Windows árabe</gda_value>
+          <gda_value xml:lang="eu">Windows Arabiera</gda_value>
+          <gda_value xml:lang="fi">Windows arabialainen</gda_value>
+          <gda_value xml:lang="fr">Arabe (Windows)</gda_value>
+          <gda_value xml:lang="gl">Windows árabe</gda_value>
+          <gda_value xml:lang="id">Windows Arab</gda_value>
+          <gda_value xml:lang="it">Windows arabo</gda_value>
+          <gda_value xml:lang="ja">Windows アラビア語</gda_value>
+          <gda_value xml:lang="lt">Windows Arabų</gda_value>
+          <gda_value xml:lang="nb">Windows arabisk</gda_value>
+          <gda_value xml:lang="ne">सञ्झ्याल अरेबिक</gda_value>
+          <gda_value xml:lang="pt">Arábico Windows</gda_value>
+          <gda_value xml:lang="pt_BR">Windows Árabe</gda_value>
+          <gda_value xml:lang="ru">Windows Арабский</gda_value>
+          <gda_value xml:lang="sl">Arabsko (Windows)</gda_value>
+          <gda_value xml:lang="sr">Виндоуз арапски</gda_value>
+          <gda_value xml:lang="sr@latin">Vindouz arapski</gda_value>
+          <gda_value xml:lang="sv">Windows Arabiska</gda_value>
+          <gda_value xml:lang="vi">Windows A Rập</gda_value>
+          <gda_value xml:lang="zh_CN">Windows 阿拉伯语</gda_value>
+          <gda_value xml:lang="zh_HK">Windows 阿拉伯文</gda_value>
+          <gda_value xml:lang="zh_TW">Windows 阿拉伯文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>cp1257</gda_value>
+          <gda_value>Windows Baltic</gda_value>
+          <gda_value xml:lang="cs">Windows / baltické</gda_value>
+          <gda_value xml:lang="da">Windows baltisk</gda_value>
+          <gda_value xml:lang="de">Windows Baltisch</gda_value>
+          <gda_value xml:lang="dz">ཝིནཌོསི་བཱལ་ཊིཀ།</gda_value>
+          <gda_value xml:lang="el">Βαλτικά Windows</gda_value>
+          <gda_value xml:lang="en_GB">Windows Baltic</gda_value>
+          <gda_value xml:lang="es">Windows báltico</gda_value>
+          <gda_value xml:lang="eu">Windows Baltikokoa</gda_value>
+          <gda_value xml:lang="fi">Windows balttilainen</gda_value>
+          <gda_value xml:lang="fr">Balte (Windows)</gda_value>
+          <gda_value xml:lang="gl">Windows báltico</gda_value>
+          <gda_value xml:lang="id">Windows Baltik</gda_value>
+          <gda_value xml:lang="it">Windows baltico</gda_value>
+          <gda_value xml:lang="lt">Windows Baltų</gda_value>
+          <gda_value xml:lang="nb">Windows baltisk</gda_value>
+          <gda_value xml:lang="ne">सञ्झ्याल बालटिक</gda_value>
+          <gda_value xml:lang="pt">Báltico Windows</gda_value>
+          <gda_value xml:lang="pt_BR">Windows Báltico</gda_value>
+          <gda_value xml:lang="ru">Windows стран Балтии</gda_value>
+          <gda_value xml:lang="sl">Baltsko (Windows)</gda_value>
+          <gda_value xml:lang="sr">Виндоуз балтички</gda_value>
+          <gda_value xml:lang="sr@latin">Vindouz baltički</gda_value>
+          <gda_value xml:lang="sv">Windows Baltiska</gda_value>
+          <gda_value xml:lang="vi">Windows Ban-tích</gda_value>
+          <gda_value xml:lang="zh_CN">Windows 波罗的海</gda_value>
+          <gda_value xml:lang="zh_HK">Windows 波羅的海</gda_value>
+          <gda_value xml:lang="zh_TW">Windows 波羅的海</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>binary</gda_value>
+          <gda_value>Binary pseudo charset</gda_value>
+          <gda_value xml:lang="cs">Binární pseudoznaková sada</gda_value>
+          <gda_value xml:lang="da">Binært pseudotegnsæt</gda_value>
+          <gda_value xml:lang="de">Binärer Pseudo-Zeichensatz</gda_value>
+          <gda_value xml:lang="dz">ཟུང་ལྡན་སིའོ་ཌོ་ཡིག་འབྲུའི་གཞི་སྒྲིག</gda_value>
+          <gda_value xml:lang="el">Δυαδικό ψευδοσύνολο χαρακτήρων</gda_value>
+          <gda_value xml:lang="en_GB">Binary pseudo charset</gda_value>
+          <gda_value xml:lang="es">Conjunto de caracteres pseudo binario</gda_value>
+          <gda_value xml:lang="eu">Kode bitarreko sasi-karaktere multzoa</gda_value>
+          <gda_value xml:lang="fi">Binäärinen pseudomerkistö</gda_value>
+          <gda_value xml:lang="fr">Pseudo jeu de caractères binaire</gda_value>
+          <gda_value xml:lang="gl">Xogo de caracteres pseudo binario</gda_value>
+          <gda_value xml:lang="id">Gugus karakter pseudo biner</gda_value>
+          <gda_value xml:lang="it">Set di caratteri pseuto binario</gda_value>
+          <gda_value xml:lang="ne">बाइनरी pseudo चारसेट</gda_value>
+          <gda_value xml:lang="pt">Pseudo-conjunto de caracteres binário</gda_value>
+          <gda_value xml:lang="ru">Двоичный псевдонабор</gda_value>
+          <gda_value xml:lang="sl">Dvojiški psevdo-nabor</gda_value>
+          <gda_value xml:lang="sr">Бинарни псеудо знак</gda_value>
+          <gda_value xml:lang="sr@latin">Binarni pseudo znak</gda_value>
+          <gda_value xml:lang="vi">Bộ ký tự giả nhị phân</gda_value>
+          <gda_value xml:lang="zh_CN">二进制伪字符集</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>geostd8</gda_value>
+          <gda_value>GEOSTD8 Georgian</gda_value>
+          <gda_value xml:lang="cs">GEOSTD8 / gruzínština</gda_value>
+          <gda_value xml:lang="da">GEOSTD8 georgisk</gda_value>
+          <gda_value xml:lang="de">GEOSTD8 Georgisch</gda_value>
+          <gda_value xml:lang="dz">ཇི་ཨི་ཨོ་ཨེསི་ཊི་ཌི་༨་ ཇི་འོར་ཇི་ཡཱན།</gda_value>
+          <gda_value xml:lang="el">Γεωργιανά GEOSTD8</gda_value>
+          <gda_value xml:lang="en_GB">GEOSTD8 Georgian</gda_value>
+          <gda_value xml:lang="es">GEOSTD8 georgiano</gda_value>
+          <gda_value xml:lang="eu">GEOSTD8 Georgiera</gda_value>
+          <gda_value xml:lang="fi">GESTD8 georgialainen</gda_value>
+          <gda_value xml:lang="fr">Géorgien (GEOSTD8)</gda_value>
+          <gda_value xml:lang="gl">GEOSTD8 xeorxiano</gda_value>
+          <gda_value xml:lang="id">Georgia GEOSTD8</gda_value>
+          <gda_value xml:lang="it">GEOSTD8 Georgiano</gda_value>
+          <gda_value xml:lang="lt">GEOSTD8 Gruzinų</gda_value>
+          <gda_value xml:lang="ne">GEOSTD८ जर्जीयन</gda_value>
+          <gda_value xml:lang="pt">Georgiano GEOSTD8</gda_value>
+          <gda_value xml:lang="pt_BR">GEOSTD8 Georgiano</gda_value>
+          <gda_value xml:lang="ru">GEOSTD8 Грузинский</gda_value>
+          <gda_value xml:lang="sl">Gruzijski (GEOSTD8)</gda_value>
+          <gda_value xml:lang="sr">ГЕОСТД8 грузијски</gda_value>
+          <gda_value xml:lang="sr@latin">GEOSTD8 gruzijski</gda_value>
+          <gda_value xml:lang="sv">GEOSTD8 Georgiska</gda_value>
+          <gda_value xml:lang="vi">GEOSTD8 Gi-oa-gi-a</gda_value>
+          <gda_value xml:lang="zh_CN">GEOSTD8 格鲁吉亚语</gda_value>
+          <gda_value xml:lang="zh_HK">GEOSTD8 格魯吉亞文</gda_value>
+          <gda_value xml:lang="zh_TW">GEOSTD8 格魯吉亞文</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>cp932</gda_value>
+          <gda_value>SJIS for Windows Japanese</gda_value>
+          <gda_value xml:lang="cs">SJIS pro japonštinu ve Windows</gda_value>
+          <gda_value xml:lang="da">SJIS for Windows japansk</gda_value>
+          <gda_value xml:lang="de">SJIS für Windows, Japanisch</gda_value>
+          <gda_value xml:lang="dz">ཇ་པ་ནིསི་ཝིནཌོསི་དོན་ལུ་ཨེསི་ཇེ་ཨའི་ཨེསི།</gda_value>
+          <gda_value xml:lang="el">SJIS για ιαπωνικά Windows</gda_value>
+          <gda_value xml:lang="en_GB">SJIS for Windows Japanese</gda_value>
+          <gda_value xml:lang="es">SJIS para Windows en japonés</gda_value>
+          <gda_value xml:lang="eu">SJIS Windows Japoniera</gda_value>
+          <gda_value xml:lang="fi">SJIS japanilainen windows</gda_value>
+          <gda_value xml:lang="fr">Japonais (SJIS pour Windows)</gda_value>
+          <gda_value xml:lang="gl">SJIS para windows xaponés</gda_value>
+          <gda_value xml:lang="id">SJIS bagi Windows Jepang</gda_value>
+          <gda_value xml:lang="it">SJIS giapponese per Windows</gda_value>
+          <gda_value xml:lang="ja">SJIS 日本語版 Windows</gda_value>
+          <gda_value xml:lang="lt">SJIS Windows Japonų</gda_value>
+          <gda_value xml:lang="nb">SJIS for Windows japansk</gda_value>
+          <gda_value xml:lang="ne">सञ्झ्याल जापानीको लागि SJIS</gda_value>
+          <gda_value xml:lang="pt">SJIS para Windows em Japonês</gda_value>
+          <gda_value xml:lang="pt_BR">SJIS para Windows japonês</gda_value>
+          <gda_value xml:lang="ru">SJIS для Windows Японский</gda_value>
+          <gda_value xml:lang="sl">Japonski (SJIS za Windows)</gda_value>
+          <gda_value xml:lang="sr">СЈИС за Виндоуз јапански</gda_value>
+          <gda_value xml:lang="sr@latin">SJIS za Vindouz japanski</gda_value>
+          <gda_value xml:lang="vi">SJIS Windows Nhật</gda_value>
+          <gda_value xml:lang="zh_CN">Windows 日语的 SJIS</gda_value>
+          <gda_value xml:lang="zh_HK">SJIS（用於日文 Windows）</gda_value>
+          <gda_value xml:lang="zh_TW">SJIS（用於日文 Windows）</gda_value>
+        </gda_array_row>
+      </gda_array_data>
+    </gda_array>
+    <gda_array name="proto">
+      <gda_array_field name="id" gdatype="gchararray"/>
+      <gda_array_field name="text" gdatype="gchararray"/>
+      <gda_array_data>
+        <gda_array_row>
+          <gda_value>DEFAULT</gda_value>
+          <gda_value>Automatic</gda_value>
+          <gda_value xml:lang="cs">Automaticky</gda_value>
+          <gda_value xml:lang="de">Automatisch</gda_value>
+          <gda_value xml:lang="el">Αυτόματα</gda_value>
+          <gda_value xml:lang="es">Automático</gda_value>
+          <gda_value xml:lang="eu">Automatikoa</gda_value>
+          <gda_value xml:lang="gl">Automático</gda_value>
+          <gda_value xml:lang="id">Otomatis</gda_value>
+          <gda_value xml:lang="it">Automatica</gda_value>
+          <gda_value xml:lang="pt_BR">Automático</gda_value>
+          <gda_value xml:lang="sl">Samodejno</gda_value>
+          <gda_value xml:lang="sr">Самостално</gda_value>
+          <gda_value xml:lang="sr@latin">Samostalno</gda_value>
+          <gda_value xml:lang="tg">Худкор</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>TCP</gda_value>
+          <gda_value>TCP: TCP/IP connection to local or remote server.</gda_value>
+          <gda_value xml:lang="cs">TCP: Spojení TCP/IP k místnímu nebo vzdálenému serveru.</gda_value>
+          <gda_value xml:lang="de">TCP: TCP/IP-verbindung zu lokalem oder entferntem Server.</gda_value>
+          <gda_value xml:lang="el">TCP: σύνδεση TCP/IP στον τοπικό ή απομακρυσμένο εξυπηρετητή.</gda_value>
+          <gda_value xml:lang="es">TCP: conexión TCP/IP a un servidor local o remoto.</gda_value>
+          <gda_value xml:lang="eu">TCP: TCP/IP konexioa lokaleko edo urruneko zerbitzarirako.</gda_value>
+          <gda_value xml:lang="gl">TCP: conexión TCP/IP a un servidor local ou remoto.</gda_value>
+          <gda_value xml:lang="id">TCP: Koneksi TCP/IP ke server lokal atau jauh.</gda_value>
+          <gda_value xml:lang="it">TCP: connessione TCP/IP al server locale o remoto</gda_value>
+          <gda_value xml:lang="pt_BR">TCP: conexão TCP/IP para servidor local ou remoto.</gda_value>
+          <gda_value xml:lang="sl">TCP: Povezava TCP/IP s krajevnim ali oddaljenim strežnikom.</gda_value>
+          <gda_value xml:lang="sr">ТЦП:ТЦО/ИП веза на месни или удаљени сервер.</gda_value>
+          <gda_value xml:lang="sr@latin">TCP:TCO/IP veza na mesni ili udaljeni server.</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>SOCKET</gda_value>
+          <gda_value>Socket: Unix socket file connection to local server (Local Unix server only).</gda_value>
+          <gda_value xml:lang="cs">Socket: Připojení přes soubor s unixovým soketem k místnímu serveru (jen místní unixový server)</gda_value>
+          <gda_value xml:lang="de">Socket: Unix Socket-Datei-Verbindung zu lokalem Server (Nur bei lokalem Unix-Server).</gda_value>
+          <gda_value xml:lang="el">Υποδοχή: η υποδοχή Γιούνιξ σύνδεσης αρχείου στον τοπικό εξυπηρετητή (Μόνο για τοπικό εξυπηρετητή Γιούνιξ).</gda_value>
+          <gda_value xml:lang="es">Socket: archivo socket de conexión Unix al servidor local (sólo para servidores locales).</gda_value>
+          <gda_value xml:lang="eu">Socket: Unix socket fitxategiaren konexioa lokaleko zerbitzarirako (lokaleko Unix zerbitzaria soilik). </gda_value>
+          <gda_value xml:lang="gl">Socket: Conexión de ficheiro de socket Unix a un servidor local (só servidor Unix local).</gda_value>
+          <gda_value xml:lang="id">Soket: Koneksi berkas soket Unix ke server lokal (Hanya server Unix lokal).</gda_value>
+          <gda_value xml:lang="it">Socket: connessione tramite socket al server locale (solamente server Unix locale)</gda_value>
+          <gda_value xml:lang="pt_BR">Socket: arquivo de socket Unix para conexão a servidor local (apenas servidor Unix local).</gda_value>
+          <gda_value xml:lang="sl">Vtič:  datotečna povezava vtiča Unix s krajevnim strežnikom (le za krajevne strežnike Unix).</gda_value>
+          <gda_value xml:lang="sr">Прикључница: Веза датотеке Јуниксове прикључнице на месни сервер (Само месни Јуникс сервер)</gda_value>
+          <gda_value xml:lang="sr@latin">Priključnica: Veza datoteke Juniksove priključnice na mesni server (Samo mesni Juniks server)</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>PIPE</gda_value>
+          <gda_value>Pipe: Named-pipe connection to local or remote server (Windows server only)</gda_value>
+          <gda_value xml:lang="cs">Pipe: Připojení přes pojmenovanou rouru k místnímu nebo vzdálenému serveru (jen servery Windows)</gda_value>
+          <gda_value xml:lang="de">Weiterleitung: Verbindung mit benannter Weiterleitung zu lokalem oder entferntem Server (nur Windows-Server)</gda_value>
+          <gda_value xml:lang="el">Σωλήνας: σύνδεση επώνυμου σωλήνα στον τοπικό ή απομακρυσμένο εξυπηρετητή (μόνο εξυπηρετητής Γουίντοους)</gda_value>
+          <gda_value xml:lang="es">Tubería: conexión con tubería con nombre a un servidor local o remoto (sólo para servidores Windows)</gda_value>
+          <gda_value xml:lang="eu">Kanalizazioa: kanalizazioa izeneko konexioa lokaleko edo urruneko zerbitzarirako (Windows zerbitzaria soilik).</gda_value>
+          <gda_value xml:lang="gl">Pipe: conexión named-pipe a un servidor local ou remoto (só servidor Windows)</gda_value>
+          <gda_value xml:lang="id">Pipe: Koneksi named-pipe ke server lokal atau jauh (Hanya server Windows)</gda_value>
+          <gda_value xml:lang="it">Pipe: connessione tramite pipe al server locale o remoto (solamente server Windows)</gda_value>
+          <gda_value xml:lang="sl">Cev:  cevna povezava s krajevnim ali oddaljenim strežnikom (le za krajevne strežnike Windows).</gda_value>
+          <gda_value xml:lang="sr">Спојка: Веза именоване спојке на месни или удаљени сервер (Само Виндоуз сервери)</gda_value>
+          <gda_value xml:lang="sr@latin">Spojka: Veza imenovane spojke na mesni ili udaljeni server (Samo Vindouz serveri)</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>MEMORY</gda_value>
+          <gda_value>Memory: Shared-memory connection to local server (Local Windows server only)</gda_value>
+          <gda_value xml:lang="cs">Memory: Připojení přes sdílenou paměť k místnímu serveru (jen místní servery Windows)</gda_value>
+          <gda_value xml:lang="de">Speicher: Verbindung via gemeinsamem Speicher zu lokalem Server (nur lokaler Windows-Server)</gda_value>
+          <gda_value xml:lang="el">Μνήμη: σύνδεση κοινόχρηστης μνήμης σε τοπικό εξυπηρετητή (μόνο για τοπικό εξυπηρετητή Γουίντοους)</gda_value>
+          <gda_value xml:lang="es">Memoria: conexión con memoria compartida a un servidor local o remoto (sólo para servidores Windows locales)</gda_value>
+          <gda_value xml:lang="eu">Memoria: partekatutako memoriaren konexioa lokaleko zerbitzarirako (lokaleko Windows zerbitzariak soilik).</gda_value>
+          <gda_value xml:lang="gl">Memoria: conexión de memoria compartica a un servidor local (só servidor Windows local)</gda_value>
+          <gda_value xml:lang="id">Memori: Koneksi memori bersama ke server lokal (Hanya server Windows lokal)</gda_value>
+          <gda_value xml:lang="it">Memoria: connessione in memoria condivisa al server locale (solamente server Windows locale)</gda_value>
+          <gda_value xml:lang="pt_BR">Memória: Conexão de memória compartilhada ao servidor local (apenas servidor Windows local).</gda_value>
+          <gda_value xml:lang="sl">Pomnilnik: souporabna pomnilniška povezava s krajevnim strežnikom (le za krajevne strežnike Windows)</gda_value>
+          <gda_value xml:lang="sr">Меморија: Веза дељене меморије на месни сервер (Само месни Виндоуз сервер)</gda_value>
+          <gda_value xml:lang="sr@latin">Memorija: Veza deljene memorije na mesni server (Samo mesni Vindouz server)</gda_value>
+        </gda_array_row>
+      </gda_array_data>
+    </gda_array>
+  </sources>
+</serv_op>

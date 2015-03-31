@@ -1,0 +1,4 @@
+?package(xpad):needs="X11" section="Applications/Editors" \
+  title="xpad" command="/usr/bin/xpad" \
+  longtitle="Sticky notes on your screen" \
+  icon="xpad.xpm" hints="Gnome"

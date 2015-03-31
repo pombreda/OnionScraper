@@ -1,0 +1,9 @@
+19f96f4692e0525d383d54ce30f25ce5  sbin/cryptsetup
+d25441683d5edf8a78a35f398cff0486  sbin/cryptsetup-reencrypt
+b4e13713ddeb929c5cc16ed0f9960090  sbin/veritysetup
+2b598802d654dd19f2981ce8195397c8  usr/sbin/luksformat
+951d04370e81904b2f746cd980e82c66  usr/share/doc/cryptsetup-bin/copyright
+a997ece03164dbc660040663874459ac  usr/share/man/man8/cryptsetup-reencrypt.8.gz
+a52b21a756689894fd7bc584abc08fad  usr/share/man/man8/cryptsetup.8.gz
+a5928ed7ca9b01b4e2d86cd4b3b8a4d1  usr/share/man/man8/luksformat.8.gz
+f8f873251a1f2fc5c1bc8a4cce7fc568  usr/share/man/man8/veritysetup.8.gz

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=weboob-qt
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=QHandJoob
+Comment=Search for jobs
+Exec=qhandjoob
+Icon=qhandjoob
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Network;Qt;
+Keywords=job;offers;working;
+
+X-Ubuntu-Gettext-Domain=app-install-data

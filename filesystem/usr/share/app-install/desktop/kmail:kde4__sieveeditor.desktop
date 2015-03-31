@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kmail
+X-AppInstall-Popcon=4213
+X-AppInstall-Section=universe
+
+Name=Sieve Editor
+Type=Application
+Exec=sieveeditor
+Icon=kmail
+X-DocPath=sieveeditor/index.html
+GenericName=Sieve Editor
+Terminal=false
+Categories=Qt;KDE;Office;Network;X-KDE-Sieve;
+InitialPreference=10
+
+X-Ubuntu-Gettext-Domain=app-install-data

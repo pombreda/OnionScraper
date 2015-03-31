@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="documents-view" xml:lang="en-GB">
+
+  <info>
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email>yrazes@gmail.com</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2012</years>
+    </credit>
+    <desc>View documents full-screen.</desc>
+    <link type="guide" xref="documents#view" group="#first"/>
+    <revision pkgversion="3.5.90" date="2012-09-02" status="review"/>
+    <revision version="13.10" date="2013-10-24" status="review"/>
+  </info>
+
+  <title>Display documents stored locally or online</title>
+
+  <p>When you open <app>Documents</app>, all of your documents, those stored locally as well as online, are displayed as thumbnails.</p>
+
+  <note style="tip"><p>In order for your <em>Google Docs</em> or <em>SkyDrive</em> documents to appear, it is necessary to configure Google or Windows Live, respectively, as an <link xref="accounts-add">online account</link>.</p>
+  </note>
+
+  <p>To view the contents of a document:</p>
+
+  <steps>
+    <item><p>Click the thumbnail. The document is displayed full-width in the <app>Documents</app> window (or full-screen if maximised).</p></item>
+  </steps>
+
+  <p>To exit the document, click the back arrow button.</p>
+
+</page>

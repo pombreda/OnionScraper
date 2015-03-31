@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=openstreetmap-client
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=Maps
+Comment=Maps application
+Categories=GTK;GNOME;Utility;
+Exec=/usr/bin/openstreetmap-client %U
+Icon=_usr_share_openstreetmap-client_media_maps
+Terminal=false
+Type=Application
+MimeType=application/gpx+xml;application/xml;
+
+X-Ubuntu-Gettext-Domain=app-install-data

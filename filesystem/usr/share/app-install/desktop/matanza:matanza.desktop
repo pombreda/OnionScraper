@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=matanza
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Matanza
+Comment=Space ascii war game
+Exec=sh -c "/usr/games/matanza && telnet localhost 7993"
+Icon=matanza
+Terminal=true
+Type=Application
+Categories=Game;ActionGame;
+Keywords=ascii;text;terminal;war;space;universe;fighting;
+
+X-Ubuntu-Gettext-Domain=app-install-data

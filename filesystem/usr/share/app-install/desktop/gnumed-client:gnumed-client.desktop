@@ -1,0 +1,22 @@
+#====================================================
+# GNUmed client desktop entry specification
+#
+# license: GPL v2 or later
+#====================================================
+
+[Desktop Entry]
+X-AppInstall-Package=gnumed-client
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Type=Application
+Name=GNUmed
+GenericName=Electronic Medical Record
+Comment=Paperless Medical Record and Practice Management
+Icon=gm_icon-serpent_and_gnu
+Exec=/usr/bin/gnumed
+Terminal=false
+Categories=Office;MedicalSoftware;
+Keywords=PHR;PMR;EHR;PMS;Patient Record;Medical Record;Patient Chart;Practice Management System;Medical Practice;Surgery
+
+X-Ubuntu-Gettext-Domain=app-install-data

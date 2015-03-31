@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=tucnak2
+X-AppInstall-Popcon=20
+X-AppInstall-Section=universe
+
+# vim:encoding=utf-8
+# The format of this file is specified at
+# http://freedesktop.org/Standards/desktop-entry-spec
+# The entries are in the order they are listed in version 1.0
+# for registered categories see http://standards.freedesktop.org/menu-spec/1.0/apa.html
+Encoding=UTF-8
+Type=Application
+Version=1.0
+Name=Tucnak 2
+Comment=VHF Contest Logger
+Icon=_usr_share_pixmaps_tucnak2
+Exec=/usr/bin/tucnak
+Terminal=false
+Categories=Utility;HamRadio
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

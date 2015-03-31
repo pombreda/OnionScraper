@@ -1,0 +1,15 @@
+d387368fa7e476b814e5f175016e12aa  usr/lib/x86_64-linux-gnu/gstreamer-0.10/libgstcoreelements.so
+e28e6068636b7299f4c2a583d3b1979f  usr/lib/x86_64-linux-gnu/gstreamer-0.10/libgstcoreindexers.so
+839ab5b39cd2b00f3193e4cfb1bdecac  usr/lib/x86_64-linux-gnu/gstreamer0.10/gstreamer-0.10/gst-plugin-scanner
+5dd79f4a4643c67e5cd635138a7cd299  usr/lib/x86_64-linux-gnu/libgstbase-0.10.so.0.30.0
+f8090ed0bb5a2279cd25d72eb8e3450f  usr/lib/x86_64-linux-gnu/libgstcheck-0.10.so.0.30.0
+d146be9be6edfc38b70fb1fa77b71644  usr/lib/x86_64-linux-gnu/libgstcontroller-0.10.so.0.30.0
+c551de81bba825251af4567312c4c6b8  usr/lib/x86_64-linux-gnu/libgstdataprotocol-0.10.so.0.30.0
+c81276836102101db2b6b5487cf800f6  usr/lib/x86_64-linux-gnu/libgstnet-0.10.so.0.30.0
+0eb29325ec79ec88bcd75632ee15249e  usr/lib/x86_64-linux-gnu/libgstreamer-0.10.so.0.30.0
+18728550cf69534a157d3e39af9281ea  usr/share/doc/libgstreamer0.10-0/AUTHORS
+1cf06e03758505648ab3be8135c59f1c  usr/share/doc/libgstreamer0.10-0/NEWS.gz
+5bafd23836a2eb87b9d8f5341a9114e3  usr/share/doc/libgstreamer0.10-0/README.Debian
+ce9247eebc3efe0c0287568c4f369c42  usr/share/doc/libgstreamer0.10-0/README.gz
+f409b5f48253c0f27532200a9a7b8cdf  usr/share/doc/libgstreamer0.10-0/changelog.Debian.gz
+58afe71a3df11ad72a42613606ecd6a7  usr/share/doc/libgstreamer0.10-0/copyright

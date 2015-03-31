@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+StartupNotify=false
+Terminal=false
+Keywords=Info;Information;Ubuntustudio;Help;
+Exec=xdg-open https://help.ubuntu.com/community/UbuntuStudio
+Icon=system-help
+Name=Help and Documentation
+Comment=Help and Documentation for using UbuntuStudio
+
+X-Ubuntu-Gettext-Domain=app-install-data

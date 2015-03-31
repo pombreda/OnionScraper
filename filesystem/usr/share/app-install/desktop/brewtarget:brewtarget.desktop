@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=brewtarget
+X-AppInstall-Popcon=17
+X-AppInstall-Section=universe
+
+Categories=Qt;KDE;Education;Utility;Engineering;
+Exec=brewtarget
+Name=Brewtarget
+GenericName=Beer calculator
+X-KDE-StartupNotify=true
+Icon=_usr_share_icons_brewtarget_brewtarget_icon
+Terminal=false
+Type=Application
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

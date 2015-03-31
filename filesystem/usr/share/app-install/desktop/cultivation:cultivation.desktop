@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=cultivation
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Cultivation
+GenericName=Gardening game
+Comment=Game about the interactions within a gardening community
+Icon=cultivation
+Exec=cultivation
+Terminal=false
+Categories=Game;ArcadeGame;
+Keywords=Gardening;Social dynamics;Community;
+
+X-Ubuntu-Gettext-Domain=app-install-data

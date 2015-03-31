@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libnuma1
+/usr/share/doc/libnuma1/README
+/usr/share/doc/libnuma1/TODO
+/usr/share/doc/libnuma1/copyright
+/usr/share/doc/libnuma1/changelog.Debian.gz
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libnuma.so.1

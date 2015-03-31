@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=rxvt-unicode-256color
+X-AppInstall-Popcon=30
+X-AppInstall-Section=universe
+
+Name=Rxvt Color Unicode Terminal
+Comment=Use the command line
+TryExec=urxvt
+Exec=urxvt
+Icon=urxvt_48x48
+Type=Application
+Categories=Utility;TerminalEmulator;
+StartupNotify=true
+Keywords=Run;
+Actions=New
+
+[Desktop Action New]
+Name=New Rxvt Color Unicode Terminal
+Exec=urxvt
+OnlyShowIn=Unity
+
+X-Ubuntu-Gettext-Domain=app-install-data

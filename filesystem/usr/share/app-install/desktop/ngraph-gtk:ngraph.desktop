@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=ngraph-gtk
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=Ngraph
+Comment=create scientific 2-dimensional graphs
+Exec=ngraph %f
+TryExec=ngraph
+Icon=ngraph
+Terminal=false
+Type=Application
+Version=1.0
+Categories=GTK;GNOME;Graphics;
+MimeType=application/x-ngraph;application/x-ngraph-graphic
+Keywords=graph;scientific;chart;calculation;
+
+X-Ubuntu-Gettext-Domain=app-install-data

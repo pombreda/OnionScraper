@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=isag
+X-AppInstall-Popcon=17
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Isag System Activity Grapher
+Comment=Interactive System Activity Grapher for sysstat
+Exec=isag
+Type=Application
+Categories=System;Monitor;
+Keywords=Monitor;System;Process;CPU;Memory;History;Usage;Statistics
+
+X-Ubuntu-Gettext-Domain=app-install-data

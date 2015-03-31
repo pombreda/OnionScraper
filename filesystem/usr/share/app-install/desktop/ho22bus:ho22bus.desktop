@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ho22bus
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Name=Ho22bus
+Comment=Recite word easily
+Exec=ho22bus
+Terminal=false
+Icon=ho22bus
+StartupNotify=true
+Categories=Education;Languages;
+
+X-Ubuntu-Gettext-Domain=app-install-data

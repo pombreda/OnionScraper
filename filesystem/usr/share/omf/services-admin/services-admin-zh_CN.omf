@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>服务管理工具手册</title>
+    <date>2004 年 6 月</date>
+    <version identifier="服务管理工具手册 0.35版" date="2004 年 6 月"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      系统管理工具允许您设定系统启动过程中要启动的服务。
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/services-admin/zh_CN/services-admin.xml"/>
+    <language code="zh_CN"/>
+    <relation seriesid="38937ae4-85dc-11da-8508-d0ce7329a2c1"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

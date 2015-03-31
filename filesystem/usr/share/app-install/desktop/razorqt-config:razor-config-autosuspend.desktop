@@ -1,0 +1,42 @@
+[Desktop Entry]
+X-AppInstall-Package=razorqt-config
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=razor-config-autosuspend
+Icon=razor-autosuspend
+Terminal=false
+OnlyShowIn=X-RAZOR;
+Categories=Settings;DesktopSettings;Qt;X-RAZOR;
+Name=Razor Autosuspend Configuration
+GenericName=Razor Autosuspend Configuration
+Icon[cs_CZ]=Automatické uspání
+Icon[ar]=تعليق-ريزر-بشكل-آلي
+Icon[tr]=Razor oto-askıya-alma
+Icon[de_DE]=razor-autosuspend
+Icon[zh_CN]=razor-autosuspend
+Icon[ru]=Pa3op авто-приостановка
+Icon[uk]=razor-autosuspend
+Icon[eu]=razor-autoesekitzea
+Icon[it_IT]=razor-autosuspend
+Icon[cs]=Automatické uspání
+Icon[zh_TW]=Razor自動休眠
+Icon[es_VE]=razor-autosuspend
+Icon[da_DK]=razor-strømstyring
+Icon[pt]=razor-autosuspend
+Icon[ja]=razor自動停止
+Icon[el_GR]=razor-autosuspend
+Icon[sl]=razor-autosuspend
+Icon[es]=razor-autosuspensión
+Icon[es_MX]=razor-autosuspend
+Icon[he]=razor-autosuspend
+Icon[pl_PL]=razor-autouśpienie
+Icon[lt]=razor-autosuspend
+Icon[gl]=razor-autosupensión
+Icon[fr]=razor-autosuspend
+Icon[th_TH]=เรเซอร์-การพักเครื่องอัตโนมัติ
+Icon[pt_BR]=razor-suspensão automática
+Icon[da]=razor-autosuspend
+
+X-Ubuntu-Gettext-Domain=app-install-data

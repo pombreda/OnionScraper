@@ -1,0 +1,261 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=big5">
+ <META NAME="GENERATOR" CONTENT="ZH-SGML-Tools 1.0.9">
+ <TITLE>Sylpheed FAQ: Sylpheed FAQ - 安裝與設定</TITLE>
+ <LINK HREF="sylpheed-faq-3.html" REL=next>
+ <LINK HREF="sylpheed-faq-1.html" REL=previous>
+ <LINK HREF="sylpheed-faq.html#toc2" REL=contents>
+</HEAD>
+<BODY>
+<A HREF="sylpheed-faq-3.html">Next</A>
+<A HREF="sylpheed-faq-1.html">Previous</A>
+<A HREF="sylpheed-faq.html#toc2">Contents</A>
+<HR>
+<H2><A NAME="s2">2. Sylpheed FAQ - 安裝與設定</A></H2>
+
+<H2><A NAME="ss2.1">2.1 2.1 問：編譯 Sylpheed 時需要什麼？</A>
+</H2>
+
+<P>答：任何使用 POSIX 的 OS 如 Unix、Linux、FreeBSD 或 Solaris。
+另外需要 GTK+ 1.2.6 版以上，最近的 ANSI C 編譯器，
+(gcc 2.7.2.3 以上也可以)
+注意：有人報告說 Sun 內附的 C compiler 無法編譯 Sylpheed。
+此外，有些是選擇性的：
+<UL>
+<LI>Imlib 或 gdk-pixbuf （圖形預覽用）</LI>
+<LI>libcompface（X-Face 用）</LI>
+<LI>libjconv（國際化用）</LI>
+<LI>GPGME（GnuPG 用）</LI>
+<LI>GTK+-devel 與 Xfree86-devel 等相關函式庫</LI>
+</UL>
+
+如果必要的函式庫不存在，./configure 將會執行失敗。
+<H2><A NAME="ss2.2">2.2 2.2 問：要怎麼設定 Sylpheed？</A>
+</H2>
+
+<P>答：如果是第一次執行 Sylpheed，它會問你你要把你的信件存放在哪個信箱中。
+預設是家目錄下的 Mail 目錄（&nbsp;/Mail）。你可以換成任何你想用的目錄。
+<P>請注意：當 Sylpheed 第一次執行時，它會自動在家目錄下產生一個
+.sylpheed 目錄，並產生設定檔置於該目錄下，然後才問你信箱要放哪裡。
+如果已經有一些不是 MH 格式的信件放在那個目錄中，你最好指定其他的目錄來存放。
+<H2><A NAME="ss2.3">2.3 2.3 問：為何我無法產生新的信箱？</A>
+</H2>
+
+<P>答：有可能是因為 Sylpheed 在產生一些預設的信件夾時失敗，如收件夾（inbox）、寄件夾（outbox）等。這可能是因為 Mail 目錄下已經有同名的檔案。如果你原先是使用 Kmail，這就有可能發生。你可以試著指定不同的信箱名稱，或者砍掉原來那些檔案。
+<H2><A NAME="ss2.4">2.4 2.4 問：我要如何新增一個帳號？</A>
+</H2>
+
+<P>答：在啟動 Sylpheed 之後，你可以從「設定」目錄中選擇「新增帳號」來產生新的帳號。
+<H2><A NAME="ss2.5">2.5 2.5 問：我可以在 Sylpheed 中設定多少個帳號？</A>
+</H2>
+
+<P>答：基本上沒有限制，除非你的電腦不再理你。
+<H2><A NAME="ss2.6">2.6 2.6 問：為何我按下「刪除」鍵後，信件卻沒有被刪掉？我設定了信件過濾功能，為何它沒有過濾？我將一個信件移到別的信件夾中，為何它不肯移動？</A>
+</H2>
+
+<P>答：以上這些問題，你必須按下「執行」按扭。如果嫌麻煩，你可以在「設定」目錄中的「一般設定」中，選擇「介面」，並按下「移動或刪除信件時立即執行」前面的按鈕。
+<H2><A NAME="ss2.7">2.7 2.7 問：我可以指定不同的郵件或新聞伺服器的連接埠嗎？</A>
+</H2>
+
+<P>答：可以。在每個帳號的設定中，你可以指定每個通訊協定要連接到哪個連接埠上。
+<H2><A NAME="ss2.8">2.8 2.8 問：Sylpheed 有將信件串列顯示的功能嗎？</A>
+</H2>
+
+<P>答：有。你可以從「顯示」目錄中選擇「將信件串列顯示」，或按 Ctrl-T 切換。
+<H2><A NAME="ss2.9">2.9 2.9 問：我可以建立多層的信件夾來存放郵件嗎？</A>
+</H2>
+
+<P>答：當然可以。
+<H2><A NAME="ss2.10">2.10 2.10 問：為何 Sylpheed 沒有將我的信件送出去？</A>
+</H2>
+
+<P>答：你至少要建立一個新帳號來傳送郵件。
+(This is a wonderful gotcha on LAN installs
+with only a local mailbox feed).
+<H2><A NAME="ss2.11">2.11 2.11 問：我下載 Sylpheed 程式碼之後要如何安裝修補程式？</A>
+</H2>
+
+<P>答：將修補程式拷貝到 sylpheed 目錄中，輸入：
+<P><CODE>% patch -p0 &lt; some.patch</CODE>
+<P>如果修補程式是以 gzip 壓縮起來的，就用：
+<P><CODE>% gzip -dc some.patch.gz | patch -p0</CODE>
+<P>然後執行 <CODE>./autogen.sh</CODE>，將產生的 <CODE>/config.cache</CODE> 砍掉，
+再重新執行 <CODE>./configure</CODE> 並編譯。你也可以參考 Sylpheed Patch Page
+的說明。
+<H2><A NAME="ss2.12">2.12 2.12 問：我要如何將 compface 加入 Sylpheed？</A>
+</H2>
+
+<P>答：你必須先安裝 <CODE>libcompface</CODE>，然後再安裝 Sylpheed。
+<H2><A NAME="ss2.13">2.13 2.13 問：我要如何製作我自己的 compface 圖檔？</A>
+</H2>
+
+<P>答：Compface 套件中應該會有一個程式叫做 xbm2ikon，它會幫你將
+一個 48x48 xbm 檔轉換成 compface 格式。你可以參考 Jeff Dairiki 提供的
+<A HREF="http://www.dairiki.org/xface/">這個網頁</A>中的說明。
+<H2><A NAME="ss2.14">2.14 2.14 問：我要如何從我的瀏覽器、新聞閱讀軟體或其他軟體中呼叫出 Sylpheed 來寄信？</A>
+</H2>
+
+<P>答：在那些軟體的送信設定中，命令列輸入：
+<CODE>sylpheed --compose</CODE>
+<H2><A NAME="ss2.15">2.15 2.15 問：我要如何在 Sylpheed 中開啟 GPG 功能？</A>
+</H2>
+
+<P>答：當執行 ./configure 時加上 <CODE>--enable-gpgme</CODE> 這個選項。
+安裝完成後，在一般設定中會有一個「私人資料」的選項。
+<H2><A NAME="ss2.16">2.16 2.16 問：Mutt 無法辨識 Sylpheed 的 MH 格式。</A>
+</H2>
+
+<P>答：你必須在每個 MH 資料夾中使用 "touch .xmhcache" 指令來產生 .xmhcache 檔，那麼 Mutt 就可以順利辨識了。
+<H2><A NAME="ss2.17">2.17 2.17 問：在信件列表中預覽一個 GIF 檔會造成 Segmentation Fault。</A>
+</H2>
+
+<P>答：有的時候會這樣，不過你可以試著在 /etc/mime.types 中加入：
+<P><CODE>image/gif              gif</CODE>
+<H2><A NAME="ss2.18">2.18 2.18 問：我要如何讓 Sylpheed 通知我新信件已經送到？</A>
+</H2>
+
+<P>你可以試試以下這些方法：
+<P>* 從 
+<A HREF="http://www.thewildbeast.co.uk/sylpheed/">http://www.thewildbeast.co.uk/sylpheed/</A> 找新信件通知的修補程式。
+* 下載 Gkrellm 或其他可以通知你新信件來了的程式。Gkrellm 可以從 
+<A HREF="http://www.gkrellm.net">the Gkrellm page</A> 下載。
+<H2><A NAME="ss2.19">2.19 2.19 問：我可以在 Sylpheed 中使用拼字檢查程式嗎？</A>
+</H2>
+
+<P>答：可以。你可以用 ispell。在「一般設定」中，如果你沒有使用外部編輯器的習慣，你可以把外部編輯器設定成 <CODE>xterm -e ispell %s</CODE>。這樣子你可以寫好郵件後，點選「編輯器」這個按鈕，它就會自動幫你檢查拼字。
+<P>你也可以使用 wterm，eterm 或 aterm 來取代 xterm。
+<H2><A NAME="ss2.20">2.20 2.20 問：我要怎麼在郵件中送出我的 compface 圖樣？答：在「設定」目錄中的「目前帳號設定」，「送出」裡有一個「加入使用者定義的標頭」。核取它以後按下「編輯」，從「信件標頭設定」中選擇「X-Face」並在「值」這一欄中填入你的資料。注意如果你是從螢幕上直接剪貼的話，有可能會被加入一些換行符號之類的，要小心。</A>
+</H2>
+
+<H2><A NAME="ss2.21">2.21 2.21 問：我從 cvs 中將程式碼下載，但是找不到 configure 這支程式。</A>
+</H2>
+
+<P>答：CVS 中的版本是給開發者用的，所以一般使用者使用正式發布的版本即可。
+<P>不過如果您真的很想用 CVS 中的版本，您要執行 "autogen.sh" 這支程式來產生
+configure 這支程式。在此之前，請確定您有安裝 autoconf 與 automake。
+<P>
+<H2><A NAME="ss2.22">2.22 2.22 問：我在執行 "autogen.sh" 時發生了錯誤，它告訴我 "AM_PATH_GDK_PIXBUF" 或 "AM_PATH_xxx" 找不到。</A>
+</H2>
+
+<P>答：有些 .m4 檔放在 "ac/missing" 目錄中。試著把它們拷貝到 ac 目錄下再執行一次看看。
+<P>如果還是一樣，試著執行：
+<P>
+<PRE>
+     %&nbsp;locate m4&nbsp;|&nbsp;less
+</PRE>
+
+或者
+<P>
+<PRE>
+     %&nbsp;locate aclocal&nbsp;|&nbsp;less
+</PRE>
+
+來找出其他包含那些巨集的目錄。例如，如果您找到一個 "gtk.m4" 放在 /opt/gnome/share/aclocal"，那麼，將 autogen.sh 程式中的下面這一行：
+<P>
+<PRE>
+     aclocal -I ac \
+</PRE>
+
+換成：
+<P>
+<PRE>
+     aclocal -I ac -I /opt/gnome/share/aclocal \
+</PRE>
+
+再重新執行一次。
+<P>
+<H2><A NAME="ss2.23">2.23 2.23 問：我想拿掉一些支援選項。但是我在執行 configure 後，還是沒有拿掉。</A>
+</H2>
+
+<P>答：先把 config.cache 檔拿掉再執行一次 configure。另外在重編譯之前也應該先 make
+clean 一次。
+<P>
+<H2><A NAME="ss2.24">2.24 2.24 問：我要怎麼選用其他的應用程式來開啟特定的 MIME 格式郵件？</A>
+</H2>
+
+<P>答：MIME 格式與應用程式間的關聯是定義在 /etc/mailcap 中。
+<P>
+<H2><A NAME="ss2.25">2.25 2.25 問：我要怎麼換掉附加檔的 MIME 格式？</A>
+</H2>
+
+<P>答：檔案的 MIME 格式是定義在 /etc/mime.types 檔中。
+<P>
+<H2><A NAME="ss2.26">2.26 2.26 問：我手動搬移/拷貝信件夾目錄後，在信件列表中並沒有更新。</A>
+</H2>
+
+<P>答：您需要更新 Sylhpeed 的快取。在信件夾上按右鍵，選擇「重建資料夾結構」。
+<P>
+<H2><A NAME="ss2.27">2.27 2.27 問：我要怎麼將設定變回最開始的預設值？</A>
+</H2>
+
+<P>答：Sylpheed 將它的設定檔都放在 $HOME/.sylpheed 目錄中，如果沒有的話就會自動產生預設值。所以最簡單的方法就是離開 sylpheed，暫時將您的 $HOME/.sylpheed 目錄換個名字，然後重新啟動 sylpheed。
+<P>
+<H2><A NAME="ss2.28">2.28 2.28 問：有哪些環境變數會影響 Sylpheed?</A>
+</H2>
+
+<P>答：最常見的變數有：
+<P>
+<UL>
+<LI>HOME - .sylpheed (設定檔存放的目錄) 和預設的郵件信箱存放的地方。<P>
+</LI>
+<LI>LANG</LI>
+<LI>LC_ALL</LI>
+<LI>LC_CTYPE</LI>
+<LI>LC_MESSAGES - 地域化設定，如語言與資料格式等。<P>
+</LI>
+</UL>
+<H2><A NAME="ss2.29">2.29 2.29 問：特殊字元無法正確顯示。</A>
+</H2>
+
+<P>答：大部份情況都是因為字型設定使用了不正確的編碼的關係。標準的 Sylpheed 在字型設定視窗中，目前並沒有提供所有的字型讓您設定。所以您若是檢視您的 $HOME/.sylpheed/sylpheedrc，您會到到一些字型設定：
+<P>
+<PRE>
+     bold_font=-unknown-Helvetica-bold-r-normal-*-*-110-*-*-p-*-iso8859-1
+</PRE>
+
+最後兩個 ("iso8859" 跟 "1") 就是編碼的設定。您可以試著用 * 或者指定特別的編碼。
+<P>
+<PRE>
+     bold_font=-unknown-Helvetica-bold-r-normal-*-*-110-*-*-p-*-*-*
+</PRE>
+
+您也要確定您的地域化設定環境變數是正確的。
+<P>
+<H2><A NAME="ss2.30">2.30 2.30 問：我要怎麼把我舊的信箱跟位址簿(從別的郵件程式)轉換過來？</A>
+</H2>
+
+<P>答：若您下載程式碼，您可以在 "tools" 目錄中找到一些程式，或許支援您使用的應用程式。您也可以試著將您舊的信箱轉換成 MH 或 MBOX 格式。
+<P>提示：看看「工具」目錄裡的 "harvest address" 功能，它可以用於您匯入舊的資料時，適當地變更或新增。
+<P>
+<H2><A NAME="ss2.31">2.31 2.31 問：有哪些設定檔？它們又都是做什麼用途？</A>
+</H2>
+
+<P>答：Sylpheed 設定檔都放在 $HOME/.sylpheed 中。大都是一般文字檔格式，很容易閱讀。所以您可以直接用文字編輯器去檢視它們。
+<P>
+<P>
+<UL>
+<LI>sylpheedrc: 主要設定檔。大部份的選項都放在這裡。</LI>
+<LI>accountrc: 設定 pop/imap/nntp 帳號。</LI>
+<LI>actionsrc: 設定使用者定義的動作。</LI>
+<LI>customheaderrc: 設定使用者自定的標頭。</LI>
+<LI>dispheaderrc: 設定顯示在郵件之前的標頭。</LI>
+<LI>filterrc: (舊的)過濾設定檔。</LI>
+<LI>folderitemrc: 資料夾特別設定。如預設的送出資料夾。</LI>
+<LI>matcherrc: 新的過濾與紀錄設定。</LI>
+<LI>menurc: 熱鍵設定。</LI>
+<LI>addrbook-*.xml: 位址簿內容。</LI>
+<LI>folderlist.xml: 資料夾特殊設定。如隱藏閱讀過的信件、排序法等等。</LI>
+</UL>
+<P>
+<H2><A NAME="ss2.32">2.32 2.32 問：如果列印郵件印了好幾頁怎麼辦？</A>
+</H2>
+
+<P>答：您可以用 enscript。用 enscript %s 來把所有東西印在一頁，或 enscript -U2 %s
+來將兩頁印成一頁。
+<HR>
+<A HREF="sylpheed-faq-3.html">Next</A>
+<A HREF="sylpheed-faq-1.html">Previous</A>
+<A HREF="sylpheed-faq.html#toc2">Contents</A>
+</BODY>
+</HTML>

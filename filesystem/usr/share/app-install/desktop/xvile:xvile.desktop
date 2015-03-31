@@ -1,0 +1,17 @@
+# $XTermId: xvile.desktop,v 1.4 2014/02/02 20:09:55 tom Exp $
+[Desktop Entry]
+X-AppInstall-Package=xvile
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=XVile
+GenericName=Text Editor
+Comment=VI Like Emacs
+Exec=xvile %f
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Icon=vile
+Categories=Utility;TextEditor;
+
+X-Ubuntu-Gettext-Domain=app-install-data

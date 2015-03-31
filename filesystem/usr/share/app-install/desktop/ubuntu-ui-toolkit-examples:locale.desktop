@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntu-ui-toolkit-examples
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Locale
+Comment=My project description
+Exec=/usr/bin/qmlscene $@ /usr/lib/ubuntu-ui-toolkit/examples/locale/locale.qml
+Icon=qmlscene
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

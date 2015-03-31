@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=light-locker-settings
+X-AppInstall-Popcon=156
+X-AppInstall-Section=universe
+
+Name=Light Locker Settings
+Comment=Configure locking your session
+Exec=/usr/bin/light-locker-settings
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=XFCE;GNOME;GTK;Settings;X-GNOME-Settings-Panel;X-GNOME-PersonalSettings;DesktopSettings;X-XFCE;
+Keywords=Configuration;Screensaver;User;
+Icon=preferences-desktop-screensaver
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Lancer la commande dans un terminal.">
+								<longdesc>Indique si la commande utilisée pour gérer ce type d&apos;URL doit être lancée dans un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Le gestionnaire des URL en « ymsgr »">
+								<longdesc>Si activé, la commande utilisée pour gérer les URL en « ymsgr »</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="La commande décrite doit gérer les URL en « ymsgr »">
+								<longdesc>Indique si la commande décrite dans la clé « command » doit gérer les URL en « imsgr ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Lancer la commande dans un terminal.">
+								<longdesc>Indique si la commande utilisée pour gérer ce type d&apos;URL doit être lancée dans un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Le gestionnaire des URL en « xmpp »">
+								<longdesc>Si activé, la commande utilisée pour gérer les URL en « xmpp »</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="La commande décrite doit gérer les URL en « xmpp »">
+								<longdesc>Indique si la commande décrite dans la clé « command » doit gérer les URL en « xmpp ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Lancer la commande dans un terminal.">
+								<longdesc>Indique si la commande utilisée pour gérer ce type d&apos;URL doit être lancée dans un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Le gestionnaire des URL en « sip »">
+								<longdesc>Si activé, la commande utilisée pour gérer les URL en « sip »</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="La commande décrite doit gérer les URL en « sip »">
+								<longdesc>Indique si la commande décrite dans la clé « command » doit gérer les URL en « sip ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Lancer la commande dans un terminal.">
+								<longdesc>Indique si la commande utilisée pour gérer ce type d&apos;URL doit être lancée dans un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Le gestionnaire des URL en « msnim »">
+								<longdesc>Si activé, la commande utilisée pour gérer les URL en « msnim »</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="La commande décrite doit gérer les URL en « msnim »">
+								<longdesc>Indique si la commande décrite dans la clé « command » doit gérer les URL en « msnim ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Lancer la commande dans un terminal.">
+								<longdesc>Indique si la commande utilisée pour gérer ce type d&apos;URL doit être lancée dans un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Le gestionnaire des URL en « irc »">
+								<longdesc>Si activé, la commande utilisée pour gérer les URL en « irc »</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="La commande décrite doit gérer les URL en « irc »">
+								<longdesc>Indique si la commande décrite dans la clé « command » doit gérer les URL en « irc ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Lancer la commande dans un terminal.">
+								<longdesc>Indique si la commande utilisée pour gérer ce type d&apos;URL doit être lancée dans un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Le gestionnaire des URL en « icq »">
+								<longdesc>Si activé, la commande utilisée pour gérer les URL en « icq »</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="La commande décrite doit gérer les URL en « icq »">
+								<longdesc>Indique si la commande décrite dans la clé « command » doit gérer les URL en « icq ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Lancer la commande dans un terminal.">
+								<longdesc>Indique si la commande utilisée pour gérer ce type d&apos;URL doit être lancée dans un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Le gestionnaire des URL en « gg »">
+								<longdesc>Si activé, la commande utilisée pour gérer les URL en « gg »</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="La commande décrite doit gérer les URL en « gg »">
+								<longdesc>Indique si la commande décrite dans la clé « command » doit gérer les URL en « gg ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Lancer la commande dans un terminal.">
+								<longdesc>Indique si la commande utilisée pour gérer ce type d&apos;URL doit être lancée dans un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Le gestionnaire des URL en « aim »">
+								<longdesc>Si activé, la commande utilisée pour gérer les URL en « aim »</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="La commande décrite doit gérer les URL en « aim »">
+								<longdesc>Indique si la commande décrite dans la clé « command » doit gérer les URL en « aim ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=quiterss
+X-AppInstall-Popcon=10
+X-AppInstall-Section=universe
+
+Name=QuiteRSS
+Exec=quiterss
+Icon=quiterss
+Type=Application
+GenericName=RSS/Atom feed reader
+Comment=QuiteRSS is a RSS/Atom feed reader written in C++/Qt4
+Terminal=false
+Categories=Qt;Network;News;
+MimeType=application/rss+xml;application/atom+xml;application/rdf+xml;
+X-DBUS-StartupType=none
+
+X-Ubuntu-Gettext-Domain=app-install-data

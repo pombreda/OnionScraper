@@ -1,0 +1,27 @@
+[Desktop Entry]
+X-AppInstall-Package=oneko
+X-AppInstall-Popcon=10
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Oneko
+Comment=A cat chases mouse pointer
+Exec=oneko -fg black -bg white
+Icon=oneko_cat
+Terminal=false
+Categories=Game;Amusement
+Keywords=neko;cat;dog;chase;cursor;mouse;
+Actions=Dog;Stop;
+
+[Desktop Action Dog]
+Exec=oneko -dog -fg black -bg white
+Name=Oneko Dog
+Icon=oneko_dog
+
+[Desktop Action Stop]
+Exec=killall -TERM oneko
+Name=Oneko STOP
+Icon=oneko_stop
+
+X-Ubuntu-Gettext-Domain=app-install-data

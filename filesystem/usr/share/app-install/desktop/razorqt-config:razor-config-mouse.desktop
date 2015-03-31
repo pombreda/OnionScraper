@@ -1,0 +1,54 @@
+[Desktop Entry]
+X-AppInstall-Package=razorqt-config
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+X-SuSE-translate=true
+OnlyShowIn=X-RAZOR;
+Type=Application
+Exec=razor-config-mouse
+Terminal=false
+Categories=Settings;DesktopSettings;Qt;X-RAZOR;
+Icon=preferences-desktop-mouse
+Name=Razor Mouse Configurator
+Comment=Configure X11 mouse
+GenericName=Razor Mouse Configurator
+
+Icon[el_GR]=preferences-desktop-mouse
+Icon[da_DK]=indstillinger-skrivebord-mus
+Icon[sv]=preferenser-skrivbord-mus
+Icon[cs_CZ]=
+Icon[es]=preferences-desktop-mouse
+Icon[ja]=デスクトップマウス初期設定
+Icon[cs]=Nastavení myši
+Icon[hu]=preferences-desktop-mouse
+Icon[es_MX]=preferences-desktop-mouse
+Icon[pt_BR]=preferences-desktop-mouse
+Icon[zh_TW]=桌面滑鼠偏好設定
+Icon[sl]=preferences-desktop-mouse
+Icon[ro_RO]=preferences-desktop-mouse
+Icon[he]=preferences-desktop-mouse
+Icon[eu]=hobespenak-mahaigaina-sagua
+Icon[eo]=preferences-desktop-mouse
+Icon[tr]=preferences-desktop-mouse
+Icon[pl_PL]=preferences-desktop-mouse
+Icon[da]=indstillinger-skrivebord-mus
+Icon[pt]=preferences-desktop-mouse
+Icon[it_IT]=preferences-desktop-mouse
+Icon[de_DE]=Einstellungen-Desktop-Maus
+Icon[zh_CN]=桌面鼠标首选项
+Icon[de]=preferences-desktop-mouse
+Icon[ar]=تفضيلات فأرة سطح المكتب
+Icon[fr]=preferences-desktop-mouse
+Icon[nl]=instellingen-desktop-muis
+Icon[ru]=preferences-desktop-mouse
+Icon[th_TH]=ค่าปรับแต่ง-โต๊ะงาน-เมาส์
+Icon[gl]=preferencias-escritorio-rato
+Icon[lt]=preferences-desktop-mouse
+Icon[es_VE]=preferences-desktop-mouse
+Icon[fi]=asetukset-työpöytä-hiiri
+Icon[uk]=preferences-desktop-mouse
+Icon[id_ID]=preferences-desktop-mouse
+Icon[pl]=ustawienia-pulpit-mysz
+
+X-Ubuntu-Gettext-Domain=app-install-data

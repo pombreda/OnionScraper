@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=caja
+X-AppInstall-Popcon=340
+X-AppInstall-Section=universe
+
+Name=Caja
+GenericName=Open Folder
+TryExec=caja
+Exec=caja --no-desktop %U
+NoDisplay=true
+Terminal=false
+Icon=folder-open
+StartupNotify=true
+Type=Application
+MimeType=inode/directory;application/x-mate-saved-search;
+OnlyShowIn=MATE;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=caja
+X-MATE-Bugzilla-Component=general
+X-MATE-Bugzilla-Version=1.8.2
+
+X-Ubuntu-Gettext-Domain=app-install-data

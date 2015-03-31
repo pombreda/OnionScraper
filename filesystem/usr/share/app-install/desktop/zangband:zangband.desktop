@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=zangband
+X-AppInstall-Popcon=4
+X-AppInstall-Section=multiverse
+
+Type=Application
+Name=Zangband
+GenericName=Zangband
+Comment=A single-player, text-based, roguelike game
+Exec=zangband
+Icon=zangband
+Terminal=true
+Categories=Game;RolePlaying;
+
+X-Ubuntu-Gettext-Domain=app-install-data

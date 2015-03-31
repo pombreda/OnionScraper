@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=dia-gnomenara
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Dianara
+
+GenericName=pump.io client
+
+Comment=A pump.io social network client
+
+
+Icon=dianara
+Exec=dianara
+Terminal=false
+StartupNotify=true
+Categories=Qt;Network;
+Keywords=pump.io;social network;microblog;
+
+X-Ubuntu-Gettext-Domain=app-install-data

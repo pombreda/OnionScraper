@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=basex
+X-AppInstall-Popcon=27
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=BaseX XML Database
+Comment=Visually query and analyse your XML data
+Keywords=database;xquery;xpath;xml;information processing;
+TryExec=basexgui
+Exec=basexgui %F
+Icon=basex
+MimeType=text/xml;
+Categories=Development;Utility;Database;
+StartupNotify=true
+StartupWMClass=org-basex-BaseXGUI
+
+X-Ubuntu-Gettext-Domain=app-install-data

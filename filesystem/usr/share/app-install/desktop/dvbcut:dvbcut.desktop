@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=dvbcut
+X-AppInstall-Popcon=27
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=DVBcut
+GenericName=DVB Cutting Program
+NoDisplay=false
+Comment=Cut DVB streams
+Icon=_usr_share_dvbcut_icons_dvbcut
+TryExec=/usr/bin/dvbcut
+Exec=/usr/bin/dvbcut %F
+Terminal=false
+MimeType=application/x-dvbcut;
+Categories=AudioVideo;AudioVideoEditing;Qt;
+StartupWMClass=Dvbcut
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=pairs
+X-AppInstall-Popcon=12
+X-AppInstall-Section=universe
+
+Name=Pairs
+Exec=pairs %i -caption %c
+Icon=pairs
+Type=Application
+GenericName=A game to enhance your memory
+Terminal=false
+Categories=Qt;KDE;Education;Game;KidsGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

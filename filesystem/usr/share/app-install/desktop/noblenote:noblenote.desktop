@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=noblenote
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=nobleNote
+Exec=noblenote
+Terminal=false
+Type=Application
+Icon=noblenote
+Categories=Utility;
+Keywords=Note;Notes;Notice;Sticker;Memo;
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Icon=cs-panel
+Exec=cinnamon-settings panel
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Panel
+Comment=Manage Cinnamon panel settings
+
+X-Ubuntu-Gettext-Domain=app-install-data

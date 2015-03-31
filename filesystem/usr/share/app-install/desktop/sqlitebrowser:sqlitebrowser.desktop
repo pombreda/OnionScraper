@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=sqlitebrowser
+X-AppInstall-Popcon=172
+X-AppInstall-Section=universe
+
+Name=SQLiteBrowser
+Comment=SQLiteBrowser is a light GUI editor for SQLite databases
+Exec=sqlitebrowser %f
+Icon=_usr_share_pixmaps_sqlitebrowser
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=Development;Utility;Database;
+MimeType=application/sqlitebrowser;application/x-sqlitebrowser;application/x-sqlite2;application/x-sqlite3;
+
+X-Ubuntu-Gettext-Domain=app-install-data

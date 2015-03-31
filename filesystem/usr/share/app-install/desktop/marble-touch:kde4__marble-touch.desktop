@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=marble-touch
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Type=Application
+TryExec=marble-touch
+Exec=marble-touch %F
+Name=Marble
+GenericName=Virtual Globe
+Icon=marble
+Terminal=false
+Categories=Qt;KDE;Education;Geography;
+
+X-Ubuntu-Gettext-Domain=app-install-data

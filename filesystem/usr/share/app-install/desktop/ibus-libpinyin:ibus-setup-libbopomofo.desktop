@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=ibus-libpinyin
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=IBus LibBopomofo Preferences
+Comment=Set ibus-libbopomofo Preferences
+Exec=/usr/lib/ibus/ibus-setup-libpinyin bopomofo
+Icon=_usr_share_ibus-libpinyin_icons_ibus-bopomofo
+NoDisplay=true
+Type=Application
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

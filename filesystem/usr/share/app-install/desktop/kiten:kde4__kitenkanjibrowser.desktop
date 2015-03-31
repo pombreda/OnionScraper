@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kiten
+X-AppInstall-Popcon=47
+X-AppInstall-Section=universe
+
+Exec=kitenkanjibrowser
+Name=Kanji Browser
+X-DocPath=kiten/index.html#kanji-list
+Terminal=false
+Type=Application
+Icon=kiten
+NoDisplay=true
+Categories=Qt;KDE;Education;Languages;
+
+X-Ubuntu-Gettext-Domain=app-install-data

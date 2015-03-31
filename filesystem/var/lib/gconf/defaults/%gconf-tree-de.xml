@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Befehl in einem Terminal ausführen">
+								<longdesc>Aktivieren, wenn der Befehl, der benutzt wird um diese Art von URL zu verarbeiten, in einem Terminal ausgeführt werden soll.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Behandlungsroutine für „ymsrg“-URLs">
+								<longdesc>Der Befehl, der „ymsgr“-URLs verarbeitet, wenn aktiviert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Legt fest, ob das angegebene Kommando „ymsrg“-URLs verarbeiten soll">
+								<longdesc>Aktivieren, wenn der Befehl, der im „command“-Schlüssel angegeben ist, „ymsgr“-URLs verarbeiten soll.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Befehl in einem Terminal ausführen">
+								<longdesc>Aktivieren, wenn der Befehl, der benutzt wird um diese Art von URL zu verarbeiten, in einem Terminal ausgeführt werden soll.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Behandlungsroutine für „xmpp“-URLs">
+								<longdesc>Der Befehl, der „xmpp“-URLs verarbeitet, wenn aktiviert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Legt fest, ob das angegebene Kommando „xmpp“-URLs verarbeiten soll">
+								<longdesc>Aktivieren, wenn der Befehl, der im „command“-Schlüssel angegeben ist, „xmpp“-URLs verarbeiten soll.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Befehl in einem Terminal ausführen">
+								<longdesc>Aktivieren, wenn der Befehl, der benutzt wird um diese Art von URL zu verarbeiten, in einem Terminal ausgeführt werden soll.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Behandlungsroutine  für „sip“-URLs">
+								<longdesc>Der Befehl, der „sip“-URLs verarbeitet, wenn aktiviert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Legt fest, ob das angegebene Kommando „sip“-URLs verarbeiten soll">
+								<longdesc>Aktivieren, wenn der Befehl, der im „command“-Schlüssel angegeben ist, „sip“-URLs verarbeiten soll.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Befehl in einem Terminal ausführen">
+								<longdesc>Aktivieren, wenn der Befehl, der benutzt wird um diese Art von URL zu verarbeiten, in einem Terminal ausgeführt werden soll.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Behandlungsroutine für „msnim“-URLs">
+								<longdesc>Der Befehl, der „msnim“-URLs verarbeitet, wenn aktiviert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Legt fest, ob das angegebene Kommando „msnim“-URLs verarbeiten soll">
+								<longdesc>Aktivieren, wenn der Befehl, der im „command“-Schlüssel angegeben ist, „msnim“-URLs verarbeiten soll.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Befehl in einem Terminal ausführen">
+								<longdesc>Aktivieren, wenn der Befehl, der benutzt wird um diese Art von URL zu verarbeiten, in einem Terminal ausgeführt werden soll.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Behandlungsroutine für „irc“-URLs">
+								<longdesc>Der Befehl, der „irc“-URLs verarbeitet, wenn aktiviert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Legt fest, ob das angegebene Kommando „irc“-URLs verarbeiten soll">
+								<longdesc>Aktivieren, wenn der Befehl, der im „command“-Schlüssel angegeben ist, „irc“-URLs verarbeiten soll.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Befehl in einem Terminal ausführen">
+								<longdesc>Aktivieren, wenn der Befehl, der benutzt wird um diese Art von URL zu verarbeiten, in einem Terminal ausgeführt werden soll.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Behandlungsroutine für „icq“-URLs">
+								<longdesc>Der Befehl, der „icq“-URLs verarbeitet, wenn aktiviert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Legt fest, ob das angegebene Kommando „icq“-URLs verarbeiten soll">
+								<longdesc>Aktivieren, wenn der Befehl, der im „command“-Schlüssel angegeben ist, „icq“-URLs verarbeiten soll.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Befehl in einem Terminal ausführen">
+								<longdesc>Aktivieren, wenn der Befehl, der benutzt wird um diese Art von URL zu verarbeiten, in einem Terminal ausgeführt werden soll.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Behandlungsroutine für „gg“-URLs">
+								<longdesc>Der Befehl, der „gg“-URLs verarbeitet, wenn aktiviert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Legt fest, ob das angegebene Kommando „gg“-URLs verarbeiten soll">
+								<longdesc>Aktivieren, wenn der Befehl, der im „command“-Schlüssel angegeben ist, „gg“-URLs verarbeiten soll.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Befehl in einem Terminal ausführen">
+								<longdesc>Aktivieren, wenn der Befehl, der benutzt wird um diese Art von URL zu verarbeiten, in einem Terminal ausgeführt werden soll.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Behandlungsroutine für „aim“-URLs">
+								<longdesc>Der Befehl, der „aim“-URLs verarbeitet, wenn aktiviert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Legt fest, ob das angegebene Kommando „aim“-URLs verarbeiten soll">
+								<longdesc>Aktivieren, wenn der Befehl, der im „command“-Schlüssel angegeben ist, „aim“-URLs verarbeiten soll.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

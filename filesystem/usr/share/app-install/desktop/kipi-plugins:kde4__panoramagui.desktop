@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=kipi-plugins
+X-AppInstall-Popcon=1405
+X-AppInstall-Section=universe
+
+Categories=Qt;KDE;Graphics;
+Comment=A tool to assemble images as a panorama
+Exec=panoramagui %i -caption %c %U
+GenericName=Panorama
+Name=Panorama
+StartupNotify=true
+Icon=kipi-panorama
+Terminal=false
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+X-Ubuntu-Gettext-Domain=app-install-data

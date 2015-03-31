@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=sgt-puzzles
+X-AppInstall-Popcon=340
+X-AppInstall-Section=universe
+
+Version=1.0
+Terminal=false
+Exec=sgt-unruly
+Icon=sgt-unruly
+Type=Application
+Categories=Game;LogicGame;
+Name=Unruly
+Comment=Black and white grid puzzle
+
+X-Ubuntu-Gettext-Domain=app-install-data

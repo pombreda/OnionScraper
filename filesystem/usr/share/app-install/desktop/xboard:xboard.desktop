@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=xboard
+X-AppInstall-Popcon=83
+X-AppInstall-Section=universe
+
+Name=Xboard
+Comment=Chess Game
+GenericName=Chess Game
+Type=Application
+Categories=Game;BoardGame;
+Exec=xboard
+Icon=xboard
+
+X-Ubuntu-Gettext-Domain=app-install-data

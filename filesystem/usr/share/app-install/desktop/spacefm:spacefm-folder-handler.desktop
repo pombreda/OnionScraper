@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=spacefm
+X-AppInstall-Popcon=11
+X-AppInstall-Section=universe
+
+Name=SpaceFM Open Folder
+Comment=Open folder
+TryExec=spacefm
+Exec=spacefm %U
+NoDisplay=true
+Terminal=false
+Icon=spacefm
+StartupNotify=true
+Type=Application
+MimeType=inode/directory;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

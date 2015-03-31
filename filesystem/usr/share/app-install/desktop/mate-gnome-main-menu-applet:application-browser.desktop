@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-gnome-main-menu-applet
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Application Browser
+Exec=/usr/bin/application-browser
+Terminal=false
+Type=Application
+StartupNotify=true
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

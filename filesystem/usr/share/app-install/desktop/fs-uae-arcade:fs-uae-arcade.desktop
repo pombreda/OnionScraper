@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=fs-uae-arcade
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=FS-UAE Arcade
+Comment=Full-screen game browser for FS-UAE
+TryExec=fs-uae-arcade
+Exec=fs-uae-arcade %f
+StartupNotify=true
+Terminal=false
+Type=Application
+Icon=fs-uae-arcade
+Categories=Game;Emulator;
+
+X-Ubuntu-Gettext-Domain=app-install-data

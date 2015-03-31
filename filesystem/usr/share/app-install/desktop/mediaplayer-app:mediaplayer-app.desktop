@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=mediaplayer-app
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Media Player
+GenericName=Media Player
+Comment=Media Player
+Keywords=Movies;Movie Player;Video Player
+Exec=mediaplayer-app %u
+Terminal=false
+Icon=_usr_share_mediaplayer-app_mediaplayer-app
+X-Ubuntu-SymbolicIcon=/usr/share/mediaplayer-app/mediaplayer-app-symbolic.svg
+
+X-Ubuntu-Single-Instance=true
+X-Ubuntu-Default-Department-ID=sound-video
+
+X-Ubuntu-Gettext-Domain=app-install-data

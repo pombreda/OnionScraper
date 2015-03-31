@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=kvpm
+X-AppInstall-Popcon=21
+X-AppInstall-Section=universe
+
+GenericName=LVM Frontend
+Name=KVPM
+Comment=KDE Volume Partition Manager
+Exec=/usr/sbin/kvpm
+X-KDE-SubstituteUID=true
+Type=Application
+Categories=Qt;KDE;System;
+Icon=kvpm
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=ibus-libpinyin
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=IBus LibPinyin Setup
+Comment=Set ibus-libpinyin Preferences
+Exec=/usr/lib/ibus/ibus-setup-libpinyin
+Icon=_usr_share_ibus-libpinyin_icons_ibus-pinyin
+NoDisplay=true
+Type=Application
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

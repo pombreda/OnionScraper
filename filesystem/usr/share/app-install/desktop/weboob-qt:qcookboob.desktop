@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=weboob-qt
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=QCookboob
+Comment=Search for recipes on many websites, and get info about them
+Exec=qcookboob
+Icon=qcookboob
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Network;Qt;
+Keywords=recipes;eating;cooking;
+
+X-Ubuntu-Gettext-Domain=app-install-data

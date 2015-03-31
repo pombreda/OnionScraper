@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=i3-wm
+X-AppInstall-Popcon=62
+X-AppInstall-Section=universe
+
+Type=Application
+Name=i3
+NoDisplay=true
+Comment=improved dynamic tiling window manager
+Exec=i3
+X-GNOME-WMName=i3
+X-GNOME-Autostart-Phase=WindowManager
+X-GNOME-Provides=windowmanager
+X-GNOME-Autostart-Notify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

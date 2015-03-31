@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=clamtk
+X-AppInstall-Popcon=1343
+X-AppInstall-Section=universe
+
+Name=ClamTk
+GenericName=Virus Scanner
+Comment=Scan for threats...
+TryExec=clamtk
+Exec=clamtk %F
+Icon=clamtk
+Type=Application
+Terminal=false
+Categories=GTK;GNOME;Utility;
+StartupNotify=true
+Keywords=antivirus;virus;malware;scan;scanner;
+
+X-Ubuntu-Gettext-Domain=app-install-data

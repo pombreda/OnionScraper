@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=cecilia
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=Cecilia
+GenericName=Sound synth and signal processor
+Comment=Sound synthesis and audio signal processing environment
+Icon=_usr_share_pixmaps_cecilia
+Type=Application
+Categories=AudioVideo;Audio;
+Exec=cecilia
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

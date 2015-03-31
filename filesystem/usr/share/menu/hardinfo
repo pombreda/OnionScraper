@@ -1,0 +1,5 @@
+?package(hardinfo): \
+needs="X11" \
+section="Applications/System/Administration" \
+title="System Information" command="/usr/bin/hardinfo" \
+icon="/usr/share/pixmaps/hardinfo.xpm"

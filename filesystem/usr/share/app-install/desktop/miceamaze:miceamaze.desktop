@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=miceamaze
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=MiceAmaze
+Type=Application
+Comment=video game with mice in a maze
+Exec=miceamaze
+Terminal=false
+Categories=Game;ArcadeGame;
+Icon=miceamaze
+
+X-Ubuntu-Gettext-Domain=app-install-data

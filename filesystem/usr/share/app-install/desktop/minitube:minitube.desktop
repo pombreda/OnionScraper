@@ -1,0 +1,33 @@
+[Desktop Entry]
+X-AppInstall-Package=minitube
+X-AppInstall-Popcon=271
+X-AppInstall-Section=universe
+
+Name=Minitube
+Comment=Watch YouTube videos
+GenericName=YouTube app
+Exec=minitube
+Terminal=false
+Type=Application
+Icon=minitube
+Categories=AudioVideo;Player;Qt;
+StartupNotify=false
+Actions=TogglePlaying;Next;Previous;StopAfterThis
+
+[Desktop Action TogglePlaying]
+Name=Play/Pause
+Exec=minitube --toggle-playing
+
+[Desktop Action Next]
+Name=Next
+Exec=minitube --next
+
+[Desktop Action Previous]
+Name=Previous
+Exec=minitube --previous
+
+[Desktop Action StopAfterThis]
+Name=Stop After This Video
+Exec=minitube --stop-after-this
+
+X-Ubuntu-Gettext-Domain=app-install-data

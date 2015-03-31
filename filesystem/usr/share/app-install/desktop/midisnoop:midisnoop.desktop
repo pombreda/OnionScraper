@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=midisnoop
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Categories=Audio;AudioVideo;Qt;
+Comment=MIDI monitor and prober.
+Keywords=midi;monitor;jackd;alsa;
+Exec=/usr/bin/midisnoop
+GenericName=Midisnoop
+Hidden=false
+Icon=midisnoop
+Name=Midisnoop
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

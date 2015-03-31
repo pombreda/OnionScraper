@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=weboob-qt
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=QBoobmsg
+Comment=Send and receive messages from various websites
+Exec=qboobmsg
+Icon=qboobmsg
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Network;Qt;
+Keywords=messaging;chat;forum;
+
+X-Ubuntu-Gettext-Domain=app-install-data

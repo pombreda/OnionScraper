@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=supertransball2
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Super Transball 2
+GenericName=Super Transball 2
+Comment=Thrust type of game
+Exec=supertransball2
+Icon=supertransball2
+Terminal=false
+Categories=Game;ArcadeGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; 向けのハンドラ">
+								<longdesc>&quot;ymsgr&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;ymsgr&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;ymsgr&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; 向けのハンドラ">
+								<longdesc>&quot;xmpp&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;xmpp&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;xmpp&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; 向けのハンドラ">
+								<longdesc>&quot;sip&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;sip&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;sip&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; 向けのハンドラ">
+								<longdesc>&quot;msnim&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;msnim&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;msnim&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; 向けのハンドラ">
+								<longdesc>&quot;irc&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;irc&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;irc&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; 向けのハンドラ">
+								<longdesc>&quot;icq&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;icq&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;icq&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; 向けのハンドラ">
+								<longdesc>&quot;gg&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;gg&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;gg&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="端末からコマンドを起動する">
+								<longdesc>この種類の URL を処理するために使用するコマンドを端末から起動する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; 向けのハンドラ">
+								<longdesc>&quot;aim&quot; の URL を処理する際に使用するコマンドです (利用可能であれば)。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指定したコマンドで &quot;aim&quot; の URL を処理するかどうか">
+								<longdesc>&quot;command&quot; キーで指定したコマンドで &quot;aim&quot; の URL を処理する場合は TRUE です。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

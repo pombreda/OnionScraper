@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-webapps-youtube
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=YouTube
+Type=Application
+Icon=unity-webapps-youtube
+MimeType=
+Actions=S0;S1;S2;S3;S4;S5;S6;S7;S8;S9;S10;
+Exec=unity-webapps-runner -n 'WW91VHViZQ==' -d 'youtube.com' %u
+StartupWMClass=YouTubeyoutubecom
+    
+X-Ubuntu-Gettext-Domain=app-install-data

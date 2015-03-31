@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=razorqt-config
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+OnlyShowIn=X-RAZOR;
+Type=Application
+Exec=qtconfig
+TryExec=qtconfig
+Terminal=false
+Categories=Settings;DesktopSettings;Qt;X-RAZOR;
+Icon=preferences-system
+Name=Qt Configuration
+Comment=Configure Qt
+GenericName=Qt configuration
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

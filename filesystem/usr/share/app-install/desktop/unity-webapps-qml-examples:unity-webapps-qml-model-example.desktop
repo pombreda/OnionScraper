@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-webapps-qml-examples
+X-AppInstall-Popcon=0
+X-AppInstall-Section=main
+
+Type=Application
+Exec=qmlscene /usr/share/unity-webapps-qml/examples/webapps-app-model/main.qml
+Path=/usr/share/unity-webapps-qml/examples/webapps-apps-model
+Name=Unity WebApp QML Comonent - Example of WebApps Applications Model
+GenericName=Unity WebApp QML Comonent for Ubuntu Example of WebApps Applications Model
+Icon=drive-multidisk-symbolic
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

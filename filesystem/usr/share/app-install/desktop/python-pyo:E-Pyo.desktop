@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=python-pyo
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=E-Pyo
+GenericName=Digital signal processing script creation with Pyo
+Comment=Sound synthesis and audio signal processing environment
+Icon=_usr_share_pixmaps_E-Pyo
+Type=Application
+Categories=AudioVideo;Audio;
+Exec=/usr/lib/python-pyo/E-Pyo.py
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

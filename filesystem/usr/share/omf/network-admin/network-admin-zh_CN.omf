@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>网络管理工具手册</title>
+    <date>2004年6月</date>
+    <version identifier="网络管理工具手册 V0.35" date="2004年6月"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      网络管理工具允许您指定系统连接到其他计算机或互联网上的方法。
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/network-admin/zh_CN/network-admin.xml"/>
+    <language code="zh_CN"/>
+    <relation seriesid="46630d52-85db-11da-9553-d620e14d440c"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

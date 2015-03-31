@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=jmeters
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Jmeters
+GenericName=Multichannel audio level meter
+Comment=Multichannel audio level meter for JACK
+Keywords=audio;sound;jackd,measurement,meter,multichannel
+Icon=jmeters_32x32
+Exec=jmeters -t din -c 2 L R
+Terminal=false
+Categories=AudioVideo;Audio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

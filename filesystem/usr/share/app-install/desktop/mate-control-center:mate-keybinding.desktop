@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-control-center
+X-AppInstall-Popcon=167
+X-AppInstall-Section=universe
+
+Name=Keyboard Shortcuts
+Comment=Assign shortcut keys to commands
+Exec=mate-keybinding-properties
+Icon=preferences-desktop-keyboard-shortcuts
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;
+Keywords=mate-control-center;MATE;assign;keyboard;shortcuts;keybindings;
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

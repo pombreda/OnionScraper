@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=bastet
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Bastard Tetris
+GenericName=bastet
+Comment=Go mad with this Tetris clone
+Exec=bastet
+Icon=bastet
+Terminal=true
+Categories=Game;BlocksGame;
+Keywords=tetris;console;terminal;ncurses;bastard;algorithm;
+
+X-Ubuntu-Gettext-Domain=app-install-data

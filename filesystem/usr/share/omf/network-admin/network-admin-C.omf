@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>Network Administration Tool Manual</title>
+    <date>June 2004</date>
+    <version identifier="Network Administration Tool Manual V0.35" date="June 2004"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      The Network Administration Tool allows you to specify the way your system connects to other computers and to internet.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/network-admin/C/network-admin.xml"/>
+    <language code="C"/>
+    <relation seriesid="46630d52-85db-11da-9553-d620e14d440c"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

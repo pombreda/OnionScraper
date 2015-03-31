@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=udev-discover
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Name=Udev Discover
+GenericName=Sysfs tree browser
+Comment=Sysfs tree browsing tool focused on helping udev users and developers
+Exec=udev-discover
+Icon=udev-discover
+Terminal=false
+Type=Application
+Categories=Utility;HardwareSettings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

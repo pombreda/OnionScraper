@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Chạy lệnh trong thiết bị cuối">
+								<longdesc>Đúng nếu lệnh được dùng để quản lý địa chỉ URL kiểu này nên được chạy trong thiết bị cuối.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Bộ quản lý địa chỉ URL « ymsgr »">
+								<longdesc>Lệnh dùng để quản lý địa chỉ URL « ymsgr », nếu bật.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Lệnh đã ghi rõ có nên quản lý địa chỉ URL kiểu « ymsgr » hay không">
+								<longdesc>Đúng nếu lệnh được ghi rõ trong koá « command » nên quản lý địa chỉ URL kiểu « ymsgr ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Chạy lệnh trong thiết bị cuối">
+								<longdesc>Đúng nếu lệnh được dùng để quản lý địa chỉ URL kiểu này nên được chạy trong thiết bị cuối.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Bộ quản lý địa chỉ URL « xmpp »">
+								<longdesc>Lệnh dùng để quản lý địa chỉ URL « xmpp », nếu bật.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Lệnh đã ghi rõ có nên quản lý địa chỉ URL kiểu « xmpp » hay không">
+								<longdesc>Đúng nếu lệnh được ghi rõ trong koá « command » nên quản lý địa chỉ URL kiểu « xmpp ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Chạy lệnh trong thiết bị cuối">
+								<longdesc>Đúng nếu lệnh được dùng để quản lý địa chỉ URL kiểu này nên được chạy trong thiết bị cuối.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Bộ quản lý địa chỉ URL « sip »">
+								<longdesc>Lệnh dùng để quản lý địa chỉ URL « sip », nếu bật.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Lệnh đã ghi rõ có nên quản lý địa chỉ URL kiểu « sip » hay không">
+								<longdesc>Đúng nếu lệnh được ghi rõ trong koá « command » nên quản lý địa chỉ URL kiểu « sip ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Chạy lệnh trong thiết bị cuối">
+								<longdesc>Đúng nếu lệnh được dùng để quản lý địa chỉ URL kiểu này nên được chạy trong thiết bị cuối.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Bộ quản lý địa chỉ URL « msnim »">
+								<longdesc>Lệnh dùng để quản lý địa chỉ URL « msnim », nếu bật.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Lệnh đã ghi rõ có nên quản lý địa chỉ URL kiểu « msnim » hay không">
+								<longdesc>Đúng nếu lệnh được ghi rõ trong koá « command » nên quản lý địa chỉ URL kiểu « msnim ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Chạy lệnh trong thiết bị cuối">
+								<longdesc>Đúng nếu lệnh được dùng để quản lý địa chỉ URL kiểu này nên được chạy trong thiết bị cuối.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Bộ quản lý địa chỉ URL « irc »">
+								<longdesc>Lệnh dùng để quản lý địa chỉ URL « irc », nếu bật.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Lệnh đã ghi rõ có nên quản lý địa chỉ URL kiểu « irc » hay không">
+								<longdesc>Đúng nếu lệnh được ghi rõ trong koá « command » nên quản lý địa chỉ URL kiểu « irc ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Chạy lệnh trong thiết bị cuối">
+								<longdesc>Đúng nếu lệnh được dùng để quản lý địa chỉ URL kiểu này nên được chạy trong thiết bị cuối.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Bộ quản lý địa chỉ URL « icq »">
+								<longdesc>Lệnh dùng để quản lý địa chỉ URL « icq », nếu bật.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Lệnh đã ghi rõ có nên quản lý địa chỉ URL kiểu « icq » hay không">
+								<longdesc>Đúng nếu lệnh được ghi rõ trong koá « command » nên quản lý địa chỉ URL kiểu « icq ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Chạy lệnh trong thiết bị cuối">
+								<longdesc>Đúng nếu lệnh được dùng để quản lý địa chỉ URL kiểu này nên được chạy trong thiết bị cuối.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Bộ quản lý địa chỉ URL « gg »">
+								<longdesc>Lệnh dùng để quản lý địa chỉ URL « gg », nếu bật.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Lệnh đã ghi rõ có nên quản lý địa chỉ URL kiểu « gg » hay không">
+								<longdesc>Đúng nếu lệnh được ghi rõ trong koá « command » nên quản lý địa chỉ URL kiểu « gg ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Chạy lệnh trong thiết bị cuối">
+								<longdesc>Đúng nếu lệnh được dùng để quản lý địa chỉ URL kiểu này nên được chạy trong thiết bị cuối.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Bộ quản lý địa chỉ URL « aim »">
+								<longdesc>Lệnh dùng để quản lý địa chỉ URL « aim », nếu bật.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Lệnh đã ghi rõ có nên quản lý địa chỉ URL kiểu « aim » hay không">
+								<longdesc>Đúng nếu lệnh được ghi rõ trong koá « command » nên quản lý địa chỉ URL kiểu « aim ».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

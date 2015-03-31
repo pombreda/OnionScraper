@@ -1,0 +1,11 @@
+[Desktop Entry]
+X-AppInstall-Package=cordova-ubuntu-2.8-examples
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=Cordova Example QRCodeScanner
+Type=Application
+Exec=/usr/bin/cordova-ubuntu-2.8 /usr/share/cordova-ubuntu-2.8/examples/qrcode-scanner
+Icon=_usr_share_cordova-ubuntu-2.8_examples_qrcode-scanner_img_qrcode
+X-Ubuntu-Touch=true
+X-Ubuntu-Gettext-Domain=app-install-data

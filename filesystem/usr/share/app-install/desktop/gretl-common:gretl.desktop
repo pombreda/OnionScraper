@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gretl
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Name=gretl
+Comment=Econometrics package
+Exec=/usr/bin/gretl %f
+Icon=gretl
+Terminal=false
+Type=Application
+MimeType=application/gretl.data;application/gretl.session;text/gretl.script
+Categories=Application;Science;Education;Econometrics;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

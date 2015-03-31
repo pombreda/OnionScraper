@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kjør kommandoen i en terminal">
+								<longdesc>Sann hvis kommandoen som skal håndtere denne type URLer skal kjøres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtereren for «ymsgr»-URLer">
+								<longdesc>Kommando for å håndtere «ymsgr»-URLer, hvis aktivert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den spesifike kommandoen skal håndtere «ymsgr»-URLer">
+								<longdesc>Sann hvis kommandoen spesifisert i «kommando»-nøkkelen skal håndtere «ymsgr»-URLer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kjør kommandoen i en terminal">
+								<longdesc>Sann hvis kommandoen som skal håndtere denne type URLer skal kjøres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtereren for «xmpp»-URLer">
+								<longdesc>Kommando for å håndtere «xmpp»-URLer, hvis aktivert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den spesifike kommandoen skal håndtere «xmpp»-URLer">
+								<longdesc>Sann hvis kommandoen spesifisert i «kommando»-nøkkelen skal håndtere «xmpp»-URLer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kjør kommandoen i en terminal">
+								<longdesc>Sann hvis kommandoen som skal håndtere denne type URLer skal kjøres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtereren for «sip»-URLer">
+								<longdesc>Kommando for å håndtere «sip»-URLer, hvis aktivert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den spesifike kommandoen skal håndtere «sip»-URLer">
+								<longdesc>Sann hvis kommandoen spesifisert i «kommando»-nøkkelen skal håndtere «sip»-URLer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kjør kommandoen i en terminal">
+								<longdesc>Sann hvis kommandoen som skal håndtere denne type URLer skal kjøres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtereren for «msnim»-URLer">
+								<longdesc>Kommando for å håndtere «msnim»-URLer, hvis aktivert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den spesifike kommandoen skal håndtere «msnim»-URLer">
+								<longdesc>Sann hvis kommandoen spesifisert i «kommando»-nøkkelen skal håndtere «msnim»-URLer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kjør kommandoen i en terminal">
+								<longdesc>Sann hvis kommandoen som skal håndtere denne type URLer skal kjøres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtereren for «irc»-URLer">
+								<longdesc>Kommando for å håndtere «irc»-URLer, hvis aktivert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den spesifike kommandoen skal håndtere «irc»-URLer">
+								<longdesc>Sann hvis kommandoen spesifisert i «kommando»-nøkkelen skal håndtere «irc»-URLer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kjør kommandoen i en terminal">
+								<longdesc>Sann hvis kommandoen som skal håndtere denne type URLer skal kjøres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtereren for «icq»-URLer">
+								<longdesc>Kommando for å håndtere «icq»-URLer, hvis aktivert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den spesifike kommandoen skal håndtere «icq»-URLer">
+								<longdesc>Sann hvis kommandoen spesifisert i «kommando»-nøkkelen skal håndtere «icq»-URLer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kjør kommandoen i en terminal">
+								<longdesc>Sann hvis kommandoen som skal håndtere denne type URLer skal kjøres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtereren for «gg»-URLer">
+								<longdesc>Kommando for å håndtere «gg»-URLer, hvis aktivert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den spesifike kommandoen skal håndtere «gg»-URLer">
+								<longdesc>Sann hvis kommandoen spesifisert i «kommando»-nøkkelen skal håndtere «gg»-URLer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kjør kommandoen i en terminal">
+								<longdesc>Sann hvis kommandoen som skal håndtere denne type URLer skal kjøres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndtereren for «aim»-URLer">
+								<longdesc>Kommando for å håndtere «aim»-URLer, hvis aktivert.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om den spesifike kommandoen skal håndtere «aim»-URLer">
+								<longdesc>Sann hvis kommandoen spesifisert i «kommando»-nøkkelen skal håndtere «aim»-URLer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

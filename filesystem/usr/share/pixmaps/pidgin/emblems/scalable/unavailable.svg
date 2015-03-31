@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="16" width="16" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs4">
+  <linearGradient id="linearGradient2265" y2="11.647" gradientUnits="userSpaceOnUse" x2="8.0469" y1="6.531" x1="8.0469">
+   <stop id="stop2261" style="stop-color:#eeeeec" offset="0"/>
+   <stop id="stop2263" style="stop-color:#eeeeec;stop-opacity:0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1">
+  <rect id="rect2200" style="fill-rule:evenodd;stroke:#204a87;fill:#5c3566" height="1" width="0" y="4" x="13"/>
+  <path id="rect2203" style="fill-rule:evenodd;stroke:#ce5c00;fill:#fcaf3e" d="m8.0118 2.0086l7.1202 12.494-14.259-0.011 7.1388-12.483z"/>
+  <path id="path2249" style="opacity:.5;fill-rule:evenodd;stroke:#fff;fill:url(#linearGradient2265)" d="m8 5.2188l-4.4062 8.2192 8.8442 0.031-4.438-8.2502z" xlink:href="#rect2203"/>
+  <path id="path2245" style="fill:#2e3436;fill-rule:evenodd" d="m8.5491 11.647a0.55804 0.625 0 1 1 -1.1161 0 0.55804 0.625 0 1 1 1.1161 0z" transform="matrix(1.792 0 0 1.6 -6.32 -6.6357)"/>
+  <path id="path2247" style="fill:#2e3436;fill-rule:evenodd" d="m8.8616 7.8527a0.81473 2.3214 0 1 1 -1.6295 0 0.81473 2.3214 0 1 1 1.6295 0z" transform="matrix(1.2274 0 0 .86154 -1.8767 1.2346)"/>
+ </g>
+</svg>

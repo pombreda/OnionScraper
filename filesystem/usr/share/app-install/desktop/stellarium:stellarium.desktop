@@ -1,0 +1,30 @@
+[Desktop Entry]
+X-AppInstall-Package=stellarium
+X-AppInstall-Popcon=719
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Stellarium
+GenericName=Desktop planetarium
+Exec=stellarium
+Icon=stellarium
+StartupNotify=false
+Terminal=false
+Categories=Astronomy;Education;Science;
+Comment=Planetarium
+Keywords=astronomy;planetarium;
+
+Actions=Window;Fullscreen;Safemode;
+
+[Desktop Action Window]
+Name=Open in window
+Exec=stellarium -f no
+OnlyShowIn=Unity;
+
+[Desktop Action Fullscreen]
+Name=Open in fullscreen
+Exec=stellarium -f yes
+OnlyShowIn=Unity;
+
+X-Ubuntu-Gettext-Domain=app-install-data

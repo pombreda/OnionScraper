@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+  <vendor>The Blueman Project</vendor>
+  <vendor xml:lang="be">Праэкт Blueman</vendor>
+  <vendor xml:lang="bg">Проектът Blueman</vendor>
+  <vendor xml:lang="bs">Blueman Projekat</vendor>
+  <vendor xml:lang="ca">The Blueman Project</vendor>
+  <vendor xml:lang="cs">Projekt Blueman</vendor>
+  <vendor xml:lang="da">Blueman projektet</vendor>
+  <vendor xml:lang="de">Das Blueman-Projekt</vendor>
+  <vendor xml:lang="el">Το Blueman έργο</vendor>
+  <vendor xml:lang="en_GB">The Blueman Project</vendor>
+  <vendor xml:lang="es">Proyecto Blueman</vendor>
+  <vendor xml:lang="et">Blueman'i projekt</vendor>
+  <vendor xml:lang="fi">Blueman-projekti</vendor>
+  <vendor xml:lang="fr">Le projet Blueman</vendor>
+  <vendor xml:lang="gl">O proxecto Blueman</vendor>
+  <vendor xml:lang="he">פרוייקט Blueman</vendor>
+  <vendor xml:lang="hr">Blueman projekt</vendor>
+  <vendor xml:lang="hu">A Blueman projekt</vendor>
+  <vendor xml:lang="it">Il Progetto Blueman</vendor>
+  <vendor xml:lang="ja">The Blueman Project</vendor>
+  <vendor xml:lang="lt">Blueman Projektas</vendor>
+  <vendor xml:lang="nl">Het Blueman-project</vendor>
+  <vendor xml:lang="pl">Projekt Blueman</vendor>
+  <vendor xml:lang="pt">O Projecto Blueman</vendor>
+  <vendor xml:lang="pt_BR">Projeto Blueman</vendor>
+  <vendor xml:lang="ru">Проект Blueman</vendor>
+  <vendor xml:lang="sk">The Blueman Project</vendor>
+  <vendor xml:lang="sv">Blueman-projektet</vendor>
+  <vendor xml:lang="tr">Blueman Projesi</vendor>
+  <vendor xml:lang="uk">Проект Blueman</vendor>
+  <vendor xml:lang="zh_CN">Blueman工程</vendor>
+  <vendor xml:lang="zh_TW">此 Blueman 專案</vendor>
+  <vendor_url>https://github.com/blueman-project/blueman</vendor_url>
+  <icon_name>blueman</icon_name>
+  
+   <action id="org.blueman.network.setup">
+    <description gettext-domain="blueman">Configure Bluetooth Network</description>
+    <message gettext-domain="blueman">Configuring networking requires privileges</message>
+
+    <defaults>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+
+    </defaults>
+  </action>
+  
+  <action id="org.blueman.hal.manager">
+    <description gettext-domain="blueman">Configure Bluetooth Modems</description>
+    <message gettext-domain="blueman">System policy prevents modifying the configuration</message>
+
+    <defaults>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+  
+  <action id="org.blueman.dhcp.client">
+    <description gettext-domain="blueman">Launch DHCP client</description>
+    <message gettext-domain="blueman">Launching DHCP client requires privileges</message>
+    <defaults>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>yes</allow_active>
+    </defaults>
+  </action>
+  
+  <action id="org.blueman.bluez.config">
+    <description gettext-domain="blueman">Bluetooth Configuration</description>
+    <message gettext-domain="blueman">Changing Bluetooth system settings requires privileges</message>
+    <defaults>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+  
+</policyconfig>

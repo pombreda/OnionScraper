@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=scim
+X-AppInstall-Popcon=2495
+X-AppInstall-Section=universe
+
+Name=SCIM Input Method
+Comment=Configure the Smart Common Input Method platform
+Exec=scim-setup
+Icon=scim-setup
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Settings;
+NotShowIn=KDE;
+
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

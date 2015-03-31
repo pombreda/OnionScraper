@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-control-center
+X-AppInstall-Popcon=167
+X-AppInstall-Section=universe
+
+Name=About Me
+Comment=Set your personal information
+Exec=mate-about-me
+Icon=user-info
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;X-MATE-PersonalSettings;
+Keywords=mate-control-center;MATE;personal;information;
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

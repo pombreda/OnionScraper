@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=volumecontrol.app
+X-AppInstall-Popcon=70
+X-AppInstall-Section=universe
+
+Type=Application
+Categories=Audio;AudioVideo;Mixer;
+Name=VolumeControl
+Comment=Audio mixer for GNUstep
+Keywords=mixer;audio;sound;volume;
+Icon=_usr_lib_GNUstep_Applications_VolumeControl.app_Resources_headphones
+Exec=VolumeControl
+
+X-Ubuntu-Gettext-Domain=app-install-data

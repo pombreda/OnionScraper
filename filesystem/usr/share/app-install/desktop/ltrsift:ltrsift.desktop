@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=ltrsift
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/usr/bin/ltrsift
+Name=LTRsift
+Comment=A graphical tool for postprocessing and classification of LTR retrotransposons.
+Categories=Biology;Science;Education;
+Icon=ltrsift
+
+X-Ubuntu-Gettext-Domain=app-install-data

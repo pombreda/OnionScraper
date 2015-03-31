@@ -1,0 +1,4 @@
+0b748ee6dc68476a840d79615681a1e1  usr/lib/x86_64-linux-gnu/gio/modules/libgioremote-volume-monitor.so
+b5a08ae129ddb9830043fa036dc55979  usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+334978aba9b1a12476f5620e5826b4ad  usr/share/doc/gvfs/copyright
+111ca42964af403967fff32410312478  usr/share/lintian/overrides/gvfs

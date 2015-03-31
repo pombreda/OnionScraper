@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=eiciel
+X-AppInstall-Popcon=161
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=Eiciel
+GenericName=Access control list editor
+Comment=View or change ACL and User Extended Attributes on files and directories
+Exec=/usr/bin/eiciel
+Icon=eiciel
+Terminal=false
+Type=Application
+Categories=GNOME;System;FileTools;
+Version=0.9.8.3
+
+X-Ubuntu-Gettext-Domain=app-install-data

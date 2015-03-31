@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=supercollider-ide
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=SuperCollider IDE
+GenericName=SuperCollider IDE
+Exec=scide %f
+Icon=sc_ide
+Type=Application
+Terminal=false
+Patterns=*.scd;*.sc;*.schelp
+Categories=Application;Multimedia;Audio;AudioVideo
+MimeType=text/x-sc;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=expeyes
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Version=1.0.1
+Type=Application
+
+Exec=/usr/bin/expeyes-junior
+Icon=expeyes-junior-icon
+
+Name=ExpEYES Junior
+Comment=EXPEYES Junior
+
+Categories=GNOME;Application;Education;Science;
+
+Terminal=false
+NoDisplay=false
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

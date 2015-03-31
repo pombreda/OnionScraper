@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Name=PolicyKit Authentication Agent
+Comment=PolicyKit Authentication Agent
+Exec=/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+Terminal=false
+Type=Application
+Categories=
+NoDisplay=true
+OnlyShowIn=X-Cinnamon;
+
+X-Ubuntu-Gettext-Domain=app-install-data

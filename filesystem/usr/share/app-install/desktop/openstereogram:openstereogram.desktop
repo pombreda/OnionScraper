@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=openstereogram
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=0.1
+Type=Application
+Name=OpenSterogram
+Comment=Create 3D autostereograms
+TryExec=OpenStereogram
+Exec=OpenStereogram
+Icon=openstereogram
+Categories=Education;Art;Science;
+
+X-Ubuntu-Gettext-Domain=app-install-data

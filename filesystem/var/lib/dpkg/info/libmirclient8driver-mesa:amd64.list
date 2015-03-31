@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/mir
+/usr/lib/x86_64-linux-gnu/mir/client8driver
+/usr/lib/x86_64-linux-gnu/mir/client8driver/mesa
+/usr/lib/x86_64-linux-gnu/mir/client8driver/mesa/libmirclient8driver.so
+/usr/lib/x86_64-linux-gnu/mir/client8driver/mesa/ld.so.conf
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmirclient8driver-mesa
+/usr/share/doc/libmirclient8driver-mesa/changelog.Debian.gz
+/usr/share/doc/libmirclient8driver-mesa/copyright

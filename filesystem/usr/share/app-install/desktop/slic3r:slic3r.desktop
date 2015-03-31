@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=slic3r
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Slic3r
+Icon=slic3r
+Exec=slic3r
+StartupNotify=false
+StartupWMClass=Slic3r.pl
+
+X-Ubuntu-Gettext-Domain=app-install-data

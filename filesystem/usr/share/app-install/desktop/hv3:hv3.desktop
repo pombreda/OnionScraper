@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=hv3
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Hv3 Web Browser
+GenericName=Web Browser
+Comment=Browse the World Wide Web
+Type=Application
+Exec=hv3 %U
+Categories=Network;WebBrowser;
+
+X-Ubuntu-Gettext-Domain=app-install-data

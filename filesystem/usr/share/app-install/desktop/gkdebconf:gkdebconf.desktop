@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=gkdebconf
+X-AppInstall-Popcon=20
+X-AppInstall-Section=universe
+
+Name=GkDebconf
+Type=Application
+Categories=System;
+Encoding=UTF-8
+Comment=Helper to reconfigure packages
+Icon=_usr_share_pixmaps_gkdebconf-icon
+Exec=gkdebconf
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

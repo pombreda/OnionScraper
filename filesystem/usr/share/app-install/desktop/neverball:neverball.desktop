@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=neverball
+X-AppInstall-Popcon=59
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Neverball
+Comment=A 3D arcade game with a ball
+Icon=neverball
+Exec=neverball
+Terminal=false
+Categories=Game;ArcadeGame;
+Keywords=arcade;floor;ball;3D;platform;levels;maps;
+
+X-Ubuntu-Gettext-Domain=app-install-data

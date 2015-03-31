@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=pixelmed-webstart-apps
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Terminal=false
+StartupNotify=true
+Version=20130426
+Name=DicomImageViewer
+Exec=/usr/bin/DicomImageViewer
+GenericName=DicomImageViewer Application
+Comment=A simple DICOM image and spectroscopy viewer.
+Icon=_usr_share_pixelmed_icons_DicomImageViewer
+Categories=Science;DataVisualization;ImageProcessing;MedicalSoftware
+
+X-Ubuntu-Gettext-Domain=app-install-data

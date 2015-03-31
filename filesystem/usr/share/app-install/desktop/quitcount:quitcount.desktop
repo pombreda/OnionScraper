@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=quitcount
+X-AppInstall-Popcon=52
+X-AppInstall-Section=universe
+
+Name=QuitCount
+Exec=quitcount
+Icon=quitcount
+Categories=Application;Utility;GTK;
+Keywords=smoking;cessation;self-help;
+Comment=Simple counter showing your gains since you quit smoking
+Terminal=false
+Type=Application
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

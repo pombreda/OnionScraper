@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=zeitgeist-explorer
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Zeitgeist Explorer
+GenericName=Zeitgeist Explorer
+Comment=A tool which can be used to monitor and explore the events logged by zeitgeist
+Exec=zeitgeist-explorer
+Icon=zeitgeist-explorer
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+OnlyShowIn=GNOME;Unity;
+Categories=GNOME;GTK;Settings;X-GNOME-SystemSettings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

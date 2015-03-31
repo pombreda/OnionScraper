@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=evilwm
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Encoding=UTF-8
+Name=evilwm
+Exec=evilwm
+NoDisplay=false
+X-GNOME-WMName=evilwm
+# evilwm doesn't talk XSMP yet, so don't start in the WindowManager phase:
+X-GNOME-Autostart-Phase=Applications
+X-GNOME-Provides=windowmanager
+
+X-Ubuntu-Gettext-Domain=app-install-data

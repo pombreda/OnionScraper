@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=dispcalgui
+X-AppInstall-Popcon=109
+X-AppInstall-Section=universe
+
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=dispcalGUI VRML to X3D converter
+GenericName=VRML to X3D converter
+Exec=dispcalGUI-VRML-to-X3D-converter
+Icon=dispcalGUI-VRML-to-X3D-converter
+Terminal=false
+Categories=Graphics;
+Comment=Converts VRML files to X3D embedded in HTML
+MimeType=model/vrml;x-world/x-vrml;
+
+X-Ubuntu-Gettext-Domain=app-install-data

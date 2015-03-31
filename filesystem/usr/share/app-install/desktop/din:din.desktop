@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=din
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=DIN Is Noise
+GenericName=DIN Is Noise
+Comment=A musical instrument
+Exec=din
+Icon=din
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Application;AudioVideo;Audio;Midi;Music;
+
+X-Ubuntu-Gettext-Domain=app-install-data

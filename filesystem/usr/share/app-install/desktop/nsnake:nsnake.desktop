@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=nsnake
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=nsnake
+GenericName=Classic snake game on the terminal
+Exec=nsnake
+Terminal=true
+Icon=nsnake
+Categories=Game;ActionGame;
+Keywords=snake;ncurses;textual;terminal;
+
+X-Ubuntu-Gettext-Domain=app-install-data

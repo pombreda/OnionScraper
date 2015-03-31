@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Icon=cs-date-time
+Exec=cinnamon-settings calendar
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Date & Time
+Comment=Manage date and time settings
+
+X-Ubuntu-Gettext-Domain=app-install-data

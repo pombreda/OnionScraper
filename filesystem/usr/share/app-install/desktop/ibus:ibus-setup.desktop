@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=ibus
+X-AppInstall-Popcon=20317
+X-AppInstall-Section=main
+
+Name=Keyboard Input Methods
+Comment=Adjust methods for keyboard input.
+Exec=ibus-setup
+Icon=ibus-setup
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Settings;
+Keywords=keyboard;input;
+NotShowIn=GNOME;Unity;
+X-Desktop-File-Install-Version=0.22
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

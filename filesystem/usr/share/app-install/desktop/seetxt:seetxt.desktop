@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=seetxt
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Seetxt
+Icon=
+Exec=seetxt %f
+Terminal=false
+Categories=Utility;TextTools;Viewer
+Keywords=file;text;man;bookmark;regexp
+Comment=Lightweight text file and man page viewer
+
+X-Ubuntu-Gettext-Domain=app-install-data

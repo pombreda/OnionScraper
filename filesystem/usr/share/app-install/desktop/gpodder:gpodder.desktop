@@ -1,0 +1,38 @@
+[Desktop Entry]
+X-AppInstall-Package=gpodder
+X-AppInstall-Popcon=228
+X-AppInstall-Section=universe
+
+Name=gPodder
+X-GNOME-FullName=gPodder Podcast Client
+X-GNOME-FullName[cs_CZ]=Podcast klient gPodder
+X-GNOME-FullName[da]=gPodder podcast-klient
+X-GNOME-FullName[de]=gPodder Podcast Client
+X-GNOME-FullName[el]=Πελάτης Podcast gPodder
+X-GNOME-FullName[es]=Cliente de podcasts gPodder
+X-GNOME-FullName[es_ES]=Cliente de podcasts gPodder
+X-GNOME-FullName[es_MX]=Cliente de Podcasts gPodder
+X-GNOME-FullName[eu]=gPodder Podcast Bezeroa
+X-GNOME-FullName[fr]=Client de Podcasts gPodder
+X-GNOME-FullName[gl]=Cliente de podcast gPodder
+X-GNOME-FullName[he]=לקוח הפודקסטים gPodder
+X-GNOME-FullName[it]=Client per Podcast gPodder
+X-GNOME-FullName[kk]=gPodder подкасттар клиенті
+X-GNOME-FullName[nb]=gPodder podkastklient
+X-GNOME-FullName[nl]=gPodder Podcast Cliënt
+X-GNOME-FullName[pl]=Klient Podcastów gPodder
+X-GNOME-FullName[pt]=gPodder - Programa de podcasts
+X-GNOME-FullName[pt_BR]=Cliente de podcast gPodder
+X-GNOME-FullName[sv]=gPodder Podcastklient
+X-GNOME-FullName[tr]=gPodder Podcast İstemci
+X-GNOME-FullName[zh_CN]=gPodder播客客户端
+GenericName=Podcast Client
+Comment=Subscribe to audio and video content from the web
+Exec=/usr/bin/gpodder
+Icon=gpodder
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;Network;FileTransfer;News;GTK;
+StartupWMClass=gpodder
+
+X-Ubuntu-Gettext-Domain=app-install-data

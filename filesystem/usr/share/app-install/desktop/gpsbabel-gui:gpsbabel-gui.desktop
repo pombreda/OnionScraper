@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gpsbabel-gui
+X-AppInstall-Popcon=20
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=GPSBabel
+Comment=
+Exec=gpsbabelfe
+Terminal=false
+StartupNotify=no
+Icon=gpsbabel
+Categories=Education;Science;Geoscience
+
+X-Ubuntu-Gettext-Domain=app-install-data

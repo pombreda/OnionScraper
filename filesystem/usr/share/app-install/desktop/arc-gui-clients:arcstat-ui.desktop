@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=arc-gui-clients
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=ARC Job Manager
+GenericName=Job Manager
+Comment=Manage running Grid jobs
+Exec=arcstat-ui
+Icon=utilities-system-monitor
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+
+X-Ubuntu-Gettext-Domain=app-install-data

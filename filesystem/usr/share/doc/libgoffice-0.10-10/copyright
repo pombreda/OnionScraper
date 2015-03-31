@@ -1,0 +1,141 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: goffice
+Source: http://ftp.gnome.org/pub/GNOME/sources/goffice
+Comment:
+ This package was debianized by J.H.M. Dassen (Ray) <jdassen@debian.org>
+ on Sat, 5 Mar 2005 12:14:32 +0100.
+
+Files: *
+Copyright: 2002-2005 Andreas J. Guelzow <aguelzow@taliesin.ca>
+           2001      Almer S. Tigelaar
+           1998      Chris Lahey
+           2003-2013 Emmanuel Pacaud <emmanuel@gnome.org>
+                                     <emmanuel.pacaud@lapp.in2p3.fr>
+                                     <emmanuel.pacaud@univ-poitiers.fr>
+           2005      Ivan, Wong Yat Cheung <email@ivanwong.info>
+           2004      Jean Brefort <jean.brefort@ac-dijon.fr>
+           2003-2014 Jean Brefort <jean.brefort@normalesup.org>
+           1999-2008 Jody Goldberg <jody@gnome.org>
+           2004      Michael Devine <mdevine@cs.stanford.edu>
+           2000      Michael Levy
+           1998      Miguel de Icaza
+           2004-2014 Morten Welinder <terra@gnome.org>
+           2010      Valek FIlippov <frob@gnome.org>
+           2001-2004 Zbigniew Chyla <cyba@gnome.pl>
+       2000      Eazel, Inc.
+       1999-2000 EMC Capital Management, Inc.
+       2003,2005 Red Hat, Inc.
+       2008      Sun Microsystems, Inc.
+       2000-2004 Ximian, Inc.
+       2002      University of Southern California
+License: GPL-2 or GPL-3
+Comment: some files have GPL-2+ license headers
+
+Files: goffice/math/go-dtoa.*
+Copyright: 2014 Morten Welinder <terra@gnome.org>
+           2005-2014 Rich Felker, et al.
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files: mmlitex/*
+Copyright: 2001-2003 Vasil Yaroshevich <yarosh@raleigh.ru>
+License:
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation
+ files (the ``Software''), to deal in the Software without
+ restriction, including without limitation the rights to use,
+ copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following
+ conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ Except as contained in this notice, the names of individuals
+ credited with contribution to this software shall not be used in
+ advertising or otherwise to promote the sale, use or other
+ dealings in this Software without prior written authorization
+ from the individuals in question.
+ .
+ Any stylesheet derived from this Software that is publically
+ distributed will be identified with a different name and the
+ version strings in any derived Software will be changed so that
+ no possibility of confusion between the derived package and this
+ Software will exist.
+ .
+ Warranty
+ --------
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT.  IN NO EVENT SHALL NORMAN WALSH OR ANY OTHER
+ CONTRIBUTOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+Comment:
+ http://xsltml.sf.net
+
+Files: debian/*
+Copyright: 2013-2014 Dmitry Smirnov <onlyjob@debian.org>
+           2005-2013 J.H.M. Dassen (Ray) <jdassen@debian.org>
+License: GPL-2+
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2
+ as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2
+ can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License 3
+ can be found in "/usr/share/common-licenses/GPL-3".

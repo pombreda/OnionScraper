@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=xdemorse
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=xdemorse
+GenericName=xdemorse
+Comment=Decode Morse signals to Text
+Exec=xdemorse
+Type=Application
+Icon=xdemorse
+Categories=Audio
+Keywords=hamradio;amateur;radio;morse;code;gtk;signal
+
+X-Ubuntu-Gettext-Domain=app-install-data

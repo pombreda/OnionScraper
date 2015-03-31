@@ -1,0 +1,70 @@
+[Desktop Entry]
+X-AppInstall-Package=geary
+X-AppInstall-Popcon=58
+X-AppInstall-Section=universe
+
+Name=Geary
+GenericName=Mail Client
+X-GNOME-FullName=Geary Mail
+X-GNOME-FullName[ar]=بريد Geary
+X-GNOME-FullName[ca]=Geary Mail
+X-GNOME-FullName[cs]=Pošta Geary
+X-GNOME-FullName[da]=Geary mail
+X-GNOME-FullName[de]=Geary Mail
+X-GNOME-FullName[el]=Αλληλογραφία Geary
+X-GNOME-FullName[en_CA]=Geary Mail
+X-GNOME-FullName[en_GB]=Geary Mail
+X-GNOME-FullName[eo]=Geary Mail
+X-GNOME-FullName[es]=Correo Geary
+X-GNOME-FullName[et]=Geary
+X-GNOME-FullName[eu]=Geary posta
+X-GNOME-FullName[fa]=Geary Mail
+X-GNOME-FullName[fi]=Geary-sähköposti
+X-GNOME-FullName[fr]=Messagerie Geary
+X-GNOME-FullName[gl]=Correo Geary
+X-GNOME-FullName[he]=דואר אלקטרוני Geary
+X-GNOME-FullName[hr]=Geary Mail
+X-GNOME-FullName[hu]=Geary levél
+X-GNOME-FullName[id]=Surat Geary
+X-GNOME-FullName[it]=Geary Mail
+X-GNOME-FullName[ja]=Geary Mail
+X-GNOME-FullName[km]=Geary Mail
+X-GNOME-FullName[lt]=Geary Mail
+X-GNOME-FullName[ms]=Mel Geary
+X-GNOME-FullName[nb]=Geary Epost
+X-GNOME-FullName[nl]=Geary Mail
+X-GNOME-FullName[pl]=Klient poczty Geary
+X-GNOME-FullName[pt]=Geary Mail
+X-GNOME-FullName[pt_BR]=Correio eletrônico - Geary
+X-GNOME-FullName[ro]=Geary Mail
+X-GNOME-FullName[ru]=Geary Mail
+X-GNOME-FullName[sk]=Geary Mail
+X-GNOME-FullName[sl]=Geary Mail
+X-GNOME-FullName[sr]=Зупчинкова пошта
+X-GNOME-FullName[sr@latin]=Zupčinkova pošta
+X-GNOME-FullName[sv]=Geary Mail
+X-GNOME-FullName[te]=గేరీ వేగు
+X-GNOME-FullName[tr]=Geary Posta
+X-GNOME-FullName[uk]=Пошта Geary
+X-GNOME-FullName[vi]=Dịch vụ mail Geary
+X-GNOME-FullName[zh_CN]=Geary 邮件
+X-GNOME-FullName[zh_TW]=Geary 郵件
+Comment=Send and receive email
+Keywords=Email;E-mail;Mail;
+Icon=geary
+TryExec=geary
+Exec=geary %U
+Type=Application
+Terminal=false
+Categories=GNOME;GTK;Network;Email;
+MimeType=x-scheme-handler/mailto;
+StartupNotify=true
+Actions=Compose;
+
+[Desktop Action Compose]
+Name=Compose Message
+Exec=geary mailto:
+OnlyShowIn=X-Messaging Menu;Unity;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

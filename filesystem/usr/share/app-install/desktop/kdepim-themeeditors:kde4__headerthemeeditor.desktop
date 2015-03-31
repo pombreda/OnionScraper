@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kdepim-themeeditors
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=KMail Header Theme Editor
+Type=Application
+Exec=headerthemeeditor
+Icon=kmail
+X-DocPath=headerthemeeditor/index.html
+GenericName=Mail Header Theme Editor
+Terminal=false
+Categories=Qt;KDE;Office;Network;Email;
+InitialPreference=10
+
+X-Ubuntu-Gettext-Domain=app-install-data

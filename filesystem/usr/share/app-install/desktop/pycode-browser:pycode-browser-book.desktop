@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=pycode-browser
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Version=1.7.0
+Type=Application
+
+Exec=pycode-browser-book
+Icon=gnome-word
+
+Name=PythonBook
+
+Comment=PythonBook
+
+Categories=Electronics;Education;Science
+
+Terminal=false
+NoDisplay=false
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

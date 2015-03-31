@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kphotoalbum
+X-AppInstall-Popcon=27
+X-AppInstall-Section=universe
+
+Name=KPhotoAlbum
+Exec=kphotoalbum
+GenericName=Photo Album
+Terminal=false
+Type=Application
+X-KDE-StartupNotify=true
+Icon=kphotoalbum
+X-DocPath=kphotoalbum/index.html
+Categories=Qt;KDE;Graphics;Photography;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=diodon
+X-AppInstall-Popcon=180
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Diodon
+GenericName=Clipboard Manager
+Comment=GTK+ Clipboard Manager
+Icon=diodon
+NotShowIn=KDE
+Exec=diodon %u
+Terminal=false
+Categories=GTK;GNOME;Application;Utility;
+StartupNotify=false
+MimeType=x-scheme-handler/clipboard;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

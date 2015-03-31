@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>Příručka k Nástroji pro správu uživatelů</title>
+    <date>Červen 2004</date>
+    <version identifier="Příručka V0.35 k Nástroji pro správu uživatelů" date="Červen 2004"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      Nástroj pro správu uživatelů vám umožňuje přidávat, odstraňovat a upravovat uživatele a skupiny vašeho systému.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/users-admin/cs/users-admin.xml"/>
+    <language code="cs"/>
+    <relation seriesid="96a3093c-85dd-11da-9b62-8f8e4c73e091"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

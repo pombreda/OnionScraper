@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=empire
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=true
+Name=VMS Empire
+GenericName=Empire
+Categories=Game;StrategyGame;
+Keywords=strategy;text;ncurses;terminal;console;game;war;armies;
+Exec=empire
+Icon=empire-logo
+Comment=war game of the century
+
+X-Ubuntu-Gettext-Domain=app-install-data

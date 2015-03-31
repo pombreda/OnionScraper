@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=hamster-applet
+X-AppInstall-Popcon=404
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=false
+Name=Time Tracker
+Comment=Project Hamster - track your time
+Icon=hamster-applet
+Exec=/usr/bin/hamster-time-tracker overview
+Categories=GNOME;GTK;Utility;
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

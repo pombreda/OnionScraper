@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=invesalius
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Type=Application
+Name=InVesalius-3.0
+GenericName=InVesalius-3.0
+Exec=invesalius-3.0
+Terminal=false
+Icon=invesalius
+Categories=Education;Graphics;Science;DataVisualization;MedicalSoftware;Viewer;
+
+X-Ubuntu-Gettext-Domain=app-install-data

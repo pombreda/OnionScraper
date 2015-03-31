@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>Manual da Ferramenta de Adminstração de Serviços</title>
+    <date>Junho 2004</date>
+    <version identifier="Manual da Ferramenta de Adminstração de Serviços V0.35" date="Junho 2004"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      A Ferramenta de Administração de Serviços permite que você especifique os serviços que serão iniciados durante o processo de boot do sistema.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/services-admin/pt_BR/services-admin.xml"/>
+    <language code="pt_BR"/>
+    <relation seriesid="38937ae4-85dc-11da-8508-d0ce7329a2c1"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

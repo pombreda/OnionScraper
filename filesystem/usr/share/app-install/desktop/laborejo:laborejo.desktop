@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=laborejo
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Laborejodp
+GenericName=Sheet music editor
+Comment=Music notation editor
+Categories=AudioVideo;Audio;Midi;
+Exec=laborejo-qt
+
+X-Ubuntu-Gettext-Domain=app-install-data

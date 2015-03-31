@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=kismet
+X-AppInstall-Popcon=111
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Kismet
+Exec=kismet
+Terminal=true
+Categories=Network;Monitor;ConsoleOnly;
+
+X-Ubuntu-Gettext-Domain=app-install-data

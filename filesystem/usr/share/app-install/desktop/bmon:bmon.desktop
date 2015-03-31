@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=bmon
+X-AppInstall-Popcon=157
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=bmon
+Comment=Bandwidth monitor
+Exec=bmon
+Terminal=true
+Type=Application
+Categories=Network;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=barrage
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Name=Barrage
+Comment=A rather destructive action game.
+Exec=barrage
+Icon=barrage
+Type=Application
+Categories=Game;
+
+X-Ubuntu-Gettext-Domain=app-install-data

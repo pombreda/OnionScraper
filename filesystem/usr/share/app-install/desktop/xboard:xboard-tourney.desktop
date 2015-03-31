@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=xboard
+X-AppInstall-Popcon=83
+X-AppInstall-Section=universe
+
+Name=Xboard
+Comment=Resume XBoard chess tourney
+GenericName=X-windows chess board
+Type=Application
+Categories=Game;BoardGame;
+Exec=xboard -mm -tf %f
+Icon=xboard
+NoDisplay=true
+Terminal=false
+MimeType=application/x-xboard-trn;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

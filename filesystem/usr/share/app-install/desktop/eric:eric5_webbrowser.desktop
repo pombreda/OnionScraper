@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=eric
+X-AppInstall-Popcon=58
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Exec=eric5_webbrowser
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;
+Icon=ericWeb
+Terminal=false
+Name=eric5 Web Browser
+Comment=Web Browser for PyQt4
+GenericName=Web Browser
+Categories=Development;IDE;
+Keywords=programming;code;python;ruby
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

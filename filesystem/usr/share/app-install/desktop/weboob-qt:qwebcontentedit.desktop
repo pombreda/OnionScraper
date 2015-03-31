@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=weboob-qt
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=QWebContentEdit
+Comment=Edit website contents
+Exec=qwebcontentedit
+Icon=qwebcontentedit
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Network;Qt;
+Keywords=wikipedia;wiki;edit;
+
+X-Ubuntu-Gettext-Domain=app-install-data

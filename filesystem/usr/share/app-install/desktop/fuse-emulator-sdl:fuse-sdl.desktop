@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=fuse-emulator-sdl
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Categories=Game;Emulator;
+Name=Fuse Spectrum Emulator (SDL version)
+Comment=Emulator of the 1980s ZX Spectrum home computer and its various clones
+MimeType=audio/x-spectrum-csw;application/x-spectrum-dck;application/x-spectrum-dsk;application/x-spectrum-fdi;application/x-spectrum-hdf;application/x-spectrum-img;application/x-spectrum-ltp;application/x-spectrum-mdr;application/x-spectrum-mgt;application/x-spectrum-mgtsnp;application/x-spectrum-opd;application/x-spectrum-opu;application/x-spectrum-pzx;application/x-spectrum-raw;application/x-spectrum-rom;application/x-spectrum-rzx;application/x-spectrum-sad;application/x-spectrum-scl;application/x-spectrum-slt;application/x-spectrum-sna;application/x-spectrum-snp;application/x-spectrum-sp;application/x-spectrum-spc;application/x-spectrum-sta;application/x-spectrum-szx;application/x-spectrum-td0;application/x-spectrum-tap;application/x-spectrum-trd;application/x-spectrum-tzx;application/x-spectrum-udi;application/x-spectrum-z80;application/x-spectrum-zxs;audio/x-spectrum-wav;application/x-spectrum-compressed;application/x-spectrum-compressed-bz2;
+Exec=/usr/bin/fuse-sdl %f
+Icon=fuse
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

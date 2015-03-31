@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=bodega-client
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=primavera
+Icon=preferences-desktop-default-applications
+Exec=primavera -graphicssystem raster %u
+Terminal=false
+Type=Application
+Hidden=true
+Categories=Settings;System;SystemSetup;
+
+X-Ubuntu-Gettext-Domain=app-install-data

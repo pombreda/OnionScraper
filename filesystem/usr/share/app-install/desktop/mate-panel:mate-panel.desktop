@@ -1,0 +1,25 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-panel
+X-AppInstall-Popcon=321
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Panel
+Comment=Launch other applications and provide various utilities to manage windows, show the time, etc.
+Icon=mate-panel
+Exec=mate-panel
+StartupNotify=true
+Terminal=false
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-panel
+X-MATE-Bugzilla-Component=general
+X-MATE-Bugzilla-Version=1.8.1
+Categories=GTK;System;Core;
+OnlyShowIn=MATE;
+NoDisplay=true
+X-MATE-AutoRestart=true
+X-MATE-Autostart-Phase=Panel
+X-MATE-Provides=panel
+X-MATE-Autostart-Notify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

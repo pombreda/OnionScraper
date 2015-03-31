@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=nrefactory-samples
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=NRefactory Demo (GTK#)
+Comment=NRefactory C# analysis library Demo (GTK#)
+GenericName=NRefactory Demo
+Exec=nrefactory-demo-gtk
+Icon=nrefactory-demo
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Development
+
+X-Ubuntu-Gettext-Domain=app-install-data

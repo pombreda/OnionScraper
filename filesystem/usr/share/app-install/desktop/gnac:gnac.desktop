@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=gnac
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=Gnac
+Comment=Audio converter for GNOME
+Exec=gnac %F
+Icon=gnac
+MimeType=audio/mpeg;audio/mp4;audio/x-musepack;audio/ogg;audio/vnd.rn-realaudio;audio/x-speex;audio/x-ms-wma;audio/x-flac;audio/x-wav;audio/x-wavpack;audio/x-mpegurl;audio/x-scpls;application/xspf+xml;video/3gpp;video/x-ms-asf;video/x-msvideo;video/x-flv;video/x-matroska;video/mpeg;video/mp4;video/ogg;video/quicktime;application/vnd.rn-realmedia;application/x-shockwave-flash;video/x-ms-wmv;
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;AudioVideo;Audio;AudioVideoEditing;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnac
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=0.2.4
+
+X-Ubuntu-Gettext-Domain=app-install-data

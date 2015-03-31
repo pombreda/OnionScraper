@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=tomahawk
+X-AppInstall-Popcon=14
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Tomahawk
+GenericName=Music Player
+TryExec=tomahawk
+Exec=tomahawk %u
+Comment=Tomahawk — Social Music Player
+Icon=tomahawk
+Terminal=false
+Categories=Qt;AudioVideo;Audio;Player;
+MimeType=x-scheme-handler/tomahawk;x-scheme-handler/spotify;
+
+X-Ubuntu-Gettext-Domain=app-install-data

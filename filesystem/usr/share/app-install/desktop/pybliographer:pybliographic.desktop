@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=pybliographer
+X-AppInstall-Popcon=82
+X-AppInstall-Section=universe
+
+Name=Pybliographic Bibliography Manager
+GenericName=Bibliography Manager
+Comment=Manage bibliographic databases
+Icon=pybliographic
+Exec=pybliographic
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Office;Database;
+StartupNotify=true
+MimeType=text/x-bibtex;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Correr o comando numa linha de comandos">
+								<longdesc>Verdadeiro se o comando usado para tratar este tipo de URL deve correr num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Handler para URLs &quot;ymsgr&quot;">
+								<longdesc>Comando usado para tratar URLs &quot;ymsgr&quot;, caso esteja activo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="O comando especificado deve ser associado a URLs &quot;ymsgr&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; deve ser associado a URLs &quot;ymsgr&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Correr o comando numa linha de comandos">
+								<longdesc>Verdadeiro se o comando usado para tratar este tipo de URL deve correr num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Handler para URLs &quot;xmpp&quot;">
+								<longdesc>Comando usado para tratar URLs &quot;xmpp&quot;, caso esteja activo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="O comando especificado deve ser associado a URLs &quot;xmpp&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; deve ser associado a URLs &quot;xmpp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Correr o comando numa linha de comandos">
+								<longdesc>Verdadeiro se o comando usado para tratar este tipo de URL deve correr num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Handler para URLs &quot;sip&quot;">
+								<longdesc>Comando usado para tratar URLs &quot;sip&quot;, caso esteja activo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="O comando especificado deve ser associado a URLs &quot;sip&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; deve ser associado a URLs &quot;sip&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Correr o comando numa linha de comandos">
+								<longdesc>Verdadeiro se o comando usado para tratar este tipo de URL deve correr num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Handler para URLs &quot;msnim&quot;">
+								<longdesc>Comando usado para tratar URLs &quot;msnim&quot;, caso esteja activo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="O comando especificado deve ser associado a URLs &quot;msnim&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; deve ser associado a URLs &quot;msnim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Correr o comando numa linha de comandos">
+								<longdesc>Verdadeiro se o comando usado para tratar este tipo de URL deve correr num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Handler para URLs &quot;irc&quot;">
+								<longdesc>Comando usado para tratar URLs &quot;irc&quot;, caso esteja activo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="O comando especificado deve ser associado a URLs &quot;irc&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; deve ser associado a URLs &quot;irc&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Correr o comando numa linha de comandos">
+								<longdesc>Verdadeiro se o comando usado para tratar este tipo de URL deve correr num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Handler para URLs &quot;icq&quot;">
+								<longdesc>Comando usado para tratar URLs &quot;icq&quot;, caso esteja activo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="O comando especificado deve ser associado a URLs &quot;icq&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; deve ser associado a URLs &quot;icq&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Correr o comando numa linha de comandos">
+								<longdesc>Verdadeiro se o comando usado para tratar este tipo de URL deve correr num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Handler para URLs &quot;gg&quot;">
+								<longdesc>Comando usado para tratar URLs &quot;gg&quot;, caso esteja activo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="O comando especificado deve ser associado a URLs &quot;gg&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; deve ser associado a URLs &quot;gg&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Correr o comando numa linha de comandos">
+								<longdesc>Verdadeiro se o comando usado para tratar este tipo de URL deve correr num terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Handler para URLs &quot;aim&quot;">
+								<longdesc>Comando usado para tratar URLs &quot;aim&quot;, caso esteja activo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="O comando especificado deve ser associado a URLs &quot;aim&quot;">
+								<longdesc>Verdadeiro se o comando especificado na chave &quot;command&quot; deve ser associado a URLs &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

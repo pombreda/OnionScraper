@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon-control-center
+X-AppInstall-Popcon=117
+X-AppInstall-Section=universe
+
+Exec=cinnamon-settings region
+Icon=cs-language
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;DesktopSettings;X-Cinnamon-Settings-Panel;X-Cinnamon-PersonalSettings
+OnlyShowIn=X-Cinnamon;
+X-Cinnamon-Settings-Panel=region
+# Translators: those are keywords for the region control-center panel
+Keywords=Language;Layout;Keyboard;
+NoDisplay=true
+Name=Region & Language
+Comment=Change your region and language settings
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

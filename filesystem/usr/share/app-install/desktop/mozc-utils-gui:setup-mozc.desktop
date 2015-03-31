@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=mozc-utils-gui
+X-AppInstall-Popcon=33
+X-AppInstall-Section=universe
+
+Name=Mozc Setup
+Comment=Set up Mozc engine
+Exec=/usr/lib/mozc/mozc_tool --mode=config_dialog
+Icon=_usr_share_icons_mozc_ime_product_icon_opensource-32
+Type=Application
+StartupNotify=true
+Categories=Settings;
+X-Desktop-File-Install-Version=0.22
+
+X-Ubuntu-Gettext-Domain=app-install-data

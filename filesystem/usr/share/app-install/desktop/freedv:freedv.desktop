@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=freedv
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=FreeDV
+Comment=Digital Voice for HF
+Exec=/usr/bin/freedv
+Icon=freedv
+Type=Application
+Terminal=false
+Categories=Utility;HamRadio
+
+X-Ubuntu-Gettext-Domain=app-install-data

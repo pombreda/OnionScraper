@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;ymsgr&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;ymsgr&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;ymsgr&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;xmpp&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;xmpp&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;xmpp&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;sip&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;sip&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;sip&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;msnim&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;msnim&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;msnim&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;irc&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;irc&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;irc&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;icq&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;icq&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;icq&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;gg&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;gg&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;gg&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Komutu bir terminalde çalıştır.">
+								<longdesc>Bu komut bir uçbirimde çalıştırılabilen adresleri yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; adresleri için yakalayıcı">
+								<longdesc>Bu komut etkinleştirilirse &quot;aim&quot; adreslerini açmak için kullanılır.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Belirtilen komut &quot;aim&quot; adreslerini yakalayabiliyor mu">
+								<longdesc>&quot;komut&quot; içerisinde belirtilen komut kısayolu &quot;aim&quot; adreslerini yakalayabiliyorsa doğru.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

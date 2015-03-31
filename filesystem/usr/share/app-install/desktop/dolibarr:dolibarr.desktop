@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=dolibarr
+X-AppInstall-Popcon=17
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Dolibarr ERP & CRM
+Comment=The easy to use manager (ERP & CRM) for small and medium enterprises or foundations
+Keywords=Enterprise Resource Planning;Customer Relationship Management;Invoicing;
+Exec=xdg-open http://localhost/dolibarr
+Icon=dolibarr
+Terminal=false
+Type=Application
+Categories=Office
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

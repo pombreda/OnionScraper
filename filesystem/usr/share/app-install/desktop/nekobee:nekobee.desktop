@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=nekobee
+X-AppInstall-Popcon=11
+X-AppInstall-Section=universe
+
+Name=Nekobee
+Comment=Simple single-oscillator DSSI plugin
+Keywords=audio;sound;jackd,midi,synth;synthesizer
+Exec=nekobee
+Icon=
+Terminal=false
+Type=Application
+Categories=GNOME;AudioVideo;Audio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

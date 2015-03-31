@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=catfish
+X-AppInstall-Popcon=681
+X-AppInstall-Section=universe
+
+Name=Catfish File Search
+Comment=Search the file system
+Categories=GNOME;Utility;
+Exec=catfish
+Icon=catfish
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

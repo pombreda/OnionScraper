@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=ghex
+X-AppInstall-Popcon=222
+X-AppInstall-Section=universe
+
+Name=GHex
+GenericName=Hex Editor
+Comment=Inspect and edit binary files
+#TRANSLATORS: here, 'binay' means a binary file (not the base-2 numeric system)
+Keywords=binary;debug;
+Exec=ghex %F
+Terminal=false
+Type=Application
+Icon=ghex
+Categories=GNOME;GTK;Development;
+StartupNotify=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

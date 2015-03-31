@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=plm
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=PLM
+GenericName=Programmer's Learning Machine
+Comment=Learn programming interactively
+Exec=plm %U
+Icon=_usr_share_icons_hicolor_22x22_apps_plm
+Terminal=false
+Type=Application
+Categories=Development;TextEditor;Education;
+StartupNotify=true
+MimeType=text/plain;
+Keywords=Code;Programming;Java;Python;Scala;
+
+X-Ubuntu-Gettext-Domain=app-install-data

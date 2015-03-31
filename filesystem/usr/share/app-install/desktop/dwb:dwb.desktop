@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=dwb
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=dwb
+Comment=Small and fast webkit browser 
+Exec=dwb %u
+Icon=dwb
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;
+Keywords=www,browser,webbrowser
+
+X-Ubuntu-Gettext-Domain=app-install-data

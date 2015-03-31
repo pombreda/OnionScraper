@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=aclock.app
+X-AppInstall-Popcon=93
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Categories=Utility;Clock;
+Name=AClock
+Comment=Analog Clock Dockapp
+Keywords=clock;
+Icon=_usr_lib_GNUstep_Applications_AClock.app_Resources_clock
+Exec=AClock
+
+X-Ubuntu-Gettext-Domain=app-install-data

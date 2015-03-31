@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Käsu käivitamine terminalis">
+								<longdesc>Kui märgitud, siis seda liiki URL-ide jaoks kasutatav käsk käivitatakse terminalis.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URL-ide käsitleja">
+								<longdesc>&quot;ymsgr&quot; URL-ide käsitlemise käsk (kui on lubatud).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Kas määratud käsk peaks käsitlema &quot;ymsgr&quot; URL-e või mitte">
+								<longdesc>Kui märgitud, siis peaks &quot;command&quot; võtmes määratud käsk käsitlema &quot;ymsgr&quot; URL-e.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Käsu käivitamine terminalis">
+								<longdesc>Kui märgitud, siis seda liiki URL-ide jaoks kasutatav käsk käivitatakse terminalis.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URL-ide käsitleja">
+								<longdesc>&quot;xmpp&quot; URL-ide käsitlemise käsk (kui on lubatud).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Kas määratud käsk peaks käsitlema &quot;xmpp&quot; URL-e või mitte">
+								<longdesc>Kui märgitud, siis peaks &quot;command&quot; võtmes määratud käsk käsitlema &quot;xmpp&quot; URL-e.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Käsu käivitamine terminalis">
+								<longdesc>Kui märgitud, siis seda liiki URL-ide jaoks kasutatav käsk käivitatakse terminalis.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URL-ide käsitleja">
+								<longdesc>&quot;sip&quot; URL-ide käsitlemise käsk (kui on lubatud).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Kas määratud käsk peaks käsitlema &quot;sip&quot; URL-e või mitte">
+								<longdesc>Kui märgitud, siis peaks &quot;command&quot; võtmes määratud käsk käsitlema &quot;sip&quot; URL-e.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Käsu käivitamine terminalis">
+								<longdesc>Kui märgitud, siis seda liiki URL-ide jaoks kasutatav käsk käivitatakse terminalis.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URL-ide käsitleja">
+								<longdesc>&quot;msnim&quot; URL-ide käsitlemise käsk (kui on lubatud).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Kas määratud käsk peaks käsitlema &quot;msnim&quot; URL-e või mitte">
+								<longdesc>Kui märgitud, siis peaks &quot;command&quot; võtmes määratud käsk käsitlema &quot;msnim&quot; URL-e.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Käsu käivitamine terminalis">
+								<longdesc>Kui märgitud, siis seda liiki URL-ide jaoks kasutatav käsk käivitatakse terminalis.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URL-ide käsitleja">
+								<longdesc>&quot;irc&quot; URL-ide käsitlemise käsk (kui on lubatud).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Kas määratud käsk peaks käsitlema &quot;irc&quot; URL-e või mitte">
+								<longdesc>Kui märgitud, siis peaks &quot;command&quot; võtmes määratud käsk käsitlema &quot;irc&quot; URL-e.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Käsu käivitamine terminalis">
+								<longdesc>Kui märgitud, siis seda liiki URL-ide jaoks kasutatav käsk käivitatakse terminalis.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URL-ide käsitleja">
+								<longdesc>&quot;icq&quot; URL-ide käsitlemise käsk (kui on lubatud).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Kas määratud käsk peaks käsitlema &quot;icq&quot; URL-e või mitte">
+								<longdesc>Kui märgitud, siis peaks &quot;command&quot; võtmes määratud käsk käsitlema &quot;icq&quot; URL-e.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Käsu käivitamine terminalis">
+								<longdesc>Kui märgitud, siis seda liiki URL-ide jaoks kasutatav käsk käivitatakse terminalis.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URL-ide käsitleja">
+								<longdesc>&quot;gg&quot; URL-ide käsitlemise käsk (kui on lubatud).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Kas määratud käsk peaks käsitlema &quot;gg&quot; URL-e või mitte">
+								<longdesc>Kui märgitud, siis peaks &quot;command&quot; võtmes määratud käsk käsitlema &quot;gg&quot; URL-e.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Käsu käivitamine terminalis">
+								<longdesc>Kui märgitud, siis seda liiki URL-ide jaoks kasutatav käsk käivitatakse terminalis.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URL-ide käsitleja">
+								<longdesc>&quot;aim&quot; URL-ide käsitlemise käsk (kui on lubatud).</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Kas määratud käsk peaks käsitlema &quot;aim&quot; URL-e või mitte">
+								<longdesc>Kui märgitud, siis peaks &quot;command&quot; võtmes määratud käsk käsitlema &quot;aim&quot; URL-e.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Name=Extra publishing applications
+GenericName=Software Installer
+Comment=Allows the installation of more publishing applications
+Exec=ubuntustudio-installer ubuntustudio-publishing scribus scribus-template scribus-doc font-manager fontforge fontforge-doc fontforge-extras sortsmill-tools xaralx lyx
+Icon=ubuntustudio-installer
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=Install;
+
+X-Ubuntu-Gettext-Domain=app-install-data

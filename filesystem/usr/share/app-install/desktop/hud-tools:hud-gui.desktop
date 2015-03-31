@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=hud-tools
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Hud Gui
+Comment=Test user interface for HUD
+TryExec=hud-gtk
+Exec=hud-gtk
+Icon=
+Type=Application
+Categories=Utility;
+StartupNotify=true
+OnlyShowIn=Unity;
+Keywords=
+Actions=
+
+X-Ubuntu-Gettext-Domain=app-install-data

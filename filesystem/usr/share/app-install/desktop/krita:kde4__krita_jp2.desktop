@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=krita
+X-AppInstall-Popcon=629
+X-AppInstall-Section=universe
+
+Categories=Qt;KDE;Office;Graphics;
+Exec=krita %u
+GenericName=Application for Drawing and Handling of Images
+Icon=krita
+MimeType=image/jp2;
+Name=Krita
+StartupNotify=true
+Terminal=false
+Type=Application
+X-KDE-ServiceTypes=Calligra/Application
+X-Calligra-DefaultMimeTypes=image/jp2
+X-DBUS-StartupType=multi
+X-DBUS-ServiceName=org.krita.krita
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

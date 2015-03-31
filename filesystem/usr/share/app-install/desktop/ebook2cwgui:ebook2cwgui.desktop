@@ -1,0 +1,16 @@
+
+[Desktop Entry]
+X-AppInstall-Package=ebook2cwgui
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=ebook2cw
+GenericName=ebook to Morse Converter
+Comment=Converts ebooks to Morse MP3s/OGGs
+Exec=ebook2cwgui
+Icon=ebook2cw
+Terminal=false
+Type=Application
+Categories=Audio;HamRadio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

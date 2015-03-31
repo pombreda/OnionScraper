@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=3dchess
+X-AppInstall-Popcon=34
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=3D Chess
+Comment=3D chess for X11
+Exec=3Dc
+Icon=3dchess
+Terminal=false
+Categories=Game;BoardGame;
+Keywords=chess;board;3D;X11;
+
+X-Ubuntu-Gettext-Domain=app-install-data

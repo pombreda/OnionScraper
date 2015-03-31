@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=osmo
+X-AppInstall-Popcon=194
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Osmo
+Comment=Personal Organizer
+GenericName=Osmo
+Exec=osmo
+Icon=osmo
+Categories=GTK;Office;Calendar;ContactManagement;
+Terminal=false
+Keywords=calendar;office;pim;contacts;management;schedule;notes;organizer;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=italc-master
+X-AppInstall-Popcon=16
+X-AppInstall-Section=universe
+
+Categories=System;
+Exec=italc
+Icon=italc
+Name=iTALC Master
+Type=Application
+Keywords=education,classroom,teachers,students,remote control,computer-labs
+
+X-Ubuntu-Gettext-Domain=app-install-data

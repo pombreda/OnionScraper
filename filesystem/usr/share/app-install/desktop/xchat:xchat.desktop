@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=xchat
+X-AppInstall-Popcon=766
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=XChat IRC
+Comment=Chat with other people using Internet Relay Chat
+Exec=sh -c "xchat --existing --url %U || exec xchat"
+Icon=xchat
+Terminal=false
+Type=Application
+Categories=Network;
+StartupNotify=true
+MimeType=x-scheme-handler/irc;x-scheme-handler/ircs;
+
+X-Ubuntu-Gettext-Domain=app-install-data

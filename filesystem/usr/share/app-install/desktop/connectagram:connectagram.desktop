@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=connectagram
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Connectagram
+GenericName=Anagram Game
+Exec=connectagram
+Icon=connectagram
+Terminal=false
+Categories=Qt;Game;LogicGame;
+Keywords=Game;LogicGame
+
+X-Ubuntu-Gettext-Domain=app-install-data

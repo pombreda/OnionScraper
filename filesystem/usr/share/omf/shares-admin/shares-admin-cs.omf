@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>Příručka k Nástroji pro správu sdílených složek</title>
+    <date>Srpen 2006</date>
+    <version identifier="Příručka V2.15.2 k Nástroji pro správu sdílených složek" date="Srpen 2006"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      Nástroj pro správu sdílených složek vám umožňuje sdílet složky pro další počítače ve vaší síti nebo internetu.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/shares-admin/cs/shares-admin.xml"/>
+    <language code="cs"/>
+    <relation seriesid="64444de0-2572-11db-8c8b-8be955881b40"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

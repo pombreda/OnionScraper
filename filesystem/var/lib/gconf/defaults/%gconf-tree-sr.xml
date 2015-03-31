@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Покрени команду у терминалу">
+								<longdesc>„Тачно“ уколико би команда за рад са овим типом адреса требала бити покренута у терминалу.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Руководилац јаху адресама">
+								<longdesc>Команда за рад са јаху адресама, уколико је омогућено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Да ли да унесена команда руководи јаху адресама">
+								<longdesc>„Тачно“ уколико команда унесена у кључу „команда“ подржава „јаху“ адресе</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Покрени команду у терминалу">
+								<longdesc>„Тачно“ уколико би команда за рад са овим типом адреса требала бити покренута у терминалу.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Руководилац џабер адресама">
+								<longdesc>Команда за рад са џабер адресама, уколико је омогућено</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Да ли да унесена команда руководи џабер адресама">
+								<longdesc>„Тачно“ уколико команда унесена у кључу „команда“ подржава „џабер“ адресе</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Покрени команду у терминалу">
+								<longdesc>„Тачно“ уколико би команда за рад са овим типом адреса требала бити покренута у терминалу.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Руководилац сип адресама">
+								<longdesc>Команда за рад са сип адресама, уколико је омогућено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Да ли да унесена команда руководи сип адресама">
+								<longdesc>„Тачно“ уколико команда унесена у кључу „команда“ подржава „сип“ адресе</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Покрени команду у терминалу">
+								<longdesc>„Тачно“ уколико би команда за рад са овим типом адреса требала бити покренута у терминалу.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Руководилац мсн адресама">
+								<longdesc>Команда за рад са мсн адресама, уколико је омогућено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Да ли да унесена команда руководи мсн адресама">
+								<longdesc>„Тачно“ уколико команда унесена у кључу „команда“ подржава „мсн“ адресе</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Покрени команду у терминалу">
+								<longdesc>„Тачно“ уколико би команда за рад са овим типом адреса требала бити покренута у терминалу.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Руководилац ирц адресама">
+								<longdesc>Команда за рад са ирц адресама, уколико је омогућно.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Да ли да унесена команда руководи ирц адресама">
+								<longdesc>„Тачно“ уколико команда унесена у кључу „команда“ подржава „ирц“ адресе</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Покрени команду у терминалу">
+								<longdesc>„Тачно“ уколико би команда за рад са овим типом адреса требала бити покренута у терминалу.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Руководилац icq адресама">
+								<longdesc>Команда за рад са icq адресама, уколико је омогућено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Да ли да унесена команда руководи icq адресама">
+								<longdesc>„Тачно“ уколико команда унесена у кључу „команда“ подржава „icq“ адресе</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Покрени команду у терминалу">
+								<longdesc>„Тачно“ уколико би команда за рад са овим типом адреса требала бити покренута у терминалу.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Руководилац qq адресама">
+								<longdesc>Команда за рад са qq адресама, уколико је омогућено</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Да ли да унесена команда руководи qq адресама">
+								<longdesc>„Тачно“ уколико команда унесена у кључу „команда“ подржава „gg“ адресе</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Покрени команду у терминалу">
+								<longdesc>„Тачно“ уколико би команда за рад са овим типом адреса требала бити покренута у терминалу.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Руководилац аим адреса">
+								<longdesc>Команда за рад са аим адресама, уколико је омогућено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Да ли да унесена команда руководи аим адресама">
+								<longdesc>„Тачно“ уколико команда унесена у кључу „команда“ подржава „аим“ адресе.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

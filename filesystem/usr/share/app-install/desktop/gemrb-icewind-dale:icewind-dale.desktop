@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gemrb-icewind-dale
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Icewind Dale - GemRB
+GenericName=Icewind Dale
+Comment=Icewind Dale game running with GemRB
+Type=Application
+Icon=icewind-dale
+Terminal=true
+Exec=icewind-dale
+Categories=Game;RolePlaying;Emulator;
+Keywords=roleplay;rpg;adventure;game;2d;isometric;gemrb;infinite engine;black isle;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=bambam
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=BamBam
+Comment=Keyboard mashing and doodling game for babies
+Exec=/usr/games/bambam
+Icon=bambam
+Terminal=false
+Type=Application
+Categories=Game;
+
+X-Ubuntu-Gettext-Domain=app-install-data

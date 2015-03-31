@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-session-manager
+X-AppInstall-Popcon=352
+X-AppInstall-Section=universe
+
+Name=Startup Applications
+Comment=Choose what applications to start when you log in
+Exec=mate-session-properties
+Icon=mate-session-properties
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;X-MATE-PersonalSettings;
+Keywords=MATE;session;properties;applications;login;start;
+OnlyShowIn=MATE;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-session
+X-MATE-Bugzilla-Component=mate-session-properties
+X-MATE-Bugzilla-Version=1.8.1
+
+X-Ubuntu-Gettext-Domain=app-install-data

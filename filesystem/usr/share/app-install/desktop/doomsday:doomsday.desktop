@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=doomsday
+X-AppInstall-Popcon=14
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Doomsday Engine
+Comment=Doom/Heretic/Hexen with enhanced graphics
+Icon=snowberry
+TryExec=doomsday
+Exec=doomsday
+Categories=Game;ActionGame;
+Keywords=first;person;shooter;doom;freedoom;chex;hacx;heretic;hexen;strife;doom64;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=virt-manager
+X-AppInstall-Popcon=330
+X-AppInstall-Section=universe
+
+Name=Virtual Machine Manager
+Comment=Manage virtual machines
+Icon=virt-manager
+Exec=virt-manager
+Type=Application
+Terminal=false
+Categories=System;
+
+X-Ubuntu-Gettext-Domain=app-install-data

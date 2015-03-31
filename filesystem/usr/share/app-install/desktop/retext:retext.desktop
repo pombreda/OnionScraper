@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=retext
+X-AppInstall-Popcon=50
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=ReText
+Comment=Simple text editor for Markdown and reStructuredText
+Categories=Office;WordProcessor;
+Exec=/usr/bin/retext %F
+Type=Application
+Icon=retext
+MimeType=text/x-markdown;text/x-rst;
+
+X-Ubuntu-Gettext-Domain=app-install-data

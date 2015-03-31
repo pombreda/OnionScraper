@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=nitrogen
+X-AppInstall-Popcon=29
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=nitrogen
+Name=nitrogen
+Categories=Utility;GTK
+Icon=nitrogen
+Comment=Browse and set desktop backgrounds
+Keywords=background;desktop;
+
+X-Ubuntu-Gettext-Domain=app-install-data

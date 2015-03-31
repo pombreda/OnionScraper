@@ -1,0 +1,16 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+X-AppInstall-Package=plasmate-data
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Terminal=false
+Name=Plasmate
+GenericName=Plasma Addon Creator
+Exec=plasmate
+Icon=plasmagik
+Type=Application
+InitialPreference=7
+Categories=Qt;KDE;Development;IDE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=auralquiz
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Auralquiz
+GenericName=Music Quiz Game
+Comment=A simple music quiz game for GNU/Linux
+Icon=_usr_share_pixmaps_auralquiz
+Exec=auralquiz
+Terminal=false
+StartupNotify=true
+Categories=Qt;Game;
+
+X-Ubuntu-Gettext-Domain=app-install-data

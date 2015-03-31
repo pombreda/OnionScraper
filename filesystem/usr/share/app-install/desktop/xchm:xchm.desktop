@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=xchm
+X-AppInstall-Popcon=417
+X-AppInstall-Section=universe
+
+Name=xCHM
+Comment=Compiled HTML Help (CHM) file viewer
+Exec=xchm %f
+TryExec=xchm
+Terminal=false
+Type=Application
+Icon=xchm
+Categories=Office;Viewer;GTK;
+MimeType=application/x-chm;
+Keywords=chm;view;document;
+
+[Desktop Action View]
+Exec=xchm %f
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=pycorrfit
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=PyCorrFit
+GenericName=FCS Data Analysis
+TryExec=pycorrfit
+Exec=pycorrfit
+Terminal=false
+Icon=pycorrfit
+Keywords=FCS;
+Categories=Science;DataVisualization;Physics;
+
+X-Ubuntu-Gettext-Domain=app-install-data

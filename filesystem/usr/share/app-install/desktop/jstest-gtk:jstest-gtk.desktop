@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=jstest-gtk
+X-AppInstall-Popcon=61
+X-AppInstall-Section=universe
+
+Name=jstest-gtk
+Comment=Joystick testing and configuration tool
+Exec=jstest-gtk
+Terminal=false
+Type=Application
+Icon=jstest-gtk
+Categories=GTK;System;
+
+X-Ubuntu-Gettext-Domain=app-install-data

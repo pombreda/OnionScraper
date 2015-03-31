@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=pyscanfcs
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=PyScanFCS
+GenericName=FCS Data Analysis
+TryExec=pyscanfcs
+Exec=pyscanfcs
+Terminal=false
+Icon=pyscanfcs
+Keywords=FCS;
+Categories=Science;DataVisualization;Physics;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,13 @@
+TARGETS = unattended-upgrades cgmanager uuidd irqbalance cgproxy resolvconf alsa-utils thermald setserial cups ntp ufw lightdm bluetooth etc-setserial urandom sendsigs rsyslog umountnfs.sh hwclock.sh networking umountfs cryptdisks cryptdisks-early umountroot casper halt reboot
+sendsigs: etc-setserial irqbalance lightdm bluetooth alsa-utils thermald uuidd setserial unattended-upgrades
+rsyslog: irqbalance bluetooth sendsigs thermald cups ntp
+umountnfs.sh: etc-setserial irqbalance sendsigs lightdm bluetooth rsyslog alsa-utils thermald uuidd setserial unattended-upgrades
+hwclock.sh: rsyslog uuidd
+networking: umountnfs.sh lightdm
+umountfs: hwclock.sh etc-setserial urandom umountnfs.sh irqbalance lightdm resolvconf bluetooth alsa-utils thermald uuidd setserial networking unattended-upgrades
+cryptdisks: umountfs
+cryptdisks-early: cryptdisks umountfs
+umountroot: cryptdisks umountfs cryptdisks-early
+casper: umountroot
+halt: umountroot casper
+reboot: umountroot casper

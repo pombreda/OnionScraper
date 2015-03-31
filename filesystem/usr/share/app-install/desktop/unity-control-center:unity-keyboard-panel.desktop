@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-control-center
+X-AppInstall-Popcon=7559
+X-AppInstall-Section=main
+
+Name=Keyboard
+Comment=Change keyboard settings
+Exec=unity-control-center keyboard
+Icon=input-keyboard
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Settings;HardwareSettings;X-Unity-Settings-Panel;
+OnlyShowIn=Unity;
+X-Unity-Settings-Panel=keyboard
+# Translators: those are keywords for the keyboard control-center panel
+Keywords=Shortcut;Repeat;Blink;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

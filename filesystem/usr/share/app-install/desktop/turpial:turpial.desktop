@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=turpial
+X-AppInstall-Popcon=91
+X-AppInstall-Section=universe
+
+Version=2.0
+Name=Turpial
+GenericName=Microblogging client
+Comment=A light, beautiful and functional microblogging client
+Exec=turpial
+Icon=turpial
+Terminal=false
+Type=Application
+Categories=Network;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

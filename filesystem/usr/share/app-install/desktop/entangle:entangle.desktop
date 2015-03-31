@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=entangle
+X-AppInstall-Popcon=44
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Entangle
+Comment=Tethered Camera Control & Capture
+Icon=entangle
+Exec=entangle
+Type=Application
+Terminal=false
+Categories=Graphics;GTK;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,7 @@
+e64eef40a7feab4717a26b92194167b0  usr/sbin/update-grub-gfxpayload
+fc7c3c80902c4c5fc4e6d84c40d0b9d8  usr/share/doc/grub-gfxpayload-lists/changelog.gz
+0e740dc10178d8986494511421146145  usr/share/doc/grub-gfxpayload-lists/copyright
+dd1cd0e4c2bc486ae56c251109f7a0ad  usr/share/grub-gfxpayload-lists/blacklist/00_header
+f08ea0af0979fc778cdc6a113590ab24  usr/share/grub-gfxpayload-lists/blacklist/10_vmware
+3521dccb9b77f185a53e6e8f6b58c47a  usr/share/grub-gfxpayload-lists/blacklist/20_radeon_hd6800
+8a3a737e77dd43131e652b8cbc67a7ad  usr/share/man/man8/update-grub-gfxpayload.8.gz

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-webapps-newsblur
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Newsblur
+Type=Application
+Icon=unity-webapps-newsblur
+MimeType=
+Actions=S0;S1;S2;S3;S4;S5;S6;S7;S8;S9;S10;
+Exec=unity-webapps-runner -n 'TmV3c2JsdXI=' -d 'newsblur.com' %u
+StartupWMClass=Newsblurnewsblurcom
+    
+X-Ubuntu-Gettext-Domain=app-install-data

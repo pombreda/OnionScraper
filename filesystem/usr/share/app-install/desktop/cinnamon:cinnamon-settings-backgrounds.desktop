@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Icon=cs-backgrounds
+Exec=cinnamon-settings backgrounds
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Backgrounds
+Comment=Change your desktop's background
+
+X-Ubuntu-Gettext-Domain=app-install-data

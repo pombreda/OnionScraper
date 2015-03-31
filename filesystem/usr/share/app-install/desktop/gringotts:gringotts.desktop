@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gringotts
+X-AppInstall-Popcon=14
+X-AppInstall-Section=universe
+
+Name=Gringotts
+GenericName=Electronic "Strongbox"
+Comment=An electronic strongbox
+Version=1.0
+Icon=_usr_share_pixmaps_gringotts
+Exec=gringotts
+Terminal=false
+Type=Application
+Categories=GTK;Application;Utility;
+Keywords=secure password;data storage manager;encrypt;grg;
+
+X-Ubuntu-Gettext-Domain=app-install-data

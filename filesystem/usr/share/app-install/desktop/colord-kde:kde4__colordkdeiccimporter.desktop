@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=colord-kde
+X-AppInstall-Popcon=4286
+X-AppInstall-Section=universe
+
+Categories=System;
+Exec=colord-kde-icc-importer %F
+Terminal=false
+Type=Application
+Icon=application-vnd.iccprofile
+StartupNotify=true
+NoDisplay=true
+MimeType=application/vnd.iccprofile;
+
+Name=ICC Profile Installer
+Comment=Install ICC profiles
+
+X-Ubuntu-Gettext-Domain=app-install-data

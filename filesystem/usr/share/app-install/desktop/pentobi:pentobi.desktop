@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=pentobi
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Name=Pentobi
+GenericName=Computer Opponent for Blokus
+Comment=Computer opponent for the board game Blokus
+Keywords=Blokus;Blokus Duo;Blokus Trigon;Blokus Junior;
+Exec=/usr/games/pentobi %f
+Icon=pentobi
+Type=Application
+Categories=Game;BoardGame;
+MimeType=application/x-blokus-sgf;
+
+X-Ubuntu-Gettext-Domain=app-install-data

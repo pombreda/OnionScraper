@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=etm-qt
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=etm_qt
+Comment=Manage events and tasks using simple text files
+Exec=etm_qt
+Icon=etm_qt
+Categories=Office;Application;Calendar;Qt;
+Keywords=Calendar;Time;Note;etm-qt;Task;Event;Alarm;
+X-Ubuntu-Gettext-Domain=app-install-data

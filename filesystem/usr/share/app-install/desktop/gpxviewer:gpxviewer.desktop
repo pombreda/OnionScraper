@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=gpxviewer
+X-AppInstall-Popcon=23
+X-AppInstall-Section=universe
+
+Name=GPX Viewer
+Type=Application
+Comment=GPS Trace Viewer
+Exec=gpxviewer
+Icon=gpxviewer
+Categories=Network
+MimeType=application/xml
+
+X-Ubuntu-Gettext-Domain=app-install-data

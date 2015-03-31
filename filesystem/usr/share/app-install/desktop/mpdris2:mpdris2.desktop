@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mpdris2
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Name=Music Player Daemon
+Comment=MPRIS 2 support for MPD
+Exec=mpDris2
+Icon=sound
+StartupNotify=false
+Type=Application
+Categories=Audio;Music;Player;AudioVideo;
+NoDisplay=true
+X-DBUS-ServiceName=org.mpris.MediaPlayer2.mpd
+X-GNOME-UsesNotifications=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

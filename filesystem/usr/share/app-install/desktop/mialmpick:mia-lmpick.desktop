@@ -1,0 +1,15 @@
+
+[Desktop Entry]
+X-AppInstall-Package=mialmpick
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=mialmpick Version  0.2.10
+Comment=mia-lmpick Version  0.2.10
+Exec=mia-lmpick
+Icon=_usr_share_pixmaps_mialmpick_
+Terminal=false
+Type=Application
+Keywords=medical;images;visualization
+
+X-Ubuntu-Gettext-Domain=app-install-data

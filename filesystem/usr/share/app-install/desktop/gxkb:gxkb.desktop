@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gxkb
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Gxkb
+Comment=Keyboard switcher
+GenericName=Keyboard switcher
+Exec=gxkb
+Icon=_usr_share_pixmaps_gxkb
+Terminal=false
+Type=Application
+Categories=Application;Utility;
+Keywords=keyboard;switcher;language;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,24 @@
+#!/bin/sh
+# This script is run on suspend to force a down of any linux-wlan-ng
+# iterfaces since the driver does not support suspend.
+
+MODULES='prism2_pci prism2_usb prism2_cs prism2_plx'
+
+rm -f /var/run/linux-wlan-ng.modules
+for m in $MODULES; do
+    if grep -wq $m /proc/modules; then
+	echo $m >> /var/run/linux-wlan-ng.modules
+    fi
+done
+
+IFACES=$(ifconfig | grep -B 1 ^wlan | cut -d ' ' -f 1)
+for iface in $IFACES; do
+    ifdown $iface || ifconfig $iface down
+done
+
+echo "$IFACES" > /var/run/linux-wlan-ng.ifaces
+
+for m in $MODULES; do
+    rmmod $m 2>/dev/null
+done
+

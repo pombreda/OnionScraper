@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=italc-client
+X-AppInstall-Popcon=333
+X-AppInstall-Section=universe
+
+Categories=System;
+Exec=ica
+Icon=italc
+Name=iTALC Client
+Type=Application
+Terminal=true
+Keywords=education,classroom,teachers,students,remote control,computer-labs
+
+X-Ubuntu-Gettext-Domain=app-install-data

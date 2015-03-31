@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntu-online-tour
+X-AppInstall-Popcon=822
+X-AppInstall-Section=universe
+
+Name=Ubuntu Tour
+GenericName=Tour
+Comment=Experience Ubuntu in your web browser
+Exec=firefox /usr/share/doc/ubuntu-online-tour/index.html
+Icon=ubuntu-online-tour
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Core;Documentation;Utility;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

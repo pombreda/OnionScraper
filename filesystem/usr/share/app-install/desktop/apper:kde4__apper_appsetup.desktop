@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=apper
+X-AppInstall-Popcon=1259
+X-AppInstall-Section=universe
+
+Type=Application
+Icon=applications-other
+Exec=apper-appsetup %F
+
+Name=Listaller Package Installer
+GenericName=3rd-party software installer
+Comment=Tool to install new 3rd-party software
+
+Categories=Qt;KDE;System;Settings;PackageManager;
+MimeType=application/x-app-package;
+StartupNotify=true
+NoDisplay=true
+X-Publisher=KDE Project
+
+X-Ubuntu-Gettext-Domain=app-install-data

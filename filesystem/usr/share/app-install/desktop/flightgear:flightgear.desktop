@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=flightgear
+X-AppInstall-Popcon=89
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.4
+Name=FlightGear
+GenericName=Flight Simulator
+Exec=fgfs
+Terminal=false
+Categories=Game;Simulation
+Comment=open-source flight simulator
+Keywords=
+Icon=flightgear
+
+X-Ubuntu-Gettext-Domain=app-install-data

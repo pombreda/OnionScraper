@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=biniax2
+X-AppInstall-Popcon=12
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Biniax-2
+Comment=Colorful Logic game with arcade and tactics modes
+Icon=_usr_share_games_biniax2_graphics_logo
+Exec=biniax2
+Terminal=false
+StartupNotify=false
+Categories=Game;LogicGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

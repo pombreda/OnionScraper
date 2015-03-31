@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=acoustid-fingerprinter
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=Acoustid Fingerprinter
+Exec=acoustid-fingerprinter
+Icon=acoustid-fingerprinter
+GenericName=Acoustid Music fingerprinting tool
+
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;Qt;AudioVideoEditing;
+MimeType=audio/x-mp3;application/ogg;
+X-AppInstall-Package=acoustid-fingerprinter
+X-AppInstall-Popcon=5
+X-Desktop-File-Install-Version=0.18
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

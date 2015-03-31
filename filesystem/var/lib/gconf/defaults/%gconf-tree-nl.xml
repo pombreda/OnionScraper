@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Voer het commando uit in een terminal venster">
+								<longdesc>Waar indien de opdracht die gebruikt wordt om dit type URL&apos;s af te handelen moet uitgevoerd worden in een terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="De handler voor &quot;ymsgr&quot; URL&apos;s">
+								<longdesc>Het commando gebruikt om &quot;ymsgr&quot; URL&apos;s af te handelen, indien ingeschakeld.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of de opdracht &quot;ymsgr&quot; URL&apos;s moet afhandelen">
+								<longdesc>Waar indien de opdracht in de &quot;command&quot; sleutel &quot;ymsgr&quot; URL&apos;s moet afhandelen.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Voer het commando uit in een terminal venster">
+								<longdesc>Waar indien de opdracht die gebruikt wordt om dit type URL&apos;s af te handelen moet uitgevoerd worden in een terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="De handler voor &quot;xmpp&quot; URL&apos;s">
+								<longdesc>Het commando gebruikt om &quot;xmpp&quot; URLs af te handelen, indien ingeschakeld.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of de opdracht &quot;xmpp&quot; URL&apos;s moet afhandelen">
+								<longdesc>Waar indien de opdracht in de &quot;command&quot; sleutel &quot;xmpp&quot; URL&apos;s moet afhandelen.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Voer het commando uit in een terminal venster">
+								<longdesc>Waar indien de opdracht die gebruikt wordt om dit type URL&apos;s af te handelen moet uitgevoerd worden in een terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="De handler voor &quot;sip&quot; URL&apos;s">
+								<longdesc>Het commando gebruikt om &quot;sip&quot; URLs af te handelen, indien ingeschakeld.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of de opdracht &quot;sip&quot; URL&apos;s moet afhandelen">
+								<longdesc>Waar indien de opdracht in de &quot;command&quot; sleutel &quot;sip&quot; URL&apos;s moet afhandelen.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Voer het commando uit in een terminal venster">
+								<longdesc>Waar indien de opdracht die gebruikt wordt om dit type URL&apos;s af te handelen moet uitgevoerd worden in een terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="De handler voor &quot;msnim&quot; URL&apos;s">
+								<longdesc>Het commando gebruikt om &quot;msnim&quot; URLs af te handelen, indien ingeschakeld.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of de opdracht &quot;msnim&quot; URL&apos;s moet afhandelen">
+								<longdesc>Waar indien de opdracht in de &quot;command&quot; sleutel &quot;msnim&quot; URL&apos;s moet afhandelen.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Voer het commando uit in een terminal venster">
+								<longdesc>Waar indien de opdracht die gebruikt wordt om dit type URL&apos;s af te handelen moet uitgevoerd worden in een terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="De handler voor &quot;irc&quot; URL&apos;s">
+								<longdesc>Het commando gebruikt om &quot;irc&quot; URLs af te handelen, indien ingeschakeld.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of de opdracht &quot;irc&quot; URL&apos;s moet afhandelen">
+								<longdesc>Waar indien de opdracht in de &quot;command&quot; sleutel &quot;irc&quot; URL&apos;s moet afhandelen.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Voer het commando uit in een terminal venster">
+								<longdesc>Waar indien de opdracht die gebruikt wordt om dit type URL&apos;s af te handelen moet uitgevoerd worden in een terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="De handler voor &quot;icq&quot; URL&apos;s">
+								<longdesc>Het commando gebruikt om &quot;icq&quot; URLs af te handelen, indien ingeschakeld.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of de opdracht &quot;icq&quot; URL&apos;s moet afhandelen">
+								<longdesc>Waar indien de opdracht in de &quot;command&quot; sleutel &quot;icq&quot; URL&apos;s moet afhandelen.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Voer het commando uit in een terminal venster">
+								<longdesc>Waar indien de opdracht die gebruikt wordt om dit type URL&apos;s af te handelen moet uitgevoerd worden in een terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="De handler voor &quot;gg&quot; URL&apos;s">
+								<longdesc>Het commando gebruikt om &quot;gg&quot; URLs af te handelen, indien ingeschakeld.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of de opdracht &quot;gg&quot; URL&apos;s moet afhandelen">
+								<longdesc>Waar indien de opdracht in de &quot;command&quot; sleutel &quot;gg&quot; URL&apos;s moet afhandelen.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Voer het commando uit in een terminal venster">
+								<longdesc>Waar indien de opdracht die gebruikt wordt om dit type URL&apos;s af te handelen moet uitgevoerd worden in een terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="De handler voor &quot;aim&quot; URL&apos;s">
+								<longdesc>Het commando gebruikt om &quot;aim&quot; URLs af te handelen, indien ingeschakeld.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of de opdracht &quot;aim&quot; URL&apos;s moet afhandelen">
+								<longdesc>Waar indien de opdracht in de &quot;command&quot; sleutel &quot;aim&quot; URL&apos;s moet afhandelen.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

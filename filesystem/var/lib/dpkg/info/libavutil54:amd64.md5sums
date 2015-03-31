@@ -1,0 +1,5 @@
+4e47cba3cc2e6deb6faf3aaf5b8acb33  usr/lib/x86_64-linux-gnu/libavutil.so.54.3.0
+7906be10ad1a6590b1828dca02678003  usr/share/doc/libavutil54/NEWS.Debian.gz
+0023bad9450e95ad44f5afb1ae7ee11c  usr/share/doc/libavutil54/changelog.Debian.gz
+323125fc98bc748defccc624b74fd752  usr/share/doc/libavutil54/copyright
+ef394655a4898ec8fd8d5976f57b7313  usr/share/lintian/overrides/libavutil54

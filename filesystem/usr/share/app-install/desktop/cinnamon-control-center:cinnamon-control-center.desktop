@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon-control-center
+X-AppInstall-Popcon=117
+X-AppInstall-Section=universe
+
+Name=Cinnamon Control Center
+Icon=preferences-system
+Exec=cinnamon-control-center --overview
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;System;
+OnlyShowIn=X-Cinnamon;
+NoDisplay=true
+Keywords=Preferences;Settings;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

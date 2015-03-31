@@ -1,0 +1,12 @@
+[Desktop Entry]
+X-AppInstall-Package=cordova-ubuntu-tests
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=cordova-ubuntu-tests
+Type=Application
+Exec=/usr/bin/cordova-ubuntu-2.8 /usr/share/cordova-ubuntu-tests/cordovamobilespec/www/ --desktop_file_hint=/usr/share/applications/cordova-ubuntu-tests.desktop
+Icon=_usr_share_cordova-ubuntu-tests_cordovaqt64
+X-Ubuntu-Touch=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

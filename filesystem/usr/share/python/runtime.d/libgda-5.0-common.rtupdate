@@ -1,0 +1,6 @@
+#! /bin/sh
+set -e
+if [ "$1" = rtupdate ]; then
+	pyclean -p libgda-5.0-common /usr/share/libgda-5.0
+	pycompile -p libgda-5.0-common  /usr/share/libgda-5.0
+fi

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=spykeviewer
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=Spyke Viewer
+GenericName=Graphical utility for analyzing electrophysiological data
+Exec=spykeviewer
+Icon=spykeviewer
+Terminal=false
+Type=Application
+Categories=Science;Education;Qt;DataVisualization;
+StartupNotify=false
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,29 @@
+[Desktop Entry]
+X-AppInstall-Package=hotot-gtk
+X-AppInstall-Popcon=26
+X-AppInstall-Section=universe
+
+Name=Hotot Gtk2
+GenericName=Hotot Twitter Client
+X-GNOME-FullName=Hotot Twitter Client
+X-GNOME-FullName[ca]=Client de Twitter Hotot
+X-GNOME-FullName[de_DE]=Hotot Twitter Client
+X-GNOME-FullName[es_ES]=Cliente de Twitter Hotot
+X-GNOME-FullName[es_MX]=Hotot Cliente Twitter
+X-GNOME-FullName[fr_FR]=Hotot Twitter Client
+X-GNOME-FullName[gl]=Cliente de Twitter Hotot
+X-GNOME-FullName[it_IT]=Hotot Twitter Client
+X-GNOME-FullName[ja]=Hotot Twitterクライアント
+X-GNOME-FullName[pt_BR]=Cliente de Twitter Hotot
+X-GNOME-FullName[pt_PT]=Hotot Cliente Twitter
+X-GNOME-FullName[tr_TR]=Hotot Twitter İstemcisi
+X-GNOME-FullName[zh_CN]=傲兔推特客户端
+X-GNOME-FullName[zh_TW]=Hotot Twitter 用戶端
+Type=Application
+Comment=Lightweight Twitter client based on Gtk2 and WebKit
+Exec=hotot
+Icon=hotot
+Categories=GTK;GNOME;Network;
+X-GNOME-Gettext-Domain=hotot
+
+X-Ubuntu-Gettext-Domain=app-install-data

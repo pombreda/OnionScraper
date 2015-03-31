@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set-spec>
+  <parameters>
+    <parameter nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="ar" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="az" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="ca" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de dades" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="ca@valencia" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de dades" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="cs" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Název databáze" descr="Název databáze, ke které se má připojit"></parameter>
+    <parameter xml:lang="da" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasenavn" descr="Navnet på databasen der skal forbindes til"></parameter>
+    <parameter xml:lang="de" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datenbankname" descr="Name der Datenbank, zu der verbunden werden soll"></parameter>
+    <parameter xml:lang="dz" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="གནས་སྡུད་གཞི་རྟེན་མིང་།" descr="ལུ་མཐུད་ལམ་མཐུད་ནི་གནས་སྡུད་གཞི་རྟེན་ཅིག་གི་མིང་འདི།"></parameter>
+    <parameter xml:lang="el" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Όνομα βάσης δεδομένων" descr="Το όνομα μιας βάσης δεδομένων για σύνδεση"></parameter>
+    <parameter xml:lang="en_CA" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="en_GB" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="eo" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datumbaznomo" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="es" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nombre de la base de datos" descr="El nombre de una base de datos a la que conectarse"></parameter>
+    <parameter xml:lang="eu" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Datu-basearen izena" descr="Datu-basearen izena berarekin konektatzeko"></parameter>
+    <parameter xml:lang="fa" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="fi" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Tietokannan nimi" descr="Nimi tietokannalle, johon otetaan yhteys"></parameter>
+    <parameter xml:lang="fr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nom de la base de données" descr="Le nom d&apos;une base de données à laquelle se connecter"></parameter>
+    <parameter xml:lang="ga" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="gl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome da base de datos" descr="O nome da base de datos á que se conectar"></parameter>
+    <parameter xml:lang="hr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="hu" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Adatbázis neve" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="id" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nama basis data" descr="Nama basis data untuk dihubungi"></parameter>
+    <parameter xml:lang="it" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome database" descr="Nome di un database a cui connettersi"></parameter>
+    <parameter xml:lang="ja" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="データベース名" descr="接続するデータベース名"></parameter>
+    <parameter xml:lang="ko" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="lt" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Duomenų bazės vardas" descr="Duomenų bazės vardas naudojamas prisijungimo metu"></parameter>
+    <parameter xml:lang="lv" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="mk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="ml" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="ms" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="nb" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasenavn" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="ne" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="डाटाबेस नाम" descr="जडान गर्नका लागि डाटाबेसको नाम"></parameter>
+    <parameter xml:lang="nl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database naam" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="oc" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="pa" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="pl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="pt" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome da base de dados" descr="Nome da base de dados à qual se vai estabelecer ligação"></parameter>
+    <parameter xml:lang="pt_BR" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Nome do banco de dados" descr="O nome do banco de dados ao qual se conectar"></parameter>
+    <parameter xml:lang="ru" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Имя базы данных" descr="Название базы данных используемое для соединения"></parameter>
+    <parameter xml:lang="rw" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="sk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="sl" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Ime podatkovne zbirke" descr="Ime podatkovne zbirke za povezovanje"></parameter>
+    <parameter xml:lang="sq" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="sr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Назив базе података" descr="Назив базе података за повезивање"></parameter>
+    <parameter xml:lang="sr@Latn" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="sr@latin" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Naziv baze podataka" descr="Naziv baze podataka za povezivanje"></parameter>
+    <parameter xml:lang="sv" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Databasnamn" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="tg" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="tr" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Database name" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="uk" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Назва бази даних" descr="The name of a database to connect to"></parameter>
+    <parameter xml:lang="vi" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="Tên cơ sở dữ liệu" descr="Tên của cơ sở dữ liệu đến đó cần kết nối"></parameter>
+    <parameter xml:lang="zh_CN" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="数据库名" descr="要连接到的数据库的名称"></parameter>
+    <parameter xml:lang="zh_HK" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="資料庫名稱" descr="要連接的資料庫名稱"></parameter>
+    <parameter xml:lang="zh_TW" nullok="FALSE" id="DB_NAME" gdatype="gchararray" name="資料庫名稱" descr="要連接的資料庫名稱"></parameter>
+    <parameter id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="ar" id="HOST" gdatype="gchararray" name="خادم قاعدة بيانات" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="az" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="ca" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="ca@valencia" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="cs" id="HOST" gdatype="gchararray" name="Databázový server" descr="Hostitel, na kterém databázový server běží"></parameter>
+    <parameter xml:lang="da" id="HOST" gdatype="gchararray" name="Databaseserver" descr="Vært hvor databaseserveren kører"></parameter>
+    <parameter xml:lang="de" id="HOST" gdatype="gchararray" name="Datenbankserver" descr="Rechner, auf dem der Datenbankserver läuft"></parameter>
+    <parameter xml:lang="dz" id="HOST" gdatype="gchararray" name="གནས་སྡུད་གཞི་རྟེན་སར་བར།" descr="གནས་སྡུད་གཞི་རྟེན་སར་བར་འདི་གཡོག་བཀོལ་མི་ཧོསིཊི་གུ།"></parameter>
+    <parameter xml:lang="el" id="HOST" gdatype="gchararray" name="Εξυπηρετητής βάσης δεδομένων" descr="Ο οικοδεσπότης στον οποίον ο εξυπηρετητής βάσης δεδομένων τρέχει"></parameter>
+    <parameter xml:lang="en_CA" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="en_GB" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="eo" id="HOST" gdatype="gchararray" name="Datumbaza servilo" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="es" id="HOST" gdatype="gchararray" name="Servidor de bases de datos" descr="Equipo en el que el servidor de la base de datos se está ejecutando"></parameter>
+    <parameter xml:lang="eu" id="HOST" gdatype="gchararray" name="Datu-base zerbitzaria" descr="Ostalaria, datu-base zerbitzaria exekutatzen ari dena"></parameter>
+    <parameter xml:lang="fa" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="fi" id="HOST" gdatype="gchararray" name="Tietokantapalvelin" descr="Palvelin, jossa tietokantapalvelin on ajossa"></parameter>
+    <parameter xml:lang="fr" id="HOST" gdatype="gchararray" name="Serveur de base de données" descr="Hôte sur lequel fonctionne le serveur de base de données"></parameter>
+    <parameter xml:lang="ga" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="gl" id="HOST" gdatype="gchararray" name="Servidor de bases de datos" descr="Máquina na que se está a executar o servidor de bases de datos"></parameter>
+    <parameter xml:lang="hr" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="hu" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="id" id="HOST" gdatype="gchararray" name="Server basis data" descr="Host tempat berjalannya server basis data"></parameter>
+    <parameter xml:lang="it" id="HOST" gdatype="gchararray" name="Server database" descr="Host su cui è in esecuzione il database server"></parameter>
+    <parameter xml:lang="ja" id="HOST" gdatype="gchararray" name="データベース・サーバー" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="ko" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="lt" id="HOST" gdatype="gchararray" name="Duomenų bazės serveris" descr="Mazgas, ant kurio paleistas duomenų bazės serveris"></parameter>
+    <parameter xml:lang="lv" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="mk" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="ml" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="ms" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="nb" id="HOST" gdatype="gchararray" name="Databasetjener" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="ne" id="HOST" gdatype="gchararray" name="डाटाबेस सर्भर" descr="चलिरहेको डाटावेस सर्भरको होस्ट"></parameter>
+    <parameter xml:lang="nl" id="HOST" gdatype="gchararray" name="Databaseserver" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="oc" id="HOST" gdatype="gchararray" name="Servidor de basa de donadas" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="pa" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="pl" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="pt" id="HOST" gdatype="gchararray" name="Servidor de base de dados" descr="Máquina onde a base de dados se encontra em execução"></parameter>
+    <parameter xml:lang="pt_BR" id="HOST" gdatype="gchararray" name="Servidor de banco de dados" descr="A máquina em que o servidor do banco de dados executa"></parameter>
+    <parameter xml:lang="ru" id="HOST" gdatype="gchararray" name="Сервер баз данных" descr="Узел, на котором запущен сервер баз данных"></parameter>
+    <parameter xml:lang="rw" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="sk" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="sl" id="HOST" gdatype="gchararray" name="Strežnik podatkovnih zbirk" descr="Gostitelj na katerem teče strežnik podatkovne zbirke"></parameter>
+    <parameter xml:lang="sq" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="sr" id="HOST" gdatype="gchararray" name="Сервер базе података" descr="Домаћин на коме ради сервер базе података"></parameter>
+    <parameter xml:lang="sr@Latn" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="sr@latin" id="HOST" gdatype="gchararray" name="Server baze podataka" descr="Domaćin na kome radi server baze podataka"></parameter>
+    <parameter xml:lang="sv" id="HOST" gdatype="gchararray" name="Databasserver" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="tg" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="tr" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="uk" id="HOST" gdatype="gchararray" name="Database server" descr="Host on which the database server is running"></parameter>
+    <parameter xml:lang="vi" id="HOST" gdatype="gchararray" name="Máy phục vụ cơ sở dữ liệu" descr="Máy trên đó chạy trình phục vụ cơ sở dữ liệu"></parameter>
+    <parameter xml:lang="zh_CN" id="HOST" gdatype="gchararray" name="数据库服务器" descr="正自 运行数据库服务器的主机"></parameter>
+    <parameter xml:lang="zh_HK" id="HOST" gdatype="gchararray" name="資料庫伺服器" descr="運行資料庫伺服器的主機"></parameter>
+    <parameter xml:lang="zh_TW" id="HOST" gdatype="gchararray" name="資料庫伺服器" descr="運行資料庫伺服器的主機"></parameter>
+    <parameter id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="ar" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="az" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="ca" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="ca@valencia" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="cs" id="PORT" gdatype="gint" name="Port" descr="Port databázového serveru"></parameter>
+    <parameter xml:lang="da" id="PORT" gdatype="gint" name="Port" descr="Databaseserverport"></parameter>
+    <parameter xml:lang="de" id="PORT" gdatype="gint" name="Port" descr="Port des Datenbankservers"></parameter>
+    <parameter xml:lang="dz" id="PORT" gdatype="gint" name="འདྲེན་ལམ།" descr="གནས་སྡུད་གཞི་རྟེན་སར་བར་འདྲེན་ལམ།"></parameter>
+    <parameter xml:lang="el" id="PORT" gdatype="gint" name="Θύρα" descr="Θύρα εξυπηρετητή βάσης δεδομένων"></parameter>
+    <parameter xml:lang="en_CA" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="en_GB" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="eo" id="PORT" gdatype="gint" name="Pordo" descr="Database server port"></parameter>
+    <parameter xml:lang="es" id="PORT" gdatype="gint" name="Puerto" descr="Puerto del servidor de base de datos"></parameter>
+    <parameter xml:lang="eu" id="PORT" gdatype="gint" name="Ataka" descr="Datu-base zerbitzariaren ataka"></parameter>
+    <parameter xml:lang="fa" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="fi" id="PORT" gdatype="gint" name="Portti" descr="Tietokantapalvelimen portti"></parameter>
+    <parameter xml:lang="fr" id="PORT" gdatype="gint" name="Port" descr="Port du serveur de base de données"></parameter>
+    <parameter xml:lang="ga" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="gl" id="PORT" gdatype="gint" name="Porto" descr="Porto do servidor de bases de datos"></parameter>
+    <parameter xml:lang="hr" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="hu" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="id" id="PORT" gdatype="gint" name="Port" descr="Port server basis data"></parameter>
+    <parameter xml:lang="it" id="PORT" gdatype="gint" name="Porta" descr="Porta del database server"></parameter>
+    <parameter xml:lang="ja" id="PORT" gdatype="gint" name="ポート" descr="データベース・サーバーのポート"></parameter>
+    <parameter xml:lang="ko" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="lt" id="PORT" gdatype="gint" name="Prievadas" descr="Duomenų bazė serverio prievadas"></parameter>
+    <parameter xml:lang="lv" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="mk" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="ml" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="ms" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="nb" id="PORT" gdatype="gint" name="Port" descr="Port på databasetjener"></parameter>
+    <parameter xml:lang="ne" id="PORT" gdatype="gint" name="पोर्ट" descr="डाटाबेस सर्भर पोर्ट"></parameter>
+    <parameter xml:lang="nl" id="PORT" gdatype="gint" name="Poort" descr="Database server port"></parameter>
+    <parameter xml:lang="oc" id="PORT" gdatype="gint" name="Pòrt" descr="Database server port"></parameter>
+    <parameter xml:lang="pa" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="pl" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="pt" id="PORT" gdatype="gint" name="Porto" descr="Porto do servidor de base de dados"></parameter>
+    <parameter xml:lang="pt_BR" id="PORT" gdatype="gint" name="Porta" descr="Porta do servidor de banco de dados"></parameter>
+    <parameter xml:lang="ru" id="PORT" gdatype="gint" name="Порт" descr="Порт сервера баз данных"></parameter>
+    <parameter xml:lang="rw" id="PORT" gdatype="gint" name="Umuyoboro" descr="Database server port"></parameter>
+    <parameter xml:lang="sk" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="sl" id="PORT" gdatype="gint" name="Vrata" descr="Vrata strežnika podatkovnih zbirk"></parameter>
+    <parameter xml:lang="sq" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="sr" id="PORT" gdatype="gint" name="Прикључник" descr="Прикључник базе података"></parameter>
+    <parameter xml:lang="sr@Latn" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="sr@latin" id="PORT" gdatype="gint" name="Priključnik" descr="Priključnik baze podataka"></parameter>
+    <parameter xml:lang="sv" id="PORT" gdatype="gint" name="Port" descr="Databasserverns port"></parameter>
+    <parameter xml:lang="tg" id="PORT" gdatype="gint" name="Порт" descr="Database server port"></parameter>
+    <parameter xml:lang="tr" id="PORT" gdatype="gint" name="Port" descr="Database server port"></parameter>
+    <parameter xml:lang="uk" id="PORT" gdatype="gint" name="Порт" descr="Database server port"></parameter>
+    <parameter xml:lang="vi" id="PORT" gdatype="gint" name="Cổng" descr="Cổng của máy phục vụ cơ sở dữ liệu"></parameter>
+    <parameter xml:lang="zh_CN" id="PORT" gdatype="gint" name="端口" descr="数据库服务器端口"></parameter>
+    <parameter xml:lang="zh_HK" id="PORT" gdatype="gint" name="連接埠" descr="資料庫伺服器連接埠"></parameter>
+    <parameter xml:lang="zh_TW" id="PORT" gdatype="gint" name="連接埠" descr="資料庫伺服器連接埠"></parameter>
+    <parameter id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="ar" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="az" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="ca" id="UNIX_SOCKET" gdatype="gchararray" name="Sòcol UNIX" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="ca@valencia" id="UNIX_SOCKET" gdatype="gchararray" name="Sòcol UNIX" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="cs" id="UNIX_SOCKET" gdatype="gchararray" name="UNIXový soket" descr="Celá cesta k soketu UNIX, který se má používat pro místní připojování"></parameter>
+    <parameter xml:lang="da" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX-sokkel" descr="Fuld sti på UNIX-soklen der skal bruges når der forbindes lokalt"></parameter>
+    <parameter xml:lang="de" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX-Socket" descr="Voller Pfad des UNIX-Socket, der für die lokale Verbindung genutzt werden soll"></parameter>
+    <parameter xml:lang="dz" id="UNIX_SOCKET" gdatype="gchararray" name="ཡུ་ནིགསི་སོ་ཀེཊི།" descr="ཉེ་གནས་ལུ་མཐུད་ལམ་མཐུད་པའི་སྐབས་ལག་ལེན་འཐབ་ནི་ ཡུ་ནིགསི་ སོཀེཊི་གི་འགྲུལ་ལམ་གངམ།"></parameter>
+    <parameter xml:lang="el" id="UNIX_SOCKET" gdatype="gchararray" name="Υποδοχή UNIX" descr="Πλήρης διαδρομή της υποδοχής UNIX για χρήση σε τοπική σύνδεση"></parameter>
+    <parameter xml:lang="en_CA" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="en_GB" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="eo" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="es" id="UNIX_SOCKET" gdatype="gchararray" name="Socket UNIX" descr="Ruta completa al socket UNIX que usar al conectar localmente"></parameter>
+    <parameter xml:lang="eu" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX socket-a" descr="UNIX socket-aren bide-izen osoa lokaleko konexioan erabiltzeko"></parameter>
+    <parameter xml:lang="fa" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="fi" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX-pistoke" descr="Koko polku UNIX-pistokkeeseen, johon yhdistetään paikallisesti"></parameter>
+    <parameter xml:lang="fr" id="UNIX_SOCKET" gdatype="gchararray" name="Socket UNIX" descr="Chemin complet de la socket UNIX pour la connexion en local"></parameter>
+    <parameter xml:lang="ga" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="gl" id="UNIX_SOCKET" gdatype="gchararray" name="Conectador UNIX" descr="Ruta completa do conectador UNIX a usar cando se conecta en forma local"></parameter>
+    <parameter xml:lang="hr" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="hu" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="id" id="UNIX_SOCKET" gdatype="gchararray" name="Soket UNIX" descr="Path lengkap dari soket UNIX yang dipakai ketika menyambung ke lokal"></parameter>
+    <parameter xml:lang="it" id="UNIX_SOCKET" gdatype="gchararray" name="Socket UNIX" descr="Percorso completo del socket UNIX da usare per la connessione locale"></parameter>
+    <parameter xml:lang="ja" id="UNIX_SOCKET" gdatype="gchararray" name="UNIXソケット" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="ko" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="lt" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX jungtis" descr="Pilnas kelias iki UNIX jungties, kuri bus naudojama jungiantis lokaliai"></parameter>
+    <parameter xml:lang="lv" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="mk" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="ml" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="ms" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="nb" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="ne" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX सोकेट" descr="स्थानीय रूपमा जडान गर्नका लागि UNIX SOCKETको पूरा बाटो"></parameter>
+    <parameter xml:lang="nl" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="oc" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="pa" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="pl" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="pt" id="UNIX_SOCKET" gdatype="gchararray" name="Socket UNIX" descr="Caminho completo do socket UNIX a utilizar ao se ligar localmente"></parameter>
+    <parameter xml:lang="pt_BR" id="UNIX_SOCKET" gdatype="gchararray" name="Soquete UNIX" descr="Caminho completo do soquete UNIX a utilizar em conexões locais"></parameter>
+    <parameter xml:lang="ru" id="UNIX_SOCKET" gdatype="gchararray" name="Сокет UNIX" descr="Полный путь к сокету UNIX, который будет использоваться для локального соединения"></parameter>
+    <parameter xml:lang="rw" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="sk" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="sl" id="UNIX_SOCKET" gdatype="gchararray" name="Vtič UNIX" descr="Polna pot unix vtiča za uporabo pri krajevnih povezavah"></parameter>
+    <parameter xml:lang="sq" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="sr" id="UNIX_SOCKET" gdatype="gchararray" name="Јуникс прикључница" descr="Пуна путања ЈУНИКС прикључнице за коришћење приликом месног повезивања"></parameter>
+    <parameter xml:lang="sr@Latn" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="sr@latin" id="UNIX_SOCKET" gdatype="gchararray" name="Juniks priključnica" descr="Puna putanja JUNIKS priključnice za korišćenje prilikom mesnog povezivanja"></parameter>
+    <parameter xml:lang="sv" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX-uttag" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="tg" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="tr" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="uk" id="UNIX_SOCKET" gdatype="gchararray" name="Сокет UNIX" descr="Full path of the UNIX socket to use when connecting locally"></parameter>
+    <parameter xml:lang="vi" id="UNIX_SOCKET" gdatype="gchararray" name="Ổ cắm UNIX" descr="Đường dẫn đầy đủ của ổ cắm UNIX cần dùng khi kết nối cục bộ"></parameter>
+    <parameter xml:lang="zh_CN" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="本地连接时使用的 UNIX 套接字的完整路径"></parameter>
+    <parameter xml:lang="zh_HK" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="本機連接時使用的 UNIX socket 完整路徑"></parameter>
+    <parameter xml:lang="zh_TW" id="UNIX_SOCKET" gdatype="gchararray" name="UNIX Socket" descr="本機連接時使用的 UNIX socket 完整路徑"></parameter>
+    <parameter id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ar" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="az" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ca" id="USE_SSL" gdatype="gboolean" name="Requereix SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ca@valencia" id="USE_SSL" gdatype="gboolean" name="Requereix SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="cs" id="USE_SSL" gdatype="gboolean" name="Vyžadovat SSL" descr="Zda používat nebo nepoužívat SSL pro navázání spojení"></parameter>
+    <parameter xml:lang="da" id="USE_SSL" gdatype="gboolean" name="Kræv SSL" descr="Hvorvidt der skal bruges SSL for at etablere forbindelsen"></parameter>
+    <parameter xml:lang="de" id="USE_SSL" gdatype="gboolean" name="Erfordert SSL" descr="Legt fest, ob SSL für den Verbindungsaufbau verwendet werden soll"></parameter>
+    <parameter xml:lang="dz" id="USE_SSL" gdatype="gboolean" name="ཨེསི་ཨེསི་ཨེལ་དགོས་མཁོ་ཡོདཔ།" descr="མཐུད་ལམ་གཞི་བཙུགས་འབད་ནི་ཨེསི་ཨེསི་ཨེལ་ལག་ལེན་འཐབ་ནི་ཨིན་རུང་མེན་རུང་།"></parameter>
+    <parameter xml:lang="el" id="USE_SSL" gdatype="gboolean" name="Απαιτείται SSL" descr="Εάν θα χρησιμοποιηθεί ή όχι SSL για δημιουργία σύνδεσης"></parameter>
+    <parameter xml:lang="en_CA" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="en_GB" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="eo" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="es" id="USE_SSL" gdatype="gboolean" name="Requiere SSL" descr="Indica si se debe usar o no SSL para establecer la conexión"></parameter>
+    <parameter xml:lang="eu" id="USE_SSL" gdatype="gboolean" name="SSL behar du" descr="Konexioak ezartzean SSL erabili edo ez"></parameter>
+    <parameter xml:lang="fa" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="fi" id="USE_SSL" gdatype="gboolean" name="Vaadi SSL:ää" descr="Käytetäänkö SSL-salausta yhteyden muodostamisessa"></parameter>
+    <parameter xml:lang="fr" id="USE_SSL" gdatype="gboolean" name="Utiliser une connexion sécurisée" descr="Indique si l&apos;on doit utiliser une connexion sécurisée par SSL"></parameter>
+    <parameter xml:lang="ga" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="gl" id="USE_SSL" gdatype="gboolean" name="Requirir SSL" descr="Usar ou non SSL para estabelecer a conexión"></parameter>
+    <parameter xml:lang="hr" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="hu" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="id" id="USE_SSL" gdatype="gboolean" name="Perlu SSL" descr="Apakah memakai SSL atau tidak untuk menjalin koneksi"></parameter>
+    <parameter xml:lang="it" id="USE_SSL" gdatype="gboolean" name="Richiede SSL" descr="Uso di SSL per l&apos;instaurazione della connessione"></parameter>
+    <parameter xml:lang="ja" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ko" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="lt" id="USE_SSL" gdatype="gboolean" name="Būtinas SSL" descr="Nustato, ar prisijungimo metu bus naudojamas SSL kodavimas"></parameter>
+    <parameter xml:lang="lv" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="mk" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ml" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ms" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="nb" id="USE_SSL" gdatype="gboolean" name="Krev SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="ne" id="USE_SSL" gdatype="gboolean" name="SSL आवश्यक पर्छ" descr="जडान स्थापानाका लागि SSL प्रयोग गर्न पर्छ वा पर्दैन"></parameter>
+    <parameter xml:lang="nl" id="USE_SSL" gdatype="gboolean" name="Vereist SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="oc" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="pa" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="pl" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="pt" id="USE_SSL" gdatype="gboolean" name="Requerer SSL" descr="Utilizar ou não SSL para estabelecer ligação"></parameter>
+    <parameter xml:lang="pt_BR" id="USE_SSL" gdatype="gboolean" name="Exige SSL" descr="Se utiliza ou não SSL para estabelecer a conexão"></parameter>
+    <parameter xml:lang="ru" id="USE_SSL" gdatype="gboolean" name="Требуется SSL" descr="Использовать или нет SSL для создания соединения"></parameter>
+    <parameter xml:lang="rw" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sk" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sl" id="USE_SSL" gdatype="gboolean" name="Zahtevan SSL" descr="Ali naj bo uporabljen SSL za ustvarjanje povezave"></parameter>
+    <parameter xml:lang="sq" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sr" id="USE_SSL" gdatype="gboolean" name="Захтевај ССЛ" descr="Да ли ће се користити ССЛ за успостављање везе или не"></parameter>
+    <parameter xml:lang="sr@Latn" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="sr@latin" id="USE_SSL" gdatype="gboolean" name="Zahtevaj SSL" descr="Da li će se koristiti SSL za uspostavljanje veze ili ne"></parameter>
+    <parameter xml:lang="sv" id="USE_SSL" gdatype="gboolean" name="Kräver SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="tg" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="tr" id="USE_SSL" gdatype="gboolean" name="Require SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="uk" id="USE_SSL" gdatype="gboolean" name="Потребує SSL" descr="Whether or not to use SSL to establish the connection"></parameter>
+    <parameter xml:lang="vi" id="USE_SSL" gdatype="gboolean" name="Cần thiết SSL" descr="Có nên dùng SSL để thiết lập kết nối hay không"></parameter>
+    <parameter xml:lang="zh_CN" id="USE_SSL" gdatype="gboolean" name="要求 SSL" descr="是否使用 SSL 创建连接"></parameter>
+    <parameter xml:lang="zh_HK" id="USE_SSL" gdatype="gboolean" name="需要 SSL" descr="是否要使用 SSL 建立連線"></parameter>
+    <parameter xml:lang="zh_TW" id="USE_SSL" gdatype="gboolean" name="需要 SSL" descr="是否要使用 SSL 建立連線"></parameter>
+    <parameter id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="ar" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="az" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="ca" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="ca@valencia" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="cs" id="COMPRESS" gdatype="gboolean" name="Komprimovat" descr="Použít komprimovaný protokol"></parameter>
+    <parameter xml:lang="da" id="COMPRESS" gdatype="gboolean" name="Pak" descr="Brug kompressionsprotokol"></parameter>
+    <parameter xml:lang="de" id="COMPRESS" gdatype="gboolean" name="Komprimieren" descr="Kompressionsprotokoll benutzen"></parameter>
+    <parameter xml:lang="dz" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="el" id="COMPRESS" gdatype="gboolean" name="Συμπίεση" descr="Χρήση πρωτοκόλλου συμπίεσης"></parameter>
+    <parameter xml:lang="en_CA" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="en_GB" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="eo" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="es" id="COMPRESS" gdatype="gboolean" name="Comprimir" descr="Usar protocolo de compresión"></parameter>
+    <parameter xml:lang="eu" id="COMPRESS" gdatype="gboolean" name="Konprimitu" descr="Erabili konpresio protokoloa"></parameter>
+    <parameter xml:lang="fa" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="fi" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="fr" id="COMPRESS" gdatype="gboolean" name="Compresser" descr="Utiliser le protocole de compression"></parameter>
+    <parameter xml:lang="ga" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="gl" id="COMPRESS" gdatype="gboolean" name="Comprimir" descr="Usar o protocolo de compresión"></parameter>
+    <parameter xml:lang="hr" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="hu" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="id" id="COMPRESS" gdatype="gboolean" name="Mampatkan" descr="Pakai protokol kompresi"></parameter>
+    <parameter xml:lang="it" id="COMPRESS" gdatype="gboolean" name="Comprimi" descr="Usa il protocollo di compressione"></parameter>
+    <parameter xml:lang="ja" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="ko" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="lt" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="lv" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="mk" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="ml" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="ms" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="nb" id="COMPRESS" gdatype="gboolean" name="Komprimer" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="ne" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="nl" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="oc" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="pa" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="pl" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="pt" id="COMPRESS" gdatype="gboolean" name="Comprimir" descr="Utilizar protocolo de compressão"></parameter>
+    <parameter xml:lang="pt_BR" id="COMPRESS" gdatype="gboolean" name="Comprimir" descr="Usa protocolo de compressão"></parameter>
+    <parameter xml:lang="ru" id="COMPRESS" gdatype="gboolean" name="Сжать" descr="Использовать протокол сжатия данных"></parameter>
+    <parameter xml:lang="rw" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="sk" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="sl" id="COMPRESS" gdatype="gboolean" name="Skrči" descr="Uporabi protokol stiskanja"></parameter>
+    <parameter xml:lang="sq" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="sr" id="COMPRESS" gdatype="gboolean" name="Сажми" descr="Користи протокол сажимања"></parameter>
+    <parameter xml:lang="sr@Latn" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="sr@latin" id="COMPRESS" gdatype="gboolean" name="Sažmi" descr="Koristi protokol sažimanja"></parameter>
+    <parameter xml:lang="sv" id="COMPRESS" gdatype="gboolean" name="Komprimera" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="tg" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="tr" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="uk" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="vi" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="zh_CN" id="COMPRESS" gdatype="gboolean" name="压缩" descr="使用压缩协议"></parameter>
+    <parameter xml:lang="zh_HK" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter xml:lang="zh_TW" id="COMPRESS" gdatype="gboolean" name="Compress" descr="Use compression protocol"></parameter>
+    <parameter source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="ar" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="az" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="ca" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="ca@valencia" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="cs" source="proto:0" id="PROTOCOL" gdatype="string" name="Připojovací protokol" descr="Vysloveně určený připojovací protokol, který se má použít. To je užitečné, když by ostatní parametry připojení normálně způsobily použití jiného protokolu, než který chcete"></parameter>
+    <parameter xml:lang="da" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="de" source="proto:0" id="PROTOCOL" gdatype="string" name="Verbindungsprotokoll" descr="Legt explizit ein zu verwendendes Verbindungsprotokoll fest. Nützlich, wenn andere Verbindungsparamter normalerweise den Einsatz eines Protokolls einleiten, das Sie nicht verwenden wollen"></parameter>
+    <parameter xml:lang="dz" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="el" source="proto:0" id="PROTOCOL" gdatype="string" name="Πρωτόκολλο σύνδεσης" descr="Καθορίζει σαφώς ένα πρωτόκολλο σύνδεσης για χρήση. Είναι χρήσιμο όταν οι άλλες παράμετροι σύνδεσης κανονικά θα μπορούσαν να προκαλέσουν τη χρήση ενός πρωτοκόλλου άλλου από το επιθυμητό"></parameter>
+    <parameter xml:lang="en_CA" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="en_GB" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="eo" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="es" source="proto:0" id="PROTOCOL" gdatype="string" name="Protocolo de la conexión" descr="Especifica explícitamente un protocolo de conexión que usar. Esto es útil cuando otros parámetros de conexión especifican el protocolo que usar en lugar del que quiere."></parameter>
+    <parameter xml:lang="eu" source="proto:0" id="PROTOCOL" gdatype="string" name="Konexioaren protokoloa" descr="Erabiliko den konexioaren protokoloa zehazten du esplizitoki. Erabilgarria da konexioaren beste parametroek nahi ez duzun bestelako protokolo bat erabiltzera bultzatzen dizuten egoeretan"></parameter>
+    <parameter xml:lang="fa" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="fi" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="fr" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="ga" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="gl" source="proto:0" id="PROTOCOL" gdatype="string" name="Protocolo de conexión" descr="Especifica explícitamente un protocolo de conexión a usar. É útil cando os parámetros da outra conexión normalmente causarían que se use protocolo distinto do que quere "></parameter>
+    <parameter xml:lang="hr" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="hu" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="id" source="proto:0" id="PROTOCOL" gdatype="string" name="Protokol koneksi" descr="Secara eksplisit menyatakan suatu protokol koneksi yang dipakai. Ini berguna ketika parameter koneksi lain biasanya akan menyebabkan suatu protokol berbeda dari yang Anda inginkan dipakai"></parameter>
+    <parameter xml:lang="it" source="proto:0" id="PROTOCOL" gdatype="string" name="Protocollo di connessione" descr="Specifica un protocollo di connessione da usare. Utile quando altri parametri di connessione causerebbero l&apos;uso di un protocollo al posto di quello voluto"></parameter>
+    <parameter xml:lang="ja" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="ko" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="lt" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="lv" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="mk" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="ml" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="ms" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="nb" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="ne" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="nl" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="oc" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="pa" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="pl" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="pt" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="pt_BR" source="proto:0" id="PROTOCOL" gdatype="string" name="Protocolo da conexão" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="ru" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="rw" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="sk" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="sl" source="proto:0" id="PROTOCOL" gdatype="string" name="Protokol povezave" descr="Izrečno določa protokol za povezavo. Možnost je uporabna pri povezavah, kjer bi bil sicer samodejno uporabljan drug protokol od želenega."></parameter>
+    <parameter xml:lang="sq" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="sr" source="proto:0" id="PROTOCOL" gdatype="string" name="Протокол повезивања" descr="Изричито наводи протокол повезивања за коришћење. Корисно је када би други параметри повезивања обично проузроковали коришћење протокола а не оног кога ви желите"></parameter>
+    <parameter xml:lang="sr@Latn" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="sr@latin" source="proto:0" id="PROTOCOL" gdatype="string" name="Protokol povezivanja" descr="Izričito navodi protokol povezivanja za korišćenje. Korisno je kada bi drugi parametri povezivanja obično prouzrokovali korišćenje protokola a ne onog koga vi želite"></parameter>
+    <parameter xml:lang="sv" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="tg" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="tr" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="uk" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="vi" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="zh_CN" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="zh_HK" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+    <parameter xml:lang="zh_TW" source="proto:0" id="PROTOCOL" gdatype="string" name="Connection protocol" descr="Explicitly specifies a connection protocol to use. It is useful when the other connection parameters normally would cause a protocol to be used other than the one you want"></parameter>
+  </parameters>
+  <sources>
+    <gda_array name="proto">
+      <gda_array_field name="id" gdatype="gchararray"/>
+      <gda_array_field name="text" gdatype="gchararray"/>
+      <gda_array_data>
+        <gda_array_row>
+          <gda_value>DEFAULT</gda_value>
+          <gda_value>Automatic</gda_value>
+          <gda_value xml:lang="cs">Automaticky</gda_value>
+          <gda_value xml:lang="de">Automatisch</gda_value>
+          <gda_value xml:lang="el">Αυτόματα</gda_value>
+          <gda_value xml:lang="es">Automático</gda_value>
+          <gda_value xml:lang="eu">Automatikoa</gda_value>
+          <gda_value xml:lang="gl">Automático</gda_value>
+          <gda_value xml:lang="id">Otomatis</gda_value>
+          <gda_value xml:lang="it">Automatica</gda_value>
+          <gda_value xml:lang="pt_BR">Automático</gda_value>
+          <gda_value xml:lang="sl">Samodejno</gda_value>
+          <gda_value xml:lang="sr">Самостално</gda_value>
+          <gda_value xml:lang="sr@latin">Samostalno</gda_value>
+          <gda_value xml:lang="tg">Худкор</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>TCP</gda_value>
+          <gda_value>TCP: TCP/IP connection to local or remote server.</gda_value>
+          <gda_value xml:lang="cs">TCP: Spojení TCP/IP k místnímu nebo vzdálenému serveru.</gda_value>
+          <gda_value xml:lang="de">TCP: TCP/IP-verbindung zu lokalem oder entferntem Server.</gda_value>
+          <gda_value xml:lang="el">TCP: σύνδεση TCP/IP στον τοπικό ή απομακρυσμένο εξυπηρετητή.</gda_value>
+          <gda_value xml:lang="es">TCP: conexión TCP/IP a un servidor local o remoto.</gda_value>
+          <gda_value xml:lang="eu">TCP: TCP/IP konexioa lokaleko edo urruneko zerbitzarirako.</gda_value>
+          <gda_value xml:lang="gl">TCP: conexión TCP/IP a un servidor local ou remoto.</gda_value>
+          <gda_value xml:lang="id">TCP: Koneksi TCP/IP ke server lokal atau jauh.</gda_value>
+          <gda_value xml:lang="it">TCP: connessione TCP/IP al server locale o remoto</gda_value>
+          <gda_value xml:lang="pt_BR">TCP: conexão TCP/IP para servidor local ou remoto.</gda_value>
+          <gda_value xml:lang="sl">TCP: Povezava TCP/IP s krajevnim ali oddaljenim strežnikom.</gda_value>
+          <gda_value xml:lang="sr">ТЦП:ТЦО/ИП веза на месни или удаљени сервер.</gda_value>
+          <gda_value xml:lang="sr@latin">TCP:TCO/IP veza na mesni ili udaljeni server.</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>SOCKET</gda_value>
+          <gda_value>Socket: Unix socket file connection to local server (Local Unix server only).</gda_value>
+          <gda_value xml:lang="cs">Socket: Připojení přes soubor s unixovým soketem k místnímu serveru (jen místní unixový server)</gda_value>
+          <gda_value xml:lang="de">Socket: Unix Socket-Datei-Verbindung zu lokalem Server (Nur bei lokalem Unix-Server).</gda_value>
+          <gda_value xml:lang="el">Υποδοχή: η υποδοχή Γιούνιξ σύνδεσης αρχείου στον τοπικό εξυπηρετητή (Μόνο για τοπικό εξυπηρετητή Γιούνιξ).</gda_value>
+          <gda_value xml:lang="es">Socket: archivo socket de conexión Unix al servidor local (sólo para servidores locales).</gda_value>
+          <gda_value xml:lang="eu">Socket: Unix socket fitxategiaren konexioa lokaleko zerbitzarirako (lokaleko Unix zerbitzaria soilik). </gda_value>
+          <gda_value xml:lang="gl">Socket: Conexión de ficheiro de socket Unix a un servidor local (só servidor Unix local).</gda_value>
+          <gda_value xml:lang="id">Soket: Koneksi berkas soket Unix ke server lokal (Hanya server Unix lokal).</gda_value>
+          <gda_value xml:lang="it">Socket: connessione tramite socket al server locale (solamente server Unix locale)</gda_value>
+          <gda_value xml:lang="pt_BR">Socket: arquivo de socket Unix para conexão a servidor local (apenas servidor Unix local).</gda_value>
+          <gda_value xml:lang="sl">Vtič:  datotečna povezava vtiča Unix s krajevnim strežnikom (le za krajevne strežnike Unix).</gda_value>
+          <gda_value xml:lang="sr">Прикључница: Веза датотеке Јуниксове прикључнице на месни сервер (Само месни Јуникс сервер)</gda_value>
+          <gda_value xml:lang="sr@latin">Priključnica: Veza datoteke Juniksove priključnice na mesni server (Samo mesni Juniks server)</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>PIPE</gda_value>
+          <gda_value>Pipe: Named-pipe connection to local or remote server (Windows server only)</gda_value>
+          <gda_value xml:lang="cs">Pipe: Připojení přes pojmenovanou rouru k místnímu nebo vzdálenému serveru (jen servery Windows)</gda_value>
+          <gda_value xml:lang="de">Weiterleitung: Verbindung mit benannter Weiterleitung zu lokalem oder entferntem Server (nur Windows-Server)</gda_value>
+          <gda_value xml:lang="el">Σωλήνας: σύνδεση επώνυμου σωλήνα στον τοπικό ή απομακρυσμένο εξυπηρετητή (μόνο εξυπηρετητής Γουίντοους)</gda_value>
+          <gda_value xml:lang="es">Tubería: conexión con tubería con nombre a un servidor local o remoto (sólo para servidores Windows)</gda_value>
+          <gda_value xml:lang="eu">Kanalizazioa: kanalizazioa izeneko konexioa lokaleko edo urruneko zerbitzarirako (Windows zerbitzaria soilik).</gda_value>
+          <gda_value xml:lang="gl">Pipe: conexión named-pipe a un servidor local ou remoto (só servidor Windows)</gda_value>
+          <gda_value xml:lang="id">Pipe: Koneksi named-pipe ke server lokal atau jauh (Hanya server Windows)</gda_value>
+          <gda_value xml:lang="it">Pipe: connessione tramite pipe al server locale o remoto (solamente server Windows)</gda_value>
+          <gda_value xml:lang="sl">Cev:  cevna povezava s krajevnim ali oddaljenim strežnikom (le za krajevne strežnike Windows).</gda_value>
+          <gda_value xml:lang="sr">Спојка: Веза именоване спојке на месни или удаљени сервер (Само Виндоуз сервери)</gda_value>
+          <gda_value xml:lang="sr@latin">Spojka: Veza imenovane spojke na mesni ili udaljeni server (Samo Vindouz serveri)</gda_value>
+        </gda_array_row>
+        <gda_array_row>
+          <gda_value>MEMORY</gda_value>
+          <gda_value>Memory: Shared-memory connection to local server (Local Windows server only)</gda_value>
+          <gda_value xml:lang="cs">Memory: Připojení přes sdílenou paměť k místnímu serveru (jen místní servery Windows)</gda_value>
+          <gda_value xml:lang="de">Speicher: Verbindung via gemeinsamem Speicher zu lokalem Server (nur lokaler Windows-Server)</gda_value>
+          <gda_value xml:lang="el">Μνήμη: σύνδεση κοινόχρηστης μνήμης σε τοπικό εξυπηρετητή (μόνο για τοπικό εξυπηρετητή Γουίντοους)</gda_value>
+          <gda_value xml:lang="es">Memoria: conexión con memoria compartida a un servidor local o remoto (sólo para servidores Windows locales)</gda_value>
+          <gda_value xml:lang="eu">Memoria: partekatutako memoriaren konexioa lokaleko zerbitzarirako (lokaleko Windows zerbitzariak soilik).</gda_value>
+          <gda_value xml:lang="gl">Memoria: conexión de memoria compartica a un servidor local (só servidor Windows local)</gda_value>
+          <gda_value xml:lang="id">Memori: Koneksi memori bersama ke server lokal (Hanya server Windows lokal)</gda_value>
+          <gda_value xml:lang="it">Memoria: connessione in memoria condivisa al server locale (solamente server Windows locale)</gda_value>
+          <gda_value xml:lang="pt_BR">Memória: Conexão de memória compartilhada ao servidor local (apenas servidor Windows local).</gda_value>
+          <gda_value xml:lang="sl">Pomnilnik: souporabna pomnilniška povezava s krajevnim strežnikom (le za krajevne strežnike Windows)</gda_value>
+          <gda_value xml:lang="sr">Меморија: Веза дељене меморије на месни сервер (Само месни Виндоуз сервер)</gda_value>
+          <gda_value xml:lang="sr@latin">Memorija: Veza deljene memorije na mesni server (Samo mesni Vindouz server)</gda_value>
+        </gda_array_row>
+      </gda_array_data>
+    </gda_array>
+  </sources>
+</data-set-spec>

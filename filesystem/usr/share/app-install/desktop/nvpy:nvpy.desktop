@@ -1,0 +1,25 @@
+# 1. if you've installed with pip, Exec should just work, else modify to
+#    contain full nvpy invocation, for example "python /full/path/nvpy.py"
+# 2. make sure Icon is pointing to correct file. The example below is
+#    correct if you've used pip on an ubuntu system
+# 3. install this desktop file with:
+#    xdg-desktop-menu install vxlabs-nvpy.desktop
+
+[Desktop Entry]
+X-AppInstall-Package=nvpy
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+Version=1.0
+Type=Application
+Name=nvPY
+Comment=Cross-platform simplenote-syncing note-taking tool
+Exec=nvpy
+Icon=nvpy
+Categories=Utility;
+Terminal=false
+StartupNotify=true
+StartupWMClass=nvPY
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

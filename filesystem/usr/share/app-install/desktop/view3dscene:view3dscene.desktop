@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=view3dscene
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=view3dscene
+GenericName=3D Viewer
+Exec=view3dscene %u
+Icon=view3dscene
+Type=Application
+Categories=Graphics;3DGraphics;
+Comment=View 3D models in various formats, play with VRML / X3D worlds
+MimeType=model/vrml;image/x-3ds;model/x3d+vrml;model/x3d+xml;application/x-collada;application/x-inventor;application/x-md3;application/x-wavefront-obj;application/x-geo;application/x-kanim;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=tvtime
+X-AppInstall-Popcon=135
+X-AppInstall-Section=universe
+
+Comment=High quality television application
+Icon=tvtime
+Exec=tvtime
+Name=TVTime Television Viewer
+GenericName=Television Viewer
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AudioVideo;
+
+X-Ubuntu-Gettext-Domain=app-install-data

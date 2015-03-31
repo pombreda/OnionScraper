@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=mess-desktop-entries
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+Name=Super NES ROM Player
+Comment=Play Super Nintendo Entertainment System games
+Type=Application
+Exec=/usr/games/mess snes -cartridge %f
+Terminal=false
+NoDisplay=true
+MimeType=application/x-snes-rom;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

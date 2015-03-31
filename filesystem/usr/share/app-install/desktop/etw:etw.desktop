@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=etw
+X-AppInstall-Popcon=23
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Eat The Whistle
+GenericName=Soccer Game
+Comment=arcade-style soccer game
+Icon=etw
+TryExec=etw
+Exec=etw
+Terminal=false
+Categories=Game;SportsGame;
+Keywords=game;football;soccer;sport;oldschool;arcade;simulation;
+
+X-Ubuntu-Gettext-Domain=app-install-data

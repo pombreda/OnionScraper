@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=birdfont
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=Birdfont
+Comment=Font editor
+Exec=birdfont %U
+Icon=birdfont
+StartupWMClass=birdfont
+Terminal=false
+Type=Application
+GenericName=Font Editor
+Categories=Graphics;VectorGraphics;
+Keywords=Font
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/dbus-1/system.d/system-tools-backends.conf /etc/dbus-1/system.d/org.freedesktop.SystemToolsBackends.conf 2.6.0-6.1 -- "$@"
+# End automatically added section

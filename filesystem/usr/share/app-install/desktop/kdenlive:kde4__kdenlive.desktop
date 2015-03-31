@@ -1,0 +1,20 @@
+# KDE Config File
+[Desktop Entry]
+X-AppInstall-Package=kdenlive
+X-AppInstall-Popcon=525
+X-AppInstall-Section=universe
+
+Name=Kdenlive
+GenericName=Video Editor
+Comment=Nonlinear video editor for KDE
+Type=Application
+Exec=kdenlive %i -caption %c %u
+Icon=kdenlive
+X-DocPath=kdenlive/index.html
+X-DocPath[cs]=http://cs.wikibooks.org/wiki/Kdenlive
+Terminal=false
+MimeType=application/x-kdenlive;
+Keywords=video;audio;firewire;video4linux;suite;editing;kde;mlt;
+Categories=Qt;KDE;AudioVideo;AudioVideoEditing;
+
+X-Ubuntu-Gettext-Domain=app-install-data

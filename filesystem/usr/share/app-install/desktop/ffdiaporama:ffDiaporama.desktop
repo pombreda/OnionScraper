@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=ffdiaporama
+X-AppInstall-Popcon=25
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Movie creator ffDiaporama
+GenericName=Movie creator
+Comment=Movie creator from photos and video clips
+Icon=ffdiaporama
+Terminal=false
+Type=Application
+Exec=ffDiaporama %F
+MimeType=application/ffDiaporama;
+Categories=GTK;GNOME;Qt;KDE;AudioVideo;
+
+X-Ubuntu-Gettext-Domain=app-install-data

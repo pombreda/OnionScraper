@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=python3-windowmocker
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Window Mocker
+Comment=Create windows according to a specification
+Exec=window-mocker %U
+Terminal=false
+Type=Application
+StartupNotify=false
+MimeType=text/plain;text/json;
+# Translators: this is a list of keywords for searching in dashes and such
+Keywords=Window;Test;
+Icon=gtk-info
+
+X-Ubuntu-Gettext-Domain=app-install-data

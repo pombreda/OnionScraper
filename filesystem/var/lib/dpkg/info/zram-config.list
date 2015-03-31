@@ -1,0 +1,10 @@
+/.
+/etc
+/etc/init
+/etc/init/zram-config.conf
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/zram-config
+/usr/share/doc/zram-config/copyright
+/usr/share/doc/zram-config/changelog.gz

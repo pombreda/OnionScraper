@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=transmission-remote-gtk
+X-AppInstall-Popcon=20
+X-AppInstall-Section=universe
+
+Name=Transmission Remote
+Comment=Remotely manage the Transmission BitTorrent client
+Exec=/usr/bin/transmission-remote-gtk %U
+Icon=transmission-remote-gtk
+Terminal=false
+TryExec=transmission-remote-gtk
+Type=Application
+MimeType=application/x-bittorrent;x-scheme-handler/magnet;
+Categories=Network;FileTransfer;P2P;GTK;
+
+X-Ubuntu-Gettext-Domain=app-install-data

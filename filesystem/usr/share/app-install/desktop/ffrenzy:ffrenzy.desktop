@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=ffrenzy
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Name=Feeding Frenzy!
+Comment=multiplayer platform game with dwarfs fighting with/for food
+Exec=ffrenzy-menu
+TryExec=ffrenzy-menu
+Icon=ffrenzy
+Terminal=false
+Categories=Application;Game;
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

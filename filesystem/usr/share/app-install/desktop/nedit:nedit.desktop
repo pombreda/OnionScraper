@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=nedit
+X-AppInstall-Popcon=103
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=NEdit "Nirvana Text Editor"
+Exec=nedit-nc %U
+Icon=Nedit
+Terminal=false
+Type=Application
+MimeType=text/plain;
+Categories=Motif;Utility;TextTools;
+Keywords=Customizable;Scripts;Powerful;
+GenericName=Text Editor
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=git-cola
+X-AppInstall-Popcon=147
+X-AppInstall-Section=universe
+
+Name=Git Cola
+Comment=The highly caffeinated Git GUI
+TryExec=git-cola
+Exec=git-cola --prompt
+Icon=_usr_share_git-cola_icons_git
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Development;RevisionControl;
+X-KDE-SubstituteUID=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

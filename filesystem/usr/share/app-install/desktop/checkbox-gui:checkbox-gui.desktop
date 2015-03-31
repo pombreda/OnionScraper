@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=checkbox-gui
+X-AppInstall-Popcon=732
+X-AppInstall-Section=main
+
+Name=System Testing
+Comment=Test your systems compatibility with Ubuntu
+Type=Application
+Exec=checkbox-gui
+Icon=checkbox
+Categories=System;Qt;Application
+Keywords=testing;drivers;hardware;
+X-GNOME-Gettext-Domain=checkbox-gui
+X-Ayatana-Appmenu-Show-Stubs=False
+X-Ubuntu-Touch=true
+X-Ubuntu-StageHint=SideStage
+
+X-Ubuntu-Gettext-Domain=app-install-data

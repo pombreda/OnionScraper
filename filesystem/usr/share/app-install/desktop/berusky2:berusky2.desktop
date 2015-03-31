@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=berusky2
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Berusky2
+Comment=Rescue the bugs!
+Exec=berusky2
+StartupNotify=false
+Terminal=false
+Type=Application
+Icon=berusky2
+Categories=Game;LogicGame;
+Keywords=logic;game;bugs;3D;camera;level;zooming;
+
+X-Ubuntu-Gettext-Domain=app-install-data

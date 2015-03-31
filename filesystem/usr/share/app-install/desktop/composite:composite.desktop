@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=composite
+X-AppInstall-Popcon=17
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Composite
+GenericName=Composite
+Comment=Live performance sequencer
+Keywords=audio;sound;jackd,sequencer,looper,sampler,LV2
+Icon=composite32x32
+TryExec=composite-gui
+Exec=composite-gui %F
+Terminal=false
+Categories=AudioVideo;Audio;Qt;Music;
+
+X-Ubuntu-Gettext-Domain=app-install-data

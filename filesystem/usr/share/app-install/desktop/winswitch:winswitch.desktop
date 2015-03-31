@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=winswitch
+X-AppInstall-Popcon=11
+X-AppInstall-Section=universe
+
+Name=Window Switch
+Comment=Move running applications between networked computers
+TryExec=winswitch_applet
+Exec=winswitch_applet --no-virtualbox --open_server_config=%f
+Icon=winswitch_applet
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=Network;TrayIcon;
+OnlyShowIn=GNOME;KDE;LXDE;MATE;Razor;ROX;TDE;Unity;XFCE;Old;
+MimeType=text/x-winswitchconfig;
+
+X-Ubuntu-Gettext-Domain=app-install-data

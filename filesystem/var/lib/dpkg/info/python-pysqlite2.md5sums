@@ -1,0 +1,8 @@
+162907de93c471e310adebf4cb375c27  usr/lib/python2.7/dist-packages/pysqlite2/_sqlite.so
+d48b730b89e8f137df5d21d32b37a5c6  usr/share/doc/python-pysqlite2/README.Debian
+008438c6171ec23203037b2e78a3cb8e  usr/share/doc/python-pysqlite2/changelog.Debian.gz
+bf53bc178775c24b9c9e790d413faf35  usr/share/doc/python-pysqlite2/copyright
+fa2157e180778ba541928f4f9d81be32  usr/share/pyshared/pysqlite-2.6.3.egg-info
+de9af8df2e6825b2dde1883ca47fa271  usr/share/pyshared/pysqlite2/__init__.py
+a165a811e0cad14c91fe43facf77777d  usr/share/pyshared/pysqlite2/dbapi2.py
+43482efd14f6f500b0aa2b9b927d3587  usr/share/pyshared/pysqlite2/dump.py

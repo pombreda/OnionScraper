@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=timemon.app
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Type=Application
+Categories=System;Monitor;
+Name=TimeMon
+Comment=CPU time usage monitor for GNUstep
+Keywords=cpu;monitoring;load;
+Icon=_usr_lib_GNUstep_Applications_TimeMon.app_Resources_TimeMon
+Exec=TimeMon
+
+X-Ubuntu-Gettext-Domain=app-install-data

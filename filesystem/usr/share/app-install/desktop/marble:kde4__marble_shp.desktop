@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=marble
+X-AppInstall-Popcon=1131
+X-AppInstall-Section=universe
+
+Type=Application
+TryExec=marble
+Exec=marble %F
+Name=Marble
+NoDisplay=true
+GenericName=Virtual Globe
+MimeType=application/x-esri-shape;
+Icon=marble
+Terminal=false
+Categories=Qt;KDE;Education;Geography;
+
+X-Ubuntu-Gettext-Domain=app-install-data

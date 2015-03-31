@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+StartupNotify=false
+Terminal=false
+Keywords=Info;Information;Ubuntustudio;Email;
+Exec=xdg-open https://lists.ubuntu.com/mailman/listinfo/ubuntu-studio-users
+Icon=system-help
+Name=ubuntustudio mail list page
+Comment=join the UbuntuStudio mail list
+
+X-Ubuntu-Gettext-Domain=app-install-data

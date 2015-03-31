@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=dochelp
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=Dochelp
+Comment=Utility to browse system documentation
+Exec=sensible-browser file:///var/lib/dochelp/documents.html
+Type=Application
+Categories=Development;
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

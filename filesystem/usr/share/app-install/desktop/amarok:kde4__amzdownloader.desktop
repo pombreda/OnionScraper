@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=amarok
+X-AppInstall-Popcon=2551
+X-AppInstall-Section=universe
+
+Type=Application
+Name=AMZ Downloader
+Comment=Download with AMZ Downloader
+ServiceTypes=audio/x-amzxml,audio/x-amzaudio
+Exec=amzdownloader --amz %f
+Icon=download
+Categories=Qt;KDE;AudioVideo;Audio;
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

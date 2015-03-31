@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在终端中运行命令">
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="“ymsgr”URL 的处理程序">
+								<longdesc>如果启用的话，用于处理“ymsgr”URL 的命令。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在终端中运行命令">
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="“xmpp”URL 的处理程序">
+								<longdesc>如果启用的话，用于处理“xmpp”URL 的命令。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在终端中运行命令">
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="“sip”URL 的处理程序">
+								<longdesc>如果启用的话，用于处理“sip”URL 的命令。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在终端中运行命令">
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="“msnim”URL 的处理程序">
+								<longdesc>如果启用的话，用于处理“msnim”URL 的命令。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在终端中运行命令">
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="“irc”URL 的处理程序">
+								<longdesc>如果启用的话，用于处理“irc”URL 的命令。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在终端中运行命令">
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="“icq”URL 的处理程序">
+								<longdesc>如果启用的话，用于处理“icq”URL 的命令。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在终端中运行命令">
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="“gg”URL 的处理程序">
+								<longdesc>如果启用的话，用于处理“gg”URL 的命令。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在终端中运行命令">
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="“aim”URL 的处理程序">
+								<longdesc>如果启用的话，用于处理“aim”URL 的命令。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

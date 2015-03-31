@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=lbreakout2
+X-AppInstall-Popcon=79
+X-AppInstall-Section=universe
+
+Name=LBreakout2
+Comment=A ball-and-paddle game with nice graphics.
+Exec=/usr/games/lbreakout2
+Icon=lbreakout2
+Type=Application
+Categories=Game;
+
+X-Ubuntu-Gettext-Domain=app-install-data

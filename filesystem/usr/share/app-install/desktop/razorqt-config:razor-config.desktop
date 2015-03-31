@@ -1,0 +1,52 @@
+[Desktop Entry]
+X-AppInstall-Package=razorqt-config
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+OnlyShowIn=X-RAZOR;
+Type=Application
+Exec=razor-config
+Terminal=false
+Categories=Settings;DesktopSettings;Qt;X-RAZOR;
+Icon=preferences-system
+Name=Razor Configuration Center
+Comment=Configure Razor-Qt modules
+GenericName=Razor Configuration
+
+Icon[uk]=preferences-system
+Icon[es]=preferences-system
+Icon[ia]=preferences-system
+Icon[de]=preferences-system
+Icon[tr]=Sistem-tercihleri
+Icon[zh_CN]=系统首选项
+Icon[da]=preferences-system
+Icon[eu]=hobespenak-sistema
+Icon[eo]=preferences-system
+Icon[hu]=preferences-system
+Icon[fi]=asetukset-järjestelmä
+Icon[cs]=Nastavení systému
+Icon[nl]=Systeem-eigenschappen
+Icon[pt_BR]=preferences-system
+Icon[cs_CZ]=Nastavení systému
+Icon[ar]=تفضيلات النظام
+Icon[lt]=preferences-system
+Icon[pl_PL]=preferences-system
+Icon[zh_TW]=系統偏好設定
+Icon[da_DK]=preferences-system
+Icon[es_VE]=preferences-system
+Icon[he]=preferences-system
+Icon[th_TH]=ค่าปรับแต่ง-ระบบ
+Icon[fr]=preferences-system
+Icon[ru]=предпочтениях системы
+Icon[id_ID]=preferences-system
+Icon[es_MX]=preferences-system
+Icon[ro_RO]=preferences-system
+Icon[gl]=preferencias-sistema
+Icon[sl]=preferences-system
+Icon[de_DE]=Einstellungen-System
+Icon[it_IT]=preferences-system
+Icon[ja]=システム初期設定
+Icon[pt]=preferences-system
+Icon[el_GR]=προτιμήσεις συστήματος
+
+X-Ubuntu-Gettext-Domain=app-install-data

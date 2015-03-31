@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=lifeograph
+X-AppInstall-Popcon=24
+X-AppInstall-Section=universe
+
+Version=1.0
+Encoding=UTF-8
+Name=Lifeograph
+GenericName=Diary
+Comment=Keep a private journal of your life
+Type=Application
+Terminal=false
+Exec=lifeograph %F
+Icon=lifeograph
+Categories=Utility
+MimeType=application/x-lifeographdiary
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

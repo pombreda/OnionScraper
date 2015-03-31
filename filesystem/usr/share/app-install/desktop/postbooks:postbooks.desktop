@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=postbooks
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Encoding=UTF-8
+Name=PostBooks
+Icon=_usr_share_pixmaps_xTuple
+Exec=postbooks
+Terminal=false
+Categories=Office;
+
+X-Ubuntu-Gettext-Domain=app-install-data

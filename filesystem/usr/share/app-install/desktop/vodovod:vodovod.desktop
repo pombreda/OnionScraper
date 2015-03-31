@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=vodovod
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Vodovod
+GenericName=Puzzle Game
+Comment=Vodovod is a puzzle game in which you must lead the water to the storage tank.
+Icon=vodovod
+Exec=vodovod
+Terminal=false
+StartupNotify=false
+Categories=Game;LogicGame;
+Keywords=game;pipes;puzzle;water;logic;
+
+X-Ubuntu-Gettext-Domain=app-install-data

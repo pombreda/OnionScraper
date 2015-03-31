@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=twpsk
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=twpsk
+Comment=PSK31 for Linux with a openMotif GUI
+Exec=twpsk
+Icon=twpsk
+Terminal=false
+Type=Application
+Categories=Network;HamRadio
+Keywords=PSK31;ham;radio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

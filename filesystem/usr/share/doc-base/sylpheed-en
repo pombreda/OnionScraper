@@ -1,0 +1,9 @@
+Document: sylpheed-en
+Title: Sylpheed Manual (English)
+Author: Paul Kater (paul@nlpagan.net) Nick Selby
+Abstract: This is a manual for sylpheed. (English)
+Section: Network/Communication
+
+Format: HTML
+Index: /usr/share/doc/sylpheed-doc/manual/en/sylpheed.html
+Files: /usr/share/doc/sylpheed-doc/manual/en/*.html

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=gstm
+X-AppInstall-Popcon=48
+X-AppInstall-Section=universe
+
+Name=gSTM
+GenericName=gSTM
+Comment=Manage SSH tunnel connections
+Exec=gstm
+Icon=gSTM
+Terminal=false
+Type=Application
+Categories=Application;GTK;GNOME;Network;
+
+X-Ubuntu-Gettext-Domain=app-install-data

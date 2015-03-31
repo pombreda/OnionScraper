@@ -1,0 +1,1 @@
+../../../../share/pyshared/LSC/__init__.py

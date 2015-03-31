@@ -1,0 +1,3 @@
+syslinux: embedded-library
+syslinux: hardening-no-relro
+syslinux: hardening-no-fortify-functions

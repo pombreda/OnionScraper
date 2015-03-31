@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=tuxpuck
+X-AppInstall-Popcon=21
+X-AppInstall-Section=universe
+
+Name=TuxPuck
+Comment=Play Shufflepuck with Tux
+Exec=tuxpuck
+Icon=tuxpuck
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=Game;SportsGame;
+Keywords=tux;puck;cafe;shufflepuck;arcana;
+
+X-Ubuntu-Gettext-Domain=app-install-data

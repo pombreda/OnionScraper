@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=luminance-hdr
+X-AppInstall-Popcon=35
+X-AppInstall-Section=universe
+
+Name=Luminance HDR
+GenericName=HDR imaging tool
+Categories=Graphics;RasterGraphics;Photography;Viewer;Qt;
+Comment=Create and tonemap HDR images
+Exec=luminance-hdr --gui %F
+Icon=luminance-hdr
+MimeType=image/x-dcraw;image/tiff;image/jpeg;image/png;image/x-exr;image/x-hdr;image/x-pfs;
+StartupNotify=true
+StartupWMClass=luminance-hdr
+Terminal=false
+Type=Application
+X-DCOP-ServiceType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+#X-StandardInstall=false
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

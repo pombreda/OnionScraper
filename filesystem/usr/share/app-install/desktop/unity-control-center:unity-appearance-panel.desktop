@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-control-center
+X-AppInstall-Popcon=7559
+X-AppInstall-Section=main
+
+Name=Appearance
+Comment=Change the background and the theme
+Exec=unity-control-center appearance
+Icon=preferences-desktop-wallpaper
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Settings;DesktopSettings;X-Unity-Settings-Panel;X-GNOME-PersonalSettings
+OnlyShowIn=Unity;
+X-Unity-Settings-Panel=appearance
+# Translators: those are keywords for the appearance control-center panel
+Keywords=Wallpaper;Background;Screen;Desktop;Theme;Appearance;Launcher;Unity;Menus;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

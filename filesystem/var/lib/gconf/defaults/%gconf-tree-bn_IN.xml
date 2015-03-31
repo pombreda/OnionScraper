@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="টার্মিন্যালের মধ্যে কমান্ড সঞ্চালিত হবে">
+								<longdesc>এই ধরনের URL পরিচালনার জন্য চিহ্নিত কমান্ড টার্মিন্যালের মধ্যে সঞ্চালনার জন্য ধার্য করা হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; রূপের URL-গুলির হ্যান্ডলার">
+								<longdesc>সক্রিয় থাকলে, &quot;ymsgr&quot; URL ব্যবস্থাপনার জন্য ব্যবহারযোগ্য কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="নির্দিষ্ট কমান্ড সাহায্যে &quot;ymsgr&quot; URL পরিচালিত হবে কি না">
+								<longdesc>&quot;command&quot; কি দ্বারা নির্ধারিত কমান্ডের সাহায্যে &quot;ymsgr&quot; URL পরিচালিত হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="টার্মিন্যালের মধ্যে কমান্ড সঞ্চালিত হবে">
+								<longdesc>এই ধরনের URL পরিচালনার জন্য চিহ্নিত কমান্ড টার্মিন্যালের মধ্যে সঞ্চালনার জন্য ধার্য করা হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; রূপের URL-গুলির হ্যান্ডলার">
+								<longdesc>সক্রিয় থাকলে, &quot;xmpp&quot; URL ব্যবস্থাপনার জন্য ব্যবহারযোগ্য কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="নির্দিষ্ট কমান্ড সাহায্যে &quot;xmpp&quot; URL পরিচালিত হবে কি না">
+								<longdesc>&quot;command&quot; কি দ্বারা নির্ধারিত কমান্ডের সাহায্যে &quot;xmpp&quot; URL পরিচালিত হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="টার্মিন্যালের মধ্যে কমান্ড সঞ্চালিত হবে">
+								<longdesc>এই ধরনের URL পরিচালনার জন্য চিহ্নিত কমান্ড টার্মিন্যালের মধ্যে সঞ্চালনার জন্য ধার্য করা হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; রূপের URL-গুলির হ্যান্ডলার">
+								<longdesc>সক্রিয় থাকলে, &quot;sip&quot; URL ব্যবস্থাপনার জন্য ব্যবহারযোগ্য কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="নির্দিষ্ট কমান্ড সাহায্যে &quot;sip&quot; URL পরিচালিত হবে কি না">
+								<longdesc>&quot;command&quot; কি দ্বারা নির্ধারিত কমান্ডের সাহায্যে &quot;sip&quot; URL পরিচালিত হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="টার্মিন্যালের মধ্যে কমান্ড সঞ্চালিত হবে">
+								<longdesc>এই ধরনের URL পরিচালনার জন্য চিহ্নিত কমান্ড টার্মিন্যালের মধ্যে সঞ্চালনার জন্য ধার্য করা হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; রূপের URL-গুলির হ্যান্ডলার">
+								<longdesc>সক্রিয় থাকলে, &quot;msnim&quot; URL ব্যবস্থাপনার জন্য ব্যবহারযোগ্য কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="নির্দিষ্ট কমান্ড সাহায্যে &quot;msnim&quot; URL পরিচালিত হবে কি না">
+								<longdesc>&quot;command&quot; কি দ্বারা নির্ধারিত কমান্ডের সাহায্যে &quot;msnim&quot; URL পরিচালিত হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="টার্মিন্যালের মধ্যে কমান্ড সঞ্চালিত হবে">
+								<longdesc>এই ধরনের URL পরিচালনার জন্য চিহ্নিত কমান্ড টার্মিন্যালের মধ্যে সঞ্চালনার জন্য ধার্য করা হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; রূপের URL-গুলির হ্যান্ডলার">
+								<longdesc>সক্রিয় থাকলে, &quot;irc&quot; URL ব্যবস্থাপনার জন্য ব্যবহারযোগ্য কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="নির্দিষ্ট কমান্ড সাহায্যে &quot;irc&quot; URL পরিচালিত হবে কি না">
+								<longdesc>&quot;command&quot; কি দ্বারা নির্ধারিত কমান্ডের সাহায্যে &quot;irc&quot; URL পরিচালিত হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="টার্মিন্যালের মধ্যে কমান্ড সঞ্চালিত হবে">
+								<longdesc>এই ধরনের URL পরিচালনার জন্য চিহ্নিত কমান্ড টার্মিন্যালের মধ্যে সঞ্চালনার জন্য ধার্য করা হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; রূপের URL-গুলির হ্যান্ডলার">
+								<longdesc>সক্রিয় থাকলে, &quot;icq&quot; URL ব্যবস্থাপনার জন্য ব্যবহারযোগ্য কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="নির্দিষ্ট কমান্ড সাহায্যে &quot;icq&quot; URL পরিচালিত হবে কি না">
+								<longdesc>&quot;command&quot; কি দ্বারা নির্ধারিত কমান্ডের সাহায্যে &quot;icq&quot; URL পরিচালিত হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="টার্মিন্যালের মধ্যে কমান্ড সঞ্চালিত হবে">
+								<longdesc>এই ধরনের URL পরিচালনার জন্য চিহ্নিত কমান্ড টার্মিন্যালের মধ্যে সঞ্চালনার জন্য ধার্য করা হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; রূপের URL-গুলির হ্যান্ডলার">
+								<longdesc>সক্রিয় থাকলে, &quot;gg&quot; URL ব্যবস্থাপনার জন্য ব্যবহারযোগ্য কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="নির্দিষ্ট কমান্ড সাহায্যে &quot;gg&quot; URL পরিচালিত হবে কি না">
+								<longdesc>&quot;command&quot; কি দ্বারা নির্ধারিত কমান্ডের সাহায্যে &quot;gg&quot; URL পরিচালিত হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="টার্মিন্যালের মধ্যে কমান্ড সঞ্চালিত হবে">
+								<longdesc>এই ধরনের URL পরিচালনার জন্য চিহ্নিত কমান্ড টার্মিন্যালের মধ্যে সঞ্চালনার জন্য ধার্য করা হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; রূপের URL-গুলির হ্যান্ডলার">
+								<longdesc>সক্রিয় থাকলে, &quot;aim&quot; URL ব্যবস্থাপনার জন্য ব্যবহারযোগ্য কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="নির্দিষ্ট কমান্ড সাহায্যে &quot;aim&quot; URL পরিচালিত হবে কি না">
+								<longdesc>&quot;command&quot; কি দ্বারা নির্ধারিত কমান্ডের সাহায্যে &quot;aim&quot; URL পরিচালিত হলে মান True (সত্য) হবে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

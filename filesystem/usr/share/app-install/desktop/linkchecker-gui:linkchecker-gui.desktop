@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=linkchecker-gui
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Name=LinkChecker GUI
+GenericName=URL validator
+Version=1.0
+Type=Application
+Exec=linkchecker-gui
+Terminal=false
+Categories=Network;WebDevelopment;
+Icon=logo48x48
+
+X-Ubuntu-Gettext-Domain=app-install-data

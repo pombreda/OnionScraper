@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=hatari
+X-AppInstall-Popcon=44
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Hatari UI
+Exec=hatariui
+Icon=hatari-icon
+Comment=Atari ST(e)/Falcon emulator
+Categories=Game;Emulator;
+Keywords=Emulator;Atari;Atari ST;Atari Falcon;
+
+X-Ubuntu-Gettext-Domain=app-install-data

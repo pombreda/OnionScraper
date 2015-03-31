@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=owncloud-client
+X-AppInstall-Popcon=575
+X-AppInstall-Section=universe
+
+Categories=Utility;X-SuSE-SyncUtility;
+Type=Application
+Exec=owncloud
+Name=ownCloud desktop sync client 
+GenericName=Folder Sync
+Icon=owncloud
+Keywords=ownCloud;syncing;file;sharing;
+
+X-Ubuntu-Gettext-Domain=app-install-data

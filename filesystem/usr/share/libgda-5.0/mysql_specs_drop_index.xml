@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serv_op>
+  <parameters id="INDEX_DESC_P">
+    <parameter source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index to delete"></parameter>
+    <parameter xml:lang="ar" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="فهرس" descr="Index to delete"></parameter>
+    <parameter xml:lang="az" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index to delete"></parameter>
+    <parameter xml:lang="ca" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Índex" descr="Index to delete"></parameter>
+    <parameter xml:lang="ca@valencia" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Índex" descr="Index to delete"></parameter>
+    <parameter xml:lang="cs" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index, která se má smazat"></parameter>
+    <parameter xml:lang="da" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Indeks" descr="Indeks der skal slettes"></parameter>
+    <parameter xml:lang="de" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Zu löschender Index"></parameter>
+    <parameter xml:lang="dz" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="ཟུར་ཐོ།" descr="བཏོན་གཏང་ནི་ཟུར་ཐོ།"></parameter>
+    <parameter xml:lang="el" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Ευρετήριο" descr="Ευρετήριο για διαγραφή"></parameter>
+    <parameter xml:lang="en_CA" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index to delete"></parameter>
+    <parameter xml:lang="en_GB" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index to delete"></parameter>
+    <parameter xml:lang="eo" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Indekso" descr="Index to delete"></parameter>
+    <parameter xml:lang="es" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Índice" descr="Índice para eliminar"></parameter>
+    <parameter xml:lang="eu" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Indizea" descr="Indizea ezabatzeko"></parameter>
+    <parameter xml:lang="fa" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="نمایه" descr="Index to delete"></parameter>
+    <parameter xml:lang="fi" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Hakemisto" descr="Poistettava indeksi"></parameter>
+    <parameter xml:lang="fr" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index à supprimer"></parameter>
+    <parameter xml:lang="ga" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index to delete"></parameter>
+    <parameter xml:lang="gl" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Índice" descr="Índice que borrar"></parameter>
+    <parameter xml:lang="hr" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Indeks" descr="Index to delete"></parameter>
+    <parameter xml:lang="hu" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index to delete"></parameter>
+    <parameter xml:lang="id" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Indeks" descr="Indeks yang akan dihapus"></parameter>
+    <parameter xml:lang="it" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Indice" descr="Indice in cancellazione"></parameter>
+    <parameter xml:lang="ja" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="索引" descr="Index to delete"></parameter>
+    <parameter xml:lang="ko" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index to delete"></parameter>
+    <parameter xml:lang="lt" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Indeksas" descr="Ištrinamas indeksas"></parameter>
+    <parameter xml:lang="lv" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index to delete"></parameter>
+    <parameter xml:lang="mk" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index to delete"></parameter>
+    <parameter xml:lang="ml" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="സൂചിക" descr="Index to delete"></parameter>
+    <parameter xml:lang="ms" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Indeks" descr="Index to delete"></parameter>
+    <parameter xml:lang="nb" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Indeks" descr="Indeks som skal slettes"></parameter>
+    <parameter xml:lang="ne" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="अनुक्रमणिका" descr="मेट्नको लागि अनुक्रमणिका"></parameter>
+    <parameter xml:lang="nl" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index to delete"></parameter>
+    <parameter xml:lang="oc" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Indèx" descr="Index to delete"></parameter>
+    <parameter xml:lang="pa" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="ਤਤਕਰਾ" descr="Index to delete"></parameter>
+    <parameter xml:lang="pl" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Indeks" descr="Index to delete"></parameter>
+    <parameter xml:lang="pt" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Índice" descr="Índice a remover"></parameter>
+    <parameter xml:lang="pt_BR" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Índice" descr="Índice a excluir"></parameter>
+    <parameter xml:lang="ru" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Индекс" descr="Удаляемый индекс"></parameter>
+    <parameter xml:lang="rw" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Umubarendanga" descr="Index to delete"></parameter>
+    <parameter xml:lang="sk" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index to delete"></parameter>
+    <parameter xml:lang="sl" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Kazalo" descr="Kazalo za izbris"></parameter>
+    <parameter xml:lang="sq" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Treguesi" descr="Index to delete"></parameter>
+    <parameter xml:lang="sr" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Попис" descr="Попис за брисање"></parameter>
+    <parameter xml:lang="sr@Latn" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Indeks" descr="Index to delete"></parameter>
+    <parameter xml:lang="sr@latin" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Popis" descr="Popis za brisanje"></parameter>
+    <parameter xml:lang="sv" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index att ta bort"></parameter>
+    <parameter xml:lang="tg" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Индекс" descr="Index to delete"></parameter>
+    <parameter xml:lang="tr" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Index" descr="Index to delete"></parameter>
+    <parameter xml:lang="uk" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Індекс" descr="Index to delete"></parameter>
+    <parameter xml:lang="vi" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="Chỉ mục" descr="Chỉ mục cần xoá bỏ"></parameter>
+    <parameter xml:lang="zh_CN" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="索引" descr="要删除的索引"></parameter>
+    <parameter xml:lang="zh_HK" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="索引" descr="要刪除的索引"></parameter>
+    <parameter xml:lang="zh_TW" source="_DICT_INDEXES_" nullok="FALSE" id="INDEX_NAME" gdatype="gchararray" name="索引" descr="要刪除的索引"></parameter>
+    <parameter source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="ar" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="az" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="ca" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="ca@valencia" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="cs" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Pro tabulku"></parameter>
+    <parameter xml:lang="da" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="På tabel"></parameter>
+    <parameter xml:lang="de" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="In Tabelle"></parameter>
+    <parameter xml:lang="dz" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="ཐིག་ཁྲམ་གུ"></parameter>
+    <parameter xml:lang="el" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Στον πίνακα"></parameter>
+    <parameter xml:lang="en_CA" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="en_GB" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="eo" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="es" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="En la tabla"></parameter>
+    <parameter xml:lang="eu" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Taulan"></parameter>
+    <parameter xml:lang="fa" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="fi" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Taululle"></parameter>
+    <parameter xml:lang="fr" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Sur la table"></parameter>
+    <parameter xml:lang="ga" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="gl" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Na táboa"></parameter>
+    <parameter xml:lang="hr" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="hu" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="id" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Pada tabel"></parameter>
+    <parameter xml:lang="it" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Sulla tabella"></parameter>
+    <parameter xml:lang="ja" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="ko" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="lt" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Lentelėje"></parameter>
+    <parameter xml:lang="lv" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="mk" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="ml" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="ms" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="nb" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="På tabell"></parameter>
+    <parameter xml:lang="ne" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="तालिकामा"></parameter>
+    <parameter xml:lang="nl" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="oc" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="pa" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="pl" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="pt" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Na tabela"></parameter>
+    <parameter xml:lang="pt_BR" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Na tabela"></parameter>
+    <parameter xml:lang="ru" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="В таблице"></parameter>
+    <parameter xml:lang="rw" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="sk" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="sl" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="V razpredelnici"></parameter>
+    <parameter xml:lang="sq" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="sr" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="На табели"></parameter>
+    <parameter xml:lang="sr@Latn" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="sr@latin" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Na tabeli"></parameter>
+    <parameter xml:lang="sv" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="På tabell"></parameter>
+    <parameter xml:lang="tg" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="tr" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="uk" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="On table"></parameter>
+    <parameter xml:lang="vi" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="Trên bảng"></parameter>
+    <parameter xml:lang="zh_CN" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="表中"></parameter>
+    <parameter xml:lang="zh_HK" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="表格上"></parameter>
+    <parameter xml:lang="zh_TW" source="_DICT_TABLES_" nullok="FALSE" id="INDEX_ON_TABLE" gdatype="gchararray" name="表格上"></parameter>
+  </parameters>
+</serv_op>

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=chromium-bsu
+X-AppInstall-Popcon=115
+X-AppInstall-Section=universe
+
+Name=Chromium B.S.U.
+GenericName=Shoot'em up space shooter
+Comment=Scrolling space shooter
+Exec=chromium-bsu
+Icon=chromium-bsu
+Terminal=false
+Type=Application
+Categories=Game;ArcadeGame;
+StartupNotify=false
+Keywords=Shooter;Space;
+
+X-Ubuntu-Gettext-Domain=app-install-data

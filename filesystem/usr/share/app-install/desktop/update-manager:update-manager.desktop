@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=update-manager
+X-AppInstall-Popcon=58078
+X-AppInstall-Section=main
+
+Name=Software Updater
+GenericName=Software Updates
+Comment=Show and install available updates
+Exec=/usr/bin/update-manager
+Icon=system-software-update
+Terminal=false
+Type=Application
+Categories=System;Settings;
+
+X-Unity-IconBackgroundColor=#4c9e39
+
+X-Ubuntu-Gettext-Domain=app-install-data

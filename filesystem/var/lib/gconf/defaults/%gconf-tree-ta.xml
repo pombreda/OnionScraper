@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ஒரு முனையில் கட்டளையை இயக்கு">
+								<longdesc>சரியென்றால் கட்டளையானது இந்த வகையான URLஐ ஒரு முனையில் கையாளலாம்.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URLs கான கையாளுபவர்">
+								<longdesc>&quot;ymsgr&quot; URLs,செயல்படுத்தப்பட்டால் கட்டளையானது கையாள பயன்படுகிறது.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="குறிப்பிட்ட கட்டளை &quot;ymsgr&quot; URLsஐ கையாள வேண்டுமா">
+								<longdesc>சரியென்றால் &quot;command&quot; விசையில் குறிப்பிடப்பட்ட கட்டளை &quot;ymsgr&quot; URLs இல் கையாளப்பட வ்வேண்டும்.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ஒரு முனையில் கட்டளையை இயக்கு">
+								<longdesc>சரியென்றால் கட்டளையானது இந்த வகையான URLஐ ஒரு முனையில் கையாளலாம்.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URLs கான கையாளுபவர்">
+								<longdesc>&quot;xmpp&quot; URLs, செயல்படுத்தப்பட்டால் கட்டளையானது கையாள பயன்படுகிறது.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="குறிப்பிட்ட கட்டளை &quot;xmpp&quot; URLsஐ கையாள வேண்டுமா">
+								<longdesc>சரியென்றால் &quot;command&quot; விசையில் குறிப்பிடப்பட்ட கட்டளை &quot;xmpp&quot; URLs இல் கையாளப்பட வேண்டும்.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ஒரு முனையில் கட்டளையை இயக்கு">
+								<longdesc>சரியென்றால் கட்டளையானது இந்த வகையான URLஐ ஒரு முனையில் கையாளலாம்.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URLs கான கையாளுபவர்">
+								<longdesc>&quot;sip&quot; URLs, செயல்படுத்தப்பட்டால் கட்டளையானது கையாள பயன்படுகிறது.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="குறிப்பிட்ட கட்டளை &quot;sip&quot; URLsஐ கையாள வேண்டுமா">
+								<longdesc>சரியென்றால் &quot;command&quot; விசையில் குறிப்பிடப்பட்ட கட்டளை &quot;sip&quot; URLs இல் கையாளப்பட வேண்டும்.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ஒரு முனையில் கட்டளையை இயக்கு">
+								<longdesc>சரியென்றால் கட்டளையானது இந்த வகையான URLஐ ஒரு முனையில் கையாளலாம்.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URLs கான கையாளுபவர்">
+								<longdesc>&quot;msnim&quot; URLs, செயல்படுத்தப்பட்டால் கட்டளையானது கையாள பயன்படுகிறது.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="குறிபிட்ட கட்டளை &quot;msnim&quot; URLsஐ கையாள வேண்டுமா">
+								<longdesc>சரியென்றால் &quot;command&quot; விசையில் குறிப்பிடப்பட்ட கட்டளை &quot;msnim&quot; URLs இல் கையாளப்பட வேண்டும்.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ஒரு முனையில் கட்டளையை இயக்கு">
+								<longdesc>சரியென்றால் கட்டளையானது இந்த வகையான URLஐ ஒரு முனையில் கையாளலாம்.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URLs கான கையாளுபவர்">
+								<longdesc>&quot;irc&quot; URLs, செயல்படுத்தப்பட்டால் கட்டளையானது கையாள பயன்படுகிறது.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="குறிப்பிட்ட கட்டளை &quot;irc&quot; URLsஐ கையாள வேண்டுமா">
+								<longdesc>சரியென்றால் &quot;command&quot; விசையில் குறிப்பிடப்பட்ட கட்டளை &quot;irc&quot; URLs இல் கையாளப்பட வேண்டும்.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ஒரு முனையில் கட்டளையை இயக்கு">
+								<longdesc>சரியென்றால் கட்டளையானது இந்த வகையான URLஐ ஒரு முனையில் கையாளலாம்.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URLs கான கையாளுபவர்">
+								<longdesc>&quot;icq&quot; URLs, செயல்படுத்தப்பட்டால் கட்டளையானது கையாள பயன்படுகிறது.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="குறிப்பிட்ட கட்டளை &quot;icq&quot; URLsஐ கையாள வேண்டுமா">
+								<longdesc>சரியென்றால் &quot;command&quot; விசையில் குறிப்பிடப்பட்ட கட்டளை &quot;icq&quot; URLs இல் கையாளப்பட வேண்டும்.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ஒரு முனையில் கட்டளையை இயக்கு">
+								<longdesc>சரியென்றால் கட்டளையானது இந்த வகையான URLஐ ஒரு முனையில் கையாளலாம்.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URLs கான கையாளுபவர்">
+								<longdesc>&quot;gg&quot; URLs, செயல்படுத்தப்பட்டால் கட்டளையானது கையாள பயன்படுகிறது.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="குறிப்பிட்ட கட்டளை &quot;gg&quot; URLsஐ கையாள வேண்டுமா">
+								<longdesc>சரியென்றால் &quot;command&quot; விசையில் குறிப்பிடப்பட்ட கட்டளை &quot;gg&quot; URLs இல் கையாளப்பட வேண்டும்.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ஒரு முனையில் கட்டளையை இயக்கு">
+								<longdesc>சரியென்றால் கட்டளையானது இந்த வகையான URLஐ ஒரு முனையில் கையாளலாம்.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URLs கான கையாளுபவர்">
+								<longdesc>&quot;aim&quot; URLs, செயல்படுத்தப்பட்டால் கட்டளையானது கையாள பயன்படுகிறது.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="குறிப்பிட்ட கட்டளை &quot;aim&quot; URLsஐ கையாள வேண்டுமா">
+								<longdesc>சரியென்றால் &quot;command&quot; விசையில் குறிப்படப்பட்ட கட்டளை &quot;aim&quot; URLs இல் கையாளப்பட வேண்டும்.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

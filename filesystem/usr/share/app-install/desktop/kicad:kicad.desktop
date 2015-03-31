@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kicad
+X-AppInstall-Popcon=144
+X-AppInstall-Section=universe
+
+Categories=Development;Electronics
+Comment=Design a printed circuit board
+Exec=kicad
+GenericName=EDA Suite
+Icon=kicad
+MimeType=application/x-kicad-project;
+Name=KiCad
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

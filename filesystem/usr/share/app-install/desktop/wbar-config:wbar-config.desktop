@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=wbar-config
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=Wbar-config
+Type=Application
+Exec=/usr/bin/wbar-config
+Terminal=false
+Icon=_usr_share_pixmaps_wbar_wbar
+Comment=GUI tool to configure Wbar
+Categories=Utility;
+Keywords=gtk;launcher;lightweight;simple;settings;bar;administration;
+
+X-Ubuntu-Gettext-Domain=app-install-data

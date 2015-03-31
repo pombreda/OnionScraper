@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Name=UbuntuStudio IRC
+Comment=UbuntuStudio's IRC support channel
+Type=Application
+StartupNotify=false
+Terminal=false
+Keywords=Info;Information;Irc;Ubuntustudio;
+Exec=xdg-open irc://irc.freenode.net/#ubuntustudio
+Icon=ubuntustudio-logo
+
+X-Ubuntu-Gettext-Domain=app-install-data

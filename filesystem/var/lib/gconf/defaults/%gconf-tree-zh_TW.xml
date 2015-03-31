@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在終端機執行指令">
+								<longdesc>如數值為「真」，則表示處理這種網址的指令須在終端機執行。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="處理「ymsgr」網址的指令">
+								<longdesc>處理「ymsgr」網址的指令（如有啟用）</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指令是否應處理「ymsgr」網址">
+								<longdesc>如數值為「真」，則表示「command」欄的指令應處理「ymsgr」網址。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在終端機執行指令">
+								<longdesc>如數值為「真」，則表示處理這種網址的指令須在終端機執行。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="處理「xmpp」網址的指令">
+								<longdesc>處理「xmpp」網址的指令（如有啟用）</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指令是否應處理「xmpp」網址">
+								<longdesc>如數值為「真」，則表示「command」欄的指令應處理「xmpp」網址。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在終端機執行指令">
+								<longdesc>如數值為「真」，則表示處理這種網址的指令須在終端機執行。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="處理「sip」網址的指令">
+								<longdesc>處理「sip」網址的指令（如有啟用）</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指令是否應處理「sip」網址">
+								<longdesc>如數值為「真」，則表示「command」欄的指令應處理「sip」網址。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在終端機執行指令">
+								<longdesc>如數值為「真」，則表示處理這種網址的指令須在終端機執行。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="處理「msnim」網址的指令">
+								<longdesc>處理「msnim」網址的指令（如有啟用）</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指令是否應處理「msnim」網址">
+								<longdesc>如數值為「真」，則表示「command」欄的指令應處理「msnim」網址。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在終端機執行指令">
+								<longdesc>如數值為「真」，則表示處理這種網址的指令須在終端機執行。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="處理「irc」網址的指令">
+								<longdesc>處理「irc」網址的指令（如有啟用）</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指令是否應處理「irc」網址">
+								<longdesc>如數值為「真」，則表示「command」欄的指令應處理「irc」網址。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在終端機執行指令">
+								<longdesc>如數值為「真」，則表示處理這種網址的指令須在終端機執行。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="處理「icq」網址的指令">
+								<longdesc>處理「icq」網址的指令（如有啟用）</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指令是否應處理「icq」網址">
+								<longdesc>如數值為「真」，則表示「command」欄的指令應處理「icq」網址。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在終端機執行指令">
+								<longdesc>如數值為「真」，則表示處理這種網址的指令須在終端機執行。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="處理「gg」網址的指令">
+								<longdesc>處理「gg」網址的指令（如有啟用）</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指令是否應處理「gg」網址">
+								<longdesc>如數值為「真」，則表示「command」欄的指令應處理「gg」網址。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="在終端機執行指令">
+								<longdesc>如數值為「真」，則表示處理這種網址的指令須在終端機執行。</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="處理「aim」網址的指令">
+								<longdesc>處理「aim」網址的指令（如有啟用）</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="指令是否應處理「aim」網址">
+								<longdesc>如數值為「真」，則表示「command」欄的指令應處理「aim」網址。</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

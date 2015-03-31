@@ -1,0 +1,24 @@
+[Desktop Entry]
+X-AppInstall-Package=gallery-app
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Gallery
+GenericName=Ubuntu Photo Viewer
+Comment=Browse your photographs
+Keywords=Photographs;Pictures;Albums
+Exec=gallery-app %u
+Icon=gallery-app
+StartupNotify=true
+Terminal=false
+Type=Application
+MimeType=image/jpg;image/jpeg;
+Categories=Graphics;Photography;RasterGraphics;Viewer;
+X-Ayatana-Appmenu-Show-Stubs=false
+X-Ubuntu-Touch=true
+X-Ubuntu-Single-Instance=true
+X-Ubuntu-Default-Department-ID=accessories
+X-Ubuntu-Splash-Show-Header=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

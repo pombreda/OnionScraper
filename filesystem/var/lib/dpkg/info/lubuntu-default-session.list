@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/lightdm
+/usr/share/lightdm/lightdm.conf.d
+/usr/share/lightdm/lightdm.conf.d/20-lubuntu.conf
+/usr/share/doc
+/usr/share/doc/lubuntu-default-session
+/usr/share/doc/lubuntu-default-session/copyright
+/usr/share/doc/lubuntu-default-session/changelog.gz

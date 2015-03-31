@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-webapps-gmail
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Gmail
+Type=Application
+Icon=unity-webapps-gmail
+MimeType=
+Actions=S0;S1;S2;S3;S4;S5;S6;S7;S8;S9;S10;
+Exec=unity-webapps-runner -n 'R21haWw=' -d 'mail.google.com' --store-session-cookies %u
+StartupWMClass=Gmailmailgooglecom
+    
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="आदेश टर्मिनल मध्ये चालवा">
+								<longdesc>या प्रकारचे URL हाताळण्या करीता टर्मिनल वर आदेश आढळत असल्यास खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URLs साठी हाताळक">
+								<longdesc>जर सक्षम असेल, तर   &quot;ymsgr&quot; URLs ना हाताळण्यासाठी वापरलेले आदेश.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्देशित केलेल्या आदेशाने &quot;ymsgr&quot; URLsला हाताळायले हवे किंवा नाही">
+								<longdesc>जर  &quot;आदेश&quot; कि मध्ये निर्देशित केलेल्या आदेशाने   URLs ची &quot;ymsgr&quot;   हाताळायले पाहिजे असेल तर खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="आदेश टर्मिनल मध्ये चालवा">
+								<longdesc>या प्रकारचे URL हाताळण्या करीता टर्मिनल वर आदेश आढळत असल्यास खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URLs साठी हाताळक">
+								<longdesc>जर सक्षम असेल, तर  &quot;xmpp&quot; URLs ना हाताळण्यासाठी वापरलेले आदेश.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्देशित केलेल्या आदेशाने  &quot;xmpp&quot; URLsला हाताळायले हवे किंवा नाही">
+								<longdesc>जर  &quot;आदेश&quot; कि मध्ये निर्देशित केलेल्या आदेशाने   URLs ची  &quot;xmpp&quot; हाताळायले पाहिजे असेल तर खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="आदेश टर्मिनल मध्ये चालवा">
+								<longdesc>या प्रकारचे URL हाताळण्या करीता टर्मिनल वर आदेश आढळत असल्यास खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URLs साठी हाताळक">
+								<longdesc>जर सक्षम असेल, तर  &quot;sip&quot; URLs ना हाताळण्यासाठी वापरलेले आदेश.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्देशित केलेल्या आदेशाने  &quot;sip&quot; URLsला हाताळायले हवे किंवा नाही">
+								<longdesc>जर  &quot;आदेश&quot; कि मध्ये निर्देशित केलेल्या आदेशाने   URLs ची&quot;sip&quot;   हाताळायले पाहिजे असेल तर खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="आदेश टर्मिनल मध्ये चालवा">
+								<longdesc>या प्रकारचे URL हाताळण्या करीता टर्मिनल वर आदेश आढळत असल्यास खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URLs साठी हाताळक">
+								<longdesc>जर सक्षम असेल, तर &quot;msnim&quot; URLs ना हाताळण्यासाठी वापरलेले आदेश.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्देशित केलेल्या आदेशाने  &quot;msnim&quot; URLsला हाताळायले हवे किंवा नाही">
+								<longdesc>जर  &quot;आदेश&quot; कि मध्ये निर्देशित केलेल्या आदेशाने   URLs ची &quot;msnim&quot;   हाताळायले पाहिजे असेल तर खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="आदेश टर्मिनल मध्ये चालवा">
+								<longdesc>या प्रकारचे URL हाताळण्या करीता टर्मिनल वर आदेश आढळत असल्यास खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URLs साठी हाताळक">
+								<longdesc>जर सक्षम असेल, तर &quot;irc&quot; URLs ना हाताळण्यासाठी वापरलेले आदेश.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्देशित केलेल्या आदेशाने &quot;irc&quot; URLsला हाताळायला हवे किंवा नाही">
+								<longdesc> जर  &quot;आदेश&quot; कि मध्ये निर्देशित केलेल्या आदेशाने   URLs ची &quot;irc&quot;  हाताळायले पाहिजे असेल तर खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="आदेश टर्मिनल मध्ये चालवा">
+								<longdesc>या प्रकारचे URL हाताळण्या करीता टर्मिनल वर आदेश आढळत असल्यास खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc=" &quot;icq&quot; URLs साठी हाताळक">
+								<longdesc>जर सक्षम असेल, तर &quot;icq&quot; URLs ना हाताळण्यासाठी वापरलेले आदेश.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्देशित केलेल्या आदेशाने &quot;icq&quot; URLsला हाताळायला हवे किंवा नाही">
+								<longdesc>जर  &quot;आदेश&quot; कि मध्ये निर्देशित केलेल्या आदेशाने   URLs ची &quot;icq&quot;  हाताळायले पाहिजे असेल तर खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="आदेश टर्मिनल मध्ये चालवा">
+								<longdesc>या प्रकारचे URL हाताळण्या करीता टर्मिनल वर आदेश आढळत असल्यास खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="  &quot;gg&quot; URLs साठी हाताळक">
+								<longdesc>जर सक्षम असेल, तर  &quot;gg&quot; URLs ना हाताळण्यासाठी वापरलेले आदेश.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="निर्देशित केलेल्या आदेशाने  &quot;gg&quot; URLsला हाताळायला हवे किंवा नाही">
+								<longdesc>जर  &quot;आदेश&quot; कि मध्ये निर्देशित केलेल्या आदेशाने   URLs ची &quot;gg&quot; हाताळायले पाहिजे असेल तर खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="आदेश टर्मिनल मध्ये चालवा">
+								<longdesc>या प्रकारचे URL हाताळण्या करीता टर्मिनल वर आदेश आढळत असल्यास खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URL करीता हॅन्डलर">
+								<longdesc>&quot;aim&quot; URL हातालण्यासाठी असणारी आज्ञावली, जर कार्यरत असेल तर.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="सूचित आदेशने &quot;aim&quot; URL हाताळावे की नाही">
+								<longdesc>&quot;command&quot; मध्ये वर्णित आज्ञावली &quot;aim&quot; URL ला सूचित करीत असल्यास खरे आहे.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

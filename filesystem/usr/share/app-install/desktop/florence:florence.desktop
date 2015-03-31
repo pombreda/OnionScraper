@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=florence
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=Florence Virtual Keyboard
+Comment=Florence Virtual Keyboard
+Exec=florence
+Terminal=false
+Type=Application
+Icon=_usr_share_pixmaps_florence
+Categories=Application;Accessibility;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

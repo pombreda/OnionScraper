@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=camera-app
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Camera
+Comment=Camera application
+GenericName=Camera
+Keywords=Photos;Videos;Capture;Shoot;Snapshot;Record
+Exec=camera-app %u
+Terminal=false
+Icon=camera-app
+X-Ubuntu-Touch=true
+X-Ubuntu-Single-Instance=true
+X-Ubuntu-Default-Department-ID=accessories
+
+X-Ubuntu-Gettext-Domain=app-install-data

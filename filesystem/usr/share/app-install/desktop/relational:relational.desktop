@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=relational
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=Relational
+GenericName=Relational Algebra
+Comment=Learn and experiment relational algebra
+Exec=relational
+Icon=kexi
+Terminal=0
+Type=Application
+Categories=Education;
+Keywords=database;relational;algebra;educational;learn;educativo;relazionale;impara
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-webapps-qml-examples
+X-AppInstall-Popcon=0
+X-AppInstall-Section=main
+
+Name=FacebookMessengerWebappsQMLExample
+Type=Application
+Exec=/usr/bin/unity-webapps-qml-launcher --qml=/usr/share/unity-webapps-qml/examples/unity-webapps-example-facebookmessenger/main.qml --app-id=unity-webapps-qml-facebookmessenger-example
+Path=/usr/share/unity-webapps-qml/examples/unity-webapps-example-facebookmessenger
+GenericName=FacebookMessenger WebBrowser Container Example
+Icon=qmlscene
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

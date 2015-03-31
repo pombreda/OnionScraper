@@ -1,0 +1,15 @@
+/.
+/lib
+/lib/plymouth
+/lib/plymouth/themes
+/lib/plymouth/themes/ubuntu-text
+/lib/plymouth/themes/ubuntu-text/ubuntu-text.plymouth.in
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/plymouth
+/lib/x86_64-linux-gnu/plymouth/ubuntu-text.so
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/plymouth-theme-ubuntu-text
+/usr/share/doc/plymouth-theme-ubuntu-text/copyright
+/usr/share/doc/plymouth-theme-ubuntu-text/changelog.Debian.gz

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kmines
+X-AppInstall-Popcon=121
+X-AppInstall-Section=universe
+
+Name=KMines
+Icon=kmines
+Exec=kmines -caption %c
+Type=Application
+X-DocPath=kmines/index.html
+GenericName=Minesweeper-like Game
+X-KDE-StartupNotify=true
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Game;StrategyGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

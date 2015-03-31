@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=viking
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Viking
+GenericName=GPS Data Manager
+Comment=Map Based GPS Data Manager (live data capable).
+Exec=viking %F
+Icon=viking
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Science;Maps;Geography;
+MimeType=application/vnd.google-earth.kml+xml;application/gpx+xml;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=intone
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=Intone
+GenericName=Music Player
+Comment=Simple music player for mobile devices
+Exec=intone
+Icon=intone
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;Player;
+
+X-Ubuntu-Gettext-Domain=app-install-data

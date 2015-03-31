@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=fs-uae
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Name=FS-UAE
+Comment=FS-UAE Amiga Emulator
+TryExec=fs-uae
+Exec=fs-uae %f
+StartupNotify=true
+Terminal=false
+Type=Application
+Icon=fs-uae
+Categories=System;Emulator;
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

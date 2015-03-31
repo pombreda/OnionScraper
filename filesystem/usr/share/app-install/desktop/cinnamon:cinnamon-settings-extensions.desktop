@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Icon=cs-extensions
+Exec=cinnamon-settings extensions
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Extensions
+Comment=Manage your Cinnamon extensions
+
+X-Ubuntu-Gettext-Domain=app-install-data

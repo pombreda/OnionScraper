@@ -1,0 +1,48 @@
+[Desktop Entry]
+X-AppInstall-Package=razorqt-power
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=razor-power
+Icon=system-shutdown
+Terminal=false
+OnlyShowIn=X-RAZOR;
+Categories=Qt;System;X-RAZOR;
+Name=Leave
+GenericName=Leave the system
+
+Icon[it_IT]=system-shutdown
+Icon[eu]=sistema-itzali
+Icon[sl]=system-shutdown
+Icon[ru]=system-shutdown
+Icon[cs_CZ]=Vypnutí systému
+Icon[uk]=system-shutdown
+Icon[pt_BR]=system-shutdown
+Icon[es]=system-shutdown
+Icon[th_TH]=ปิดเครื่อง
+Icon[da_DK]=system-shutdown
+Icon[de_DE]=System herunterfahren
+Icon[da]=system-shutdown
+Icon[eo]=sistem-elŝalto
+Icon[cs]=Vypnutí systému
+Icon[es_MX]=system-shutdown
+Icon[id_ID]=system-shutdown
+Icon[fr]=system-shutdown
+Icon[es_VE]=system-shutdown
+Icon[el_GR]=system-shutdown
+Icon[he]=system-shutdown
+Icon[lt]=system-shutdown
+Icon[zh_TW]=關閉系統
+Icon[gl]=apagado-sistema
+Icon[ja]=シャットダウン
+Icon[pt]=system-shutdown
+Icon[zh_CN]=系统关闭
+Icon[pl_PL]=system-shutdown
+Icon[tr]=system-shutdown
+Icon[nl]=Systeem-afsluiten
+Icon[ro_RO]=system-shutdown
+Icon[fi]=järjestelmä-sammutus
+Icon[ar]=إطفاء النِّظام
+
+X-Ubuntu-Gettext-Domain=app-install-data

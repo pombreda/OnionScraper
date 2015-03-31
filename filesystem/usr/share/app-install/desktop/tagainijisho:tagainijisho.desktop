@@ -1,0 +1,37 @@
+[Desktop Entry]
+X-AppInstall-Package=tagainijisho
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Name=Tagaini Jisho
+GenericName=Japanese dictionary and study assistant
+Comment=A free Japanese dictionary and study assistant
+Exec=tagainijisho
+Icon=tagainijisho
+Terminal=false
+Categories=Languages;Education;Qt;
+
+
+# Translations
+
+
+# Translations
+Icon[de]=tagainijisho
+Icon[ar]=tagainijisho
+Icon[pl]=tagainijisho
+Icon[id]=KamusTagaini
+Icon[fr]=tagainijisho
+Icon[it]=tagainijisho
+Icon[cs]=tagainijisho
+Icon[fi_FI]=tagainijisho
+Icon[sv]=tagainijisho
+Icon[ru]=tagainijisho
+Icon[fa_IR]=تااگااینی‌جیشو
+Icon[tr]=tagainijisho
+Icon[es]=tagainijisho
+Icon[vi]=tagainijisho
+Icon[nb]=tagainijisho
+
+X-Ubuntu-Gettext-Domain=app-install-data

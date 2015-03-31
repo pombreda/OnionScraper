@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=unknown-horizons
+X-AppInstall-Popcon=20
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Unknown Horizons
+Comment=A 2D real time strategy simulation with an emphasis on economy and city building
+Icon=unknown-horizons
+Exec=unknown-horizons
+Terminal=false
+Categories=Game;StrategyGame;Simulation;
+
+X-Ubuntu-Gettext-Domain=app-install-data

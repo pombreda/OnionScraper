@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=androidsdk-ddms
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Dalvik Debug Monitor
+Icon=ddms
+Exec=ddms
+Terminal=false
+Categories=Development;Debugger;
+
+X-Ubuntu-Gettext-Domain=app-install-data

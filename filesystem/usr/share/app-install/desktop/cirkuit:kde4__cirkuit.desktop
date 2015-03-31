@@ -1,0 +1,17 @@
+# KDE Config File
+[Desktop Entry]
+X-AppInstall-Package=cirkuit
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=Cirkuit
+GenericName=Circuit drawer
+Comment=A program to draw circuits and diagrams
+Type=Application
+Exec=cirkuit
+Icon=cirkuit
+Terminal=false
+MimeType=application/x-cirkuit;
+Categories=Qt;KDE;Graphics;VectorGraphics;Science;
+
+X-Ubuntu-Gettext-Domain=app-install-data

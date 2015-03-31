@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;ymsgr&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;ymsgr&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;ymsgr&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;xmpp&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;xmpp&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;xmpp&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;sip&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;sip&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;sip&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;msnim&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;msnim&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;msnim&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;irc&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;irc&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;irc&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;icq&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;icq&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;icq&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URLs కోసం హ్యాండిల్ చేసేది">
+								<longdesc>URLs సాధ్యమైతే, &quot;gg&quot; హ్యాండిల్ చేయడానికి ఉపయోగించే కమాండ్.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="నిర్దిష్ట కమాండ్ &quot;gg&quot; URLs ను హ్యాండిల్ చేయాలా">
+								<longdesc>&quot;command&quot; కీలో నిర్దేశించిన కమాండ్ &quot;gg&quot; URLs ను హ్యాండిల్ చేసేది నిజమేనా.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ఒక అగ్రం లో ఆదేశం నడుపుము">
+								<longdesc>ఈ రకమైన URL ఉపయోగించుటకు ఆదేశం వాడుదురు ఒకవేళ నిజమైతే అగ్రంలో  నడుపవలెను.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;గురిచూచుటను&quot; ఉపయోగించుట కొరకు URLs">
+								<longdesc>&quot;గురిచూచు&quot; ఆదేశం వాడుటకు ఉపయోగించుటకు URLs, ఒకవేళ క్రియాశీలీకరించితే.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="&quot;గురిచూచు&quot; URLs అయినను నిర్థేశింపబడిన ఆదేశం ఉపయోగించవలెను">
+								<longdesc>&quot;ఆదేశం&quot; లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే &quot;గురి చూచు&quot; మీట ఉపయోగించవలెను URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

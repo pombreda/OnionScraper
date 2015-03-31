@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kritagemini
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+GenericName=Digital Painting
+Name=Krita Gemini
+Exec=kritagemini
+Icon=calligrakrita
+MimeType=application/x-krita;
+Categories=Qt;KDE;Graphics;
+
+X-Ubuntu-Gettext-Domain=app-install-data

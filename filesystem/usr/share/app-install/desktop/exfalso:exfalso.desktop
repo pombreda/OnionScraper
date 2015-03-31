@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=exfalso
+X-AppInstall-Popcon=168
+X-AppInstall-Section=universe
+
+Name=Ex Falso
+GenericName=Audio tag editor
+Comment=Edit tags in your audio files
+Exec=exfalso
+Terminal=false
+StartupNotify=true
+Type=Application
+Icon=exfalso
+Categories=AudioVideo;Audio;GTK;
+
+X-Ubuntu-Gettext-Domain=app-install-data

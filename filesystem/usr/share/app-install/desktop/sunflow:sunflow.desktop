@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=sunflow
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Sunflow
+Comment=Photorealistic Rendering Engine
+Exec=sunflow
+Icon=sunflow
+Categories=Graphics;3DGraphics
+Keywords=rendering,photo,realistic,image,synthesis,illumination,shading
+
+X-Ubuntu-Gettext-Domain=app-install-data

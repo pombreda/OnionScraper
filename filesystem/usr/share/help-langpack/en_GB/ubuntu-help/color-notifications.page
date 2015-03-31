@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="color-notifications" xml:lang="en-GB">
+
+  <info>
+    <credit type="author">
+      <name>Richard Hughes</name>
+      <email>richard@hughsie.com</email>
+    </credit>
+    <desc>You can be notified if your colour profile is old and inaccurate.</desc>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    <link type="guide" xref="color#problems"/>
+    <link type="seealso" xref="color-why-calibrate"/>
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+    <revision version="13.10" date="2013-10-24" status="review"/>
+  </info>
+
+  <title>Can I get notified when my colour profile is inaccurate?</title>
+  <p>Unfortunately we can't tell without recalibrating whether a device profile is accurate. We can use a simple metric of the amount of time since calibration to determine if a recalibrate is recommended.</p>
+  <p>Some companies have very specific timeout policies for profiles, as an inaccurate colour profile can make a huge difference to an end product.</p>
+  <p>If you set the timeout policy and a profile is older than the policy, a red warning triangle will be shown in the <guiseq><gui>System Settings</gui><gui>Device Colour Profiles</gui></guiseq> dialogue next to the profile. A warning notification will also be shown every time you log into your computer.</p>
+  <p>To set the policy for display and printer devices, you specify the maximum age of the profile in days:</p>
+
+<screen>
+<output style="prompt">[rupert@gnome] </output><input>gsettings set org.gnome.settings-daemon.plugins.color recalibrate-printer-threshold 180</input>
+<output style="prompt">[rupert@gnome] </output><input>gsettings set org.gnome.settings-daemon.plugins.color recalibrate-display-threshold 180</input>
+</screen>
+
+</page>

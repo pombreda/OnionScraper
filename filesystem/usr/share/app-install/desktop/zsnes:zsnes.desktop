@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=zsnes
+X-AppInstall-Popcon=122
+X-AppInstall-Section=universe
+
+Name=ZSNES
+Comment=Super Nintendo Entertainment System (TM) emulator
+Exec=zsnes %f
+Icon=zsnes
+Terminal=false
+Type=Application
+Categories=Game;Emulator;
+MimeType=application/x-snes-rom;
+Keywords=emulator;snes;nintendo;super nintendo;super famicom;
+
+X-Ubuntu-Gettext-Domain=app-install-data

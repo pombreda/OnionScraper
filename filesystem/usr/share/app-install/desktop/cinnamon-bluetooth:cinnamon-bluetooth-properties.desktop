@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon-bluetooth
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Icon=bluetooth
+Exec=cinnamon-settings bluetooth
+Terminal=false
+Type=Application
+Categories=GTK;Settings;X-Cinnamon-NetworkSettings;HardwareSettings;X-Cinnamon-Settings-Panel;
+OnlyShowIn=X-Cinnamon;
+StartupNotify=true
+X-Cinnamon-Settings-Panel=bluetooth
+Name=Bluetooth
+Comment=Configure Bluetooth settings
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

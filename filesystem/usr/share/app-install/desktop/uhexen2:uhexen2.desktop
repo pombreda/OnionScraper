@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=uhexen2
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+Name=Hexen 2
+Comment=Hexen II
+Exec=/usr/games/h2launcher
+Icon=hexen2
+Terminal=false
+Type=Application
+Categories=Game;ActionGame;
+Keywords=Game;ActionGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

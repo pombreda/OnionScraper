@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-control-center
+X-AppInstall-Popcon=167
+X-AppInstall-Section=universe
+
+Name=Control Center
+GenericName=The MATE configuration tool
+Icon=preferences-desktop
+Exec=mate-control-center
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;
+Keywords=MATE;control;center;configuration;tool;destop;preferences;
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

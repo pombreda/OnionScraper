@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=fusion-icon
+X-AppInstall-Popcon=313
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Compiz Fusion Icon
+Comment=Manage Compiz Fusion and switch between the available window managers
+Exec=fusion-icon --no-start
+Icon=fusion-icon
+Terminal=false
+Type=Application
+Categories=System;TrayIcon;
+
+X-Ubuntu-Gettext-Domain=app-install-data

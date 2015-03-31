@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=grass-core
+X-AppInstall-Popcon=135
+X-AppInstall-Section=universe
+
+Type=Application
+Encoding=UTF-8
+Name=GRASS GIS
+Comment=Geographic Information System
+Categories=Education;Science;Geoscience;Geography;
+Exec=grass64
+Icon=grass64
+Terminal=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=barrydesktop
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=Barry Desktop Panel
+Comment=Manage BlackBerry devices from a central GUI.
+Exec=barrydesktop
+Icon=barry_desktop_menu_icon
+Terminal=false
+Type=Application
+StartupWMClass=barrydesktop
+Categories=Utility;
+Keywords=BlackBerry;backup;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

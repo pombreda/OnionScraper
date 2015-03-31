@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-media-gstreamer
+X-AppInstall-Popcon=156
+X-AppInstall-Section=universe
+
+Name=MATE Volume Control
+GenericName=Volume Control
+Comment=Change sound volume and sound events
+Exec=mate-volume-control
+Icon=multimedia-volume-control
+StartupNotify=true
+X-Info=Mate Mixer
+Terminal=false
+Type=Application
+Categories=AudioVideo;Mixer;Settings;HardwareSettings;
+Keywords=MATE;volume;control;mixer;settings;sound;events;
+X-MATE-DocPath=gst-mixer/mate-volume-control.xml
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-media
+X-MATE-Bugzilla-Component=mate-volume-control
+X-MATE-Bugzilla-Version=1.8.0
+
+X-Ubuntu-Gettext-Domain=app-install-data

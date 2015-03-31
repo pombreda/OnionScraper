@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/linux-signed-image-3.16.0-23-generic
+/usr/share/doc/linux-signed-image-3.16.0-23-generic/copyright
+/usr/share/doc/linux-signed-image-3.16.0-23-generic/changelog.Debian.gz
+/usr/lib
+/usr/lib/linux
+/usr/lib/linux/vmlinuz-3.16.0-23-generic.efi.signature

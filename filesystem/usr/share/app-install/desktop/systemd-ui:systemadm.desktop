@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=systemd-ui
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=systemadm
+Comment=Manage Systemd Units
+Exec=systemadm
+Icon=applications-system
+Terminal=false
+Type=Application
+Categories=System;Settings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

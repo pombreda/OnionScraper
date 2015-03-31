@@ -1,0 +1,4 @@
+89cef3fe177d75ad410b52abdebd86ca  usr/lib/xorg/modules/drivers/trident_drv.so
+254ef36f954c6af44a4a9b9f678acdff  usr/share/doc/xserver-xorg-video-trident/changelog.Debian.gz
+415d8eebd2afcf7b393284e9e2e5c056  usr/share/doc/xserver-xorg-video-trident/copyright
+68532fb891626d99dd056339de03bbf9  usr/share/man/man4/trident.4.gz

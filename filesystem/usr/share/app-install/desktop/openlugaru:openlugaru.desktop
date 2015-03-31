@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=openlugaru
+X-AppInstall-Popcon=7
+X-AppInstall-Section=multiverse
+
+Version=1.0
+Name=OpenLugaru
+GenericName=Third-person action game
+Comment=Single-player game featuring rabbits
+Exec=/usr/games/openlugaru
+Icon=openlugaru
+Terminal=false
+Type=Application
+Categories=Game;ActionGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=delaboratory
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Version=1.0
+Name=delaboratory
+GenericName=Delaboratory - color utility
+Comment=enhance color and contrast
+
+Type=Application
+Categories=Graphics;Photography;
+
+Exec=delaboratory %F
+
+Terminal=false
+StartupNotify=true
+
+MimeType=application/xdelaboratory;image/x-dcraw;image/jpeg;image/tiff;
+Icon=delaboratory
+X-Ubuntu-Gettext-Domain=app-install-data

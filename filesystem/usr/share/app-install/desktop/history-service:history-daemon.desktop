@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=history-service
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Name=History Service Daemon
+Comment=Listens for calls and messages and stores them.
+Icon=history-daemon
+Exec=history-daemon
+Terminal=false
+Type=Application
+NoDisplay=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

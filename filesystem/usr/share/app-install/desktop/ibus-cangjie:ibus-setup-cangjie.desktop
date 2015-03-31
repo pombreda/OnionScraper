@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=ibus-cangjie
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+# The title of the preferences window for Cangjie
+Name=Cangjie Preferences
+# Tooltip for the preferences app for Cangjie
+Comment=Set preferences for the Cangjie input method
+Exec=/usr/bin/ibus-setup-cangjie cangjie
+Icon=ibus-setup-cangjie
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Settings;
+NotShowIn=GNOME;
+
+X-Ubuntu-Gettext-Domain=app-install-data

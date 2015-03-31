@@ -1,0 +1,52 @@
+[Desktop Entry]
+X-AppInstall-Package=razorqt-config
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+X-SuSE-translate=true
+OnlyShowIn=X-RAZOR;
+Type=Application
+Exec=razor-config-appearance
+Terminal=false
+Categories=Settings;DesktopSettings;Qt;X-RAZOR;
+Icon=preferences-desktop-theme
+Name=Razor Appearance Configuration
+Comment=Configure appearance of Razor desktop
+GenericName=Razor Appearance Configuration
+
+Icon[es_VE]=preferences-desktop-theme
+Icon[ia]=preferences-desktop-theme
+Icon[es_MX]=preferences-desktop-theme
+Icon[uk]=preferences-desktop-theme
+Icon[eo]=preferences-desktop-theme
+Icon[th_TH]=ค่าปรับแต่ง-โต๊ะงาน-ชุดตกแต่ง
+Icon[it_IT]=preferences-desktop-theme
+Icon[ja]=設定-デスクトップ-テーマ
+Icon[da_DK]=Indstilling af skrivebordstema
+Icon[fi]=asetukset-työpöytä-teema
+Icon[da]=indstillinger-skrivebords-tema
+Icon[nl]=voorkeuren-bureaublad-thema
+Icon[lt]=preferences-desktop-theme
+Icon[es]=preferences-desktop-theme
+Icon[tr]=preferences-desktop-theme
+Icon[pt]=preferences-desktop-theme
+Icon[ru]=настройки темы рабочего стола
+Icon[pl_PL]=preferences-desktop-theme
+Icon[ro_RO]=preferences-desktop-theme
+Icon[eu]=hobespenak-mahaigaina-gaia
+Icon[he]=preferences-desktop-theme
+Icon[ar]=تفضيلات سمة سطح المكتب
+Icon[zh_TW]=偏好的桌面主題
+Icon[pt_BR]=preferences-desktop-theme
+Icon[de]=preferences-desktop-theme
+Icon[cs]=Nastavení vzhledu pracovní plochy
+Icon[sl]=preferences-desktop-theme
+Icon[de_DE]=Einstellungen-Desktop-Thema
+Icon[cs_CZ]=Nastavení vzhledu pracovní plochy
+Icon[el_GR]=προτιμήσεις θέματος επιφάνειας εργασίας
+Icon[zh_CN]=桌面主题首选项
+Icon[gl]=preferencias-tema-escritorio
+Icon[fr]=preferences-desktop-theme
+Icon[hu]=preferences-desktop-theme
+
+X-Ubuntu-Gettext-Domain=app-install-data

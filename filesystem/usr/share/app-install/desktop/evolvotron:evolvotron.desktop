@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=evolvotron
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Type=Application
+Version=0.4.0
+Name=Evolvotron
+Exec=evolvotron
+Terminal=false
+Categories=Graphics;2DGraphics;
+Comment=Interactive image generator
+Keywords=art;evolution;generate;generative;texture;random;mutation;genetic
+
+X-Ubuntu-Gettext-Domain=app-install-data

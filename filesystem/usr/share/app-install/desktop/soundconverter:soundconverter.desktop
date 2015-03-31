@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=soundconverter
+X-AppInstall-Popcon=898
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Sound Converter
+GenericName=Audio Format Converter
+Comment=Converts audio files into other formats
+Icon=soundconverter
+MimeType=application/x-ogg;application/ogg;audio/x-mp3;audio/x-scpls;audio/x-mpeg;audio/mpeg;audio/x-mpegurl;application/x-flac;audio/x-wav;audio/flac;
+Exec=soundconverter %U
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;AudioVideo;Audio;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

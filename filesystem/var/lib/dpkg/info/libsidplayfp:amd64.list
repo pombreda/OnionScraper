@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libstilview.so.0.0.1
+/usr/lib/x86_64-linux-gnu/libsidplayfp.so.3.0.11
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsidplayfp
+/usr/share/doc/libsidplayfp/changelog.Debian.gz
+/usr/share/doc/libsidplayfp/copyright
+/usr/lib/x86_64-linux-gnu/libsidplayfp.so.3
+/usr/lib/x86_64-linux-gnu/libstilview.so.0

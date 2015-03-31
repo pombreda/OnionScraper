@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=simon
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+Name=SSC
+Exec=ssc %i -caption %c
+Icon=ssc
+Type=Application
+X-DocPath=ssc/index.html
+GenericName=Simon sample collector
+Terminal=false
+Categories=Qt;KDE;Utility;Accessibility;
+X-KDE-StartupNotify=false
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

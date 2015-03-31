@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=mrtrix
+X-AppInstall-Popcon=10
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+GenericName=MRI Tractography View
+Name=MRview
+Exec=mrview %F
+TryExec=mrview
+Type=Application
+Terminal=false
+Categories=Education;Graphics;Science;DataVisualization;MedicalSoftware;GTK;Viewer;
+Icon=_usr_share_pixmaps_mrtrix
+
+X-Ubuntu-Gettext-Domain=app-install-data

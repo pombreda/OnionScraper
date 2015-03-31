@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=knode
+X-AppInstall-Popcon=128
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=knode -caption %c
+Icon=knode
+Terminal=false
+X-DocPath=knode/index.html
+Name=KNode
+GenericName=News Reader
+MimeType=x-scheme-handler/news;
+X-KDE-StartupNotify=true
+X-DBUS-StartupType=Unique
+Categories=Qt;KDE;Network;News;
+
+X-Ubuntu-Gettext-Domain=app-install-data

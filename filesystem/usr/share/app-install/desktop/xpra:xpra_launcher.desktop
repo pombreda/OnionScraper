@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=xpra
+X-AppInstall-Popcon=63
+X-AppInstall-Section=universe
+
+Name=Xpra Launcher
+Comment=Connect to an Xpra session
+TryExec=xpra_launcher
+Exec=xpra_launcher
+Icon=xpra
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=Network;
+MimeType=text/x-xpraconfig;
+
+X-Ubuntu-Gettext-Domain=app-install-data

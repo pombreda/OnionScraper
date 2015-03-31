@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=mysql-workbench
+X-AppInstall-Popcon=999
+X-AppInstall-Section=universe
+
+Name=MySQL Workbench
+Comment=MySQL Database Design, Administration and Development Tool
+Exec=mysql-workbench
+Terminal=false
+Type=Application
+Icon=mysql-workbench
+MimeType=application/vnd.mysql-workbench-model;
+Categories=GTK;Database;Development;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Icon=cs-workspaces
+Exec=cinnamon-settings workspaces
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Workspaces
+Comment=Manage workspace preferences
+
+X-Ubuntu-Gettext-Domain=app-install-data

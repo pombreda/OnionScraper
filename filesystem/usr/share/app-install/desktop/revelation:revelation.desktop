@@ -1,0 +1,26 @@
+[Desktop Entry]
+X-AppInstall-Package=revelation
+X-AppInstall-Popcon=161
+X-AppInstall-Section=universe
+
+Name=Revelation
+GenericName=Password Manager
+Comment=Organize and secure your passwords
+X-GNOME-FullName=Revelation Password Manager
+X-GNOME-FullName[ca]=Revelation Gestor de Contrasenyes
+X-GNOME-FullName[de]=Revelation Password-Manager
+X-GNOME-FullName[es]=Revelation gestor de contraseñas
+X-GNOME-FullName[eu]=Revelation pasahitz kudeatzailea
+X-GNOME-FullName[nl]=Revelation Wachtwoord Beheersysteem
+X-GNOME-FullName[pt_BR]=Gestor de Senhas Revelation
+X-GNOME-FullName[ru]=Менеджер паролей Revelation
+Exec=revelation
+Icon=revelation
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+StartupNotify=true
+MimeType=application/x-revelation;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

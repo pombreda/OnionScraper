@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=visualvm
+X-AppInstall-Popcon=105
+X-AppInstall-Section=universe
+
+Name=VisualVM
+Comment=All-in-One Java Troubleshooting Tool
+Keywords=java;jvm;profiler;monitoring
+Exec=/usr/bin/visualvm
+Icon=visualvm
+Categories=Development;Java;
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

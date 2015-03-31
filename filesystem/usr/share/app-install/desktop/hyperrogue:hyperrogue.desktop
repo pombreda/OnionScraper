@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=hyperrogue
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=HyperRogue
+Comment=A non-euclidean graphical rogue-like game
+Exec=/usr/games/hyper
+Icon=hyperrogue
+Type=Application
+Categories=Game;RolePlaying;
+Keywords=hyperbolic;escher;noneuclidean;
+
+X-Ubuntu-Gettext-Domain=app-install-data

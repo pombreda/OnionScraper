@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=simon
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+Name=Afaras
+Exec=afaras %i -caption %c
+Icon=afaras
+Type=Application
+X-DocPath=afaras/index.html
+GenericName=Find and remove bad samples
+Terminal=false
+Categories=Qt;KDE;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

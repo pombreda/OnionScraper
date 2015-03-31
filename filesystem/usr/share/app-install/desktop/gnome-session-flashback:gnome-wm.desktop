@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-session-flashback
+X-AppInstall-Popcon=336
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Window Manager
+Exec=gnome-wm
+NoDisplay=true
+X-GNOME-Autostart-Phase=WindowManager
+X-GNOME-Provides=windowmanager
+X-GNOME-Autostart-Notify=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

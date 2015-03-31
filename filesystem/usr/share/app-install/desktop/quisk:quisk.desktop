@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=quisk
+X-AppInstall-Popcon=10
+X-AppInstall-Section=universe
+
+Name=Quisk
+GenericName=Software Defined Radio Application
+Comment=Audio IQ signal intermediate frequency receiver
+Exec=quisk
+Icon=quisk
+Terminal=false
+Type=Application
+Categories=Utility;HamRadio;Tuner
+
+X-Ubuntu-Gettext-Domain=app-install-data

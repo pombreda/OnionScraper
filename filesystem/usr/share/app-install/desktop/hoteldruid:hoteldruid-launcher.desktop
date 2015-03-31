@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=hoteldruid
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Categories=Application;Office;
+Comment=Manage the reservations for your hotel, hostel or B&B
+Exec=hoteldruid-launcher
+GenericName=Hotel Management
+Icon=hoteldruid
+MimeType=
+Name=HotelDruid
+Path=
+StartupNotify=true
+Terminal=false
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+X-MultipleArgs=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

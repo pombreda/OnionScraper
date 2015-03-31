@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=freedink-engine
+X-AppInstall-Popcon=14
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=FreeDink
+Comment=Humorous top-down adventure & role-playing game
+Exec=freedink
+Icon=freedink
+Categories=Game;AdventureGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

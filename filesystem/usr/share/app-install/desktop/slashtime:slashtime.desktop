@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=slashtime
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Slashtime
+GenericName="Time Zones"
+Comment=View the time at locations around the world
+Categories=GNOME;GTK;Utility;
+Path=/usr
+Exec=/usr/bin/slashtime
+Icon=slashtime
+
+X-Ubuntu-Gettext-Domain=app-install-data

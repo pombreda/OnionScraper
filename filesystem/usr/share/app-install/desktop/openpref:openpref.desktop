@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=openpref
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=Openpref
+GenericName=Card game of preferans
+Comment=Single player variant of Preferans
+Exec=openpref
+Icon=openpref
+Terminal=false
+Type=Application
+Categories=Qt;Game;CardGame;
+Keywords=Game;CardGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

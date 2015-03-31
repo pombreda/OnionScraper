@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=pegsolitaire
+X-AppInstall-Popcon=11
+X-AppInstall-Section=universe
+
+Name=Peg Solitaire
+GenericName=pegsolitaire
+Comment=Play an educational puzzle game similar to Hi-Q
+Type=Application
+Exec=pegsolitaire
+Icon=peg
+Terminal=false
+Categories=Game;LogicGame;
+Keywords=solitaire;peg;puzzle;logic;board;
+
+X-Ubuntu-Gettext-Domain=app-install-data

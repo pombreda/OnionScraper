@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=secpanel
+X-AppInstall-Popcon=33
+X-AppInstall-Section=universe
+
+Type=Application
+Name=SecPanel
+Exec=secpanel
+Icon=secpanel
+Terminal=false
+Categories=Network;
+Keywords=Network;Ssh;Gui;
+Comment=A graphical user interface for SSH and SCP
+
+X-Ubuntu-Gettext-Domain=app-install-data

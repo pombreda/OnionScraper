@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=torbrowser-launcher
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=Tor Browser Settings
+Comment=Tor Browser Launcher Settings
+Exec=/usr/bin/torbrowser-launcher -settings
+Terminal=false
+Type=Application
+Icon=_usr_share_pixmaps_torbrowser80
+Categories=Network;WebBrowser;
+
+X-Ubuntu-Gettext-Domain=app-install-data

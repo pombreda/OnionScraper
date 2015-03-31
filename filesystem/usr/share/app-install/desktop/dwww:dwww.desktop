@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=dwww
+X-AppInstall-Popcon=1415
+X-AppInstall-Section=universe
+
+Name=Debian Documentation Browser
+Exec=dwww
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=gnome-touristinfo
+Categories=Application;Utility;
+Keywords=documentation;information;manual;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

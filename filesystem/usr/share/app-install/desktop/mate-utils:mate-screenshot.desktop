@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-utils
+X-AppInstall-Popcon=129
+X-AppInstall-Section=universe
+
+Name=Take Screenshot
+Comment=Save images of your desktop or individual windows
+Exec=mate-screenshot --interactive
+Terminal=false
+Type=Application
+Icon=applets-screenshooter
+StartupNotify=true
+Categories=GTK;Utility;
+Keywords=MATE;screenshot;snapshot;desktop;window;image;
+OnlyShowIn=MATE;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-utils
+X-MATE-Bugzilla-Component=screenshot
+X-MATE-Bugzilla-OtherBinaries=mate-panel-screenshot
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Name=Cinnamon Menu Editor
+Comment=Edit the entries of the Cinnamon menu applet
+Exec=cinnamon-menu-editor
+Icon=alacarte
+OnlyShowIn=X-Cinnamon;
+Terminal=false
+Type=Application
+NoDisplay=true
+Categories=GNOME;GTK;Settings;DesktopSettings;
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

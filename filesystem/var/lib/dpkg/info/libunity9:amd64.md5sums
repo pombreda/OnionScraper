@@ -1,0 +1,5 @@
+f05210ce282c179be03f4f66b6e4538c  usr/bin/unity-scope-loader
+d437bc7d5dbbeaa0d815e9489b7f0275  usr/lib/x86_64-linux-gnu/libunity-extras.so.9.0.2
+74cde990f6306bb7ab07bfe4364c00f3  usr/lib/x86_64-linux-gnu/libunity.so.9.0.2
+37871270ae61b9cc9e6617f5224c8c29  usr/share/doc/libunity9/copyright
+671a825238e0d9c8c1b20f58161afb1c  usr/share/glib-2.0/schemas/com.canonical.Unity.Lenses.gschema.xml

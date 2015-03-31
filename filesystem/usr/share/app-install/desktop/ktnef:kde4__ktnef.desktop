@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=ktnef
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=KTnef
+GenericName=TNEF File Viewer (proprietary format used by outlook)
+Exec=ktnef %f
+Icon=ktnef
+Type=Application
+X-DocPath=ktnef/index.html
+Comment=A viewer/extractor for TNEF files
+Terminal=false
+MimeType=application/ms-tnef;
+Categories=Qt;KDE;X-KDE-Utilities-PIM;Office;Network;Email;
+
+X-Ubuntu-Gettext-Domain=app-install-data

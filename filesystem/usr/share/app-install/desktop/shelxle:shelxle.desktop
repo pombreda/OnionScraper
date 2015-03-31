@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=shelxle
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=ShelXle
+Comment=A Qt GUI for SHELX
+GenericName=ShelXle
+Exec=shelxle
+Icon=shelxle
+Terminal=false
+Categories=Qt;Science;Chemistry;Physics;Education
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

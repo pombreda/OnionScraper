@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=mess-desktop-entries
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+Name=MSX ROM Player
+Comment=Play MSX games
+Type=Application
+Exec=/usr/games/mess msx -cassette %f
+Terminal=false
+NoDisplay=true
+MimeType=application/x-msx-rom;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=colord-kde
+X-AppInstall-Popcon=4286
+X-AppInstall-Section=universe
+
+Type=Service
+Icon=preferences-desktop-color
+
+X-KDE-Library=kcm_colord
+X-KDE-ServiceTypes=KCModule
+X-KDE-System-Settings-Parent-Category=hardware
+X-KDE-System-Settings-Parent-Category-V2=hardware
+X-KDE-ParentApp=kcontrol
+X-KDE-Kded-phase=1
+
+Name=Color
+
+Comment=Manage color correction of devices
+Hidden=true
+Exec=kcmshell4 colord
+
+X-Ubuntu-Gettext-Domain=app-install-data

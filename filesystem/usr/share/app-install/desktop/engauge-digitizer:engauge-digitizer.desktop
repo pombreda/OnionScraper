@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=engauge-digitizer
+X-AppInstall-Popcon=12
+X-AppInstall-Section=universe
+
+Name=Engauge-digitizer
+Type=Application
+Comment=Extract data from graphs
+TryExec=engauge
+Exec=engauge %F
+MimeType=text/plain
+Categories=Education;Science;DataVisualization
+Icon=_usr_share_pixmaps_engauge-digitizer
+Keywords=Analog-Digital Converter;
+
+X-Ubuntu-Gettext-Domain=app-install-data

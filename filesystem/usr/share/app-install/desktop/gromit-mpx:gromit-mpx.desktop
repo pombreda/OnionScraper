@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=gromit-mpx
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Exec=gromit-mpx
+Icon=gromit-mpx
+Name=Gromit-MPX
+Type=Application
+Comment=GRaphics Over MIscelaneous Things, a multi pointer annotation tool
+Terminal=false
+StartupNotify=false
+Categories=Graphics;
+
+X-Ubuntu-Gettext-Domain=app-install-data

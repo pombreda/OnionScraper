@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/grub-gfxpayload-lists
+/usr/share/grub-gfxpayload-lists/blacklist
+/usr/share/grub-gfxpayload-lists/blacklist/00_header
+/usr/share/grub-gfxpayload-lists/blacklist/10_vmware
+/usr/share/grub-gfxpayload-lists/blacklist/20_radeon_hd6800
+/usr/share/doc
+/usr/share/doc/grub-gfxpayload-lists
+/usr/share/doc/grub-gfxpayload-lists/copyright
+/usr/share/doc/grub-gfxpayload-lists/changelog.gz
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/update-grub-gfxpayload.8.gz
+/usr/sbin
+/usr/sbin/update-grub-gfxpayload

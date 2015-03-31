@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=xiterm+thai
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Thai X terminal
+Comment=X Terminal that supports Thai (TIS-620 encoding)
+Icon=xiterm+thai
+Exec=txiterm -ls -cursorColor yellow -cursorColorThai red -bg black -fg white
+Type=Application
+Categories=System;Utility;TerminalEmulator;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,36 @@
+[Desktop Entry]
+X-AppInstall-Package=fotoxx
+X-AppInstall-Popcon=235
+X-AppInstall-Section=universe
+
+Name=Fotoxx
+GenericName=Photo Editor
+Comment=Edit photos and manage collections
+Categories=Graphics;Photography;
+Type=Application
+Terminal=false
+MimeType=image/bmp;image/gif;image/tiff;image/jpeg;image/png;
+Exec=fotoxx %F
+Icon=_usr_share_fotoxx_icons_fotoxx
+Keywords=photo;image;raw;editor;exif;collections;
+
+X-Ayatana-Desktop-Shortcuts=X-blank window;X-last image;X-recent images
+
+[X-blank window Shortcut Group]
+Name=blank window
+Exec=fotoxx -b
+TargetEnvironment=Unity
+
+[X-last image Shortcut Group]
+Name=last image
+Exec=fotoxx -p
+TargetEnvironment=Unity
+
+[X-recent images Shortcut Group]
+Name=recent images
+Exec=fotoxx -r
+TargetEnvironment=Unity
+
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=opencity
+X-AppInstall-Popcon=12
+X-AppInstall-Section=universe
+
+Name=OpenCity
+Comment=a 3D city simulator game
+Exec=opencity
+Icon=opencity
+Terminal=false
+Type=Application
+Categories=Game;StrategyGame;
+GenericName=City simulator
+Keywords=simulator;strategy;city;buildings;plants;roads;industry;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=mess-desktop-entries
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+Name=Genesis ROM Player
+Comment=Play Sega Genesis games
+Type=Application
+Exec=/usr/games/mess genesis -cartridge %f
+Terminal=false
+NoDisplay=true
+MimeType=application/x-genesis-rom;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

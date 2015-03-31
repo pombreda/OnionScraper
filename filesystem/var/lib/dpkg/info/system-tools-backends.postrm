@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+# Do not restart dbus on upgrades, only if we remove the package.
+if [ "$1" = "remove" ] ; then 
+    if [ -x /etc/init.d/dbus ]; then
+        invoke-rc.d dbus force-reload || true
+    fi
+fi
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/dbus-1/system.d/system-tools-backends.conf /etc/dbus-1/system.d/org.freedesktop.SystemToolsBackends.conf 2.6.0-6.1 -- "$@"
+# End automatically added section
+

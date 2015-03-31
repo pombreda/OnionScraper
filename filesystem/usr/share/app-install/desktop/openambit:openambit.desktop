@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=openambit
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Version=HEAD
+Type=Application
+Name=Openambit
+Comment=Open source synchronization for Suunto Ambit series
+TryExec=openambit
+Exec=openambit
+Icon=openambit
+Categories=Utility;Education;Sports
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=lincity-ng
+X-AppInstall-Popcon=81
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Lincity-NG
+GenericName=City Simulation Game
+Comment=Plan and build a city and take care of transport, economics, electricity and others.
+Icon=lincity-ng
+Exec=lincity-ng
+Terminal=false
+StartupNotify=false
+Categories=Game;Simulation;
+Keywords=game;simulation;city;strategy;3D;economics;transport;buildings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

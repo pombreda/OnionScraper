@@ -1,0 +1,20 @@
+#!/bin/sh
+# This script is run on resume to reactivate linux-wlan-ng
+# iterfaces which were brought down in the suspend script.
+
+IFACES=/var/run/linux-wlan-ng.ifaces
+MODULES=/var/run/linux-wlan-ng.modules
+
+[ -e $MODULES ] || exit 0
+for module in `cat $MODULES`; do
+    modprobe $module || true
+done
+rm -f $MODULES
+
+sleep 1
+
+[ -e $IFACES ] || exit 0
+for iface in `cat $IFACES`; do
+    ifup $iface
+done
+rm -f $IFACES

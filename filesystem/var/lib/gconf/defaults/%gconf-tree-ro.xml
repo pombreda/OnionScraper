@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execută comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urilor „ymsgr”">
+								<longdesc>Comanda utilizată pentru URL-urile „ymsgr”, în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „ymsgr”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „ymsgr”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execută comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urilor „xmpp”">
+								<longdesc>Comanda utilizată pentru URL-urile „xmpp”, în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „xmpp”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „xmpp”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execută comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urilor „sip”">
+								<longdesc>Comanda utilizată pentru URL-urile „sip”, în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „sip”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „sip”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execută comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urilor „msnim”">
+								<longdesc>Comanda utilizată pentru URL-urile „msnim”, în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „msnim”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „msnim”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execută comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urilor „irc”">
+								<longdesc>Comanda utilizată pentru URL-urile „irc”, în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „irc”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „irc”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execută comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urilor „icq”">
+								<longdesc>Comanda utilizată pentru URL-urile „icq”, în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „icq”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „icq”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execută comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urilor „gg”">
+								<longdesc>Comanda utilizată pentru URL-urile „gg”, în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „gg”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „gg”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Execută comanda într-un terminal">
+								<longdesc>Adevărat când comanda asociată acestui tip de URL ar trebui pornită într-un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Comanda asociată URL-urilor „aim”">
+								<longdesc>Comanda utilizată pentru URL-urile „aim”, în caz de activare</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Specifică dacă această comandă ar trebui să fie asociată URL-urilor „aim”">
+								<longdesc>Adevărat când comanda specificată în cheia „command” ar trebui să fie asociată URL-urilor „aim”.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

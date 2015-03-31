@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/lubuntu-live-settings
+/usr/share/doc/lubuntu-live-settings/copyright
+/etc
+/etc/xdg
+/etc/xdg/lubuntu
+/etc/xdg/lubuntu/autostart
+/etc/xdg/lubuntu/autostart/light-locker.desktop
+/usr/share/doc/lubuntu-live-settings/changelog.gz

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=eureka
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=Eureka DOOM Editor
+GenericName=DOOM Editor
+Comment=Edit maps for the game DOOM
+Exec=eureka
+Icon=eureka
+Terminal=false
+Type=Application
+Categories=Game;X-DoomEditor;
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

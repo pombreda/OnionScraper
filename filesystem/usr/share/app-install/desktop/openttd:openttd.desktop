@@ -1,0 +1,18 @@
+# $Id: openttd.desktop.in 25783 2013-09-19 07:42:19Z matthijs $
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+[Desktop Entry]
+X-AppInstall-Package=openttd
+X-AppInstall-Popcon=126
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=OpenTTD
+Icon=openttd
+Exec=openttd
+Terminal=false
+Categories=Game;
+Comment=A clone of Transport Tycoon Deluxe
+Keywords=game;simulation;transport;tycoon;deluxe;economics;multiplayer;money;train;ship;bus;truck;aircraft;cargo
+
+X-Ubuntu-Gettext-Domain=app-install-data

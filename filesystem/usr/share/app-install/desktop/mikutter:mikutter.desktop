@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=mikutter
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=mikutter
+Comment=Twitter Client
+Exec=mikutter
+Icon=_usr_share_mikutter_core_skin_data_icon
+Type=Application
+Terminal=false
+Categories=Network;
+Keywords=Twitter;
+
+X-Ubuntu-Gettext-Domain=app-install-data

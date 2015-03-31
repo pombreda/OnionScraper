@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+  <vendor>Apport</vendor>
+  <vendor_url>https://wiki.ubuntu.com/Apport</vendor_url>
+  <icon_name>apport</icon_name>
+
+  <action id="com.ubuntu.apport.root-info">
+    <description>Collect system information</description>
+    <description xml:lang="ast">Recopilar información del sistema</description>
+    <description xml:lang="bg">Събери информация за системата</description>
+    <description xml:lang="ca">Recopila informació del sistema</description>
+    <description xml:lang="ca@valencia">Recopila informació del sistema</description>
+    <description xml:lang="cs">Získat informace o systému</description>
+    <description xml:lang="da">Indsaml systemoplysninger</description>
+    <description xml:lang="de">Systeminformationen werden gesammelt</description>
+    <description xml:lang="el">Συλλογή πληροφοριών συστήματος</description>
+    <description xml:lang="en_AU">Collect system information</description>
+    <description xml:lang="en_CA">Collect system information</description>
+    <description xml:lang="en_GB">Collect system information</description>
+    <description xml:lang="es">Recopilar información del sistema</description>
+    <description xml:lang="et">Süsteemiinfo kogumine</description>
+    <description xml:lang="eu">Bildu sistemaren informazioa</description>
+    <description xml:lang="fi">Kerää järjestelmätiedot</description>
+    <description xml:lang="fr">Collecter des informations à propos du système</description>
+    <description xml:lang="fr_CA">Collecter des informations sur le système</description>
+    <description xml:lang="gd">Cruinnich fiosrachaidh mun t-siostam</description>
+    <description xml:lang="gl">Recoller información do sistema</description>
+    <description xml:lang="he">איסוף מידע על המערכת</description>
+    <description xml:lang="hu">Rendszer-információk összegyűjtése</description>
+    <description xml:lang="id">Kumpulkan informasi sistem</description>
+    <description xml:lang="is">Safna kerfisupplýsingum</description>
+    <description xml:lang="it">Raccolta informazioni di sistema</description>
+    <description xml:lang="ja">システム情報を収集</description>
+    <description xml:lang="km">ប្រមូល​ព័ត៌មាន​ប្រព័ន្ធ</description>
+    <description xml:lang="lt">Surinkti sistemos informaciją</description>
+    <description xml:lang="lv">Savākt informāciju par sistēmu</description>
+    <description xml:lang="mr">प्रणाली माहिती गोळा करा</description>
+    <description xml:lang="ms">Kutip maklumat sistem</description>
+    <description xml:lang="nb">Samle inn informasjon om systemet</description>
+    <description xml:lang="nl">Systeeminformatie verzamelen</description>
+    <description xml:lang="oc">Collectar d'informacions a prepaus del sistèma</description>
+    <description xml:lang="pl">Pobranie informacji o systemie</description>
+    <description xml:lang="pt_BR">Coletar informações sobre o sistema</description>
+    <description xml:lang="ro">Colectare informații despre sistem</description>
+    <description xml:lang="ru">Собрать сведения о системе</description>
+    <description xml:lang="sk">Získať informácie o systéme</description>
+    <description xml:lang="sl">Zberi podatke o sistemu</description>
+    <description xml:lang="sq">Mblidh informacion rreth sistemit</description>
+    <description xml:lang="sr">Прикупљам системске информације</description>
+    <description xml:lang="tg">Ҷвмъ кардани маълумоти система</description>
+    <description xml:lang="tr">Sistem bilgisi topla</description>
+    <description xml:lang="ug">سىستېما ئۇچۇرلىرىنى توپلا</description>
+    <description xml:lang="uk">Зібрати системну інформацію</description>
+    <description xml:lang="zh_CN">收集系统信息</description>
+    <description xml:lang="zh_HK">收集系統資訊</description>
+    <description xml:lang="zh_TW">蒐集系統資訊</description>
+    <message>Authentication is required to collect system information for this problem report</message>
+    <message xml:lang="ar">الاستيثاق مطلوب لجمع معلومات النظام لتقرير العلة هذا</message>
+    <message xml:lang="ast">Necesítase autenticación pa recopilar información del sistema pa informar d'esti problema</message>
+    <message xml:lang="bg">За да изпратите съобщение за проблем и събиране на информация за системата, е необходимо да се идентифицирате</message>
+    <message xml:lang="ca">Cal autenticació per recollir informació del sistema per l'informe d'aquest problema</message>
+    <message xml:lang="ca@valencia">Cal autenticació per recollir informació del sistema per l'informe d'este problema</message>
+    <message xml:lang="cs">Pro získání systémových informací potřebných k nahlášení tohoto problému je vyžadováno ověření</message>
+    <message xml:lang="da">Der kræves godkendelse for at indsamle systemoplysninger til denne fejlrapport</message>
+    <message xml:lang="de">Legitimation ist erforerlich, um Systeminformationen für diesen Problembericht zu sammeln.</message>
+    <message xml:lang="el">Απαιτείται πιστοποίηση για την συλλογή πληροφοριών συστήματος για αυτήν την αναφορά προβλήματος</message>
+    <message xml:lang="en_AU">Authentication is required to collect system information for this problem report</message>
+    <message xml:lang="en_CA">Authentication is required to collect system information for this problem report</message>
+    <message xml:lang="en_GB">Authentication is required to collect system information for this problem report</message>
+    <message xml:lang="es">Se necesita autenticación para recopilar información del sistema para informar de este problema</message>
+    <message xml:lang="eu">Autentifikazioa beharrezkoa da errore-txosten honentzako sistemaren informazioa biltzeko</message>
+    <message xml:lang="fi">Vikailmoitukseen tarvittavien järjestelmätietojen kerääminen vaatii tunnistautumisen</message>
+    <message xml:lang="fr">Une authentification est nécessaire pour collecter l'information système requise pour ce rapport de bogue</message>
+    <message xml:lang="fr_CA">Une authentification est exigée pour collecter des informations sur le système pour ce rapport de bogue</message>
+    <message xml:lang="gd">Tha feum air dearbhadh mus urrainn dhuinn fiosrachadh a chruinneachadh mun t-siostam airson na h-aithrise seo</message>
+    <message xml:lang="gl">Requírese autenticación para recoller a información do sistema para este informe de erro</message>
+    <message xml:lang="he">נדרש אימות כדי לאסוף פרטים לדוח תקלה זה</message>
+    <message xml:lang="hu">A hibajelentéshez szükséges rendszer-információk összegyűjtéséhez hitelesítés szükséges.</message>
+    <message xml:lang="id">Perlu otentikasi untuk mengumpulkan informasi sistem bagi laporan masalah ini</message>
+    <message xml:lang="is">Auðkenningar er krafist fyrir söfnun á kerfisupplýsingum fyrir þessa villuskýrslu</message>
+    <message xml:lang="it">È richiesto autenticarsi per raccogliere le informazioni di sistema riguardo la segnalazione di errore</message>
+    <message xml:lang="ja">この問題を報告するには、システム情報を収集するための認証が必要です</message>
+    <message xml:lang="km">ការ​ផ្ទៀងផ្ទាត់​ត្រូវ​បាន​ទាមទារ​ដើម្បី​​ប្រមូល​ព័ត៌មាន​ប្រព័ន្ធ​សម្រាប់​របាយការណ៍​បញ្ហា​នេះ</message>
+    <message xml:lang="lt">Reikalingas tapatumo nustatymas sistemos informacijai surinkti šiam pranešimui apie klaidą</message>
+    <message xml:lang="lv">Autentifikācija ir nepieciešama, lai savāktu informāciju par sistēmu šim problēmu ziņojumam</message>
+    <message xml:lang="ms">Pengesahihan diperlukan untuk mengutip maklumat sistem bagi laporan masalah ini</message>
+    <message xml:lang="nb">Du må autentisere deg for å samle inn systeminformasjon til denne feilrapporten</message>
+    <message xml:lang="nl">Authenticatie is vereist om systeeminformatie voor dit probleemrapport te verzamelen</message>
+    <message xml:lang="oc">Una autentificacion es necessària per collectar l'informacion del sistèma requesida per aqueste rapòrt de bug</message>
+    <message xml:lang="pl">Aby pobrać informacje o systemie, wymagana jest autoryzacja</message>
+    <message xml:lang="pt_BR">É necessário autenticar para coletar informações sobre o sistema para o relatório deste problema</message>
+    <message xml:lang="ro">Pentru a se colecta informații despre sistem necesare raportării problemei trebuie să vă autentificați</message>
+    <message xml:lang="ru">Чтобы отправить отчёт о неполадке и собрать сведения о системе, необходимо выполнить аутентификацию</message>
+    <message xml:lang="sk">Pre získanie systémových informácií potrebných k ohláseniu tohto problému je požadované overenie totožnosti</message>
+    <message xml:lang="sl">Za zbiranje podatkov o sistemu za to poročilo o težavi je zahtevana overitev.</message>
+    <message xml:lang="sq">Kërkohet identifikimi për të mbledhur informacion të sistemit për raportimin e këtij problemi</message>
+    <message xml:lang="sr">Потврђивање идентитета је неопходно за прикупљање системских података за извештај о овом проблему</message>
+    <message xml:lang="tg">Барои ҷамъ кардани маълумоти система барои ин гузориши мушкилӣ, номи корбар ва парол лозим аст</message>
+    <message xml:lang="tr">Bu sorun raporu için sistem bilgisi toplamada yetkilendirme gereklidir.</message>
+    <message xml:lang="ug">بۇ مەسىلىنى مەلۇم قىلىشتا سىستېما ئۇچۇرلىرىنى توپلاش كېرەك، بىراق بۇنىڭ ئۈچۈن كىملىك دەلىللەش زۆرۈردۇر.</message>
+    <message xml:lang="uk">Потрібно надати права, щоб зібрати потрібні дані для звітування цієї проблеми</message>
+    <message xml:lang="zh_CN">为此问题报告收集系统信息需要授权</message>
+    <message xml:lang="zh_HK">若要為此問題回報收集系統資訊需先通過身份驗證</message>
+    <message xml:lang="zh_TW">若要為此問題回報蒐集系統資訊需先通過身份驗證</message>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/share/apport/root_info_wrapper</annotate>
+    
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+  </action>
+
+  <action id="com.ubuntu.apport.apport-gtk-root">
+    <description>System problem reports</description>
+    <description xml:lang="ast">Informes de problemes del sistema</description>
+    <description xml:lang="bg">Доклади за системни грешки</description>
+    <description xml:lang="bs">Izvještaji o problemima u sistemu</description>
+    <description xml:lang="ca">Informes d'error del sistema</description>
+    <description xml:lang="ca@valencia">Informes d'error del sistema</description>
+    <description xml:lang="cs">Zpráva o problému se systémem</description>
+    <description xml:lang="da">Rapporter om systemfejl</description>
+    <description xml:lang="de">Systemproblemberichte</description>
+    <description xml:lang="el">Αναφορές προβλημάτων συστήματος</description>
+    <description xml:lang="en_AU">System problem reports</description>
+    <description xml:lang="en_CA">System problem reports</description>
+    <description xml:lang="en_GB">System problem reports</description>
+    <description xml:lang="es">Informes de problemas del sistema</description>
+    <description xml:lang="eu">Sistemako arazoaren jakinarazpena</description>
+    <description xml:lang="fi">Järjestelmän ongelmaraportit</description>
+    <description xml:lang="fr">Rapports de problèmes système</description>
+    <description xml:lang="fr_CA">Rapports de problèmes systèmes</description>
+    <description xml:lang="gd">Aithrisean air duilgheadasan an t-siostaim</description>
+    <description xml:lang="gl">Informes de problemas do sistema</description>
+    <description xml:lang="he">דיווחי תקלות במערכת</description>
+    <description xml:lang="hu">Rendszerhiba-jelentések</description>
+    <description xml:lang="id">Laporan masalah sistem</description>
+    <description xml:lang="is">Vandamálaskýrslur kerfis</description>
+    <description xml:lang="it">Segnalazioni errori di sistema</description>
+    <description xml:lang="ja">システムの問題の報告</description>
+    <description xml:lang="km">របាយការណ៍​បញ្ហា​ប្រព័ន្ធ</description>
+    <description xml:lang="lt">Sistemos pranešimai apie klaidą</description>
+    <description xml:lang="lv">Sistēmas problēmu ziņojumi</description>
+    <description xml:lang="mr">प्रणाली समस्या अहवाल</description>
+    <description xml:lang="ms">Laporan masalah sistem</description>
+    <description xml:lang="nb">Feilrapporter for system</description>
+    <description xml:lang="nl">Systeemprobleemrapporten</description>
+    <description xml:lang="oc">Rapòrts de problèmas sistèma</description>
+    <description xml:lang="pl">Raporty problemów systemowych</description>
+    <description xml:lang="pt_BR">Relatórios de problemas do sistema</description>
+    <description xml:lang="ro">Rapoarte despre probleme de sistem</description>
+    <description xml:lang="ru">Отчёты о системных ошибках</description>
+    <description xml:lang="sl">Poročila o sistemskih težavah</description>
+    <description xml:lang="sq">Raported e problemeve të sistemit</description>
+    <description xml:lang="sr">Извештавање о проблемима система</description>
+    <description xml:lang="tg">Системаи гузоришдиҳии мушкилиҳо</description>
+    <description xml:lang="tr">Sistem problem raporları</description>
+    <description xml:lang="ug">سىستېما مەسىلە دوكلاتى</description>
+    <description xml:lang="uk">Звіти про системні помилки</description>
+    <description xml:lang="zh_CN">系统问题报告</description>
+    <message>Please enter your password to access problem reports of system programs</message>
+    <message xml:lang="ar">برجاء إدخال كلمة سرك للنفاذ إلى تقارير المشاكل لبرامج النظام</message>
+    <message xml:lang="ast">Escribi la to contraseña p'acceder a los informes de problemes de programes del sistema</message>
+    <message xml:lang="bg">Моля, въведете паролата си за достъп до докладите за проблеми на системни програми</message>
+    <message xml:lang="bs">Molimo unesite svoju šifru kako bi pristupili izvještaju o problemima nastalim u sistemskim programima</message>
+    <message xml:lang="ca">Introduïu la vostra contrasenya per accedir als informes d'error dels programes del sistema</message>
+    <message xml:lang="ca@valencia">Introduïu la vostra contrasenya per accedir als informes d'error dels programes del sistema</message>
+    <message xml:lang="cs">Zadejte prosím své heslo, aby mohl být problém systémového programu reportován.</message>
+    <message xml:lang="da">Angiv venligst din adgangskode for at se rapporter over problemer med systemprogrammer</message>
+    <message xml:lang="de">Bitte geben Sie Ihr Passwort ein, um zu den Problemberichten von Systemprogrammen zu gelangen</message>
+    <message xml:lang="el">Παρακαλώ εισάγετε το συνθηματικό σας για να αποκτήσετε πρόσβαση στις αναφορές προβλημάτων των προγραμμάτων συστήματος</message>
+    <message xml:lang="en_AU">Please enter your password to access problem reports of system programs</message>
+    <message xml:lang="en_CA">Please enter your password to access problem reports of system programs</message>
+    <message xml:lang="en_GB">Please enter your password to access problem reports of system programs</message>
+    <message xml:lang="es">Escriba su contraseña para acceder a los informes de problemas de programas del sistema</message>
+    <message xml:lang="fi">Anna salasanasi nähdäksesi järjestelmäohjelmien ongelmaraportteja</message>
+    <message xml:lang="fr">Veuillez saisir votre mot de passe pour accéder à des rapports de problèmes de programmes système</message>
+    <message xml:lang="fr_CA">Veuillez saisir votre mot de passe pour accéder aux rapports de problèmes des programmes systèmes</message>
+    <message xml:lang="gd">Cuir a-steach am facal-faire agad gus cothrom fhaighinn air aithrisean mu dhèidhinn duilgheadas a bha aig prògraman a t-siostaim</message>
+    <message xml:lang="gl">Introduza o seu contrasinal para acceder aos informes de problemas dos programas do sistema</message>
+    <message xml:lang="he">נא להזין את הססמה שלך כדי לגשת לדיווחים על תקלות שנמצאו בתכניות המערכת</message>
+    <message xml:lang="hu">Adja meg jelszavát a rendszerprogramok hibáinak eléréséhez</message>
+    <message xml:lang="id">Harap masukkan sandi Anda untuk mengakses laporan masalah dari program sistem</message>
+    <message xml:lang="is">Sláðu inn lykilorð til að fá aðgang að villuskýrslum kerfisforrita</message>
+    <message xml:lang="it">Inserire la propria password per accedere alle segnalazioni d'errore di programmi di sistema</message>
+    <message xml:lang="ja">システムプログラムの問題レポートにアクセスするにはパスワードを入力してください</message>
+    <message xml:lang="km">សូម​បញ្ចូល​ព័ត៌មាន​លម្អិត​របស់​អ្នក​ ដើម្បី​​ចូល​ដំណើរការ​​​របាយការណ៍​បញ្ហា​នៃ​កម្មវិធី​ប្រព័ន្ធ</message>
+    <message xml:lang="lt">Įveskite slaptažodį, kad prieitumėte prie sistemos programų pranešimų apie klaidas</message>
+    <message xml:lang="lv">Lūdzu, ievadiet savu paroli, lai piekļūtu sistēmas programmu problēmziņojumiem</message>
+    <message xml:lang="ms">Sila masukkan kata laluan anda untuk mencapai laporan masalah bagi program sistem</message>
+    <message xml:lang="nb">Skriv inn passordet ditt for å få tilgang til systemets feilrapporter</message>
+    <message xml:lang="nl">Voer uw wachtwoord in om toegang te krijgen tot de probleemrapporten van systeemprogramma's</message>
+    <message xml:lang="oc">Picatz vòstre senhal per accedir a de rapòrts de problèmas de programas sistèma</message>
+    <message xml:lang="pl">Aby uzyskać dostęp do raportów o błędach systemowych, należy wprowadzić hasło</message>
+    <message xml:lang="pt_BR">Por favor, informe sua senha para acessar os relatórios de problemas dos programas do sistema</message>
+    <message xml:lang="ro">Pentru a accesa rapoartele despre problemele cu programele sistemului trebuie să vă introduceți parola</message>
+    <message xml:lang="ru">Введите свой пароль для доступа к отчётам об ошибках в системных программах</message>
+    <message xml:lang="sl">Vnesite svoje geslo za dostop do poročil o težavah s sistemskimi programi</message>
+    <message xml:lang="sq">Ju lutem vendosni fjalëkalimin tuaj që të keni akses në raportet e problemeve të programeve së sistemit.</message>
+    <message xml:lang="sr">Унесите вашу лозинку да приступите извештавању проблема системских програма</message>
+    <message xml:lang="tg">Лутфан, пароли худро ворид кунед, то ин ки ба гузоришҳои мушкилиҳои барномаҳои системавӣ дастрасӣ пайдо кунед</message>
+    <message xml:lang="tr">Lütfen sistem programlarının problem raporlarına ulaşmak için şifrenizi girin</message>
+    <message xml:lang="ug">ئىمنى كىرگۈزۈپ سىستېما مەسىلە دوكلاتىنى كۆرۈڭ.</message>
+    <message xml:lang="uk">Введіть свій пароль для доступу до звітів про помилки у системних програмах</message>
+    <message xml:lang="zh_CN">请输入您的密码以查看系统程序问题报告。</message>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/share/apport/apport-gtk</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+  </action>
+
+</policyconfig>

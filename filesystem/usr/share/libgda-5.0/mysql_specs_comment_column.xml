@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serv_op>
+  <parameters id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment"></parameter>
+  </parameters>
+  <parameters xml:lang="ar" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="جدول" descr="Table's name" xml:lang="ar"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="ar"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="ar"></parameter>
+  </parameters>
+  <parameters xml:lang="az" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="az"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="az"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="az"></parameter>
+  </parameters>
+  <parameters xml:lang="ca" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Taula" descr="Table's name" xml:lang="ca"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nom del camp" xml:lang="ca"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="ca"></parameter>
+  </parameters>
+  <parameters xml:lang="ca@valencia" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Taula" descr="Table's name" xml:lang="ca@valencia"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nom del camp" xml:lang="ca@valencia"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="ca@valencia"></parameter>
+  </parameters>
+  <parameters xml:lang="cs" id="COLUMN_DESC_P" name="Popis sloupce">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabulka" descr="Název tabulky" xml:lang="cs"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Název pole" xml:lang="cs"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Komentář pole" xml:lang="cs"></parameter>
+  </parameters>
+  <parameters xml:lang="da" id="COLUMN_DESC_P" name="Kolonnens beskrivelse">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabel" descr="Tabellens navn" xml:lang="da"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Feltnavn" xml:lang="da"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Feltkommentar" xml:lang="da"></parameter>
+  </parameters>
+  <parameters xml:lang="de" id="COLUMN_DESC_P" name="Spaltenbeschreibung">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabelle" descr="Tabellenname" xml:lang="de"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Feldname" xml:lang="de"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Feldkommentar" xml:lang="de"></parameter>
+  </parameters>
+  <parameters xml:lang="dz" id="COLUMN_DESC_P" name="ཀེར་ཐིག་གི་འགྲེལ་བཤད།">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="ཐིག་ཁྲམ།" descr="ཐིག་ཁྲམ་གྱི་མིང་།" xml:lang="dz"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="ས་སྒོའི་མིང་" xml:lang="dz"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="dz"></parameter>
+  </parameters>
+  <parameters xml:lang="el" id="COLUMN_DESC_P" name="Περιγραφή της στήλης">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Πίνακας" descr="Όνομα πίνακα" xml:lang="el"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Όνομα πεδίου" xml:lang="el"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Σχόλιο πεδίου" xml:lang="el"></parameter>
+  </parameters>
+  <parameters xml:lang="en_CA" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="en_CA"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="en_CA"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="en_CA"></parameter>
+  </parameters>
+  <parameters xml:lang="en_GB" id="COLUMN_DESC_P" name="Column&apos;s description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table&apos;s name" xml:lang="en_GB"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="en_GB"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="en_GB"></parameter>
+  </parameters>
+  <parameters xml:lang="eo" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabelo" descr="Table's name" xml:lang="eo"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Kamponomo" xml:lang="eo"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="eo"></parameter>
+  </parameters>
+  <parameters xml:lang="es" id="COLUMN_DESC_P" name="Descripción de la columna">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabla" descr="Nombre de la tabla" xml:lang="es"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nombre del campo" xml:lang="es"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Comentario del campo" xml:lang="es"></parameter>
+  </parameters>
+  <parameters xml:lang="eu" id="COLUMN_DESC_P" name="Zutabearen azalpena">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Taula" descr="Taularen izena" xml:lang="eu"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Eremu-izena" xml:lang="eu"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Eremuaren iruzkina" xml:lang="eu"></parameter>
+  </parameters>
+  <parameters xml:lang="fa" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="جدول" descr="Table's name" xml:lang="fa"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="نام فیلد" xml:lang="fa"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="fa"></parameter>
+  </parameters>
+  <parameters xml:lang="fi" id="COLUMN_DESC_P" name="Sarakkeen kuvaus">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Taulu" descr="Taulun nimi" xml:lang="fi"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Kentän nimi" xml:lang="fi"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Kentän kommentti" xml:lang="fi"></parameter>
+  </parameters>
+  <parameters xml:lang="fr" id="COLUMN_DESC_P" name="Description de colonne">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Nom de la base" xml:lang="fr"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nom du champ" xml:lang="fr"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Commentaire du champ" xml:lang="fr"></parameter>
+  </parameters>
+  <parameters xml:lang="ga" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="ga"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="ga"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="ga"></parameter>
+  </parameters>
+  <parameters xml:lang="gl" id="COLUMN_DESC_P" name="Descrición da columna">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Táboa" descr="Nome da táboa" xml:lang="gl"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nome do campo" xml:lang="gl"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Comentario do campo" xml:lang="gl"></parameter>
+  </parameters>
+  <parameters xml:lang="hr" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tablica" descr="Table's name" xml:lang="hr"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Naziv polja" xml:lang="hr"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="hr"></parameter>
+  </parameters>
+  <parameters xml:lang="hu" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="hu"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="hu"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="hu"></parameter>
+  </parameters>
+  <parameters xml:lang="id" id="COLUMN_DESC_P" name="Keterangan kolom">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabel" descr="Nama tabel" xml:lang="id"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nama ruas" xml:lang="id"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Komentar ruas" xml:lang="id"></parameter>
+  </parameters>
+  <parameters xml:lang="it" id="COLUMN_DESC_P" name="Descrizione colonna">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabella" descr="Nome tabella" xml:lang="it"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nome campo" xml:lang="it"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Commento campo" xml:lang="it"></parameter>
+  </parameters>
+  <parameters xml:lang="ja" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="テーブル" descr="テーブル名" xml:lang="ja"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="フィールド名" xml:lang="ja"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="ja"></parameter>
+  </parameters>
+  <parameters xml:lang="ko" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="ko"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="필드 이름" xml:lang="ko"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="ko"></parameter>
+  </parameters>
+  <parameters xml:lang="lt" id="COLUMN_DESC_P" name="Stulpelio aprašymas">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Lentelė" descr="Lentelės vardas" xml:lang="lt"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Lauko vardas" xml:lang="lt"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="lt"></parameter>
+  </parameters>
+  <parameters xml:lang="lv" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="lv"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="lv"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="lv"></parameter>
+  </parameters>
+  <parameters xml:lang="mk" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="mk"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="mk"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="mk"></parameter>
+  </parameters>
+  <parameters xml:lang="ml" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="ml"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="ml"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="ml"></parameter>
+  </parameters>
+  <parameters xml:lang="ms" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Jadual" descr="Table's name" xml:lang="ms"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nama Medan" xml:lang="ms"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="ms"></parameter>
+  </parameters>
+  <parameters xml:lang="nb" id="COLUMN_DESC_P" name="Beskrivelse av kolonne">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabell" descr="Navn på tabell" xml:lang="nb"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Feltnavn" xml:lang="nb"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="nb"></parameter>
+  </parameters>
+  <parameters xml:lang="ne" id="COLUMN_DESC_P" name="स्तम्भको वर्णन">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="तालिका" descr="तालिको नाम" xml:lang="ne"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="क्षेत्रको नाम" xml:lang="ne"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="ne"></parameter>
+  </parameters>
+  <parameters xml:lang="nl" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabel" descr="Table's name" xml:lang="nl"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Veld naam" xml:lang="nl"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="nl"></parameter>
+  </parameters>
+  <parameters xml:lang="oc" id="COLUMN_DESC_P" name="Descripcion">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tablèu" descr="Table's name" xml:lang="oc"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nom del camp" xml:lang="oc"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="oc"></parameter>
+  </parameters>
+  <parameters xml:lang="pa" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="ਸਾਰਣੀ" descr="Table's name" xml:lang="pa"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="ਖੇਤਰ ਨਾਉ" xml:lang="pa"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="pa"></parameter>
+  </parameters>
+  <parameters xml:lang="pl" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Table's name" xml:lang="pl"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nazwa pola" xml:lang="pl"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="pl"></parameter>
+  </parameters>
+  <parameters xml:lang="pt" id="COLUMN_DESC_P" name="Descrição da coluna">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Nome da tabela" xml:lang="pt"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nome do campo" xml:lang="pt"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Comentário do campo" xml:lang="pt"></parameter>
+  </parameters>
+  <parameters xml:lang="pt_BR" id="COLUMN_DESC_P" name="Descrição da coluna">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Nome da tabela" xml:lang="pt_BR"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Nome do campo" xml:lang="pt_BR"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Comentário do campo" xml:lang="pt_BR"></parameter>
+  </parameters>
+  <parameters xml:lang="ru" id="COLUMN_DESC_P" name="Описание столбца">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Таблица" descr="Название таблицы" xml:lang="ru"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Имя поля" xml:lang="ru"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Комментарий поля" xml:lang="ru"></parameter>
+  </parameters>
+  <parameters xml:lang="rw" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Imbonerahamwe" descr="Table's name" xml:lang="rw"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Izina ry&apos;umwanya" xml:lang="rw"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="rw"></parameter>
+  </parameters>
+  <parameters xml:lang="sk" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabuľka" descr="Table's name" xml:lang="sk"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Meno poľa" xml:lang="sk"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="sk"></parameter>
+  </parameters>
+  <parameters xml:lang="sl" id="COLUMN_DESC_P" name="Opis stolpca">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Razpredelnica" descr="Ime razpredelnice" xml:lang="sl"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Ime polja" xml:lang="sl"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Opomba polja" xml:lang="sl"></parameter>
+  </parameters>
+  <parameters xml:lang="sq" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Table's name" xml:lang="sq"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="sq"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="sq"></parameter>
+  </parameters>
+  <parameters xml:lang="sr" id="COLUMN_DESC_P" name="Опис колоне">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Табела" descr="Назив табеле" xml:lang="sr"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Назив поља" xml:lang="sr"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Напомена поља" xml:lang="sr"></parameter>
+  </parameters>
+  <parameters xml:lang="sr@Latn" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Table's name" xml:lang="sr@Latn"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Naziv polja" xml:lang="sr@Latn"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="sr@Latn"></parameter>
+  </parameters>
+  <parameters xml:lang="sr@latin" id="COLUMN_DESC_P" name="Opis kolone">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabela" descr="Naziv tabele" xml:lang="sr@latin"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Naziv polja" xml:lang="sr@latin"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Napomena polja" xml:lang="sr@latin"></parameter>
+  </parameters>
+  <parameters xml:lang="sv" id="COLUMN_DESC_P" name="Kolumnens beskrivning">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Tabell" descr="Tabellnamn" xml:lang="sv"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Fältnamn" xml:lang="sv"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="sv"></parameter>
+  </parameters>
+  <parameters xml:lang="tg" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Ҷадвал" descr="Table's name" xml:lang="tg"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="tg"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="tg"></parameter>
+  </parameters>
+  <parameters xml:lang="tr" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Table" descr="Table's name" xml:lang="tr"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Field name" xml:lang="tr"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="tr"></parameter>
+  </parameters>
+  <parameters xml:lang="uk" id="COLUMN_DESC_P" name="Column's description">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Таблиця" descr="Table's name" xml:lang="uk"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Назва поля" xml:lang="uk"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="uk"></parameter>
+  </parameters>
+  <parameters xml:lang="vi" id="COLUMN_DESC_P" name="Mô tả của cột">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="Bảng" descr="Tên của bảng" xml:lang="vi"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="Tên trường" xml:lang="vi"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="vi"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_CN" id="COLUMN_DESC_P" name="列描述">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="表" descr="表名" xml:lang="zh_CN"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="字段名" xml:lang="zh_CN"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="字段注释" xml:lang="zh_CN"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_HK" id="COLUMN_DESC_P" name="直行的說明">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="表格" descr="表格的名稱" xml:lang="zh_HK"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="欄位名稱" xml:lang="zh_HK"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="zh_HK"></parameter>
+  </parameters>
+  <parameters xml:lang="zh_TW" id="COLUMN_DESC_P" name="直行的說明">
+    <parameter nullok="FALSE" id="TABLE_NAME" gdatype="gchararray" name="表格" descr="表格的名稱" xml:lang="zh_TW"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_NAME" gdatype="gchararray" name="欄位名稱" xml:lang="zh_TW"></parameter>
+    <parameter nullok="FALSE" id="COLUMN_COMMENT" gdatype="gchararray" name="Field comment" xml:lang="zh_TW"></parameter>
+  </parameters>
+</serv_op>

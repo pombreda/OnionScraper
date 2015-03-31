@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=mobile-atlas-creator
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Mobile Atlas Creator
+GenericName=Mobile Atlas Creator
+NoDisplay=false
+Comment=create offline-atlases for GPS/cell phone applications
+Icon=_usr_share_pixmaps_mobile-atlas-creator_mobac
+TryExec=/usr/bin/mobile-atlas-creator
+Exec=/usr/bin/mobile-atlas-creator
+Terminal=false
+MimeType=
+Categories=Education;Geography
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

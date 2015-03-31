@@ -1,0 +1,3 @@
+nm-pppd plugin network-manager
+libnm-settings-plugin ifupdown network-manager
+libnm-settings-plugin ofono network-manager

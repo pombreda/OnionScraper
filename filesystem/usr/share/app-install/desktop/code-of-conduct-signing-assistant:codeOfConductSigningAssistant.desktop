@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=code-of-conduct-signing-assistant
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=0.1
+Name=Code of Conduct Signing Assistant
+Comment=Sign the Code of Conduct easily.
+Icon=_usr_share_icons_hicolor_scalable_apps_codeOfConductSigningAssistant
+GenericName=Code of Conduct Signing Assistant
+Terminal=false
+Type=Application
+Exec=code-of-conduct-signing-assistant
+Categories=Utility;Qt;
+
+X-Ubuntu-Gettext-Domain=app-install-data

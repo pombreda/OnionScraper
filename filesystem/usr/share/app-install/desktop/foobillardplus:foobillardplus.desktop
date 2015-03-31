@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=foobillardplus
+X-AppInstall-Popcon=18
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=false
+Name=FooBillard++
+GenericName=Billiard
+Categories=Game;Simulation;
+Keywords=billiard;opengl;game;3D;
+Exec=foobillardplus
+Icon=foobillardplus
+Comment=3D OpenGL Billiard Game
+
+X-Ubuntu-Gettext-Domain=app-install-data

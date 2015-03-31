@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=gdebi
+X-AppInstall-Popcon=2397
+X-AppInstall-Section=universe
+
+Name=GDebi Package Installer
+GenericName=Package Installer
+Comment=Install and view software packages
+Exec=gdebi-gtk %f
+Icon=gnome-mime-application-x-deb
+Terminal=false
+Type=Application
+Categories=System;
+MimeType=application/x-deb;application/x-debian-package;
+NotShowIn=KDE;
+
+StartupNotify=true
+Keywords=package;apt;dpkg;install
+
+X-Ubuntu-Gettext-Domain=app-install-data

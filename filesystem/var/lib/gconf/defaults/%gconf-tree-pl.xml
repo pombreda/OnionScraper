@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Wykonanie polecenie w terminalu">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie użyte do obsługi tego typu adresów URL powinno być wykonywane w terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsługa adresów URL &quot;ymsgr&quot;">
+								<longdesc>Polecenie używane do obsługi adresów URL &quot;ymsgr&quot;, jeśli włączone.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Czy podane polecenie powinno obsługiwać adresy URL &quot;ymsgr&quot;">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie podane w kluczu &quot;command&quot; powinno obsługiwać adresy URL &quot;ymsgr&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Wykonanie polecenie w terminalu">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie użyte do obsługi tego typu adresów URL powinno być wykonywane w terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsługa adresów URL &quot;xmpp&quot;">
+								<longdesc>Polecenie używane do obsługi adresów URL &quot;xmpp&quot;, jeśli włączone.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Czy podane polecenie powinno obsługiwać adresy URL &quot;xmpp&quot;">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie podane w kluczu &quot;command&quot; powinno obsługiwać adresy URL &quot;xmpp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Wykonanie polecenie w terminalu">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie użyte do obsługi tego typu adresów URL powinno być wykonywane w terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsługa adresów URL &quot;sip&quot;">
+								<longdesc>Polecenie używane do obsługi adresów URL &quot;sip&quot;, jeśli włączone.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Czy podane polecenie powinno obsługiwać adresy URL &quot;sip&quot;">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie podane w kluczu &quot;command&quot; powinno obsługiwać adresy URL &quot;sip&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Wykonanie polecenie w terminalu">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie użyte do obsługi tego typu adresów URL powinno być wykonywane w terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsługa adresów URL &quot;msnim&quot;">
+								<longdesc>Polecenie używane do obsługi adresów URL &quot;msnim&quot;, jeśli włączone.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Czy podane polecenie powinno obsługiwać adresy URL &quot;msnim&quot;">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie podane w kluczu &quot;command&quot; powinno obsługiwać adresy URL &quot;msnim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Wykonanie polecenie w terminalu">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie użyte do obsługi tego typu adresów URL powinno być wykonywane w terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsługa adresów URL &quot;irc&quot;">
+								<longdesc>Polecenie używane do obsługi adresów URL &quot;irc&quot;, jeśli włączone.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Czy podane polecenie powinno obsługiwać adresy URL &quot;irc&quot;">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie podane w kluczu &quot;command&quot; powinno obsługiwać adresy URL &quot;irc&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Wykonanie polecenie w terminalu">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie użyte do obsługi tego typu adresów URL powinno być wykonywane w terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsługa adresów URL &quot;icq&quot;">
+								<longdesc>Polecenie używane do obsługi adresów URL &quot;icq&quot;, jeśli włączone.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Czy podane polecenie powinno obsługiwać adresy URL &quot;icq&quot;">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie podane w kluczu &quot;command&quot; powinno obsługiwać adresy URL &quot;icq&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Wykonanie polecenie w terminalu">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie użyte do obsługi tego typu adresów URL powinno być wykonywane w terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsługa adresów URL &quot;gg&quot;">
+								<longdesc>Polecenie używane do obsługi adresów URL &quot;gg&quot;, jeśli włączone.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Czy podane polecenie powinno obsługiwać adresy URL &quot;gg&quot;">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie podane w kluczu &quot;command&quot; powinno obsługiwać adresy URL &quot;gg&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Wykonanie polecenie w terminalu">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie użyte do obsługi tego typu adresów URL powinno być wykonywane w terminalu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsługa adresów URL &quot;aim&quot;">
+								<longdesc>Polecenie używane do obsługi adresów URL &quot;aim&quot;, jeśli włączone.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Czy podane polecenie powinno obsługiwać adresy URL &quot;aim&quot;">
+								<longdesc>Wartość &quot;prawda&quot;, jeśli polecenie podane w kluczu &quot;command&quot; powinno obsługiwać adresy URL &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

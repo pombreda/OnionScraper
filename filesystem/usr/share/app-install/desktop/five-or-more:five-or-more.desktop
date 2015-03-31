@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=five-or-more
+X-AppInstall-Popcon=126
+X-AppInstall-Section=universe
+
+Name=Five or More
+Comment=Remove colored balls from the board by forming lines
+Keywords=game;strategy;logic;
+Exec=five-or-more
+Icon=five-or-more
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Game;LogicGame;
+StartupNotify=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

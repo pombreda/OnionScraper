@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ಆಜ್ಞೆಯನ್ನು ಒಂದು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸು">
+								<longdesc>ನಿಜ ಈ ಬಗೆಯ URL ಅನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾದ ಆಜ್ಞೆಯನ್ನು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸಬೇಕು ಎಂದಾದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸುವವ">
+								<longdesc>ಶಕ್ತಗೊಂಡಲ್ಲಿ, ಆಜ್ಞೆಯನ್ನು &quot;ymsgr&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ಸೂಚಿಸಿರುವ ಆಜ್ಞೆಯು &quot;ymsgr&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆ">
+								<longdesc>&quot;ಆಜ್ಞೆ&quot; ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾಗಿರುವ ಆಜ್ಞೆಯು &quot;ymsgr&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆಂದಿದ್ದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ಆಜ್ಞೆಯನ್ನು ಒಂದು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸು">
+								<longdesc>ನಿಜ ಈ ಬಗೆಯ URL ಅನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾದ ಆಜ್ಞೆಯನ್ನು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸಬೇಕು ಎಂದಾದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸುವವ">
+								<longdesc>ಶಕ್ತಗೊಂಡಲ್ಲಿ, ಆಜ್ಞೆಯನ್ನು &quot;xmpp&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ಸೂಚಿಸಿರುವ ಆಜ್ಞೆಯು &quot;xmpp&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆ">
+								<longdesc>&quot;ಆಜ್ಞೆ&quot; ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾಗಿರುವ ಆಜ್ಞೆಯು &quot;xmpp&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆಂದಿದ್ದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ಆಜ್ಞೆಯನ್ನು ಒಂದು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸು">
+								<longdesc>ನಿಜ ಈ ಬಗೆಯ URL ಅನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾದ ಆಜ್ಞೆಯನ್ನು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸಬೇಕು ಎಂದಾದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸುವವ">
+								<longdesc>ಶಕ್ತಗೊಂಡಲ್ಲಿ, ಆಜ್ಞೆಯನ್ನು &quot;sip&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ಸೂಚಿಸಿರುವ ಆಜ್ಞೆಯು &quot;sip&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆ">
+								<longdesc>&quot;ಆಜ್ಞೆ&quot; ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾಗಿರುವ ಆಜ್ಞೆಯು &quot;sip&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆಂದಿದ್ದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ಆಜ್ಞೆಯನ್ನು ಒಂದು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸು">
+								<longdesc>ನಿಜ ಈ ಬಗೆಯ URL ಅನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾದ ಆಜ್ಞೆಯನ್ನು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸಬೇಕು ಎಂದಾದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸುವವ">
+								<longdesc>ಶಕ್ತಗೊಂಡಲ್ಲಿ, ಆಜ್ಞೆಯನ್ನು &quot;msnim&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ಸೂಚಿಸಿರುವ ಆಜ್ಞೆಯು &quot;msnim&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆ">
+								<longdesc>&quot;ಆಜ್ಞೆ&quot; ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾಗಿರುವ ಆಜ್ಞೆಯು &quot;msnim&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆಂದಿದ್ದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ಆಜ್ಞೆಯನ್ನು ಒಂದು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸು">
+								<longdesc>ನಿಜ ಈ ಬಗೆಯ URL ಅನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾದ ಆಜ್ಞೆಯನ್ನು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸಬೇಕು ಎಂದಾದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URLಗಳಿಗಾಗಿನ ಹ್ಯಾಂಡ್ಲರ್">
+								<longdesc>ಶಕ್ತಗೊಂಡಲ್ಲಿ, ಆಜ್ಞೆಯನ್ನು &quot;irc&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ಸೂಚಿಸಿರುವ ಆಜ್ಞೆಯು &quot;irc&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆ">
+								<longdesc>&quot;ಆಜ್ಞೆ&quot; ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾಗಿರುವ ಆಜ್ಞೆಯು &quot;irc&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆಂದಿದ್ದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ .</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ಆಜ್ಞೆಯನ್ನು ಒಂದು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸು">
+								<longdesc>ನಿಜ ಈ ಬಗೆಯ URL ಅನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾದ ಆಜ್ಞೆಯನ್ನು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸಬೇಕು ಎಂದಾದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸುವವ">
+								<longdesc>ಶಕ್ತಗೊಂಡಲ್ಲಿ, ಆಜ್ಞೆಯನ್ನು &quot;icq&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ಸೂಚಿಸಿರುವ ಆಜ್ಞೆಯು &quot;icq&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆ">
+								<longdesc>&quot;ಆಜ್ಞೆ&quot; ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾಗಿರುವ ಆಜ್ಞೆಯು &quot;icq&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆಂದಿದ್ದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ಆಜ್ಞೆಯನ್ನು ಒಂದು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸು">
+								<longdesc>ನಿಜ ಈ ಬಗೆಯ URL ಅನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾದ ಆಜ್ಞೆಯನ್ನು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸಬೇಕು ಎಂದಾದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸುವವ">
+								<longdesc>ಶಕ್ತಗೊಂಡಲ್ಲಿ, ಆಜ್ಞೆಯನ್ನು &quot;gg&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ಸೂಚಿಸಿರುವ ಆಜ್ಞೆಯು &quot;gg&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆ">
+								<longdesc>&quot;ಆಜ್ಞೆ&quot; ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾಗಿರುವ ಆಜ್ಞೆಯು &quot;gg&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆಂದಿದ್ದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ಆಜ್ಞೆಯನ್ನು ಒಂದು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸು">
+								<longdesc>ನಿಜ ಈ ಬಗೆಯ URL ಅನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾದ ಆಜ್ಞೆಯನ್ನು ಟರ್ಮಿನಲ್ಲಿನಲ್ಲಿ ಚಲಾಯಿಸಬೇಕು ಎಂದಾದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸುವವ">
+								<longdesc>ಶಕ್ತಗೊಂಡಲ್ಲಿ, ಆಜ್ಞೆಯನ್ನು &quot;aim&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ಸೂಚಿಸಿರುವ ಆಜ್ಞೆಯು &quot;aim&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆ">
+								<longdesc>&quot;ಆಜ್ಞೆ&quot; ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾಗಿರುವ ಆಜ್ಞೆಯು &quot;aim&quot; URLಗಳನ್ನು ನಿಭಾಯಿಸಬೇಕೆಂದಿದ್ದಲ್ಲಿ ಇದು ನಿಜವಾಗುತ್ತದೆ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-screensaver
+X-AppInstall-Popcon=324
+X-AppInstall-Section=universe
+
+Name=Pop art squares
+Comment=A pop-art-ish grid of pulsing colors.
+Exec=/usr/lib/mate-screensaver/popsquares
+TryExec=/usr/lib/mate-screensaver/popsquares
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;
+Keywords=MATE;screensaver;grid;pulsing;colors;
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

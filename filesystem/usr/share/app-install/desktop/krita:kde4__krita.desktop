@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=krita
+X-AppInstall-Popcon=629
+X-AppInstall-Section=universe
+
+Name=Krita
+Exec=krita %U
+X-DocPath=http://userbase.kde.org/Special:MyLanguage/Krita
+GenericName=Digital Painting
+MimeType=application/x-krita;application/x-krita-flipbook;image/openraster;application/x-krita-paintoppreset;
+Comment=Digital Painting
+Type=Application
+Icon=calligrakrita
+Categories=Qt;KDE;Graphics;
+X-KDE-ServiceTypes=Calligra/Application
+X-Calligra-DefaultMimeTypes=application/x-krita
+X-KDE-NativeMimeType=application/x-krita
+StartupNotify=true
+X-DBUS-StartupType=Multi
+X-DBUS-ServiceName=org.krita.krita
+X-Krita-Version=28
+
+X-Ubuntu-Gettext-Domain=app-install-data

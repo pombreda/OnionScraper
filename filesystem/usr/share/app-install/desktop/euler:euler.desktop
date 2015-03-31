@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=euler
+X-AppInstall-Popcon=20
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Exec=euler
+Icon=euler-32
+Categories=Education;Science;Math;
+Name=Euler
+GenericName=Computer Algebra System
+Comment=An interactive mathematical program
+Keywords=Education;Science;Math;Graphics
+
+X-Ubuntu-Gettext-Domain=app-install-data

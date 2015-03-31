@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=algobox
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Categories=Application;Education;Science;Math;Qt;X-Misc;
+Exec=algobox %F
+GenericName=Algorithmics introduction software
+Icon=algobox
+Keywords=algorithm;school;learning;French
+MimeType=
+Name=AlgoBox
+StartupNotify=false
+Terminal=false
+Type=Application
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

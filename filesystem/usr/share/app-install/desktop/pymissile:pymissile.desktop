@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=pymissile
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=pymissile
+GenericName=PyMissile Viewer
+Comment=Control Marks and Spencer USB Missile Launcher
+Terminal=true
+Exec=pymissile
+#Icon=pymissile
+Categories=ConsoleOnly;Game;
+
+X-Ubuntu-Gettext-Domain=app-install-data

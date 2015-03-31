@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=caja
+X-AppInstall-Popcon=340
+X-AppInstall-Section=universe
+
+Name=File Management
+Comment=Change the behaviour and appearance of file manager windows
+Exec=caja-file-management-properties
+Icon=system-file-manager
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;X-MATE-PersonalSettings;
+Keywords=file;manager;change;properties;behaviour;appearance;windows;MATE;
+OnlyShowIn=MATE;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=caja
+X-MATE-Bugzilla-Component=Preferences
+X-MATE-Bugzilla-Version=1.8.2
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon-control-center
+X-AppInstall-Popcon=117
+X-AppInstall-Section=universe
+
+Exec=cinnamon-settings color
+Icon=cs-color
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;X-Cinnamon-Settings-Panel;HardwareSettings
+OnlyShowIn=X-Cinnamon;
+X-Cinnamon-Settings-Panel=color
+# Translators: those are keywords for the color control-center panel
+Keywords=Color;ICC;Profile;Calibrate;Printer;Display;
+Name=Color
+Comment=Color management settings
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

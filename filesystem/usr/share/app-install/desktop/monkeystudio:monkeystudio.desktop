@@ -1,0 +1,23 @@
+[Desktop Entry]
+X-AppInstall-Package=monkeystudio
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Version=1.0
+Terminal=false
+Type=Application
+Name=Monkey Studio IDE
+Comment=The best cross platform IDE available!
+TryExec=monkeystudio
+Exec=monkeystudio
+Icon=monkeystudio
+MimeType=text/*;inode/directory;
+Actions=Open;
+Categories=Development;Qt;IDE;
+
+[Desktop Action Open]
+Exec=monkeystudio %F
+Name=Open With MkS
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

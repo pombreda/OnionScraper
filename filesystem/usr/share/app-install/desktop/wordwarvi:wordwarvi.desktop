@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=wordwarvi
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Word War vi
+Comment=side-scrolling shoot'em up arcade game
+Icon=_usr_share_pixmaps_wordwarvi
+Exec=/usr/games/wordwarvi
+Categories=Game;ActionGame
+
+X-Ubuntu-Gettext-Domain=app-install-data

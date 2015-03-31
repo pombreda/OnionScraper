@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Loop die bevel in &apos;n terminaal">
+								<longdesc>Waar indien die bevel wat hierdie tipe URL hanteer in &apos;n terminaal moet loop.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Die vatsel vir &quot;ymsgr&quot;-URL&apos;e">
+								<longdesc>Die bevel wat gebruik word om &quot;ymsgr&quot;-URL&apos;e te hanteer, indien geaktiveer.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of die gespesifiseerde bevel &quot;ymsgr&quot;-URL&apos;e moet hanteer">
+								<longdesc>Waar indien die bevel gespesifiseer in die &quot;command&quot;-sleutel &quot;ymsgr&quot;-URL&apos;e moet hanteer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Loop die bevel in &apos;n terminaal">
+								<longdesc>Waar indien die bevel wat hierdie tipe URL hanteer in &apos;n terminaal moet loop.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Die vatsel vir &quot;xmpp&quot;-URL&apos;e">
+								<longdesc>Die bevel wat gebruik word om &quot;xmpp&quot;-URL&apos;e te hanteer, indien geaktiveer.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of die gespesifiseerde bevel &quot;xmpp&quot;-URL&apos;e moet hanteer">
+								<longdesc>Waar indien die bevel gespesifiseer in die &quot;command&quot;-sleutel &quot;xmpp&quot;-URL&apos;e moet hanteer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Loop die bevel in &apos;n terminaal">
+								<longdesc>Waar indien die bevel wat hierdie tipe URL hanteer in &apos;n terminaal moet loop.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Die vatsel vir &quot;sip&quot;-URL&apos;e">
+								<longdesc>Die bevel wat gebruik word om &quot;sip&quot;-URL&apos;e te hanteer, indien geaktiveer.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of die gespesifiseerde bevel &quot;sip&quot;-URL&apos;e moet hanteer">
+								<longdesc>Waar indien die bevel gespesifiseer in die &quot;command&quot;-sleutel &quot;sip&quot;-URL&apos;e moet hanteer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Loop die bevel in &apos;n terminaal">
+								<longdesc>Waar indien die bevel wat hierdie tipe URL hanteer in &apos;n terminaal moet loop.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Die vatsel vir &quot;msnim&quot;-URL&apos;e">
+								<longdesc>Die bevel wat gebruik word om &quot;msnim&quot;-URL&apos;e te hanteer, indien geaktiveer.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of die gespesifiseerde bevel &quot;msnim&quot;-URL&apos;e moet hanteer">
+								<longdesc>Waar indien die bevel gespesifiseer in die &quot;command&quot;-sleutel &quot;msnim&quot;-URL&apos;e moet hanteer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Loop die bevel in &apos;n terminaal">
+								<longdesc>Waar indien die bevel wat hierdie tipe URL hanteer in &apos;n terminaal moet loop.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Die vatsel vir &quot;irc&quot;-URL&apos;e">
+								<longdesc>Die bevel wat gebruik word om &quot;irc&quot;-URL&apos;e te hanteer, indien geaktiveer.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of die gespesifiseerde bevel &quot;irc&quot;-URL&apos;e moet hanteer">
+								<longdesc>Waar indien die bevel gespesifiseer in die &quot;command&quot;-sleutel &quot;irc&quot;-URL&apos;e moet hanteer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Loop die bevel in &apos;n terminaal">
+								<longdesc>Waar indien die bevel wat hierdie tipe URL hanteer in &apos;n terminaal moet loop.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Die vatsel vir &quot;icq&quot;-URL&apos;e">
+								<longdesc>Die bevel wat gebruik word om &quot;icq&quot;-URL&apos;e te hanteer, indien geaktiveer.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of die gespesifiseerde bevel &quot;icq&quot;-URL&apos;e moet hanteer">
+								<longdesc>Waar indien die bevel gespesifiseer in die &quot;command&quot;-sleutel &quot;icq&quot;-URL&apos;e moet hanteer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Loop die bevel in &apos;n terminaal">
+								<longdesc>Waar indien die bevel wat hierdie tipe URL hanteer in &apos;n terminaal moet loop.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Die vatsel vir &quot;gg&quot;-URL&apos;e">
+								<longdesc>Die bevel wat gebruik word om &quot;gg&quot;-URL&apos;e te hanteer, indien geaktiveer.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of die gespesifiseerde bevel &quot;gg&quot;-URL&apos;e moet hanteer">
+								<longdesc>Waar indien die bevel gespesifiseer in die &quot;command&quot;-sleutel &quot;gg&quot;-URL&apos;e moet hanteer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Loop die bevel in &apos;n terminaal">
+								<longdesc>Waar indien die bevel wat hierdie tipe URL hanteer in &apos;n terminaal moet loop.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Die vatsel vir &quot;aim&quot;-URL&apos;e">
+								<longdesc>Die bevel wat gebruik word om &quot;aim&quot;-URL&apos;e te hanteer, indien geaktiveer.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Of die gespesifiseerde bevel &quot;aim&quot;-URL&apos;e moet hanteer">
+								<longdesc>Waar indien die bevel gespesifiseer in die &quot;command&quot;-sleutel &quot;aim&quot;-URL&apos;e moet hanteer.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

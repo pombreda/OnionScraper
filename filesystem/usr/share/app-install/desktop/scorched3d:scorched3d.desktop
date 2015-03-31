@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=scorched3d
+X-AppInstall-Popcon=26
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Exec=/usr/games/scorched3d
+Icon=scorched3d
+Terminal=false
+Name=Scorched 3D
+Comment=3D artillery game similar to Scorched Earth
+Keywords=tank;tanks;multiplayer;multi-player;
+Categories=Game;ArcadeGame;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

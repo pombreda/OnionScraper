@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=openmolar
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=OpenMolar
+GenericName=Dental Practice Management Suite
+Comment=Dental Practice Management Software
+Exec=openmolar
+Icon=openmolar
+Terminal=false
+Type=Application
+MimeType=application/x-openmolar;
+Categories=Office;
+
+X-Ubuntu-Gettext-Domain=app-install-data

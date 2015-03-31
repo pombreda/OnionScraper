@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=big5">
+ <META NAME="GENERATOR" CONTENT="ZH-SGML-Tools 1.0.9">
+ <TITLE>Sylpheed FAQ</TITLE>
+ <LINK HREF="sylpheed-faq-1.html" REL=next>
+
+
+</HEAD>
+<BODY>
+<A HREF="sylpheed-faq-1.html">Next</A>
+Previous
+Contents
+<HR>
+<H1>Sylpheed FAQ</H1>
+
+    
+<H2>Paul Kater (paul@nlpagan.net)
+    and Jens Oberender (j.obi@troja.net)
+         Maintained by Fran蔞is Barri鋨e (barriere.francois@libertysurf.fr)
+    </H2>
+<P><HR>
+<EM>       Sylpheed FAQ (for version 0.8.0)
+    </EM>
+<HR>
+<P>Copyright (c)  2002 Fran蔞is Barri鋨e.
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.1
+or any later version published by the Free Software Foundation;
+with no Invariant Sections, with no Front-Cover Texts, and no Back-Cover Texts.
+A copy of the license is included in the section entitled "GNU
+Free Documentation License".
+<P>這份 FAQ 包含了下列章節：
+<P>
+<H2><A NAME="toc1">1.</A> <A HREF="sylpheed-faq-1.html">Sylpheed FAQ - 一般問題</A></H2>
+
+<UL>
+<LI><A HREF="sylpheed-faq-1.html#ss1.1">1.1 1.1 問：有其他語言的 FAQ 嗎？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.2">1.2 1.2 問：Sylpheed 是什麼？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.3">1.3 1.3 問：我可以從哪裡取得 Sylpheed？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.4">1.4 1.4 問：Sylpheed 的作者是？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.5">1.5 1.5 問：Sylpheed 這個名字是什麼意思？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.6">1.6 1.6 問：Sylpheed 是怎麼儲存郵件的？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.7">1.7 1.7 問：為何自動抓取郵件的功能不能運作？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.8">1.8 1.8 問：Sylpheed 有郵件過濾的功能嗎？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.9">1.9 1.9 問：Sylpheed 可以處理 IMAP 郵件嗎？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.10">1.10 1.10 問：Sylpheed 可以處理本機上的 unix 郵件信箱嗎？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.11">1.11 1.11 問：Sylpheed 支援 IPv6 協定嗎？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.12">1.12 1.12 問：Sylpheed 支援 GPG 之類的加密協定嗎？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.13">1.13 1.13 問：Sylpheed 如何檢查 MIME 型態？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.14">1.14 1.14 問：我可以用 Sylpheed 來寫 HTML 格式的信件嗎？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.15">1.15 1.15 問：Sylpheed 有沒有郵件地址與名稱補完（搜尋）的功能？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.16">1.16 1.16 問：不過我按下 TAB 鍵時卻有錯誤訊息。</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.17">1.17 1.17 問：Sylpheed 怎麼有辦法這麼快？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.18">1.18 1.18 問：我要從哪邊找到 Sylpheed 最新的修補程式？答：從 Sylpheed Patch homepage：<CODE></A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.19">1.19 1.19 問：我要如何回報錯誤、送回自己作的修補程式，或者與其他人討論一些 Sylpheed 的事情？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.20">1.20 1.20 問：我送信時，信件標頭中表示我這封信的編碼是 US-ASCII>，但是我指定的是 ISO-8859-1？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.21">1.21 1.21 問：為何自動折行的功能無法運作？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.22">1.22 1.22 問：我要如何找到最新版的 Sylpheed FAQ？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.23">1.23 1.23 問：我可以將 mbox 格式的信件匯入 Sylpheed 的 MH 信箱裡嗎？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.24">1.24 1.24 問：我可以用 procmail 來將我 MH 信箱中的郵件排序嗎？答：可以。只要確定你有在規則最後面加入 /.，讓 procmail 知道你在過濾 MH 信箱裡的郵件。例如：</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.25">1.25 1.25 問：當我更新 Sylpheed 時，我需要注意哪些事情？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.26">1.26 1.26 問：我要怎麼快速地更新 Sylpheed 的信件列表？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.27">1.27 1.27 問：我為何無法使用 gvim 當做外部編輯器？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.28">1.28 1.28 問：我能不能在回覆時只引入部份的原信件內容？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.29">1.29 1.29 問：我可以在回覆信件時選擇不引入原信件內容嗎？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.30">1.30 1.30 問：「選擇下載」要怎麼用？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.31">1.31 1.31 問：為什麼會有兩個過濾的選項？</A>
+<LI><A HREF="sylpheed-faq-1.html#ss1.32">1.32 1.32 問：我可以同時使用兩種過濾機制嗎？</A>
+</UL>
+<P>
+<H2><A NAME="toc2">2.</A> <A HREF="sylpheed-faq-2.html">Sylpheed FAQ - 安裝與設定</A></H2>
+
+<UL>
+<LI><A HREF="sylpheed-faq-2.html#ss2.1">2.1 2.1 問：編譯 Sylpheed 時需要什麼？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.2">2.2 2.2 問：要怎麼設定 Sylpheed？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.3">2.3 2.3 問：為何我無法產生新的信箱？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.4">2.4 2.4 問：我要如何新增一個帳號？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.5">2.5 2.5 問：我可以在 Sylpheed 中設定多少個帳號？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.6">2.6 2.6 問：為何我按下「刪除」鍵後，信件卻沒有被刪掉？我設定了信件過濾功能，為何它沒有過濾？我將一個信件移到別的信件夾中，為何它不肯移動？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.7">2.7 2.7 問：我可以指定不同的郵件或新聞伺服器的連接埠嗎？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.8">2.8 2.8 問：Sylpheed 有將信件串列顯示的功能嗎？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.9">2.9 2.9 問：我可以建立多層的信件夾來存放郵件嗎？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.10">2.10 2.10 問：為何 Sylpheed 沒有將我的信件送出去？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.11">2.11 2.11 問：我下載 Sylpheed 程式碼之後要如何安裝修補程式？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.12">2.12 2.12 問：我要如何將 compface 加入 Sylpheed？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.13">2.13 2.13 問：我要如何製作我自己的 compface 圖檔？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.14">2.14 2.14 問：我要如何從我的瀏覽器、新聞閱讀軟體或其他軟體中呼叫出 Sylpheed 來寄信？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.15">2.15 2.15 問：我要如何在 Sylpheed 中開啟 GPG 功能？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.16">2.16 2.16 問：Mutt 無法辨識 Sylpheed 的 MH 格式。</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.17">2.17 2.17 問：在信件列表中預覽一個 GIF 檔會造成 Segmentation Fault。</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.18">2.18 2.18 問：我要如何讓 Sylpheed 通知我新信件已經送到？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.19">2.19 2.19 問：我可以在 Sylpheed 中使用拼字檢查程式嗎？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.20">2.20 2.20 問：我要怎麼在郵件中送出我的 compface 圖樣？答：在「設定」目錄中的「目前帳號設定」，「送出」裡有一個「加入使用者定義的標頭」。核取它以後按下「編輯」，從「信件標頭設定」中選擇「X-Face」並在「值」這一欄中填入你的資料。注意如果你是從螢幕上直接剪貼的話，有可能會被加入一些換行符號之類的，要小心。</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.21">2.21 2.21 問：我從 cvs 中將程式碼下載，但是找不到 configure 這支程式。</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.22">2.22 2.22 問：我在執行 "autogen.sh" 時發生了錯誤，它告訴我 "AM_PATH_GDK_PIXBUF" 或 "AM_PATH_xxx" 找不到。</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.23">2.23 2.23 問：我想拿掉一些支援選項。但是我在執行 configure 後，還是沒有拿掉。</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.24">2.24 2.24 問：我要怎麼選用其他的應用程式來開啟特定的 MIME 格式郵件？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.25">2.25 2.25 問：我要怎麼換掉附加檔的 MIME 格式？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.26">2.26 2.26 問：我手動搬移/拷貝信件夾目錄後，在信件列表中並沒有更新。</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.27">2.27 2.27 問：我要怎麼將設定變回最開始的預設值？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.28">2.28 2.28 問：有哪些環境變數會影響 Sylpheed?</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.29">2.29 2.29 問：特殊字元無法正確顯示。</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.30">2.30 2.30 問：我要怎麼把我舊的信箱跟位址簿(從別的郵件程式)轉換過來？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.31">2.31 2.31 問：有哪些設定檔？它們又都是做什麼用途？</A>
+<LI><A HREF="sylpheed-faq-2.html#ss2.32">2.32 2.32 問：如果列印郵件印了好幾頁怎麼辦？</A>
+</UL>
+<P>
+<H2><A NAME="toc3">3.</A> <A HREF="sylpheed-faq-3.html">Sylpheed FAQ - 介面問題</A></H2>
+
+<UL>
+<LI><A HREF="sylpheed-faq-3.html#ss3.1">3.1 3.1 問：我要如何讓 Sylpheed 顯示我們自己的語言？</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.2">3.2 3.2 問：我不喜歡它預設的字型。我可以更改字型嗎？</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.3">3.3 3.3 問：在信件列表中的項目太多了！</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.4">3.4 3.4 問：我可以用不同的文字編輯器來撰寫郵件嗎？</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.5">3.5 3.5 問：如何變更 Sylpheed 介面字型的大小？</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.6">3.6 問：Sylpheed 會把我寄出的信件存放到寄件夾中，我可以選擇不要這樣做嗎？</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.7">3.7 3.7 問：我要如何更改 Sylpheed 中的熱鍵設定？</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.8">3.8 3.8 問：我可以不使用滑鼠而將視窗關閉嗎？</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.9">3.9 3.9 問：我可以改變信件列表中日期顯示的格式嗎？答：從 0.4.65 版之後你就可以修改日期格式。選項包括：     %y = 年份                %m = 月份     %d = 日期�               %c = 本地格式的日期/時間     %A = 星期幾�             %a = 星期幾（英文縮寫）     %B = 月份�               %b = 月份（英文縮寫）     %H = 24 時制的小時       %I = 12 時制的小時其他資訊你可以在「設定」下的「一般設定」，「顯示」項目中的「日期格式」右方的按鈕按下去有詳細說明。</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.10">3.10 3.10 問：我為何無法看見 compface 的圖樣？</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.11">3.11 3.11 問：我還是無法看見那個圖樣，為什麼？</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.12">3.12 3.12 問：為何「瀏覽器」設定沒有順利將瀏覽器啟動？</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.13">3.13 3.13 問：當我要開啟附加檔時，若附加檔名有空白它就無法開啟！</A>
+<LI><A HREF="sylpheed-faq-3.html#ss3.14">3.14 3.14 問：我撰寫郵件時怎麼找不到密件副本呢？</A>
+</UL>
+<H2>Appendix</H2>
+<P>
+<H2><A NAME="toc4">4.</A> <A HREF="sylpheed-faq-4.html">GNU Free Documentation License</A></H2>
+
+<UL>
+<LI><A HREF="sylpheed-faq-4.html#ss4.1">4.1 PREAMBLE</A>
+<LI><A HREF="sylpheed-faq-4.html#ss4.2">4.2 APPLICABILITY AND DEFINITIONS</A>
+<LI><A HREF="sylpheed-faq-4.html#ss4.3">4.3 VERBATIM COPYING</A>
+<LI><A HREF="sylpheed-faq-4.html#ss4.4">4.4 COPYING IN QUANTITY</A>
+<LI><A HREF="sylpheed-faq-4.html#ss4.5">4.5 MODIFICATIONS</A>
+<LI><A HREF="sylpheed-faq-4.html#ss4.6">4.6 COMBINING DOCUMENTS</A>
+<LI><A HREF="sylpheed-faq-4.html#ss4.7">4.7 COLLECTIONS OF DOCUMENTS</A>
+<LI><A HREF="sylpheed-faq-4.html#ss4.8">4.8 AGGREGATION WITH INDEPENDENT WORKS</A>
+<LI><A HREF="sylpheed-faq-4.html#ss4.9">4.9 TRANSLATION</A>
+<LI><A HREF="sylpheed-faq-4.html#ss4.10">4.10 TERMINATION</A>
+<LI><A HREF="sylpheed-faq-4.html#ss4.11">4.11 FUTURE REVISIONS OF THIS LICENSE</A>
+<LI><A HREF="sylpheed-faq-4.html#ss4.12">4.12 How to use this License for your documents</A>
+</UL>
+<HR>
+<A HREF="sylpheed-faq-1.html">Next</A>
+Previous
+Contents
+</BODY>
+</HTML>

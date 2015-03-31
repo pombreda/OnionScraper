@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=imagevis3d
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Type=Application
+Terminal=false
+Version=3.1.0
+Name=ImageVis3D
+GenericName=Data Viewer
+Comment=Desktop volume rendering application for large data
+TryExec=imagevis3d
+Exec=imagevis3d &
+Categories=Education;Science;DataVisualization;ImageProcessing;MedicalSoftware
+Icon=imagevis3d
+MimeType=application/x-imagevis3d;
+Keywords=scientific visualization; scientific computing; ray tracing; ray-tracing RT; image analysis; computational field problems; inverse problems; forward problems; adaptive methods; isosurface extraction; vector field; tensor field; volume rendering; parallel rendering; glyphs; immersive environments; haptics; image processing;  problem solving environments PSE PSEs; common component architecture CCA;  collaborative environments; medical imaging; biological imaging; seismic imaging; combustion; geoscience; SCIRun; BioPSE; Teem; VisTrails; ITK; computational science; computational engineering; fusion; Uintah; computational fluid dynamics CFD
+
+X-Ubuntu-Gettext-Domain=app-install-data

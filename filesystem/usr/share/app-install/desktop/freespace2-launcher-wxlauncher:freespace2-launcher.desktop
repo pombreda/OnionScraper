@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=freespace2-launcher-wxlauncher
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+Name=Freespace2 launcher
+Exec=/usr/games/freespace2-launcher
+Icon=wxlauncher
+Type=Application
+Categories=Game;
+Comment=launcher for the Freespace 2 Source Code Project
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

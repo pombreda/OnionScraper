@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=kmail
+X-AppInstall-Popcon=4213
+X-AppInstall-Section=universe
+
+Name=PIM Setting Exporter
+Exec=pimsettingexporter
+Type=Application
+Comment=PIM Setting Exporter allows to save all data from PIM apps and restore them in other system.
+Terminal=false
+Categories=Qt;KDE;Office;Network;Email;
+X-DocPath=pimsettingexporter/index.html
+
+X-Ubuntu-Gettext-Domain=app-install-data

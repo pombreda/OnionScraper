@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python3
+/usr/lib/python3/dist-packages
+/usr/lib/python3/dist-packages/icu.py
+/usr/lib/python3/dist-packages/_icu.cpython-34m-x86_64-linux-gnu.so
+/usr/lib/python3/dist-packages/PyICU-1.7.egg-info
+/usr/lib/python3/dist-packages/icu_docs.py
+/usr/lib/python3/dist-packages/PyICU.py
+/usr/share
+/usr/share/doc
+/usr/share/doc/python3-icu
+/usr/share/doc/python3-icu/copyright
+/usr/share/doc/python3-icu/changelog.Debian.gz

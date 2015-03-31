@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Name=Extra Graphics Applications
+GenericName=Software Installer
+Comment=Allows the installation of Graphics Applications
+Exec=ubuntustudio-installer ubuntustudio-graphics xaralx krita kgamma sozi pencil kcolorchooser jscribble alchemy gimp-paint-studio
+Icon=ubuntustudio-installer
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=Install;
+
+X-Ubuntu-Gettext-Domain=app-install-data

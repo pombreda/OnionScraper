@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=printer-driver-foo2zjs-common
+X-AppInstall-Popcon=14687
+X-AppInstall-Section=main
+
+Name=Reactivate HP LaserJet 1018/1020 after reloading paper
+Comment=Click the button in this program when your printer ran out of paper and you have refilled the paper
+# zExec=usb_printerid /dev/usb/lp0
+Exec=/usr/share/foo2zjs/hplj10xx_gui.tcl
+Terminal=false
+Type=Application
+Icon=_usr_share_pixmaps_hplj1020_icon
+StartupNotify=true
+Categories=System;
+X-Desktop-File-Install-Version=0.10
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

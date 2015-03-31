@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper dir_to_symlink /usr/share/doc/cups-driver-gutenprint /usr/share/doc/printer-driver-gutenprint 5.2.10-1~ -- "$@"
+# End automatically added section

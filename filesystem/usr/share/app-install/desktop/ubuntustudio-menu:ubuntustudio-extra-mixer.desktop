@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Name=Extra mixers
+GenericName=Software Installer
+Comment=Allows the installation of other mixers
+Exec=ubuntustudio-installer jack-mixer jackeq livemix non-mixer
+Icon=ubuntustudio-installer
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=Install;
+
+X-Ubuntu-Gettext-Domain=app-install-data

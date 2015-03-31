@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=laditools
+X-AppInstall-Popcon=78
+X-AppInstall-Section=universe
+
+Name=LADI Control Center
+Type=Application
+Comment=Configure the LADI system
+Terminal=false
+Exec=ladi-control-center
+Icon=preferences-system
+Categories=GNOME;GTK;Settings;
+GenericName=LADI configuration
+
+X-Ubuntu-Gettext-Domain=app-install-data

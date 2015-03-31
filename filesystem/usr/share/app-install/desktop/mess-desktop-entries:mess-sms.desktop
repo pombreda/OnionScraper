@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=mess-desktop-entries
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+Name=Sega Master System/Game Gear ROM Player
+Comment=Play Sega Master System and Game Gear games
+Type=Application
+Exec=/usr/games/mess sms -cartridge %f
+Terminal=false
+NoDisplay=true
+MimeType=application/x-sms-rom;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

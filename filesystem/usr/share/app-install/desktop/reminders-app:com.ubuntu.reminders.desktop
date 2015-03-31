@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=reminders-app
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Reminders
+Comment=Ubuntu Reminders app, powered by Evernote
+Exec=reminders
+Icon=_usr_share_reminders_reminders
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

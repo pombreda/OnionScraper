@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=qmmp
+X-AppInstall-Popcon=173
+X-AppInstall-Section=universe
+
+X-Desktop-File-Install-Version=0.11
+Name=Qmmp
+Comment=Qt4-based Multimedia Player
+GenericName=Audio player
+Exec=qmmp %F
+Icon=qmmp
+Terminal=false
+NoDisplay=true
+Type=Application
+Categories=AudioVideo;Player;Audio;Qt;
+MimeType=inode/directory;
+X-KDE-StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

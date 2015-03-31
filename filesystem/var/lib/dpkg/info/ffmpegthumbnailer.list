@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/bin
+/usr/bin/ffmpegthumbnailer
+/usr/share
+/usr/share/doc
+/usr/share/doc/ffmpegthumbnailer
+/usr/share/doc/ffmpegthumbnailer/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/ffmpegthumbnailer.1.gz
+/usr/share/thumbnailers
+/usr/share/thumbnailers/ffmpegthumbnailer.thumbnailer
+/usr/share/doc/ffmpegthumbnailer/changelog.Debian.gz

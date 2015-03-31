@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=yokadi
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Yokadi
+GenericName=TODO list manager
+Comment=Command-line oriented TODO list manager
+Exec=yokadi
+Terminal=true
+Icon=yokadi
+Type=Application
+Categories=Office;ProjectManagement;ConsoleOnly;
+Keywords=todo;projectmanagement;commandline;
+
+X-Ubuntu-Gettext-Domain=app-install-data

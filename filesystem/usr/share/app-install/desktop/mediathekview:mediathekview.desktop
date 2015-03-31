@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=mediathekview
+X-AppInstall-Popcon=75
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=MediathekView
+Categories=AudioVideo;Video;TV;
+Comment=View streams from public German TV stations
+Exec=mediathekview
+Icon=MediathekView
+Keywords=stream;television;German;public;TV;video;audio;
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

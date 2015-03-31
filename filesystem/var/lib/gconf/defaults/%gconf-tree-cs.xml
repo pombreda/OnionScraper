@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustit příkaz v terminálu">
+								<longdesc>Pravda, jestliže příkaz používaný pro obsluhu tohoto typu URL má běžet v terminálu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsluha URL &quot;ymsgr&quot;">
+								<longdesc>Příkaz používaný pro obsluhu URL &quot;ymsgr&quot;, je-li povolen.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Jestli má zadaný příkaz obsluhovat URL &quot;ymsgr&quot;">
+								<longdesc>Pravda, jestliže příkaz zadaný v klíči &quot;command&quot; má obsluhovat URL &quot;ymsgr&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustit příkaz v terminálu">
+								<longdesc>Pravda, jestliže příkaz používaný pro obsluhu tohoto typu URL má běžet v terminálu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsluha URL &quot;xmpp&quot;">
+								<longdesc>Příkaz používaný pro obsluhu URL &quot;xmpp&quot;, je-li povolen.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Jestli má zadaný příkaz obsluhovat URL &quot;xmpp&quot;">
+								<longdesc>Pravda, jestliže příkaz zadaný v klíči &quot;command&quot; má obsluhovat URL &quot;xmpp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustit příkaz v terminálu">
+								<longdesc>Pravda, jestliže příkaz používaný pro obsluhu tohoto typu URL má běžet v terminálu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsluha URL &quot;sip&quot;">
+								<longdesc>Příkaz používaný pro obsluhu URL &quot;sip&quot;, je-li povolen.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Jestli má zadaný příkaz obsluhovat URL &quot;sip&quot;">
+								<longdesc>Pravda, jestliže příkaz zadaný v klíči &quot;command&quot; má obsluhovat URL &quot;sip&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustit příkaz v terminálu">
+								<longdesc>Pravda, jestliže příkaz používaný pro obsluhu tohoto typu URL má běžet v terminálu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsluha URL &quot;msnim&quot;">
+								<longdesc>Příkaz používaný pro obsluhu URL &quot;msnim&quot;, je-li povolen.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Jestli má zadaný příkaz obsluhovat URL &quot;msnim&quot;">
+								<longdesc>Pravda, jestliže příkaz zadaný v klíči &quot;command&quot; má obsluhovat URL &quot;msnim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustit příkaz v terminálu">
+								<longdesc>Pravda, jestliže příkaz používaný pro obsluhu tohoto typu URL má běžet v terminálu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsluha URL &quot;irc&quot;">
+								<longdesc>Příkaz používaný pro obsluhu URL &quot;irc&quot;, je-li povolen.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Jestli má zadaný příkaz obsluhovat URL &quot;irc&quot;">
+								<longdesc>Pravda, jestliže příkaz zadaný v klíči &quot;command&quot; má obsluhovat URL &quot;irc&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustit příkaz v terminálu">
+								<longdesc>Pravda, jestliže příkaz používaný pro obsluhu tohoto typu URL má běžet v terminálu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsluha URL &quot;icq&quot;">
+								<longdesc>Příkaz používaný pro obsluhu URL &quot;icq&quot;, je-li povolen.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Jestli má zadaný příkaz obsluhovat URL &quot;icq&quot;">
+								<longdesc>Pravda, jestliže příkaz zadaný v klíči &quot;command&quot; má obsluhovat URL &quot;icq&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustit příkaz v terminálu">
+								<longdesc>Pravda, jestliže příkaz používaný pro obsluhu tohoto typu URL má běžet v terminálu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsluha URL &quot;gg&quot;">
+								<longdesc>Příkaz používaný pro obsluhu URL &quot;gg&quot;, je-li povolen.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Jestli má zadaný příkaz obsluhovat URL &quot;gg&quot;">
+								<longdesc>Pravda, jestliže příkaz zadaný v klíči &quot;command&quot; má obsluhovat URL &quot;gg&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Spustit příkaz v terminálu">
+								<longdesc>Pravda, jestliže příkaz používaný pro obsluhu tohoto typu URL má běžet v terminálu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Obsluha URL &quot;aim&quot;">
+								<longdesc>Příkaz používaný pro obsluhu URL &quot;aim&quot;, je-li povolen.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Jestli má zadaný příkaz obsluhovat URL &quot;aim&quot;">
+								<longdesc>Pravda, jestliže příkaz zadaný v klíči &quot;command&quot; má obsluhovat URL &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=chocolate-doom
+X-AppInstall-Popcon=13
+X-AppInstall-Section=multiverse
+
+Name=Chocolate Doom Setup
+Exec=chocolate-doom-setup
+Icon=chocolate-setup
+Type=Application
+Comment=Setup tool for Chocolate Doom
+Categories=Settings
+
+X-Ubuntu-Gettext-Domain=app-install-data

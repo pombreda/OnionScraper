@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=q4wine
+X-AppInstall-Popcon=433
+X-AppInstall-Section=universe
+
+Categories=Qt;System;Emulator;
+GenericName=utility for Wine applications and prefixes management.
+Exec=q4wine -b %u
+Icon=q4wine
+Name=Q4Wine
+StartupNotify=true
+Terminal=false
+Type=Application
+MimeType=application/x-ms-dos-executable;
+Keywords=Wine;Windows;Emulator;
+
+X-Ubuntu-Gettext-Domain=app-install-data

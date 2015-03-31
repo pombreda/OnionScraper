@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=cutesdr
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=CuteSDR
+GenericName=Software Defined Radio
+Comment=Spectrum display and demodulator of IQ radio data
+Exec=/usr/bin/CuteSDR
+Icon=cutesdr
+Type=Application
+Terminal=false
+Categories=Utility;HamRadio;Tuner
+
+X-Ubuntu-Gettext-Domain=app-install-data

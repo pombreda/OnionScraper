@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-webapps-qml-examples
+X-AppInstall-Popcon=0
+X-AppInstall-Section=main
+
+Name=BBCNewsWebappsQMLExample
+Type=Application
+Exec=/usr/bin/unity-webapps-qml-launcher --qml=/usr/share/unity-webapps-qml/examples/unity-webapps-example-bbcnews/main.qml --app-id=unity-webapps-qml-bbcnews-example
+Path=/usr/share/unity-webapps-qml/examples/unity-webapps-example-bbcnews
+GenericName=Unity WebApp QML Component for Ubuntu Example using BBCNews binding
+Icon=qmlscene
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

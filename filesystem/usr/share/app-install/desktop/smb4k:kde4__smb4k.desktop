@@ -1,0 +1,18 @@
+# KDE Config File
+[Desktop Entry]
+X-AppInstall-Package=smb4k
+X-AppInstall-Popcon=176
+X-AppInstall-Section=universe
+
+Name=Smb4K
+GenericName=Advanced Network Neighborhood Browser
+Comment=Advanced Network Neighborhood Browser
+Exec=smb4k
+Icon=smb4k
+X-DocPath=smb4k/index.html
+Type=Application
+Terminal=false
+Categories=Qt;KDE;Utility;
+X-DBUS-ServiceName=de.berlios.smb4k
+
+X-Ubuntu-Gettext-Domain=app-install-data

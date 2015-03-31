@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=laditools
+X-AppInstall-Popcon=78
+X-AppInstall-Section=universe
+
+Name=LADI Log File Viewer
+Type=Application
+Comment=View or monitor LADI log files
+Terminal=false
+Exec=ladi-system-log
+Icon=ladi-system-log
+Categories=GNOME;GTK;Settings;
+GenericName=Log file viewer
+
+X-Ubuntu-Gettext-Domain=app-install-data

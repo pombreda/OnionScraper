@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Name=Extra Video Applications
+GenericName=Software Installer
+Comment=Allows the installation of Video Applications
+Exec=ubuntustudio-installer ubuntustudio-video lombard devede lives kino avidemux dvgrab gnome-subtitles v4l2loopback-source dvswitch stopmotion v4l2ucp v4l-conf bombono-dvd v4l-utils dov4l mistelix
+Icon=ubuntustudio-installer
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=Install;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=vprerex
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=vprerex
+GenericName=Prerequisite Chart Editor
+Comment=Edit course prerequisite charts
+Exec=vprerex
+Terminal=false
+Type=Application
+Categories=Office;Chart;Viewer;
+MimeType=text/x-tex;application/pdf;
+Keywords=diagram;tikz;latex;
+
+X-Ubuntu-Gettext-Domain=app-install-data

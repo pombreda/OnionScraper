@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запустити команду в терміналі">
+								<longdesc>Так, якщо команда, що використовується для обробки цього типу URL-посилань, має бути запущена у терміналі.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обробник URL-посилань &quot;ymsgr&quot;">
+								<longdesc>Команда використовується для обробки &quot;ymsgr&quot; URL-адрес, якщо увімкнено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Чи визначена команда має оброблювати &quot;ymsgr&quot; URL-посилання">
+								<longdesc>Так, якщо команда визначена у &quot;command&quot; має обробляти &quot;ymsgr&quot; URL-посилання.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запустити команду в терміналі">
+								<longdesc>Так, якщо команда, що використовується для обробки цього типу URL-посилань, має бути запущена у терміналі.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обробник URL-посилань &quot;xmpp&quot;">
+								<longdesc>Команда використовується для обробки &quot;xmpp&quot; URL-адрес, якщо увімкнено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Чи визначена команда має оброблювати &quot;xmpp&quot; URL-посилання">
+								<longdesc>Так, якщо команда визначена у &quot;command&quot; має обробляти &quot;xmpp&quot; URL-посилання.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запустити команду в терміналі">
+								<longdesc>Так, якщо команда, що використовується для обробки цього типу URL-посилань, має бути запущена у терміналі.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обробник URL-посилань &quot;sip&quot;">
+								<longdesc>Команда використовується для обробки &quot;sip&quot; URL-адрес, якщо увімкнено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Чи визначена команда має оброблювати &quot;sip&quot; URL-посилання">
+								<longdesc>Так, якщо команда визначена у &quot;command&quot; має обробляти &quot;sip&quot; URL-посилання.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запустити команду в терміналі">
+								<longdesc>Так, якщо команда, що використовується для обробки цього типу URL-посилань, має бути запущена у терміналі.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обробник URL-посилань &quot;msnim&quot;">
+								<longdesc>Команда використовується для обробки &quot;msnim&quot; URL-адрес, якщо увімкнено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Чи визначена команда має оброблювати &quot;msnim&quot; URL-посилання">
+								<longdesc>Так, якщо команда визначена у &quot;command&quot; має обробляти &quot;msnim&quot; URL-посилання.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запустити команду в терміналі">
+								<longdesc>Так, якщо команда, що використовується для обробки цього типу URL-посилань, має бути запущена у терміналі.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обробник URL-посилань &quot;irc&quot;">
+								<longdesc>Команда використовується для обробки &quot;irc&quot; URL-адрес, якщо увімкнено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Чи визначена команда має оброблювати &quot;irc&quot; URL-посилання">
+								<longdesc>Так, якщо команда визначена у &quot;command&quot; має обробляти &quot;irc&quot; URL-посилання.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запустити команду в терміналі">
+								<longdesc>Так, якщо команда, що використовується для обробки цього типу URL-посилань, має бути запущена у терміналі.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обробник URL-посилань &quot;icq&quot;">
+								<longdesc>Команда використовується для обробки &quot;icq&quot; URL-адрес, якщо увімкнено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Чи визначена команда має оброблювати &quot;icq&quot; URL-посилання">
+								<longdesc>Так, якщо команда визначена у &quot;command&quot; має обробляти &quot;icq&quot; URL-посилання.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запустити команду в терміналі">
+								<longdesc>Так, якщо команда, що використовується для обробки цього типу URL-посилань, має бути запущена у терміналі.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обробник URL-посилань &quot;gg&quot;">
+								<longdesc>Команда використовується для обробки &quot;gg&quot; URL-адрес, якщо увімкнено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Чи визначена команда має оброблювати &quot;gg&quot; URL-посилання">
+								<longdesc>Так, якщо команда визначена у &quot;command&quot; має обробляти &quot;gg&quot; URL-посилання.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Запустити команду в терміналі">
+								<longdesc>Так, якщо команда, що використовується для обробки цього типу URL-посилань, має бути запущена у терміналі.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обробник URL-посилань &quot;aim&quot;">
+								<longdesc>Команда використовується для обробки &quot;aim&quot; URL-адрес, якщо увімкнено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Чи визначена команда має оброблювати &quot;aim&quot; URL-посилання">
+								<longdesc>Так, якщо команда визначена у &quot;command&quot; має обробляти &quot;aim&quot; URL-посилання.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=zathura
+X-AppInstall-Popcon=97
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Zathura
+Comment=A minimalistic document viewer
+Exec=zathura %f
+Terminal=false
+NoDisplay=true
+Categories=Office;Viewer;
+MimeType=application/pdf;
+
+X-Ubuntu-Gettext-Domain=app-install-data

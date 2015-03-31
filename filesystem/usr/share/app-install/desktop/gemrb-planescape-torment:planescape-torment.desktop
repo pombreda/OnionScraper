@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gemrb-planescape-torment
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Planescape: Torment - GemRB
+GenericName=Planescape: Torment
+Comment=Planescape: Torment game running with GemRB
+Type=Application
+Icon=planescape-torment
+Terminal=true
+Exec=planescape-torment
+Categories=Game;RolePlaying;Emulator;
+Keywords=roleplay;rpg;adventure;game;2d;isometric;gemrb;infinite engine;black isle;
+
+X-Ubuntu-Gettext-Domain=app-install-data

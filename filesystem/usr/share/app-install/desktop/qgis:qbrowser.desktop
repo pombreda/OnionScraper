@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=qgis
+X-AppInstall-Popcon=332
+X-AppInstall-Section=universe
+
+Type=Application
+Name=QGIS Browser
+Version=1.0
+GenericName=Geographic Information System
+Icon=qgis
+TryExec=/usr/bin/qbrowser
+Exec=/usr/bin/qbrowser %F
+Terminal=false
+StartupNotify=false
+Categories=Qt;Education;Science;Geography;
+Keywords=map;globe;postgis;wms;wfs;ogc;osgeo
+
+X-Ubuntu-Gettext-Domain=app-install-data

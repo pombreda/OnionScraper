@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=megaglest
+X-AppInstall-Popcon=25
+X-AppInstall-Section=universe
+
+Categories=Game;StrategyGame;
+Comment=G3d Model Viewer
+Name=MegaGlest Model Viewer
+Icon=megaglest
+Exec=megaglest_g3dviewer
+Terminal=false
+Type=Application
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

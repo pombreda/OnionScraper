@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=pink-pony
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=Pink Pony
+Version=1.0
+Icon=_usr_share_pixmaps_pink-pony
+Comment=A Tron-like multiplayer racing game
+Exec=/usr/games/pink-pony
+Terminal=false
+StartupNotify=false
+Type=Application
+TryExec=/usr/games/pink-pony
+Categories=Game;ArcadeGame
+
+X-Ubuntu-Gettext-Domain=app-install-data

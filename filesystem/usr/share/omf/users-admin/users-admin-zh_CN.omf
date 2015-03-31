@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>用户管理工具手册</title>
+    <date>2004 年 6 月</date>
+    <version identifier="用户管理工具手册 0.35 版" date="2004 年 6 月"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      用户管理工具允许您添加，删除和更改系统中的用户和组。
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/users-admin/zh_CN/users-admin.xml"/>
+    <language code="zh_CN"/>
+    <relation seriesid="96a3093c-85dd-11da-9b62-8f8e4c73e091"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

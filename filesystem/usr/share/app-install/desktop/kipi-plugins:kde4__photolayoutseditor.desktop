@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kipi-plugins
+X-AppInstall-Popcon=1405
+X-AppInstall-Section=universe
+
+Type=Application
+Categories=Qt;KDE;Graphics;Photography;
+Exec=photolayoutseditor
+Icon=photolayoutseditor
+Name=Photo Layouts Editor
+GenericName=Photo layouts management program
+Comment=Create beautiful and professional photo layouts from your photos
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

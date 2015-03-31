@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="16" width="16" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs4">
+  <linearGradient id="linearGradient2270" y2="11.671" gradientUnits="userSpaceOnUse" x2="8" y1="3.5631" x1="8">
+   <stop id="stop2266" style="stop-color:#eeeeec" offset="0"/>
+   <stop id="stop2268" style="stop-color:#eeeeec;stop-opacity:0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1">
+  <path id="path2254" style="fill:#444643;fill-rule:evenodd" d="m3.9835 1.4981h8.0165c1.395 0 2.518 1.123 2.518 2.5179v7.967c0 1.395-1.123 2.518-2.518 2.518h-8.0165c-1.3949 0-2.5179-1.123-2.5179-2.518v-7.967c0-1.3949 1.123-2.5179 2.5179-2.5179z"/>
+  <path id="rect2233" style="fill-rule:evenodd;stroke:#a40000;fill:#f13d3d" d="m4.0065 1.4999h7.9855c1.39 0 2.509 1.1228 2.509 2.5175v7.9656c0 1.394-1.119 2.517-2.509 2.517h-7.9855c-1.3897 0-2.5084-1.123-2.5084-2.517v-7.9656c0-1.3947 1.1187-2.5175 2.5084-2.5175z"/>
+  <path id="path2252" style="opacity:.3;fill-rule:evenodd;stroke:#fff;fill:url(#linearGradient2270)" d="m3.9688 2.5c-0.8478 0-1.5 0.6685-1.5 1.5312v7.9378c0 0.863 0.6522 1.531 1.5 1.531h8.0312c0.848 0 1.531-0.684 1.531-1.531v-7.9378c0-0.8477-0.683-1.5312-1.531-1.5312h-8.0312z" xlink:href="#rect2233"/>
+  <path id="path2235" style="fill:#eeeeec;fill-rule:evenodd" d="m5.713 5.3124a0.68012 0.77728 0 1 1 -1.3602 0 0.68012 0.77728 0 1 1 1.3602 0z" transform="matrix(2.2055 0 0 1.9298 -5.6 -4.752)"/>
+  <path id="path2272" style="fill:#eeeeec;fill-rule:evenodd" d="m5.713 5.3124a0.68012 0.77728 0 1 1 -1.3602 0 0.68012 0.77728 0 1 1 1.3602 0z" transform="matrix(2.2055 0 0 1.9298 -5.6 .24799)"/>
+  <path id="path2274" style="fill:#eeeeec;fill-rule:evenodd" d="m5.713 5.3124a0.68012 0.77728 0 1 1 -1.3602 0 0.68012 0.77728 0 1 1 1.3602 0z" transform="matrix(2.2055 0 0 1.9298 -0.6 .24799)"/>
+  <path id="path2276" style="fill:#eeeeec;fill-rule:evenodd" d="m5.713 5.3124a0.68012 0.77728 0 1 1 -1.3602 0 0.68012 0.77728 0 1 1 1.3602 0z" transform="matrix(2.2055 0 0 1.9298 -.6 -4.752)"/>
+ </g>
+</svg>

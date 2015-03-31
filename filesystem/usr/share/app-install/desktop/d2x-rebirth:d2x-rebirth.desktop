@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=d2x-rebirth
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+Name=Descent 2
+Comment=DXX-Rebirth source port of Descent 2: Counterstrike from 1996...
+Exec=d2x-rebirth
+Icon=d2x-rebirth
+Terminal=false
+Type=Application
+Categories=Game;ActionGame;
+StartupNotify=false
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

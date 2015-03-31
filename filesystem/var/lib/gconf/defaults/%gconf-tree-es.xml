@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Ejecutar la orden en un terminal">
+								<longdesc>Cierto si la orden especifica para gestionar este tipo de URLs debería ejecutarse en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El manejador para URLs «ymsgr»">
+								<longdesc>La orden para gestionar URLs «ymsgr», si se activan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si la orden debería gestionar URLs «ymsgr»">
+								<longdesc>Cierto si la orden especificada en la tecla «command» debería gestionar URLs «ymsgr».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Ejecutar la orden en un terminal">
+								<longdesc>Cierto si la orden especifica para gestionar este tipo de URLs debería ejecutarse en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El manejador para URLs «xmpp»">
+								<longdesc>La orden para gestionar URLs «xmpp», si se activan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si la orden debería gestionar URLs «xmpp»">
+								<longdesc>Cierto si la orden especificada en la tecla «command» debería gestionar URLs «xmpp».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Ejecutar la orden en un terminal">
+								<longdesc>Cierto si la orden especifica para gestionar este tipo de URLs debería ejecutarse en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El manejador para URLs «sip»">
+								<longdesc>La orden para gestionar URLs «sip», si se activan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si la orden debería gestionar URLs «sip»">
+								<longdesc>Cierto si la orden especificada en la tecla «command» debería gestionar URLs «sip».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Ejecutar la orden en un terminal">
+								<longdesc>Cierto si la orden especifica para gestionar este tipo de URLs debería ejecutarse en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El manejador para URLs «msnim»">
+								<longdesc>La orden para gestionar URLs «msnim», si se activan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si la orden debería gestionar URLs «msnim»">
+								<longdesc>Cierto si la orden especificada en la tecla «command» debería gestionar URLs «msnim».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Ejecutar la orden en un terminal">
+								<longdesc>Cierto si la orden especifica para gestionar este tipo de URLs debería ejecutarse en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El manejador para URLs «irc»">
+								<longdesc>La orden para gestionar URLs «irc», si se activan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si la orden debería gestionar URLs «irc»">
+								<longdesc>Cierto si la orden especificada en la tecla «command» debería gestionar URLs «irc».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Ejecutar la orden en un terminal">
+								<longdesc>Cierto si la orden especifica para gestionar este tipo de URLs debería ejecutarse en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El manejador para URLs «icq»">
+								<longdesc>La orden para gestionar URLs «icq», si se activan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si la orden debería gestionar URLs «icq»">
+								<longdesc>Cierto si la orden especificada en la tecla «command» debería gestionar URLs «icq».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Ejecutar la orden en un terminal">
+								<longdesc>Cierto si la orden especifica para gestionar este tipo de URLs debería ejecutarse en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El manejador para URLs «gg»">
+								<longdesc>La orden para gestionar URLs «gg», si se activan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si la orden debería gestionar URLs «gg»">
+								<longdesc>Cierto si la orden especificada en la tecla «command» debería gestionar URLs «gg».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Ejecutar la orden en un terminal">
+								<longdesc>Cierto si la orden especifica para gestionar este tipo de URLs debería ejecutarse en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El manejador para URLs «aim»">
+								<longdesc>La orden para gestionar URLs «aim», si se activan.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si la orden debería gestionar URLs «aim»">
+								<longdesc>Cierto si la orden especificada en la tecla «command» debería gestionar URLs «aim».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

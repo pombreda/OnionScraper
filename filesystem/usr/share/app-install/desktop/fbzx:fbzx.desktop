@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=fbzx
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+X-MultipleArgs=false
+Type=Application
+Version=2.9.0
+Encoding=UTF-8
+Name=FBZX
+GenericName=A Sinclair ZX Spectrum emulator
+Comment=Play with the old, great games of the venerable ZX Spectrum
+TryExec=fbzx
+Exec=fbzx
+Categories=Game;
+Icon=fbzx
+
+X-Ubuntu-Gettext-Domain=app-install-data

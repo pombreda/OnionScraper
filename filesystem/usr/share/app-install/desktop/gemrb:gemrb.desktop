@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gemrb
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=GemRB
+GenericName=Game engine made with preRendered Background
+Comment=a portable opensource implementation of Bioware's Infinity Engine
+Type=Application
+Icon=gemrb
+Terminal=true
+Exec=gemrb
+Categories=Game;RolePlaying;Emulator;
+Keywords=roleplay;rpg;adventure;game;2d;isometric;gemrb;infinite engine;black isle;
+
+X-Ubuntu-Gettext-Domain=app-install-data

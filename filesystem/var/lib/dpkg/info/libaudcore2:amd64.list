@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libaudtag.so.1.0.0
+/usr/lib/x86_64-linux-gnu/libaudcore.so.2.0.0
+/usr/lib/x86_64-linux-gnu/libaudgui.so.2.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libaudcore2
+/usr/share/doc/libaudcore2/copyright
+/usr/share/doc/libaudcore2/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/libaudgui.so.2
+/usr/lib/x86_64-linux-gnu/libaudtag.so.1
+/usr/lib/x86_64-linux-gnu/libaudcore.so.2

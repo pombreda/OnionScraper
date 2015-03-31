@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=sweethome3d-furniture-editor
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Sweet Home 3D Furniture Library Editor
+GenericName=Sweet Home 3D Furniture Library Editor
+Comment=Create your own SweetHome3D furniture libraries
+Exec=sweethome3d-furniture-editor
+Icon=sweethome3d-furniture-editor
+StartupNotify=true
+StartupWMClass=com-eteks-furniturelibraryeditor-FurnitureLibraryEditorBootstrap
+Terminal=false
+Type=Application
+Categories=Graphics;2DGraphics;3DGraphics;
+Keywords=interior;design;2D;3D;home;house;furniture;java;editor;
+
+X-Ubuntu-Gettext-Domain=app-install-data

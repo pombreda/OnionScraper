@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=yagf
+X-AppInstall-Popcon=44
+X-AppInstall-Section=universe
+
+Type=Application
+Categories=Qt;Office;OCR;
+Exec=yagf %F
+Icon=yagf
+Terminal=false
+StartupNotify=true
+MimeType=image/png;image/jpeg;image/bmp;image/tiff;image/gif;image/x-portable-pixmap;image/x-portable-graymap;image/x-portable-bitmap;
+Name=YAGF
+GenericName=OCR text recognition
+Comment=Graphical frontend for Cuneiform and Tesseract
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

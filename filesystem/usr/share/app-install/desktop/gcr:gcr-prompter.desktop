@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=gcr
+X-AppInstall-Popcon=21795
+X-AppInstall-Section=main
+
+Name=Access Prompt
+Comment=Unlock access to passwords and other secrets
+Icon=security-medium
+Exec=/usr/lib/gcr/gcr-prompter
+Terminal=false
+Type=Application
+NoDisplay=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

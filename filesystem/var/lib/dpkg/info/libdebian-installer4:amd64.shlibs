@@ -1,0 +1,2 @@
+libdebian-installer 4 libdebian-installer4 (>= 0.88ubuntu6)
+udeb: libdebian-installer 4 libdebian-installer4-udeb (>= 0.88ubuntu6)

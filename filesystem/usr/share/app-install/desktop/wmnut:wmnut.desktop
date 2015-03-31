@@ -1,0 +1,16 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+X-AppInstall-Package=wmnut
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=false
+Icon[fr_FR]=wmnut
+Exec=wmnut -w
+Name=WMNut
+Icon=wmnut
+
+X-Ubuntu-Gettext-Domain=app-install-data

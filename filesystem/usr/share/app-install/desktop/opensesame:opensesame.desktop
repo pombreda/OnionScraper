@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=opensesame
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=OpenSesame
+GenericName=Experiment Builder
+Comment=Graphical experiment builder for the social sciences
+TryExec=opensesame
+Exec=opensesame
+Icon=applications-science
+Type=Application
+Categories=Development;IDE;Science
+StartupNotify=true
+MimeType=application/x-opensesame-experiment
+
+X-Ubuntu-Gettext-Domain=app-install-data

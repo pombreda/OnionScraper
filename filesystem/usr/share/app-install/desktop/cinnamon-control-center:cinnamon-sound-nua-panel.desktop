@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon-control-center
+X-AppInstall-Popcon=117
+X-AppInstall-Section=universe
+
+Exec=cinnamon-settings sound
+Icon=cs-sound
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;HardwareSettings;X-Cinnamon-Settings-Panel;
+OnlyShowIn=X-Cinnamon;
+X-Cinnamon-Settings-Panel=sound-nua
+# Translators: those are keywords for the sound control-center panel
+Keywords=Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;
+Name=Sound
+Comment=Change sound volume and sound events
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

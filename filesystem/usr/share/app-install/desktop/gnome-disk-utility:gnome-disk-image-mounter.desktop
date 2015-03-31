@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-disk-utility
+X-AppInstall-Popcon=44744
+X-AppInstall-Section=main
+
+Encoding=UTF-8
+Name=Disk Image Mounter
+Comment=Mount Disk Images
+Exec=gnome-disk-image-mounter %U
+Icon=drive-removable-media
+MimeType=application/x-cd-image;application/x-raw-disk-image;
+Terminal=false
+StartupNotify=false
+Type=Application
+NoDisplay=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

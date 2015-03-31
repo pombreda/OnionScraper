@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=0install-core
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=0install
+GenericName=Installer
+Comment=Run or manage Zero Install programs
+Exec=0desktop
+Icon=zeroinstall
+Terminal=false
+Categories=Utility;Settings;PackageManager;GTK;
+
+X-Ubuntu-Gettext-Domain=app-install-data

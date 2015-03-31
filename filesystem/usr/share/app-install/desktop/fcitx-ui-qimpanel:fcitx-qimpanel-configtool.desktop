@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=fcitx-ui-qimpanel
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=fcitx-qimpanel-configtool
+Comment=fcitx皮肤配置向导-UbuntuKylin
+Exec=/usr/bin/fcitx-qimpanel-configtool
+Icon=fcitx_ubuntukylin
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;RasterGraphics;Viewer;Utility;Network;
+
+X-Ubuntu-Gettext-Domain=app-install-data

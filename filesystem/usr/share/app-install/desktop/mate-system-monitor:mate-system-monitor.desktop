@@ -1,0 +1,24 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-system-monitor
+X-AppInstall-Popcon=105
+X-AppInstall-Section=universe
+
+Name=MATE System Monitor
+GenericName=System Monitor
+Comment=View current processes and monitor system state
+TryExec=mate-system-monitor
+Exec=mate-system-monitor
+Icon=utilities-system-monitor
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;System;Monitor;
+Keywords=MATE;system;monitor;process;list;view;current;resources;
+OnlyShowIn=MATE;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=system-monitor
+X-MATE-Bugzilla-Component=general
+X-MATE-Bugzilla-Version=1.8.0
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

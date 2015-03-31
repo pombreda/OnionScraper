@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=quake
+X-AppInstall-Popcon=8
+X-AppInstall-Section=multiverse
+
+Type=Application
+Version=1.0
+Name=Quake
+Comment=Classic first person shooter
+Icon=quake
+Exec=/usr/games/quake
+Categories=Game;ActionGame;
+Keywords=first person shooter;fps;3d;deathmatch;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,9 @@
+Document: sylpheed-ja
+Title: Sylpheed Manual (Japanese)
+Author: Yoichi Imai <yoichi@silver-forest.com>
+Abstract: This is a manual for sylpheed. (Japanese)
+Section: Network/Communication
+
+Format: HTML
+Index: /usr/share/doc/sylpheed-doc/manual/ja/sylpheed.html
+Files: /usr/share/doc/sylpheed-doc/manual/ja/*.html

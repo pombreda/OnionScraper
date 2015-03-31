@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+/usr/bin/python /usr/share/light-locker-settings/light-locker-settings/light-locker-settings.py "$@"

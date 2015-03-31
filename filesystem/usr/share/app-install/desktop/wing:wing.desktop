@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=wing
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Name=WING
+Comment=Play Galaga-like arcade game
+Exec=wing
+Icon=wing
+Terminal=false
+Type=Application
+Categories=Game;ArcadeGame;
+Keywords=game;arcade;recreation;
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

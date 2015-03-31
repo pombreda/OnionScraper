@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-photos
+X-AppInstall-Popcon=17
+X-AppInstall-Section=universe
+
+Name=Photos
+Comment=Access, organize and share photos
+Exec=gnome-photos
+Icon=gnome-photos
+DBusActivatable=true
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;Core;
+Keywords=Photos;Pictures;
+
+X-Ubuntu-Gettext-Domain=app-install-data

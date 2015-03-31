@@ -1,0 +1,16 @@
+Format: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=174
+Upstream-Name: python-gudev
+Upstream-Contact: John Stowers <john.stowers@gmail.com>
+Source: http://github.com/nzjrs/python-gudev
+
+Files: *
+Copyright: John Stowers 2010 <john.stowers@gmail.com>
+License: LGPL-3+
+ The full text of the LGPL v3 is distributed in
+ /usr/share/common-licenses/LGPL-3 on Debian systems.
+ 
+Files: ./debian/*
+Copyright:
+ 2010-2011 Alessio Treglia <quadrispro@ubuntu.com>
+ 2010 Martin Pitt <martin.pitt@ubuntu.com>
+License: LGPL-3+

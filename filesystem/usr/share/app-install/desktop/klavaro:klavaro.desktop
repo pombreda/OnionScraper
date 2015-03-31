@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=klavaro
+X-AppInstall-Popcon=105
+X-AppInstall-Section=universe
+
+Name=Klavaro
+Comment=A very flexible and efficient touch typing tutor.
+# Translators: these are keywords related to the program. CAI above means Computer Aided Instruction. Feel free to add and/or change the keywords in your language.
+Keywords=keyboard;typing;tutor;CAI
+
+Exec=klavaro
+Icon=klavaro
+Terminal=false
+Type=Application
+Categories=Education;GTK;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

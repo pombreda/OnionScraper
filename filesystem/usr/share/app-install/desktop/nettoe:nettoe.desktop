@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=nettoe
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=netToe
+Comment=Play a game of Tic Tac Toe.
+Icon=nettoe
+
+Type=Application
+Terminal=true
+TryExec=nettoe
+Exec=/usr/games/nettoe
+
+Categories=Game;LogicGame;
+Keywords=tic;tac;toe;text;terminal;logic;multiplayer;
+
+X-Ubuntu-Gettext-Domain=app-install-data

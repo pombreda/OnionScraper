@@ -1,0 +1,9 @@
+Document: sylpheed-faq-de
+Title: Sylpheed FAQ (German)
+Author: Paul Kater (paul@nlpagan.net), Jens Oberender (j.obi@troja.net) 
+Abstract: This is a FAQ for sylpheed. (German)
+Section: Network/Communication
+
+Format: HTML
+Index: /usr/share/doc/sylpheed-doc/FAQ/de/sylpheed-faq.html
+Files: /usr/share/doc/sylpheed-doc/FAQ/de/*.html

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=webissues
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Type=Application
+Name=WebIssues
+GenericName=Issue Tracker
+Keywords=issue;tracking;team;maintenance;
+Comment=Desktop Client for the WebIssues team collaboration system
+Icon=webissues
+Exec=webissues
+Categories=Qt;Office;ProjectManagement;
+
+X-Ubuntu-Gettext-Domain=app-install-data

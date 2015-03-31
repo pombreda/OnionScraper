@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=synfigstudio
+X-AppInstall-Popcon=48
+X-AppInstall-Section=universe
+
+Name=Synfig Studio
+Comment=Create and edit 2D animations and compositions
+Exec=synfigstudio %F
+Terminal=false
+Type=Application
+Icon=synfig_icon
+Categories=GTK;Graphics;2DGraphics;VectorGraphics;
+StartupNotify=true
+MimeType=application/x-sif;
+
+X-Ubuntu-Gettext-Domain=app-install-data

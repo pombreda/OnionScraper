@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>Manual da Ferramenta de Administração de Rede</title>
+    <date>Junho 2004</date>
+    <version identifier="Manual da Ferramenta de administração de rede V0.35" date="Junho 2004"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      A Ferramenta de administração de rede permite que você especifique a forma como o sistema se conecta a outros computadores e à internet.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/network-admin/pt_BR/network-admin.xml"/>
+    <language code="pt_BR"/>
+    <relation seriesid="46630d52-85db-11da-9553-d620e14d440c"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

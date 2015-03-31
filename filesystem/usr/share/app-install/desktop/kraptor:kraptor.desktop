@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kraptor
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Kraptor
+Type=Application
+Exec=/usr/games/kraptor
+Icon=kraptor
+Categories=ActionGame;Game;
+Keywords=game;action;plane;aircraft;explosions;shooter;scroller;
+Comment=classic shoot 'em up scroller game
+
+X-Ubuntu-Gettext-Domain=app-install-data

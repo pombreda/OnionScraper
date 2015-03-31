@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=micropolis
+X-AppInstall-Popcon=35
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Exec=micropolis
+Icon=Micropolis
+Terminal=false
+Name=Micropolis
+Comment=A real-time city management simulator
+Categories=Game;Simulation;
+StartupNotify=true
+Keywords=simulation;city;game;real-time;
+
+X-Ubuntu-Gettext-Domain=app-install-data

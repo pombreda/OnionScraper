@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kprinter4
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=KPrinter4
+GenericName=PostScript printing
+Exec=kprinter4
+Icon=kprinter4
+Type=Application
+MimeType=application/postscript;
+Categories=Qt;KDE;System;
+Terminal=false
+Comment=Print PostScript documents with KDE print dialog
+
+X-Ubuntu-Gettext-Domain=app-install-data

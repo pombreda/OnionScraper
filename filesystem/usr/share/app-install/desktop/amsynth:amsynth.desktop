@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=amsynth
+X-AppInstall-Popcon=66
+X-AppInstall-Section=universe
+
+Name=amsynth
+GenericName=Analog Modelling SYNTHesizer
+Comment=Two oscillator subtractive software synthesizer
+Type=Application
+Categories=AudioVideo;Audio;X-Synthesis;
+Exec=/usr/bin/amsynth
+Icon=_usr_share_pixmaps_amsynth
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

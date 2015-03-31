@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=libu1db-qt5-examples
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Exec=qmlscene /usr/share/u1db-qt/gallery/gallery.qml
+Path=/usr/share/u1db-qt/gallery
+Name=U1Db QML Example Gallery
+Icon=_usr_share_icons_unity-icon-theme_places_svg_service-u1
+Terminal=false
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

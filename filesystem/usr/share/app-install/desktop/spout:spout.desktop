@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=spout
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Spout
+Icon=spout
+Exec=/usr/games/spout
+Terminal=false
+Categories=Game;ArcadeGame
+Keywords=Cave;Fly;Game;Arcade
+
+X-Ubuntu-Gettext-Domain=app-install-data

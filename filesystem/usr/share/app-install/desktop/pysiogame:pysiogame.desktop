@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=pysiogame
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=pySioGame
+Comment=A little set of educational apps for kids
+Path=/usr/share/games/pysiogame/
+Exec=pysiogame
+Terminal=false
+Type=Application
+Categories=Game;Education;
+Icon=pysiogame
+
+X-Ubuntu-Gettext-Domain=app-install-data

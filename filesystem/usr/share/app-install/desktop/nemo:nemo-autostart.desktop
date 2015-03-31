@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=nemo
+X-AppInstall-Popcon=779
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Nemo
+Comment=Start Nemo desktop at log in
+Exec=nemo -n
+OnlyShowIn=X-Cinnamon;
+AutostartCondition=GSettings org.nemo.desktop show-desktop-icons
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

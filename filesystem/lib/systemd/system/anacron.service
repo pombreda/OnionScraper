@@ -1,0 +1,10 @@
+[Unit]
+Description=Run anacron jobs
+After=time-sync.target
+ConditionACPower=true
+
+[Service]
+ExecStart=/usr/sbin/anacron -dsq
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=aegisub
+X-AppInstall-Popcon=18
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Aegisub
+GenericName=Subtitle Editor
+Comment=Create and edit subtitles for film and videos.
+Exec=aegisub-3.1 %f
+TryExec=aegisub-3.1
+Icon=aegisub
+Terminal=false
+Categories=AudioVideo;AudioVideoEditing;
+MimeType=application/x-srt;text/plain;text/x-ass;text/x-microdvd;text/x-ssa;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

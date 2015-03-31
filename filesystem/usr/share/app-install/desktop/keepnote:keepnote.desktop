@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=keepnote
+X-AppInstall-Popcon=25
+X-AppInstall-Section=universe
+
+Type=Application
+Name=KeepNote
+GenericName=Note-taking Application
+Comment=Note-taking Application
+Icon=keepnote
+Exec=keepnote %f
+Categories=Office
+#MimeType=
+Terminal=false
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमे कमांड चलाउ">
+								<longdesc>सही अछि जँ ई प्रकारक URL क&apos; नियंत्रित करबाक लेल प्रयुक्त कमांडकेँ एकटा टर्मिनलमे चलाएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URL क&apos; लेल नियंत्रक">
+								<longdesc>&quot;yrmsgr&quot; URL क&apos; नियंत्रण लेल प्रयुक्त कमांड, जँ सक्रिय कएल छल</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="कि निर्दिष्ट कमांडक &quot;ymsgr&quot; URL क&apos; नियंत्रित कएनाइ चाही">
+								<longdesc>सही अछि जँ &quot;command&quot; कुंजीमे निर्दिष्ट कमांडक &quot;ymsgr&quot; URL क&apos; नियंत्रित करब चाही.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमे कमांड चलाउ">
+								<longdesc>सही अछि जँ ई प्रकारक URL क&apos; नियंत्रित करबाक लेल प्रयुक्त कमांडकेँ एकटा टर्मिनलमे चलाएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URL क&apos; लेल नियंत्रक">
+								<longdesc>&quot;xmpp&quot; URL क&apos; नियंत्रण लेल प्रयुक्त कमांड, जँ सक्रिय कएल छल</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="कि निर्दिष्ट कमांडक &quot;xmpp&quot; URL क&apos; नियंत्रित कएनाइ चाही">
+								<longdesc>सही अछि जँ &quot;command&quot; कुंजीमे निर्दिष्ट कमांडक &quot;xmpp&quot; URL क&apos; नियंत्रित कएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमे कमांड चलाउ">
+								<longdesc>सही अछि जँ ई प्रकारक URL क&apos; नियंत्रित करबाक लेल प्रयुक्त कमांडकेँ एकटा टर्मिनलमे चलाएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URL क&apos; लेल नियंत्रक">
+								<longdesc>&quot;sip&quot; URL क&apos; नियंत्रण लेल प्रयुक्त कमांड, जँ सक्रिय कएल छल</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="कि निर्दिष्ट कमांडक &quot;sip&quot; URL क&apos; नियंत्रित कएनाइ चाही">
+								<longdesc>सही अछि जँ &quot;command&quot; कुंजीमे निर्दिष्ट कमांडक &quot;sip&quot; URL क&apos; नियंत्रित कएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमे कमांड चलाउ">
+								<longdesc>सही अछि जँ ई प्रकारक URL क&apos; नियंत्रित करबाक लेल प्रयुक्त कमांडकेँ एकटा टर्मिनलमे चलाएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URL क&apos; लेल नियंत्रक">
+								<longdesc>&quot;msnim&quot; URL क&apos; नियंत्रण लेल प्रयुक्त कमांड, जँ सक्रिय कएल छल</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="कि निर्दिष्ट कमांडक &quot;msnim&quot; URL क&apos; नियंत्रित कएनाइ चाही">
+								<longdesc>सही अछि जँ &quot;command&quot; कुंजीमे निर्दिष्ट कमांडक &quot;msnim&quot; URL क&apos; नियंत्रित कएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमे कमांड चलाउ">
+								<longdesc>सही अछि जँ ई प्रकारक URL क&apos; नियंत्रित करबाक लेल प्रयुक्त कमांडकेँ एकटा टर्मिनलमे चलाएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URL क&apos; लेल नियंत्रक">
+								<longdesc>&quot;irc&quot; URL क&apos; नियंत्रण लेल प्रयुक्त कमांड, जँ सक्रिय कएल छल</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="कि निर्दिष्ट कमांडक &quot;irc&quot; URL क&apos; नियंत्रित कएनाइ चाही">
+								<longdesc>सही अछि जँ &quot;command&quot; कुंजीमे निर्दिष्ट कमांडक &quot;irc&quot; URL क&apos; नियंत्रित कएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमे कमांड चलाउ">
+								<longdesc>सही अछि जँ ई प्रकारक URL क&apos; नियंत्रित करबाक लेल प्रयुक्त कमांडकेँ एकटा टर्मिनलमे चलाएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URL क&apos; लेल नियंत्रक">
+								<longdesc>&quot;icq&quot; URL क&apos; नियंत्रण लेल प्रयुक्त कमांड, जँ सक्रिय कएल छल</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="कि निर्दिष्ट कमांडक &quot;icq&quot; URL क&apos; नियंत्रित कएनाइ चाही">
+								<longdesc>सही अछि जँ &quot;command&quot; कुंजीमे निर्दिष्ट कमांडक &quot;icq&quot; URL क&apos; नियंत्रित कएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमे कमांड चलाउ">
+								<longdesc>सही अछि जँ ई प्रकारक URL क&apos; नियंत्रित करबाक लेल प्रयुक्त कमांडकेँ एकटा टर्मिनलमे चलाएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URL क&apos; लेल नियंत्रक">
+								<longdesc>&quot;gg&quot; URL क&apos; नियंत्रण लेल प्रयुक्त कमांड, जँ सक्रिय कएल छल</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="कि निर्दिष्ट कमांडक &quot;gg&quot; URL क&apos; नियंत्रित कएनाइ चाही">
+								<longdesc>सही अछि जँ &quot;command&quot; कुंजीमे निर्दिष्ट कमांडक &quot;gg&quot; URL क&apos; नियंत्रित कएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="टर्मिनलमे कमांड चलाउ">
+								<longdesc>सही अछि जँ ई प्रकारक URL क&apos; नियंत्रित करबाक लेल प्रयुक्त कमांडकेँ एकटा टर्मिनलमे चलाएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URL क&apos; लेल नियंत्रक">
+								<longdesc>&quot;aim&quot; URL क&apos; नियंत्रण लेल प्रयुक्त कमांड, जँ सक्रिय कएल छल</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="की निर्दिष्ट कमांडक &quot;aim&quot; URL क&apos; नियंत्रित कएनाइ चाही">
+								<longdesc>सही अछि जँ &quot;command&quot; कुंजीमे निर्दिष्ट कमांडक &quot;aim&quot; URL क&apos; नियंत्रित कएनाइ चाही.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

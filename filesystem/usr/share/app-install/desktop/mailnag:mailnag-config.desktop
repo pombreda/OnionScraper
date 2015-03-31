@@ -1,0 +1,17 @@
+
+[Desktop Entry]
+X-AppInstall-Package=mailnag
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=Mailnag Configuration
+Comment=An extendable mail notification daemon
+Keywords=mail;notify;notification;config;settings;preferences;
+Exec=/usr/bin/mailnag-config
+Icon=mailnag
+Terminal=false
+Type=Application
+Categories=Network;
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

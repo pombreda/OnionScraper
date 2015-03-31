@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=mcomix
+X-AppInstall-Popcon=23
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=MComix
+GenericName=Comic Book Viewer
+Comment=A viewer for comic book archives
+Exec=mcomix %f
+Icon=mcomix
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Graphics;Viewer;
+MimeType=application/x-cbz;application/x-cbr;application/x-cbt;image/jpeg;image/png;image/gif;image/tiff;image/bmp;image/x-icon;image/x-xpixmap;image/x-xbitmap;application/x-zip;application/zip;application/x-rar;application/x-tar;application/x-gzip;application/x-bzip2;image/svg+xml;image/svg;image/svg-xml;image/vnd.adobe.svg+xml;text/xml-svg;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-pcx;image/x-cmu-raster;image/x-sun-raster;image/x-tga;application/x-7z-compressed;application/x-cb7;application/x-lzh;application/x-lha;application/x-lzh-compressed;
+
+X-Ubuntu-Gettext-Domain=app-install-data

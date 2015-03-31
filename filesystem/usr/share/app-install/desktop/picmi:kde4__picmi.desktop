@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=picmi
+X-AppInstall-Popcon=34
+X-AppInstall-Section=universe
+
+Name=picmi
+GenericName=Logic Game
+Comment=A number logic game
+Exec=picmi
+Icon=picmi
+Terminal=false
+Type=Application
+X-KDE-StartupNotify=true
+Categories=Qt;KDE;Game;LogicGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

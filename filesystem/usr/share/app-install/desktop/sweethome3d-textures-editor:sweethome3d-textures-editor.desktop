@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=sweethome3d-textures-editor
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Sweet Home 3D Textures Library Editor
+GenericName=Sweet Home 3D Textures Library Editor
+Comment=Create your own SweetHome3D textures libraries
+Exec=sweethome3d-textures-editor
+Icon=sweethome3d-textures-editor
+StartupNotify=true
+StartupWMClass=com-eteks-textureslibraryeditor-TexturesLibraryEditorBootstrap
+Terminal=false
+Type=Application
+Categories=Graphics;2DGraphics;3DGraphics;
+Keywords=interior;design;2D;3D;home;house;furniture;java;textures;editor;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=youker-assistant
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Name=youker-assistant
+Comment=youker-assistant
+Keywords=Settings;Cleaning;Customization
+Exec=/usr/bin/youker-assistant %u
+Icon=youker-assistant
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;System;Settings;Viewer;
+
+X-Ubuntu-Gettext-Domain=app-install-data

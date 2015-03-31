@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=glogic
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Name=gLogic
+Comment=Logic circuit simulator
+Exec=glogic
+Terminal=false
+Type=Application
+Icon=glogic
+Categories=Education;Science;Electronics
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

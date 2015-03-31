@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=dispcalgui
+X-AppInstall-Popcon=109
+X-AppInstall-Section=universe
+
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=dispcalGUI Curve Viewer
+GenericName=Calibration and ICC profile tone response curve viewer
+Exec=dispcalGUI-curve-viewer
+Icon=dispcalGUI-curve-viewer
+Terminal=false
+Categories=Graphics;
+Comment=Shows calibration and ICC profile tone response curves. Only support ICC v2.
+
+X-Ubuntu-Gettext-Domain=app-install-data

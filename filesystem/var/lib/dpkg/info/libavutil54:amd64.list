@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libavutil.so.54.3.0
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libavutil54
+/usr/share/doc
+/usr/share/doc/libavutil54
+/usr/share/doc/libavutil54/copyright
+/usr/share/doc/libavutil54/NEWS.Debian.gz
+/usr/share/doc/libavutil54/changelog.Debian.gz
+/usr/lib/x86_64-linux-gnu/libavutil.so.54

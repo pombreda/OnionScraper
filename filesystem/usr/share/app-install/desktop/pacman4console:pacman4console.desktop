@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=pacman4console
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=Pacman for Console
+GenericName=pacman4console
+Comment=console based pacman game
+Exec=pacman4console
+Terminal=true
+Type=Application
+Icon=pacman4console
+StartupNotify=true
+Categories=Game;ArcadeGame
+Keywords=arcade;pacman;text;ncurses;terminal;console;game;classical
+
+X-Ubuntu-Gettext-Domain=app-install-data

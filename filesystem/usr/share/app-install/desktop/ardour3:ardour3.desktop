@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=ardour3
+X-AppInstall-Popcon=62
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Ardour3
+GenericName=Ardour Digital Audio Workstation 3
+Comment=Record, mix and master multi-track audio
+Keywords=audio;sound;jackd,DAW,multitrack,ladspa,lv2,midi
+Exec=/usr/bin/ardour3
+Icon=ardour3
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

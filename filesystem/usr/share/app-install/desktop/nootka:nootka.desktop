@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=nootka
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Nootka
+GenericName=to play scores
+Type=Application
+Comment=Application for learning musical score notation 
+Exec=nootka %f
+Icon=nootka
+Terminal=false
+MimeType=application/x-nootka-noo;application/x-nootka-nel;
+Categories=Education;Music;
+
+X-Ubuntu-Gettext-Domain=app-install-data

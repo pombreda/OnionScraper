@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="הפעל את הפקודה בתוך טרמינל">
+								<longdesc>אמת אם הפקודה לטיפול בסוג זה של כתובת צריכה לרוץ בטרמינל.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="המטפל בכתובות &quot;ymsgr&quot;">
+								<longdesc>הפקודה לטיפול בכתובות &quot;ymsgr&quot;, אם הופעלה.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="האם הפקודה שצויינה צריכה לטפל בכתובות &quot;ymsgr&quot;.">
+								<longdesc>אמת אם הפקודה שהוגדרת לכפתור &quot;פקודה&quot; צריך לטפל בכתובות &quot;ymsgr&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="הפעל את הפקודה בתוך טרמינל">
+								<longdesc>אמת אם הפקודה לטיפול בסוג זה של כתובת צריכה לרוץ בטרמינל.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="המטפל בכתובות &quot;xmpp&quot;">
+								<longdesc>הפקודה לטיפול בכתובות &quot;xmpp&quot;, אם הופעלה.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="האם הפקודה שצויינה צריכה לטפל בכתובות &quot;xmpp&quot;.">
+								<longdesc>אמת אם הפקודה שהוגדרת לכפתור &quot;פקודה&quot; צריך לטפל בכתובות &quot;xmpp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="הפעל את הפקודה בתוך טרמינל">
+								<longdesc>אמת אם הפקודה לטיפול בסוג זה של כתובת צריכה לרוץ בטרמינל.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="המטפל בכתובות &quot;sip&quot;">
+								<longdesc>הפקודה לטיפול בכתובות &quot;sip&quot;, אם הופעלה.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="האם הפקודה שצויינה צריכה לטפל בכתובות &quot;sip&quot;.">
+								<longdesc>אמת אם הפקודה שהוגדרת לכפתור &quot;פקודה&quot; צריך לטפל בכתובות &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="הפעל את הפקודה בתוך טרמינל">
+								<longdesc>אמת אם הפקודה לטיפול בסוג זה של כתובת צריכה לרוץ בטרמינל.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="המטפל בכתובות &quot;msnim&quot;">
+								<longdesc>הפקודה לטיפול בכתובות &quot;msnim&quot;, אם הופעלה.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="האם הפקודה שצויינה צריכה לטפל בכתובות &quot;msnim&quot;.">
+								<longdesc>אמת אם הפקודה שהוגדרת לכפתור &quot;פקודה&quot; צריך לטפל בכתובות &quot;msnim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="הפעל את הפקודה בתוך טרמינל">
+								<longdesc>אמת אם הפקודה לטיפול בסוג זה של כתובת צריכה לרוץ בטרמינל.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="המטפל בכתובות &quot;irc&quot;">
+								<longdesc>הפקודה לטיפול בכתובות &quot;irc&quot;, אם הופעלה.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="האם הפקודה שצויינה צריכה לטפל בכתובות &quot;irc&quot;.">
+								<longdesc>אמת אם הפקודה שהוגדרת לכפתור &quot;פקודה&quot; צריך לטפל בכתובות &quot;irc&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="הפעל את הפקודה בתוך טרמינל">
+								<longdesc>אמת אם הפקודה לטיפול בסוג זה של כתובת צריכה לרוץ בטרמינל.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="המטפל בכתובות &quot;icq&quot;">
+								<longdesc>הפקודה לטיפול בכתובות &quot;icq&quot;, אם הופעלה.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="האם הפקודה שצויינה צריכה לטפל בכתובות &quot;icq&quot;.">
+								<longdesc>אמת אם הפקודה שהוגדרת לכפתור &quot;פקודה&quot; צריך לטפל בכתובות &quot;icq&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="הפעל את הפקודה בתוך טרמינל">
+								<longdesc>אמת אם הפקודה לטיפול בסוג זה של כתובת צריכה לרוץ בטרמינל.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="המטפל בכתובות &quot;gg&quot;">
+								<longdesc>הפקודה לטיפול בכתובות &quot;gg&quot;, אם הופעלה.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="האם הפקודה שצויינה צריכה לטפל בכתובות &quot;gg&quot;.">
+								<longdesc>אמת אם הפקודה שהוגדרת לכפתור &quot;פקודה&quot; צריך לטפל בכתובות &quot;gg&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="הפעל את הפקודה בתוך טרמינל">
+								<longdesc>אמת אם הפקודה לטיפול בסוג זה של כתובת צריכה לרוץ בטרמינל.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="המטפל בכתובות &quot;aim&quot;">
+								<longdesc>הפקודה לטיפול בכתובות &quot;aim&quot;, אם הופעלה.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="האם הפקודה שצויינה צריכה לטפל בכתובות &quot;aim&quot;.">
+								<longdesc>אמת אם הפקודה שהוגדרת לכפתור &quot;פקודה&quot; צריך לטפל בכתובות &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

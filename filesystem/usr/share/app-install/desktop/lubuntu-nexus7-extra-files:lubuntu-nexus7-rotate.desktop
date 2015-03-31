@@ -1,0 +1,12 @@
+[Desktop Entry]
+X-AppInstall-Package=lubuntu-nexus7-extra-files
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Rotate your screen
+Comment=Rotate your screen using xrotate
+Icon=object-rotate-left
+Exec=xrotate
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

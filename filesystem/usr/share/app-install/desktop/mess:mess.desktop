@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=mess
+X-AppInstall-Popcon=12
+X-AppInstall-Section=multiverse
+
+Name=MESS
+Comment=Emulateur multi systèmes
+Exec=/usr/games/mess
+Icon=mess
+Terminal=false
+Type=Application
+Categories=Game;Emulator;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=chinese-calendar
+X-AppInstall-Popcon=14
+X-AppInstall-Section=universe
+
+Name=chinese-calendar
+Comment=Chinese lunar calendar
+Exec=/usr/bin/chinese-calendar
+Icon=chinesecalendar-64
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Graphics;RasterGraphics;Viewer;
+
+X-Ubuntu-Gettext-Domain=app-install-data

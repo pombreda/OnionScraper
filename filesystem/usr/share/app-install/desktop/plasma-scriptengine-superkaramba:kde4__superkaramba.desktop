@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=plasma-scriptengine-superkaramba
+X-AppInstall-Popcon=150
+X-AppInstall-Section=universe
+
+Name=SuperKaramba
+Exec=superkaramba %U
+Icon=superkaramba
+Type=Application
+MimeType=application/x-superkaramba;
+Comment=An engine for cool desktop eyecandy.
+GenericName=Desktop Widgets
+Categories=Qt;KDE;Utility;X-KDE-Utilities-Desktop;
+OnlyShowIn=KDE;
+X-DBUS-StartupType=Unique
+
+X-Ubuntu-Gettext-Domain=app-install-data

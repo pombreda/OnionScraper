@@ -1,0 +1,12 @@
+f04c6dbd1c63ee1173a9b05e60e33800  usr/bin/zipnote
+341be106bfb4a34f08a3431c3182e507  usr/bin/zip
+79bb54796d5041a8c84fd52d69343869  usr/bin/zipsplit
+c9844e7242d7f0f46d6d7725318a7088  usr/bin/zipcloak
+a135145ae456e36ce3083e0fcbf574dd  usr/share/doc/zip/TODO
+751bddaf58181c642d7c34300c333064  usr/share/doc/zip/copyright
+0eb2e2fdd350a9ebac83fed8f424d3e6  usr/share/doc/zip/WHATSNEW
+eb7637c87d6d989164a7c4bb47706714  usr/share/doc/zip/changelog.Debian.gz
+1699bd4efecfb20044c829a9f908ebcd  usr/share/man/man1/zipcloak.1.gz
+b9949a5756098e2fd1876231ed5c9ef2  usr/share/man/man1/zipsplit.1.gz
+0b50e505d35a1294450c0bff34162ace  usr/share/man/man1/zipnote.1.gz
+07e07adab9d50eb74e70f8904bfbabb0  usr/share/man/man1/zip.1.gz

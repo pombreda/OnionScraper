@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=simpleburn
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Type=Application
+StartupNotify=true
+Categories=AudioVideo;DiscBurning;
+Name=SimpleBurn
+GenericName=Disc Burner and Copier
+Comment=CD / DVD burning and extraction
+Terminal=false
+Keywords=disc;cdrom;dvd;burn;audio;video;
+Exec=simpleburn
+Icon=simpleburn
+
+X-Ubuntu-Gettext-Domain=app-install-data

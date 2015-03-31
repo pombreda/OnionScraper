@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-webapps-lastfm-radio
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=lastfm-radio
+Type=Application
+Icon=unity-webapps-lastfm-radio
+MimeType=
+Actions=S0;S1;S2;S3;S4;S5;S6;S7;S8;S9;S10;
+Exec=unity-webapps-runner -n 'bGFzdGZtLXJhZGlv' -d 'last.fm' %u
+StartupWMClass=lastfm-radiolastfm
+    
+X-Ubuntu-Gettext-Domain=app-install-data

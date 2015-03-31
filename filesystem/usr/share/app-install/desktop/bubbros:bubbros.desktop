@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=bubbros
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Type=Application
+Name=The Bub's Brothers
+Comment=Kill evil enemies by catching them into bubbles and smashing those
+Icon=bubbros
+Exec=bubbros
+Categories=Game;ActionGame;
+Keywords=Bub-n-Bros;Bubble Bobble;multiplayer;
+
+X-Ubuntu-Gettext-Domain=app-install-data

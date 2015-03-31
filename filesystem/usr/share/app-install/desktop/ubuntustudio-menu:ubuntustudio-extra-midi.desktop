@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Name=Extra MIDI Utilities
+GenericName=Software Installer
+Comment=Allows the installation of more MIDI Utilities
+Exec=ubuntustudio-installer gmidimonitor showq arpage zoneage
+Icon=ubuntustudio-installer
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=Install;
+
+X-Ubuntu-Gettext-Domain=app-install-data

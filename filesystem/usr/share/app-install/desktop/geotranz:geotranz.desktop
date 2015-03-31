@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=geotranz
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Name=Geotranz
+Comment=Geographic coordinates translator
+Exec=geotranz
+Icon=geotrans
+Terminal=false
+Type=Application
+Categories=Education;Science;Geography;
+Keywords=Geographic;Coordinates;Translator;Calculator;GPS
+
+X-Ubuntu-Gettext-Domain=app-install-data

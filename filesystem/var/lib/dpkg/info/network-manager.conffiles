@@ -1,0 +1,10 @@
+/etc/dbus-1/system.d/org.freedesktop.NetworkManager.conf
+/etc/dbus-1/system.d/nm-avahi-autoipd.conf
+/etc/dbus-1/system.d/nm-dhcp-client.conf
+/etc/dbus-1/system.d/nm-dispatcher.conf
+/etc/dbus-1/system.d/nm-ofono.conf
+/etc/NetworkManager/NetworkManager.conf
+/etc/NetworkManager/dispatcher.d/01ifupdown
+/etc/init.d/network-manager
+/etc/dnsmasq.d/network-manager
+/etc/init/network-manager.conf

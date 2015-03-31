@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gcin
+X-AppInstall-Popcon=61
+X-AppInstall-Section=universe
+
+Name=gcin Tools
+Comment=Tools for gcin input method
+Exec=gcin-tools
+Icon=gcin
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Settings;
+Keywords=input;ime;gcin;keyboard;
+
+X-Ubuntu-Gettext-Domain=app-install-data

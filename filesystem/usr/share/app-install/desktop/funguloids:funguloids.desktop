@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=funguloids
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Funguloids
+Comment=Those Funny Funguloids!
+Icon=funguloids
+Exec=sh -c "/usr/games/funguloids >/dev/null 2>&1"
+Terminal=false
+Type=Application
+Categories=Game;ArcadeGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

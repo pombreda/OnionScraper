@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=caja
+X-AppInstall-Popcon=340
+X-AppInstall-Section=universe
+
+Name=Network
+Comment=Browse bookmarked and local network locations
+TryExec=caja
+Exec=caja --no-desktop network:
+Terminal=false
+StartupNotify=true
+Type=Application
+Icon=network-workgroup
+Categories=GTK;System;Core;
+Keywords=bookmarks;browse;local;network;locations;MATE;
+OnlyShowIn=MATE;
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

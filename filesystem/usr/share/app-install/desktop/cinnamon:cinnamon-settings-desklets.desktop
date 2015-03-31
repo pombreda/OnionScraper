@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Icon=cs-desklets
+Exec=cinnamon-settings desklets
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Desklets
+Comment=Manage your Cinnamon desklets
+
+X-Ubuntu-Gettext-Domain=app-install-data

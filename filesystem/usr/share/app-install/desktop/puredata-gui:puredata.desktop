@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=puredata-gui
+X-AppInstall-Popcon=435
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Pure Data
+GenericName=Pd
+Comment=Visual dataflow programming platform for multimedia
+Icon=puredata
+Exec=/usr/lib/puredata/tcl/pd-gui.tcl
+Terminal=false
+Categories=AudioVideo;Audio;
+MimeType=text/x-puredata;text/x-maxmsp;
+Keywords=Audio;Video;Programming;Synthesis;Analysis
+
+X-Ubuntu-Gettext-Domain=app-install-data

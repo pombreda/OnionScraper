@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=spacefm
+X-AppInstall-Popcon=11
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=SpaceFM File Search
+Categories=Utility;GTK;
+Exec=spacefm --find-files %F
+Icon=spacefm-find
+StartupNotify=true
+Type=Application
+Terminal=false
+MimeType=inode/directory;
+Comment=Search for files and folders
+Keywords=file;search;spacefm;find;
+
+X-Ubuntu-Gettext-Domain=app-install-data

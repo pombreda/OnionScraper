@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=libfm-tools
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Preferred Applications
+Comment=Select applications called on click on Web link or e-mail address
+Icon=preferences-desktop
+Exec=libfm-pref-apps
+StartupNotify=true
+Categories=Settings;DesktopSettings;X-LXDE-Settings;GTK;
+NotShowIn=GNOME;XFCE;KDE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

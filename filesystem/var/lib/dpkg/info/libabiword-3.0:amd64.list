@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libabiword-3.0.so
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libabiword-3.0
+/usr/share/doc
+/usr/share/doc/libabiword-3.0
+/usr/share/doc/libabiword-3.0/changelog.Debian.gz
+/usr/share/doc/libabiword-3.0/copyright

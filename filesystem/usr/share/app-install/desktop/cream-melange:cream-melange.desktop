@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=cream-melange
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Melange
+Icon=_usr_share_cream_org.cream.Melange_data_melange
+Comment=Widgets for your desktop
+Exec=/usr/bin/cream-melange
+Terminal=false
+NoDisplay=true
+StartupNotify=true
+Type=Application
+Categories=Utility;GNOME;GTK
+
+X-Ubuntu-Gettext-Domain=app-install-data

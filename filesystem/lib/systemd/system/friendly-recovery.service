@@ -1,0 +1,27 @@
+[Unit]
+Description=Recovery mode menu
+DefaultDependencies=no
+ConditionKernelCommandLine=recovery
+Conflicts=shutdown.target
+Before=local-fs-pre.target
+Wants=systemd-udev-settle.service
+After=systemd-udev-settle.service
+
+[Service]
+Type=oneshot
+Environment=HOME=/root
+WorkingDirectory=/root
+ExecStartPre=-dmesg --console-off
+ExecStartPre=-/bin/plymouth quit
+# let the console output settle down
+ExecStartPre=-/bin/sh -e 'while systemctl list-jobs | grep -v friendly-recovery | grep -q running; do sleep 0.2; done'
+ExecStart=-/lib/recovery-mode/recovery-menu
+StandardInput=tty-force
+StandardOutput=inherit
+StandardError=inherit
+KillMode=process
+IgnoreSIGPIPE=no
+SendSIGHUP=yes
+
+[Install]
+WantedBy=sysinit.target

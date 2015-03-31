@@ -1,0 +1,21 @@
+#====================================================
+# WordNet GUI desktop entry specification
+#
+# license: GPL v2 or later
+#====================================================
+
+[Desktop Entry]
+X-AppInstall-Package=wordnet-gui
+X-AppInstall-Popcon=20
+X-AppInstall-Section=universe
+
+Type=Application
+Name=WordNet
+GenericName=lexical database of English
+Comment=electronic lexical database of English language
+Icon=wn
+Exec=/usr/bin/wnb
+Terminal=false
+Categories=Education;Dictionary
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ટર્મિનલમાં આદેશને ચલાવો">
+								<longdesc>True જો URL ની આ પ્રકારને સંભાળવા માટે વપરાયેલ આદેશને ટર્મિનલમાં ચલાવવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URLs માટે સંભાળનાર">
+								<longdesc>&quot;ymsgr&quot; URLs ને સંભાળવા માટે વાપરેલ સંદેશ, જો સક્રિય થયેલ હોય તો.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ક્યાંતો સ્પષ્ટ થયેલ આદેશ એ &quot;ymsgr&quot; URLs ને સંભાળતો હોવો જોઇએ">
+								<longdesc>True જો &quot;command&quot; કી માં સ્પષ્ટ થયેલ આદેશ એ &quot;ymsgr&quot; URLs ને સંભાળતો હોવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ટર્મિનલમાં આદેશને ચલાવો">
+								<longdesc>True જો URL ની આ પ્રકારને સંભાળવા માટે વપરાયેલ આદેશને ટર્મિનલમાં ચલાવવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URLs માટે સંભાળનાર">
+								<longdesc>&quot;xmpp&quot; URLs સંભાળવા માટે વાપરેલ સંદેશ, જો સક્રિય થયેલ હોય તો.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ક્યાંતો સ્પષ્ટ થયેલ આદેશ એ &quot;xmpp&quot; URLs ને સંભાળતો હોવો જોઇએ">
+								<longdesc>True જો &quot;command&quot; કી માં સ્પષ્ટ થયેલ આદેશ એ &quot;xmpp&quot; URLs ને સંભાળતો હોવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ટર્મિનલમાં આદેશને ચલાવો">
+								<longdesc>True જો URL ની આ પ્રકારને સંભાળવા માટે વપરાયેલ આદેશને ટર્મિનલમાં ચલાવવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URLs માટે સંભાળનાર">
+								<longdesc>&quot;sip&quot; URLs સંભાળવા માટે વાપરેલ સંદેશ, જો સક્રિય થયેલ હોય તો.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ક્યાંતો સ્પષ્ટ થયેલ આદેશ એ &quot;sip&quot; URLs ને સંભાળતો હોવો જોઇએ">
+								<longdesc>True જો &quot;command&quot; કી માં સ્પષ્ટ થયેલ આદેશ એ &quot;sip&quot; URLs ને સંભાળતો હોવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ટર્મિનલમાં આદેશને ચલાવો">
+								<longdesc>True જો URL ની આ પ્રકારને સંભાળવા માટે વપરાયેલ આદેશને ટર્મિનલમાં ચલાવવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URLs માટે સંભાળનાર">
+								<longdesc>&quot;msnim&quot; URLs સંભાળવા માટે વાપરેલ સંદેશ, જો સક્રિય થયેલ હોય તો.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ક્યાંતો સ્પષ્ટ થયેલ આદેશ એ &quot;msnim&quot; URLs ને સંભાળતો હોવો જોઇએ">
+								<longdesc>True જો &quot;command&quot; કી માં સ્પષ્ટ થયેલ આદેશ એ &quot;msnim&quot; URLs ને સંભાળતો હોવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ટર્મિનલમાં આદેશને ચલાવો">
+								<longdesc>True જો URL ની આ પ્રકારને સંભાળવા માટે વપરાયેલ આદેશને ટર્મિનલમાં ચલાવવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URLs માટે સંભાળનાર">
+								<longdesc>&quot;irc&quot; URLs સંભાળવા માટે વાપરેલ આદેશ. જો સક્રિય થયેલ હોય તો.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ક્યાંતો સ્પષ્ટ થયેલ આદેશ એ &quot;irc&quot; URLs ને સંભાળતો હોવો જોઇએ">
+								<longdesc>True જો &quot;command&quot; કી માં સ્પષ્ટ થયેલ આદેશ એ &quot;irc&quot; URLs ને સંભાળતો હોવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ટર્મિનલમાં આદેશને ચલાવો">
+								<longdesc>True જો URL ની આ પ્રકારને સંભાળવા માટે વપરાયેલ આદેશને ટર્મિનલમાં ચલાવવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URLs માટે સંભાળનાર">
+								<longdesc>&quot;icq&quot; URLs ને સંભાળવા માટે વાપરેલ સંદેશ, જો સક્રિય થયેલ હોય તો.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ક્યાંતો સ્પષ્ટ થયેલ આદેશ એ &quot;icq&quot; URLs ને સંભાળતો હોવો જોઇએ">
+								<longdesc>True જો &quot;command&quot; કી માં સ્પષ્ટ થયેલ આદેશ એ &quot;icq&quot; URLs ને સંભાળતો હોવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ટર્મિનલમાં આદેશને ચલાવો">
+								<longdesc>True જો URL ની આ પ્રકારને સંભાળવા માટે વપરાયેલ આદેશને ટર્મિનલમાં ચલાવવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URLs માટે સંભાળનાર">
+								<longdesc>&quot;gg&quot; URLs ને સંભાળવા માટે વપરાયેલ સંદેશ, જો સક્રિય થયેલ હોય તો.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ક્યાંતો સ્પષ્ટ થયેલ આદેશ એ &quot;gg&quot; URLs ને સંભાળતો હોવો જોઇએ">
+								<longdesc>True જો &quot;command&quot; કી માં સ્પષ્ટ થયેલ આદેશ એ &quot;gg&quot; URLs ને સંભાળતો હોવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ટર્મિનલમાં આદેશને ચલાવો">
+								<longdesc>True જો URL ની આ પ્રકારને સંભાળવા માટે વપરાયેલ આદેશને ટર્મિનલમાં ચલાવવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URLs માટે સંભાળનાર">
+								<longdesc>&quot;aim&quot; URLs ને સંભાળવા માટે વપરાયેલ સંદેશ, જો સક્રિય થયેલ હોય તો.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ક્યાંતો સ્પષ્ટ થયેલ આદેશ એ &quot;aim&quot; URLs ને સંભાળતો હોવો જોઇએ">
+								<longdesc>True જો &quot;command&quot; કી માં સ્પષ્ટ થયેલ આદેશ એ &quot;aim&quot; URLs ને સંભાળતો હોવો જોઇએ.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

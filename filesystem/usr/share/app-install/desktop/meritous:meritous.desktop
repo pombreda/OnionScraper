@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=meritous
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Meritous
+Comment=action-adventure dungeon crawl game
+Icon=meritous
+Exec=meritous
+Terminal=false
+Categories=Application;Game;AdventureGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

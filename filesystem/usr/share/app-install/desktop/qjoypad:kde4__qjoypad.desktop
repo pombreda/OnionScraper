@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=qjoypad
+X-AppInstall-Popcon=18
+X-AppInstall-Section=universe
+
+Name=QJoyPad
+GenericName=Simulated Keystrokes
+Comment=Trigger keystrokes and mouse actions with gamepads/joysticks
+Icon=qjoypad
+Exec=qjoypad
+Terminal=false
+Type=Application
+Categories=Utility;Game;
+StartupNotify=false
+Encoding=UTF-8
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ନିର୍ଦ୍ଦେଶକୁ ଟର୍ମିନାଲରେ ଚଲାନ୍ତୁ">
+								<longdesc>ସତ, ଯଦି ଏହି ୟୁ.ଆର.ଏଲ. ଚଳାଇବା ପାଇଁ ନିର୍ଦ୍ଦେଶ ଟର୍ମିନାଲ୍ରେରେ ଚଳାଯିବା ଉଚିତ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URLs ପାଇଁ ପରିଚାଳନାକର୍ତ୍ତା">
+								<longdesc>&quot;ymsgr&quot; URLsକୁ ପରିଚାଳିତ କରିବା ପାଇଁ ବ୍ଯବହୃତ ହେଉଥିବା ଆଦେଶ,ୟଦି ସକ୍ଷମ କରାହୁଏ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ନିର୍ଦ୍ଦିଷ୍ଟ ଆଦେଶ &quot;ymsgr&quot; URLs କୁ ପରିଚାଳିତ କରିବ କି ନାହିଁ">
+								<longdesc>ସତ୍ଯ ୟଦି &quot;ଆଦେଶ&quot;କି ରେ ନିର୍ଦ୍ଦିଷ୍ଟ କରାୟାଇଥିବା ଆଦେଶ &quot;ymsgr&quot; URLsକୁ ପରିଚାଳିତ କରିବ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ନିର୍ଦ୍ଦେଶକୁ ଟର୍ମିନାଲରେ ଚଲାନ୍ତୁ">
+								<longdesc>ସତ, ଯଦି ଏହି ୟୁ.ଆର.ଏଲ. ଚଳାଇବା ପାଇଁ ନିର୍ଦ୍ଦେଶ ଟର୍ମିନାଲ୍ରେରେ ଚଳାଯିବା ଉଚିତ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URLs ପାଇଁ ପରିଚାଳନାକର୍ତ୍ତା">
+								<longdesc>&quot;xmpp&quot; URLsକୁ ପରିଚାଳିତ କରିବା ପାଇଁ ବ୍ଯବହୃତ ହେଉଥିବା ଆଦେଶ,ୟଦି ସକ୍ଷମ କରାହୁଏ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ନିର୍ଦ୍ଦିଷ୍ଟ ଆଦେଶ &quot;xmpp&quot; URLs କୁ ପରିଚାଳିତ କରିବ କି ନାହିଁ">
+								<longdesc>ସତ୍ଯ ୟଦି &quot;ଆଦେଶ&quot;କି ରେ ନିର୍ଦ୍ଦିଷ୍ଟ କରାୟାଇଥିବା ଆଦେଶ &quot;xmpp&quot; URLsକୁ ପରିଚାଳିତ କରିବ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ନିର୍ଦ୍ଦେଶକୁ ଟର୍ମିନାଲରେ ଚଲାନ୍ତୁ">
+								<longdesc>ସତ, ଯଦି ଏହି ୟୁ.ଆର.ଏଲ. ଚଳାଇବା ପାଇଁ ନିର୍ଦ୍ଦେଶ ଟର୍ମିନାଲ୍ରେରେ ଚଳାଯିବା ଉଚିତ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URLs ପାଇଁ ପରିଚାଳନାକର୍ତ୍ତା">
+								<longdesc>&quot;sip&quot; URLsକୁ ପରିଚାଳିତ କରିବା ପାଇଁ ବ୍ଯବହୃତ ହେଉଥିବା ଆଦେଶ,ୟଦି ସକ୍ଷମ କରାହୁଏ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ନିର୍ଦ୍ଦିଷ୍ଟ ଆଦେଶ &quot;sip&quot; URLs କୁ ପରିଚାଳିତ କରିବ କି ନାହିଁ">
+								<longdesc>ସତ୍ଯ ୟଦି &quot;ଆଦେଶ&quot;କି ରେ ନିର୍ଦ୍ଦିଷ୍ଟ କରାୟାଇଥିବା ଆଦେଶ &quot;sip&quot; URLsକୁ ପରିଚାଳିତ କରିବ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ନିର୍ଦ୍ଦେଶକୁ ଟର୍ମିନାଲରେ ଚଲାନ୍ତୁ">
+								<longdesc>ସତ, ଯଦି ଏହି ୟୁ.ଆର.ଏଲ. ଚଳାଇବା ପାଇଁ ନିର୍ଦ୍ଦେଶ ଟର୍ମିନାଲ୍ରେରେ ଚଳାଯିବା ଉଚିତ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URLs ପାଇଁ ପରିଚାଳନାକର୍ତ୍ତା">
+								<longdesc>&quot;msnim&quot; URLsକୁ ପରିଚାଳିତ କରିବା ପାଇଁ ବ୍ଯବହୃତ ହେଉଥିବା ଆଦେଶ,ୟଦି ସକ୍ଷମ କରାହୁଏ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ନିର୍ଦ୍ଦିଷ୍ଟ ଆଦେଶ &quot;msnim&quot; URLs କୁ ପରିଚାଳିତ କରିବ କି ନାହିଁ">
+								<longdesc>ସତ୍ଯ ୟଦି &quot;ଆଦେଶ&quot;କି ରେ ନିର୍ଦ୍ଦିଷ୍ଟ କରାୟାଇଥିବା ଆଦେଶ &quot;msnim&quot; URLsକୁ ପରିଚାଳିତ କରିବ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ନିର୍ଦ୍ଦେଶକୁ ଟର୍ମିନାଲରେ ଚଲାନ୍ତୁ">
+								<longdesc>ସତ, ଯଦି ଏହି ୟୁ.ଆର.ଏଲ. ଚଳାଇବା ପାଇଁ ନିର୍ଦ୍ଦେଶ ଟର୍ମିନାଲ୍ରେରେ ଚଳାଯିବା ଉଚିତ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URLs ପାଇଁ ପରିଚାଳନାକର୍ତ୍ତା">
+								<longdesc>&quot;irc&quot; URLsକୁ ପରିଚାଳିତ କରିବା ପାଇଁ ବ୍ଯବହୃତ ହେଉଥିବା ଆଦେଶ,ୟଦି ସକ୍ଷମ କରାହୁଏ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ନିର୍ଦ୍ଦିଷ୍ଟ ଆଦେଶ &quot;irc&quot; URLs କୁ ପରିଚାଳିତ କରିବ କି ନାହିଁ">
+								<longdesc>ସତ୍ଯ ୟଦି &quot;ଆଦେଶ&quot;କି ରେ ନିର୍ଦ୍ଦିଷ୍ଟ କରାୟାଇଥିବା ଆଦେଶ &quot;irc&quot; URLsକୁ ପରିଚାଳିତ କରିବ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ନିର୍ଦ୍ଦେଶକୁ ଟର୍ମିନାଲରେ ଚଲାନ୍ତୁ">
+								<longdesc>ସତ, ଯଦି ଏହି ୟୁ.ଆର.ଏଲ. ଚଳାଇବା ପାଇଁ ନିର୍ଦ୍ଦେଶ ଟର୍ମିନାଲ୍ରେରେ ଚଳାଯିବା ଉଚିତ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URLs ପାଇଁ ପରିଚାଳନାକର୍ତ୍ତା">
+								<longdesc>&quot;icq&quot; URLsକୁ ପରିଚାଳିତ କରିବା ପାଇଁ ବ୍ଯବହୃତ ହେଉଥିବା ଆଦେଶ,ୟଦି ସକ୍ଷମ କରାହୁଏ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ନିର୍ଦ୍ଦିଷ୍ଟ ଆଦେଶ &quot;icq&quot; URLs କୁ ପରିଚାଳିତ କରିବ କି ନାହିଁ">
+								<longdesc>ସତ୍ଯ ୟଦି &quot;ଆଦେଶ&quot;କି ରେ ନିର୍ଦ୍ଦିଷ୍ଟ କରାୟାଇଥିବା ଆଦେଶ &quot;icq&quot; URLsକୁ ପରିଚାଳିତ କରିବ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ନିର୍ଦ୍ଦେଶକୁ ଟର୍ମିନାଲରେ ଚଲାନ୍ତୁ">
+								<longdesc>ସତ, ଯଦି ଏହି ୟୁ.ଆର.ଏଲ. ଚଳାଇବା ପାଇଁ ନିର୍ଦ୍ଦେଶ ଟର୍ମିନାଲ୍ରେରେ ଚଳାଯିବା ଉଚିତ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URLs ପାଇଁ ପରିଚାଳନାକର୍ତ୍ତା">
+								<longdesc>&quot;gg&quot; URLsକୁ ପରିଚାଳିତ କରିବା ପାଇଁ ବ୍ଯବହୃତ ହେଉଥିବା ଆଦେଶ,ୟଦି ସକ୍ଷମ କରାହୁଏ ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ନିର୍ଦ୍ଦିଷ୍ଟ ଆଦେଶ &quot;gg&quot; URLs କୁ ପରିଚାଳିତ କରିବ କି ନାହିଁ">
+								<longdesc>ସତ୍ଯ ୟଦି &quot;ଆଦେଶ&quot;କି ରେ ନିର୍ଦ୍ଦିଷ୍ଟ କରାୟାଇଥିବା ଆଦେଶ &quot;gg&quot; URLsକୁ ପରିଚାଳିତ କରିବ ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ନିର୍ଦ୍ଦେଶକୁ ଟର୍ମିନାଲରେ ଚଲାନ୍ତୁ">
+								<longdesc>ସତ, ଯଦି ଏହି ୟୁ.ଆର.ଏଲ. ଚଳାଇବା ପାଇଁ ନିର୍ଦ୍ଦେଶ ଟର୍ମିନାଲ୍ରେରେ ଚଳାଯିବା ଉଚିତ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ଲକ୍ଷ୍ଯ&quot; ୟୁ.ଆର.ଏଲ. ପାଇଁ ଚାଳକ">
+								<longdesc>&quot;ଲକ୍ଷ୍ଯ&quot; URLs ଚଳାଇବା ପାଇଁ ନିର୍ଦ୍ଦେଶ, ଯଦି ସକ୍ରିୟ।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="ଉଲ୍ଲେଖିତ ନିର୍ଦ୍ଦେଶ &quot;ଲକ୍ଷ୍ଯ&quot; ୟୁ.ଆର.ଏଲ. ଚଳାଇବା ପାଇଁ ବ୍ଯବହୃତ ହେବା ଉଚିତ କି।">
+								<longdesc>ସତ ହେଲେ, &quot;ନିର୍ଦ୍ଦେଶ&quot; ଚାବିରେ ଉଲ୍ଲେଖିତ ନିର୍ଦ୍ଦେଶ &quot;ଲକ୍ଷ୍ଯ&quot; ୟୁ.ଆର.ଏଲ. ଚଳାଇବା ପାଇଁ ବ୍ଯବହୃତ ହେବ।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=mess-desktop-entries
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+Name=Dreamcast ROM Player
+Comment=Play Sega Dreamcast games
+Type=Application
+Exec=/usr/games/mess dc -cdrom %f
+Terminal=false
+NoDisplay=true
+MimeType=application/x-dc-rom;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

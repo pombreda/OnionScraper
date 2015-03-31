@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=ktorrent
+X-AppInstall-Popcon=2042
+X-AppInstall-Section=universe
+
+Name=KTorrent
+GenericName=BitTorrent Client
+Exec=ktorrent %i -caption "%c" %u
+Icon=ktorrent
+Type=Application
+X-DocPath=ktorrent/index.html
+MimeType=application/x-bittorrent;application/x-torrent;x-scheme-handler/magnet;
+X-DBUS-StartupType=Unique
+X-DBUS-ServiceName=org.ktorrent.ktorrent
+Comment=A BitTorrent program for KDE
+Terminal=false
+Categories=Qt;KDE;Network;FileTransfer;P2P;
+
+X-Ubuntu-Gettext-Domain=app-install-data

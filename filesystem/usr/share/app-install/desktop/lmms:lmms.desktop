@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=lmms
+X-AppInstall-Popcon=157
+X-AppInstall-Section=universe
+
+Name=LMMS
+GenericName=music production suite
+Comment=easy music production for everyone!
+Icon=lmms
+Exec=env QT_X11_NO_NATIVE_MENUBAR=1 lmms
+Terminal=false
+Type=Application
+Categories=Qt;AudioVideo;Audio;Midi;
+MimeType=application/x-lmms-project;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=dispcalgui
+X-AppInstall-Popcon=109
+X-AppInstall-Section=universe
+
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=dispcalGUI ICC Profile Information
+GenericName=ICC profile information
+Exec=dispcalGUI-profile-info
+Icon=dispcalGUI-profile-info
+Terminal=false
+Categories=Graphics;
+Comment=Shows information about an ICC profile. Graphs only support ICC v2.
+
+X-Ubuntu-Gettext-Domain=app-install-data

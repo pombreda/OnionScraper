@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=sumo
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Simulation of Urban MObility
+GenericName=SUMO
+Comment=Road traffic Simulator
+Exec=sumo-gui
+Icon=_usr_share_pixmaps_sumo_32x32
+Type=Application
+Terminal=false
+Categories=Education;Physics;Science;
+Keywords=traffic;simulation
+
+X-Ubuntu-Gettext-Domain=app-install-data

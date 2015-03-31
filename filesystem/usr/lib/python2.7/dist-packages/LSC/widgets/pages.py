@@ -1,0 +1,1 @@
+../../../../../share/pyshared/LSC/widgets/pages.py

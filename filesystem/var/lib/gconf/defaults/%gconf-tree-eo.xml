@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;ymsgr&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;ymsgr&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;ymsgr&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;ymsgr&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;xmpp&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;xmpp&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;xmpp&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;xmpp&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;sip&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;sip&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;sip&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;sip&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;msnim&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;msnim&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;msnim&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;msnim&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;irc&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;irc&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;irc&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;irc&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;icq&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;icq&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;icq&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;icq&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;gg&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;gg&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;gg&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;gg&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Eku komandon en terminalo">
+								<longdesc>Vera se la komando uzata por trakti tiun tipon de URL-o devu esti lanĉita en terminalo.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="La traktilo por &quot;aim&quot; URL-oj">
+								<longdesc>La uzata komando por trakti &quot;aim&quot; URL-ojn, se enŝaltita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ĉu la donita komando devu trakti &quot;aim&quot; URL-ojn">
+								<longdesc>Vera se la komando donita en la &quot;komando&quot; ŝlosilo devu trakti &quot;aim&quot; URL-ojn.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

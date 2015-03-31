@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=brainparty
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=Brain Party
+GenericName=Brain Party
+Exec=brainparty
+Icon=brainparty
+Type=Application
+Categories=Game;LogicGame;
+Comment=36 puzzle games for all the family
+Terminal=false
+Keywords=family;puzzle;logic;game;riddle;
+
+X-Ubuntu-Gettext-Domain=app-install-data

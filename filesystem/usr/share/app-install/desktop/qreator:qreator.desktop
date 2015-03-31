@@ -1,0 +1,43 @@
+[Desktop Entry]
+X-AppInstall-Package=qreator
+X-AppInstall-Popcon=23
+X-AppInstall-Section=universe
+
+Name=Qreator
+Comment=Create your own QR codes
+Categories=GNOME;Utility;Graphics;2DGraphics
+Exec=/usr/bin/qreator
+Icon=qreator
+Terminal=false
+Type=Application
+Actions=Url;Text;Location;Wifi;Software;BusinessCard;Phone
+
+[Desktop Action Url]
+Name=New QR code for URL
+Exec=/usr/bin/qreator --url
+
+[Desktop Action Text]
+Name=New QR code for Text
+Exec=/usr/bin/qreator --text
+
+[Desktop Action Location]
+Name=New QR code for Location
+Exec=/usr/bin/qreator --location
+
+[Desktop Action Wifi]
+Name=New QR code for WiFi network
+Exec=/usr/bin/qreator --wifi
+
+[Desktop Action Software]
+Name=New QR code for a Software Center app
+Exec=/usr/bin/qreator --software
+
+[Desktop Action BusinessCard]
+Name=New QR code for a Business card
+Exec=/usr/bin/qreator --businesscard
+
+[Desktop Action Phone]
+Name=New QR code for a Call or text message
+Exec=/usr/bin/qreator --phone
+
+X-Ubuntu-Gettext-Domain=app-install-data

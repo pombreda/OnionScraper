@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=gtk-theme-config
+X-AppInstall-Popcon=153
+X-AppInstall-Section=universe
+
+Name=Theme Configuration
+GenericName=Theme Configuration
+Comment=Configure GTK theme colors
+Exec=gtk-theme-config
+Terminal=false
+Type=Application
+Icon=gtk-theme-config
+Categories=GNOME;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;
+Keywords=color;gtk;highlight;theme;widget;
+
+X-GNOME-Gettext-Domain=gtk-theme-config
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

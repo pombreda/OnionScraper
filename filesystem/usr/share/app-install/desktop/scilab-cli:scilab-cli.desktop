@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=scilab-cli
+X-AppInstall-Popcon=132
+X-AppInstall-Section=universe
+
+Comment=Scientific software package for numerical computations
+Exec=scilab-cli
+GenericName=Scientific Software Package
+Icon=scilab
+Name=Scilab CLI
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=Science;Math;
+
+X-Ubuntu-Gettext-Domain=app-install-data

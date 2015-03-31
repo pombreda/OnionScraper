@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libavformat.so.56.1.0
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libavformat56
+/usr/share/doc
+/usr/share/doc/libavformat56
+/usr/share/doc/libavformat56/copyright
+/usr/share/doc/libavformat56/formats-amd64.txt.gz
+/usr/lib/x86_64-linux-gnu/libavformat.so.56
+/usr/share/doc/libavformat56/NEWS.Debian.gz
+/usr/share/doc/libavformat56/changelog.Debian.gz

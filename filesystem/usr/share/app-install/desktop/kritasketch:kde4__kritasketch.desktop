@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kritasketch
+X-AppInstall-Popcon=7
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Krita Sketch
+GenericName=Digital Painting
+Exec=kritasketch
+Icon=calligrakrita
+MimeType=application/x-krita;
+Categories=Qt;KDE;Graphics;
+
+X-Ubuntu-Gettext-Domain=app-install-data

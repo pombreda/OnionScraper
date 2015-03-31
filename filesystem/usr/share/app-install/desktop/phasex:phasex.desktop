@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=phasex
+X-AppInstall-Popcon=72
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=PHASEX
+Comment=Phase Harmonic Advanced Synthesis EXperiment
+Icon=phasex
+Exec=phasex
+Terminal=false
+Categories=AudioVideo;Audio;X-MIDI;X-Synthesis;X-JACK;X-Digital_Processing;
+
+X-Ubuntu-Gettext-Domain=app-install-data

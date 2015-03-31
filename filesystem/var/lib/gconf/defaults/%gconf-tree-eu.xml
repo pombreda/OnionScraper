@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; URLen kudeatzailea">
+								<longdesc>&quot;ymsgr&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;ymsgr&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;ymsgr&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; URLen kudeatzailea">
+								<longdesc>&quot;xmpp&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;xmpp&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;xmpp&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; URLen kudeatzailea">
+								<longdesc>&quot;sip&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;sip&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;sip&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; URLen kudeatzailea">
+								<longdesc>&quot;msnim&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;msnim&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;msnim&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; URLen kudeatzailea">
+								<longdesc>&quot;irc&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;irc&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;irc&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; URLen kudeatzailea">
+								<longdesc>&quot;icq&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;icq&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;icq&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; URLen kudeatzailea">
+								<longdesc>&quot;gg&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;gg&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;gg&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Terminalean exekutatu agindua">
+								<longdesc>Egia, URL-mota hau kudeatzeko erabilitako agindua terminalean exekutatu beharko balitz</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; URLen kudeatzailea">
+								<longdesc>&quot;aim&quot; URLak kudeatzeko erabilitako agindua, gaituz gero.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ea zehaztutako aginduak &quot;aim&quot; URLak kudeatu beharko lituzkeen">
+								<longdesc>Egia, &quot;agindua&quot; gakoan zehaztutako aginduak &quot;aim&quot; URLak kudeatu beharko balitu</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

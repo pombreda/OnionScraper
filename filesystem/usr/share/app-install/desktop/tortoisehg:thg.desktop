@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=tortoisehg
+X-AppInstall-Popcon=102
+X-AppInstall-Section=universe
+
+Type=Application
+Name=TortoiseHg
+GenericName=Version Control GUI
+Comment=GUI application for using Mercurial
+Icon=thg_logo
+Exec=thg --nofork
+Categories=Development;RevisionControl;
+Keywords=thg;hgtk;mercurial;vcs
+
+X-Ubuntu-Gettext-Domain=app-install-data

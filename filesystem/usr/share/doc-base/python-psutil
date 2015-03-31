@@ -1,0 +1,13 @@
+Document: python-psutil
+Title: psutil documentation
+Author: Giampaolo Rodola'
+Abstract: psutil (Python system and process utilities) is a cross-platform
+ library for retrieving information on running processes and system utilization
+ (CPU, memory, disks, network) in Python. It is useful mainly for system
+ monitoring, profiling and limiting process resources and management of running
+ processes
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python-psutil/html/index.html
+Files: /usr/share/doc/python-psutil/html/*

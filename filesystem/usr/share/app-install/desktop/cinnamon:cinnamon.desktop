@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Cinnamon
+Comment=Window management and application launching
+Exec=/usr/bin/cinnamon-launcher
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=cinnamon
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=2.2.16
+Categories=GNOME;GTK;System;Core;
+OnlyShowIn=GNOME;X-Cinnamon;
+NoDisplay=true
+X-GNOME-Autostart-Phase=WindowManager
+X-GNOME-Provides=panel;windowmanager;
+X-GNOME-Autostart-Notify=true
+X-GNOME-AutoRestart=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

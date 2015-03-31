@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=pixelmed-webstart-apps
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Terminal=false
+StartupNotify=true
+Version=20130426
+Name=DicomCleaner
+Exec=/usr/bin/DicomCleaner
+GenericName=DicomCleaner Application
+Comment=A simple application to query, retrieve, import, de-identify and remap UIDs and send DICOM instances.
+Icon=_usr_share_pixelmed_icons_DicomCleaner
+Categories=Science;DataVisualization;ImageProcessing;MedicalSoftware
+
+X-Ubuntu-Gettext-Domain=app-install-data

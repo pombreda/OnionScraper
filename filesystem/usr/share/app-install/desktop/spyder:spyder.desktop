@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=spyder
+X-AppInstall-Popcon=94
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Spyder
+GenericName=Spyder
+Comment=Scientific PYthon Development EnviRonment
+TryExec=spyder
+Exec=spyder %F
+Categories=Development;Science;IDE;Qt;
+Icon=spyder
+Terminal=false
+StartupNotify=true
+MimeType=text/x-python;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

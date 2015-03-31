@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=whichwayisup
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Which Way is Up
+GenericName=whichwayisup
+Comment=2D platform game with a slight rotational twist
+Icon=whichwayisup
+Exec=whichwayisup
+Terminal=false
+Categories=Game;ArcadeGame;
+Keywords=2D;game;arcade;platform;
+
+X-Ubuntu-Gettext-Domain=app-install-data

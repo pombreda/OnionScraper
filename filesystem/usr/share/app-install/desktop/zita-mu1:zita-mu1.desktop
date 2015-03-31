@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=zita-mu1
+X-AppInstall-Popcon=27
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Zita-mu1
+GenericName=Stereo monitoring app
+Comment=App used to organise stereo monitoring for JACK
+Keywords=audio;sound;jackd,monitoring,meter,speaker
+Icon=zita-mu1
+Exec=zita-mu1
+Terminal=false
+Categories=AudioVideo;Audio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=bookletimposer
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Version=0.2
+Name=bookletimposer
+Comment=Impose PDF documents to create booklets
+Type=Application
+Exec=bookletimposer
+Icon=bookletimposer
+Categories=Office;
+Terminal=false
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

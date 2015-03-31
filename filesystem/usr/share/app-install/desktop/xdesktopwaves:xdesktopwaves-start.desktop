@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=xdesktopwaves
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Name=xdesktopwaves: start
+Type=Application
+Exec=xdesktopwaves -rain 5
+Icon=xdesktopwaves
+Encoding=UTF-8
+Terminal=false
+Categories=Application;Game;Amusement;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

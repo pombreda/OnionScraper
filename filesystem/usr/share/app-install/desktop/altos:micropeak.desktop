@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=altos
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Type=Application
+Name=MicroPeak
+GenericName=MicroPeak download and analysis
+Comment=View and log data from MicroPeak altimeters
+Icon=_usr_share_icons_hicolor_scalable_apps_micropeak
+Exec=/usr/bin/micropeak %f
+Terminal=false
+MimeType=text/plain;
+Categories=Education;Electronics;Science;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=xosview
+X-AppInstall-Popcon=62
+X-AppInstall-Section=universe
+
+Name=Xosview
+Comment=X based system monitor
+Exec=xosview
+Terminal=false
+Type=Application
+Icon=xosview
+Categories=Application;System;
+Keywords=System;Utility;System Monitor
+
+X-Ubuntu-Gettext-Domain=app-install-data

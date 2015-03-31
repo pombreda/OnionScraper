@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=wizznic
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Wizznic
+Exec=wizznic
+Icon=wizznic
+Categories=Game;
+Comment=A puzzle-block falling game.
+
+X-Ubuntu-Gettext-Domain=app-install-data

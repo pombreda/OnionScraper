@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=python-nxt-filer
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=NXT filer
+Comment=Lego Mindstorm NXT file viewer
+Exec=/usr/bin/nxt_filer
+Terminal=false
+Type=Application
+Categories=Utility;FileTools;Electronics;
+
+X-Ubuntu-Gettext-Domain=app-install-data

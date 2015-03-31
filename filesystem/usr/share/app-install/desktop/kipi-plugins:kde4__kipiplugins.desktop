@@ -1,0 +1,20 @@
+# KDE Config File
+[Desktop Entry]
+X-AppInstall-Package=kipi-plugins
+X-AppInstall-Popcon=1405
+X-AppInstall-Section=universe
+
+Name=KIPI Plugins
+Comment=KDE Image Plugins Interface
+X-DocPath=kipi-plugins/index.html
+Categories=Qt;KDE;Graphics;
+NoDisplay=true
+Type=Application
+# Exec="" is necessary to get this entry to show up in khelpcenter
+Exec=""
+Icon=kipi-logo
+
+[X-KipiPlugins Entry]
+Version=4.2.0
+
+X-Ubuntu-Gettext-Domain=app-install-data

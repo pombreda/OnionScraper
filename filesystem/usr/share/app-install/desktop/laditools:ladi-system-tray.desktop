@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=laditools
+X-AppInstall-Popcon=78
+X-AppInstall-Section=universe
+
+Name=LADI System Tray
+Type=Application
+Comment=Manage and configure JACK and ladish
+Terminal=false
+Exec=ladi-system-tray
+Icon=laditools
+Categories=GNOME;GTK;AudioVideo;
+GenericName=LADI tray icon
+
+X-Ubuntu-Gettext-Domain=app-install-data

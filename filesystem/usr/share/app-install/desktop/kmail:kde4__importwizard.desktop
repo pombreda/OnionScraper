@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kmail
+X-AppInstall-Popcon=4213
+X-AppInstall-Section=universe
+
+Name=KMail Import Wizard
+Exec=importwizard
+Type=Application
+Icon=kontact-import-wizard
+X-DocPath=importwizard/index.html
+Comment=Launch the import wizard to migrate data from mailer as thunderbird/evolution etc.
+Terminal=false
+Categories=Qt;KDE;Utility;X-KDE-Utilities-PIM;
+
+X-Ubuntu-Gettext-Domain=app-install-data

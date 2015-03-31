@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-session-flashback
+X-AppInstall-Popcon=336
+X-AppInstall-Section=universe
+
+Type=Application
+Name=GNOME Flashback Services
+TryExec=/sbin/initctl
+Exec=/sbin/initctl emit indicator-services-start
+Categories=System;Core;
+Terminal=false
+OnlyShowIn=Unity;
+NoDisplay=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

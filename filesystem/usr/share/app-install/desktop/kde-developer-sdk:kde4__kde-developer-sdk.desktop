@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kde-developer-sdk
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Icon=kde
+Terminal=false
+Exec=xdg-open http://techbase.kde.org
+Name=KDE SDK
+GenericName=Metapackage for developing KDE Software
+Categories=Qt;KDE;Development;
+Hidden=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

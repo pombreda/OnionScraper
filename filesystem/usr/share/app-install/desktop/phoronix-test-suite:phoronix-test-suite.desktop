@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=phoronix-test-suite
+X-AppInstall-Popcon=38
+X-AppInstall-Section=universe
+
+Name=Phoronix Test Suite
+GenericName=Benchmarking Utility
+Comment=An Automated, Open-Source Testing Framework
+Exec=phoronix-test-suite interactive
+StartupNotify=true
+Icon=phoronix-test-suite
+Terminal=true
+Type=Application
+Categories=System;Monitor;
+
+X-Ubuntu-Gettext-Domain=app-install-data

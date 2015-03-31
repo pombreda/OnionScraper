@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="documents" xml:lang="en-AU">
+
+  <info>
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email>yrazes@gmail.com</email>
+      <years>2012</years>
+    </credit>
+    <credit type="editor">
+      <name>Ubuntu Documentation Team</name>
+      <email>ubuntu-doc@lists.ubuntu.com</email>
+    </credit>
+    <desc>
+      Organize the documents stored locally on your computer or created 
+      online.
+    </desc>
+    <link type="guide" xref="files#documents"/>
+    <revision pkgversion="3.5.90" date="2012-08-31" status="review"/>
+    <revision version="14.04" date="2014-03-06" status="review"/>
+  </info>
+
+  <title>Documents</title>
+
+  <p><app>Documents</app> is a GNOME application that lets you display,
+   organize, and print the documents on your computer or those created remotely
+   using <em>Google Docs</em> or <em>SkyDrive</em>.</p>
+
+ <section id="view" style="2column">
+    <title>View, Sort and Search</title>
+ </section>
+
+ <section id="print" style="2column">
+    <title>Select, Organize, Print</title>
+ </section>
+
+ <section id="question" style="2column">
+    <title>Questions</title>
+ </section>
+</page>

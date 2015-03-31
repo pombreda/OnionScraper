@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+StartupNotify=false
+Terminal=false
+Keywords=Info;Information;Ubuntustudio;Email;Contribute;Dev;
+Exec=xdg-open https://lists.ubuntu.com/mailman/listinfo/ubuntu-studio-devel
+Icon=ubuntustudio-logo
+Name=Ubuntu Studio You can help
+Comment=Join the Ubuntu Studio Team
+
+X-Ubuntu-Gettext-Domain=app-install-data

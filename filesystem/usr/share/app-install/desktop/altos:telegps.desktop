@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=altos
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Type=Application
+Name=TeleGPS
+GenericName=TeleGPS monitor, download and analysis
+Comment=View and log data from TeleGPS tracking devices
+Icon=_usr_share_icons_hicolor_scalable_apps_telegps
+Exec=/usr/bin/telegps %f
+Terminal=false
+MimeType=text/plain;
+Categories=Education;Electronics;Science;
+
+X-Ubuntu-Gettext-Domain=app-install-data

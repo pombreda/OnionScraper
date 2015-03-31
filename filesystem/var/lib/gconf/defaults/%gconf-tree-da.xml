@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne type adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen for &quot;ymsgr&quot;-adresser">
+								<longdesc>Kommandoen til at håndtere &quot;ymsgr&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;ymsgr&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skal håndtere &quot;ymsgr&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne type adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen for &quot;xmpp&quot;-adresser">
+								<longdesc>Kommandoen til at håndtere &quot;xmpp&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;xmpp&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skal håndtere &quot;xmpp&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne type adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen for &quot;sip&quot;-adresser">
+								<longdesc>Kommandoen til at håndtere &quot;sip&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;sip&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skal håndtere &quot;sip&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne type adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen for &quot;msnim&quot;-adresser">
+								<longdesc>Kommandoen til at håndtere &quot;msnim&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;msnim&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skal håndtere &quot;msnim&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne type adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen for &quot;irc&quot;-adresser">
+								<longdesc>Kommandoen til at håndtere &quot;irc&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;irc&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skal håndtere &quot;irc&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne type adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen for &quot;icq&quot;-adresser">
+								<longdesc>Kommandoen til at håndtere &quot;icq&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;icq&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skal håndtere &quot;icq&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne type adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen for &quot;gg&quot;-adresser">
+								<longdesc>Kommandoen til at håndtere &quot;gg&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;gg&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skal håndtere &quot;gg&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kør kommandoen i en terminal">
+								<longdesc>Sand hvis kommandoen til at håndtere denne type adresse skal køres i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Håndteringen for &quot;aim&quot;-adresser">
+								<longdesc>Kommandoen til at håndtere &quot;aim&quot;-adresser, hvis aktiveret.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Hvorledes den angivne kommando skal håndtere &quot;aim&quot;-adresser">
+								<longdesc>Sand hvis kommandoen angivet i &quot;kommando&quot;-nøglen skal håndtere &quot;aim&quot;-adresser.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

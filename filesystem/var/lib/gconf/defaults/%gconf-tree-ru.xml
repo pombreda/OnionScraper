@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;ymsgr&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;ymsgr&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;ymsgr&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;ymsgr&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;xmpp&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;xmpp&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;xmpp&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;xmpp&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;sip&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;sip&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;sip&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;sip&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;msnim&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;msnim&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;msnim&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;msnim&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;irc&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;irc&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;irc&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;irc&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;icq&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;icq&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;icq&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;icq&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;gg&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;gg&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;gg&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;gg&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Выполнить команду в терминале">
+								<longdesc>Верно, если команда, использующаяся для обращения по ссылке такого типа, должна быть запущена в терминале.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Обработчик для &quot;aim&quot; URL">
+								<longdesc>Команда, используемая для обработки &quot;aim&quot; URL, если включено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Должна ли указанная команда обрабатывать &quot;aim&quot; URL">
+								<longdesc>Верно, если команде, объявленной в ключе &quot;command&quot;, нужно обращаться по &quot;aim&quot; адресам.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

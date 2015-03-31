@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Icon=cs-fonts
+Exec=cinnamon-settings fonts
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Fonts
+Comment=Configure system fonts
+
+X-Ubuntu-Gettext-Domain=app-install-data

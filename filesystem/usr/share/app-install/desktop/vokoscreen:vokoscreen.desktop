@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=vokoscreen
+X-AppInstall-Popcon=31
+X-AppInstall-Section=universe
+
+Comment=screencast
+Exec=vokoscreen
+Icon=vokoscreen
+Name=vokoscreen
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=AudioVideo;Recorder;
+Keywords=Audio;Video;Recorder;Screencast;
+
+X-Ubuntu-Gettext-Domain=app-install-data

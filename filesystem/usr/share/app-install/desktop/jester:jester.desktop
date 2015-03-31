@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=jester
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Jester
+GenericName=Jester
+Comment=board game similar to Othello
+Exec=jester
+Icon=jester
+Terminal=false
+Categories=Game;BoardGame;
+Keywords=board;game;Othello;X11;
+
+X-Ubuntu-Gettext-Domain=app-install-data

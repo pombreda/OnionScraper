@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ibus-hangul
+X-AppInstall-Popcon=122
+X-AppInstall-Section=main
+
+Name=IBus Hangul Preferences
+Comment=Set IBus Hangul Preferences
+Exec=ibus-setup-hangul
+Icon=ibus-setup-hangul
+NoDisplay=true
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Settings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

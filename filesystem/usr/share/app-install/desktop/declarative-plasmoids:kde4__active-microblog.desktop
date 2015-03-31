@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=declarative-plasmoids
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Microblog
+GenericName=Microblog Client
+Comment=Active Twitter & Identi.ca client
+Exec=export PLASMA_CUSTOM_PREFIX_PATHS=platformcontents/application/generic/:platformcontents/application/tablet/:contents/ && plasma-windowed -graphicssystem raster org.kde.microblog-qml
+Keywords=identi.ca,twitter
+
+Terminal=false
+Icon=active-news
+Type=Application
+Categories=Qt;KDE;News;
+
+X-Ubuntu-Gettext-Domain=app-install-data

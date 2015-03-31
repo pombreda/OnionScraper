@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Icon=cs-default-applications
+Exec=cinnamon-settings default
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Preferred Applications
+Comment=Preferred Applications
+
+X-Ubuntu-Gettext-Domain=app-install-data

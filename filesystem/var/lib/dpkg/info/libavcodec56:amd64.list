@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libavcodec.so.56.1.0
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libavcodec56
+/usr/share/doc
+/usr/share/doc/libavcodec56
+/usr/share/doc/libavcodec56/copyright
+/usr/share/doc/libavcodec56/codecs-amd64.txt.gz
+/usr/lib/x86_64-linux-gnu/libavcodec.so.56
+/usr/share/doc/libavcodec56/NEWS.Debian.gz
+/usr/share/doc/libavcodec56/changelog.Debian.gz

@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=pdfchain
+X-AppInstall-Popcon=250
+X-AppInstall-Section=universe
+
+Name=PDF Chain
+GenericName=pdfchain
+Comment=A graphical user interface for the PDF Toolkit (PDFtk)
+Exec=pdfchain
+Icon=pdfchain
+Type=Application
+StartupNotify=false
+Categories=Office;
+MimeType=application/pdf;
+Terminal=false
+Keywords=pdf,splitting,concatenating,form,converting,user-interface
+#Comment[en]=
+#Comment[fr]=
+
+X-Ubuntu-Gettext-Domain=app-install-data

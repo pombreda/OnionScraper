@@ -1,0 +1,41 @@
+#!/bin/sh -e
+
+
+rm_conffile()
+{
+    CONFFILE="$1"
+
+    if [ -e "$CONFFILE" ]; then
+        md5sum=`md5sum "$CONFFILE" | cut -d ' ' -f 1`
+	old_md5sum=`dpkg-query -W -f='${Conffiles}' linux-wlan-ng | grep $CONFFILE | cut -d ' ' -f 3`
+        if [ "$md5sum" != "$old_md5sum" ]; then
+            echo "Obsolete conffile $CONFFILE has been modified by you, renaming to .dpkg-bak"
+            mv -f "$CONFFILE" "$CONFFILE".dpkg-bak
+	else
+            echo "Removing obsolete conffile $CONFFILE"
+	    rm -f "$CONFFILE"
+        fi
+    fi
+}
+
+# Uncomment when debian completely drops #HOTPLUG#
+if [ "$1" = install -o "$1" = upgrade ]; then
+    if dpkg --compare-versions "$2" lt "0.2.8+svn1839+dfsg-2"; then
+	rm_conffile /etc/hotplug/wlan.agent
+    fi
+fi
+
+# The old modutils file could be there
+if [ "$1" = install -o "$1" = upgrade ]; then
+    if dpkg --compare-versions "$2" lt "0.2.8+svn1839+dfsg-3"; then
+	rm_conffile /etc/modutils/linux-wlan-ng
+    fi
+fi
+
+# udev rules have moved to /lib/udev
+if [ "$1" = install -o "$1" = upgrade ]; then
+    if dpkg --compare-versions "$2" lt "0.2.9+dfsg-3"; then
+	rm_conffile /etc/udev/rules.d/84-linux-wlan-ng.rules
+    fi
+fi
+

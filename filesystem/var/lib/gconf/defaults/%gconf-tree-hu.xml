@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Parancs futtatása terminálban">
+								<longdesc>Ha igazra van állítva, az ilyen típusú URL címeket kezelő parancsnak terminálban kell futnia.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="„ymsgr” URL címek kezelője">
+								<longdesc>Az „ymsgr” URL címek kezelésére használt parancs, ha engedélyezve van.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A megadott parancs kezelje-e az „ymsgr” URL címeket">
+								<longdesc>Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli az „ymsgr” URL címeket.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Parancs futtatása terminálban">
+								<longdesc>Ha igazra van állítva, az ilyen típusú URL címeket kezelő parancsnak terminálban kell futnia.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="„xmpp” URL címek kezelője">
+								<longdesc>Az „xmpp” URL címek kezelésére használt parancs, ha engedélyezve van.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A megadott parancs kezelje-e az „xmpp” URL címeket">
+								<longdesc>Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli az „xmpp” URL címeket.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Parancs futtatása terminálban">
+								<longdesc>Ha igazra van állítva, az ilyen típusú URL címeket kezelő parancsnak terminálban kell futnia.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="„sip” URL címek kezelője">
+								<longdesc>A „sip” URL címek kezelésére használt parancs, ha engedélyezve van.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A megadott parancs kezelje-e a „sip” URL címeket">
+								<longdesc>Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a „sip” URL címeket.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Parancs futtatása terminálban">
+								<longdesc>Ha igazra van állítva, az ilyen típusú URL címeket kezelő parancsnak terminálban kell futnia.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="„msnim” URL címek kezelője">
+								<longdesc>Az „msnim” URL címek kezelésére használt parancs, ha engedélyezve van.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A megadott parancs kezelje-e az „msnim” URL címeket">
+								<longdesc>Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli az „msnim” URL címeket.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Parancs futtatása terminálban">
+								<longdesc>Ha igazra van állítva, az ilyen típusú URL címeket kezelő parancsnak terminálban kell futnia.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="„irc” URL címek kezelője">
+								<longdesc>Az „irc” URL címek kezelésére használt parancs, ha engedélyezve van.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A megadott parancs kezelje-e az „irc” URL címeket">
+								<longdesc>Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli az „irc” URL címeket.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Parancs futtatása terminálban">
+								<longdesc>Ha igazra van állítva, az ilyen típusú URL címeket kezelő parancsnak terminálban kell futnia.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="„icq” URL címek kezelője">
+								<longdesc>Az „icq” URL címek kezelésére használt parancs, ha engedélyezve van.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A megadott parancs kezelje-e az „icq” URL címeket">
+								<longdesc>Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli az „icq” URL címeket.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Parancs futtatása terminálban">
+								<longdesc>Ha igazra van állítva, az ilyen típusú URL címeket kezelő parancsnak terminálban kell futnia.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="„gg” URL címek kezelője">
+								<longdesc>A „gg” URL címek kezelésére használt parancs, ha engedélyezve van.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A megadott parancs kezelje-e a „gg” URL címeket">
+								<longdesc>Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a „gg” URL címeket.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Parancs futtatása terminálban">
+								<longdesc>Ha igazra van állítva, az ilyen típusú URL címeket kezelő parancsnak terminálban kell futnia.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="„aim” URL címek kezelője">
+								<longdesc>Az „aim” URL címek kezelésére használt parancs, ha engedélyezve van.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="A megadott parancs kezelje-e az „aim” URL címeket">
+								<longdesc>Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli az „aim” URL címeket.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=linthesia
+X-AppInstall-Popcon=10
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Linthesia
+GenericName=Piano game
+Icon=linthesia
+Exec=linthesia
+Categories=Education;Music;
+Keywords=Piano;Music;Lessons;
+X-Ubuntu-Gettext-Domain=app-install-data

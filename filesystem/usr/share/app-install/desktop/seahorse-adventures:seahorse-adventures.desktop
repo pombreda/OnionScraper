@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=seahorse-adventures
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=Seahorse Adventures
+Comment=Help Barbie the seahorse float on bubbles to the moon
+Exec=seahorse-adventures
+Icon=seahorse-adventures
+Terminal=false
+Type=Application
+Categories=Game;ActionGame;
+Keywords=game;action;arcade;moon;jungle;barbie;volcano;retro;platform;side-scroller;
+
+X-Ubuntu-Gettext-Domain=app-install-data

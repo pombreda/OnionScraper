@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=xdot
+X-AppInstall-Popcon=39
+X-AppInstall-Section=universe
+
+Name=XDot
+Comment=Interactive viewer for Graphviz dot files
+Exec=xdot
+Terminal=false
+Type=Application
+Categories=GTK;DataVisualization;Science;Graphics;
+MimeType=text/vnd.graphviz
+Keywords=graphviz;dot;viewer;graph;
+
+X-Ubuntu-Gettext-Domain=app-install-data

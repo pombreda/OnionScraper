@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Esegui il comando in un terminale">
+								<longdesc>Vero. se il comando utilizzato per gestire questo tipo di URL deve essere eseguito in un terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="gestore per gli URL &quot;ymsgr&quot;">
+								<longdesc>Il comando utilizzato per gestire gli URL &quot;ymsgr&quot;, se abilitati.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se il comando specificato deve gestire gli URL &quot;ymsgr&quot;">
+								<longdesc>Vero, se il comando specificato nella chiave &quot;command&quot; deve gestire gli URL &quot;ymsgr&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Esegui il comando in un terminale">
+								<longdesc>Vero. se il comando utilizzato per gestire questo tipo di URL deve essere eseguito in un terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="gestore per gli URL &quot;xmpp&quot;">
+								<longdesc>Il comando utilizzato per gestire gli URL &quot;xmpp&quot;, se abilitati.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se il comando specificato deve gestire gli URL &quot;xmpp&quot;">
+								<longdesc>Vero, se il comando specificato nella chiave &quot;command&quot; deve gestire gli URL &quot;xmpp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Esegui il comando in un terminale">
+								<longdesc>Vero. se il comando utilizzato per gestire questo tipo di URL deve essere eseguito in un terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="gestore per gli URL &quot;sip&quot;">
+								<longdesc>Il comando utilizzato per gestire gli URL &quot;sip&quot;, se abilitati.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se il comando specificato deve gestire gli URL &quot;sip&quot;">
+								<longdesc>Vero, se il comando specificato nella chiave &quot;command&quot; deve gestire gli URL &quot;sip&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Esegui il comando in un terminale">
+								<longdesc>Vero. se il comando utilizzato per gestire questo tipo di URL deve essere eseguito in un terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="gestore per gli URL &quot;msnim&quot;">
+								<longdesc>Il comando utilizzato per gestire gli URL &quot;msnim&quot;, se abilitati.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se il comando specificato deve gestire gli URL &quot;msnim&quot;">
+								<longdesc>Vero, se il comando specificato nella chiave &quot;command&quot; deve gestire gli URL &quot;msnim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Esegui il comando in un terminale">
+								<longdesc>Vero. se il comando utilizzato per gestire questo tipo di URL deve essere eseguito in un terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="gestore per gli URL &quot;irc&quot;">
+								<longdesc>Il comando utilizzato per gestire gli URL &quot;irc&quot;, se abilitati.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se il comando specificato deve gestire gli URL &quot;irc&quot;">
+								<longdesc>Vero, se il comando specificato nella chiave &quot;command&quot; deve gestire gli URL &quot;irc&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Esegui il comando in un terminale">
+								<longdesc>Vero. se il comando utilizzato per gestire questo tipo di URL deve essere eseguito in un terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="gestore per gli URL &quot;icq&quot;">
+								<longdesc>Il comando utilizzato per gestire gli URL &quot;icq&quot;, se abilitati.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se il comando specificato deve gestire gli URL &quot;icq&quot;">
+								<longdesc>Vero, se il comando specificato nella chiave &quot;command&quot; deve gestire gli URL &quot;icq&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Esegui il comando in un terminale">
+								<longdesc>Vero. se il comando utilizzato per gestire questo tipo di URL deve essere eseguito in un terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="gestore per gli URL &quot;gg&quot;">
+								<longdesc>Il comando utilizzato per gestire gli URL &quot;gg&quot;, se abilitati.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se il comando specificato deve gestire gli URL &quot;gg&quot;">
+								<longdesc>Vero, se il comando specificato nella chiave &quot;command&quot; deve gestire gli URL &quot;gg&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Esegui il comando in un terminale">
+								<longdesc>Vero. se il comando utilizzato per gestire questo tipo di URL deve essere eseguito in un terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Il gestore per gli URL &quot;aim&quot;">
+								<longdesc>Il comando utilizzato per gestire gli URL &quot;aim&quot;, se abilitati.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Se il comando specificato deve gestire gli URL &quot;aim&quot;">
+								<longdesc>Vero, se il comando specificato nella chiave &quot;command&quot; deve gestire gli URL &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

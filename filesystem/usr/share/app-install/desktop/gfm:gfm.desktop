@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gfm
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=GFM
+Comment=TI Calculators Group File Manager
+GenericName=TI Groups File Manager for TILP
+Version=1.0
+Type=Application
+Exec=/usr/bin/gfm
+Icon=_usr_share_gfm_pixmaps_gfm
+Terminal=false
+Categories=Utility;GTK;X-KDE-Utilities-Peripherals;
+MimeType=application/x-tilp;
+
+X-Ubuntu-Gettext-Domain=app-install-data

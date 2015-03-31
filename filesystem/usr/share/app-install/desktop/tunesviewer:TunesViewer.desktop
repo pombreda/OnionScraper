@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=tunesviewer
+X-AppInstall-Popcon=16
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Exec=tunesviewer %U
+Icon=tunesview
+Terminal=false
+Categories=Application;Network;
+MimeType=x-scheme-handler/itms;x-scheme-handler/itmss;x-scheme-handler/itpc;
+Name=TunesViewer
+GenericName=iTunes U browser
+Comment=Access iTunesU media and podcasts.
+
+X-Ubuntu-Gettext-Domain=app-install-data

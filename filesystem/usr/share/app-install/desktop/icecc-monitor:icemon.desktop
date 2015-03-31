@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=icecc-monitor
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+GenericName=Icecream Monitor
+Name=Icemon
+Comment=A monitor for an Icecream compilation network
+Exec=icemon
+Type=Application
+Terminal=false
+Categories=Qt;Development;
+Icon=icemon
+Keywords=icecc;icecream;monitor;network;
+
+X-Ubuntu-Gettext-Domain=app-install-data

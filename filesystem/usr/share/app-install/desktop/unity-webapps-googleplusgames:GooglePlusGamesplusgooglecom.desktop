@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-webapps-googleplusgames
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=GooglePlusGames
+Type=Application
+Icon=unity-webapps-googleplusgames
+MimeType=
+Actions=S0;S1;S2;S3;S4;S5;S6;S7;S8;S9;S10;
+Exec=unity-webapps-runner -n 'R29vZ2xlUGx1c0dhbWVz' -d 'plus.google.com' %u
+StartupWMClass=GooglePlusGamesplusgooglecom
+    
+X-Ubuntu-Gettext-Domain=app-install-data

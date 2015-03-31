@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=boinc-manager
+X-AppInstall-Popcon=342
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Exec=boincmgr
+Path=/var/lib/boinc-client
+Icon=boincmgr
+Categories=System;Monitor;GTK;
+Name=BOINC Manager
+GenericName=BOINC monitor and control utility
+Comment=Configure or monitor a BOINC core client
+
+X-Ubuntu-Gettext-Domain=app-install-data

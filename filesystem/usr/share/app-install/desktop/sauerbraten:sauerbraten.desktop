@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=sauerbraten
+X-AppInstall-Popcon=60
+X-AppInstall-Section=multiverse
+
+Name=Sauerbraten
+Comment=A networked, fast-paced 3D first-person shooter
+Exec=sauerbraten
+Icon=sauerbraten
+Terminal=false
+Type=Application
+Categories=Game;ActionGame;
+Keywords=3D;shooter;fast;multiplayer;bots;editor;maps;
+
+X-Ubuntu-Gettext-Domain=app-install-data

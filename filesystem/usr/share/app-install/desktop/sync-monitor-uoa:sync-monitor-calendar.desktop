@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=sync-monitor-uoa
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Categories=Office;
+Exec=
+GenericName=sync-monitor
+Name=Calendar
+NoDisplay=true
+Terminal=false
+Type=Application
+Icon=calendar
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

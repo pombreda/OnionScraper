@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=ibus-pinyin
+X-AppInstall-Popcon=1528
+X-AppInstall-Section=main
+
+Name=IBus Pinyin Setup
+Comment=Set ibus-pinyin Preferences
+Exec=/usr/lib/ibus/ibus-setup-pinyin
+Icon=_usr_share_ibus-pinyin_icons_ibus-pinyin
+NoDisplay=true
+Type=Application
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

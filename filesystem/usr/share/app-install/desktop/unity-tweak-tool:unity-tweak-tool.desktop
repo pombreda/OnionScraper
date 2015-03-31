@@ -1,0 +1,39 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-tweak-tool
+X-AppInstall-Popcon=329
+X-AppInstall-Section=universe
+
+Name=Unity Tweak Tool
+Comment=Configuration frontend for the Unity desktop environment
+Categories=Settings;
+Exec=unity-tweak-tool %f
+Icon=unity-tweak-tool
+GenericName=Unity Tweak Tool
+OnlyShowIn=Unity;
+StartupNotify=true
+Terminal=false
+Type=Application
+Actions=Unity;WinMng;Appearance;System;
+X-Unity-IconBackgroundColor=#ff0025
+
+[Desktop Action Unity]
+Name=Unity
+Exec=unity-tweak-tool -u
+OnlyShowIn=Unity;
+
+[Desktop Action WinMng]
+Name=Window Manager
+Exec=unity-tweak-tool -w
+OnlyShowIn=Unity;
+
+[Desktop Action Appearance]
+Name=Appearance
+Exec=unity-tweak-tool -a
+OnlyShowIn=Unity;
+
+[Desktop Action System]
+Name=System
+Exec=unity-tweak-tool -s
+OnlyShowIn=Unity;
+
+X-Ubuntu-Gettext-Domain=app-install-data

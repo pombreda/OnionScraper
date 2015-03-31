@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Icon=cs-mouse
+Exec=cinnamon-settings mouse
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Mouse and Touchpad
+Comment=Control mouse and touchpad settings
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,47 @@
+[Desktop Entry]
+X-AppInstall-Package=gramps
+X-AppInstall-Popcon=221
+X-AppInstall-Section=universe
+
+Name=Gramps
+GenericName=Genealogy System
+X-GNOME-FullName=Gramps Genealogy System
+X-GNOME-FullName[ar]=غرمبز نظام الأنساب
+X-GNOME-FullName[bg]=Генеалогична система Gramps
+X-GNOME-FullName[ca]=Sistema Genealògic Gramps
+X-GNOME-FullName[cs]=Genealogický systém Gramps
+X-GNOME-FullName[da]=Slægtsforskningsprogrammet Gramps
+X-GNOME-FullName[de]=Gramps Genealogiesystem
+X-GNOME-FullName[el]=Σύστημα γενεαλογίας Gramps
+X-GNOME-FullName[es]=Sistema de genealogía Gramps
+X-GNOME-FullName[fi]=Gramps sukututkimusjärjestelmä
+X-GNOME-FullName[fr]=Système de généalogie Gramps
+X-GNOME-FullName[he]=Gramps מערכת גינאולוגית
+X-GNOME-FullName[hr]=GRAMPS rodoslovni sustav
+X-GNOME-FullName[hu]=GRAMPS Származástani Rendszer
+X-GNOME-FullName[it]=Sistema Genealogico Gramps
+X-GNOME-FullName[ja]=Gramps Genealogy System
+X-GNOME-FullName[lt]=Gramps genealogijos sistema
+X-GNOME-FullName[nb]=Gramps Slektsforskersystem
+X-GNOME-FullName[nl]=Gramps genealogiesysteem
+X-GNOME-FullName[nn]=Gramps Slektsgranskarsystem
+X-GNOME-FullName[pl]=Gramps System Genealogiczny
+X-GNOME-FullName[pt_BR]=Sistema de genealogia Gramps
+X-GNOME-FullName[pt_PT]=Sistema de genealogia Gramps
+X-GNOME-FullName[ru]=Генеалогическая система Gramps
+X-GNOME-FullName[sk]=Gramps Genealogy System
+X-GNOME-FullName[sl]=Rodoslovni sistem Gramps
+X-GNOME-FullName[sv]=Gramps Genealogisystem
+X-GNOME-FullName[uk]=Генеалогічна система Gramps
+X-GNOME-FullName[vi]=Hệ thống gia phả Gramps 
+X-GNOME-FullName[zh_CN]=GRAMPS 家谱系统 
+Comment=Manage genealogical information, perform genealogical research and analysis
+Icon=gramps
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Office;
+MimeType=application/x-gramps;application/x-gedcom;application/x-gramps-package;application/x-gramps-xml;
+Exec=gramps %F
+
+X-Ubuntu-Gettext-Domain=app-install-data

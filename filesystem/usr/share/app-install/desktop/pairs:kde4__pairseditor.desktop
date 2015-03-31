@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=pairs
+X-AppInstall-Popcon=12
+X-AppInstall-Section=universe
+
+Name=Pairs Theme Editor
+Exec=pairseditor %i -caption %c
+Icon=pairseditor
+X-DocPath=pairseditor/index.html
+Type=Application
+GenericName=A Pairs theme editor
+Terminal=false
+Categories=Qt;KDE;Education;Game;KidsGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

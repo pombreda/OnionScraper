@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Icon=cs-keyboard
+Exec=cinnamon-settings keyboard
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=Keyboard
+Comment=Manage keyboard settings and shortcuts
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=tecnoballz
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Type=Application
+Name=TecnoballZ
+GenericName=tecnoballz
+Comment=Play an Arkanoid-like game
+Icon=tecnoballz
+Exec=tecnoballz
+Terminal=false
+Categories=Game;ArcadeGame;
+Keywords=arkanoid;arcade;futuristic;amiga;
+
+X-Ubuntu-Gettext-Domain=app-install-data

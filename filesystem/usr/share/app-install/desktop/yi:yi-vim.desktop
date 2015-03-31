@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=yi
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Yi (Vim keymap)
+GenericName=Text Editor
+Comment=View and edit files
+MimeType=text/plain;text/x-haskell;text/x-literatehaskell
+Exec=/usr/bin/yi -fpango --as=vim %F
+TryExec=yi
+Icon=_usr_share_yi-0.6.7.0_art_yi+lambda-fat-32
+Type=Application
+Terminal=false
+Categories=Utility;Development;TextEditor;
+
+X-Ubuntu-Gettext-Domain=app-install-data

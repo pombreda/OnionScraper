@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=calligraplan
+X-AppInstall-Popcon=90
+X-AppInstall-Section=universe
+
+Name=Plan WorkPackage Handler
+GenericName=Project Management
+Exec=calligraplanwork %u
+MimeType=application/x-vnd.kde.plan.work;application/x-vnd.kde.kplato.work;
+Type=Application
+Icon=calligraplanwork
+X-KDE-ServiceTypes=Calligra/Application
+Categories=Qt;KDE;Office;
+X-KDE-StartupNotify=true
+X-DocPath=http://userbase.kde.org/PlanWork/Manual
+
+X-Ubuntu-Gettext-Domain=app-install-data

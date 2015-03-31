@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kio
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=ktelnetservice5 %u
+Icon=utilities-terminal
+MimeType=x-scheme-handler/telnet;x-scheme-handler/rlogin;x-scheme-handler/ssh;
+
+X-DocPath=kioslave5/telnet/index.html
+NoDisplay=true
+
+Name=KTelnetService
+
+X-Ubuntu-Gettext-Domain=app-install-data

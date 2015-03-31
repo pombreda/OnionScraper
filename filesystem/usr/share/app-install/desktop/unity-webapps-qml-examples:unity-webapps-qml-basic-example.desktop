@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-webapps-qml-examples
+X-AppInstall-Popcon=0
+X-AppInstall-Section=main
+
+Type=Application
+Exec=qmlscene /usr/share/unity-webapps-qml/examples/basic-webview/main.qml
+Path=/usr/share/unity-webapps-qml/examples/basic-webview
+Name=Unity WebApp QML Comonent - Basic API Showcase App
+GenericName=Unity WebApp QML Comonent for Ubuntu Basic API Showcase App
+Icon=drive-multidisk-symbolicx
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

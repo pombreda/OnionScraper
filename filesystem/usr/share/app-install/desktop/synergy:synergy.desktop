@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=synergy
+X-AppInstall-Popcon=356
+X-AppInstall-Section=universe
+
+Name=Synergy
+Comment=Share your keyboard and mouse over a network
+Exec=synergy
+Icon=_usr_share_icons_synergy
+Type=Application
+Categories=Utility
+
+X-Ubuntu-Gettext-Domain=app-install-data

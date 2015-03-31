@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libdvdread4
+/usr/share/doc/libdvdread4/changelog.Debian.gz
+/usr/share/doc/libdvdread4/README.css
+/usr/share/doc/libdvdread4/AUTHORS
+/usr/share/doc/libdvdread4/README
+/usr/share/doc/libdvdread4/copyright
+/usr/share/doc/libdvdread4/install-css.sh
+/usr/share/bug
+/usr/share/bug/libdvdread4
+/usr/lib
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libdvdread.so.4.1.2
+/usr/lib/x86_64-linux-gnu/libdvdread.so.4

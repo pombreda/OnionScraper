@@ -1,0 +1,5 @@
+f450f0d71f449cf52920fdc30511fa99  usr/lib/x86_64-linux-gnu/libLLVM-3.5.so.1
+48256146be25cf2998e3ef7eb6cdbfc7  usr/share/doc/libllvm3.5/NEWS.Debian.gz
+6d62ffe75d24946f92d2a83a8f6eee3f  usr/share/doc/libllvm3.5/changelog.Debian.gz
+063e0448ac11bde832bec75b88775293  usr/share/doc/libllvm3.5/copyright
+036475caf8a9a19ab24938c794bffa39  usr/share/lintian/overrides/libllvm3.5

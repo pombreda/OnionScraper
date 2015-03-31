@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=drascula-german
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Drascula: The Vampire Strikes Back (Deutsch)
+GenericName=Drascula
+Type=Application
+Exec=/usr/games/scummvm -q de -n -m 128 -p /usr/share/scummvm/drascula/de drascula
+Icon=drascula
+Categories=AdventureGame;Game;RolePlaying;
+Keywords=game;adventure;roleplaying;2D;fantasy;
+Comment=classic 2D point and click adventure game
+
+X-Ubuntu-Gettext-Domain=app-install-data

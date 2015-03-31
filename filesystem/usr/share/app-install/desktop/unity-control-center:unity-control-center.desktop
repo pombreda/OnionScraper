@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-control-center
+X-AppInstall-Popcon=7559
+X-AppInstall-Section=main
+
+Name=System Settings
+Icon=preferences-system
+Exec=unity-control-center --overview
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;System;
+OnlyShowIn=Unity;
+Keywords=Preferences;Settings;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

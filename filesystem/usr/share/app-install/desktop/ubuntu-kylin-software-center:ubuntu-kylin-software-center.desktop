@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntu-kylin-software-center
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Ubuntu Kylin Software Center
+Comment=Ubuntu Kylin software-center
+Exec=/usr/bin/ubuntu-kylin-software-center %u
+Icon=ubuntu-kylin-software-center
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=PackageManager;GTK;Graphics;System;Settings;Viewer;
+Keywords=Sources;PPA;Install;Uninstall;Remove;Purchase;Catalogue;Store;Apps;
+
+X-Ubuntu-Gettext-Domain=app-install-data

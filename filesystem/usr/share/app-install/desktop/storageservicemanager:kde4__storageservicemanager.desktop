@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=storageservicemanager
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Name=Cloud Storage Manager
+Type=Application
+Exec=storageservicemanager
+Icon=kmail
+X-DocPath=storageservicemanager/index.html
+GenericName=Cloud Storage Manager
+Terminal=false
+Categories=Qt;KDE;Office;Network;
+InitialPreference=10
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-control-center
+X-AppInstall-Popcon=167
+X-AppInstall-Section=universe
+
+Name=Preferred Applications
+Comment=Select your default applications
+Exec=mate-default-applications-properties
+Icon=preferences-desktop-default-applications
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;X-MATE-PersonalSettings;
+Keywords=mate-control-center;MATE;default;preferred;applications;
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

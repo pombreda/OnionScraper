@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Извршете ја командата во терминал">
+								<longdesc>Точно, ако командата која се употребува за справување со овој тип на URL треба да биде извршена во терминал.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Справувачот за „ymsgr“ URL">
+								<longdesc>Командата која се користи за справување со „ymsgr“ URL, ако тоа е овозможено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Дали одредената команда треба да се справува со URL на „ymsgr“">
+								<longdesc>Точно, ако командата одредена во клучот „команда“ треба да се справува со „ymsgr“ URL.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Извршете ја командата во терминал">
+								<longdesc>Точно, ако командата која се употребува за справување со овој тип на URL треба да биде извршена во терминал.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Справувачот за „xmpp“ URL">
+								<longdesc>Командата која се користи за справување со „xmpp“ URL, ако тоа е овозможено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Дали одредената команда треба да се справува со URL на „xmpp“">
+								<longdesc>Точно, ако командата одредена во клучот „команда“ треба да се справува со „xmpp“ URL.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Извршете ја командата во терминал">
+								<longdesc>Точно, ако командата која се употребува за справување со овој тип на URL треба да биде извршена во терминал.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Справувачот за „sip“ URL">
+								<longdesc>Командата која се користи за справување со „sip“ URL, ако тоа е овозможено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Дали одредената команда треба да се справува со URL на „sip“">
+								<longdesc>Точно, ако командата одредена во клучот „команда“ треба да се справува со „sip“ URL.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Извршете ја командата во терминал">
+								<longdesc>Точно, ако командата која се употребува за справување со овој тип на URL треба да биде извршена во терминал.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Справувачот за „msnim“ URL">
+								<longdesc>Командата која се користи за справување со „msnim“ URL, ако тоа е овозможено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Дали одредената команда треба да се справува со URL на „msnim“">
+								<longdesc>Точно, ако командата одредена во клучот „команда“ треба да се справува со „msnim“ URL.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Извршете ја командата во терминал">
+								<longdesc>Точно, ако командата која се употребува за справување со овој тип на URL треба да биде извршена во терминал.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Справувачот за „im“ URL">
+								<longdesc>Командата која се користи за справување со „irc“ URL, ако тоа е овозможено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Дали одредената команда треба да се справува со URL на „irc“">
+								<longdesc>Точно, ако командата одредена во клучот „команда“ треба да се справува со „irc“ URL.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Извршете ја командата во терминал">
+								<longdesc>Точно, ако командата која се употребува за справување со овој тип на URL треба да биде извршена во терминал.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Справувачот за „icq“ URL">
+								<longdesc>Командата која се користи за справување со „icq“ URL, ако тоа е овозможено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Дали одредената команда треба да се справува со URL на „icq“">
+								<longdesc>Точно, ако командата одредена во клучот „команда“ треба да се справува со „icq“ URL.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Извршете ја командата во терминал">
+								<longdesc>Точно, ако командата која се употребува за справување со овој тип на URL треба да биде извршена во терминал.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Справувачот за „gg“ URL">
+								<longdesc>Командата која се користи за справување со „gg“ URL, ако тоа е овозможено.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Дали одредената команда треба да се справува со URL на „gg“">
+								<longdesc>Точно, ако командата одредена во клучот „команда“ треба да се справува со „gg“ URL.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Извршете ја командата во терминал">
+								<longdesc>Точно, ако командата која се употребува за справување со овој тип на URL треба да биде извршена во терминал.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Справувачот за „aim“ URL">
+								<longdesc>Командата користена за справување со &quot;aim&quot; адреси.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Дали одредената команда треба да се справува со URL на „aim“">
+								<longdesc>Точно, ако командата одредена во клучот „команда“ треба да се справува со „aim“ URL.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

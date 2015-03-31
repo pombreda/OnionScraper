@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=jkmeter
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Jkmeter
+GenericName=Audio Level Meter
+Comment=Audio level meter for JACK
+Keywords=audio;sound;jackd,measurement,meter,stereo,RMS,peak
+Icon=jkmeter32x32
+Exec=jkmeter -C -V 
+Terminal=false
+Categories=AudioVideo;Audio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

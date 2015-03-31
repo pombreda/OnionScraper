@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=notes-mobile
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Notes
+Exec=notes-mobile
+
+Icon=notes-mobile
+Type=Application
+Categories=Qt;KDE;Utility;TextTools;
+
+X-Ubuntu-Gettext-Domain=app-install-data

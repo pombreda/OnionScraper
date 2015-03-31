@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=ubuntustudio-menu
+X-AppInstall-Popcon=74
+X-AppInstall-Section=universe
+
+Name=Extra Photography Applications
+GenericName=Software Installer
+Comment=Allows the installation of more Photography applications
+Exec=ubuntustudio-installer ubuntustudio-photography photoprint gpick agave lprof fotoxx ufraw digikam
+Icon=ubuntustudio-installer
+Terminal=false
+Type=Application
+StartupNotify=true
+Keywords=Install;
+
+X-Ubuntu-Gettext-Domain=app-install-data

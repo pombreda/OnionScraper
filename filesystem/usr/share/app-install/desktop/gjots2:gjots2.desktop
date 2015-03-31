@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=gjots2
+X-AppInstall-Popcon=9
+X-AppInstall-Section=universe
+
+Name=Gjots2 Jotter
+Comment=Store and organise your random notes
+Exec=gjots2
+Terminal=false
+Type=Application
+Icon=gjots
+Categories=GNOME;GTK;Utility;
+Keywords=notes;hierarchy
+
+X-Ubuntu-Gettext-Domain=app-install-data

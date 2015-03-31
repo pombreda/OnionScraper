@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=arduino
+X-AppInstall-Popcon=288
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Arduino IDE
+GenericName=Create physical computing projects
+Exec=arduino
+Icon=arduino
+Terminal=false
+Categories=Development;Engineering;Electronics;
+MimeType=text/x-arduino
+Keywords=embedded electronics;electronics;avr;microcontroller;
+
+X-Ubuntu-Gettext-Domain=app-install-data

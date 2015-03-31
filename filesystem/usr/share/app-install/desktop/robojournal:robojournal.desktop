@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=robojournal
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=RoboJournal
+GenericName=Free Journal Software for Everyone
+Icon=_usr_share_icons_robojournal64
+Exec=robojournal
+Categories=Office;
+Comment=Keep a journal/diary of day-to-day events in your life.
+
+X-Ubuntu-Gettext-Domain=app-install-data

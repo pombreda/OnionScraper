@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kicad
+X-AppInstall-Popcon=144
+X-AppInstall-Section=universe
+
+Categories=Development;Electronics
+Comment=Design an electronic schematic
+Exec=eeschema
+GenericName=Electronic schematic design
+Icon=eeschema
+MimeType=application/x-kicad-schematic;
+Name=Eeschema
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

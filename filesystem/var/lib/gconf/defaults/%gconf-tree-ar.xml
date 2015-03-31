@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="شغّل الأمر في مرقاب">
+								<longdesc>صحيح إذا كان الأمر المستخدم لمعالجة هذا النوع من المسارات سيشتغل في مرقاب.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="معالج مسارات &quot;ymsgr&quot;">
+								<longdesc>الأمر المستخدم لمعالجة مسارات &quot;ymsgr&quot;، في حال تمكينها.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="إذا ما كان الأمر المحدّد سيستخدم لمعالجة مسارات &quot;ymsgr&quot;">
+								<longdesc>صحيح إذا كان الأمر المحدّد في المفتاح &quot;command&quot; سيستخدم لمعالجة مسارات &quot;ymsgr&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="شغّل الأمر في مرقاب">
+								<longdesc>صحيح إذا كان الأمر المستخدم لمعالجة هذا النوع من المسارات سيشتغل في مرقاب.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="معالج مسارات &quot;xmpp&quot;">
+								<longdesc>الأمر المستخدم لمعالجة مسارات &quot;xmpp&quot;، في حال تمكينها.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="إذا ما كان الأمر المحدّد سيستخدم لمعالجة مسارات &quot;xmpp&quot;">
+								<longdesc>صحيح إذا كان الأمر المحدّد في المفتاح &quot;command&quot; سيستخدم لمعالجة مسارات &quot;xmpp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="شغّل الأمر في مرقاب">
+								<longdesc>صحيح إذا كان الأمر المستخدم لمعالجة هذا النوع من المسارات سيشتغل في مرقاب.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="معالج مسارات &quot;sip&quot;">
+								<longdesc>الأمر المستخدم لمعالجة مسارات &quot;sip&quot;، في حال تمكينها.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="إذا ما كان الأمر المحدّد سيستخدم لمعالجة مسارات &quot;sip&quot;">
+								<longdesc>صحيح إذا كان الأمر المحدّد في المفتاح &quot;command&quot; سيستخدم لمعالجة مسارات &quot;sip&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="شغّل الأمر في مرقاب">
+								<longdesc>صحيح إذا كان الأمر المستخدم لمعالجة هذا النوع من المسارات سيشتغل في مرقاب.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="معالج مسارات &quot;msnim&quot;">
+								<longdesc>الأمر المستخدم لمعالجة مسارات &quot;msnim&quot;، في حال تمكينها.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="إذا ما كان الأمر المحدّد سيستخدم لمعالجة مسارات &quot;msnim&quot;">
+								<longdesc>صحيح إذا كان الأمر المحدّد في المفتاح &quot;command&quot; سيستخدم لمعالجة مسارات &quot;msnim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="شغّل الأمر في مرقاب">
+								<longdesc>صحيح إذا كان الأمر المستخدم لمعالجة هذا النوع من المسارات سيشتغل في مرقاب.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="معالج مسارات &quot;irc&quot;">
+								<longdesc>الأمر المستخدم لمعالجة مسارات &quot;irc&quot;، في حال تمكينها.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="إذا ما كان الأمر المحدّد سيستخدم لمعالجة مسارات &quot;irc&quot;">
+								<longdesc>صحيح إذا كان الأمر المحدّد في المفتاح &quot;command&quot; سيستخدم لمعالجة مسارات &quot;irc&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="شغّل الأمر في مرقاب">
+								<longdesc>صحيح إذا كان الأمر المستخدم لمعالجة هذا النوع من المسارات سيشتغل في مرقاب.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="معالج مسارات &quot;icq&quot;">
+								<longdesc>الأمر المستخدم لمعالجة مسارات &quot;icq&quot;، في حال تمكينها.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="إذا ما كان الأمر المحدّد سيستخدم لمعالجة مسارات &quot;icq&quot;">
+								<longdesc>صحيح إذا كان الأمر المحدّد في المفتاح &quot;command&quot; سيستخدم لمعالجة مسارات &quot;icq&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="شغّل الأمر في مرقاب">
+								<longdesc>صحيح إذا كان الأمر المستخدم لمعالجة هذا النوع من المسارات سيشتغل في مرقاب.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="معالج مسارات &quot;gg&quot;">
+								<longdesc>الأمر المستخدم لمعالجة مسارات &quot;gg&quot;، في حال تمكينها.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="إذا ما كان الأمر المحدّد سيستخدم لمعالجة مسارات &quot;gg&quot;">
+								<longdesc>صحيح إذا كان الأمر المحدّد في المفتاح &quot;command&quot; سيستخدم لمعالجة مسارات &quot;gg&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="شغّل الأمر في مرقاب">
+								<longdesc>صحيح إذا كان الأمر المستخدم لمعالجة هذا النوع من المسارات سيشتغل في مرقاب.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="معالج مسارات &quot;aim&quot;">
+								<longdesc>الأمر المستخدم لمعالجة مسارات &quot;aim&quot;، في حال تمكينها.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="إذا ما كان الأمر المحدّد سيستخدم لمعالجة مسارات &quot;aim&quot;">
+								<longdesc>صحيح إذا كان الأمر المحدّد في المفتاح &quot;command&quot; سيستخدم لمعالجة مسارات &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

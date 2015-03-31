@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=qbrew
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=QBrew
+Comment=Homebrewer's recipe calculator
+TryExec=qbrew
+Exec=qbrew
+Icon=qbrew_32x32
+Categories=Utility;Qt;
+
+X-Ubuntu-Gettext-Domain=app-install-data

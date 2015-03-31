@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=pycode-browser
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Version=1.0.0
+Type=Application
+
+Exec=pycode-browser
+Icon=gnome-word
+
+Name=LearnByCoding
+
+Comment=Python Programs
+
+Categories=Electronics;Education;Science
+
+Terminal=false
+NoDisplay=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

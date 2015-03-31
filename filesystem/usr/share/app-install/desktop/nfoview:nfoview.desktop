@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=nfoview
+X-AppInstall-Popcon=30
+X-AppInstall-Section=universe
+
+Name=NFO Viewer
+Comment=View NFO files
+# TRANSLATORS: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=information;
+Exec=nfoview %F
+Terminal=false
+StartupNotify=true
+Icon=nfoview
+Type=Application
+MimeType=text/x-nfo;
+Categories=GTK;Utility;Viewer;
+
+X-Ubuntu-Gettext-Domain=app-install-data

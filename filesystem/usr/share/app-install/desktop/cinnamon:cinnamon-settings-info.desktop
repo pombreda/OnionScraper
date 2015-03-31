@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=cinnamon
+X-AppInstall-Popcon=524
+X-AppInstall-Section=universe
+
+Icon=cs-details
+Exec=cinnamon-settings info
+Type=Application
+OnlyShowIn=X-Cinnamon;
+Categories=Settings;
+Name=System Info
+Comment=Display system information
+
+X-Ubuntu-Gettext-Domain=app-install-data

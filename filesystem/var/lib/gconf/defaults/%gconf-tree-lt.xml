@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykdyti komandą terminale">
+								<longdesc>„True“, jeigu komanda, turinti apdoroti šio tipo universaliuosius adresus, turi būti leidžiama terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Komanda „ysmgr“ universaliųjų adresų apdorojimui">
+								<longdesc>Komanda „ysmgr“ universaliųjų adresų apdorojimui, jei aktyvuota.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ar nurodytoji komanda turėtų apdoroti „ysmgr“ universaliuosius adresus">
+								<longdesc>„True“, jeigu komanda, nurodyta „command“ rakte, turi apdoroti „ysmgr“ universaliuosius adresus.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykdyti komandą terminale">
+								<longdesc>„True“, jeigu komanda, turinti apdoroti šio tipo universaliuosius adresus, turi būti leidžiama terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Komanda „xmpp“ universaliųjų adresų apdorojimui">
+								<longdesc>Komanda „xmpp“ universaliųjų adresų apdorojimui, jei aktyvuota.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ar nurodytoji komanda turėtų apdoroti „xmpp“ universaliuosius adresus">
+								<longdesc>„True“, jeigu komanda, nurodyta „command“ rakte, turi apdoroti „xmpp“ universaliuosius adresus.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykdyti komandą terminale">
+								<longdesc>„True“, jeigu komanda, turinti apdoroti šio tipo universaliuosius adresus, turi būti leidžiama terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Komanda „sip“ universaliųjų adresų apdorojimui">
+								<longdesc>Komanda „sip“ universaliųjų adresų apdorojimui, jei aktyvuota.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ar nurodytoji komanda turėtų apdoroti „sip“ universaliuosius adresus">
+								<longdesc>„True“, jeigu komanda, nurodyta „command“ rakte, turi apdoroti „sip“ universaliuosius adresus.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykdyti komandą terminale">
+								<longdesc>„True“, jeigu komanda, turinti apdoroti šio tipo universaliuosius adresus, turi būti leidžiama terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Komanda „msnim“ universaliųjų adresų apdorojimui">
+								<longdesc>Komanda „msnim“ universaliųjų adresų apdorojimui, jei aktyvuota.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ar nurodytoji komanda turėtų apdoroti „msnim“ universaliuosius adresus">
+								<longdesc>„True“, jeigu komanda, nurodyta „command“ rakte, turi apdoroti „msnim“ universaliuosius adresus.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykdyti komandą terminale">
+								<longdesc>„True“, jeigu komanda, turinti apdoroti šio tipo universaliuosius adresus, turi būti leidžiama terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Komanda „irc“ universaliųjų adresų apdorojimui">
+								<longdesc>Komanda „irc“ universaliųjų adresų apdorojimui, jei aktyvuota.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ar nurodytoji komanda turėtų apdoroti „irc“ universaliuosius adresus">
+								<longdesc>„True“, jeigu komanda, nurodyta „command“ rakte, turi apdoroti „irc“ universaliuosius adresus.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykdyti komandą terminale">
+								<longdesc>„True“, jeigu komanda, turinti apdoroti šio tipo universaliuosius adresus, turi būti leidžiama terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Komanda „icq“ universaliųjų adresų apdorojimui">
+								<longdesc>Komanda „icq“ universaliųjų adresų apdorojimui, jei aktyvuota.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ar nurodytoji komanda turėtų apdoroti „icq“ universaliuosius adresus">
+								<longdesc>„True“, jeigu komanda, nurodyta „command“ rakte, turi apdoroti „icq“ universaliuosius adresus.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykdyti komandą terminale">
+								<longdesc>„True“, jeigu komanda, turinti apdoroti šio tipo universaliuosius adresus, turi būti leidžiama terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Komanda „aim“ universaliųjų adresų apdorojimui">
+								<longdesc>Komanda „gg“ universaliųjų adresų apdorojimui, jei aktyvuota.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ar nurodytoji komanda turėtų apdoroti „gg“ universaliuosius adresus">
+								<longdesc>„True“, jeigu komanda, nurodyta „command“ rakte, turi apdoroti „gg“ universaliuosius adresus.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Vykdyti komandą terminale">
+								<longdesc>„True“, jeigu komanda, turinti apdoroti šio tipo universaliuosius adresus, turi būti leidžiama terminale.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Komanda „aim“ universaliųjų adresų apdorojimui">
+								<longdesc>Komanda „aim“ universaliųjų adresų apdorojimui, jei aktyvuota.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Ar nurodytoji komanda turėtų apdoroti „aim“ universaliuosius adresus">
+								<longdesc>„True“, jeigu komanda, nurodyta „command“ rakte, turi apdoroti „aim“ universaliuosius adresus.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

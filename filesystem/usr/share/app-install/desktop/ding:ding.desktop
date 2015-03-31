@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=ding
+X-AppInstall-Popcon=36
+X-AppInstall-Section=universe
+
+Name=Ding: Dictionary English-German
+GenericName=ding
+Exec=/usr/bin/ding
+Icon=dbook
+Terminal=0
+Type=Application
+Categories=Office;Dictionary;Education;Utility
+Keywords=dictionary;Wörterbuch;translation;Übersetzung
+
+X-Ubuntu-Gettext-Domain=app-install-data

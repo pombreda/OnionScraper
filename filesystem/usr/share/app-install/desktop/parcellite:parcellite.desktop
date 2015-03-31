@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=parcellite
+X-AppInstall-Popcon=422
+X-AppInstall-Section=universe
+
+Name=Parcellite
+Comment=Clipboard Manager
+Icon=parcellite
+Exec=parcellite
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;Application;Utility;
+OnlyShowIn=GNOME;KDE;LXDE;MATE;Razor;ROX;TDE;Unity;XFCE;Old;
+
+X-Ubuntu-Gettext-Domain=app-install-data

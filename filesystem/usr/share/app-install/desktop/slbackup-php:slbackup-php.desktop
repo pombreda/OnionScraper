@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=slbackup-php
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=slbackup-php
+GenericName=SLBackup configuration tool
+Comment=Webpage for configuring slbackup
+Version=1.0
+TryExec=x-www-browser "http://localhost/slbackup-php/?nonhttps=warn"
+Exec=x-www-browser "http://localhost/slbackup-php/?nonhttps=warn"
+Terminal=false
+Type=Application
+Categories=Network;System;Security;
+Keywords=Backup;Education;rdiff;Skolelinux;
+X-Ubuntu-Gettext-Domain=app-install-data

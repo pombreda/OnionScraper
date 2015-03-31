@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=wsjt
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Version=0.0
+Name=wsjt
+Comment=Weak Signal Ham Radio
+Exec=wsjt
+Icon=wsjt
+Terminal=true
+Type=Application
+Categories=AudioVideo;Audio;HamRadio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,19 @@
+[Desktop Entry]
+X-AppInstall-Package=landscape-client-ui-install
+X-AppInstall-Popcon=3034
+X-AppInstall-Section=main
+
+Name=Landscape Service
+Comment=Landscape Management Service Preferences
+Exec=landscape-client-ui-install
+Icon=preferences-management-service
+Terminal=False
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Settings;X-GNOME-SystemSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;
+OnlyShowIn=GNOME;Unity;
+X-Unity-Settings-Panel=landscape
+X-GNOME-Settings-Panel=landscape
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

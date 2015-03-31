@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=microhope
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Version=2.0.0
+Type=Application
+
+Exec=uhope
+Icon=mh-logo
+Name=µHOPE
+Comment=MicroHOPE microcontroller programming system
+
+Categories=Education;Science;
+MimeType=application/x-python
+
+Terminal=false
+NoDisplay=false
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=muon-discover
+X-AppInstall-Popcon=1206
+X-AppInstall-Section=universe
+
+Name=Muon Discover
+Exec=muon-discover
+Icon=muondiscover
+Type=Application
+X-DocPath=muon/index.html
+GenericName=Software Center
+Categories=Qt;KDE;System;
+Keywords=program;software;repository;package;install;remove;update;apps;applications;
+
+X-Ubuntu-Gettext-Domain=app-install-data

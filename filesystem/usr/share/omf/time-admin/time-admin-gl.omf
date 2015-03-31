@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>Manual da ferramenta de administración da hora</title>
+    <date>Xuño de 2004</date>
+    <version identifier="Manual da ferramenta de administración da hora V0.35" date="Xuño de 2004"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      A ferramenta de administración da hora permítelle poñer a hora, data e fuso horario do seu sistema, así como estabelecer calquera servidor de hora para sincronizar o seu servidor de hora local.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/time-admin/gl/time-admin.xml"/>
+    <language code="gl"/>
+    <relation seriesid="fe3461fa-85dc-11da-9ee2-c686bd2a57de"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

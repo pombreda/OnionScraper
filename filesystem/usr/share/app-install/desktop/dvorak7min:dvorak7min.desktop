@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=dvorak7min
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=true
+Name=dvorak7min
+Categories=Education
+Keywords=education;text;ncurses;terminal;console;keyboard;dvorak;typing;tutor
+Exec=dvorak7min
+Icon=dvorak7min
+Comment=a typing tutor for the Dvorak keyboard layout
+
+X-Ubuntu-Gettext-Domain=app-install-data

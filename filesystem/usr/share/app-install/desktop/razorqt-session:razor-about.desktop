@@ -1,0 +1,46 @@
+[Desktop Entry]
+X-AppInstall-Package=razorqt-session
+X-AppInstall-Popcon=17
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=razor-about
+Icon=help-about
+Terminal=false
+OnlyShowIn=X-RAZOR;
+Categories=Qt;System;X-RAZOR;DesktopSettings;Settings;
+Name=About Razor
+GenericName=Learn more about Razor-qt
+
+Icon[tr]=yardım-hakkında
+Icon[ja]=ヘルプ-about
+Icon[pt_BR]=ajuda-sobre
+Icon[ar]=مساعدة-نبذة
+Icon[pt]=help-about
+Icon[ro_RO]=help-about
+Icon[cs]=Informace
+Icon[cs_CZ]=Informace
+Icon[ru]=help-about
+Icon[es_MX]=ayuda-acerca
+Icon[fr]=help-about
+Icon[he]=help-about
+Icon[bg]=помощ-относно
+Icon[zh_CN]=关于帮助
+Icon[ia]=help-about
+Icon[th_TH]=วิธีใช้-เกี่ยวกับ
+Icon[de_DE]=Hilfe-Über
+Icon[eu]=laguntza-honi buruz
+Icon[lt]=help-about
+Icon[el_GR]=help-about
+Icon[da_DK]=hjælp-om
+Icon[it_IT]=help-about
+Icon[da]=help-about
+Icon[pl_PL]=pomoc-o
+Icon[es]=ayuda-acerca
+Icon[zh_TW]=關於幫助
+Icon[uk]=help-about
+Icon[sl]=help-about
+Icon[gl]=axuda-acerca-de
+Icon[es_VE]=help-about
+
+X-Ubuntu-Gettext-Domain=app-install-data

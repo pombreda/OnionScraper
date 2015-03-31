@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+# This script takes care of bringing down wlan-ng devices.
+# It is run by ifdown.
+
+WLANCTL=/sbin/wlanctl-ng
+
+if [ ! -x $WLANCTL ] ; then 
+	exit 0
+fi
+
+case $IFACE in
+wlan?)
+	# Reset device to make sure it is not trying to generate
+	# interrupts.
+	# Do not disable card if wireless extensions are in use
+	WEXT=`cat /sys/module/p80211/parameters/wlan_wext_write`
+	[ "$WEXT" = "0" ] &&
+	    result=`$WLANCTL $IFACE lnxreq_ifstate ifstate=disable`
+
+	# Remove lock file, just in case.
+	rm -f /var/lock/wlan-$IFACE.lock
+;;
+esac

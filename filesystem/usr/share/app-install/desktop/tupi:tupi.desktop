@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=tupi
+X-AppInstall-Popcon=12
+X-AppInstall-Section=universe
+
+Name=Tupi: Open 2D Magic
+Exec=/usr/lib/tupi/bin/tupi
+Icon=tupi
+Type=Application
+MimeType=application/tup;
+Categories=Graphics;2DGraphics;RasterGraphics;
+Comment=2D Animation Toolkit
+Terminal=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

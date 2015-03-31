@@ -1,0 +1,17 @@
+48ef672b3582a63846f743c7c6ea9630  usr/lib/python3/dist-packages/deb822.py
+2228e977ebea8966e27929f43e39cb67  usr/lib/python3/dist-packages/debian/__init__.py
+87772d6305dca18d60c1be488d2375ea  usr/lib/python3/dist-packages/debian/arfile.py
+de6402947bc5b9d2bdcc1f1be7a63bb7  usr/lib/python3/dist-packages/debian/changelog.py
+69d2f1a9000c1fe6ec83e6902de55974  usr/lib/python3/dist-packages/debian/deb822.py
+589ec70a4bb9f849de8fc52ecae8d4ce  usr/lib/python3/dist-packages/debian/debfile.py
+a06578595b0f0263a7e6465d9ae296d9  usr/lib/python3/dist-packages/debian/debian_support.py
+c3f536e9686ab9ac78e431324c0bdc99  usr/lib/python3/dist-packages/debian/debtags.py
+d7d77b157d568ce5c18b812338e0d4c0  usr/lib/python3/dist-packages/debian/deprecation.py
+5fd56659d1129d486a06cd82e9c78ec9  usr/lib/python3/dist-packages/debian_bundle/__init__.py
+81a61b97b5814ccd65cb9a63d891d74b  usr/lib/python3/dist-packages/python_debian-0.1.22.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/python_debian-0.1.22.egg-info/dependency_links.txt
+5d2dfbea120f23e84e689374aa2ba84f  usr/lib/python3/dist-packages/python_debian-0.1.22.egg-info/requires.txt
+2f74c6aa9c8ddacdd22e342225fa77a9  usr/lib/python3/dist-packages/python_debian-0.1.22.egg-info/top_level.txt
+572c57a1dc1716cf3698df05872ff260  usr/share/doc/python3-debian/NEWS.Debian.gz
+74e21751936f15adb5fcdbb0165c9b6a  usr/share/doc/python3-debian/changelog.gz
+d248cc5b84410dfd7f9bcea2dc4ed94d  usr/share/doc/python3-debian/copyright

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=jd
+X-AppInstall-Popcon=36
+X-AppInstall-Section=universe
+
+Exec=jd
+Icon=jd
+Terminal=false
+Type=Application
+Name=JD 2ch browser
+Comment=JD is a 2ch browser based on gtkmm2.
+Categories=Network;
+Keywords=2ch
+
+X-Ubuntu-Gettext-Domain=app-install-data

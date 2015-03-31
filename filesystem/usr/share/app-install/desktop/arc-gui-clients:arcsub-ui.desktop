@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=arc-gui-clients
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=ARC Job Submission Tool
+GenericName=Job Submission Tool
+Comment=Submit jobs to the Grid
+Exec=arcsub-ui
+Icon=system-config-authentication
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+
+X-Ubuntu-Gettext-Domain=app-install-data

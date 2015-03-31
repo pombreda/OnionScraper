@@ -1,0 +1,2 @@
+?package(light-locker-settings):needs="X11" section="Applications/System/Security"\
+  title="light-locker-settings" command="light-locker-settings"

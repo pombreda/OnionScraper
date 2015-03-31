@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-control-center
+X-AppInstall-Popcon=167
+X-AppInstall-Section=universe
+
+Name=Mouse
+Comment=Set your mouse preferences
+Exec=mate-mouse-properties
+Icon=input-mouse
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;HardwareSettings;
+Keywords=mate-control-center;MATE;mouse;preferences;
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

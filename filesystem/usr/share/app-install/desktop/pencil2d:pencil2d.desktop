@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=pencil2d
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=Pencil2D
+Comment=2D Traditional Animation
+Type=Application
+Exec=pencil2d
+Icon=pencil2d
+Terminal=false
+Categories=Graphics;2DGraphics;RasterGraphics;
+MimeType=application/x-pencil;
+Keywords=picture;draw;animation;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=instead
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=INSTEAD
+Comment=Simple Text Adventures Interpreter
+Keywords=game;adventure;quest;
+Exec=/usr/games/sdl-instead
+Icon=sdl_instead
+Terminal=false
+Categories=Game;LogicGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

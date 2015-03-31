@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=caja
+X-AppInstall-Popcon=340
+X-AppInstall-Section=universe
+
+Name=Autorun Prompt
+TryExec=caja-autorun-software
+Exec=caja-autorun-software %u
+Icon=application-x-executable
+NoDisplay=true
+Terminal=false
+StartupNotify=true
+Type=Application
+MimeType=x-content/software;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=caja
+X-MATE-Bugzilla-Component=general
+X-MATE-Bugzilla-Version=1.8.2
+
+X-Ubuntu-Gettext-Domain=app-install-data

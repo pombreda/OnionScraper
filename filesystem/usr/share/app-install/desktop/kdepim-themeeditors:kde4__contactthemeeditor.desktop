@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=kdepim-themeeditors
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=Contact Theme Editor
+Type=Application
+Exec=contactthemeeditor
+Icon=kaddressbook
+X-DocPath=contactthemeeditor/index.html
+GenericName=Contact Theme Editor
+Terminal=false
+Categories=Qt;KDE;Office;Network;ContactManagement;
+InitialPreference=10
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=stackapplet
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=StackApplet
+Comment=Launch the StackApplet indicator
+Exec=/usr/share/stackapplet/stackapplet.py
+Icon=stackexchange
+Type=Application
+Categories=GNOME;GTK;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nuna terminal">
+								<longdesc>Marcar si&apos;l comandu usáu pa remanar esti tipu d&apos;enllaces deberá executase nuna terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El controlador pa enllaces &quot;ymsgr&quot;">
+								<longdesc>El comandu usáu pa remanar enllaces &quot;ymsgr&quot;, si ta habilitáu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si&apos;l comandu especificáu debería remanar enllaces &quot;ymsgr&quot;">
+								<longdesc>Marcar si&apos;l comandu especificáu na clave &quot;command&quot; deberá remanar enllaces &quot;ymsgr&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nuna terminal">
+								<longdesc>Marcar si&apos;l comandu usáu pa remanar esti tipu d&apos;enllaces deberá executase nuna terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El controlador pa enllaces &quot;xmpp&quot;">
+								<longdesc>El comandu usáu pa remanar enllaces &quot;xmpp&quot;, si ta habilitáu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si&apos;l comandu especificáu debería remanar enllaces &quot;xmpp&quot;">
+								<longdesc>Marcar si&apos;l comandu especificáu na clave &quot;command&quot; deberá remanar enllaces &quot;xmpp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nuna terminal">
+								<longdesc>Marcar si&apos;l comandu usáu pa remanar esti tipu d&apos;enllaces deberá executase nuna terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El controlador pa enllaces &quot;sip&quot;">
+								<longdesc>El comandu usáu pa remanar enllaces &quot;sip&quot;, si ta habilitáu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si&apos;l comandu especificáu debería remanar enllaces &quot;sip&quot;">
+								<longdesc>Marcar si&apos;l comandu especificáu na clave &quot;command&quot; deberá remanar enllaces &quot;sip&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nuna terminal">
+								<longdesc>Marcar si&apos;l comandu usáu pa remanar esti tipu d&apos;enllaces deberá executase nuna terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El controlador pa enllaces &quot;msnim&quot;">
+								<longdesc>El comandu usáu pa remanar enllaces &quot;msnim&quot;, si ta habilitáu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si&apos;l comandu especificáu debería remanar enllaces &quot;msnim&quot;">
+								<longdesc>Marcar si&apos;l comandu especificáu na clave &quot;command&quot; deberá remanar enllaces &quot;msnim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nuna terminal">
+								<longdesc>Marcar si&apos;l comandu usáu pa remanar esti tipu d&apos;enllaces deberá executase nuna terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El controlador pa enllaces &quot;irc&quot;">
+								<longdesc>El comandu usáu pa remanar enllaces &quot;irc&quot;, si ta habilitáu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si&apos;l comandu especificáu debería remanar enllaces &quot;irc&quot;">
+								<longdesc>Marcar si&apos;l comandu especificáu na clave &quot;command&quot; deberá remanar enllaces &quot;irc&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nuna terminal">
+								<longdesc>Marcar si&apos;l comandu usáu pa remanar esti tipu d&apos;enllaces deberá executase nuna terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El controlador pa enllaces &quot;icq&quot;">
+								<longdesc>El comandu usáu pa remanar enllaces &quot;icq&quot;, si ta habilitáu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si&apos;l comandu especificáu debería remanar enllaces &quot;icq&quot;">
+								<longdesc>Marcar si&apos;l comandu especificáu na clave &quot;command&quot; deberá remanar enllaces &quot;icq&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nuna terminal">
+								<longdesc>Marcar si&apos;l comandu usáu pa remanar esti tipu d&apos;enllaces deberá executase nuna terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El controlador pa enllaces &quot;gg&quot;">
+								<longdesc>El comandu usáu pa remanar enllaces &quot;gg&quot;, si ta habiitáu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si&apos;l comandu especificáu debería remanar enllaces &quot;gg&quot;">
+								<longdesc>Marcar si&apos;l comandu especificáu na clave &quot;command&quot; deberá remanar enllaces &quot;gg&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar el comandu nuna terminal">
+								<longdesc>Marcar si&apos;l comandu usáu pa remanar esti tipu d&apos;enllaces deberá executase nuna terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="El controlador pa enllaces &quot;aim&quot;">
+								<longdesc>El comandu usáu pa remanar enllaces &quot;aim&quot;, si ta habilitáu.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si&apos;l comandu especificáu debería remanar enllaces &quot;aim&quot;">
+								<longdesc>Marcar si&apos;l comandu especificáu na clave &quot;command&quot; deberá remanar enllaces &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

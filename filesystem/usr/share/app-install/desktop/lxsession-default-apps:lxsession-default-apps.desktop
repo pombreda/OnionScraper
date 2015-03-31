@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=lxsession-default-apps
+X-AppInstall-Popcon=44
+X-AppInstall-Section=universe
+
+Type=Application
+Icon=xfwm4
+Exec=lxsession-default-apps
+Name=Default applications for LXSession
+Comment=Change the default applications on LXDE
+Categories=GTK;Settings;DesktopSettings;X-LXDE-Settings;
+NotShowIn=GNOME;KDE;XFCE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

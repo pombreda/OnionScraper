@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=simon
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+Name=Simond
+Exec=simond %i -caption %c
+Icon=simond
+Type=Application
+X-DocPath=simond/index.html
+GenericName=Speech Recognition Server
+Terminal=true
+Categories=Qt;KDE;Utility;Accessibility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

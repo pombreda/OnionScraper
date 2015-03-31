@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=topp
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=TOPPView
+Categories=Science;Biology;Chemistry;
+Comment=viewer for mass spectrometry data
+Exec=TOPPView %U
+Icon=_usr_share_pixmaps_TOPPView
+Terminal=false
+Type=Application
+StartupNotify=true  
+Keywords=mass spectrometry;proteomics;
+
+X-Ubuntu-Gettext-Domain=app-install-data

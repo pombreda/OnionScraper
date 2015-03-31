@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=colobot
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Exec=colobot
+Icon=colobot
+Categories=Education;Robotics;Game;AdventureGame;StrategyGame;
+
+Name=Colobot
+GenericName=Game to learn programming
+Comment=Colonize with bots
+
+X-Ubuntu-Gettext-Domain=app-install-data

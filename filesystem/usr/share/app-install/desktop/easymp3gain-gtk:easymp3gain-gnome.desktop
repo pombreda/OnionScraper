@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=easymp3gain-gtk
+X-AppInstall-Popcon=55
+X-AppInstall-Section=universe
+
+Type=Application
+Name=easyMP3Gain
+GenericName=MP3Gain Frontend
+Exec=easymp3gain-gtk %U
+Comment=A GUI for mp3gain, vorbisgain and aacgain
+Icon=easymp3gain
+Categories=Audio;AudioVideo;GNOME;
+NotShowIn=KDE;
+X-Publisher=easyMp3Gain Project
+X-AppVersion=0.5.1
+
+X-Ubuntu-Gettext-Domain=app-install-data

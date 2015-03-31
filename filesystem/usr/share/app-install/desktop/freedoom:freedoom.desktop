@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=freedoom
+X-AppInstall-Popcon=26
+X-AppInstall-Section=universe
+
+Name=Freedoom
+GenericName=First Person Shooter Game
+Comment=Clone of the legendary first person shooter Doom
+Keywords=clone;first;person;shooter;doom;
+Exec=/usr/games/freedoom
+Icon=freedoom
+Terminal=false
+Type=Application
+Categories=Game;ActionGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

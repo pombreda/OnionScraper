@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=termit
+X-AppInstall-Popcon=4
+X-AppInstall-Section=universe
+
+Name=Termit
+GenericName=Terminal emulator
+Comment=Lightweight terminal emulator
+TryExec=termit
+Exec=termit
+Icon=utilities-terminal
+Type=Application
+Categories=GTK;System;TerminalEmulator;
+Terminal=false
+Keywords=Run;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

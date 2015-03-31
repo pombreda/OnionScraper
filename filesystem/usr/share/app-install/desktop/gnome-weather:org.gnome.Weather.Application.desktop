@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-weather
+X-AppInstall-Popcon=10
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Weather
+Comment=Show weather conditions and forecast
+Icon=org.gnome.Weather.Application
+Exec=gapplication launch org.gnome.Weather.Application
+DBusActivatable=true
+StartupNotify=true
+Categories=GNOME;GTK;Utility;Core;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,52 @@
+[Desktop Entry]
+X-AppInstall-Package=razorqt-config
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+X-SuSE-translate=true
+OnlyShowIn=X-RAZOR;
+Type=Application
+Exec=razor-config-notificationd
+Terminal=false
+Categories=Settings;DesktopSettings;Qt;X-RAZOR;
+Icon=preferences-desktop-theme
+Name=Razor Freedesktop Notifications Configuration
+Comment=Configure freedesktop notifications in Razor desktop
+GenericName=Razor Freedesktop Notifications Configuration
+
+Icon[zh_CN]=preferences-desktop-theme
+Icon[hu]=preferences-desktop-theme
+Icon[gl]=preferences-desktop-theme
+Icon[es_VE]=preferences-desktop-theme
+Icon[lt]=preferences-desktop-theme
+Icon[fr]=preferences-desktop-theme
+Icon[ro_RO]=preferences-desktop-theme
+Icon[pt]=preferences-desktop-theme
+Icon[ia]=preferences-desktop-theme
+Icon[zh_TW]=偏好桌面主題
+Icon[sl]=preferences-desktop-theme
+Icon[he]=preferences-desktop-theme
+Icon[tr]=masaüstü-tema-tercihleri
+Icon[nl]=voorkeuren-desktop-thema
+Icon[es_MX]=Preferencias del tema del escritorio
+Icon[fi]=asetukset-työpöytä-teema
+Icon[es]=Preferencias de tema de escritorio
+Icon[uk]=preferences-desktop-theme
+Icon[th_TH]=ค่าปรับแต่ง-โต๊ะงาน-ชุดตกแต่ง
+Icon[ru]=preferences-desktop-theme
+Icon[eu]=hobespenak-mahaigaina-gaia
+Icon[eo]=preferences-desktop-theme
+Icon[de_DE]=Einstellungen-Desktop-Theme
+Icon[da]=preferences-desktop-theme
+Icon[ar]=واجهة تفضيلات سطح المكتب المخصَّصة
+Icon[cs_CZ]=Nastavení-plocha-motiv
+Icon[sv]=preferenser-skrivbord-tema
+Icon[el_GR]=preferences-desktop-theme
+Icon[it_IT]=preferences-desktop-theme
+Icon[da_DK]=preferences-desktop-theme
+Icon[cs]=Nastavení-plocha-motiv
+Icon[ja]=preferences-desktop-theme
+Icon[pt_BR]=preferences-desktop-theme
+Icon[pl_PL]=ustawienia-motywu-pulpitu
+
+X-Ubuntu-Gettext-Domain=app-install-data

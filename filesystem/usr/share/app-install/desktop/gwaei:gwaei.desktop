@@ -1,0 +1,26 @@
+[Desktop Entry]
+X-AppInstall-Package=gwaei
+X-AppInstall-Popcon=10
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Name=gWaei
+GenericName=Japanese-English Dictionary
+X-GNOME-FullName=gWaei Japanese-English Dictionary
+X-GNOME-FullName[cs]=Japonsko-anglický slovník gWaei 
+X-GNOME-FullName[de]=gWaei Japanisch-Englisches/ Japanisch-Deutsches Wörterbuch
+X-GNOME-FullName[es]=Diccionario Japonés-Inglés gWaei
+X-GNOME-FullName[fr]=Dictionnaire Japonais-Anglais gWaei
+X-GNOME-FullName[it]=gWaei Dizionario Giapponese-Inglese
+X-GNOME-FullName[ja]=gWaei 和英辞書
+X-GNOME-FullName[tr]=gWaei Japonca-İngilizce Sözlük
+X-GNOME-FullName[vi]=Từ điển Nhật-Anh gWaei
+Comment=Enter a Japanese or English word to easily get translations
+Exec=gwaei
+Icon=gwaei
+Terminal=false
+StartupNotify=false
+Categories=GNOME;GTK;Utility;Dictionary;
+
+X-Ubuntu-Gettext-Domain=app-install-data

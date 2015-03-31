@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=weboob-qt
+X-AppInstall-Popcon=5
+X-AppInstall-Section=universe
+
+Name=QFlatBoob
+Comment=Search housings
+Exec=qflatboob
+Icon=qflatboob
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Network;Qt;
+Keywords=housing;flat;apartment;rental;
+
+X-Ubuntu-Gettext-Domain=app-install-data

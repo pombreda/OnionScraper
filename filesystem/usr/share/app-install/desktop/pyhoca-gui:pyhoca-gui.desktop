@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=pyhoca-gui
+X-AppInstall-Popcon=25
+X-AppInstall-Section=universe
+
+Name=PyHoca-GUI
+GenericName=PyHoca-GUI
+Comment=Python X2Go Client Applet
+Exec=pyhoca-gui
+Icon=pyhoca_x2go-logo-ubuntu
+X-Window-Icon=pyhoca_x2go-logo-ubuntu
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable
+Terminal=false
+Type=Application
+Categories=GNOME;KDE;Network;
+
+X-Ubuntu-Gettext-Domain=app-install-data

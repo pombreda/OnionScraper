@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=mc
+X-AppInstall-Popcon=2430
+X-AppInstall-Section=universe
+
+Name=Midnight Commander
+Comment=File manager
+Exec=mc
+Icon=MidnightCommander
+Terminal=true
+Type=Application
+Categories=ConsoleOnly;Utility;FileManager;System;FileTools;
+
+X-Ubuntu-Gettext-Domain=app-install-data

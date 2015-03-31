@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=playonlinux
+X-AppInstall-Popcon=929
+X-AppInstall-Section=multiverse
+
+Version=1.0
+Name=PlayOnLinux
+GenericName=Game
+Type=Application
+Exec=playonlinux
+Icon=playonlinux
+Categories=Game;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gtkhash
+X-AppInstall-Popcon=324
+X-AppInstall-Section=universe
+
+Name=GtkHash
+Comment=Compute message digests and checksums
+Exec=gtkhash
+Icon=gtkhash
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;Utility;
+Keywords=digests;hash;md2;md4;md5;md6;sha1;sha224;sha256;sha384;sha512;ripemd128;ripemd160;ripemd256;ripemd320;tiger128;tiger160;tiger192;whirlpool;haval128;haval160;haval192;haval224;haval256;gost;snefru128;snefru256;crc32;adler32
+
+X-Ubuntu-Gettext-Domain=app-install-data

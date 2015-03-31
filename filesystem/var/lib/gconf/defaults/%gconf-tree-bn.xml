@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="কমান্ডটি টার্মিনালে চালান">
+								<longdesc>সত্য, হবে যদি এই ধরনের URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ডটি টার্মিনালে চলে। </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; এর URL-এর জন্য নিয়ন্ত্রণকারী">
+								<longdesc>যদি সক্রিয় থাকে, &quot;ymsgr&quot; এর URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="উল্লেখিত কমান্ডটি &quot;ymsgr&quot; এর URL নিয়ন্ত্রণ করবে কিনা">
+								<longdesc>সত্য, যদি &quot;command&quot; কী-তে উল্লেখিত কমান্ডটি &quot;ymsgr&quot; এর URL নিয়ন্ত্রণ করে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="কমান্ডটি টার্মিনালে চালান">
+								<longdesc>সত্য, হবে যদি এই ধরনের URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ডটি টার্মিনালে চলে। </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="‌‌‌&quot;xmpp&quot; এর URL-এর জন্য নিয়ন্ত্রণকারী">
+								<longdesc>যদি সক্রিয় থাকে,  &quot;xmpp&quot; এর URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="উল্লেখিত কমান্ডটি &quot;xmpp&quot; এর URL নিয়ন্ত্রণ করবে কিনা">
+								<longdesc>সত্য, যদি &quot;command&quot; কী-তে উল্লেখিত কমান্ডটি &quot;xmpp&quot; এর URL নিয়ন্ত্রণ করে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="কমান্ডটি টার্মিনালে চালান">
+								<longdesc>সত্য, হবে যদি এই ধরনের URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ডটি টার্মিনালে চলে। </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="‌‌‌&quot;sip&quot; এর URL-এর জন্য নিয়ন্ত্রণকারী">
+								<longdesc>যদি সক্রিয় থাকে, &quot;sip&quot; এর URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="উল্লেখিত কমান্ডটি &quot;sip&quot; এর URL নিয়ন্ত্রণ করবে কিনা">
+								<longdesc>সত্য, যদি &quot;command&quot; কী-তে উল্লেখিত কমান্ডটি &quot;sip&quot; এর URL নিয়ন্ত্রণ করে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="কমান্ডটি টার্মিনালে চালান">
+								<longdesc>সত্য, হবে যদি এই ধরনের URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ডটি টার্মিনালে চলে। </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="‌‌‌&quot;msnim&quot; এর URL-এর জন্য নিয়ন্ত্রণকারী">
+								<longdesc>যদি সক্রিয় থাকে,  &quot;msnim&quot; এর URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="উল্লেখিত কমান্ডটি &quot;msnim&quot; এর URL নিয়ন্ত্রণ করবে কিনা">
+								<longdesc>সত্য, যদি &quot;command&quot; কী-তে উল্লেখিত কমান্ডটি &quot;msnim&quot; এর URL নিয়ন্ত্রণ করে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="কমান্ডটি টার্মিনালে চালান">
+								<longdesc>সত্য, হবে যদি এই ধরনের URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ডটি টার্মিনালে চলে। </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="‌‌‌&quot;irc&quot; এর URL-এর জন্য নিয়ন্ত্রণকারী">
+								<longdesc>যদি সক্রিয় থাকে,  &quot;irc&quot; এর URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="উল্লেখিত কমান্ডটি &quot;irc&quot; এর URL নিয়ন্ত্রণ করবে কিনা">
+								<longdesc>সত্য, যদি &quot;command&quot; কী-তে উল্লেখিত কমান্ডটি &quot;irc&quot; এর URL নিয়ন্ত্রণ করে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="কমান্ডটি টার্মিনালে চালান">
+								<longdesc>সত্য, হবে যদি এই ধরনের URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ডটি টার্মিনালে চলে। </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="‌‌‌&quot;icq&quot; এর URL-এর জন্য নিয়ন্ত্রণকারী">
+								<longdesc>যদি সক্রিয় থাকে,  &quot;icq&quot; এর URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="উল্লেখিত কমান্ডটি &quot;icq&quot; এর URL নিয়ন্ত্রণ করবে কিনা">
+								<longdesc>সত্য, যদি &quot;command&quot; কী-তে উল্লেখিত কমান্ডটি &quot;icq&quot; এর URL নিয়ন্ত্রণ করে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="কমান্ডটি টার্মিনালে চালান">
+								<longdesc>সত্য, হবে যদি এই ধরনের URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ডটি টার্মিনালে চলে। </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="‌‌‌&quot;gg&quot; এর URL-এর জন্য নিয়ন্ত্রণকারী">
+								<longdesc>যদি সক্রিয় থাকে,  &quot;gg&quot; এর URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="উল্লেখিত কমান্ডটি &quot;gg&quot; এর URL নিয়ন্ত্রণ করবে কিনা">
+								<longdesc>সত্য, যদি &quot;command&quot; কী-তে উল্লেখিত কমান্ডটি &quot;gg&quot; এর URL নিয়ন্ত্রণ করে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="কমান্ডটি টার্মিনালে চালান">
+								<longdesc>সত্য, হবে যদি এই ধরনের URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ডটি টার্মিনালে চলে। </longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="‌‌‌&quot;aim&quot; এর URL-এর জন্য নিয়ন্ত্রণকারী">
+								<longdesc>যদি সক্রিয় থাকে, ‌‌&quot;aim&quot; এর URL নিয়ন্ত্রণ করতে ব্যবহৃত কমান্ড।</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="উল্লেখিত কমান্ডটি &quot;aim&quot; এর URL নিয়ন্ত্রণ করবে কিনা">
+								<longdesc>সত্য, যদি &quot;command&quot; কী-তে উল্লেখিত কমান্ডটি &quot;aim&quot; এর URL নিয়ন্ত্রণ করে।</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

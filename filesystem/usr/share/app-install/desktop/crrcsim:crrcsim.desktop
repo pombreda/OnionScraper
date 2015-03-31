@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=crrcsim
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Type=Application
+Version=0.9.12
+Name=CRRCsim
+GenericName=crrcsim
+Exec=crrcsim
+Terminal=false
+Categories=Game;Simulation;
+Comment=A flight simulator
+Icon=crrcsim
+
+X-Ubuntu-Gettext-Domain=app-install-data

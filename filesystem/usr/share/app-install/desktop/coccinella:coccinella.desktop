@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=coccinella
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=Coccinella
+GenericName=Internet Messenger
+Comment=Communication tool with a built-in whiteboard
+Exec=coccinella
+Icon=coccinella
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;
+
+X-Ubuntu-Gettext-Domain=app-install-data

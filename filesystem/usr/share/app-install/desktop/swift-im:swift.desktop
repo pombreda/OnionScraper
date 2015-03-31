@@ -1,0 +1,31 @@
+[Desktop Entry]
+X-AppInstall-Package=swift-im
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+
+# Desktop Entry specification version
+Version=1.0
+
+Type=Application
+Name=Swift
+GenericName=Jabber/XMPP Messenger
+Comment=Communicate over the Jabber/XMPP network
+Icon=swift
+Exec=swift-im
+Terminal=false
+Categories=Network;InstantMessaging;Qt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

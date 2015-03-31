@@ -1,0 +1,4 @@
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="prism2_usb", RUN+="/etc/wlan/wlan-udev.sh $env{INTERFACE}"
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="prism2_pci", RUN+="/etc/wlan/wlan-udev.sh $env{INTERFACE}"
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="prism2_plx", RUN+="/etc/wlan/wlan-udev.sh $env{INTERFACE}"
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="prism2_cs", RUN+="/etc/wlan/wlan-udev.sh $env{INTERFACE}"

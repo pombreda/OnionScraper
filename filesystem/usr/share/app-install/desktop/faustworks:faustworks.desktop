@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=faustworks
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=FaustWorks
+GenericName=IDE for Faust
+Comment=IDE for Faust dsp programming language
+Keywords=audio;sound;IDE;faust;programming;
+Icon=faustworks
+Exec=FaustWorks 
+Terminal=false
+Categories=Development;Audio;
+
+X-Ubuntu-Gettext-Domain=app-install-data

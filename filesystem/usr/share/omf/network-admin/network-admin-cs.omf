@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>Příručka k Nástroji pro správu sítě</title>
+    <date>Červen 2004</date>
+    <version identifier="Příručka V0.35 k Nástroji pro správu sítě" date="Červen 2004"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      Nástroj pro správu sítě vám umožňuje určit způsob vašeho připojení k dalším počítačům a do Internetu.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/network-admin/cs/network-admin.xml"/>
+    <language code="cs"/>
+    <relation seriesid="46630d52-85db-11da-9553-d620e14d440c"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

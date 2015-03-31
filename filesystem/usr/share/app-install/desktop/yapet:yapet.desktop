@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=yapet
+X-AppInstall-Popcon=3
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=YAPET
+GenericName=Password Encryption
+Comment=Yet Another Password Encryption Tool
+TryExec=/usr/bin/yapet
+Exec=/usr/bin/yapet %f
+Terminal=true
+Categories=Utility;Security;ConsoleOnly;
+Keywords=Password Vault;Password Safe;Password Manager;
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,21 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-media-pulse
+X-AppInstall-Popcon=59
+X-AppInstall-Section=universe
+
+Name=Sound
+Comment=Change sound volume and sound events
+Exec=mate-volume-control
+Icon=multimedia-volume-control
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=AudioVideo;Mixer;Settings;HardwareSettings;
+Keywords=MATE;volume;control;mixer;settings;sound;events;
+OnlyShowIn=MATE;
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-media
+X-MATE-Bugzilla-Component=mate-volume-control
+X-MATE-Bugzilla-Version=1.8.0
+
+X-Ubuntu-Gettext-Domain=app-install-data

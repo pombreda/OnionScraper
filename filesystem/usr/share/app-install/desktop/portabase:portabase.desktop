@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=portabase
+X-AppInstall-Popcon=18
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Terminal=false
+Name=PortaBase
+Comment=An easy-to-use personal database application
+Exec=/usr/bin/portabase
+Icon=portabase
+Categories=Office;Database;
+MimeType=application/x-portabase;
+
+X-Ubuntu-Gettext-Domain=app-install-data

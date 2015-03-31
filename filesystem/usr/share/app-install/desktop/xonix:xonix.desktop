@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=xonix
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Game to carve up the screen whilst dodging monsters
+GenericName=
+Comment=
+Icon=xonix
+Exec=/usr/games/xonix
+Terminal=false
+Categories=Game;BoardGame;
+Keywords=game
+
+X-Ubuntu-Gettext-Domain=app-install-data

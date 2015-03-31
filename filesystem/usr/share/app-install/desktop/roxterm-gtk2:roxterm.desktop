@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=roxterm-gtk2
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=ROXTerm
+GenericName=Terminal
+Comment=Use the command line
+Keywords=shell;prompt;command;commandline;
+TryExec=roxterm
+Exec=roxterm
+Icon=roxterm
+Type=Application
+Categories=GTK;Utility;TerminalEmulator;System;
+
+X-Ubuntu-Gettext-Domain=app-install-data

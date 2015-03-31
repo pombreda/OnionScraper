@@ -1,0 +1,16 @@
+
+[Desktop Entry]
+X-AppInstall-Package=x-tile
+X-AppInstall-Popcon=17
+X-AppInstall-Section=universe
+
+Name=X Tile
+Comment=Tile the Windows Upon your X Desktop
+Exec=x-tile
+Icon=x-tile
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

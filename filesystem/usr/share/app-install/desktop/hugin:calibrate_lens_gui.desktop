@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=hugin
+X-AppInstall-Popcon=573
+X-AppInstall-Section=universe
+
+Name=Hugin Calibrate Lens
+Comment=Characterise lens distortion
+GenericName=Lens Calibrator
+Categories=Graphics;
+Exec=calibrate_lens_gui
+Icon=hugin
+StartupNotify=false
+Terminal=false
+Type=Application
+
+X-Ubuntu-Gettext-Domain=app-install-data

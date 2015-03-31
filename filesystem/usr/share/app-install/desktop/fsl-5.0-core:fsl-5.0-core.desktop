@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=fsl-5.0-core
+X-AppInstall-Popcon=13
+X-AppInstall-Section=multiverse
+
+Encoding=UTF-8
+GenericName=Software Collection for (f)MRI Data Analysis
+Name=FSL 5.0
+Exec=fsl5.0-fsl
+TryExec=fsl5.0-fsl
+Icon=fsl-5.0
+Type=Application
+Terminal=false
+Categories=Education;Science;DataVisualization;MedicalSoftware;
+
+X-Ubuntu-Gettext-Domain=app-install-data

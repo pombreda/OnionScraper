@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omf>
+  <resource>
+    <creator>(Carlos Garnacho Parro)</creator>
+    <maintainer>(Carlos Garnacho Parro)</maintainer>
+    <title>Podręcznik użytkownika narzędzia Ustawienia usług</title>
+    <date>Czerwiec 2004</date>
+    <version identifier="Podręcznik użytkownika narzędzia Ustawienia usług V0.35" date="Czerwiec 2004"/>
+    <subject category="GNOME|Applications|System Tools"/>
+    <description>
+      Narzędzie Ustawienia usług pozwala na określenie, które usługi powinny być włączane podczas startu systemu operacyjnego.
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="file:///usr/share/gnome/help/services-admin/pl/services-admin.xml"/>
+    <language code="pl"/>
+    <relation seriesid="38937ae4-85dc-11da-8508-d0ce7329a2c1"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Carlos Garnacho"/>
+  </resource>
+</omf>

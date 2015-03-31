@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=tatan
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Tatan
+GenericName=Shooter
+Comment=HIZ's Tatan
+Icon=tatan
+Exec=tatan
+Terminal=false
+Categories=Game;ArcadeGame;
+Keywords=shooter;space;science-fiction;mouse;power-ups;
+
+X-Ubuntu-Gettext-Domain=app-install-data

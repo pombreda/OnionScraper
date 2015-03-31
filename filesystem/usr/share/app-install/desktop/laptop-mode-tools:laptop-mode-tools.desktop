@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=laptop-mode-tools
+X-AppInstall-Popcon=1001
+X-AppInstall-Section=universe
+
+Type=Application
+Name=Laptop Mode Tools Configuration Tool
+GenericName=Laptop Mode Tools Configuration Tool
+Exec=lmt-config-gui
+Categories=System;
+Comment=Tool to enable/disable Laptop Mode Tools settings
+
+X-Ubuntu-Gettext-Domain=app-install-data

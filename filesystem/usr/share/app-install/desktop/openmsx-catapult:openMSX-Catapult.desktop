@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=openmsx-catapult
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Name=openMSX Catapult
+Comment=Graphical interface for openMSX
+Type=Application
+Exec=openmsx-catapult
+Icon=_usr_share_openmsx-catapult_resources_bitmaps_about
+DocPath=/usr/share/doc/openmsx-catapult/manual/index.html
+Terminal=false
+Categories=Emulator;Game
+
+X-Ubuntu-Gettext-Domain=app-install-data

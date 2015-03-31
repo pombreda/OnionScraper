@@ -1,0 +1,12 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-control-center-signon
+X-AppInstall-Popcon=9409
+X-AppInstall-Section=main
+
+Name=Account update tool
+Exec=/usr/lib/i386-linux-gnu/update-accounts
+NoDisplay=true
+Type=Application
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

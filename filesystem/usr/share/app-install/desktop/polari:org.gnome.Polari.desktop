@@ -1,0 +1,24 @@
+[Desktop Entry]
+X-AppInstall-Package=polari
+X-AppInstall-Popcon=2
+X-AppInstall-Section=universe
+
+Name=Polari
+Comment=An Internet Relay Chat Client for GNOME
+Exec=polari
+TryExec=polari
+Icon=polari
+Type=Application
+StartupNotify=true
+DBusActivatable=true
+Actions=connections;
+X-GNOME-UsesNotifications=true
+Categories=GNOME;GTK;Network;IRCClient;
+Keywords=IRC;Internet;Relay;Chat;
+
+
+[Desktop Action connections]
+Name=Show connections
+Exec=gapplication action org.gnome.Polari connections
+
+X-Ubuntu-Gettext-Domain=app-install-data

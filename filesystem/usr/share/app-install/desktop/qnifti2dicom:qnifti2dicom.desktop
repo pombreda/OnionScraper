@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=qnifti2dicom
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=QNifti2Dicom
+Comment=Convert 3D NIfTI images to DICOM 2D series
+Exec=qnifti2dicom
+Icon=qnifti2dicom
+Type=Application
+Categories=Qt;Education;Science;FileTools;ImageProcessing;MedicalSoftware;
+Keywords=DICOM;NIfTI;Medical Images;Converter;PACS;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=nomnom
+X-AppInstall-Popcon=6
+X-AppInstall-Section=universe
+
+Name=NomNom
+Comment=Download and stream media
+Exec=/usr/bin/nomnom
+Icon=nomnom
+Type=Application
+Terminal=false
+StartupNotify=true
+Categories=AudioVideo;
+Version=0.3.1
+Keywords=youtube;Audio;Video;Downloads;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,22 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-power-manager
+X-AppInstall-Popcon=310
+X-AppInstall-Section=universe
+
+Name=Power Statistics
+Comment=Observe power management
+Icon=mate-power-statistics
+Exec=mate-power-statistics
+Terminal=false
+Type=Application
+Categories=GTK;System;Monitor;
+OnlyShowIn=MATE;
+NoDisplay=false
+StartupNotify=true
+X-MATE-Bugzilla-Bugzilla=MATE
+X-MATE-Bugzilla-Product=mate-power-manager
+X-MATE-Bugzilla-Component=mate-power-statistics
+X-MATE-Bugzilla-Version=1.8.0
+X-Desktop-File-Install-Version=0.10
+
+X-Ubuntu-Gettext-Domain=app-install-data

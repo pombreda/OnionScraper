@@ -1,0 +1,9 @@
+Document: sylpheed-faq-zh+tw.big5
+Title: Sylpheed FAQ (Zh_TW.Big5ench)
+Author: Paul Kater (paul@nlpagan.net), Jens Oberender (j.obi@troja.net) 
+Abstract: This is a FAQ for sylpheed (Zh_TW.Big5ench).
+Section: Network/Communication
+
+Format: HTML
+Index: /usr/share/doc/sylpheed-doc/FAQ/zh_TW.Big5/sylpheed-faq.html
+Files: /usr/share/doc/sylpheed-doc/FAQ/zh_TW.Big5/*.html

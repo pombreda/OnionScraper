@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=pylang
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=Practice Languages
+GenericName=Practice Languages
+X-GNOME-FullName=Practice Languages
+Comment=Complete the right sentence with random words in English, Spanish...
+Keywords=Language practice
+Exec=pylang
+Icon=pylang
+Terminal=false
+Type=Application
+Categories=GNOME;Education;Languages
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

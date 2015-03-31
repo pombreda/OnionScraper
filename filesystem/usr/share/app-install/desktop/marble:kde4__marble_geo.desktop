@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=marble
+X-AppInstall-Popcon=1131
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=marble --geo-uri=%u
+Name=Marble
+MimeType=x-scheme-handler/geo;
+Terminal=true
+NoDisplay=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

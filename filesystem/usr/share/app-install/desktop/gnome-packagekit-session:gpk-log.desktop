@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-packagekit-session
+X-AppInstall-Popcon=205
+X-AppInstall-Section=universe
+
+Name=Software Log Viewer
+Comment=View past package management tasks
+Icon=gpk-log
+Exec=gpk-log
+Terminal=false
+Type=Application
+NoDisplay=true
+Categories=GNOME;GTK;System;
+StartupNotify=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

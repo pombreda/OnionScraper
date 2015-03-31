@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=yudit
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Exec=yudit
+Icon=yudit
+Terminal=false
+Type=Application
+Name=Yudit
+GenericName=Text Editor
+Comment=View and edit files
+Categories=Utility;Development;TextEditor;
+MimeType=text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;application/x-shellscript;text/x-c;text/x-c++;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;ymsgr&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་ཡོད་པ་ཅིན་ &quot;ymsgr&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་ བརྡ་བཀོད་ཀྱིས་ &quot;ymsgr&quot; ཡུ་ཨར་ཨེལ་ཚུ་ ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;ymsgr&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;xmpp&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;xmpp&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;xmpp&quot; ཡུ་ཨར་ཨེལ་ཚུ་ ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;xmpp&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོ་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;sip&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;sip&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;sip&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;sip&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོ་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;msnim&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;msnim&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;msnim&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་ གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;msnim&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོ་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;irc&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;irc&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;irc&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;irc&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོ་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;icq&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;icq&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;icq&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;icq&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;gg&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;gg&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;gg&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;gg&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="ཊར་མི་ནཱལ་ནང་བརྡ་བཀོད་གཡོག་བཀོལ།">
+								<longdesc>འ་ནི་དབྱེ་བའི་ཡུ་ཨར་ཨེལ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད་འདི་ཊར་མི་ནཱལ་ནང་གཡོག་བཀོལ་འབད་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="&quot;aim&quot; ཡུ་ཨར་ཨེལ་ཚུའི་དོན་ལུ་ལེགས་སྐྱོང་པ།">
+								<longdesc>ལྕོགས་ཅན་བཟོ་སྟེ་ཡོད་པ་ཅིན་ &quot;aim&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་བརྡ་བཀོད།</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;aim&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་རུང་ག">
+								<longdesc>&quot;command&quot; ལྡེ་མིག་ནང་གསལ་བཀོད་འབད་ཡོད་པའི་བརྡ་བཀོད་ཀྱིས་ &quot;aim&quot; ཡུ་ཨར་ཨེལ་ཚུ་ལེགས་སྐྱོང་འཐབ་དགོཔ་ཨིན་པ་ཅིན་བདེན།</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=bygfoot
+X-AppInstall-Popcon=8
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=bygfoot
+Comment= A soccer manager game
+TryExec=bygfoot
+Exec=bygfoot
+Categories=Game;SportsGame;
+Icon=bygfoot
+Keywords=sport;soccer;football;manager;clubs;players;
+
+X-Ubuntu-Gettext-Domain=app-install-data

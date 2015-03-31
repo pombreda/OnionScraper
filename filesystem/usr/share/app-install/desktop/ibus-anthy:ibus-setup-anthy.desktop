@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=ibus-anthy
+X-AppInstall-Popcon=765
+X-AppInstall-Section=main
+
+Name=IBus Anthy Setup
+Comment=Set up IBus Anthy engine
+Exec=/usr/lib/ibus/ibus-setup-anthy
+Icon=ibus-anthy
+NoDisplay=true
+Type=Application
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

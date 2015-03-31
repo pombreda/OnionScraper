@@ -1,0 +1,9 @@
+d4baf9c223decfb565cfd0abf2685746  usr/share/doc/fonts-nanum/changelog.Debian.gz
+2ea08e7c7923bbf3569bf4964177b3d4  usr/share/doc/fonts-nanum/copyright
+37e82e60b6b050ede89b8a608212e422  usr/share/fontconfig/conf.avail/90-fonts-nanum.conf
+472a7faaad1bb5fd0888d65e19dba41d  usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf
+3b18e24ea5237f4d6e2731c17ca7f164  usr/share/fonts/truetype/nanum/NanumBarunGothicBold.ttf
+7e3295b376f00d6df8c9a3445d2357ce  usr/share/fonts/truetype/nanum/NanumGothic.ttf
+e363af5efe88edaf2022d646481aecfb  usr/share/fonts/truetype/nanum/NanumGothicBold.ttf
+b45820b56bc68f95a41da7b550a5e83b  usr/share/fonts/truetype/nanum/NanumMyeongjo.ttf
+a2a41f935a58abec017ef2f328d088e1  usr/share/fonts/truetype/nanum/NanumMyeongjoBold.ttf

@@ -1,0 +1,56 @@
+#!/bin/sh
+set -e
+
+# stop backend here when upgrading from a version that didn't handle
+# it correctly yet in the prerm
+
+# Remove a no-longer used conffile
+rm_conffile() {
+    PKGNAME="$1"
+    CONFFILE="$2"
+
+    if [ -e "$CONFFILE" ]; then
+        md5sum="`md5sum \"$CONFFILE\" | sed -e \"s/ .*//\"`"
+        old_md5sum="`dpkg-query -W -f='${Conffiles}' $PKGNAME | sed -n -e \"\\\\' $CONFFILE'{s/ obsolete$//;s/.* //p}\"`"
+        if [ "$md5sum" != "$old_md5sum" ]; then
+            echo "Obsolete conffile $CONFFILE has been modified by you."
+            echo "Saving as $CONFFILE.dpkg-bak ..."
+            mv -f "$CONFFILE" "$CONFFILE".dpkg-bak
+        else
+            echo "Removing obsolete conffile $CONFFILE ..."
+            rm -f "$CONFFILE"
+        fi
+    fi
+}
+case "$1" in
+    install|upgrade)
+        if dpkg --compare-versions "$2" lt-nl 2.2.1-5; then
+            test -x /etc/dbus-1/event.d/70system-tools-backends && \
+                /etc/dbus-1/event.d/70system-tools-backends stop || true
+            rm_conffile system-tools-backends "/etc/dbus-1/event.d/70system-tools-backends"
+        fi
+        if dpkg --compare-versions "$2" lt-nl 2.6.0-3; then
+            rm_conffile system-tools-backends "/etc/init.d/system-tools-backends"
+            update-rc.d system-tools-backends remove
+        fi
+        if [ -f /etc/dbus-1/system.d/system-tools-backends.conf ] && \
+           [ -f /etc/dbus-1/system.d/org.freedesktop.SystemToolsBackends.conf ]; then
+            # We have both old and new conffiles, which probably means that a version
+            # between 2.6.0-6.1 and 2.10.1-2 was installed.
+            if echo "68224c4af00f723e7e08992a91ddc9f286fc4f4c  /etc/dbus-1/system.d/system-tools-backends.conf" |
+               sha1sum --check --status -; then
+                # Old conffile was not modified, let's just remove it
+                rm -f /etc/dbus-1/system.d/system-tools-backends.conf
+            else
+                # Otherwise, rename it
+                mv /etc/dbus-1/system.d/system-tools-backends.conf \
+                        /etc/dbus-1/system.d/system-tools-backends.conf.dpkg-remove
+            fi
+        fi
+        ;;
+esac
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/dbus-1/system.d/system-tools-backends.conf /etc/dbus-1/system.d/org.freedesktop.SystemToolsBackends.conf 2.6.0-6.1 -- "$@"
+# End automatically added section
+

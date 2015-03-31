@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=pixelmed-webstart-apps
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Terminal=false
+StartupNotify=true
+Version=20130426
+Name=MediaImporter
+Exec=/usr/bin/MediaImporter
+GenericName=MediaImporter Application
+Comment=A simple media checker that searches for DICOMDIR and/or DICOM files.
+Icon=_usr_share_pixelmed_icons_MediaImporter
+Categories=Science;DataVisualization;ImageProcessing;MedicalSoftware
+
+X-Ubuntu-Gettext-Domain=app-install-data

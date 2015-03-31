@@ -1,0 +1,20 @@
+
+[Desktop Entry]
+X-AppInstall-Package=cairo-dock
+X-AppInstall-Popcon=1667
+X-AppInstall-Section=universe
+
+Type=Application
+Exec=cairo-dock
+Icon=cairo-dock
+Terminal=false
+
+Name=Cairo-Dock
+
+Comment=A light and eye-candy dock and desklets for your desktop.
+
+GenericName=Multi-purpose Dock and Desklets
+
+Categories=System;
+
+X-Ubuntu-Gettext-Domain=app-install-data

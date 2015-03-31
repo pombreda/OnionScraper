@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-screensaver
+X-AppInstall-Popcon=324
+X-AppInstall-Section=universe
+
+Name=Pictures folder
+Comment=Display a slideshow from your Pictures folder
+Exec=/usr/lib/mate-screensaver/slideshow
+TryExec=/usr/lib/mate-screensaver/slideshow
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Screensaver;
+Keywords=MATE;screensaver;custom;slideshow;pictures;folder;
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

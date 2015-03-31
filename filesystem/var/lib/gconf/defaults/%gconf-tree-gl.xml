@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar a orde nun terminal">
+								<longdesc>É verdadeiro se a orde usada para manipular este tipo de URL debe ser executado nun terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador dos URL &quot;ymsgr&quot;">
+								<longdesc>A orde usada para manipular os URL &quot;ymsgr&quot;,  se está activado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Indica se a orde especificada debe manipular os URL &quot;ymsgr&quot;">
+								<longdesc>É verdadeiro se a orde especificada na chave &quot;command&quot; debe manipular os URL &quot;ymsgr&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar a orde nun terminal">
+								<longdesc>É verdadeiro se a orde usada para manipular este tipo de URL debe ser executado nun terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador dos URL &quot;xmpp&quot;">
+								<longdesc>A orde usada para manipular os URL &quot;xmpp&quot;, se está activado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Indica se a orde especificada debe manipular os URL &quot;xmpp&quot;">
+								<longdesc>É verdadeiro se a orde especificada na chave &quot;command&quot; debe manipular os URL &quot;xmpp&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar a orde nun terminal">
+								<longdesc>É verdadeiro se a orde usada para manipular este tipo de URL debe ser executado nun terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador dos URL &quot;sip&quot;">
+								<longdesc>A orde usada para manipular os URL &quot;sip&quot;, se está activado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Indica se a orde especificada debe manipular os URL &quot;sip&quot;">
+								<longdesc>É verdadeiro se a orde especificada na chave &quot;command&quot; debe manipular os URL &quot;sip&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar a orde nun terminal">
+								<longdesc>É verdadeiro se a orde usada para manipular este tipo de URL debe ser executado nun terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador dos URL &quot;msnim&quot;">
+								<longdesc>A orde usada para manipular os URL &quot;msnim&quot;, se está activado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Indica se a orde especificada debe manipular os URL &quot;msnim&quot;">
+								<longdesc>É verdadeiro se a orde especificada na chave &quot;command&quot; debe manipular os URL &quot;msnim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar a orde nun terminal">
+								<longdesc>É verdadeiro se a orde usada para manipular este tipo de URL debe ser executado nun terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador dos URL &quot;irc&quot;">
+								<longdesc>A orde usada para manipular os URL &quot;irc&quot;,  se está activado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Indica se a orde especificada debe manipular os URL &quot;irc&quot;">
+								<longdesc>É verdadeiro se a orde especificada na chave &quot;command&quot; debe manipular os URL &quot;irc&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar a orde nun terminal">
+								<longdesc>É verdadeiro se a orde usada para manipular este tipo de URL debe ser executado nun terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador dos URL &quot;icq&quot;">
+								<longdesc>A orde usada para manipular os URL &quot;icq&quot;,  se está activado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Indica se a orde especificada debe manipular os URL &quot;icq&quot;">
+								<longdesc>É verdadeiro se a orde especificada na chave &quot;command&quot; debe manipular os URL &quot;icq&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar a orde nun terminal">
+								<longdesc>É verdadeiro se a orde usada para manipular este tipo de URL debe ser executado nun terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador dos URL &quot;gg&quot;">
+								<longdesc>A orde usada para manipular os URL &quot;gg&quot;,  se está activado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Indica se a orde especificada debe manipular os URL &quot;gg&quot;">
+								<longdesc>É verdadeiro se a orde especificada na chave &quot;command&quot; debe manipular os URL &quot;gg&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executar a orde nun terminal">
+								<longdesc>É verdadeiro se a orde usada para manipular este tipo de URL debe ser executado nun terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="O manipulador dos URL &quot;aim&quot;">
+								<longdesc>A orde usada para manipular os URL &quot;aim&quot;, se está activado.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Indica se a orde especificada debe manipular os URL &quot;aim&quot;">
+								<longdesc>É verdadeiro se a orde especificada na chave &quot;command&quot; debe manipular os URL &quot;aim&quot;.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

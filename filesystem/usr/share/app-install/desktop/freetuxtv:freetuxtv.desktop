@@ -1,0 +1,29 @@
+[Desktop Entry]
+X-AppInstall-Package=freetuxtv
+X-AppInstall-Popcon=55
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=FreetuxTV
+GenericName=Television Channels Player
+X-GNOME-FullName=FreetuxTV Television Channels Player
+X-GNOME-FullName[de]=FreetuxTV Internet-TV-Player
+X-GNOME-FullName[fr]=Lecteur de chaînes de télévision FreetuxTV
+X-GNOME-FullName[lt]=FreetuxTV televizijos kanalų grotuvas
+X-GNOME-FullName[ru]=FreetuxTV Приложение для просмотра и записи ТВ-каналов
+X-GNOME-FullName[tr]=FreetuxTV Televizyon Kanalı Oynatıcı
+X-GNOME-FullName[zh_CN]=FreetuxTV 电视频道播放器
+X-GNOME-FullName[zh_TW]=FreetuxTV 電視頻道播放器
+Comment=Watch television channels from internet
+Categories=AudioVideo;Video;TV;
+Icon=freetuxtv
+Exec=freetuxtv
+Terminal=false
+StartupNotify=true
+X-DCOP-ServiceType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Keywords=Television;TV;Video;Stream;
+
+X-Ubuntu-Gettext-Domain=app-install-data

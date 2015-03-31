@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=eiskaltdcpp-qt-mini
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=EiskaltDC++ Qt Mini
+Type=Application
+Exec=eiskaltdcpp-qt-mini %U
+Icon=eiskaltdcpp
+Terminal=false
+GenericName=DC++ client
+Comment=Share files over the DC++ network
+Categories=Network;FileTransfer;P2P;Qt;
+MimeType=x-scheme-handler/magnet;
+Keywords=FileSharing;Chat;p2p;DirectConnect;ADC;DHT;
+
+X-Ubuntu-Gettext-Domain=app-install-data

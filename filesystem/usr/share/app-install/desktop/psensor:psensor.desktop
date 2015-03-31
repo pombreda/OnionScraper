@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=psensor
+X-AppInstall-Popcon=1831
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Name=Psensor
+GenericName=Psensor
+Comment=Psensor is a graphical temperature monitor for Linux
+Keywords=temperature;fan;monitoring;indicator;
+Icon=psensor
+TryExec=psensor
+Exec=psensor
+Categories=System;Monitor;
+X-GNOME-Autostart-Delay=30
+StartupNotify=true
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

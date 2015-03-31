@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=oolite
+X-AppInstall-Popcon=26
+X-AppInstall-Section=universe
+
+Name=Oolite
+Comment=An OpenGL Elite-like space game
+Exec=oolite
+Icon=oolite-icon
+Terminal=false
+Type=Application
+Categories=Game;Simulation;
+Version=1.0
+Keywords=Elite;space;3d;trade;fight;OpenGL;
+
+X-Ubuntu-Gettext-Domain=app-install-data

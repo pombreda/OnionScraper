@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=gwhere
+X-AppInstall-Popcon=26
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Removable media catalog management
+Comment=GWhere allows one to manage a database of your CDs and other removable media (hard disks, floppy drive, Zip drive, CD-ROM, etc...). With GWhere it's easy to browse yours CDs or to make quick search without need to insert yours CDs in the drive repeatedly.
+TryExec=gwhere
+Exec=gwhere
+Keywords=media;utility;search;
+Icon=gwhere
+Terminal=false
+Type=Application
+Categories=Application;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

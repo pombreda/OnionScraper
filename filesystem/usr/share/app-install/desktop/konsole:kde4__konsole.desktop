@@ -1,0 +1,26 @@
+[Desktop Entry]
+X-AppInstall-Package=konsole
+X-AppInstall-Popcon=5117
+X-AppInstall-Section=universe
+
+Type=Application
+TryExec=konsole
+Exec=konsole
+Icon=utilities-terminal
+Terminal=false
+Categories=Qt;KDE;System;TerminalEmulator;
+Actions=NewWindow;
+X-DocPath=konsole/index.html
+X-DBUS-StartupType=Unique
+X-KDE-StartupNotify=true
+X-KDE-AuthorizeAction=shell_access
+
+Name=Konsole
+
+GenericName=Terminal
+
+[Desktop Action NewWindow]
+Name=Open a New Window
+Exec=konsole
+
+X-Ubuntu-Gettext-Domain=app-install-data

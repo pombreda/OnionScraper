@@ -1,0 +1,25 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "purge" ]; then
+# here for historical reasons
+	rm -f /var/log/anacron /var/log/anacron.[0-9]*
+	rm -rf /var/spool/anacron
+fi
+
+# Automatically added by dh_systemd_enable
+if [ "$1" = "remove" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper mask anacron.service >/dev/null
+	fi
+fi
+
+if [ "$1" = "purge" ]; then
+	if [ -x "/usr/bin/deb-systemd-helper" ]; then
+		deb-systemd-helper purge anacron.service >/dev/null
+		deb-systemd-helper unmask anacron.service >/dev/null
+	fi
+fi
+# End automatically added section
+

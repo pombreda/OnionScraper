@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kör kommandot i en terminal">
+								<longdesc>Sant om kommandot som används för att hantera denna sortens URLer ska köras i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Hanteraren för &quot;ymsgr&quot; URLer">
+								<longdesc>Kommandot för att hantera &quot;ymsgr&quot; URLer, om aktiverat.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om det specifika kommandot ska hantera &quot;ymsgr&quot; URLer">
+								<longdesc>Sant om kommandot i nyckeln &quot;kommando&quot; ska hantera &quot;ymsgr&quot; URLer</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kör kommandot i en terminal">
+								<longdesc>Sant om kommandot som används för att hantera denna sortens URLer ska köras i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Hanteraren för &quot;xmpp&quot; URLer">
+								<longdesc>Kommandot för att hantera &quot;xmpp&quot; URLer, om aktiverat.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om det specifika kommandot ska hantera &quot;xmpp&quot; URLer">
+								<longdesc>Sant om kommandot i nyckeln &quot;kommando&quot; ska hantera &quot;xmpp&quot; URLer</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kör kommandot i en terminal">
+								<longdesc>Sant om kommandot som används för att hantera denna sortens URLer ska köras i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Hanteraren för &quot;sip&quot; URLer">
+								<longdesc>Kommandot för att hantera &quot;sip&quot; URLer, om aktiverat.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om det specifika kommandot ska hantera &quot;sip&quot; URLer">
+								<longdesc>Sant om kommandot i nyckeln &quot;kommando&quot; ska hantera &quot;sip&quot; URLer</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kör kommandot i en terminal">
+								<longdesc>Sant om kommandot som används för att hantera denna sortens URLer ska köras i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Hanteraren för &quot;msnim&quot; URLer">
+								<longdesc>Kommandot för att hantera &quot;msnim&quot; URLer, om aktiverat.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om det specifika kommandot ska hantera &quot;msnim&quot; URLer">
+								<longdesc>Sant om kommandot i nyckeln &quot;kommando&quot; ska hantera &quot;msnim&quot; URLer</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kör kommandot i en terminal">
+								<longdesc>Sant om kommandot som används för att hantera denna sortens URLer ska köras i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Hanteraren för &quot;irc&quot; URLer">
+								<longdesc>Kommandot för att hantera &quot;irc&quot; URLer, om aktiverat.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om det specifika kommandot ska hantera &quot;irc&quot; URLer">
+								<longdesc>Sant om kommandot i nyckeln &quot;kommando&quot; ska hantera &quot;irc&quot; URLer</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kör kommandot i en terminal">
+								<longdesc>Sant om kommandot som används för att hantera denna sortens URLer ska köras i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Hanteraren för &quot;icq&quot; URLer">
+								<longdesc>Kommandot för att hantera &quot;icq&quot; URLer, om aktiverat.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om det specifika kommandot ska hantera &quot;icq&quot; URLer">
+								<longdesc>Sant om kommandot i nyckeln &quot;kommando&quot; ska hantera &quot;icq&quot; URLer</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kör kommandot i en terminal">
+								<longdesc>Sant om kommandot som används för att hantera denna sortens URLer ska köras i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Hanteraren för &quot;gg&quot; URLer">
+								<longdesc>Kommandot för att hantera &quot;gg&quot; URLer, om aktiverat.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om det specifika kommandot ska hantera &quot;gg&quot; URLer">
+								<longdesc>Sant om kommandot i nyckeln &quot;kommando&quot; ska hantera &quot;gg&quot; URLer</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Kör kommandot i en terminal">
+								<longdesc>Sant om kommandot som används för att hantera denna sortens URLer ska köras i en terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Hanteraren för &quot;aim&quot; URLer">
+								<longdesc>Kommandot för att hantera &quot;aim&quot; URLer, om aktiverat.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Om det specifika kommandot ska hantera &quot;aim&quot; URLer">
+								<longdesc>Sant om kommandot i nyckeln &quot;kommando&quot; ska hantera &quot;aim&quot; URLer</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

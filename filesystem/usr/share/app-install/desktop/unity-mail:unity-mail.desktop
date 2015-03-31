@@ -1,0 +1,34 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-mail
+X-AppInstall-Popcon=140
+X-AppInstall-Section=universe
+
+Version=1.0
+Name=Unity Mail
+Comment=New mail notifications and counter badge for Unity
+Icon=unity-mail
+Exec=um-url Home
+Type=Application
+Categories=Email;Network;
+Actions=Compose;Inbox;Sent;Change;
+X-GNOME-UsesNotifications=true
+
+[Desktop Action Compose]
+Name=Compose Mail
+Exec=um-url Compose
+
+[Desktop Action Inbox]
+Name=Inbox
+Exec=um-url Inbox
+NotShowIn=Messaging Menu;
+
+[Desktop Action Sent]
+Name=Sent
+Exec=um-url Sent
+NotShowIn=Messaging Menu;
+
+[Desktop Action Change]
+Name=Change accounts details
+Exec=um-config
+
+X-Ubuntu-Gettext-Domain=app-install-data

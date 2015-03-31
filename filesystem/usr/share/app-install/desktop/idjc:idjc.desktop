@@ -1,0 +1,24 @@
+[Desktop Entry]
+X-AppInstall-Package=idjc
+X-AppInstall-Popcon=59
+X-AppInstall-Section=multiverse
+
+Categories=GTK;Network;
+Comment=Create your live radio show or podcast
+Exec=/usr/bin/idjc
+GenericName=Graphical shoutcast/icecast client
+Icon=_usr_share_pixmaps_idjc
+MimeType=
+Name=Internet DJ Console
+Path=
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0
+X-DCOP-ServiceType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+
+Keywords=shoutcast;icecast;internet;radio;podcast;
+
+X-Ubuntu-Gettext-Domain=app-install-data

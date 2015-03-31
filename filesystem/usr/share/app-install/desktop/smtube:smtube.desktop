@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=smtube
+X-AppInstall-Popcon=148
+X-AppInstall-Section=universe
+
+Exec=smtube
+Comment=Search and download videos from YouTube
+GenericName=Youtube Browser
+Icon=smtube
+Name=SMPlayer YouTube Browser
+Type=Application
+Categories=Qt;KDE;AudioVideo;Player;Video;
+
+X-Ubuntu-Gettext-Domain=app-install-data

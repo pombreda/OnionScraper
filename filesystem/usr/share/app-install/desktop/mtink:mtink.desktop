@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=mtink
+X-AppInstall-Popcon=82
+X-AppInstall-Section=universe
+
+Version=1.0
+Type=Application
+Name=Mtink
+GenericName=Status monitor for printer
+Comment=Status monitor for Epson inkjet printers
+TryExec=mtink
+Exec=mtink
+Categories=Motif;Utility;HardwareSettings;Monitor;
+Keywords=Epson;inkjet;ink;status;monitor;printer;
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=knavalbattle
+X-AppInstall-Popcon=34
+X-AppInstall-Section=universe
+
+Name=Naval Battle
+Exec=knavalbattle -caption %c %U
+MimeType=inode/vnd.kde.service.knavalbattle;
+Icon=knavalbattle
+Type=Application
+X-DocPath=knavalbattle/index.html
+GenericName=Ship Sinking Game
+Terminal=false
+X-DBUS-StartupType=Multi
+Categories=Qt;KDE;Game;StrategyGame;
+
+X-Ubuntu-Gettext-Domain=app-install-data

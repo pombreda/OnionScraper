@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=indicator-china-weather
+X-AppInstall-Popcon=13
+X-AppInstall-Section=universe
+
+Name=indicator-china-weather
+Comment=Indicator applet for current weather conditions in China
+GenericName=China Weather Applet
+Exec=/usr/bin/indicator-china-weather %u
+Icon=indicator-china-weather
+StartupNotify=true
+Terminal=false
+Type=Application
+X-GNOME-Autostart-Delay=10
+Categories=GNOME;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

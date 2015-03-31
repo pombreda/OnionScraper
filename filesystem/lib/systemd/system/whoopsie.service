@@ -1,0 +1,11 @@
+[Unit]
+Description=crash report submission daemon
+ConditionPathExists=!/usr/bin/ubiquity-dm
+
+[Service]
+ExecStartPre=/bin/grep -sqi report_crashes=true /etc/default/whoopsie
+ExecStart=/bin/sh -c 'export CRASH_DB_URL=https://daisy.ubuntu.com; exec whoopsie -f'
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

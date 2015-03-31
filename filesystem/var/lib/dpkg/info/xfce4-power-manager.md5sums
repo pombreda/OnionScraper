@@ -1,0 +1,11 @@
+2b2c745e58ceb7f706f3ea329169d31b  usr/bin/xfce4-power-manager
+388964a023874edabc8746b4b73caf1c  usr/bin/xfce4-power-manager-settings
+91a623cb9a8d2856081bc72e5340428a  usr/sbin/xfce4-pm-helper
+8ae2221813b3db16248460341c0b27a3  usr/sbin/xfpm-power-backlight-helper
+845517ea1d90563d695f326495ccd5a9  usr/share/applications/xfce4-power-manager-settings.desktop
+0318c8b10ac7c563dfefa14c489aa254  usr/share/doc/xfce4-power-manager/NEWS.Debian.gz
+39c27696cd53df3a4df71b1bbddcf36b  usr/share/doc/xfce4-power-manager/changelog.Debian.gz
+cac1c4ee08640a5647bf65c215a8013d  usr/share/doc/xfce4-power-manager/copyright
+0ee408b14e25d33ccd3b5e5f69ae4aa0  usr/share/man/man1/xfce4-power-information.1.gz
+988bf73935a2e6b75896b763cfdcda3b  usr/share/man/man1/xfpm-power-backlight-helper.1.gz
+a2ee31141d7ec79833bb127ffda2710a  usr/share/polkit-1/actions/org.xfce.power.policy

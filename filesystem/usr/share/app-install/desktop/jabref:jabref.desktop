@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=jabref
+X-AppInstall-Popcon=496
+X-AppInstall-Section=universe
+
+Name=JabRef
+Comment=Graphical editor for BibTex bibliographies
+Exec=jabref %f
+Icon=JabRef-icon-48
+Terminal=false
+Type=Application
+Categories=Office;Database;
+MimeType=text/x-bibtex;
+Keywords=BibTex;
+
+X-Ubuntu-Gettext-Domain=app-install-data

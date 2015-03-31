@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=sparkleshare
+X-AppInstall-Popcon=32
+X-AppInstall-Section=universe
+
+Type=Application
+Name=SparkleShareInviteOpener
+Exec=sparkleshare open %U
+Terminal=false
+MimeType=application/x-sparkleshare;x-scheme-handler/sparkleshare;
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,47 @@
+[Desktop Entry]
+X-AppInstall-Package=razorqt-config
+X-AppInstall-Popcon=15
+X-AppInstall-Section=universe
+
+X-SuSE-translate=true
+OnlyShowIn=X-RAZOR;
+Type=Application
+Exec=razor-config-globalkeyshortcuts
+Terminal=false
+Categories=Settings;DesktopSettings;Qt;X-RAZOR;
+Icon=preferences-desktop-keyboard
+Name=Razor Shortcut Configuration
+Comment=Configure global shortcut of Razor desktop
+GenericName=Razor Global Shortcut Configuration
+
+Icon[th_TH]=ค่าปรับแต่ง-โต๊ะงาน-แป้นพิมพ์
+Icon[ja]=デスクトップキーボードの選択
+Icon[uk]=preferences-desktop-keyboard
+Icon[ar]=التفضيلات-سطح المكتب-لوحة المفاتيح
+Icon[de_DE]=einstellungen-desktop-tastatur
+Icon[sv]=preferencer-skrivbord-tangentbord
+Icon[fr]=preferences-desktop-keyboard
+Icon[el_GR]=preferences-desktop-keyboard
+Icon[lt]=preferences-desktop-keyboard
+Icon[da_DK]=indstillinger-skrivebord-tastatur
+Icon[sl]=preferences-desktop-keyboard
+Icon[tr]=tercihler-masaüstü-klavye
+Icon[ro_RO]=preferences-desktop-keyboard
+Icon[zh_TW]=偏好桌面鍵盤
+Icon[eu]=hobespenak-mahaigaina-teklatua
+Icon[da]=preferences-desktop-keyboard
+Icon[es]=preferencias-escritorio-teclado
+Icon[es_MX]=preferences-desktop-keyboard
+Icon[pl_PL]=ustawienia-pulpit-klawiatura
+Icon[pt]=preferences-desktop-keyboard
+Icon[zh_CN]=preferences-desktop-keyboard
+Icon[cs_CZ]=Nastavení zkratek pro prostředí
+Icon[ru]=preferences-desktop-keyboard
+Icon[es_VE]=preferences-desktop-keyboard
+Icon[cs]=Nastavení zkratek pro prostředí
+Icon[gl]=preferencias-escritorio-teclado
+Icon[pt_BR]=preferências-desktop-teclado
+Icon[it_IT]=preferences-desktop-keyboard
+Icon[he]=preferences-desktop-keyboard
+
+X-Ubuntu-Gettext-Domain=app-install-data

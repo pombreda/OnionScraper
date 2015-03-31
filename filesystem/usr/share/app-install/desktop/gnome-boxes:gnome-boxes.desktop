@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-boxes
+X-AppInstall-Popcon=50
+X-AppInstall-Section=universe
+
+Name=Boxes
+GenericName=Virtual machine viewer/manager
+Comment=View and use virtual machines
+Keywords=virtual machine;vm;
+Exec=gnome-boxes %U
+Icon=gnome-boxes
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;System;
+
+
+X-Ubuntu-Gettext-Domain=app-install-data

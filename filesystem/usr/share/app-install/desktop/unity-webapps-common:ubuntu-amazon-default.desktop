@@ -1,0 +1,11 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-webapps-common
+X-AppInstall-Popcon=0
+X-AppInstall-Section=main
+
+Name=Amazon
+Type=Application
+Icon=amazon-store
+Exec=unity-webapps-runner --amazon --app-id=ubuntu-amazon-default
+
+X-Ubuntu-Gettext-Domain=app-install-data

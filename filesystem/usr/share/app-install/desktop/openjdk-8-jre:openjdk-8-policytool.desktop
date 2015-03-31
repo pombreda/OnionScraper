@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=openjdk-8-jre
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=OpenJDK Java 8 Policy Tool
+Comment=OpenJDK Java 8 Policy Tool
+Keywords=java;security;policytool
+Exec=/usr/bin/policytool
+Terminal=false
+Type=Application
+Icon=openjdk-8
+Categories=Settings;
+
+X-Ubuntu-Gettext-Domain=app-install-data

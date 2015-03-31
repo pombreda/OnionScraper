@@ -1,0 +1,17 @@
+
+[Desktop Entry]
+X-AppInstall-Package=ho22bus
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Type=Application
+Name=HoDict
+Comment=Ho22bus's Dict
+Exec=ho22bus -d
+Terminal=false
+Icon=hodict
+StartupNotify=true
+Categories=Utility;Dictionary;
+
+X-Ubuntu-Gettext-Domain=app-install-data

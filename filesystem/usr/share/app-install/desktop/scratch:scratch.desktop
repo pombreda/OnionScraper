@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=scratch
+X-AppInstall-Popcon=343
+X-AppInstall-Section=universe
+
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec=scratch %f
+Icon=scratch
+Terminal=false
+Name=Scratch
+Comment= Programming system and content development tool
+Categories=Application;Education;Development;ComputerScience;
+MimeType=application/x-scratch-project
+
+X-Ubuntu-Gettext-Domain=app-install-data

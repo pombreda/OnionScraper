@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Εκτέλεση της εντολής σε τερματικό">
+								<longdesc>Ισχύει αν αν η εντολή που χρησιμοποιείται για να διαχειριστεί τα URL αυτού του τύπου πρέπει να τρέχει σε τερματικό.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Διαχειριστής των &quot;ymsgr&quot; URLs">
+								<longdesc>Η εντολή που χρησιμοποιείται για τη διαχείριση των &quot;ymsgr&quot; URLs, αν είναι ενεργοποιημένα.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα &quot;ymsgr&quot; URLs">
+								<longdesc>Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο &quot;εντολής&quot; πρέπει να διαχειρίζεται τα &quot;ymsgr&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Εκτέλεση της εντολής σε τερματικό">
+								<longdesc>Ισχύει αν αν η εντολή που χρησιμοποιείται για να διαχειριστεί τα URL αυτού του τύπου πρέπει να τρέχει σε τερματικό.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Διαχειριστής των &quot;xmpp&quot; URLs">
+								<longdesc>Η εντολή που χρησιμοποιείται για τη διαχείριση των &quot;xmpp&quot; URLs, αν είναι ενεργοποιημένα.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα &quot;xmpp&quot; URLs">
+								<longdesc>Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο &quot;εντολής&quot; πρέπει να διαχειρίζεται τα &quot;xmpp&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Εκτέλεση της εντολής σε τερματικό">
+								<longdesc>Ισχύει αν αν η εντολή που χρησιμοποιείται για να διαχειριστεί τα URL αυτού του τύπου πρέπει να τρέχει σε τερματικό.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Διαχειριστής των &quot;sip&quot; URLs">
+								<longdesc>Η εντολή που χρησιμοποιείται για τη διαχείριση των &quot;sip&quot; URLs, αν είναι ενεργοποιημένα.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα &quot;sip&quot; URLs">
+								<longdesc>Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο &quot;εντολής&quot; πρέπει να διαχειρίζεται τα &quot;sip&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Εκτέλεση της εντολής σε τερματικό">
+								<longdesc>Ισχύει αν αν η εντολή που χρησιμοποιείται για να διαχειριστεί τα URL αυτού του τύπου πρέπει να τρέχει σε τερματικό.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Διαχειριστής των &quot;msnim&quot; URLs">
+								<longdesc>Η εντολή που χρησιμοποιείται για τη διαχείριση των &quot;msnim&quot; URLs, αν είναι ενεργοποιημένα.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα &quot;msnim&quot; URLs">
+								<longdesc>Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο &quot;εντολής&quot; πρέπει να διαχειρίζεται τα &quot;msnim&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Εκτέλεση της εντολής σε τερματικό">
+								<longdesc>Ισχύει αν αν η εντολή που χρησιμοποιείται για να διαχειριστεί τα URL αυτού του τύπου πρέπει να τρέχει σε τερματικό.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Διαχειριστής των &quot;irc&quot; URLs">
+								<longdesc>Η εντολή που χρησιμοποιείται για τη διαχείριση των &quot;irc&quot; URLs, αν είναι ενεργοποιημένα.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα &quot;irc&quot; URLs">
+								<longdesc>Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο &quot;εντολής&quot; πρέπει να διαχειρίζεται τα &quot;irc&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Εκτέλεση της εντολής σε τερματικό">
+								<longdesc>Ισχύει αν αν η εντολή που χρησιμοποιείται για να διαχειριστεί τα URL αυτού του τύπου πρέπει να τρέχει σε τερματικό.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Διαχειριστής των &quot;icq&quot; URLs">
+								<longdesc>Η εντολή που χρησιμοποιείται για τη διαχείριση των &quot;icq&quot; URLs, αν είναι ενεργοποιημένα.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα &quot;icq&quot; URLs">
+								<longdesc>Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο &quot;εντολής&quot; πρέπει να διαχειρίζεται τα &quot;icq&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Εκτέλεση της εντολής σε τερματικό">
+								<longdesc>Ισχύει αν αν η εντολή που χρησιμοποιείται για να διαχειριστεί τα URL αυτού του τύπου πρέπει να τρέχει σε τερματικό.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Διαχειριστής των &quot;gg&quot; URLs">
+								<longdesc>Η εντολή που χρησιμοποιείται για τη διαχείριση των &quot;gg&quot; URLs, αν είναι ενεργοποιημένα.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα &quot;gg&quot; URLs">
+								<longdesc>Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο &quot;εντολής&quot; πρέπει να διαχειρίζεται τα &quot;gg&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Εκτέλεση της εντολής σε τερματικό">
+								<longdesc>Ισχύει αν αν η εντολή που χρησιμοποιείται για να διαχειριστεί τα URL αυτού του τύπου πρέπει να τρέχει σε τερματικό.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Διαχειριστής των &quot;aim&quot; URLs">
+								<longdesc>Η εντολή που χρησιμοποιείται για τη διαχείριση των &quot;aim&quot; URLs, αν είναι ενεργοποιημένα.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Αν η εντολή που έχει οριστεί πρέπει να διαχειρίζεται τα &quot;aim&quot; URLs">
+								<longdesc>Ισχύει αν η εντολή που έχει καθοριστεί στο πλήκτρο &quot;εντολής&quot; πρέπει να διαχειρίζεται τα &quot;aim&quot; URLs.</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

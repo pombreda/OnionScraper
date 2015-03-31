@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=unity-webapps-bbcnews
+X-AppInstall-Popcon=0
+X-AppInstall-Section=universe
+
+Name=BBC News
+Type=Application
+Icon=unity-webapps-bbcnews
+MimeType=
+Actions=S0;S1;S2;S3;S4;S5;S6;S7;S8;S9;S10;
+Exec=unity-webapps-runner -n 'QkJDTmV3cw==' -d 'bbc.co.uk' %u
+StartupWMClass=BBCNewsbbccouk
+    
+X-Ubuntu-Gettext-Domain=app-install-data

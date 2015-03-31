@@ -1,0 +1,18 @@
+[Desktop Entry]
+X-AppInstall-Package=terminatorx
+X-AppInstall-Popcon=22
+X-AppInstall-Section=universe
+
+Version=1.0
+Exec=terminatorX
+Encoding=UTF-8
+Name=terminatorX
+GenericName=Virtual turntable
+Comment=Scratch and mix audio
+Terminal=false
+Type=Application
+Icon=terminatorX
+Categories=AudioVideo;
+StartupNotify=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=lilyterm
+X-AppInstall-Popcon=1
+X-AppInstall-Section=universe
+
+Name=LilyTerm
+GenericName=Terminal
+Comment=A light and easy to use libvte based X Terminal Emulator
+
+TryExec=lilyterm
+Exec=lilyterm
+Icon=lilyterm
+Type=Application
+Terminal=false
+Categories=GTK;Utility;System;TerminalEmulator;
+
+X-Ubuntu-Gettext-Domain=app-install-data

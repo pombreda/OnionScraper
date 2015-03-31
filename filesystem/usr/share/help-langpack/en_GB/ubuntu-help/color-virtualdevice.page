@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:if="http://projectmallard.org/if/1.0/" type="topic" style="question" version="1.0 if/1.0" id="color-virtualdevice" xml:lang="en-GB">
+
+  <info>
+    <link type="guide" xref="color#profiles"/>
+    <link type="seealso" xref="color-why-calibrate"/>
+    <desc>A virtual device is a colour managed device that is not connected to the computer.</desc>
+
+    <revision version="13.10" date="2013-09-07" status="review"/>
+    <revision pkgversion="3.7.1" version="0.2" date="2012-11-16" status="outdated"/>
+
+    <credit type="author">
+      <name>Richard Hughes</name>
+      <email>richard@hughsie.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  </info>
+
+  <title>What's a virtual colour managed device?</title>
+
+  <p>A virtual device is a colour managed device that is not connected to the computer. Examples of this might be:</p>
+
+  <list>
+    <item><p>An online print-shop where photos are uploaded, printed and sent to you</p></item>
+    <item><p>Photos from a digital camera stored on a memory card</p></item>
+  </list>
+
+<if:choose>
+<if:when test="platform:unity">
+  <p>To create a virtual profile for a digital camera, just drag and drop one of the image files onto the <guiseq><gui>System Settings</gui> <gui>Device Colour Profiles</gui></guiseq> dialogue. You can then <link xref="color-assignprofiles">assign profiles</link> to it like any other device or even <link xref="colour-calibrate-camera">calibrate</link> it.</p>
+</if:when>
+  <p>To create a virtual profile for a digital camera, just drag and drop one of the image files onto the <guiseq><gui>System Settings</gui> <gui>Device Colour Profiles</gui></guiseq> dialogue. You can then <link xref="color-assignprofiles">assign profiles</link> to it like any other device or even <link xref="colour-calibrate-camera">calibrate</link> it.</p>
+</if:choose>
+
+</page>

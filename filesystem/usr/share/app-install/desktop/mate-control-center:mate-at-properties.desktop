@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-control-center
+X-AppInstall-Popcon=167
+X-AppInstall-Section=universe
+
+Name=Assistive Technologies
+Comment=Choose which accessibility features to enable when you log in
+Exec=mate-at-properties
+Icon=preferences-desktop-accessibility
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;
+Keywords=mate-control-center;MATE;accessibility;features;
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data

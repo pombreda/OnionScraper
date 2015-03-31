@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=clipit
+X-AppInstall-Popcon=367
+X-AppInstall-Section=universe
+
+Name=ClipIt
+Comment=Clipboard Manager
+Icon=clipit-trayicon
+Exec=clipit
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;Application;Utility;
+
+X-Ubuntu-Gettext-Domain=app-install-data

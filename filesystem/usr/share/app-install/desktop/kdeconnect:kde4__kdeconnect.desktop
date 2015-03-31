@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kdeconnect
+X-AppInstall-Popcon=660
+X-AppInstall-Section=universe
+
+Type=Application
+Icon=kdeconnect
+Terminal=false
+Exec=kcmshell4 kcm_kdeconnect
+Name=KDE Connect
+GenericName=Connect smartphones to your KDE Plasma Workspace
+Categories=Qt;KDE;Settings;HardwareSettings;
+Hidden=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

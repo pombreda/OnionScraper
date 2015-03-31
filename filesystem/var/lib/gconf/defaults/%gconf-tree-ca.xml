@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="desktop">
+			<dir name="gnome">
+				<dir name="url-handlers">
+					<dir name="ymsgr">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executa l&apos;ordre en un terminal">
+								<longdesc>Cert si l&apos;ordre emprada per aquest tipus d&apos;URL s&apos;ha d&apos;executar en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Gestor per a URL «ymsgr»">
+								<longdesc>L&apos;ordre per a gestionar URL «ymsgr», si s&apos;habilita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si l&apos;ordre especificada ha de gestionar URL «ymsgr»">
+								<longdesc>Cert si l&apos;ordre especificada a la clau «command» ha de gestionar URL «ymsgr».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="xmpp">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executa l&apos;ordre en un terminal">
+								<longdesc>Cert si l&apos;ordre emprada per aquest tipus d&apos;URL s&apos;ha d&apos;executar en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Gestor per a URL «xmpp»">
+								<longdesc>L&apos;ordre per a gestionar URL «xmpp», si s&apos;habilita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si l&apos;ordre especificada ha de gestionar URL «xmpp»">
+								<longdesc>Cert si l&apos;ordre especificada a la clau «command» ha de gestionar URL «xmpp».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="sip">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executa l&apos;ordre en un terminal">
+								<longdesc>Cert si l&apos;ordre emprada per aquest tipus d&apos;URL s&apos;ha d&apos;executar en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Gestor per a URL «sip»">
+								<longdesc>L&apos;ordre per a gestionar URL «sip», si s&apos;habilita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si l&apos;ordre especificada ha de gestionar URL «sip»">
+								<longdesc>Cert si l&apos;ordre especificada a la clau «command» ha de gestionar URL «sip».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="msnim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executa l&apos;ordre en un terminal">
+								<longdesc>Cert si l&apos;ordre emprada per aquest tipus d&apos;URL s&apos;ha d&apos;executar en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Gestor per a URL «msnim»">
+								<longdesc>L&apos;ordre per a gestionar URL «msnin», si s&apos;habilita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si l&apos;ordre especificada ha de gestionar URL «msnim»">
+								<longdesc>Cert si l&apos;ordre especificada a la clau «command» ha de gestionar URL «msnim».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="irc">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executa l&apos;ordre en un terminal">
+								<longdesc>Cert si l&apos;ordre emprada per aquest tipus d&apos;URL s&apos;ha d&apos;executar en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Gestor per a URL «irc»">
+								<longdesc>L&apos;ordre per a gestionar URL «irc», si s&apos;habilita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si l&apos;ordre especificada ha de gestionar URL «irc»">
+								<longdesc>Cert si l&apos;ordre especificada a la clau «command» ha de gestionar URL «irc».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="icq">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executa l&apos;ordre en un terminal">
+								<longdesc>Cert si l&apos;ordre emprada per aquest tipus d&apos;URL s&apos;ha d&apos;executar en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Gestor per a URL «icq»">
+								<longdesc>L&apos;ordre per a gestionar URL «icq», si s&apos;habilita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si l&apos;ordre especificada ha de gestionar URL «icq»">
+								<longdesc>Cert si l&apos;ordre especificada a la clau «command» ha de gestionar URL «icq».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="gg">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executa l&apos;ordre en un terminal">
+								<longdesc>Cert si l&apos;ordre emprada per aquest tipus d&apos;URL s&apos;ha d&apos;executar en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Gestor per a URL «gg»">
+								<longdesc>L&apos;ordre per a gestionar URL «gg», si s&apos;habilita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si l&apos;ordre especificada ha de gestionar URL «gg»">
+								<longdesc>Cert si l&apos;ordre especificada a la clau «command» ha de gestionar URL «gg».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+					<dir name="aim">
+						<entry name="needs_terminal">
+							<local_schema short_desc="Executa l&apos;ordre en un terminal">
+								<longdesc>Cert si l&apos;ordre emprada per aquest tipus d&apos;URL s&apos;ha d&apos;executar en un terminal.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="command">
+							<local_schema short_desc="Gestor per a URL «aim»">
+								<longdesc>L&apos;ordre per a gestionar URL «aim», si s&apos;habilita.</longdesc>
+							</local_schema>
+						</entry>
+						<entry name="enabled">
+							<local_schema short_desc="Si l&apos;ordre especificada ha de gestionar URL «aim»">
+								<longdesc>Cert si l&apos;ordre especificada a la clau «command» ha de gestionar URL «aim».</longdesc>
+							</local_schema>
+						</entry>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

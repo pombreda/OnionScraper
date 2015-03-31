@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gnome-packagekit-session
+X-AppInstall-Popcon=205
+X-AppInstall-Section=universe
+
+Name=Software Install
+Comment=Install selected software on the system
+Categories=System;
+Exec=gpk-dbus-service
+Terminal=false
+Type=Application
+Icon=system-software-install
+StartupNotify=true
+NoDisplay=true
+
+X-Ubuntu-Gettext-Domain=app-install-data

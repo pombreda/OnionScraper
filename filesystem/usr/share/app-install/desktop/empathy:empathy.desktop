@@ -1,0 +1,42 @@
+[Desktop Entry]
+X-AppInstall-Package=empathy
+X-AppInstall-Popcon=34299
+X-AppInstall-Section=main
+
+Version=1.0
+Name=Empathy
+GenericName=IM Client
+X-GNOME-FullName=Empathy Internet Messaging
+Comment=Chat on Google Talk, Facebook, MSN and many other chat services
+Keywords=chat;talk;im;message;irc;voip;gtalk;facebook;jabber;
+Exec=empathy
+Icon=empathy
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Network;InstantMessaging;
+X-GNOME-UsesNotifications=true
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=empathy
+X-GNOME-Bugzilla-Component=General
+X-GNOME-Bugzilla-Version=3.8.68
+X-MessagingMenu-UsesChatSection=true
+Actions=Hidden;Prefs;Accounts;
+
+
+[Desktop Action Hidden]
+Name=Open Hidden in Background
+Exec=empathy -h
+NotShowIn=Messaging Menu
+
+[Desktop Action Prefs]
+Name=Open Preferences
+Exec=empathy -p
+NotShowIn=Messaging Menu
+
+[Desktop Action Accounts]
+Name=Open Accounts
+Exec=unity-control-center credentials
+NotShowIn=Messaging Menu
+
+X-Ubuntu-Gettext-Domain=app-install-data

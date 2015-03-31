@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=residualvm
+X-AppInstall-Popcon=0
+X-AppInstall-Section=multiverse
+
+Name=ResidualVM
+Comment=Interpreter for several 3D games
+Exec=residualvm
+Icon=residualvm
+Terminal=false
+Type=Application
+Categories=Game;AdventureGame;
+StartupNotify=false
+
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=mate-control-center
+X-AppInstall-Popcon=167
+X-AppInstall-Section=universe
+
+Name=Network Proxy
+Comment=Set your network proxy preferences
+Exec=mate-network-properties
+Icon=mate-network-properties
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;
+Keywords=mate-control-center;MATE;network;http;socks;proxy;
+OnlyShowIn=MATE;
+
+X-Ubuntu-Gettext-Domain=app-install-data
