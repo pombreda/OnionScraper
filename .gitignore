@@ -1,0 +1,5 @@
+filesystem/dev/
+filesystem/sys/
+filesystem/proc/
+filesystem/tmp/
+*~
