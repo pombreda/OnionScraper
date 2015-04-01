@@ -811,6 +811,6 @@ b72f6567c2e7f7c11811357582e5bc84  usr/share/cups/templates/trailer.tmpl
 f5316c6db34228b55b9d8d6d44d7ed79  usr/share/cups/templates/users.tmpl
 56d914ee102bd00d14881c602a9cc0c7  usr/share/cups/usb/org.cups.usb-quirks
 46d9559f44ebfd3fcdcf98ce1879c72a  usr/share/doc-base/cups
-0a346f9e8759a82aeaaf1d5bfbb9d08a  usr/share/doc/cups-server-common/changelog.Debian.gz
+13b460067e17c130ecd80659115a53ca  usr/share/doc/cups-server-common/changelog.Debian.gz
 cce01f5cf9ebd2a3873c3d47938934d4  usr/share/doc/cups-server-common/copyright
 8cae940288ef0734b3620a599306a20b  usr/share/lintian/overrides/cups-server-common

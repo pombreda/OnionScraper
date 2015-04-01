@@ -6,7 +6,7 @@ d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/usbcreator/backe
 9505d6ed553eecfab6cd8c931d37efd9  usr/lib/python3/dist-packages/usbcreator/backends/fastboot/__init__.py
 2c1ec5504e22add6afed3ded10b2b52e  usr/lib/python3/dist-packages/usbcreator/backends/fastboot/backend.py
 732619d7f9e6a273337870a8c3a7ec2c  usr/lib/python3/dist-packages/usbcreator/backends/udisks/__init__.py
-8193025b799ea4ab0dd5ab44634d8780  usr/lib/python3/dist-packages/usbcreator/backends/udisks/backend.py
+9b8b265abda792df702c965569801527  usr/lib/python3/dist-packages/usbcreator/backends/udisks/backend.py
 d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/usbcreator/frontends/__init__.py
 5f870b455e8e2733b1c4fc5a26cfd4c9  usr/lib/python3/dist-packages/usbcreator/frontends/base/__init__.py
 10a3060d59c68a17bc09be5bd9a6bfba  usr/lib/python3/dist-packages/usbcreator/frontends/base/frontend.py
@@ -15,7 +15,7 @@ d41d8cd98f00b204e9800998ecf8427e  usr/lib/python3/dist-packages/usbcreator/front
 25bbebc340fe58a64bffd6107a1e4fd7  usr/lib/python3/dist-packages/usbcreator/remtimest.py
 f43b316e7a48d5370d1085934f6c571f  usr/share/apport/package-hooks/source_usb-creator.py
 d11823d9b834645d27e1319a344759ac  usr/share/dbus-1/system-services/com.ubuntu.USBCreator.service
-1db7cf12d04e72a01cc98614d83a2736  usr/share/doc/usb-creator-common/changelog.gz
+16483b278a8bf8c438f1d09ded24c3fd  usr/share/doc/usb-creator-common/changelog.gz
 cb634887dca8ddd323731325592c3f9c  usr/share/doc/usb-creator-common/copyright
 6d35ed0f87749fed50077e62973aa541  usr/share/polkit-1/actions/com.ubuntu.usbcreator.policy
 27a3496f2be1e90f692e6e5beceaddb7  usr/share/usb-creator/ubuntu-nexus7-USAGE-NOTICE-en.txt

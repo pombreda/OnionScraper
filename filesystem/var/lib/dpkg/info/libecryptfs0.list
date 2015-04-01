@@ -3,8 +3,8 @@
 /usr/share
 /usr/share/doc
 /usr/share/doc/libecryptfs0
-/usr/share/doc/libecryptfs0/copyright
 /usr/share/doc/libecryptfs0/changelog.Debian.gz
+/usr/share/doc/libecryptfs0/copyright
 /usr/lib
 /usr/lib/libecryptfs.so.1.0.0
 /usr/lib/libecryptfs.so.0.0

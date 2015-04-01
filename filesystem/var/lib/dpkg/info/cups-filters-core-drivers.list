@@ -7,11 +7,11 @@
 /usr/lib
 /usr/lib/cups
 /usr/lib/cups/filter
+/usr/lib/cups/filter/rastertopclx
+/usr/lib/cups/filter/pdftoippprinter
+/usr/lib/cups/filter/pdftopdf
 /usr/lib/cups/filter/pdftops
 /usr/lib/cups/filter/pdftoraster
-/usr/lib/cups/filter/pdftopdf
-/usr/lib/cups/filter/pdftoippprinter
-/usr/lib/cups/filter/rastertopclx
+/usr/share/doc/cups-filters-core-drivers/changelog.Debian.gz
 /usr/share/doc/cups-filters-core-drivers/AUTHORS
 /usr/share/doc/cups-filters-core-drivers/README.gz
-/usr/share/doc/cups-filters-core-drivers/changelog.Debian.gz

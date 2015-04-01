@@ -13,7 +13,7 @@ f39da100dbe68d4b3593b4de9458b3c5  usr/share/system-config-printer/check-device-i
 63836b456852684ed86789cd9c6f6e75  usr/share/system-config-printer/debug.py
 b14434396de4f306870a4fdf12f5e5e6  usr/share/system-config-printer/dnssdresolve.py
 7c6b72cd5958014259b21a27066e8b5e  usr/share/system-config-printer/firewallsettings.py
-25e6da986bfa492560ab3c1afd92e349  usr/share/system-config-printer/installpackage.py
+ed60f2fa06f8548f137d06a12b00088b  usr/share/system-config-printer/installpackage.py
 552ff60d288a426c78519851fa5ca2f1  usr/share/system-config-printer/monitor.py
 a6802e679195c8b3a5e33b7b07b76311  usr/share/system-config-printer/ppdippstr.py
 a89cac2975bf62777f5fef433d8f510d  usr/share/system-config-printer/probe_printer.py

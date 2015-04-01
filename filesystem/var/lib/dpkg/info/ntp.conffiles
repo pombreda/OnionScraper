@@ -1,7 +1,7 @@
-/etc/apparmor.d/usr.sbin.ntpd
-/etc/apparmor.d/tunables/ntpd
-/etc/init.d/ntp
 /etc/dhcp/dhclient-exit-hooks.d/ntp
 /etc/default/ntp
-/etc/cron.daily/ntp
+/etc/init.d/ntp
 /etc/ntp.conf
+/etc/apparmor.d/usr.sbin.ntpd
+/etc/apparmor.d/tunables/ntpd
+/etc/cron.daily/ntp

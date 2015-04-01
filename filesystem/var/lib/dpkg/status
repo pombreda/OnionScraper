@@ -51,8 +51,8 @@ Installed-Size: 219
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: ubuntu-release-upgrader
-Version: 1:14.10.9
-Depends: ubuntu-release-upgrader-core (= 1:14.10.9), update-manager, python3-distupgrade (= 1:14.10.9), python3-dbus, python3-gi (>= 3.8), gir1.2-vte-2.90, gir1.2-gtk-3.0, gir1.2-webkit-3.0
+Version: 1:14.10.10
+Depends: ubuntu-release-upgrader-core (= 1:14.10.10), update-manager, python3-distupgrade (= 1:14.10.10), python3-dbus, python3-gi (>= 3.8), gir1.2-vte-2.90, gir1.2-gtk-3.0, gir1.2-webkit-3.0
 Description: manage release upgrades
  This is the GTK+ frontend of the Ubuntu Release Upgrader
 
@@ -391,12 +391,12 @@ Package: xserver-common
 Status: install ok installed
 Priority: optional
 Section: x11
-Installed-Size: 1901
+Installed-Size: 1902
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: xorg-server
-Version: 2:1.16.0-1ubuntu1
+Version: 2:1.16.0-1ubuntu1.3
 Replaces: xserver-common-lts-quantal (<< 3:0), xserver-common-lts-raring (<< 3:0), xserver-common-lts-saucy (<< 3:0), xserver-common-lts-trusty (<< 3:0), xserver-xorg-core (<< 2:1.5.2)
 Depends: x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
@@ -475,7 +475,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: elfutils
-Version: 0.160-0ubuntu2
+Version: 0.160-0ubuntu2.1
 Depends: libc6 (>= 2.14)
 Pre-Depends: multiarch-support
 Description: library to read and write ELF files
@@ -587,7 +587,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: gtk+3.0
-Version: 3.12.2-0ubuntu15
+Version: 3.12.2-0ubuntu15.2
 Replaces: libgtk-3-0 (<< 3.5.4)
 Depends: dconf-gsettings-backend | gsettings-backend
 Recommends: libgtk-3-0
@@ -789,12 +789,12 @@ Package: libgl1-mesa-dri
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 13442
+Installed-Size: 13450
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: mesa
-Version: 10.3.0-0ubuntu3
+Version: 10.3.2-0ubuntu0.1
 Replaces: libgl1-mesa-dri-experimental (<< 7.11.1), xlibmesa-dri (<< 1:7.0.0)
 Depends: libllvm3.5 (>= 1:3.5~+rc3), libc6 (>= 2.17), libdrm-intel1 (>= 2.4.48), libdrm-nouveau2 (>= 2.4.38), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.38), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.7), libstdc++6 (>= 4.9)
 Pre-Depends: multiarch-support
@@ -1073,20 +1073,20 @@ Original-Maintainer: Mark Buda <hermit@acm.org>
 
 Package: sudo
 Status: install ok installed
-Priority: important
+Priority: optional
 Section: admin
-Installed-Size: 1484
+Installed-Size: 1480
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 1.8.9p5-1ubuntu2
+Version: 1.8.9p5-1ubuntu2.1
 Replaces: sudo-ldap
 Depends: libc6 (>= 2.15), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libpam-modules
 Conflicts: sudo-ldap
 Conffiles:
- /etc/sudoers e8e73f16ed73309df7574c12fbcc0af7
  /etc/init.d/sudo 69497d0565055f626ee2bc84f818ce0f
- /etc/pam.d/sudo 665a6dead44ff792cfad6b0faa10a621
  /etc/sudoers.d/README 8d3cf36d1713f40a0ddc38e1b21a51b6
+ /etc/pam.d/sudo 665a6dead44ff792cfad6b0faa10a621
+ /etc/sudoers e8e73f16ed73309df7574c12fbcc0af7
 Description: Provide limited super user privileges to specific users
  Sudo is a program designed to allow a sysadmin to give limited root
  privileges to users and log root activity.  The basic philosophy is to give
@@ -1128,7 +1128,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: freetype
-Version: 2.5.2-2ubuntu1
+Version: 2.5.2-2ubuntu1.1
 Depends: libc6 (>= 2.14), libpng12-0 (>= 1.2.13-4), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Description: FreeType 2 font engine, shared library files
@@ -1227,8 +1227,8 @@ Section: misc
 Installed-Size: 560
 Maintainer: Dustin Kirkland <kirkland@ubuntu.com>
 Architecture: amd64
-Version: 104-0ubuntu1
-Depends: libc6 (>= 2.14), libecryptfs0, libkeyutils1, libpam0g (>= 0.99.7.1), gettext-base, keyutils, libnss3-1d, libpam-runtime (>= 1.0.1-6)
+Version: 104-0ubuntu1.14.10.3
+Depends: libc6 (>= 2.14), libecryptfs0, libkeyutils1 (>= 1.4), libpam0g (>= 0.99.7.1), gettext-base, keyutils, libnss3-1d, libpam-runtime (>= 1.0.1-6)
 Recommends: cryptsetup, lsof, rsync
 Suggests: opencryptoki, zescrow-client
 Description: ecryptfs cryptographic filesystem (utilities)
@@ -1591,12 +1591,12 @@ Package: gpgv
 Status: install ok installed
 Priority: important
 Section: utils
-Installed-Size: 443
+Installed-Size: 448
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: gnupg
-Version: 1.4.16-1.2ubuntu1
+Version: 1.4.16-1.2ubuntu1.2
 Depends: libbz2-1.0, libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
 Suggests: gnupg
 Description: GNU privacy guard - signature verification tool
@@ -1658,12 +1658,12 @@ Package: libssl1.0.0
 Status: install ok installed
 Priority: important
 Section: libs
-Installed-Size: 2969
+Installed-Size: 2970
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: openssl
-Version: 1.0.1f-1ubuntu9
+Version: 1.0.1f-1ubuntu9.4
 Depends: libc6 (>= 2.14), debconf (>= 0.5) | debconf-2.0
 Pre-Depends: multiarch-support
 Description: Secure Sockets Layer toolkit - shared libraries
@@ -1704,8 +1704,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: cups
-Version: 1.7.5-3ubuntu2
-Depends: libc6 (>= 2.4), libcups2 (>= 1.6.2), libcupsppdc1 (>= 1.4.0), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), cups-common (>= 1.7.5-3ubuntu2)
+Version: 1.7.5-3ubuntu3.1
+Depends: libc6 (>= 2.4), libcups2 (>= 1.6.2), libcupsppdc1 (>= 1.4.0), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), cups-common (>= 1.7.5-3ubuntu3.1)
 Description: Common UNIX Printing System(tm) - PPD manipulation utilities
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -1718,14 +1718,14 @@ Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 
 Package: libdbus-1-3
 Status: install ok installed
-Priority: required
+Priority: optional
 Section: libs
 Installed-Size: 411
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: dbus
-Version: 1.8.8-1ubuntu2
+Version: 1.8.8-1ubuntu2.1
 Depends: libc6 (>= 2.17)
 Pre-Depends: multiarch-support
 Recommends: dbus
@@ -1791,12 +1791,12 @@ Package: libflac8
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 239
+Installed-Size: 247
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: flac
-Version: 1.3.0-2
+Version: 1.3.0-2ubuntu0.14.10.1
 Depends: libc6 (>= 2.14), libogg0 (>= 1.0rc3)
 Pre-Depends: multiarch-support
 Description: Free Lossless Audio Codec - runtime C library
@@ -1812,8 +1812,8 @@ Description: Free Lossless Audio Codec - runtime C library
     works)
  .
  This package contains the runtime library libFLAC.
-Original-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Homepage: http://xiph.org/flac/
+Original-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 
 Package: module-init-tools
 Status: install ok installed
@@ -1986,7 +1986,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: cairo
-Version: 1.13.0~20140204-0ubuntu1
+Version: 1.13.0~20140204-0ubuntu1.1
 Depends: libc6 (>= 2.14), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.3.5), libpixman-1-0 (>= 0.30.0), libpng12-0 (>= 1.2.13-4), libx11-6, libxcb-render0, libxcb-shm0, libxcb1 (>= 1.6), libxext6, libxrender1, zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Breaks: iceape-browser (<= 2.0.3-3), libgtk-directfb-2.0-0, xulrunner-1.9, xulrunner-1.9.1 (<= 1.9.1.8-3)
@@ -2096,13 +2096,13 @@ Homepage: http://libav.org/
 
 Package: libgcrypt11
 Status: install ok installed
-Priority: required
+Priority: standard
 Section: libs
-Installed-Size: 589
+Installed-Size: 597
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
-Version: 1.5.4-2ubuntu1
+Version: 1.5.4-2ubuntu1.1
 Depends: libc6 (>= 2.15), libgpg-error0 (>= 1.10)
 Pre-Depends: multiarch-support
 Suggests: rng-tools
@@ -2271,7 +2271,7 @@ Installed-Size: 328
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: evolution-data-server
-Version: 3.12.7.1-0ubuntu1
+Version: 3.12.10-0ubuntu1~14.10.1
 Depends: dconf-gsettings-backend | gsettings-backend
 Description: architecture independent files for Evolution Data Server
  The data server, called "Evolution Data Server" is responsible for managing
@@ -2377,11 +2377,11 @@ Package: libedataserver-1.2-18
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 961
+Installed-Size: 963
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: evolution-data-server
-Version: 3.12.7.1-0ubuntu1
+Version: 3.12.10-0ubuntu1~14.10.1
 Depends: libc6 (>= 2.14), libcamel-1.2-49, libgcc1 (>= 1:4.1.1), libgcr-base-3-1 (>= 3.8.0), libglib2.0-0 (>= 2.37.3), libicu52 (>= 52~m1-1~), libsecret-1-0 (>= 0.7), libsoup2.4-1 (>= 2.42), libstdc++6 (>= 4.1.1), libxml2 (>= 2.7.4), evolution-data-server-common (>= 3.12)
 Description: Utility library for evolution data servers
  The data server, called "Evolution Data Server" is responsible for managing
@@ -2560,7 +2560,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: curl
-Version: 7.37.1-1ubuntu3
+Version: 7.37.1-1ubuntu3.2
 Depends: libc6 (>= 2.17), libgnutls-deb0-28 (>= 3.2.10-0), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), libnettle4, librtmp1 (>= 2.4+20131018.git79459a2-3~), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Recommends: ca-certificates
@@ -2680,7 +2680,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: webkitgtk
-Version: 2.4.6-1ubuntu1
+Version: 2.4.7-1~ubuntu14.10.1
 Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.36.0), libicu52 (>= 52~m1-1~), libstdc++6 (>= 4.8.1), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Description: JavaScript engine library from WebKitGTK+
@@ -2712,32 +2712,32 @@ Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 
 Package: procps
 Status: install ok installed
-Priority: required
+Priority: important
 Section: admin
-Installed-Size: 680
+Installed-Size: 689
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 1:3.3.9-1ubuntu5
+Version: 1:3.3.9-1ubuntu5.2
 Provides: watch
 Depends: libc6 (>= 2.15), libncurses5 (>= 5.5-5~), libncursesw5 (>= 5.6+20070908), libprocps3, libtinfo5, lsb-base (>= 4.1+Debian11ubuntu7), initscripts
 Recommends: psmisc
 Breaks: guymager (<= 0.5.9-1), open-vm-tools (<= 2011.12.20-562307-1), xmem (<= 1.20-27.1)
 Conflicts: pgrep (<< 3.3-5), w-bassman (<< 1.0-3)
 Conffiles:
- /etc/sysctl.d/10-magic-sysrq.conf b3059f2835f17c97265433fdfdee358f
- /etc/sysctl.d/10-ptrace.conf 47f40494b2fc698e15549e0a4a79e81c
- /etc/sysctl.d/10-zeropage.conf 8d7193abcc4dfedaf519dd03016a5e59
- /etc/sysctl.d/10-console-messages.conf 154f6f5c5810d10bb303fb6a8e907c6a
- /etc/sysctl.d/10-network-security.conf 4ac7258f5336e7eeaf448c05ab668d3c
- /etc/sysctl.d/10-kernel-hardening.conf 5c1388f00011a287cdeba60208c674e1
- /etc/sysctl.d/README c20074b9b11a5202758c69d7bcb6996f
- /etc/sysctl.d/10-ipv6-privacy.conf e9473d12b4a7069d6a3ca8b694511ddf
- /etc/sysctl.d/10-link-restrictions.conf 8568316f2baa8db06554dab91f93a161
- /etc/sysctl.conf 76c1d8285c578d5e827c3e07b9738112
- /etc/init/procps.conf c273de3ebde8d4a50f17de17bb04a3e5
- /etc/init/procps-instance.conf 96170a339d08797dc90d69b01d6bf610
  /etc/init.d/procps 021482ebab1024f5ed76e650e5191e8f
+ /etc/init/procps-instance.conf 96170a339d08797dc90d69b01d6bf610
+ /etc/init/procps.conf c273de3ebde8d4a50f17de17bb04a3e5
+ /etc/sysctl.conf 76c1d8285c578d5e827c3e07b9738112
+ /etc/sysctl.d/10-ptrace.conf 47f40494b2fc698e15549e0a4a79e81c
+ /etc/sysctl.d/10-link-restrictions.conf 8568316f2baa8db06554dab91f93a161
+ /etc/sysctl.d/10-zeropage.conf 8d7193abcc4dfedaf519dd03016a5e59
+ /etc/sysctl.d/10-magic-sysrq.conf b3059f2835f17c97265433fdfdee358f
+ /etc/sysctl.d/10-ipv6-privacy.conf e9473d12b4a7069d6a3ca8b694511ddf
+ /etc/sysctl.d/README c20074b9b11a5202758c69d7bcb6996f
+ /etc/sysctl.d/10-network-security.conf 4ac7258f5336e7eeaf448c05ab668d3c
+ /etc/sysctl.d/10-console-messages.conf 154f6f5c5810d10bb303fb6a8e907c6a
+ /etc/sysctl.d/10-kernel-hardening.conf 5c1388f00011a287cdeba60208c674e1
 Description: /proc file system utilities
  This package provides command line and full screen utilities for browsing
  procfs, a "pseudo" file system dynamically generated by the kernel to
@@ -2839,9 +2839,9 @@ Section: translations
 Installed-Size: 30
 Maintainer: Language pack maintainers <language-packs@ubuntu.com>
 Architecture: all
-Version: 1:14.10+20141020
-Replaces: language-pack-en (<< 1:14.10+20141020), language-pack-en-base, language-pack-gnome-en (<< 1:14.10+20141020), language-pack-gnome-en-base (<< 1:14.10+20141020), language-pack-kde-en (<< 1:14.10+20141020), language-pack-kde-en-base (<< 1:14.10+20141020)
-Depends: language-pack-en-base (>= 1:14.10+20141020)
+Version: 1:14.10+20141205
+Replaces: language-pack-en (<< 1:14.10+20141205), language-pack-en-base, language-pack-gnome-en (<< 1:14.10+20141205), language-pack-gnome-en-base (<< 1:14.10+20141205), language-pack-kde-en (<< 1:14.10+20141205), language-pack-kde-en-base (<< 1:14.10+20141205)
+Depends: language-pack-en-base (>= 1:14.10+20141205)
 Pre-Depends: dpkg (>= 1.16.1)
 Description: translation updates for language English
  Translation data updates for all supported packages for:
@@ -2899,13 +2899,13 @@ Package: dnsutils
 Status: install ok installed
 Priority: standard
 Section: net
-Installed-Size: 373
-Maintainer: LaMont Jones <lamont@debian.org>
+Installed-Size: 374
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.9.5.dfsg-4.3
+Version: 1:9.9.5.dfsg-4.3ubuntu0.2
 Replaces: bind, bind9 (<< 1:9.1.0-3)
-Depends: libbind9-90 (= 1:9.9.5.dfsg-4.3), libc6 (>= 2.4), libdns100 (= 1:9.9.5.dfsg-4.3), libisc95 (= 1:9.9.5.dfsg-4.3), libisccfg90 (= 1:9.9.5.dfsg-4.3), libkrb5-3 (>= 1.6.dfsg.2), liblwres90 (= 1:9.9.5.dfsg-4.3), bind9-host | host
+Depends: libbind9-90 (= 1:9.9.5.dfsg-4.3ubuntu0.2), libc6 (>= 2.4), libdns100 (= 1:9.9.5.dfsg-4.3ubuntu0.2), libisc95 (= 1:9.9.5.dfsg-4.3ubuntu0.2), libisccfg90 (= 1:9.9.5.dfsg-4.3ubuntu0.2), libkrb5-3 (>= 1.6.dfsg.2), liblwres90 (= 1:9.9.5.dfsg-4.3ubuntu0.2), bind9-host | host
 Suggests: rblcheck
 Conflicts: netstd (<< 2.00)
 Description: Clients provided with BIND
@@ -2919,6 +2919,7 @@ Description: Clients provided with BIND
   - dig - query the DNS in various ways
   - nslookup - the older way to do it
   - nsupdate - perform dynamic updates (See RFC2136)
+Original-Maintainer: LaMont Jones <lamont@debian.org>
 
 Package: libguess1
 Status: install ok installed
@@ -3061,8 +3062,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: krb5
-Version: 1.12.1+dfsg-10
-Depends: libc6 (>= 2.14), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (= 1.12.1+dfsg-10), libkrb5support0 (>= 1.12~alpha1+dfsg)
+Version: 1.12.1+dfsg-10ubuntu0.1
+Depends: libc6 (>= 2.14), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.8+dfsg), libkrb5-3 (= 1.12.1+dfsg-10ubuntu0.1), libkrb5support0 (>= 1.12~alpha1+dfsg)
 Pre-Depends: multiarch-support
 Suggests: krb5-doc, krb5-user
 Breaks: libgssglue1 (<< 0.2-2)
@@ -3078,8 +3079,8 @@ Description: MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
  .
  This package contains the runtime library for the MIT Kerberos
  implementation of GSS-API used by applications and Kerberos clients.
-Original-Maintainer: Sam Hartman <hartmans@debian.org>
 Homepage: http://web.mit.edu/kerberos/
+Original-Maintainer: Sam Hartman <hartmans@debian.org>
 
 Package: libxcb-util0
 Status: install ok installed
@@ -3269,14 +3270,14 @@ Homepage: http://linuxtv.org/downloads/v4l-utils/
 
 Package: libgnutls-deb0-28
 Status: install ok installed
-Priority: important
+Priority: standard
 Section: libs
-Installed-Size: 1248
+Installed-Size: 1252
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gnutls28
-Version: 3.2.16-1ubuntu2
+Version: 3.2.16-1ubuntu2.2
 Replaces: gnutls0, gnutls0.4, gnutls3
 Depends: libc6 (>= 2.17), libgmp10 (>= 2:6), libhogweed2 (>= 2.7), libnettle4 (>= 2.7), libp11-kit0 (>= 0.20.0), libtasn1-6 (>= 4.0-0), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
@@ -3979,12 +3980,12 @@ Package: libwebkitgtk-3.0-common
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 388
+Installed-Size: 392
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: webkitgtk
-Version: 2.4.6-1ubuntu1
+Version: 2.4.7-1~ubuntu14.10.1
 Description: Web content engine library for GTK+ - data files
  WebKit is a web content engine, derived from KHTML and KJS from KDE, and
  used primarily in Apple's Safari browser.  It is made to be embedded in
@@ -4115,7 +4116,7 @@ Installed-Size: 276
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: usb-creator
-Version: 0.2.62
+Version: 0.2.62ubuntu0.1
 Depends: python3:any (>= 3.3.2-2~), python3-dbus, syslinux, syslinux-legacy, gir1.2-udisks-2.0, udisks2, genisoimage, mtools, parted, python3-debian
 Conffiles:
  /etc/dbus-1/system.d/com.ubuntu.USBCreator.conf 82d0571077f52c01413d25af9045bdfd
@@ -4179,7 +4180,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: samba
-Version: 2:4.1.11+dfsg-1ubuntu2
+Version: 2:4.1.11+dfsg-1ubuntu2.2
 Replaces: likewise-open (<< 4.1.0.2956)
 Depends: libbsd0 (>= 0.0), libc6 (>= 2.14)
 Pre-Depends: dpkg (>= 1.15.6~), multiarch-support
@@ -4197,14 +4198,14 @@ Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debi
 
 Package: libsystemd-journal0
 Status: install ok installed
-Priority: required
+Priority: optional
 Section: libs
-Installed-Size: 178
+Installed-Size: 179
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: systemd
-Version: 208-8ubuntu8
+Version: 208-8ubuntu8.2
 Depends: libc6 (>= 2.14), libgcrypt11 (>= 1.5.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)
 Pre-Depends: multiarch-support
 Description: systemd journal utility library
@@ -4302,10 +4303,10 @@ Status: install ok installed
 Priority: standard
 Section: libs
 Installed-Size: 127
-Maintainer: LaMont Jones <lamont@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.9.5.dfsg-4.3
+Version: 1:9.9.5.dfsg-4.3ubuntu0.2
 Replaces: libbind0
 Depends: libc6 (>= 2.15)
 Conflicts: libbind0
@@ -4316,6 +4317,7 @@ Description: Lightweight Resolver Library used by BIND
  .
  This package delivers the liblwres shared library used by BIND's daemons
  and clients.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
 
 Package: libffmpegthumbnailer4
 Status: install ok installed
@@ -4441,8 +4443,8 @@ Installed-Size: 101
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
-Source: systemd (208-8ubuntu8)
-Version: 1:208-8ubuntu8
+Source: systemd (208-8ubuntu8.2)
+Version: 1:208-8ubuntu8.2
 Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libudev1 (>= 183)
 Pre-Depends: multiarch-support
 Description: GObject-based wrapper library for libudev
@@ -4502,8 +4504,8 @@ Installed-Size: 205
 Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
 Architecture: all
 Source: apport
-Version: 2.14.7-0ubuntu8
-Depends: python3, python3-apport (>= 2.14.7-0ubuntu8), gir1.2-gtk-3.0 (>= 3.1.90), gir1.2-wnck-3.0, python3-gi, apport (>= 0.41), procps, x-terminal-emulator
+Version: 2.14.7-0ubuntu8.2
+Depends: python3, python3-apport (>= 2.14.7-0ubuntu8.2), gir1.2-gtk-3.0 (>= 3.1.90), gir1.2-wnck-3.0, python3-gi, apport (>= 0.41), procps, x-terminal-emulator
 Recommends: update-notifier, gdb | gdb-minimal
 Description: GTK+ frontend for the apport crash report system
  apport automatically collects data from crashed processes and
@@ -4952,7 +4954,7 @@ Section: utils
 Installed-Size: 915
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 1.0.1f-1ubuntu9
+Version: 1.0.1f-1ubuntu9.4
 Depends: libc6 (>= 2.15), libssl1.0.0 (>= 1.0.1)
 Suggests: ca-certificates
 Conffiles:
@@ -5024,12 +5026,12 @@ Package: libglib2.0-data
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 1400
+Installed-Size: 1316
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: glib2.0
-Version: 2.42.0-2
+Version: 2.42.1-1~ubuntu1
 Description: Common files for GLib library
  GLib is a library containing many useful C routines for things such
  as trees, hashes, lists, and strings.  It is a useful general-purpose
@@ -5307,7 +5309,7 @@ Installed-Size: 90
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Architecture: all
 Source: gnome-system-tools
-Version: 3.0.0-3ubuntu5
+Version: 3.0.0-3ubuntu5.1
 Replaces: gnome-system-tools (<< 2.32.0-0ubuntu6)
 Depends: gnome-system-tools
 Conflicts: gnome-system-tools (<< 2.32.0-0ubuntu6)
@@ -5370,14 +5372,14 @@ Package: language-pack-gnome-en-base
 Status: install ok installed
 Priority: optional
 Section: translations
-Installed-Size: 6968
+Installed-Size: 6971
 Maintainer: Language pack maintainers <language-packs@ubuntu.com>
 Architecture: all
-Version: 1:14.10+20141020
-Replaces: language-pack-en (<< 1:14.10+20141020), language-pack-en-base (<< 1:14.10+20141020), language-pack-gnome-en (<< 1:14.10+20141020), language-pack-gnome-en-base (<< 1:14.10+20141020), language-pack-kde-en (<< 1:14.10+20141020), language-pack-kde-en-base (<< 1:14.10+20141020)
-Depends: locales (>= 2.3.6), language-pack-gnome-en (>= 1:14.10+20141020)
+Version: 1:14.10+20141205
+Replaces: language-pack-en (<< 1:14.10+20141205), language-pack-en-base (<< 1:14.10+20141205), language-pack-gnome-en (<< 1:14.10+20141205), language-pack-gnome-en-base (<< 1:14.10+20141205), language-pack-kde-en (<< 1:14.10+20141205), language-pack-kde-en-base (<< 1:14.10+20141205)
+Depends: locales (>= 2.3.6), language-pack-gnome-en (>= 1:14.10+20141205)
 Pre-Depends: dpkg (>= 1.16.1)
-Conflicts: language-pack-gnome-en (<< 1:14.10+20141020)
+Conflicts: language-pack-gnome-en (<< 1:14.10+20141205)
 Description: GNOME translations for language English
  Translation data for all supported GNOME packages for:
  English
@@ -5739,14 +5741,14 @@ Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 
 Package: libprocps3
 Status: install ok installed
-Priority: required
+Priority: important
 Section: libs
-Installed-Size: 138
+Installed-Size: 142
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: procps
-Version: 1:3.3.9-1ubuntu5
+Version: 1:3.3.9-1ubuntu5.2
 Replaces: procps (<< 1:3.3.2-1)
 Depends: libc6 (>= 2.14)
 Pre-Depends: multiarch-support
@@ -6088,13 +6090,13 @@ Package: xserver-xorg-core
 Status: install ok installed
 Priority: optional
 Section: x11
-Installed-Size: 4015
+Installed-Size: 4024
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Architecture: amd64
 Source: xorg-server
-Version: 2:1.16.0-1ubuntu1
+Version: 2:1.16.0-1ubuntu1.3
 Provides: xorg-input-abi-21, xorg-video-abi-18
-Depends: xserver-common (>= 2:1.16.0-1ubuntu1), keyboard-configuration, udev (>= 149), libegl1-mesa | libegl1, libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libdrm2 (>= 2.3.1), libepoxy0 (>= 1.0), libgbm1 (>= 8.1~0), libgcrypt11 (>= 1.5.1), libgl1-mesa-glx | libgl1, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libudev1 (>= 183), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2), libxshmfence1
+Depends: xserver-common (>= 2:1.16.0-1ubuntu1.3), keyboard-configuration, udev (>= 149), libegl1-mesa | libegl1, libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libdrm2 (>= 2.3.1), libepoxy0 (>= 1.0), libgbm1 (>= 8.1~0), libgcrypt11 (>= 1.5.1), libgl1-mesa-glx | libgl1, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libudev1 (>= 183), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2), libxshmfence1
 Recommends: libgl1-mesa-dri (>= 7.10.2-4)
 Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
 Breaks: libgl1-mesa-dri (<< 7.10.2-4), libgl1-mesa-dri-experimental (<< 7.10.2-4), libxfixes3 (<< 1:5.0.1), libxi6 (<< 2:1.7.1.901), qt4-x11 (<< 4:4.8.0-1ubuntu2), unity (<< 7.0.2), utouch-frame (<< 2.1.0), utouch-geis (<< 2.2.3), xserver-xorg-glamoregl, xserver-xorg-input, xserver-xorg-input-2, xserver-xorg-input-2.1, xserver-xorg-input-4, xserver-xorg-input-7, xserver-xorg-input-joystick (<= 1:1.5.0-3), xserver-xorg-input-synaptics (<= 1.2.2-1ubuntu4), xserver-xorg-input-tslib (<= 0.0.6-3), xserver-xorg-input-vmmouse (<= 1:12.6.5-4ubuntu2), xserver-xorg-input-wacom (<= 0.10.5+20100415-1), xserver-xorg-video, xserver-xorg-video-1.0, xserver-xorg-video-1.9, xserver-xorg-video-2, xserver-xorg-video-4, xserver-xorg-video-5, xserver-xorg-video-6, xserver-xorg-video-cyrix (<= 1:1.1.0-8), xserver-xorg-video-glamoregl, xserver-xorg-video-i810 (<< 2:2.4), xserver-xorg-video-imstt (<= 1:1.1.0-7), xserver-xorg-video-nsc (<= 1:2.8.3-4), xserver-xorg-video-sunbw2 (<= 1:1.1.0-5), xserver-xorg-video-v4l (<< 1:0.2.0), xserver-xorg-video-vga (<= 1:4.1.0-8)
@@ -6149,7 +6151,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: krb5
-Version: 1.12.1+dfsg-10
+Version: 1.12.1+dfsg-10ubuntu0.1
 Depends: libc6 (>= 2.14), libkrb5support0 (>= 1.12~alpha1+dfsg)
 Pre-Depends: multiarch-support
 Suggests: krb5-doc, krb5-user
@@ -6165,8 +6167,8 @@ Description: MIT Kerberos runtime libraries - Crypto Library
  .
  This package contains the runtime cryptography libraries used by
  applications and Kerberos clients.
-Original-Maintainer: Sam Hartman <hartmans@debian.org>
 Homepage: http://web.mit.edu/kerberos/
+Original-Maintainer: Sam Hartman <hartmans@debian.org>
 
 Package: dnsmasq-base
 Status: install ok installed
@@ -6257,12 +6259,12 @@ Package: glib-networking
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 185
+Installed-Size: 194
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
-Version: 2.41.92-2
-Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.41.3), libgnutls-deb0-28 (>= 3.2.10-0), libp11-kit0 (>= 0.11), libproxy1 (>= 0.4.11), glib-networking-services (>= 2.41.92-2), glib-networking-services (<< 2.41.92-2.1~), glib-networking-common (= 2.41.92-2), gsettings-desktop-schemas
+Version: 2.42.1-0ubuntu1
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.41.3), libgnutls-deb0-28 (>= 3.2.10-0), libp11-kit0 (>= 0.11), libproxy1 (>= 0.4.11), glib-networking-services (>= 2.42.1-0ubuntu1), glib-networking-services (<< 2.42.1-0ubuntu1.1~), glib-networking-common (= 2.42.1-0ubuntu1), gsettings-desktop-schemas
 Breaks: libglib2.0-0 (<< 2.30.1-2)
 Description: network-related giomodules for GLib
  This package contains various network related extensions for the GIO
@@ -6325,8 +6327,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: nss
-Version: 2:3.17.1-0ubuntu1
-Depends: libnss3 (= 2:3.17.1-0ubuntu1)
+Version: 2:3.17.4-0ubuntu0.14.10.1
+Depends: libnss3 (= 2:3.17.4-0ubuntu0.14.10.1)
 Description: Network Security Security libraries - shared databases
  This package includes shared certificate and key databases.
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
@@ -6403,20 +6405,20 @@ Original-Maintainer: Matthias Klumpp <matthias@tenstral.net>
 
 Package: libmagic1
 Status: install ok installed
-Priority: important
+Priority: standard
 Section: libs
 Installed-Size: 3029
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: file
-Version: 1:5.19-1ubuntu1.1
+Version: 1:5.19-1ubuntu1.2
 Depends: libc6 (>= 2.15), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Suggests: file
 Conffiles:
- /etc/magic 272913026300e7ae9b5e2d51f138e674
  /etc/magic.mime 272913026300e7ae9b5e2d51f138e674
+ /etc/magic 272913026300e7ae9b5e2d51f138e674
 Description: File type determination library using "magic" numbers
  This library can be used to classify files according to magic
  number tests. It implements the core functionality of the file
@@ -6567,14 +6569,14 @@ Package: cups-client
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 1055
+Installed-Size: 1056
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: cups
-Version: 1.7.5-3ubuntu2
+Version: 1.7.5-3ubuntu3.1
 Replaces: cups (<< 1.7.3-5~)
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.14), libcups2 (= 1.7.5-3ubuntu2), libcupsimage2 (>= 1.4.0), cups-common (>= 1.7.5-3ubuntu2), adduser
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.14), libcups2 (= 1.7.5-3ubuntu3.1), libcupsimage2 (>= 1.4.0), cups-common (>= 1.7.5-3ubuntu3.1), adduser
 Suggests: cups, xpp, cups-bsd, smbclient
 Breaks: cups (<< 1.7.3-5~)
 Conflicts: lprng
@@ -6684,13 +6686,13 @@ Package: libwebkitgtk-3.0-0
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 32534
+Installed-Size: 32538
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: webkitgtk
-Version: 2.4.6-1ubuntu1
-Depends: libjavascriptcoregtk-3.0-0 (= 2.4.6-1ubuntu1), libatk1.0-0 (>= 2.7.91), libc6 (>= 2.14), libcairo2 (>= 1.12.16-4~), libenchant1c2a (>= 1.6.0), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgeoclue0 (>= 0.11.1+git20091217), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.2.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0 (>= 3.10.0), libharfbuzz-icu0 (>= 0.9.18), libharfbuzz0b (>= 0.9.18), libicu52 (>= 52~m1-1~), libjpeg8 (>= 8c), libpango-1.0-0 (>= 1.30.0), libpng12-0 (>= 1.2.13-4), libsecret-1-0 (>= 0.7), libsoup2.4-1 (>= 2.44.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 4.9), libwebp5, libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxml2 (>= 2.7.4), libxrender1, libxslt1.1 (>= 1.1.25), libxt6, zlib1g (>= 1:1.2.0), libwebkitgtk-3.0-common (>= 2.4.6)
+Version: 2.4.7-1~ubuntu14.10.1
+Depends: libjavascriptcoregtk-3.0-0 (= 2.4.7-1~ubuntu14.10.1), libatk1.0-0 (>= 2.7.91), libc6 (>= 2.14), libcairo2 (>= 1.12.16-4~), libenchant1c2a (>= 1.6.0), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgeoclue0 (>= 0.11.1+git20091217), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.2.0), libgstreamer1.0-0 (>= 1.4.0), libgtk-3-0 (>= 3.10.0), libharfbuzz-icu0 (>= 0.9.18), libharfbuzz0b (>= 0.9.18), libicu52 (>= 52~m1-1~), libjpeg8 (>= 8c), libpango-1.0-0 (>= 1.30.0), libpng12-0 (>= 1.2.13-4), libsecret-1-0 (>= 0.7), libsoup2.4-1 (>= 2.44.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 4.9), libwebp5, libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxml2 (>= 2.7.4), libxrender1, libxslt1.1 (>= 1.1.25), libxt6, zlib1g (>= 1:1.2.0), libwebkitgtk-3.0-common (>= 2.4.7)
 Pre-Depends: multiarch-support
 Recommends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good
 Description: Web content engine library for GTK+
@@ -6901,12 +6903,12 @@ Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Package: tzdata
 Status: install ok installed
 Priority: required
-Section: libs
-Installed-Size: 1573
+Section: localization
+Installed-Size: 1554
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
-Version: 2014h-2
+Version: 2015b-0ubuntu0.14.10
 Replaces: libc0.1, libc0.3, libc6, libc6.1
 Provides: tzdata-jessie
 Depends: debconf (>= 0.5) | debconf-2.0
@@ -6916,8 +6918,8 @@ Description: time zone and daylight-saving time data
  globe. It is updated periodically to reflect changes made by
  political bodies to time zone boundaries, UTC offsets, and
  daylight-saving rules.
-Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Homepage: http://www.iana.org/time-zones
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 
 Package: libavahi-glib1
 Status: install ok installed
@@ -6945,14 +6947,14 @@ Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.aliot
 
 Package: libudev1
 Status: install ok installed
-Priority: required
+Priority: important
 Section: libs
 Installed-Size: 135
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: systemd
-Version: 208-8ubuntu8
+Version: 208-8ubuntu8.2
 Depends: libc6 (>= 2.17), libselinux1 (>= 1.32)
 Pre-Depends: multiarch-support
 Description: libudev shared library
@@ -7539,12 +7541,12 @@ Package: libpurple0
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 4996
+Installed-Size: 5004
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: pidgin
-Version: 1:2.10.9-0ubuntu7
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.15), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfarstream-0.1-0 (>= 0.1.1), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base0.10-0 (>= 0.10.0), libgstreamer0.10-0 (>= 0.10.20), libidn11 (>= 1.13), libmeanwhile1 (>= 1.0.2), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~1.9b1), libperl5.20 (>= 5.20.0), libsasl2-2, libxml2 (>= 2.7.4), libzephyr4, perl-base (>= 5.20.0-6), perlapi-5.20.0, libsasl2-modules
+Version: 1:2.10.9-0ubuntu7.1
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.15), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfarstream-0.1-0 (>= 0.1.1), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base0.10-0 (>= 0.10.0), libgstreamer0.10-0 (>= 0.10.20), libidn11 (>= 1.13), libmeanwhile1 (>= 1.0.2), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~1.9b1), libperl5.20 (>= 5.20.1), libsasl2-2, libxml2 (>= 2.7.4), libzephyr4, perl-base (>= 5.20.1-1), perlapi-5.20.1, libsasl2-modules
 Recommends: ca-certificates, libpurple-bin
 Suggests: libtcl8.6 (>= 8.6.0), libtk8.6 (>= 8.6.0)
 Conflicts: network-manager (<< 0.9.0)
@@ -7565,14 +7567,14 @@ Package: gvfs-backends
 Status: install ok installed
 Priority: optional
 Section: gnome
-Installed-Size: 1557
+Installed-Size: 1558
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: gvfs
-Version: 1.20.2-1ubuntu2
+Version: 1.20.2-1ubuntu3
 Replaces: gvfs-common (<< 1.12.0-2)
-Depends: libarchive13, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libbluetooth3 (>= 4.91), libc6 (>= 2.14), libcdio-cdda1 (>= 0.83), libcdio-paranoia1 (>= 0.83), libcdio13 (>= 0.83), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libexpat1 (>= 2.0.1), libgcrypt11 (>= 1.5.1), libglib2.0-0 (>= 2.37.3), libgphoto2-6 (>= 2.5.2), libgphoto2-port10 (>= 2.5.2), libgtk-3-0 (>= 3.0.0), libgudev-1.0-0 (>= 146), libimobiledevice4 (>= 1.1.5), libmtp9 (>= 1.1.6), libplist2 (>= 1.11), libsmbclient (>= 2:4.0.3+dfsg1), libsoup2.4-1 (>= 2.42.0), libxml2 (>= 2.7.4), dconf-gsettings-backend | gsettings-backend, gvfs (= 1.20.2-1ubuntu2), gvfs-daemons (= 1.20.2-1ubuntu2), gvfs-libs (= 1.20.2-1ubuntu2), gvfs-common (= 1.20.2-1ubuntu2), psmisc
+Depends: libarchive13, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libbluetooth3 (>= 4.91), libc6 (>= 2.14), libcdio-cdda1 (>= 0.83), libcdio-paranoia1 (>= 0.83), libcdio13 (>= 0.83), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libexpat1 (>= 2.0.1), libgcrypt11 (>= 1.5.1), libglib2.0-0 (>= 2.37.3), libgphoto2-6 (>= 2.5.2), libgphoto2-port10 (>= 2.5.2), libgtk-3-0 (>= 3.0.0), libgudev-1.0-0 (>= 146), libimobiledevice4 (>= 1.1.5), libmtp9 (>= 1.1.6), libplist2 (>= 1.11), libsmbclient (>= 2:4.0.3+dfsg1), libsoup2.4-1 (>= 2.42.0), libxml2 (>= 2.7.4), dconf-gsettings-backend | gsettings-backend, gvfs (= 1.20.2-1ubuntu3), gvfs-daemons (= 1.20.2-1ubuntu3), gvfs-libs (= 1.20.2-1ubuntu3), gvfs-common (= 1.20.2-1ubuntu3), psmisc
 Recommends: gnome-keyring
 Suggests: obex-data-server, samba-common
 Breaks: gvfs-common (<< 1.12.0-2)
@@ -7656,38 +7658,38 @@ Package: mountall
 Status: install ok installed
 Priority: required
 Section: admin
-Installed-Size: 262
+Installed-Size: 266
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 2.54build1
+Version: 2.54ubuntu0.14.10.1
 Replaces: upstart (<< 0.6.3-2)
 Depends: makedev, udev, plymouth, coreutils (>= 7.1), libc6 (>= 2.9), libdbus-1-3 (>= 1.2.16), libnih-dbus1 (>= 1.0.0), libnih1 (>= 1.0.0), libplymouth4 (>= 0.8.1-3), libudev1 (>= 183)
 Pre-Depends: dpkg (>= 1.15.7.2)
 Breaks: initscripts (<< 2.88dsf-24), policycoreutils (<< 2.0.69-2ubuntu4), usplash (<< 0.5.47)
 Conffiles:
- /etc/dbus-1/system.d/Mountall.Server.conf 91b1414af1257d2ef089f84a3e5c1ed1
- /etc/init/mounted-dev.conf cf7bea42235e77168c996d774f059c44
- /etc/init/mountall-net.conf feff70cd7006f6763e24263d381940f3
- /etc/init/mounted-var.conf 02f90856c91a46e9cbed1c35b92fec6c
- /etc/init/mounted-debugfs.conf 462c8aab0d9d4e6e496b1e2be5910edc
- /etc/init/bootmisc.sh.conf d1a51c54dcfe6f3f5265246888ba4161
- /etc/init/mounted-proc.conf de2147720fa25f20d06b1e1c89e3b247
+ /etc/init/mountall-bootclean.sh.conf d1899239aa60ea903f43a3ac58c5c238
  /etc/init/mtab.sh.conf 27aece82dbe70232d734d1dadfe87518
- /etc/init/mountnfs.sh.conf 760a5b57cbd0d1e2c65ba6db9297a586
+ /etc/init/mountall-reboot.conf 43e3c229085a13005b0681a49b2bef51
  /etc/init/checkroot.sh.conf 3ea7f6ba450f431fd239e2b53a805216
+ /etc/init/mounted-dev.conf cf7bea42235e77168c996d774f059c44
+ /etc/init/mounted-var.conf 02f90856c91a46e9cbed1c35b92fec6c
+ /etc/init/mounted-proc.conf de2147720fa25f20d06b1e1c89e3b247
+ /etc/init/mountdevsubfs.sh.conf dd33cb414bca17d97140d7f8671207f2
+ /etc/init/checkfs.sh.conf 2e928476ccb2ecefe9ee87e2f83d34da
+ /etc/init/mounted-debugfs.conf 462c8aab0d9d4e6e496b1e2be5910edc
+ /etc/init/checkroot-bootclean.sh.conf e02a473c76e4a2bfc1efb4c367495052
+ /etc/init/mountall.conf ac0fbaa98e705e52f59ca9e4d39751ad
+ /etc/init/mounted-run.conf a26db58c801e0f6ec8738a5838aa53ed
  /etc/init/mounted-tmp.conf 289fa57d726885147a41b2b1f3695a29
  /etc/init/mountall.sh.conf ee258840aad52477434cc22e34efcc50
- /etc/init/mounted-run.conf a26db58c801e0f6ec8738a5838aa53ed
- /etc/init/mountall-reboot.conf 43e3c229085a13005b0681a49b2bef51
- /etc/init/checkroot-bootclean.sh.conf e02a473c76e4a2bfc1efb4c367495052
- /etc/init/mountall-bootclean.sh.conf d1899239aa60ea903f43a3ac58c5c238
+ /etc/init/mountall-net.conf feff70cd7006f6763e24263d381940f3
+ /etc/init/mountnfs.sh.conf 760a5b57cbd0d1e2c65ba6db9297a586
+ /etc/init/bootmisc.sh.conf d1a51c54dcfe6f3f5265246888ba4161
  /etc/init/mountall-shell.conf aa05af89db3de044d1cd7f6971b46d9f
- /etc/init/mountkernfs.sh.conf 2e7449097b6cf88cba915edc1c339ec4
  /etc/init/mountnfs-bootclean.sh.conf 0b6f3f9e9f8757efee57f6a4839d7dff
- /etc/init/checkfs.sh.conf 2e928476ccb2ecefe9ee87e2f83d34da
- /etc/init/mountall.conf ac0fbaa98e705e52f59ca9e4d39751ad
- /etc/init/mountdevsubfs.sh.conf dd33cb414bca17d97140d7f8671207f2
+ /etc/init/mountkernfs.sh.conf 2e7449097b6cf88cba915edc1c339ec4
+ /etc/dbus-1/system.d/Mountall.Server.conf 91b1414af1257d2ef089f84a3e5c1ed1
 Description: filesystem mounting tool
  mountall mounts filesystems when the underlying block devices are
  ready, or when network interfaces come up, checking the filesystems
@@ -7847,15 +7849,15 @@ Installed-Size: 1029
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 1.8.8-1ubuntu2
+Version: 1.8.8-1ubuntu2.1
 Depends: libapparmor1 (>= 2.8.94-0ubuntu1), libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libcap-ng0, libdbus-1-3 (>= 1.7.6), libexpat1 (>= 2.0.1), libselinux1 (>= 2.0.65), libsystemd-journal0 (>= 38), libsystemd-login0 (>= 31), lsb-base (>= 4.1+Debian11ubuntu7), adduser, netbase (>= 4.45ubuntu3)
 Recommends: libpam-systemd
 Suggests: dbus-x11
 Conffiles:
- /etc/init.d/dbus dfa067b2ace1fc88114695d93be749d3
  /etc/default/dbus 0d0f25a2f993509c857eb262f6e22015
- /etc/dbus-1/session.conf f99e29edfdc2ec3d1fabe76a86190a85
+ /etc/init.d/dbus ec9a7d183ec50837a12aca3f9c95cc27
  /etc/dbus-1/system.conf af1c7d14a222fb6f1a2e636934603aec
+ /etc/dbus-1/session.conf f99e29edfdc2ec3d1fabe76a86190a85
  /etc/init/dbus.conf dca74cdc25d472937d97689a3a177b10
 Description: simple interprocess messaging system (daemon and utilities)
  D-Bus is a message bus, used for sending messages between applications.
@@ -7881,11 +7883,11 @@ Package: gir1.2-javascriptcoregtk-3.0
 Status: install ok installed
 Priority: optional
 Section: introspection
-Installed-Size: 93
+Installed-Size: 94
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: webkitgtk
-Version: 2.4.6-1ubuntu1
+Version: 2.4.7-1~ubuntu14.10.1
 Replaces: gir1.2-webkit-3.0 (<< 1.5.0)
 Conflicts: gir1.0-webkit-3.0, gir1.2-webkit-3.0 (<< 1.5.0), gobject-introspection-repository
 Description: JavaScript engine library from WebKitGTK+ - GObject introspection data
@@ -7998,7 +8000,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libxfont
-Version: 1:1.4.99.901-1
+Version: 1:1.4.99.901-1ubuntu0.1
 Depends: libbz2-1.0, libc6 (>= 2.14), libfontenc1, libfreetype6 (>= 2.2.1), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Breaks: xfs (<< 1:1.1.4)
@@ -8022,7 +8024,7 @@ Installed-Size: 3508
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: pidgin
-Version: 1:2.10.9-0ubuntu7
+Version: 1:2.10.9-0ubuntu7.1
 Replaces: pidgin-facebookchat (<< 1.69-2)
 Breaks: pidgin-facebookchat (<< 1.69-2)
 Enhances: finch, libpurple0, pidgin
@@ -8764,20 +8766,20 @@ Package: gnome-keyring
 Status: install ok installed
 Priority: optional
 Section: gnome
-Installed-Size: 3572
+Installed-Size: 3596
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 3.10.1-1ubuntu7
-Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.15), libcap-ng0, libdbus-1-3 (>= 1.1.1), libgck-1-0 (>= 3.3.90), libgcr-base-3-1 (>= 3.8.0), libgcrypt11 (>= 1.5.1), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), gcr (>= 3.4), dbus-x11, p11-kit (>= 0.16), libcap2-bin
+Version: 3.10.1-1ubuntu7.1
+Depends: dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.15), libcap-ng0, libdbus-1-3 (>= 1.1.1), libgck-1-0 (>= 3.3.90), libgcr-base-3-1 (>= 3.8.0), libgcrypt11 (>= 1.5.1), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.0.0), gcr (>= 3.4), dbus-x11, p11-kit (>= 0.16), libcap2-bin
 Pre-Depends: multiarch-support
 Recommends: libpam-gnome-keyring, libp11-kit-gnome-keyring
 Breaks: libgnome-keyring0 (<< 3.0), seahorse-plugins (<< 3.0)
 Conffiles:
+ /etc/xdg/autostart/gnome-keyring-ssh.desktop 4b45bcd754a8625f42f7a46b918393ef
+ /etc/xdg/autostart/gnome-keyring-gpg.desktop e8a7e35f337406d3642a912366ee6ada
  /etc/xdg/autostart/gnome-keyring-pkcs11.desktop 784b3d1e0681f9bb3c8e88a5dd647f0b
  /etc/xdg/autostart/gnome-keyring-secrets.desktop 6bbabf4d27046c3bbd4c9081bd9abc4c
- /etc/xdg/autostart/gnome-keyring-gpg.desktop 36f92b6ee1ec39fd7a66800ed344b982
- /etc/xdg/autostart/gnome-keyring-ssh.desktop 2524e326e3413945eabe06dabadb75e5
 Description: GNOME keyring services (daemon and tools)
  gnome-keyring is a daemon in the session, similar to ssh-agent,
  and other applications can use it to store passwords and other
@@ -8886,14 +8888,14 @@ Original-Maintainer: Bdale Garbee <bdale@gag.com>
 
 Package: file
 Status: install ok installed
-Priority: important
+Priority: standard
 Section: utils
-Installed-Size: 105
+Installed-Size: 106
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 1:5.19-1ubuntu1.1
-Depends: libc6 (>= 2.4), libmagic1 (= 1:5.19-1ubuntu1.1)
+Version: 1:5.19-1ubuntu1.2
+Depends: libc6 (>= 2.4), libmagic1 (= 1:5.19-1ubuntu1.2)
 Description: Determines file type using "magic" numbers
  File tests each argument in an attempt to classify it. There are
  three sets of tests, performed in this order: filesystem tests,
@@ -8996,9 +8998,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: cups
-Version: 1.7.5-3ubuntu2
+Version: 1.7.5-3ubuntu3.1
 Replaces: cups (<< 1.7.1-4~)
-Depends: libc6 (>= 2.4), libcups2 (= 1.7.5-3ubuntu2), cups-daemon (>= 1.7.5-3ubuntu2), cups-filters-core-drivers (>= 1.0.24-3~)
+Depends: libc6 (>= 2.4), libcups2 (= 1.7.5-3ubuntu3.1), cups-daemon (>= 1.7.5-3ubuntu3.1), cups-filters-core-drivers (>= 1.0.24-3~)
 Recommends: avahi-daemon
 Breaks: cups (<< 1.7.1-4~)
 Description: Common UNIX Printing System(tm) - PPD-less printing
@@ -9118,8 +9120,8 @@ Installed-Size: 368
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: webkitgtk
-Version: 2.4.6-1ubuntu1
-Depends: gir1.2-javascriptcoregtk-3.0 (= 2.4.6-1ubuntu1), gir1.2-glib-2.0, gir1.2-gtk-3.0 (>= 3.10.0), gir1.2-soup-2.4, libwebkitgtk-3.0-0 (>= 2.4.6)
+Version: 2.4.7-1~ubuntu14.10.1
+Depends: gir1.2-javascriptcoregtk-3.0 (= 2.4.7-1~ubuntu14.10.1), gir1.2-glib-2.0, gir1.2-gtk-3.0 (>= 3.10.0), gir1.2-soup-2.4, libwebkitgtk-3.0-0 (>= 2.4.6)
 Conflicts: gir1.0-webkit-3.0, gobject-introspection-repository
 Description: Web content engine library for GTK+ - GObject introspection data
  WebKit is a web content engine, derived from KHTML and KJS from KDE, and
@@ -9232,7 +9234,7 @@ Installed-Size: 220
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Architecture: all
 Source: nautilus
-Version: 1:3.10.1-0ubuntu15
+Version: 1:3.10.1-0ubuntu15.1
 Depends: dconf-gsettings-backend | gsettings-backend
 Suggests: nautilus
 Description: data files for nautilus
@@ -9323,7 +9325,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: cups-filters
-Version: 1.0.61-0ubuntu2
+Version: 1.0.61-0ubuntu2.1
 Depends: libc6 (>= 2.14), libcups2 (>= 1.7.0), libdbus-1-3 (>= 1.0.2), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libtiff5 (>= 4.0.3)
 Pre-Depends: multiarch-support
 Description: OpenPrinting CUPS Filters - Shared library
@@ -9642,8 +9644,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: cups
-Version: 1.7.5-3ubuntu2
-Depends: libc6 (>= 2.14), libcups2 (= 1.7.5-3ubuntu2)
+Version: 1.7.5-3ubuntu3.1
+Depends: libc6 (>= 2.14), libcups2 (= 1.7.5-3ubuntu3.1)
 Pre-Depends: multiarch-support
 Breaks: cups (<< 1.5.0)
 Description: Common UNIX Printing System(tm) - MIME library
@@ -9800,12 +9802,12 @@ Package: cups-server-common
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 2754
+Installed-Size: 2755
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: cups
-Version: 1.7.5-3ubuntu2
+Version: 1.7.5-3ubuntu3.1
 Replaces: cups (<< 1.6.2-2~), cups-common (<< 1.7.0)
 Breaks: cups (<< 1.6.2-2~), cups-common (<< 1.7.0)
 Description: Common UNIX Printing System(tm) - server common files
@@ -9931,7 +9933,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: libpwquality
-Version: 1.2.3-1ubuntu1
+Version: 1.2.3-1ubuntu1.2
 Replaces: libpwquality1 (<< 1.2.1-1)
 Breaks: libpwquality1 (<< 1.2.1-1)
 Conffiles:
@@ -9943,8 +9945,8 @@ Description: library for password quality checking and generation (data files)
  pronounceability.
  .
  This package contains the configuration file and man page for libpwquality.
-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Homepage: https://fedorahosted.org/libpwquality/
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 
 Package: python3-update-manager
 Status: install ok installed
@@ -10127,11 +10129,11 @@ Package: libebook-contacts-1.2-0
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 299
+Installed-Size: 301
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: evolution-data-server
-Version: 3.12.7.1-0ubuntu1
+Version: 3.12.10-0ubuntu1~14.10.1
 Depends: libc6 (>= 2.14), libedataserver-1.2-18 (>= 3.7.90), libglib2.0-0 (>= 2.36)
 Description: Client library for evolution contacts books
  This package is a client library for evolution addressbooks.
@@ -10292,7 +10294,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: gvfs
-Version: 1.20.2-1ubuntu2
+Version: 1.20.2-1ubuntu3
 Replaces: gvfs (<< 1.10.1-1)
 Depends: desktop-file-utils
 Recommends: gvfs
@@ -10560,14 +10562,14 @@ Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.aliot
 
 Package: libcgmanager0
 Status: install ok installed
-Priority: required
+Priority: optional
 Section: admin
 Installed-Size: 173
 Maintainer: Serge Hallyn <serge.hallyn@ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: cgmanager
-Version: 0.32-4ubuntu1
+Version: 0.32-4ubuntu1.3
 Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.0.2)
 Description: Central cgroup manager daemon (client library)
  cgmanager provides a central cgroup manager daemon and a
@@ -10737,14 +10739,14 @@ Package: libsmbclient
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 294
+Installed-Size: 295
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: samba
-Version: 2:4.1.11+dfsg-1ubuntu2
+Version: 2:4.1.11+dfsg-1ubuntu2.2
 Replaces: samba-doc (<< 2:4.0.5~)
-Depends: libbsd0 (>= 0.0), libc6 (>= 2.14), libtalloc2 (>= 2.0.4~git20101213), samba-libs (= 2:4.1.11+dfsg-1ubuntu2)
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.14), libtalloc2 (>= 2.0.4~git20101213), samba-libs (= 2:4.1.11+dfsg-1ubuntu2.2)
 Pre-Depends: dpkg (>= 1.15.6~), multiarch-support
 Conflicts: samba-doc (<< 2:4.0.5~)
 Description: shared library for communication with SMB/CIFS servers
@@ -10798,12 +10800,12 @@ Package: libsystemd-daemon0
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 75
+Installed-Size: 76
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: systemd
-Version: 208-8ubuntu8
+Version: 208-8ubuntu8.2
 Pre-Depends: libc6 (>= 2.8), multiarch-support
 Description: systemd utility library
  The sd-daemon library provides a reference implementation of various
@@ -10948,7 +10950,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: cairo
-Version: 1.13.0~20140204-0ubuntu1
+Version: 1.13.0~20140204-0ubuntu1.1
 Depends: libc6 (>= 2.2.5), libcairo2 (>= 1.10.0), libglib2.0-0 (>= 2.14.0)
 Pre-Depends: multiarch-support
 Description: The Cairo 2D vector graphics library (GObject library)
@@ -11002,7 +11004,7 @@ Installed-Size: 380
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: cups-filters
-Version: 1.0.61-0ubuntu2
+Version: 1.0.61-0ubuntu2.1
 Replaces: cups (<< 1.5.0-16), cups-filters (<< 1.0.44-1~)
 Depends: libc6 (>= 2.14), libcups2 (>= 1.7.0), libcupsfilters1 (>= 1.0.58-0ubuntu1), libcupsimage2 (>= 1.4.0), libgcc1 (>= 1:4.1.1), liblcms2-2 (>= 2.2+git20110628), libpoppler46 (>= 0.26.5), libqpdf13 (>> 5.0.0~), libstdc++6 (>= 4.9), bc, poppler-utils
 Breaks: cups (<< 1.5.0-16), cups-filters (<< 1.0.44-1~)
@@ -11064,7 +11066,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: cups
-Version: 1.7.5-3ubuntu2
+Version: 1.7.5-3ubuntu3.1
 Description: Common UNIX Printing System(tm) - common files
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -11084,8 +11086,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: systemd
-Version: 208-8ubuntu8
-Depends: libc6 (>= 2.14), libcap2 (>= 2.10), libdbus-1-3 (>= 1.0.2), libpam0g (>= 0.99.7.1), systemd (= 208-8ubuntu8), libpam-runtime (>= 1.0.1-6), dbus, systemd-shim (>= 6-4) | systemd-sysv
+Version: 208-8ubuntu8.2
+Depends: libc6 (>= 2.14), libcap2 (>= 2.10), libdbus-1-3 (>= 1.0.2), libpam0g (>= 0.99.7.1), systemd (= 208-8ubuntu8.2), libpam-runtime (>= 1.0.1-6), dbus, systemd-shim (>= 6-4) | systemd-sysv
 Pre-Depends: multiarch-support
 Description: system and service manager - PAM module
  systemd is a replacement for sysvinit.  It is dependency-based and
@@ -11145,7 +11147,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gtk+3.0
-Version: 3.12.2-0ubuntu15
+Version: 3.12.2-0ubuntu15.2
 Provides: gtk3-binver-3.0.0
 Depends: libgtk-3-common (>= 3.12.2), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.7.5), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.13.0~20140204), libcolord2 (>= 0.1.10), libcups2 (>= 1.6.2), libfontconfig1 (>= 2.9.0), libgdk-pixbuf2.0-0 (>= 2.27.1), libglib2.0-0 (>= 2.41.1), libmirclient8 (>= 0.8.0+14.10.20141010), libpango-1.0-0 (>= 1.32.4), libpangocairo-1.0-0 (>= 1.32.4), libpangoft2-1.0-0 (>= 1.32.4), libwayland-client0 (>= 1.3.92), libwayland-cursor0 (>= 1.3.90), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1, libxkbcommon0 (>= 0.2.0-0ubuntu3~), libxrandr2 (>= 2:1.2.99.3), shared-mime-info
 Pre-Depends: multiarch-support
@@ -11196,7 +11198,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: cups
-Version: 1.7.5-3ubuntu2
+Version: 1.7.5-3ubuntu3.1
 Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.14), libgnutls-deb0-28 (>= 3.2.10-0), libgssapi-krb5-2 (>= 1.10+dfsg~), zlib1g (>= 1:1.2.0)
 Pre-Depends: multiarch-support
 Suggests: cups-common
@@ -11238,12 +11240,12 @@ Package: samba-libs
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 18089
+Installed-Size: 18062
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: samba
-Version: 2:4.1.11+dfsg-1ubuntu2
+Version: 2:4.1.11+dfsg-1ubuntu2.2
 Replaces: libdcerpc-server0 (<< 2:4.0.9), libdcerpc0 (<< 2:4.0.9), libgensec0 (<< 2:4.0.9), libndr-standard0 (<< 2:4.0.9), libndr0 (<< 2:4.0.9), libnetapi0 (<< 2:4.0.9), libregistry0 (<< 2:4.0.9), libsamba-credentials0 (<< 2:4.0.9), libsamba-hostconfig0 (<< 2:4.0.9), libsamba-policy0 (<< 2:4.0.9), libsamba-util0 (<< 2:4.0.9), libsamdb0 (<< 2:4.0.9), libsmbclient-raw0 (<< 2:4.0.9), libsmbd0 (<< 2:4.0.9), libtorture0 (<< 2:4.0.9)
 Depends: libldb1 (<< 1:1.1.18~), libldb1 (>> 1:1.1.17~), libacl1 (>= 2.2.51-8), libasn1-8-heimdal (>= 1.4.0+git20110226), libattr1 (>= 1:2.4.46-8), libbsd0 (>= 0.3.0), libc6 (>= 2.14), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.6.0), libgnutls-deb0-28 (>= 3.2.10-0), libgssapi3-heimdal (>= 1.4.0+git20110226), libhcrypto4-heimdal (>= 1.4.0+git20110226), libhx509-5-heimdal (>= 1.4.0+git20110226), libkrb5-26-heimdal (>= 1.4.0+git20110226), libldap-2.4-2 (>= 2.4.7), libntdb1 (>= 1.0), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libpython2.7 (>= 2.7), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libtevent0 (>= 0.9.16), libwbclient0 (>= 2:4.0.3+dfsg1), python-talloc (>= 2.0.6), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
@@ -11390,11 +11392,11 @@ Package: libcamel-1.2-49
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 1322
+Installed-Size: 1324
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: evolution-data-server
-Version: 3.12.7.1-0ubuntu1
+Version: 3.12.10-0ubuntu1~14.10.1
 Depends: libc6 (>= 2.15), libglib2.0-0 (>= 2.36), libgssapi-krb5-2 (>= 1.10+dfsg~), libicu52 (>= 52~m1-1~), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~beta3), libsqlite3-0 (>= 3.6.0), zlib1g (>= 1:1.1.4)
 Breaks: evolution (<< 2.26)
 Description: Evolution MIME message handling library
@@ -11659,10 +11661,9 @@ Section: admin
 Installed-Size: 1057
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2.10.2-1ubuntu1
+Version: 2.10.2-1ubuntu1.14.10.1
 Replaces: gnome-system-tools (<< 1.1)
-Depends: libc6 (>= 2.2.5), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libglib2.0-0 (>= 2.16.0), libpolkit-gobject-1-0 (>= 0.94), libnet-dbus-perl, dbus (>= 1.1.2)
-Pre-Depends: dpkg (>= 1.15.7.2)
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libglib2.0-0 (>= 2.37.3), libpolkit-gobject-1-0 (>= 0.94), libnet-dbus-perl, dbus (>= 1.1.2)
 Breaks: gnome-system-tools (<< 2.30), liboobs-1-4 (<< 2.30)
 Conflicts: liboobs-1-3
 Conffiles:
@@ -11910,27 +11911,27 @@ Package: ppp
 Status: install ok installed
 Priority: optional
 Section: admin
-Installed-Size: 928
+Installed-Size: 933
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2.4.5-5.1ubuntu3
+Version: 2.4.5-5.1ubuntu3.1
 Depends: libc6 (>= 2.15), libpam0g (>= 0.99.7.1), libpcap0.8 (>= 0.9.8), libssl1.0.0 (>= 1.0.0), libpam-modules, libpam-runtime, procps
 Breaks: network-manager (<= 0.8.0.999-1), network-manager-pptp (<= 0.8.0.999-1), pppdcapiplugin (<= 1:3.9.20060704+dfsg.1-1)
 Conffiles:
- /etc/chatscripts/gprs 49518071cd909518f6c79480b69cd10c
- /etc/chatscripts/pap 17dbbede1dc894aa6c6c4e8be5727c1d
- /etc/pam.d/ppp cc163be3dbe4258e639238ccd5bcdea0
- /etc/ppp/ip-down 85d38850a138c53ae48bd2736b1b2753
+ /etc/logrotate.d/ppp 8434ebaff1b3b33bb0ea0bce523adfd3
  /etc/ppp/ip-up bb4b48272ac4adf06cbc6caf4ede3a1c
+ /etc/ppp/ip-down 85d38850a138c53ae48bd2736b1b2753
+ /etc/ppp/ipv6-up 047b617b3d150aeed5e1c7fea7e14e04
+ /etc/ppp/ip-down.d/0000usepeerdns aaae5708fe89b23c76b94fc9862e1381
+ /etc/ppp/options 35abf21f84daddb8f602dada6bd46c52
+ /etc/ppp/pppoe_on_boot c3ea78aee841d29ca779783a013b4dac
  /etc/ppp/ipv6-down e11550beb886ac90b2b79f0b9fea67d6
  /etc/ppp/ip-up.d/0000usepeerdns bab9720708c00e7ebba8bfb7d32077dd
- /etc/ppp/ipv6-up 047b617b3d150aeed5e1c7fea7e14e04
- /etc/ppp/options 35abf21f84daddb8f602dada6bd46c52
- /etc/ppp/ip-down.d/0000usepeerdns aaae5708fe89b23c76b94fc9862e1381
- /etc/ppp/pppoe_on_boot c3ea78aee841d29ca779783a013b4dac
  /etc/bash_completion.d/pon 41cf8cde5bd9fefe51100a051947b118
  /etc/init.d/pppd-dns 3993c4c052df5fcadbb4867fee5a8731
- /etc/logrotate.d/ppp 8434ebaff1b3b33bb0ea0bce523adfd3
+ /etc/chatscripts/pap 17dbbede1dc894aa6c6c4e8be5727c1d
+ /etc/chatscripts/gprs 49518071cd909518f6c79480b69cd10c
+ /etc/pam.d/ppp cc163be3dbe4258e639238ccd5bcdea0
 Description: Point-to-Point Protocol (PPP) - daemon
  The Point-to-Point Protocol provides a standard way to transmit
  datagrams over a serial link, as well as a standard way for the machines
@@ -12267,7 +12268,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libarchive
-Version: 3.1.2-9
+Version: 3.1.2-9ubuntu0.1
 Depends: libattr1 (>= 1:2.4.46-8), libbz2-1.0, libc6 (>= 2.16), liblzma5 (>= 5.1.1alpha+20120614), liblzo2-2, libnettle4 (>= 2.3), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Suggests: lrzip
@@ -12306,8 +12307,8 @@ Description: Multi-format archive and compression library (shared library)
     * xz and lzma (read and write using liblzma)
  .
  This package provides the libarchive shared library.
-Original-Maintainer: Debian Libarchive Maintainers <ah-libarchive@debian.org>
 Homepage: http://www.libarchive.org/
+Original-Maintainer: Debian Libarchive Maintainers <ah-libarchive@debian.org>
 
 Package: lxappearance-obconf
 Status: install ok installed
@@ -12529,10 +12530,10 @@ Section: net
 Installed-Size: 1601
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 1.0.61-0ubuntu2
+Version: 1.0.61-0ubuntu2.1
 Replaces: cups (<< 1.5.0-16), cups-common (<< 1.5.0-16), cups-ppdc (<< 1.6), foomatic-filters, ghostscript-cups
 Provides: foomatic-filters, ghostscript-cups
-Depends: libc6 (>= 2.15), libcups2 (>= 1.7.0), libcupsfilters1 (>= 1.0.58-0ubuntu1), libcupsimage2 (>= 1.4.0), libfontconfig1 (>= 2.9.0), libfontembed1 (>= 1.0.31), libgcc1 (>= 1:4.1.1), libijs-0.35 (>= 0.35), liblcms2-2 (>= 2.2+git20110628), libpoppler46 (>= 0.26.5), libqpdf13 (>> 5.0.0~), libstdc++6 (>= 4.1.1), cups-filters-core-drivers (>= 1.0.61-0ubuntu2), bc, ghostscript (>= 9.02~)
+Depends: libc6 (>= 2.15), libcups2 (>= 1.7.0), libcupsfilters1 (>= 1.0.58-0ubuntu1), libcupsimage2 (>= 1.4.0), libfontconfig1 (>= 2.9.0), libfontembed1 (>= 1.0.31), libgcc1 (>= 1:4.1.1), libijs-0.35 (>= 0.35), liblcms2-2 (>= 2.2+git20110628), libpoppler46 (>= 0.26.5), libqpdf13 (>> 5.0.0~), libstdc++6 (>= 4.1.1), cups-filters-core-drivers (>= 1.0.61-0ubuntu2.1), bc, ghostscript (>= 9.02~)
 Recommends: colord
 Suggests: foomatic-db-compressed-ppds | foomatic-db
 Breaks: cups (<< 1.5.0-16), cups-common (<< 1.5.0-16), cups-ppdc (<< 1.6)
@@ -12978,7 +12979,7 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: mesa
-Version: 10.3.0-0ubuntu3
+Version: 10.3.2-0ubuntu0.1
 Depends: libc6 (>= 2.17), libdrm-nouveau2 (>= 2.4.38), libdrm2 (>= 2.4.38), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.7), libllvm3.5, libstdc++6 (>= 4.9)
 Pre-Depends: multiarch-support
 Description: X acceleration library -- runtime
@@ -13158,12 +13159,12 @@ Package: krb5-locales
 Status: install ok installed
 Priority: standard
 Section: localization
-Installed-Size: 2668
+Installed-Size: 2672
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: krb5
-Version: 1.12.1+dfsg-10
+Version: 1.12.1+dfsg-10ubuntu0.1
 Description: Internationalization support for MIT Kerberos
  Kerberos is a system for authenticating users and services on a network.
  Kerberos is a trusted third-party service.  That means that there is a
@@ -13173,8 +13174,8 @@ Description: Internationalization support for MIT Kerberos
  This is the MIT reference implementation of Kerberos V5.
  .
  This package contains internationalized messages for MIT Kerberos.
-Original-Maintainer: Sam Hartman <hartmans@debian.org>
 Homepage: http://web.mit.edu/kerberos/
+Original-Maintainer: Sam Hartman <hartmans@debian.org>
 
 Package: libmpc3
 Status: install ok installed
@@ -13432,11 +13433,11 @@ Package: tcpdump
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 1151
+Installed-Size: 1155
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 4.6.2-1ubuntu1
+Version: 4.6.2-1ubuntu1.1
 Depends: libc6 (>= 2.14), libpcap0.8 (>= 1.5.1), libssl1.0.0 (>= 1.0.0)
 Suggests: apparmor (>= 2.3)
 Conffiles:
@@ -13550,31 +13551,31 @@ Package: systemd
 Status: install ok installed
 Priority: optional
 Section: admin
-Installed-Size: 5936
+Installed-Size: 5940
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 208-8ubuntu8
+Version: 208-8ubuntu8.2
 Replaces: systemd-services
 Provides: systemd-services
-Depends: libacl1 (>= 2.2.51-8), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.17.2), libcap2 (>= 2.10), libcryptsetup4 (>= 2:1.4.3), libdbus-1-3 (>= 1.1.1), libkmod2 (>= 5~), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.1.9), libsystemd-journal0 (= 208-8ubuntu8), libudev1 (>= 189), libwrap0 (>= 7.6-4~), libsystemd-login0 (= 208-8ubuntu8), util-linux (>= 2.19.1-2), initscripts (>= 2.88dsf-17), sysv-rc, udev, acl, adduser, libcap2-bin
-Pre-Depends: libc6 (>= 2.17), libdbus-1-3 (>= 1.0.2), libgcrypt11 (>= 1.5.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.0.65), libsystemd-daemon0 (= 208-8ubuntu8)
+Depends: libacl1 (>= 2.2.51-8), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.17.2), libcap2 (>= 2.10), libcryptsetup4 (>= 2:1.4.3), libdbus-1-3 (>= 1.1.1), libkmod2 (>= 5~), libpam0g (>= 0.99.7.1), libselinux1 (>= 2.1.9), libsystemd-journal0 (= 208-8ubuntu8.2), libudev1 (>= 189), libwrap0 (>= 7.6-4~), libsystemd-login0 (= 208-8ubuntu8.2), util-linux (>= 2.19.1-2), initscripts (>= 2.88dsf-17), sysv-rc, udev, acl, adduser, libcap2-bin
+Pre-Depends: libc6 (>= 2.17), libdbus-1-3 (>= 1.0.2), libgcrypt11 (>= 1.5.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 2.0.65), libsystemd-daemon0 (= 208-8ubuntu8.2)
 Recommends: libpam-systemd
 Suggests: systemd-ui
 Breaks: lsb-base (<< 4.1+Debian4), lvm2 (<< 2.02.84-1)
 Conflicts: klogd, systemd-services
 Conffiles:
- /etc/pam.d/systemd-user 602547c41c0380c612c654fa0f8442ac
- /etc/systemd/user.conf ed5467a0a5bd7efd18d53ccf7ea78de6
- /etc/systemd/journald.conf 19a6981b15faffc1a826b8f9b5f2e02d
- /etc/systemd/system.conf c76999a95adb0bdccb651a17b200c6de
- /etc/systemd/logind.conf e6fb45fa9540ca1a4ad84ddc07a7db11
- /etc/systemd/bootchart.conf 4ec372c0e2ad1039d5c4e809bc47e498
- /etc/dbus-1/system.d/org.freedesktop.systemd1.conf e68c621054c303ae5e8a2d1ed04e3b78
- /etc/dbus-1/system.d/org.freedesktop.timedate1.conf 682369fbf3de26b21e775732c89a2bbe
  /etc/dbus-1/system.d/org.freedesktop.hostname1.conf f55c94d000b5d62b5f06d38852977dd1
+ /etc/dbus-1/system.d/org.freedesktop.systemd1.conf e68c621054c303ae5e8a2d1ed04e3b78
  /etc/dbus-1/system.d/org.freedesktop.login1.conf f7f0fd7d11ee3236bc1c47f3577ee00c
  /etc/dbus-1/system.d/org.freedesktop.machine1.conf 6aed6cbb3d67ddce44a9d58b150f7940
+ /etc/dbus-1/system.d/org.freedesktop.timedate1.conf 682369fbf3de26b21e775732c89a2bbe
  /etc/dbus-1/system.d/org.freedesktop.locale1.conf 5893ab03e7e96aa3759baceb4dd04190
+ /etc/systemd/logind.conf e6fb45fa9540ca1a4ad84ddc07a7db11
+ /etc/systemd/user.conf ed5467a0a5bd7efd18d53ccf7ea78de6
+ /etc/systemd/system.conf c76999a95adb0bdccb651a17b200c6de
+ /etc/systemd/journald.conf 19a6981b15faffc1a826b8f9b5f2e02d
+ /etc/systemd/bootchart.conf 4ec372c0e2ad1039d5c4e809bc47e498
+ /etc/pam.d/systemd-user 602547c41c0380c612c654fa0f8442ac
 Description: system and service manager
  systemd is a replacement for sysvinit.  It is dependency-based and
  able to read the LSB init script headers in addition to parsing rcN.d
@@ -13854,10 +13855,10 @@ Package: lshw
 Status: install ok installed
 Priority: optional
 Section: utils
-Installed-Size: 796
+Installed-Size: 800
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 02.16-2ubuntu2
+Version: 02.16-2ubuntu2.1
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9)
 Recommends: pciutils, usbutils
 Description: information about hardware configuration
@@ -13938,12 +13939,12 @@ Package: libglapi-mesa
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 252
+Installed-Size: 253
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: mesa
-Version: 10.3.0-0ubuntu3
+Version: 10.3.2-0ubuntu0.1
 Depends: libc6 (>= 2.4)
 Pre-Depends: multiarch-support
 Description: free implementation of the GL API -- shared library
@@ -13986,20 +13987,20 @@ Package: libtiff5
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 581
+Installed-Size: 585
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: tiff
-Version: 4.0.3-10build1
+Version: 4.0.3-10ubuntu0.1
 Depends: libc6 (>= 2.14), libjbig0 (>= 2.0), libjpeg8 (>= 8c), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Description: Tag Image File Format (TIFF) library
  libtiff is a library providing support for the Tag Image File Format
  (TIFF), a widely used format for storing image data.  This package
  includes the shared library.
-Original-Maintainer: Jay Berkenbilt <qjb@debian.org>
 Homepage: http://libtiff.maptools.org
+Original-Maintainer: Jay Berkenbilt <qjb@debian.org>
 
 Package: librtmp1
 Status: install ok installed
@@ -14133,12 +14134,12 @@ Package: libsystemd-login0
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 117
+Installed-Size: 113
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: systemd
-Version: 208-8ubuntu8
+Version: 208-8ubuntu8.2
 Depends: libc6 (>= 2.14)
 Pre-Depends: multiarch-support
 Description: systemd login utility library
@@ -14168,12 +14169,12 @@ Package: e2fslibs
 Status: install ok installed
 Priority: required
 Section: libs
-Installed-Size: 402
+Installed-Size: 406
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: e2fsprogs
-Version: 1.42.10-1.1ubuntu1
+Version: 1.42.10-1.1ubuntu1.2
 Replaces: e2fsprogs (<< 1.34-1)
 Provides: libe2p2, libext2fs2
 Depends: libc6 (>= 2.17)
@@ -14209,15 +14210,15 @@ Original-Maintainer: Matthias Klose <doko@debian.org>
 
 Package: libgnutls-openssl27
 Status: install ok installed
-Priority: important
+Priority: standard
 Section: libs
 Installed-Size: 105
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gnutls28
-Version: 3.2.16-1ubuntu2
-Depends: libgnutls-deb0-28 (= 3.2.16-1ubuntu2), libc6 (>= 2.14)
+Version: 3.2.16-1ubuntu2.2
+Depends: libgnutls-deb0-28 (= 3.2.16-1ubuntu2.2), libc6 (>= 2.14)
 Pre-Depends: multiarch-support
 Description: GNU TLS library - OpenSSL wrapper
  GnuTLS is a portable library which implements the Transport Layer
@@ -14421,7 +14422,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: krb5
-Version: 1.12.1+dfsg-10
+Version: 1.12.1+dfsg-10ubuntu0.1
 Depends: libc6 (>= 2.14)
 Pre-Depends: multiarch-support
 Breaks: libgssapi-krb5-2 (<< 1.12.1+dfsg-8), libk5crypto3 (<< 1.12.1+dfsg-8), libkadm5clnt-mit9 (<< 1.12.1+dfsg-8), libkadm5srv-mit9 (<< 1.12.1+dfsg-8), libkdb5-7 (<< 1.12.1+dfsg-8)
@@ -14436,8 +14437,8 @@ Description: MIT Kerberos runtime libraries - Support library
  .
  This package contains an internal runtime support library used by other
  Kerberos libraries.
-Original-Maintainer: Sam Hartman <hartmans@debian.org>
 Homepage: http://web.mit.edu/kerberos/
+Original-Maintainer: Sam Hartman <hartmans@debian.org>
 
 Package: libgs9
 Status: install ok installed
@@ -14463,20 +14464,20 @@ Package: samba-common
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 643
+Installed-Size: 644
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: samba
-Version: 2:4.1.11+dfsg-1ubuntu2
+Version: 2:4.1.11+dfsg-1ubuntu2.2
 Replaces: samba (<< 3.0.20b-1), samba-doc (<< 2:4.0.5~), samba4-common (<< 4.0.0~alpha7-1)
 Depends: ucf, debconf (>= 0.5) | debconf-2.0
 Pre-Depends: dpkg (>= 1.15.6~)
 Recommends: samba-common-bin
 Conflicts: samba-doc (<< 2:4.0.5~), samba4-common (<< 4.0.0~alpha7-1), swat
 Conffiles:
- /etc/dhcp/dhclient-enter-hooks.d/samba 732cae8c1d0d7a7f80e8597ae551ea0d
  /etc/samba/gdbcommands 898c523d1c11feeac45538a65d00c838
+ /etc/dhcp/dhclient-enter-hooks.d/samba 732cae8c1d0d7a7f80e8597ae551ea0d
  /etc/pam.d/samba a69b859744494a52ecf10bb604544093
 Description: common files used by both the Samba server and client
  Samba is an implementation of the SMB/CIFS protocol for Unix systems,
@@ -14611,11 +14612,11 @@ Package: wget
 Status: install ok installed
 Priority: important
 Section: web
-Installed-Size: 636
+Installed-Size: 644
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 1.15-1ubuntu1
+Version: 1.15-1ubuntu1.14.10.1
 Depends: libc6 (>= 2.17), libidn11 (>= 1.13), libssl1.0.0 (>= 1.0.0), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
 Recommends: ca-certificates
 Conflicts: wget-ssl
@@ -14652,10 +14653,10 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: mesa
-Version: 10.3.0-0ubuntu3
+Version: 10.3.2-0ubuntu0.1
 Replaces: libgl1
 Provides: libgl1
-Depends: libc6 (>= 2.14), libdrm2 (>= 2.3.1), libexpat1 (>= 2.0.1), libglapi-mesa (= 10.3.0-0ubuntu3), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-glx0 (>= 1.8), libxcb-present0, libxcb-sync1, libxcb1 (>= 1.9.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxshmfence1, libxxf86vm1, libudev1, libgl1-mesa-dri (= 10.3.0-0ubuntu3)
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.3.1), libexpat1 (>= 2.0.1), libglapi-mesa (= 10.3.2-0ubuntu0.1), libx11-6 (>= 2:1.4.99.1), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-dri3-0, libxcb-glx0 (>= 1.8), libxcb-present0, libxcb-sync1, libxcb1 (>= 1.9.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxshmfence1, libxxf86vm1, libudev1, libgl1-mesa-dri (= 10.3.2-0ubuntu0.1)
 Pre-Depends: multiarch-support
 Breaks: fglrx-glx (<< 1:11-6-1), glx-diversions (<< 0.4), libgl1-nvidia-alternatives (<= 275.09.07-1)
 Conflicts: libgl1
@@ -14828,17 +14829,18 @@ Status: install ok installed
 Priority: standard
 Section: net
 Installed-Size: 174
-Maintainer: LaMont Jones <lamont@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.9.5.dfsg-4.3
+Version: 1:9.9.5.dfsg-4.3ubuntu0.2
 Replaces: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
 Provides: host
-Depends: libbind9-90 (= 1:9.9.5.dfsg-4.3), libc6 (>= 2.4), libdns100 (= 1:9.9.5.dfsg-4.3), libisc95 (= 1:9.9.5.dfsg-4.3), libisccfg90 (= 1:9.9.5.dfsg-4.3), liblwres90 (= 1:9.9.5.dfsg-4.3)
+Depends: libbind9-90 (= 1:9.9.5.dfsg-4.3ubuntu0.2), libc6 (>= 2.4), libdns100 (= 1:9.9.5.dfsg-4.3ubuntu0.2), libisc95 (= 1:9.9.5.dfsg-4.3ubuntu0.2), libisccfg90 (= 1:9.9.5.dfsg-4.3ubuntu0.2), liblwres90 (= 1:9.9.5.dfsg-4.3ubuntu0.2)
 Conflicts: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
 Description: Version of 'host' bundled with BIND 9.X
  This package provides the 'host' program in the form that is bundled with
  the BIND 9.X sources.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
 
 Package: transmission-gtk
 Status: install ok installed
@@ -14888,7 +14890,7 @@ Installed-Size: 62
 Maintainer: Michael Vogt <michael.vogt@ubuntu.com>
 Architecture: all
 Source: command-not-found
-Version: 0.3ubuntu15
+Version: 0.3ubuntu15.1
 Replaces: command-not-found (<< 0.3ubuntu7)
 Depends: command-not-found-data, lsb-release, python3-apt, python3-gdbm, python3:any (>= 3.3.2-2~)
 Description: Python 3 bindings for command-not-found.
@@ -15019,8 +15021,8 @@ Section: introspection
 Installed-Size: 68
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Source: systemd (208-8ubuntu8)
-Version: 1:208-8ubuntu8
+Source: systemd (208-8ubuntu8.2)
+Version: 1:208-8ubuntu8.2
 Depends: gir1.2-glib-2.0, libgudev-1.0-0 (>= 165)
 Description: libgudev-1.0 introspection data
  This package contains the GObject-introspection data of libgudev-1.0 in
@@ -15060,7 +15062,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: e2fsprogs
-Version: 1.42.10-1.1ubuntu1
+Version: 1.42.10-1.1ubuntu1.2
 Replaces: e2fsprogs (<< 1.34-1)
 Provides: libcomerr-kth-compat
 Depends: libc6 (>= 2.17)
@@ -15103,14 +15105,14 @@ Package: language-pack-en-base
 Status: install ok installed
 Priority: optional
 Section: translations
-Installed-Size: 3882
+Installed-Size: 3880
 Maintainer: Language pack maintainers <language-packs@ubuntu.com>
 Architecture: all
-Version: 1:14.10+20141020
-Replaces: language-pack-en (<< 1:14.10+20141020), language-pack-en-base (<< 1:14.10+20141020), language-pack-gnome-en (<< 1:14.10+20141020), language-pack-gnome-en-base (<< 1:14.10+20141020), language-pack-kde-en (<< 1:14.10+20141020), language-pack-kde-en-base (<< 1:14.10+20141020)
-Depends: locales (>= 2.3.6), language-pack-en (>= 1:14.10+20141020)
+Version: 1:14.10+20141205
+Replaces: language-pack-en (<< 1:14.10+20141205), language-pack-en-base (<< 1:14.10+20141205), language-pack-gnome-en (<< 1:14.10+20141205), language-pack-gnome-en-base (<< 1:14.10+20141205), language-pack-kde-en (<< 1:14.10+20141205), language-pack-kde-en-base (<< 1:14.10+20141205)
+Depends: locales (>= 2.3.6), language-pack-en (>= 1:14.10+20141205)
 Pre-Depends: dpkg (>= 1.16.1)
-Conflicts: language-pack-en (<< 1:14.10+20141020)
+Conflicts: language-pack-en (<< 1:14.10+20141205)
 Description: translations for language English
  Translation data for all supported packages for:
  English
@@ -15147,20 +15149,20 @@ Package: libicu52
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 27355
+Installed-Size: 27356
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: icu
-Version: 52.1-6
+Version: 52.1-6ubuntu0.2
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9)
 Pre-Depends: multiarch-support
 Description: International Components for Unicode
  ICU is a C++ and C library that provides robust and full-featured
  Unicode and locale support.  This package contains the runtime
  libraries for ICU.
-Original-Maintainer: Jay Berkenbilt <qjb@debian.org>
 Homepage: http://www.icu-project.org
+Original-Maintainer: Jay Berkenbilt <qjb@debian.org>
 
 Package: mawk
 Status: install ok installed
@@ -15343,7 +15345,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: poppler
-Version: 0.26.5-0ubuntu1
+Version: 0.26.5-0ubuntu2
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.12.0), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.37.3), libpoppler46 (>= 0.26.5), libstdc++6 (>= 4.9)
 Pre-Depends: multiarch-support
 Description: PDF rendering library (GLib-based shared library)
@@ -15433,25 +15435,25 @@ Package: ntp
 Status: install ok installed
 Priority: optional
 Section: net
-Installed-Size: 1460
+Installed-Size: 1486
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 1:4.2.6.p5+dfsg-3ubuntu2
+Version: 1:4.2.6.p5+dfsg-3ubuntu2.14.10.2
 Replaces: apparmor (<< 2.3.1+1403-0ubuntu10), apparmor-profiles (<< 2.3.1+1403-0ubuntu10)
-Depends: adduser, lsb-base (>= 3.2-13), netbase, libc6 (>= 2.17), libcap2 (>= 2.10), libedit2 (>= 2.11-20080614), libopts25 (>= 1:5.18), libssl1.0.0 (>= 1.0.0)
+Depends: adduser, lsb-base (>= 3.2-13), netbase, libc6 (>= 2.17), libcap2 (>= 2.10), libedit2 (>= 2.11-20080614), libopts25 (>= 1:5.18.3), libssl1.0.0 (>= 1.0.0)
 Pre-Depends: dpkg (>= 1.15.7.2)
 Recommends: perl
 Suggests: ntp-doc, apparmor (>= 2.1+1075-0ubuntu6)
 Breaks: dhcp3-client (<< 4.1.0-1)
 Conflicts: apparmor (<< 2.3.1+1403-0ubuntu10), apparmor-profiles (<< 2.3.1+1403-0ubuntu10)
 Conffiles:
- /etc/apparmor.d/usr.sbin.ntpd a00aa055d1a5feff414bacc89b8c9f6e
- /etc/apparmor.d/tunables/ntpd 5519e4c01535818cb26f2ef9e527f191
- /etc/init.d/ntp 7cff26c0420a53cfb71ab315dd257f8d
  /etc/dhcp/dhclient-exit-hooks.d/ntp f22a8b425cdecdd770cf33cc61b91ce4
  /etc/default/ntp cd7a62fbb18fa8fe5893dee93064b328
- /etc/cron.daily/ntp af4becca9dde009fc606dae1575cf551
+ /etc/init.d/ntp 7cff26c0420a53cfb71ab315dd257f8d
  /etc/ntp.conf 32280703a4ba7aa1148c48895097ed07
+ /etc/apparmor.d/usr.sbin.ntpd a00aa055d1a5feff414bacc89b8c9f6e
+ /etc/apparmor.d/tunables/ntpd 5519e4c01535818cb26f2ef9e527f191
+ /etc/cron.daily/ntp af4becca9dde009fc606dae1575cf551
 Description: Network Time Protocol daemon and utility programs
  NTP, the Network Time Protocol, is used to keep computer clocks
  accurate by synchronizing them over the Internet or a local network,
@@ -15472,11 +15474,11 @@ Package: gnupg
 Status: install ok installed
 Priority: important
 Section: utils
-Installed-Size: 1676
+Installed-Size: 1696
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 1.4.16-1.2ubuntu1
+Version: 1.4.16-1.2ubuntu1.2
 Depends: libbz2-1.0, libc6 (>= 2.15), libreadline6 (>= 6.0), libusb-0.1-4 (>= 2:0.1.12), zlib1g (>= 1:1.1.4), gpgv
 Suggests: gnupg-curl, gnupg-doc, xloadimage | imagemagick | eog, libpcsclite1
 Description: GNU privacy guard - a free PGP replacement
@@ -15624,10 +15626,10 @@ Status: install ok installed
 Priority: optional
 Section: libs
 Installed-Size: 87
-Maintainer: LaMont Jones <lamont@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.9.5.dfsg-4.3
+Version: 1:9.9.5.dfsg-4.3ubuntu0.2
 Replaces: libbind0
 Depends: libc6 (>= 2.4), libisc95
 Conflicts: libbind0, libbind9-41
@@ -15638,6 +15640,7 @@ Description: Command Channel Library used by BIND
  .
  This package delivers the libisccc shared library used by BIND's daemons
  and clients, particularly rndc.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
 
 Package: libtevent0
 Status: install ok installed
@@ -16124,14 +16127,14 @@ Section: admin
 Installed-Size: 280
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
-Version: 0.82.8
+Version: 0.82.8ubuntu0.2
 Depends: debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), debconf, python3, python3-apt, apt-utils, apt, ucf, lsb-release, lsb-base (>= 3.2-14), xz-utils
 Suggests: bsd-mailx, mail-transport-agent
 Conffiles:
  /etc/init.d/unattended-upgrades 4f525a4e44bc36d79931eb1794fd0518
- /etc/logrotate.d/unattended-upgrades 07320e1f80567c19e78cf683d2fbf8b6
- /etc/pm/sleep.d/10_unattended-upgrades-hibernate d4ebdc2a2fdfeea33e6cd39812a85c3a
  /etc/apt/apt.conf.d/50unattended-upgrades 4c4d0203d3db42331c1517ea26d064da
+ /etc/pm/sleep.d/10_unattended-upgrades-hibernate d4ebdc2a2fdfeea33e6cd39812a85c3a
+ /etc/logrotate.d/unattended-upgrades 07320e1f80567c19e78cf683d2fbf8b6
 Description: automatic installation of security upgrades
  This package can download and install security upgrades automatically
  and unattended, taking care to only install packages from the
@@ -16195,7 +16198,7 @@ Installed-Size: 138
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Architecture: amd64
 Source: nautilus
-Version: 1:3.10.1-0ubuntu15
+Version: 1:3.10.1-0ubuntu15.1
 Replaces: libnautilus-extension1
 Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0)
 Breaks: nautilus (<< 1:3.0)
@@ -16234,15 +16237,15 @@ Installed-Size: 316
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: ubuntu-release-upgrader
-Version: 1:14.10.9
+Version: 1:14.10.10
 Replaces: update-manager (<< 1:0.165), update-manager-core (<< 1:0.165)
-Depends: python3:any (>= 3.2~), python3, python3-distupgrade (= 1:14.10.9)
+Depends: python3:any (>= 3.2~), python3, python3-distupgrade (= 1:14.10.10)
 Recommends: libpam-modules (>= 1.0.1-9ubuntu3)
 Breaks: software-properties (<< 0.9.27), update-manager (<< 1:0.165), update-manager-core (<< 1:0.165)
 Conffiles:
- /etc/update-motd.d/91-release-upgrade 51540d8467fcf35f65e2873454746e54
  /etc/update-manager/release-upgrades a7ce55cc082d93cba3728cd28b18fd1e
  /etc/update-manager/meta-release 834e015e99673a6e3b0f31f6a511355f
+ /etc/update-motd.d/91-release-upgrade 51540d8467fcf35f65e2873454746e54
 Description: manage release upgrades
  This is the core of the Ubuntu Release Upgrader
 
@@ -16409,14 +16412,14 @@ Package: glib-networking-services
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 67
+Installed-Size: 68
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glib-networking
-Version: 2.41.92-2
+Version: 2.42.1-0ubuntu1
 Replaces: glib-networking (<< 2.30.1-2)
-Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.41.3), libproxy1 (>= 0.4.11), glib-networking-common (= 2.41.92-2)
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.41.3), libproxy1 (>= 0.4.11), glib-networking-common (= 2.42.1-0ubuntu1)
 Recommends: glib-networking
 Breaks: glib-networking (<< 2.30.1-2)
 Description: network-related giomodules for GLib - D-Bus services
@@ -16474,12 +16477,12 @@ Package: libappindicator3-1
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 95
+Installed-Size: 99
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Architecture: amd64
 Source: libappindicator
-Version: 12.10.1+13.10.20130920-0ubuntu4
-Depends: libc6 (>= 2.2.5), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk3-4 (>= 0.4.2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libindicator3-7 (>= 0.4.90)
+Version: 12.10.1+13.10.20130920-0ubuntu4.2
+Depends: libc6 (>= 2.4), libdbusmenu-glib4 (>= 0.4.2), libdbusmenu-gtk3-4 (>= 0.4.2), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libindicator3-7 (>= 0.4.90)
 Pre-Depends: multiarch-support
 Recommends: indicator-application (>= 0.2.93)
 Description: Application Indicators
@@ -16848,8 +16851,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: nss
-Version: 2:3.17.1-0ubuntu1
-Depends: libnss3 (= 2:3.17.1-0ubuntu1)
+Version: 2:3.17.4-0ubuntu0.14.10.1
+Depends: libnss3 (= 2:3.17.4-0ubuntu0.14.10.1)
 Description: Network Security Service libraries - transitional package
  This is a transitional package to ensure smooth transition of all packages
  to libnss3.
@@ -16865,7 +16868,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: curl
-Version: 7.37.1-1ubuntu3
+Version: 7.37.1-1ubuntu3.2
 Depends: libc6 (>= 2.17), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libldap-2.4-2 (>= 2.4.7), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Recommends: ca-certificates
@@ -17206,11 +17209,11 @@ Package: command-not-found-data
 Status: install ok installed
 Priority: optional
 Section: admin
-Installed-Size: 4170
+Installed-Size: 4165
 Maintainer: Michael Vogt <michael.vogt@ubuntu.com>
 Architecture: amd64
 Source: command-not-found
-Version: 0.3ubuntu15
+Version: 0.3ubuntu15.1
 Description: Set of data files for command-not-found.
  This package provides the required data used by the command-not-found
  application.
@@ -17318,9 +17321,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: gvfs
-Version: 1.20.2-1ubuntu2
+Version: 1.20.2-1ubuntu3
 Replaces: gvfs (<< 1.10.1-1), libgvfscommon0
-Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.37.3), libsecret-1-0 (>= 0.7), gvfs-common (= 1.20.2-1ubuntu2)
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.37.3), libsecret-1-0 (>= 0.7), gvfs-common (= 1.20.2-1ubuntu3)
 Breaks: gvfs (<< 1.10.1-1)
 Conflicts: libgvfscommon0
 Description: userspace virtual filesystem - private libraries
@@ -18217,12 +18220,12 @@ Section: admin
 Installed-Size: 105
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 8-1
+Version: 8-1ubuntu0.1
 Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.39.4), cgmanager (>= 0.32)
 Suggests: pm-utils
 Breaks: systemd (>= 209)
 Conffiles:
- /etc/dbus-1/system.d/org.freedesktop.systemd-shim.conf 609498dd559b30a0c4f060dc2cf981f8
+ /etc/dbus-1/system.d/org.freedesktop.systemd-shim.conf 2cf2ec0f7b56318a785aff6efc8ca332
 Description: shim for systemd
  This package emulates the systemd function that are required to run
  the systemd helpers without using the init service
@@ -18327,7 +18330,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: e2fsprogs
-Version: 1.42.10-1.1ubuntu1
+Version: 1.42.10-1.1ubuntu1.2
 Replaces: e2fsprogs (<< 1.34-1)
 Depends: libcomerr2, libc6 (>= 2.17)
 Pre-Depends: multiarch-support
@@ -18447,7 +18450,7 @@ Section: admin
 Installed-Size: 53
 Maintainer: Michael Vogt <michael.vogt@ubuntu.com>
 Architecture: all
-Version: 0.3ubuntu15
+Version: 0.3ubuntu15.1
 Depends: python3-commandnotfound (>= 0.3ubuntu7)
 Conffiles:
  /etc/zsh_command_not_found efe722bf2776c3763a32daebae42baca
@@ -18523,7 +18526,7 @@ Installed-Size: 158
 Maintainer: Robert Ancell <robert.ancell@ubuntu.com>
 Architecture: amd64
 Source: lightdm
-Version: 1.12.1-0ubuntu1
+Version: 1.12.3-0ubuntu1
 Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.37.3), libx11-6, libxklavier16 (>= 5.0)
 Recommends: accountsservice
 Suggests: lightdm
@@ -18713,12 +18716,12 @@ Package: liboobs-1-5
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 221
+Installed-Size: 229
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: liboobs
-Version: 3.0.0-1
-Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libglib2.0-0 (>= 2.18.0), system-tools-backends (>= 2.9.2)
+Version: 3.0.0-1ubuntu0.14.10.1
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libglib2.0-0 (>= 2.41.1), system-tools-backends (>= 2.9.2)
 Breaks: gnome-system-tools (<< 2.30)
 Description: GObject based interface to system-tools-backends - shared library
  Liboobs is a lightweight library that provides a GObject based
@@ -18931,8 +18934,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: gtk+3.0
-Version: 3.12.2-0ubuntu15
-Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.39.5), libgtk-3-0 (>= 3.12.2-0ubuntu15), libgtk-3-common (>= 3.12.2)
+Version: 3.12.2-0ubuntu15.2
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.39.5), libgtk-3-0 (>= 3.12.2-0ubuntu15.2), libgtk-3-common (>= 3.12.2)
 Description: programs for the GTK+ graphical user interface library
  GTK+ is a multi-platform toolkit for creating graphical user
  interfaces. Offering a complete set of widgets, GTK+ is suitable
@@ -18948,12 +18951,12 @@ Package: libjasper1
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 356
+Installed-Size: 357
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: jasper
-Version: 1.900.1-debian1-2
+Version: 1.900.1-debian1-2ubuntu0.2
 Replaces: libjasper-1.700-2
 Depends: libc6 (>= 2.14), libjpeg8 (>= 8c)
 Pre-Depends: multiarch-support
@@ -19113,13 +19116,13 @@ Essential: yes
 Status: install ok installed
 Priority: required
 Section: admin
-Installed-Size: 2488
+Installed-Size: 2504
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 1.42.10-1.1ubuntu1
+Version: 1.42.10-1.1ubuntu1.2
 Replaces: hurd (<= 20040301-1), libblkid1 (<< 1.38+1.39-WIP-2005.12.10-2), libuuid1 (<< 1.38+1.39-WIP-2005.12.10-2)
-Pre-Depends: e2fslibs (= 1.42.10-1.1ubuntu1), libblkid1 (>= 2.17.2), libc6 (>= 2.14), libcomerr2 (>= 1.42~WIP-2011-10-05-1), libss2 (>= 1.34-1), libuuid1 (>= 2.16), util-linux (>= 2.15~rc1-1)
+Pre-Depends: e2fslibs (= 1.42.10-1.1ubuntu1.2), libblkid1 (>= 2.17.2), libc6 (>= 2.14), libcomerr2 (>= 1.42~WIP-2011-10-05-1), libss2 (>= 1.34-1), libuuid1 (>= 2.16), util-linux (>= 2.15~rc1-1)
 Suggests: gpart, parted, e2fsck-static
 Conflicts: dump (<< 0.4b4-4), initscripts (<< 2.85-4), quota (<< 1.55-8.1), sysvinit (<< 2.85-4)
 Conffiles:
@@ -19370,8 +19373,8 @@ Installed-Size: 582
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
-Version: 1.20.2-1ubuntu2
-Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.37.3), libudev1 (>= 183), gvfs-daemons (>= 1.20.2-1ubuntu2), gvfs-daemons (<< 1.20.2-1ubuntu2.1~), gvfs-libs (= 1.20.2-1ubuntu2), gvfs-common (= 1.20.2-1ubuntu2)
+Version: 1.20.2-1ubuntu3
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.37.3), libudev1 (>= 183), gvfs-daemons (>= 1.20.2-1ubuntu3), gvfs-daemons (<< 1.20.2-1ubuntu3.1~), gvfs-libs (= 1.20.2-1ubuntu3), gvfs-common (= 1.20.2-1ubuntu3)
 Suggests: gvfs-backends, gvfs-backends-goa
 Breaks: brasero (<< 2.28.0-2), libgdu0 (<< 2.28.1-3), libglib2.0-0 (<< 2.30), rhythmbox (<< 0.12.6-2)
 Description: userspace virtual filesystem - GIO module
@@ -19411,14 +19414,14 @@ Package: libglib2.0-bin
 Status: install ok installed
 Priority: optional
 Section: misc
-Installed-Size: 1505
+Installed-Size: 1423
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glib2.0
-Version: 2.42.0-2
+Version: 2.42.1-1~ubuntu1
 Replaces: libglib2.0-0 (<< 2.25.11-2), libglib2.0-dev (<< 2.25.11-2)
-Depends: libc6 (>= 2.4), libelfg0 (>= 0.8.12), libglib2.0-0 (= 2.42.0-2), libglib2.0-data
+Depends: libc6 (>= 2.4), libelfg0 (>= 0.8.12), libglib2.0-0 (= 2.42.1-1~ubuntu1), libglib2.0-data
 Conflicts: libglib2.0-0 (<< 2.25.11-2)
 Description: Programs for the GLib library
  GLib is a library containing many useful C routines for things such
@@ -19721,7 +19724,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: dbus
-Version: 1.8.8-1ubuntu2
+Version: 1.8.8-1ubuntu2.1
 Depends: libc6 (>= 2.15), libx11-6, dbus
 Breaks: x11-common (<< 1:7.5+4)
 Conffiles:
@@ -19824,7 +19827,7 @@ Installed-Size: 605
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: ubuntu-release-upgrader
-Version: 1:14.10.9
+Version: 1:14.10.10
 Replaces: python3-update-manager (<< 1:0.165)
 Depends: python3:any (>= 3.3.2-2~), python3-update-manager (>= 1:0.196.2~), python3-apt (>= 0.8.5~), lsb-release
 Breaks: python3-update-manager (<< 1:0.165)
@@ -19835,12 +19838,12 @@ Package: poppler-utils
 Status: install ok installed
 Priority: optional
 Section: utils
-Installed-Size: 506
+Installed-Size: 510
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: poppler
-Version: 0.26.5-0ubuntu1
+Version: 0.26.5-0ubuntu2
 Replaces: pdftohtml, xpdf-reader, xpdf-utils (<< 3.02-2~)
 Provides: pdftohtml, xpdf-utils
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.12.0), libfreetype6 (>= 2.2.1), liblcms2-2 (>= 2.2+git20110628), libpoppler46 (>= 0.26.5), libstdc++6 (>= 4.1.1)
@@ -20360,7 +20363,7 @@ Installed-Size: 529
 Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
 Architecture: all
 Source: apport
-Version: 2.14.7-0ubuntu8
+Version: 2.14.7-0ubuntu8.2
 Depends: python3:any (>= 3.3.2-2~), python3-apt (>= 0.7.9), python3-problem-report (>= 0.94), lsb-release
 Recommends: apport
 Suggests: python3-launchpadlib
@@ -20383,7 +20386,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
 Source: glib-networking
-Version: 2.41.92-2
+Version: 2.42.1-0ubuntu1
 Replaces: glib-networking (<< 2.30.1-2)
 Recommends: glib-networking
 Breaks: glib-networking (<< 2.30.1-2)
@@ -20493,8 +20496,8 @@ Section: net
 Installed-Size: 2276
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 1:2.10.9-0ubuntu7
-Depends: pidgin-data (>= 1:2.10.9), pidgin-data (<< 1:2.10.9-z), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgstreamer0.10-0 (>= 0.10.0), libgtk2.0-0 (>= 2.24.0), libgtkspell0 (>= 2.0.10), libice6 (>= 1:1.0.0), libmessaging-menu0 (>= 12.10.0), libpango-1.0-0 (>= 1.18.0), libpurple0 (>= 1:2.8.0), libsm6, libunity9 (>= 3.4.6), libx11-6, libxss1, gconf2 (>= 2.28.1-2), perl-base (>= 5.20.0-6), perlapi-5.20.0
+Version: 1:2.10.9-0ubuntu7.1
+Depends: pidgin-data (>= 1:2.10.9), pidgin-data (<< 1:2.10.9-z), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgstreamer0.10-0 (>= 0.10.0), libgtk2.0-0 (>= 2.24.0), libgtkspell0 (>= 2.0.10), libice6 (>= 1:1.0.0), libmessaging-menu0 (>= 12.10.0), libpango-1.0-0 (>= 1.18.0), libpurple0 (>= 1:2.8.0), libsm6, libunity9 (>= 3.4.6), libx11-6, libxss1, gconf2 (>= 2.28.1-2), perl-base (>= 5.20.1-1), perlapi-5.20.1
 Recommends: gstreamer0.10-plugins-base, gstreamer0.10-plugins-good, pidgin-libnotify
 Suggests: gnome-panel (>= 2.1) | kdebase-workspace-bin | docker, evolution-data-server (>= 1.10.0), libsqlite3-0 (>= 3.5.9)
 Description: graphical multi-protocol instant messaging client for X
@@ -20860,21 +20863,21 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: cups
-Version: 1.7.5-3ubuntu2
+Version: 1.7.5-3ubuntu3.1
 Replaces: cups (<< 1.6.1-1~)
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.15), libcups2 (= 1.7.5-3ubuntu2), libcupsmime1 (>= 1.5.0), libdbus-1-3 (>= 1.0.2), libgnutls-deb0-28 (>= 3.2.10-0), libgssapi-krb5-2 (>= 1.10+dfsg~), libpam0g (>= 0.99.7.1), libpaper1, libsystemd-daemon0 (>= 31), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), procps, ssl-cert (>= 1.0.11), adduser, bc
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.15), libcups2 (= 1.7.5-3ubuntu3.1), libcupsmime1 (>= 1.5.0), libdbus-1-3 (>= 1.0.2), libgnutls-deb0-28 (>= 3.2.10-0), libgssapi-krb5-2 (>= 1.10+dfsg~), libpam0g (>= 0.99.7.1), libpaper1, libsystemd-daemon0 (>= 31), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), procps, ssl-cert (>= 1.0.11), adduser, bc
 Pre-Depends: dpkg (>= 1.15.7.2)
 Recommends: colord, cups-browsed, avahi-daemon (>= 0.6.31-3~)
-Suggests: cups, cups-bsd, cups-common (>= 1.7.5-3ubuntu2), cups-server-common (>= 1.7.5-3ubuntu2), cups-client (>= 1.7.5-3ubuntu2), cups-ppdc, cups-filters, poppler-utils (>= 0.12), ghostscript (>= 9.02~), cups-filters (>= 1.0.42) | foomatic-filters (>= 4.0), foomatic-db-compressed-ppds | foomatic-db, printer-driver-gutenprint, printer-driver-hpcups, hplip, cups-pdf, udev, smbclient
+Suggests: cups, cups-bsd, cups-common (>= 1.7.5-3ubuntu3.1), cups-server-common (>= 1.7.5-3ubuntu3.1), cups-client (>= 1.7.5-3ubuntu3.1), cups-ppdc, cups-filters, poppler-utils (>= 0.12), ghostscript (>= 9.02~), cups-filters (>= 1.0.42) | foomatic-filters (>= 4.0), foomatic-db-compressed-ppds | foomatic-db, printer-driver-gutenprint, printer-driver-hpcups, hplip, cups-pdf, udev, smbclient
 Breaks: cups (<< 1.6.1-1~)
 Conffiles:
- /etc/ufw/applications.d/cups 29e98a6d850da251e180c3d68dec2bd3
  /etc/apparmor.d/usr.sbin.cupsd b47af71ada0432180db474d8a34b97ff
- /etc/logrotate.d/cups-daemon 7bd7f956a724d571799244af3cd530f6
+ /etc/init.d/cups b6a8f635d8543a5f2076f5ac7da124ed
  /etc/init/cups.conf ca2bcd438106a7c3400a16306e7d2be1
+ /etc/ufw/applications.d/cups 29e98a6d850da251e180c3d68dec2bd3
+ /etc/logrotate.d/cups-daemon 7bd7f956a724d571799244af3cd530f6
  /etc/cups/cups-files.conf a4266f328dfaee697f6ab483a6b69841
  /etc/pam.d/cups ff2488324854f7b1e892bb0df062d5f0
- /etc/init.d/cups b6a8f635d8543a5f2076f5ac7da124ed
 Description: Common UNIX Printing System(tm) - daemon
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
  general replacement for lpd and the like.  It supports the Internet
@@ -21349,10 +21352,10 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: mesa
-Version: 10.3.0-0ubuntu3
+Version: 10.3.2-0ubuntu0.1
 Replaces: libegl1-mesa-drivers (<< 10.1.0-2), libwayland-egl1
 Provides: libwayland-egl1
-Depends: libc6 (>= 2.2.5), libegl1-mesa (= 10.3.0-0ubuntu3)
+Depends: libc6 (>= 2.2.5), libegl1-mesa (= 10.3.2-0ubuntu0.1)
 Pre-Depends: multiarch-support
 Recommends: libegl1-mesa-drivers
 Breaks: libegl1-mesa-drivers (<< 10.1.0-2)
@@ -21508,25 +21511,25 @@ Package: lightdm
 Status: install ok installed
 Priority: optional
 Section: x11
-Installed-Size: 576
+Installed-Size: 580
 Maintainer: Robert Ancell <robert.ancell@ubuntu.com>
 Architecture: amd64
-Version: 1.12.1-0ubuntu1
+Version: 1.12.3-0ubuntu1
 Provides: x-display-manager
-Depends: debconf (>= 0.5) | debconf-2.0, lsb-base (>= 4.1+Debian11ubuntu7), libc6 (>= 2.14), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.37.3), libpam0g (>= 0.99.7.1), libxcb1, libxdmcp6, libpam-runtime (>= 0.76-14), libpam-modules, adduser, libglib2.0-bin, dbus, plymouth (>= 0.8.8-0ubuntu18)
+Depends: debconf (>= 0.5) | debconf-2.0, lsb-base (>= 4.1+Debian11ubuntu7), libc6 (>= 2.14), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.37.3), libpam0g (>= 0.99.7.1), libxcb1, libxdmcp6, libpam-runtime (>= 0.76-14), libpam-modules, adduser, libglib2.0-bin, dbus, plymouth (>= 0.8.8-0ubuntu18), bash (>= 4.3)
 Pre-Depends: dpkg (>= 1.15.7.2)
 Recommends: xserver-xorg, unity-greeter | lightdm-greeter | lightdm-kde-greeter
 Conflicts: liblightdm-gobject-0-0, liblightdm-qt-0-0
 Conffiles:
+ /etc/pam.d/lightdm fcc2191b2fc7fab2b0d723faec5635cd
+ /etc/pam.d/lightdm-autologin e192ee66bdfbf54fc7d869379f02f8ff
+ /etc/pam.d/lightdm-greeter 175dc5fc5903124a38f7a8d74b9a3def
+ /etc/dbus-1/system.d/org.freedesktop.DisplayManager.conf b76b6b45d7f7ff533c51d7fc02be32f4
+ /etc/init.d/lightdm be2b1b20bec52a04c1a877477864e188
+ /etc/lightdm/users.conf 1de1a7e321b98e5d472aa818893a2a3e
  /etc/apparmor.d/abstractions/lightdm d3e1f20875cb5decf67a45f8fdff838c
  /etc/apparmor.d/abstractions/lightdm_chromium-browser 60339320212072f7c769d12caed3c4d3
  /etc/apparmor.d/lightdm-guest-session 7d122d506d65910f9252b5b36aeb13a1
- /etc/init.d/lightdm be2b1b20bec52a04c1a877477864e188
- /etc/lightdm/users.conf 1de1a7e321b98e5d472aa818893a2a3e
- /etc/pam.d/lightdm-autologin e192ee66bdfbf54fc7d869379f02f8ff
- /etc/pam.d/lightdm fcc2191b2fc7fab2b0d723faec5635cd
- /etc/pam.d/lightdm-greeter 175dc5fc5903124a38f7a8d74b9a3def
- /etc/dbus-1/system.d/org.freedesktop.DisplayManager.conf b76b6b45d7f7ff533c51d7fc02be32f4
  /etc/init/lightdm.conf 07304e5b3265b4fb82a2c94beb9b577e
 Description: Display Manager
  LightDM is a X display manager that:
@@ -21990,10 +21993,10 @@ Status: install ok installed
 Priority: standard
 Section: libs
 Installed-Size: 107
-Maintainer: LaMont Jones <lamont@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.9.5.dfsg-4.3
+Version: 1:9.9.5.dfsg-4.3ubuntu0.2
 Replaces: libbind0
 Depends: libc6 (>= 2.4), libdns100, libisc95, libisccfg90
 Conflicts: libbind0, libbind9-41
@@ -22004,6 +22007,7 @@ Description: BIND9 Shared Library used by BIND
  .
  This package delivers the libbind9 shared library used by BIND's daemons and
  clients.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
 
 Package: xserver-xorg-video-intel
 Status: install ok installed
@@ -22012,7 +22016,7 @@ Section: x11
 Installed-Size: 3112
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2:2.99.914-1~exp1ubuntu4
+Version: 2:2.99.914-1~exp1ubuntu4.2
 Provides: xorg-driver-video
 Depends: libc6 (>= 2.17), libdrm-intel1 (>= 2.4.38), libdrm2 (>= 2.4.25), libpciaccess0 (>= 0.8.0+git20071002), libpixman-1-0 (>= 0.30.0), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-dri2-0, libxcb-dri3-0, libxcb-sync1, libxcb-util0 (>= 0.3.8), libxcb1, libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1, libxrandr2 (>= 2:1.2.99.2), libxrender1, libxshmfence1, libxtst6, libxv1, libxvmc1, xorg-video-abi-18, xserver-xorg-core (>= 2:1.15.99.903)
 Description: X.Org X server -- Intel i8xx, i9xx display driver
@@ -22031,11 +22035,11 @@ Package: libdns100
 Status: install ok installed
 Priority: standard
 Section: libs
-Installed-Size: 1922
-Maintainer: LaMont Jones <lamont@debian.org>
+Installed-Size: 1926
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.9.5.dfsg-4.3
+Version: 1:9.9.5.dfsg-4.3ubuntu0.2
 Replaces: libbind0
 Depends: libc6 (>= 2.14), libgeoip1, libgssapi-krb5-2 (>= 1.10+dfsg~), libisc95, libkrb5-3 (>= 1.6.dfsg.2), libssl1.0.0 (>= 1.0.0)
 Conflicts: libbind0, libbind9-41
@@ -22046,6 +22050,7 @@ Description: DNS Shared Library used by BIND
  .
  This package delivers the libdns shared library used by BIND's daemons and
  clients.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
 
 Package: perl
 Status: install ok installed
@@ -22159,7 +22164,7 @@ Installed-Size: 176
 Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
 Architecture: all
 Source: apport
-Version: 2.14.7-0ubuntu8
+Version: 2.14.7-0ubuntu8.2
 Depends: python3:any (>= 3.3.2-2~)
 Description: Python 3 library to handle problem reports
  This Python library provides an interface for creating, modifying,
@@ -22201,16 +22206,16 @@ Section: admin
 Installed-Size: 379
 Maintainer: Serge Hallyn <serge.hallyn@ubuntu.com>
 Architecture: amd64
-Version: 0.32-4ubuntu1
+Version: 0.32-4ubuntu1.3
 Replaces: cgmanager-utils (<< 0.30-1)
 Provides: cgmanager-utils
 Depends: libc6 (>= 2.15), libcgmanager0 (>= 0.32), libdbus-1-3 (>= 1.2.16), libnih-dbus1 (>= 1.0.0), libnih1 (>= 1.0.0), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7)
 Conflicts: cgmanager-utils (<< 0.30-1)
 Conffiles:
+ /etc/init/cgmanager.conf 5aaa1853374898fdaf7a80c60c8ce62d
+ /etc/init/cgproxy.conf 6d2f480ee01e21e9e6392934c16c4689
  /etc/init.d/cgmanager 7fe1cc959fc9bad5f0ad17fbbc694f71
  /etc/init.d/cgproxy e107f190811dde89a2208e7f3fbc4ddc
- /etc/init/cgproxy.conf 6d2f480ee01e21e9e6392934c16c4689
- /etc/init/cgmanager.conf 5aaa1853374898fdaf7a80c60c8ce62d
 Description: Central cgroup manager daemon
  cgmanager provides a central cgroup manager daemon and a
  per-namespace manager proxy, allowing users and programs
@@ -22224,18 +22229,18 @@ Package: system-config-printer-common
 Status: install ok installed
 Priority: optional
 Section: gnome
-Installed-Size: 307
+Installed-Size: 309
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Source: system-config-printer
-Version: 1.5.1+20141010-0ubuntu2
+Version: 1.5.1+20141010-0ubuntu2.3
 Replaces: system-config-printer, system-config-printer-gnome (<< 1.3.11+20120807-0ubuntu7)
 Depends: python3-cups (>= 1.9.60), python3-smbc, python3-dbus, python3-cupshelpers
 Recommends: system-config-printer-udev, avahi-utils
 Conflicts: system-config-printer, system-config-printer-kde (<= 0.09ubuntu1)
 Conffiles:
- /etc/dbus-1/system.d/com.redhat.PrinterDriversInstaller.conf d81013f5bfeece9858706aed938e16bb
  /etc/dbus-1/system.d/com.redhat.NewPrinterNotification.conf 8df3896101328880517f530c11fff877
+ /etc/dbus-1/system.d/com.redhat.PrinterDriversInstaller.conf d81013f5bfeece9858706aed938e16bb
 Description: Printer configuration GUI
  A CUPS printer configuration tool and status applet.
  .
@@ -22490,8 +22495,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: cups
-Version: 1.7.5-3ubuntu2
-Depends: libc6 (>= 2.14), libcups2 (= 1.7.5-3ubuntu2)
+Version: 1.7.5-3ubuntu3.1
+Depends: libc6 (>= 2.14), libcups2 (= 1.7.5-3ubuntu3.1)
 Pre-Depends: multiarch-support
 Description: Common UNIX Printing System(tm) - CGI library
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
@@ -22586,9 +22591,9 @@ Section: translations
 Installed-Size: 30
 Maintainer: Language pack maintainers <language-packs@ubuntu.com>
 Architecture: all
-Version: 1:14.10+20141020
-Replaces: language-pack-en (<< 1:14.10+20141020), language-pack-en-base (<< 1:14.10+20141020), language-pack-gnome-en (<< 1:14.10+20141020), language-pack-gnome-en-base, language-pack-kde-en (<< 1:14.10+20141020), language-pack-kde-en-base (<< 1:14.10+20141020)
-Depends: language-pack-gnome-en-base (>= 1:14.10+20141020), language-pack-en
+Version: 1:14.10+20141205
+Replaces: language-pack-en (<< 1:14.10+20141205), language-pack-en-base (<< 1:14.10+20141205), language-pack-gnome-en (<< 1:14.10+20141205), language-pack-gnome-en-base, language-pack-kde-en (<< 1:14.10+20141205), language-pack-kde-en-base (<< 1:14.10+20141205)
+Depends: language-pack-gnome-en-base (>= 1:14.10+20141205), language-pack-en
 Pre-Depends: dpkg (>= 1.16.1)
 Description: GNOME translation updates for language English
  Translation data updates for all supported GNOME packages for:
@@ -22718,7 +22723,7 @@ Section: gnome
 Installed-Size: 10172
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Architecture: amd64
-Version: 3.0.0-3ubuntu5
+Version: 3.0.0-3ubuntu5.1
 Replaces: gnome-network-admin (<< 3.0.0-3ubuntu1), gnome-time-admin (<< 3.0.0-3ubuntu1), ximian-setup-tools
 Provides: gnome-network-admin, gnome-time-admin
 Depends: dconf-gsettings-backend | gsettings-backend, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), liboobs-1-5 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpolkit-gobject-1-0 (>= 0.99), perl, system-tools-backends (>= 2.10.1), policykit-1-gnome
@@ -22922,11 +22927,11 @@ Package: xul-ext-ubufox
 Status: install ok installed
 Priority: optional
 Section: web
-Installed-Size: 377
+Installed-Size: 207
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: all
 Source: ubufox
-Version: 2.9-0ubuntu1
+Version: 3.0-0ubuntu0.14.10.1
 Replaces: ubufox (<< 0.9~rc2-0ubuntu3)
 Provides: firefox-ubufox, ubufox
 Depends: aptdaemon, libglib2.0-0 (>= 2.26)
@@ -23115,11 +23120,11 @@ Package: unzip
 Status: install ok installed
 Priority: optional
 Section: utils
-Installed-Size: 382
+Installed-Size: 390
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 6.0-12ubuntu1
+Version: 6.0-12ubuntu1.3
 Depends: libbz2-1.0, libc6 (>= 2.14)
 Suggests: zip
 Description: De-archiver for .zip files
@@ -23281,16 +23286,16 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.19-10ubuntu2
+Version: 2.19-10ubuntu2.3
 Replaces: libc0.1, libc0.3, libc6, libc6.1
 Depends: libc6 (>> 2.19), libc6 (<< 2.20), libcap2 (>= 2.10)
 Breaks: libc0.1 (<< 2.10), libc0.3 (<< 2.10), libc6 (<< 2.10), libc6.1 (<< 2.10)
 Conffiles:
  /etc/bindresvport.blacklist 4c09213317e4e3dd3c71d74404e503c5
  /etc/gai.conf 28fa76ff5a9e0566eaa1e11f1ce51f09
- /etc/default/nss d6d5d6f621fb3ead2548076ce81e309c
  /etc/ld.so.conf.d/libc.conf d4d833fd095fb7b90e1bb4a547f16de6
  /etc/ld.so.conf 4317c6de8564b68d628c21efa96b37e4
+ /etc/default/nss d6d5d6f621fb3ead2548076ce81e309c
 Description: GNU C Library: Binaries
  This package contains utility programs related to the GNU C Library.
  .
@@ -23326,11 +23331,11 @@ Package: linux-firmware
 Status: install ok installed
 Priority: optional
 Section: misc
-Installed-Size: 67851
+Installed-Size: 67852
 Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
-Version: 1.138
+Version: 1.138.1
 Replaces: atmel-firmware, linux-restricted-common
 Provides: atmel-firmware
 Conflicts: atmel-firmware
@@ -23452,7 +23457,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: poppler
-Version: 0.26.5-0ubuntu1
+Version: 0.26.5-0ubuntu2
 Depends: libc6 (>= 2.14), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628), libpng12-0 (>= 1.2.13-4), libstdc++6 (>= 4.9), libtiff5 (>= 4.0.3)
 Pre-Depends: multiarch-support
 Suggests: poppler-data
@@ -23530,13 +23535,13 @@ Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian
 
 Package: mime-support
 Status: install ok installed
-Priority: important
+Priority: standard
 Section: net
 Installed-Size: 146
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
-Version: 3.55ubuntu1
+Version: 3.55ubuntu1.1
 Recommends: file
 Conffiles:
  /etc/mime.types 595e82c9f9b94619948c4d3ed16bc068
@@ -23796,12 +23801,12 @@ Package: libnss3
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 3719
+Installed-Size: 3723
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: nss
-Version: 2:3.17.1-0ubuntu1
+Version: 2:3.17.4-0ubuntu0.14.10.1
 Depends: libc6 (>= 2.14), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 4.8.6), libsqlite3-0 (>= 3.5.9), zlib1g (>= 1:1.1.4), libnss3-nssdb
 Pre-Depends: multiarch-support
 Conflicts: libnss3-1d (<< 2:3.13.4-2)
@@ -24023,12 +24028,12 @@ Package: multiarch-support
 Status: install ok installed
 Priority: required
 Section: libs
-Installed-Size: 218
+Installed-Size: 219
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: glibc
-Version: 2.19-10ubuntu2
+Version: 2.19-10ubuntu2.3
 Depends: libc6 (>= 2.3.6-2)
 Description: Transitional package to ensure multiarch compatibility
  This is a transitional package used to ensure multiarch support is present
@@ -24189,10 +24194,10 @@ Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: mesa
-Version: 10.3.0-0ubuntu3
+Version: 10.3.2-0ubuntu0.1
 Replaces: libegl1-x11
 Provides: libegl1-x11
-Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.25), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libwayland-client0 (>= 1.3.92), libwayland-server0 (>= 1.2.0), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-xfixes0, libxcb1, libudev1, libgl1-mesa-dri (= 10.3.0-0ubuntu3)
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.25), libexpat1 (>= 2.0.1), libgbm1 (>= 8.1~0), libwayland-client0 (>= 1.3.92), libwayland-server0 (>= 1.2.0), libx11-xcb1, libxcb-dri2-0 (>= 1.8), libxcb-xfixes0, libxcb1, libudev1, libgl1-mesa-dri (= 10.3.2-0ubuntu0.1)
 Pre-Depends: multiarch-support
 Recommends: libegl1-mesa-drivers
 Conflicts: libegl1-x11
@@ -24624,20 +24629,20 @@ Package: firefox
 Status: install ok installed
 Priority: optional
 Section: web
-Installed-Size: 88443
+Installed-Size: 94106
 Maintainer: Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>
 Architecture: amd64
-Version: 33.0+build2-0ubuntu0.14.10.1
+Version: 37.0+build2-0ubuntu0.14.10.1
 Replaces: kubuntu-firefox-installer
 Provides: gnome-www-browser, iceweasel, www-browser
 Depends: lsb-release, libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.8), libstdc++6 (>= 4.9), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxrender1, libxt6
 Recommends: xul-ext-ubufox, libcanberra0, libdbusmenu-glib4, libdbusmenu-gtk4
 Suggests: fonts-lyx
 Conffiles:
- /etc/apparmor.d/usr.bin.firefox 7d8ce9b18ef23552b99ef03172d1a98a
- /etc/firefox/syspref.js 09e457e65435a1a043521f2bd19cd2a1
  /etc/apport/blacklist.d/firefox ee63264f847e671832d42255912ce144
  /etc/apport/native-origins.d/firefox 7c26b75c7c2b715c89cc6d85338252a4
+ /etc/firefox/syspref.js 09e457e65435a1a043521f2bd19cd2a1
+ /etc/apparmor.d/usr.bin.firefox fa088a6403316bfaab5bf90ce7966c4a
 Description: Safe and easy web browser from Mozilla
  Firefox delivers safe, easy web browsing. A familiar user interface,
  enhanced security features including protection from online identity theft,
@@ -24698,13 +24703,13 @@ Package: libcupsppdc1
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 255
+Installed-Size: 256
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: cups
-Version: 1.7.5-3ubuntu2
-Depends: libc6 (>= 2.14), libcups2 (= 1.7.5-3ubuntu2), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Version: 1.7.5-3ubuntu3.1
+Depends: libc6 (>= 2.14), libcups2 (= 1.7.5-3ubuntu3.1), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
 Pre-Depends: multiarch-support
 Description: Common UNIX Printing System(tm) - PPD manipulation library
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
@@ -25013,12 +25018,12 @@ Package: libevent-2.0-5
 Status: install ok installed
 Priority: standard
 Section: libs
-Installed-Size: 311
+Installed-Size: 315
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libevent
-Version: 2.0.21-stable-1ubuntu1
+Version: 2.0.21-stable-1ubuntu1.14.10.1
 Depends: libc6 (>= 2.17)
 Pre-Depends: multiarch-support
 Description: Asynchronous event notification library
@@ -25034,8 +25039,8 @@ Description: Asynchronous event notification library
  or "libevent_core + libevent_extra", the libevent source package builds
  the libevent library that includes everything in libevent_core and
  libevent_extra.
-Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Homepage: http://libevent.org/
+Original-Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 
 Package: libiw30
 Status: install ok installed
@@ -25060,22 +25065,22 @@ Original-Maintainer: Guus Sliepen <guus@debian.org>
 
 Package: ntpdate
 Status: install ok installed
-Priority: important
+Priority: optional
 Section: net
-Installed-Size: 240
+Installed-Size: 245
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: ntp
-Version: 1:4.2.6.p5+dfsg-3ubuntu2
+Version: 1:4.2.6.p5+dfsg-3ubuntu2.14.10.2
 Depends: netbase, libc6 (>= 2.17), libssl1.0.0 (>= 1.0.0)
 Pre-Depends: dpkg (>= 1.15.7.2)
 Recommends: lockfile-progs
 Breaks: dhcp3-client (<< 4.1.0-1)
 Conffiles:
- /etc/logcheck/ignore.d.server/ntpdate 68d4df7cceb0e97bde87126c3a56b219
  /etc/dhcp/dhclient-exit-hooks.d/ntpdate 1d4c6af64ca132451ee95a08686ea111
  /etc/default/ntpdate 39415ec9778476795fdbb832adc43b9b
  /etc/network/if-up.d/ntpdate 336a082b2390bda125d83c01fe125e93
+ /etc/logcheck/ignore.d.server/ntpdate 68d4df7cceb0e97bde87126c3a56b219
 Description: client for setting system time from NTP servers
  NTP, the Network Time Protocol, is used to keep computer clocks
  accurate by synchronizing them over the Internet or a local network,
@@ -25137,12 +25142,12 @@ Package: libc6
 Status: install ok installed
 Priority: required
 Section: libs
-Installed-Size: 10528
+Installed-Size: 10525
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: glibc
-Version: 2.19-10ubuntu2
+Version: 2.19-10ubuntu2.3
 Replaces: libc6-amd64
 Provides: glibc-2.19-1
 Depends: libgcc1
@@ -25370,9 +25375,9 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: gvfs
-Version: 1.20.2-1ubuntu2
+Version: 1.20.2-1ubuntu3
 Replaces: gvfs (<< 1.10.1-1), gvfs-backends (<< 1.8.1-1)
-Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.37.3), libgudev-1.0-0 (>= 146), libsecret-1-0 (>= 0.7), libsystemd-login0 (>= 31), libudev1 (>= 183), libudisks2-0 (>= 2.0.91), x11-utils, udisks2, gvfs-libs (= 1.20.2-1ubuntu2), gvfs-common (= 1.20.2-1ubuntu2)
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.37.3), libgudev-1.0-0 (>= 146), libsecret-1-0 (>= 0.7), libsystemd-login0 (>= 31), libudev1 (>= 183), libudisks2-0 (>= 2.0.91), x11-utils, udisks2, gvfs-libs (= 1.20.2-1ubuntu3), gvfs-common (= 1.20.2-1ubuntu3)
 Recommends: dbus, policykit-1-gnome, gvfs
 Suggests: gvfs-backends, gvfs-backends-goa
 Breaks: brasero (<< 2.28.0-2), gvfs (<< 1.10.1-1), gvfs-backends (<< 1.8.1-1), libgdu0 (<< 2.28.1-3), libglib2.0-0 (<< 2.28.6-2), rhythmbox (<< 0.12.6-2)
@@ -25583,12 +25588,12 @@ Package: libfontembed1
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 153
+Installed-Size: 154
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: cups-filters
-Version: 1.0.61-0ubuntu2
+Version: 1.0.61-0ubuntu2.1
 Depends: libc6 (>= 2.14)
 Pre-Depends: multiarch-support
 Description: OpenPrinting CUPS Filters - Font Embed Shared library
@@ -25605,7 +25610,7 @@ Installed-Size: 949
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: gtk+3.0
-Version: 3.12.2-0ubuntu15
+Version: 3.12.2-0ubuntu15.2
 Depends: libgtk-3-common, gir1.2-atk-1.0, gir1.2-freedesktop, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-pango-1.0, libgtk-3-0 (>= 3.12.0)
 Description: GTK+ graphical user interface library -- gir bindings
  GTK+ is a multi-platform toolkit for creating graphical user
@@ -25681,28 +25686,28 @@ Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian
 
 Package: udev
 Status: install ok installed
-Priority: required
+Priority: important
 Section: admin
-Installed-Size: 5937
+Installed-Size: 5933
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
 Source: systemd
-Version: 208-8ubuntu8
-Depends: libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 208-8ubuntu8), lsb-base (>= 4.1+Debian11ubuntu7), util-linux (>= 2.16), procps
+Version: 208-8ubuntu8.2
+Depends: libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), libudev1 (= 208-8ubuntu8.2), lsb-base (>= 4.1+Debian11ubuntu7), util-linux (>= 2.16), procps
 Pre-Depends: debconf (>= 1.4.69) | debconf-2.0
 Breaks: consolekit (<< 0.4.6-1), kmod (<< 14), systemd (<< 208)
 Conffiles:
+ /etc/modprobe.d/fbdev-blacklist.conf 0b9c466830040ec52986cc3ea117bef5
+ /etc/init/udevtrigger.conf 651ff2421dde80be7ce7ccbf7fa8cf18
+ /etc/init/udevmonitor.conf b541dfb5aa4958e9a5336ecaec00ca15
+ /etc/init/udev.conf 41c0081f3a830e0902aaff76a53edf98
+ /etc/init/udev-fallback-graphics.conf 8de8db40eddbd151e1ca373ae79fb57a
+ /etc/init/udev-finish.conf 089140a32d519840674be9a274da1a42
  /etc/init.d/udev-finish 6eac2544228b88cbe8cede182082f46a
  /etc/init.d/udev 7e15ccc4c96866f0735a0fd49fbb3812
  /etc/init.d/lvm2 16fcd935b49ff821069136d4e9954e08
- /etc/modprobe.d/fbdev-blacklist.conf 0b9c466830040ec52986cc3ea117bef5
  /etc/udev/udev.conf ae415f84e2967eff580089fb08aa0a61
- /etc/init/udev.conf 41c0081f3a830e0902aaff76a53edf98
- /etc/init/udev-finish.conf 089140a32d519840674be9a274da1a42
- /etc/init/udev-fallback-graphics.conf 8de8db40eddbd151e1ca373ae79fb57a
- /etc/init/udevtrigger.conf 651ff2421dde80be7ce7ccbf7fa8cf18
- /etc/init/udevmonitor.conf b541dfb5aa4958e9a5336ecaec00ca15
 Description: /dev/ and hotplug management daemon
  udev is a daemon which dynamically creates and removes device nodes from
  /dev/, handles hotplug events and loads drivers at boot time.
@@ -25845,10 +25850,10 @@ Status: install ok installed
 Priority: standard
 Section: libs
 Installed-Size: 441
-Maintainer: LaMont Jones <lamont@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.9.5.dfsg-4.3
+Version: 1:9.9.5.dfsg-4.3ubuntu0.2
 Replaces: libbind0
 Depends: libc6 (>= 2.15), libxml2 (>= 2.7.4)
 Conflicts: libbind0, libbind9-41
@@ -25859,6 +25864,7 @@ Description: ISC Shared Library used by BIND
  .
  This package delivers the libisc shared library used by BIND's daemons and
  clients.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
 
 Package: iptables
 Status: install ok installed
@@ -26295,13 +26301,13 @@ Package: libgbm1
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 4348
+Installed-Size: 4352
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: mesa
-Version: 10.3.0-0ubuntu3
-Depends: libc6 (>= 2.17), libdrm-nouveau2 (>= 2.4.38), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.38), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.7), libllvm3.5, libstdc++6 (>= 4.9), libwayland-client0 (>= 1.2.0), libwayland-server0 (>= 1.2.0), libgl1-mesa-dri (= 10.3.0-0ubuntu3), libudev1
+Version: 10.3.2-0ubuntu0.1
+Depends: libc6 (>= 2.17), libdrm-nouveau2 (>= 2.4.38), libdrm-radeon1 (>= 2.4.31), libdrm2 (>= 2.4.38), libelf1 (>= 0.142), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.7), libllvm3.5, libstdc++6 (>= 4.9), libwayland-client0 (>= 1.2.0), libwayland-server0 (>= 1.2.0), libgl1-mesa-dri (= 10.3.2-0ubuntu0.1), libudev1
 Pre-Depends: multiarch-support
 Description: generic buffer management API -- runtime
  This package contains the GBM buffer management library.  It provides a
@@ -26349,10 +26355,10 @@ Status: install ok installed
 Priority: optional
 Section: libs
 Installed-Size: 192
-Maintainer: LaMont Jones <lamont@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: bind9
-Version: 1:9.9.5.dfsg-4.3
+Version: 1:9.9.5.dfsg-4.3ubuntu0.2
 Replaces: libbind0
 Depends: libc6 (>= 2.4), libdns100, libisc95, libisccc90
 Conflicts: libbind0, libbind9-41
@@ -26364,6 +26370,7 @@ Description: Config File Handling Library used by BIND
  This package delivers the libisccfg shared library used by BIND's daemons
  and clients to read and write ISC-style configuration files like named.conf
  and rndc.conf.
+Original-Maintainer: LaMont Jones <lamont@debian.org>
 
 Package: libonig2
 Status: install ok installed
@@ -26583,12 +26590,12 @@ Package: libpwquality1
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 59
+Installed-Size: 60
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: libpwquality
-Version: 1.2.3-1ubuntu1
+Version: 1.2.3-1ubuntu1.2
 Depends: libc6 (>= 2.14), libcrack2 (>= 2.8.12), libpwquality-common
 Pre-Depends: multiarch-support
 Description: library for password quality checking and generation
@@ -26598,8 +26605,8 @@ Description: library for password quality checking and generation
  pronounceability.
  .
  This package contains the shared library.
-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Homepage: https://fedorahosted.org/libpwquality/
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 
 Package: guvcview
 Status: install ok installed
@@ -26686,21 +26693,21 @@ Section: admin
 Installed-Size: 1568
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 7.4.4-1ubuntu11
+Version: 7.4.4-1ubuntu11.2
 Provides: linux-kernel-log-daemon, system-log-daemon
 Depends: libc6 (>= 2.17), libestr0 (>= 0.1.4), libjson-c2 (>= 0.10), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4), init-system-helpers (>= 1.18~), lsb-base (>= 4.1+Debian11ubuntu7), initscripts (>= 2.88dsf-13.3), adduser, ucf
 Recommends: logrotate
 Suggests: rsyslog-mysql | rsyslog-pgsql, rsyslog-doc, rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp, apparmor (>= 2.8.96~2541-0ubuntu4~)
 Conflicts: linux-kernel-log-daemon, system-log-daemon
 Conffiles:
+ /etc/default/rsyslog c7af23c348917e877399baea1849727a
  /etc/apparmor.d/usr.sbin.rsyslogd e6ad1c0502ec63905c5bc8d8c6367e42
- /etc/init.d/rsyslog eff44a6fdc4a3117d170417bb6b7be1e
  /etc/init/dmesg.conf 218f9baf50c95553d5b611d62de520e1
  /etc/init/rsyslog.conf 34b6c083e007bed20e8341486361529b
+ /etc/init.d/rsyslog eff44a6fdc4a3117d170417bb6b7be1e
  /etc/logcheck/ignore.d.server/rsyslog 650507df599fbbdd6cb4142bd77fd2ff
  /etc/logrotate.d/rsyslog 848417261ef9c883ae25f3be0ddd313d
  /etc/rsyslog.conf 85a6fb16706f325b4cc9c84657526bd3
- /etc/default/rsyslog c7af23c348917e877399baea1849727a
 Description: reliable system and kernel logging daemon
  Rsyslog is a multi-threaded implementation of syslogd (a system utility
  providing support for message logging), with features that include:
@@ -26721,13 +26728,13 @@ Original-Maintainer: Michael Biebl <biebl@debian.org>
 
 Package: cpio
 Status: install ok installed
-Priority: required
+Priority: important
 Section: utils
-Installed-Size: 312
+Installed-Size: 320
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 2.11+dfsg-2ubuntu1
+Version: 2.11+dfsg-2ubuntu1.1
 Replaces: cpio-mt
 Depends: libc6 (>= 2.17)
 Suggests: libarchive1
@@ -26899,22 +26906,22 @@ Section: utils
 Installed-Size: 1296
 Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
 Architecture: all
-Version: 2.14.7-0ubuntu8
+Version: 2.14.7-0ubuntu8.2
 Replaces: python-apport (<< 2.2-0ubuntu1)
-Depends: python3, python3-apport (>= 2.14.7-0ubuntu8), lsb-base (>= 4.1+Debian11ubuntu7), python3-gi, gir1.2-glib-2.0 (>= 1.29.17), sysv-rc (>= 2.86.ds1-14.1ubuntu2)
+Depends: python3, python3-apport (>= 2.14.7-0ubuntu8.2), lsb-base (>= 4.1+Debian11ubuntu7), python3-gi, gir1.2-glib-2.0 (>= 1.29.17), sysv-rc (>= 2.86.ds1-14.1ubuntu2)
 Recommends: apport-symptoms, policykit-1
 Suggests: apport-gtk | apport-kde
 Breaks: python-apport (<< 2.2-0ubuntu1)
 Conffiles:
- /etc/cron.daily/apport df5d3bc9ab3a67b58156376318077304
- /etc/bash_completion.d/apport_completion dfe766d9328bb5c895038b44185133f9
+ /etc/default/apport 3446c6cac185f44237f59786e006ebe4
  /etc/logrotate.d/apport fa54dab59ef899b48d5455c976008df4
+ /etc/bash_completion.d/apport_completion dfe766d9328bb5c895038b44185133f9
+ /etc/init/apport.conf 37507fafcb91622ecee2e844da91d1ac
+ /etc/cron.daily/apport df5d3bc9ab3a67b58156376318077304
+ /etc/init.d/apport c9764ae43c4c0a23f36042244cd720f4
  /etc/apport/crashdb.conf 0bb3a2832a92a0401e00583bf2d23e93
  /etc/apport/blacklist.d/README.blacklist c2ed1eb9a17ec2550747b4960cf4b73c
  /etc/apport/blacklist.d/apport 44503501302b80099552bac0204a45c1
- /etc/init/apport.conf 37507fafcb91622ecee2e844da91d1ac
- /etc/init.d/apport c9764ae43c4c0a23f36042244cd720f4
- /etc/default/apport 3446c6cac185f44237f59786e006ebe4
 Description: automatically generate crash reports for debugging
  apport automatically collects data from crashed processes and
  compiles a problem report in /var/crash/. This utilizes the crashdump
@@ -27043,11 +27050,11 @@ Package: ca-certificates
 Status: install ok installed
 Priority: optional
 Section: misc
-Installed-Size: 442
+Installed-Size: 452
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: all
 Multi-Arch: foreign
-Version: 20140325
+Version: 20141019ubuntu0.14.10.1
 Depends: openssl (>= 1.0.0), debconf (>= 0.5) | debconf-2.0
 Breaks: ca-certificates-java (<< 20121112+nmu1)
 Enhances: openssl
@@ -27122,8 +27129,8 @@ Installed-Size: 292
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: gvfs
-Version: 1.20.2-1ubuntu2
-Depends: libc6 (>= 2.4), libfuse2 (>= 2.8.1), libglib2.0-0 (>= 2.37.0), gvfs (= 1.20.2-1ubuntu2), fuse (>= 2.8.4)
+Version: 1.20.2-1ubuntu3
+Depends: libc6 (>= 2.4), libfuse2 (>= 2.8.1), libglib2.0-0 (>= 2.37.0), gvfs (= 1.20.2-1ubuntu3), fuse (>= 2.8.4)
 Description: userspace virtual filesystem - fuse server
  gvfs is a userspace virtual filesystem where mounts run as separate
  processes which you talk to via D-Bus. It also contains a gio module
@@ -27365,14 +27372,14 @@ Package: binutils
 Status: install ok installed
 Priority: optional
 Section: devel
-Installed-Size: 12272
-Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 12296
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
-Version: 2.24.90.20141014-0ubuntu3
+Version: 2.24.90.20141014-0ubuntu3.1
 Replaces: binutils-gold (<< 2.20.51.20100415), binutils-mingw-w64-i686 (<< 2.23.52.20130612-1+3), binutils-mingw-w64-x86-64 (<< 2.23.52.20130612-1+3)
 Provides: binutils-gold, elf-binutils
 Depends: libc6 (>= 2.14), zlib1g (>= 1:1.2.0)
-Suggests: binutils-doc (>= 2.24.90.20141014-0ubuntu3)
+Suggests: binutils-doc (>= 2.24.90.20141014-0ubuntu3.1)
 Breaks: binutils-mingw-w64-i686 (<< 2.23.52.20130612-1+3), binutils-mingw-w64-x86-64 (<< 2.23.52.20130612-1+3)
 Conflicts: binutils-gold (<< 2.20.51.20100415), binutils-mingw-w64-i686 (<< 2.23.52.20130612-1+3), binutils-mingw-w64-x86-64 (<< 2.23.52.20130612-1+3), elf-binutils, gas, modutils (<< 2.4.19-1)
 Description: GNU assembler, linker and binary utilities
@@ -27412,7 +27419,7 @@ Installed-Size: 50
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
 Architecture: amd64
 Source: libappindicator
-Version: 12.10.1+13.10.20130920-0ubuntu4
+Version: 12.10.1+13.10.20130920-0ubuntu4.2
 Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0, libappindicator3-1 (>= 0.4.90)
 Description: Typelib files for libappindicator3-1.
  .
@@ -27478,11 +27485,11 @@ Package: libgcrypt20
 Status: install ok installed
 Priority: standard
 Section: libs
-Installed-Size: 970
+Installed-Size: 983
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
-Version: 1.6.1-2ubuntu1
+Version: 1.6.1-2ubuntu1.14.10.1
 Depends: libc6 (>= 2.15), libgpg-error0 (>= 1.10)
 Pre-Depends: multiarch-support
 Suggests: rng-tools
@@ -27587,12 +27594,12 @@ Package: libglib2.0-0
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 4710
+Installed-Size: 4629
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: glib2.0
-Version: 2.42.0-2
+Version: 2.42.1-1~ubuntu1
 Replaces: libglib2.0-dev (<< 2.23.2-2)
 Depends: libc6 (>= 2.17), libffi6 (>= 3.0.4), libpcre3, libselinux1 (>= 1.32), zlib1g (>= 1:1.2.2)
 Pre-Depends: multiarch-support
@@ -27758,8 +27765,8 @@ Installed-Size: 222
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Source: usb-creator
-Version: 0.2.62
-Depends: python3:any (>= 3.3.2-2~), python3, usb-creator-common (= 0.2.62), python3-gi, gir1.2-gtk-3.0, gir1.2-gudev-1.0, gir1.2-pango-1.0, gir1.2-glib-2.0, gir1.2-unity-5.0, python3-dbus
+Version: 0.2.62ubuntu0.1
+Depends: python3, python3:any (>= 3.3.2-2~), usb-creator-common (= 0.2.62ubuntu0.1), python3-gi, gir1.2-gtk-3.0, gir1.2-gudev-1.0, gir1.2-pango-1.0, gir1.2-glib-2.0, gir1.2-unity-5.0, python3-dbus
 Description: create a startup disk using a CD or disc image (for GNOME)
  Startup Disk Creator converts a USB key or SD card into a volume from which you
  can start up and run Ubuntu. You can also store files and settings in any space
@@ -27948,12 +27955,12 @@ Package: libecryptfs0
 Status: install ok installed
 Priority: optional
 Section: libs
-Installed-Size: 184
+Installed-Size: 189
 Maintainer: Dustin Kirkland <kirkland@ubuntu.com>
 Architecture: amd64
 Source: ecryptfs-utils
-Version: 104-0ubuntu1
-Depends: libc6 (>= 2.14), libkeyutils1, libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~1.9b1)
+Version: 104-0ubuntu1.14.10.3
+Depends: libc6 (>= 2.14), libkeyutils1 (>= 1.4), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~1.9b1)
 Description: ecryptfs cryptographic filesystem (library)
  eCryptfs is a POSIX-compliant enterprise-class stacked cryptographic filesystem
  for Linux.
@@ -28024,8 +28031,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: cups
-Version: 1.7.5-3ubuntu2
-Depends: libc6 (>= 2.14), libcups2 (= 1.7.5-3ubuntu2), libcupsfilters1 (>= 1.0~b1)
+Version: 1.7.5-3ubuntu3.1
+Depends: libc6 (>= 2.14), libcups2 (= 1.7.5-3ubuntu3.1), libcupsfilters1 (>= 1.0~b1)
 Pre-Depends: multiarch-support
 Description: Common UNIX Printing System(tm) - Raster image library
  The Common UNIX Printing System (or CUPS(tm)) is a printing system and
@@ -28117,9 +28124,9 @@ Installed-Size: 843
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: foreign
-Version: 1.7.5-3ubuntu2
+Version: 1.7.5-3ubuntu3.1
 Replaces: cups-bsd (<< 1.7.2-3~), ghostscript-cups (<< 9.02~)
-Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.16), libcups2 (= 1.7.5-3ubuntu2), libcupscgi1 (>= 1.4.2), libcupsimage2 (>= 1.4.0), libcupsmime1 (>= 1.4.0), libcupsppdc1 (>= 1.4.0), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), libusb-1.0-0 (>= 2:1.0.8), debconf (>= 1.2.9) | debconf-2.0, libc-bin (>= 2.13), cups-core-drivers (>= 1.7.5-3ubuntu2), cups-daemon (>= 1.7.5-3ubuntu2), poppler-utils (>= 0.12), procps, ghostscript (>= 9.02~), lsb-base (>= 3.2-14~), cups-common (>= 1.7.5-3ubuntu2), cups-server-common (>= 1.7.5-3ubuntu2), cups-client (>= 1.7.5-3ubuntu2), cups-ppdc, cups-filters (>= 1.0.24-3~)
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.16), libcups2 (= 1.7.5-3ubuntu3.1), libcupscgi1 (>= 1.4.2), libcupsimage2 (>= 1.4.0), libcupsmime1 (>= 1.4.0), libcupsppdc1 (>= 1.4.0), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), libusb-1.0-0 (>= 2:1.0.8), debconf (>= 1.2.9) | debconf-2.0, libc-bin (>= 2.13), cups-core-drivers (>= 1.7.5-3ubuntu3.1), cups-daemon (>= 1.7.5-3ubuntu3.1), poppler-utils (>= 0.12), procps, ghostscript (>= 9.02~), lsb-base (>= 3.2-14~), cups-common (>= 1.7.5-3ubuntu3.1), cups-server-common (>= 1.7.5-3ubuntu3.1), cups-client (>= 1.7.5-3ubuntu3.1), cups-ppdc, cups-filters (>= 1.0.24-3~)
 Recommends: avahi-daemon, colord, cups-filters (>= 1.0.42) | foomatic-filters (>= 4.0), printer-driver-gutenprint, cups-filters (>= 1.0.36) | ghostscript-cups (>= 9.02~)
 Suggests: cups-bsd, foomatic-db-compressed-ppds | foomatic-db, printer-driver-hpcups, hplip, cups-pdf, udev, smbclient
 Breaks: cups-bsd (<< 1.7.2-3~), foomatic-filters (<< 4.0), ghostscript-cups (<< 9.02~)
@@ -28145,8 +28152,8 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
 Multi-Arch: same
 Source: krb5
-Version: 1.12.1+dfsg-10
-Depends: libc6 (>= 2.16), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.9+dfsg~beta1), libkeyutils1, libkrb5support0 (= 1.12.1+dfsg-10)
+Version: 1.12.1+dfsg-10ubuntu0.1
+Depends: libc6 (>= 2.16), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.9+dfsg~beta1), libkeyutils1 (>= 1.5.9), libkrb5support0 (= 1.12.1+dfsg-10ubuntu0.1)
 Pre-Depends: multiarch-support
 Recommends: krb5-locales
 Suggests: krb5-doc, krb5-user
@@ -28162,8 +28169,8 @@ Description: MIT Kerberos runtime libraries
  .
  This package contains the runtime library for the main Kerberos v5 API
  used by applications and Kerberos clients.
-Original-Maintainer: Sam Hartman <hartmans@debian.org>
 Homepage: http://web.mit.edu/kerberos/
+Original-Maintainer: Sam Hartman <hartmans@debian.org>
 
 Package: lsof
 Status: install ok installed

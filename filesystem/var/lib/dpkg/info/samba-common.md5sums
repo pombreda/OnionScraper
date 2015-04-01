@@ -2,7 +2,7 @@ f92a2751f16a2a9d626db0caa53d02f3  usr/share/doc/samba-common/NEWS.Debian.gz
 fa45e563635db722a652eed07faaf668  usr/share/doc/samba-common/README.gz
 a5ea5389022963049b89e2eb0b88d52f  usr/share/doc/samba-common/Roadmap
 f841a3e6e29465729290d270d73010e7  usr/share/doc/samba-common/WHATSNEW.txt.gz
-8afcbed3ef3f3b178244d0c6f681273f  usr/share/doc/samba-common/changelog.Debian.gz
+5a96baa3ea891988cc6ce5fb96c506bc  usr/share/doc/samba-common/changelog.Debian.gz
 963cf1d95af09c630923c22ae7f1a63a  usr/share/doc/samba-common/copyright
 0904acf51aed18eb09a0f3b7b41ae277  usr/share/lintian/overrides/samba-common
 fc32156c98f11df17b0b1f4f0389adb9  usr/share/samba/codepages/lowcase.dat

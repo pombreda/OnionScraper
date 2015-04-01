@@ -1,4 +1,4 @@
-fb2aca2b08cadfe910af820794c7ac17  usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so
-43d63fca7d1dc3afb1c64ac20fdc8831  usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so
-81e09d8a833b72a670b2ac951ede3087  usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so
+e55577fea8364faea590bcd17bcafa9f  usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so
+f78b67ff8584962ff2d91ed901b263d1  usr/lib/x86_64-linux-gnu/gio/modules/libgiognutls.so
+805af832dde7a308458ed5c81a70a2c1  usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so
 51f00740e23338d9198a2813e5f0defb  usr/share/doc/glib-networking/copyright

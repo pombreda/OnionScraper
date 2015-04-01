@@ -3,10 +3,10 @@
 /usr/share
 /usr/share/doc
 /usr/share/doc/libcupsfilters1
-/usr/share/doc/libcupsfilters1/AUTHORS
-/usr/share/doc/libcupsfilters1/README.gz
 /usr/share/doc/libcupsfilters1/changelog.Debian.gz
+/usr/share/doc/libcupsfilters1/AUTHORS
 /usr/share/doc/libcupsfilters1/copyright
+/usr/share/doc/libcupsfilters1/README.gz
 /usr/lib
 /usr/lib/x86_64-linux-gnu
 /usr/lib/x86_64-linux-gnu/libcupsfilters.so.1.0.0

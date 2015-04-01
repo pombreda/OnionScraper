@@ -31,8 +31,6 @@ locale  ubufox  zh-TW   jar:chrome/ubufox.jar!/locale/zh-TW/
 
 overlay	chrome://browser/content/browser.xul	chrome://ubufox/content/overlay.xul
 
-override chrome://mozapps/content/plugins/pluginInstallerWizard.xul chrome://ubufox/content/pluginInstallerWizard.xul
-
 component {7a2a7a56-827f-4b38-bdac-31aa7ec2971d} components/AboutStartpage.js
 contract @mozilla.org/network/protocol/about;1?what=startpage {7a2a7a56-827f-4b38-bdac-31aa7ec2971d}
 

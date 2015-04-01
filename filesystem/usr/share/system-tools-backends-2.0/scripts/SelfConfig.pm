@@ -30,7 +30,8 @@ my $OBJECT_NAME = "SelfConfig2";
 my $OBJECT_PATH = "$Utils::Backend::DBUS_PATH/$OBJECT_NAME";
 
 # user is only allowed to change his own GECOS fields, locale, location
-my $format = [ "uint32", [ "array", "string" ], "string", "string" ];
+my $get_format = [ [ "array", "string" ], "string", "string" ];
+my $set_format = [ "uint32", [ "array", "string" ], "string", "string" ];
 
 sub new
 {
@@ -43,8 +44,8 @@ sub new
 }
 
 # UID is filled by dispatcher
-dbus_method ("get", "uint32", $format);
-dbus_method ("set", $format, []);
+dbus_method ("get", [ "uint32" ], $get_format);
+dbus_method ("set", $set_format, []);
 
 sub get
 {

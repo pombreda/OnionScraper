@@ -1,5 +1,5 @@
-e38eb14445d1e03b1fc1cdfac30fb6f7  usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4.3.0
+0ea4c8165f08fddf4b21d1bb2e9d0d92  usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4.3.0
 5f67ab850d7e46a9e730e66884b300c7  usr/share/doc/libcurl3-gnutls/NEWS.Debian.gz
-972d11e7017e9e73771ce2fed1b0c253  usr/share/doc/libcurl3-gnutls/changelog.Debian.gz
+c83708fee2098b0d298c1bbae4abf8f4  usr/share/doc/libcurl3-gnutls/changelog.Debian.gz
 db7c20c553c799dc4cbdd0bfb07424d8  usr/share/doc/libcurl3-gnutls/copyright
 0610384464c0370a314d470eb752e7e9  usr/share/lintian/overrides/libcurl3-gnutls

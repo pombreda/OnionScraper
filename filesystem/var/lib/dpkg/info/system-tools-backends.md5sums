@@ -1,4 +1,4 @@
-6735f740441027d5f95e1b612ace4aac  usr/sbin/system-tools-backends
+c271b3da8b4aac45f32c18bf733fde99  usr/sbin/system-tools-backends
 f597018beca52d72f54ef16aa1b30d78  usr/share/dbus-1/system-services/org.freedesktop.SystemToolsBackends.GroupConfig2.service
 0de0f1ef2bf4c63448050f873d66de28  usr/share/dbus-1/system-services/org.freedesktop.SystemToolsBackends.GroupsConfig2.service
 485b071d0af2458dfca95e2fe75de959  usr/share/dbus-1/system-services/org.freedesktop.SystemToolsBackends.HostsConfig.service
@@ -17,7 +17,7 @@ f2bad71d9939dfc9a5c800a32a270b5d  usr/share/dbus-1/system-services/org.freedeskt
 ced33b731f297a82f6222a589cf3a7a4  usr/share/doc/system-tools-backends/AUTHORS
 bdfe0e0c14f48a192f2a7c2789d5f0b5  usr/share/doc/system-tools-backends/NEWS.gz
 224a25111a199bde6d5a5f5021cd93e8  usr/share/doc/system-tools-backends/README
-aa74afde23f72090f5dbf85a444a320c  usr/share/doc/system-tools-backends/changelog.Debian.gz
+3ecbd9e70ba6d43ab5dbc8817c1cdbac  usr/share/doc/system-tools-backends/changelog.Debian.gz
 1496d6fe53cec7b15967132e3bbdb039  usr/share/doc/system-tools-backends/copyright
 c37c398863a3321ffea83dd171923a58  usr/share/locale/ar/LC_MESSAGES/system-tools-backends.mo
 5474efd8e492449ef33908a3c6282afb  usr/share/locale/bg/LC_MESSAGES/system-tools-backends.mo
@@ -78,7 +78,7 @@ bca133d8f73237eb6b89cd6c2a2485ac  usr/share/system-tools-backends-2.0/scripts/Ne
 a37f94dbfc695132697d379cb5f4da96  usr/share/system-tools-backends-2.0/scripts/Network/Ifaces.pm
 17b1128cdd300ec9426a5d4535ec3428  usr/share/system-tools-backends-2.0/scripts/Platform.pm
 790181641c88dc067b5012d9406e11c6  usr/share/system-tools-backends-2.0/scripts/SMBConfig.pm
-8a8507a2b4b6711f9170ad8e0597f8a2  usr/share/system-tools-backends-2.0/scripts/SelfConfig.pm
+2c978f750023ba18d8f9f6edaa6928ab  usr/share/system-tools-backends-2.0/scripts/SelfConfig.pm
 6946c48bdefd6c78425764a91a51e8c6  usr/share/system-tools-backends-2.0/scripts/ServiceConfig.pm
 45d241d44fa54c7b1aaf4bfa71a328c3  usr/share/system-tools-backends-2.0/scripts/ServicesConfig.pm
 d5f87732a8ada59c9dfc0714fe70e090  usr/share/system-tools-backends-2.0/scripts/Shares/NFS.pm
@@ -91,7 +91,7 @@ d86018079ba7824a35c0a83f1db9543a  usr/share/system-tools-backends-2.0/scripts/Ti
 07fcc902bdd6671cfaf4d3713b8b025c  usr/share/system-tools-backends-2.0/scripts/UserConfig.pm
 f1c7f0d7bbb4f76ccb4773c29f8a2b0c  usr/share/system-tools-backends-2.0/scripts/Users/Groups.pm
 5ed09f7307e4f68b3e7677e5c46ac8c1  usr/share/system-tools-backends-2.0/scripts/Users/Shells.pm
-caf950d309aea170bfa3bbfa50a505d5  usr/share/system-tools-backends-2.0/scripts/Users/Users.pm
+71684d818e0dbadbc6a44c1471387bd7  usr/share/system-tools-backends-2.0/scripts/Users/Users.pm
 dccca11b8c763aba3e7a7817bc9a0420  usr/share/system-tools-backends-2.0/scripts/UsersConfig.pm
 973e0db3f8b84a1a311e2f589ab0a7cc  usr/share/system-tools-backends-2.0/scripts/Utils/Backend.pm
 55f3937403b297f1a304f22952484b19  usr/share/system-tools-backends-2.0/scripts/Utils/DBus.pm

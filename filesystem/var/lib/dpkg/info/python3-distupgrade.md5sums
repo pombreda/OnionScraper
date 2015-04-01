@@ -17,7 +17,7 @@ cec4faef62bb242742b5a64944ccd309  usr/lib/python3/dist-packages/DistUpgrade/Dist
 745ada8a63b135e7a9be54ce58bf8526  usr/lib/python3/dist-packages/DistUpgrade/DistUpgradeViewGtk3.py
 4032719624dd67940ce7233765f41332  usr/lib/python3/dist-packages/DistUpgrade/DistUpgradeViewKDE.py
 79787aa3262d2c7ea8074600eb25feee  usr/lib/python3/dist-packages/DistUpgrade/DistUpgradeViewNonInteractive.py
-1e39a88c0cbffc4f839361c4b9112664  usr/lib/python3/dist-packages/DistUpgrade/DistUpgradeViewText.py
+ea118949308718c9fbcff32cf0b482cf  usr/lib/python3/dist-packages/DistUpgrade/DistUpgradeViewText.py
 ed3c88750ba4561fd4e3687e1a03e986  usr/lib/python3/dist-packages/DistUpgrade/GtkProgress.py
 597ff0076afa5394be5d41e80850f8de  usr/lib/python3/dist-packages/DistUpgrade/MetaRelease.py
 be770584856dce29f74cf425b8c58309  usr/lib/python3/dist-packages/DistUpgrade/ReleaseNotesViewer.py
@@ -33,5 +33,5 @@ ebfbe44f9b69ac9890d87dcd484ab1f8  usr/lib/python3/dist-packages/DistUpgrade/apt_
 37096924a70d70e989110f4496862d31  usr/lib/python3/dist-packages/DistUpgrade/sourceslist.py
 a2b9cdc84ab6dc35e007c8bf052e696a  usr/lib/python3/dist-packages/DistUpgrade/utils.py
 b4005d828b2d3d2c26be78e35e1dd1e7  usr/lib/python3/dist-packages/DistUpgrade/xorg_fix_proprietary.py
-4d51464f0cd2803654f846672c954b98  usr/share/doc/python3-distupgrade/changelog.gz
+6c84202cb5d2c1a7177ed91e7e6f992d  usr/share/doc/python3-distupgrade/changelog.gz
 b38c68d82f3fa513cdf9a1dfb9548ea1  usr/share/doc/python3-distupgrade/copyright

@@ -5,7 +5,7 @@ e87f2b9d272fd8f43a68c8fc7a6845a6  lib/udev/rules.d/50-apport.rules
 96a8455c0607a2ffb3d117330ba75e58  usr/lib/pm-utils/sleep.d/000record-status
 2b435d99aeb3fb1fc79d9241e101b2a2  usr/share/apport/apport
 1a7d84ebc34df04e55ca3723541f48c9  usr/share/apport/apport-checkreports
-0ebfe41f9d4d9a50def733ce0245e8d1  usr/share/apport/apport.jar
+dc3583022d420383a3f7fd3b0a7fa1ae  usr/share/apport/apport.jar
 554575372b148418861364be3cb20a97  usr/share/apport/apportcheckresume
 d8c94860fba89b9b786eee8fe41ac537  usr/share/apport/dump_acpi_tables.py
 145469c0b6be18896aefb9194db816c2  usr/share/apport/gcc_ice_hook
@@ -29,7 +29,7 @@ f71290da9f0d8842d907ae5925f966fa  usr/share/apport/package-hooks/source_ubiquity
 0336e2160bc7c0c44f27edafb0210c32  usr/share/apport/recoverable_problem
 71e57a2e83f37697f707b2cc4a66ed36  usr/share/apport/root_info_wrapper
 9453e5e57c79ffffb7d19f90a746d208  usr/share/apport/testsuite/crash.class
-42b4c46df6fc5464a59f7f5dd65888ea  usr/share/apport/testsuite/crash.jar
+0df69d5247e3dab5b0d319a06e332a7a  usr/share/apport/testsuite/crash.jar
 6cb5a94afa75cd2abb74fd83cc128444  usr/share/apport/testsuite/run
 a959be1c5659aeae61b98f3a3977abef  usr/share/apport/testsuite/test_apport_unpack.py
 8de0944736a21b28ec1ad535333dc608  usr/share/apport/testsuite/test_apport_valgrind.py

@@ -838,7 +838,7 @@ sub get_self
   foreach $user (@$users)
   {
     next if ($uid != $$user[$UID]);
-    return ($$user[$COMMENT], $$user[$LOCALE]);
+    return ($$user[$COMMENT], $$user[$LOCALE], $$user[$LOCATION]);
   }
 
   return ([""], "");

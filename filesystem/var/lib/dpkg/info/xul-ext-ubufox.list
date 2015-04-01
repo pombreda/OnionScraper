@@ -8,8 +8,6 @@
 /usr/share/doc/xul-ext-ubufox/changelog.Debian.gz
 /usr/share/xul-ext
 /usr/share/xul-ext/ubufox
-/usr/share/xul-ext/ubufox/scripts
-/usr/share/xul-ext/ubufox/scripts/check-component-enabled.py
 /usr/share/xul-ext/ubufox/install.rdf
 /usr/share/xul-ext/ubufox/chrome
 /usr/share/xul-ext/ubufox/chrome/ubufox.jar

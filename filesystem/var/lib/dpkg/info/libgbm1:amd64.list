@@ -1,13 +1,13 @@
 /.
 /usr
 /usr/share
+/usr/share/doc
+/usr/share/doc/libgbm1
+/usr/share/doc/libgbm1/copyright
 /usr/share/bug
 /usr/share/bug/libgbm1
 /usr/share/bug/libgbm1/script
 /usr/share/bug/libgbm1/control
-/usr/share/doc
-/usr/share/doc/libgbm1
-/usr/share/doc/libgbm1/copyright
 /usr/lib
 /usr/lib/x86_64-linux-gnu
 /usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0

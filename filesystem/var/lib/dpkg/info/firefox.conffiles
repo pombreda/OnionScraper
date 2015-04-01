@@ -1,4 +1,4 @@
-/etc/apparmor.d/usr.bin.firefox
-/etc/firefox/syspref.js
 /etc/apport/blacklist.d/firefox
 /etc/apport/native-origins.d/firefox
+/etc/firefox/syspref.js
+/etc/apparmor.d/usr.bin.firefox

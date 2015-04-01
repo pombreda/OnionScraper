@@ -1,4 +1,4 @@
-36d17178ff028ae4c42077fcc8735325  usr/sbin/update-ca-certificates
+33459711bf0dd5b5a92754e9702a943d  usr/sbin/update-ca-certificates
 1e719f61fd1dc529b3baf398fc1ee40c  usr/share/ca-certificates/mozilla/A-Trust-nQual-03.crt
 11c53d58aa2188c44a169b04c975d67e  usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt
 0f28e92dd6c19d1544e8aadb147c571a  usr/share/ca-certificates/mozilla/ACEDICOM_Root.crt
@@ -49,8 +49,13 @@ f0e104b20c351ec158ce1c24340a57cf  usr/share/ca-certificates/mozilla/Cybertrust_G
 0bd02e1961715690e1ee258748b7b97a  usr/share/ca-certificates/mozilla/DST_Root_CA_X3.crt
 410737016cffcb136715e1aadd30e69c  usr/share/ca-certificates/mozilla/Deutsche_Telekom_Root_CA_2.crt
 9e328b8d7eb2098bca933ed3353de369  usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_CA.crt
+040c19c1307dd3e6f2ffc22c2cb2c130  usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G2.crt
+2e0410f6cd82e24f3242038696487e92  usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G3.crt
 5945bad341623ae14991e09ffe851725  usr/share/ca-certificates/mozilla/DigiCert_Global_Root_CA.crt
+5590efae57dc6182aa3412dcd1e8dbb5  usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G2.crt
+0e92d049c98128cf02a0b79874c91a8b  usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G3.crt
 3b92857df75558b2466d31a45b9c64f8  usr/share/ca-certificates/mozilla/DigiCert_High_Assurance_EV_Root_CA.crt
+c8ad9cf647cf088cb60fa8bf12988187  usr/share/ca-certificates/mozilla/DigiCert_Trusted_Root_G4.crt
 5cf8e8069fd7f27758357ea1ca0cf546  usr/share/ca-certificates/mozilla/Digital_Signature_Trust_Co._Global_CA_1.crt
 102d0d24229a4e0fc251db845d0d9386  usr/share/ca-certificates/mozilla/Digital_Signature_Trust_Co._Global_CA_3.crt
 90c31f1af1ae53d1b0576a24fc1d698d  usr/share/ca-certificates/mozilla/E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.crt
@@ -59,7 +64,6 @@ e18fd1ebae8196583cd290cd425d323c  usr/share/ca-certificates/mozilla/E-Tugra_Cert
 be0f0b0a5cfedbe5267af77e4f8575dc  usr/share/ca-certificates/mozilla/EC-ACC.crt
 29b04fa84ff28830ed61aff963fca643  usr/share/ca-certificates/mozilla/EE_Certification_Centre_Root_CA.crt
 244f3bbf6b112e7d399342c097db22a5  usr/share/ca-certificates/mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt
-431aefb317c295f76996865f551e474d  usr/share/ca-certificates/mozilla/Entrust.net_Secure_Server_CA.crt
 d5c740071952f2189d90dc600985be3f  usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt
 140aa85ef21180ea9a5c9a42f2ae2fc2  usr/share/ca-certificates/mozilla/Equifax_Secure_CA.crt
 beb8ddbf2ba54a0d1dec0adf443e3c85  usr/share/ca-certificates/mozilla/Equifax_Secure_Global_eBusiness_CA.crt
@@ -94,9 +98,11 @@ ffeb173c44c6bf231b2c0fd59bdca24d  usr/share/ca-certificates/mozilla/Juur-SK.crt
 b16627ea9a4090cb6f5c41b721e7ec7e  usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt
 42e89d8b7db37976110678940d697c69  usr/share/ca-certificates/mozilla/PSCProcert.crt
 d6ef793f3cc9bed96240494bd2958c8c  usr/share/ca-certificates/mozilla/QuoVadis_Root_CA.crt
+9b860d8d09c6b557586df464a43958e8  usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_1_G3.crt
 97c19f5ba9e0859dd5d40beebfe67d39  usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2.crt
+1ea2ed15e2982bc156a17e00726203e2  usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2_G3.crt
 85313f1a4b2bbb4cdd5c15df2d14de28  usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3.crt
-cd5da287512f0012a62825afc209a9a9  usr/share/ca-certificates/mozilla/RSA_Root_Certificate_1.crt
+8da1e21451a274798a0accb32f50f580  usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3_G3.crt
 1272672914b1eadfb88d408534e154de  usr/share/ca-certificates/mozilla/RSA_Security_2048_v3.crt
 8ec0a101e09be888bee868c2d827300d  usr/share/ca-certificates/mozilla/Root_CA_Generalitat_Valenciana.crt
 98b10b75d7fb8c2235fcce4087fee237  usr/share/ca-certificates/mozilla/S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.crt
@@ -128,7 +134,6 @@ d8bcdd62b7258a9c980555915b7a142e  usr/share/ca-certificates/mozilla/T-TeleSec_Gl
 dd915a425fec90a18c06136b8ee14b7b  usr/share/ca-certificates/mozilla/TC_TrustCenter_Class_2_CA_II.crt
 0dfa268ce3e0c3e183f369b02eca2004  usr/share/ca-certificates/mozilla/TC_TrustCenter_Class_3_CA_II.crt
 5522958595efacf1fc3661e221b61e64  usr/share/ca-certificates/mozilla/TC_TrustCenter_Universal_CA_I.crt
-b57630f33fb356ca170805f083be2987  usr/share/ca-certificates/mozilla/TDC_Internet_Root_CA.crt
 069593c53aa81a7326e80452fffbab74  usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_1.crt
 28e59375691aeb7ce078b9bf9f627277  usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_2.crt
 c3a6712343699d03fc0afd6e17916b3b  usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_2007.crt
@@ -143,8 +148,6 @@ d58f24d616b685393e05b42b2db1a716  usr/share/ca-certificates/mozilla/Taiwan_GRCA.
 84b747f76d29985faa00eb366f28c8bc  usr/share/ca-certificates/mozilla/UTN_DATACorp_SGC_Root_CA.crt
 8ab011a35b6d2479179b6aaec33f8d51  usr/share/ca-certificates/mozilla/UTN_USERFirst_Email_Root_CA.crt
 2fda7e44620cefba61549028d5243aaa  usr/share/ca-certificates/mozilla/UTN_USERFirst_Hardware_Root_CA.crt
-a194cb5767b2eb60c4e2d90d4419cdc8  usr/share/ca-certificates/mozilla/ValiCert_Class_1_VA.crt
-fdf03feab80e9a109adb8f9912b36f5d  usr/share/ca-certificates/mozilla/ValiCert_Class_2_VA.crt
 8036e4182e549877bbca7eca72b00c55  usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt
 5ff1a2581cfb062a8620a64ba3881248  usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt
 2e0cf9fd6ff9126b1fbf0290901f0ad4  usr/share/ca-certificates/mozilla/VeriSign_Universal_Root_Certification_Authority.crt
@@ -160,6 +163,8 @@ b52dc1df5233371ed264e38efae830fe  usr/share/ca-certificates/mozilla/Verisign_Cla
 b66a56bd22db3cb7277f2dd16963ef2c  usr/share/ca-certificates/mozilla/Verisign_Class_4_Public_Primary_Certification_Authority_-_G3.crt
 3368fff3b2a3506ad83108f0d78ba23f  usr/share/ca-certificates/mozilla/Visa_eCommerce_Root.crt
 9079239f31ce0739927ab8a264c2b806  usr/share/ca-certificates/mozilla/WellsSecure_Public_Root_Certificate_Authority.crt
+581a282d755e10ed9b45462aa81bb231  usr/share/ca-certificates/mozilla/WoSign.crt
+cbb231202d6a3d12c89a9b468b418c69  usr/share/ca-certificates/mozilla/WoSign_China.crt
 9022170930c6993faa24b8660ab0e777  usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt
 af9cef1bc5260376a2cbe5d845e8d383  usr/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt
 7f410e2d89378c8a2032084b1aa31851  usr/share/ca-certificates/mozilla/ePKI_Root_Certification_Authority.crt
@@ -167,10 +172,10 @@ de3d5930e6e6b3fdb385f60a05206588  usr/share/ca-certificates/mozilla/thawte_Prima
 bec566e660af74de78db7b39778c2ef1  usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G2.crt
 7940d0333af9e5de8515419506540624  usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G3.crt
 fa268b79e0ef3ef5085a9a2303303e59  usr/share/ca-certificates/spi-inc.org/spi-cacert-2008.crt
-60f1643aa0691a834b09b681c80ea514  usr/share/doc/ca-certificates/NEWS.Debian.gz
-781d2964449865f2d14f2a05520027d3  usr/share/doc/ca-certificates/README.Debian
-5280d2a57cdf0ffce6d4cfd9574b6ae3  usr/share/doc/ca-certificates/changelog.gz
-0ee6c253e6406c76bfe261deaf5a60b5  usr/share/doc/ca-certificates/copyright
+0d91c0c442e44420024731db513a4d7e  usr/share/doc/ca-certificates/NEWS.Debian.gz
+cca03bab20450f69765126325b909ef3  usr/share/doc/ca-certificates/README.Debian
+3a8a8978ccafa36cbca0965c13f100d5  usr/share/doc/ca-certificates/changelog.gz
+48d2baf97986999e776b43c8dd9e0c5a  usr/share/doc/ca-certificates/copyright
 5ce4affbb807ef10acd0b83dcb621547  usr/share/doc/ca-certificates/examples/ca-certificates-local/Makefile
 747e0bb01ae1887a0b5bd50e2fc5e840  usr/share/doc/ca-certificates/examples/ca-certificates-local/README
 ed9f28ec33ce22f06e914dccc060d65b  usr/share/doc/ca-certificates/examples/ca-certificates-local/debian/ca-certificates-local.triggers

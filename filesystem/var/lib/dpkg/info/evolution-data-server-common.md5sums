@@ -3,10 +3,10 @@
 ab2ededc5368fbeb95758498acb57a8b  usr/share/dbus-1/services/org.gnome.evolution.dataserver.Calendar.service
 566d41a19338e48d62b78c752ebce9ca  usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service
 7ada13a0bc3dcfe7031aa7c07173fa87  usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service
-cdb88c47deab18d2499e3ed34af389d3  usr/share/doc/evolution-data-server-common/NEWS.gz
+c1308888bd54ea8f82e0b49c6c3d0084  usr/share/doc/evolution-data-server-common/NEWS.gz
 fbc9a64e8b9a11fde5dbca2685c86f13  usr/share/doc/evolution-data-server-common/README
 ad203c7bbc252672fb4b3f68a60a79cd  usr/share/doc/evolution-data-server-common/TODO
-e6ccb58cb6ad13895698b75ecc1914a7  usr/share/doc/evolution-data-server-common/changelog.Debian.gz
+5b82e1059bc2f8875d204c9db88c6e7c  usr/share/doc/evolution-data-server-common/changelog.Debian.gz
 e07b25cb2e7e2716951a3c828d582c94  usr/share/doc/evolution-data-server-common/copyright
 bcfacaa790c90ab43c2f2ccf72ec0822  usr/share/evolution-data-server/evolutionperson.schema
 830817c101c2607f6734ec3b7e248d65  usr/share/glib-2.0/schemas/org.gnome.Evolution.DefaultSources.gschema.xml

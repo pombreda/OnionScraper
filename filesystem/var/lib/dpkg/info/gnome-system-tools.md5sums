@@ -1,7 +1,7 @@
-67162de446400487d459eeb3c79a0a92  usr/bin/network-admin
-7ed569a030e82a3a44226bc12fe4657e  usr/bin/shares-admin
-05afd57a1f29bffc970a4d2586cfcc70  usr/bin/time-admin
-8e285e5d04d427e9682c9f0b9c1f1ed5  usr/bin/users-admin
+989248927641773db585d836ca7bfb83  usr/bin/network-admin
+536d6737e750b533141947e751bfe69b  usr/bin/shares-admin
+177fb1b313dfbca13e9960c547468ee7  usr/bin/time-admin
+b50c6292a443b96ab7fdc047f67b7d74  usr/bin/users-admin
 742655ef76bef60357dfc62875c37e2e  usr/lib/pkgconfig/gnome-system-tools.pc
 8563e04271b89997a4884fbbd0ccd0d8  usr/share/applications/network.desktop
 bc4a55d0313e218f1ce219a77a3f5ccf  usr/share/applications/shares.desktop
@@ -12,7 +12,7 @@ bc4a55d0313e218f1ce219a77a3f5ccf  usr/share/applications/shares.desktop
 0536eb8c867a7e0522851b8b134d84a0  usr/share/doc/gnome-system-tools/NEWS.gz
 f436cf8204cf3914f9a7a9a97eafd786  usr/share/doc/gnome-system-tools/README
 a576dc8feb21c98517789a191e0ecec9  usr/share/doc/gnome-system-tools/TODO
-1256e50ec0566286daf4d5eb6cf5b73b  usr/share/doc/gnome-system-tools/changelog.Debian.gz
+92d07ea5632bb17fc043c5b4ade0aeea  usr/share/doc/gnome-system-tools/changelog.Debian.gz
 035ce93a0e883020ee96cee0679e6b93  usr/share/doc/gnome-system-tools/copyright
 e47bcb1b5d348acbb6cd1e8be41f25a4  usr/share/glib-2.0/schemas/org.gnome.system-tools.gschema.xml
 c2b36f75f0908bcb8dff36a2d9f56307  usr/share/gnome-system-tools/pixmaps/network.xpm

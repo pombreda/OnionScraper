@@ -1,8 +1,8 @@
 6a2e3f229efd80e5e221d9432f5473b9  lib/init/fstab
-ba192dc79fe9cfe2d843844241a1f269  sbin/mntctl
-fe451fb224947effac749d164b778935  sbin/mountall
+f7cea2e49eef044b65f0714a51f7b191  sbin/mntctl
+4baadb9436bb4b02dc492568aabc619c  sbin/mountall
 5ead7f2535b704f6ab398062b9db9d08  usr/share/apport/package-hooks/mountall.py
-37f32d119348f1005b5bbd8448014c6c  usr/share/doc/mountall/changelog.gz
+dcebf9ea26558671fcc9021f5d31a887  usr/share/doc/mountall/changelog.gz
 6af04693cd8afb12009266d480c9a606  usr/share/doc/mountall/copyright
 74dc06002d672686e7cf0c5b37187cf7  usr/share/initramfs-tools/event-driven/upstart-jobs/mountall.conf
 1f2f372714afa56f9bd3b136fd9e77e3  usr/share/initramfs-tools/hooks/mountall

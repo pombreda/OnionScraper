@@ -110,7 +110,7 @@ class UDisksBackend(Backend):
         mount_points = fs.get_cached_property('MountPoints').get_bytestring_array()
         if len(mount_points) == 0:
             try:
-                mount = fs.mount_sync(no_options, None)
+                mount = fs.call_mount_sync(no_options, None)
             except GLib.GError as e:
                 logging.exception('Could not mount the device: %s' % e.message)
         else:
@@ -342,7 +342,7 @@ class UDisksBackend(Backend):
             fs = obj.get_filesystem()
             mount_points = fs.get_cached_property('MountPoints').get_bytestring_array()
             if len(mount_points) == 0:
-                target_path = fs.mount_sync(no_options, None)
+                target_path = fs.call_mount_sync(no_options, None)
             else:
                 target_path = mount_points[0]
             self.helper.RemountRW(dev)

@@ -1,7 +1,4 @@
 /.
-/lib
-/lib/x86_64-linux-gnu
-/lib/x86_64-linux-gnu/libgcrypt.so.20.0.1
 /usr
 /usr/share
 /usr/share/doc
@@ -12,4 +9,7 @@
 /usr/share/doc/libgcrypt20/copyright
 /usr/share/doc/libgcrypt20/README.gz
 /usr/share/doc/libgcrypt20/NEWS.gz
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/libgcrypt.so.20.0.1
 /lib/x86_64-linux-gnu/libgcrypt.so.20

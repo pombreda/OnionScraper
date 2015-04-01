@@ -1,264 +1,20 @@
 <?xml version="1.0"?>
 <gconf>
-<dir name="desktop">
-<dir name="gnome">
-<dir name="url-handlers">
-<dir name="ymsgr">
-<entry name="needs_terminal" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/ymsgr/needs_terminal"/>
-<entry name="command" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/ymsgr/command"/>
-<entry name="enabled" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/ymsgr/enabled"/>
-</dir>
-<dir name="xmpp">
-<entry name="needs_terminal" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/xmpp/needs_terminal"/>
-<entry name="command" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/xmpp/command"/>
-<entry name="enabled" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/xmpp/enabled"/>
-</dir>
-<dir name="sip">
-<entry name="needs_terminal" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/sip/needs_terminal"/>
-<entry name="command" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/sip/command"/>
-<entry name="enabled" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/sip/enabled"/>
-</dir>
-<dir name="msnim">
-<entry name="needs_terminal" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/msnim/needs_terminal"/>
-<entry name="command" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/msnim/command"/>
-<entry name="enabled" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/msnim/enabled"/>
-</dir>
-<dir name="irc">
-<entry name="needs_terminal" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/irc/needs_terminal"/>
-<entry name="command" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/irc/command"/>
-<entry name="enabled" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/irc/enabled"/>
-</dir>
-<dir name="icq">
-<entry name="needs_terminal" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/icq/needs_terminal"/>
-<entry name="command" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/icq/command"/>
-<entry name="enabled" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/icq/enabled"/>
-</dir>
-<dir name="gg">
-<entry name="needs_terminal" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/gg/needs_terminal"/>
-<entry name="command" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/gg/command"/>
-<entry name="enabled" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/gg/enabled"/>
-</dir>
-<dir name="aim">
-<entry name="needs_terminal" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/aim/needs_terminal"/>
-<entry name="command" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/aim/command"/>
-<entry name="enabled" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/aim/enabled"/>
-</dir>
-<dir name="apt">
-<entry name="needs_terminal" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/apt/needs_terminal"/>
-<entry name="command" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/apt/command"/>
-<entry name="enabled" mtime="1414004611" schema="/schemas/desktop/gnome/url-handlers/apt/enabled"/>
-</dir>
-</dir>
+<dir name="apps">
+<dir name="gksu">
+<entry name="save-keyring" mtime="1427919240" schema="/schemas/apps/gksu/save-keyring"/>
+<entry name="save-to-keyring" mtime="1427919240" schema="/schemas/apps/gksu/save-to-keyring"/>
+<entry name="display-no-pass-info" mtime="1427919240" schema="/schemas/apps/gksu/display-no-pass-info"/>
+<entry name="prompt" mtime="1427919240" schema="/schemas/apps/gksu/prompt"/>
+<entry name="sudo-mode" mtime="1427919240" schema="/schemas/apps/gksu/sudo-mode"/>
+<entry name="force-grab" mtime="1427919240" schema="/schemas/apps/gksu/force-grab"/>
+<entry name="disable-grab" mtime="1427919240" schema="/schemas/apps/gksu/disable-grab"/>
 </dir>
 </dir>
 <dir name="schemas">
-<dir name="desktop">
-<dir name="gnome">
-<dir name="url-handlers">
-<dir name="ymsgr">
-<entry name="needs_terminal" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Run the command in a terminal">
-<default type="bool" value="false"/>
-<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
-</local_schema>
-</entry>
-<entry name="command" mtime="1414004611" type="schema" stype="string" owner="purple">
-<local_schema locale="C" short_desc="The handler for &quot;ymsgr&quot; URLs">
-<default type="string">
-<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
-</default>
-<longdesc>The command used to handle &quot;ymsgr&quot; URLs, if enabled.</longdesc>
-</local_schema>
-</entry>
-<entry name="enabled" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Whether the specified command should handle &quot;ymsgr&quot; URLs">
-<default type="bool" value="true"/>
-<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;ymsgr&quot; URLs.</longdesc>
-</local_schema>
-</entry>
-</dir>
-<dir name="xmpp">
-<entry name="needs_terminal" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Run the command in a terminal">
-<default type="bool" value="false"/>
-<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
-</local_schema>
-</entry>
-<entry name="command" mtime="1414004611" type="schema" stype="string" owner="purple">
-<local_schema locale="C" short_desc="The handler for &quot;xmpp&quot; URLs">
-<default type="string">
-<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
-</default>
-<longdesc>The command used to handle &quot;xmpp&quot; URLs, if enabled.</longdesc>
-</local_schema>
-</entry>
-<entry name="enabled" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Whether the specified command should handle &quot;xmpp&quot; URLs">
-<default type="bool" value="true"/>
-<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;xmpp&quot; URLs.</longdesc>
-</local_schema>
-</entry>
-</dir>
-<dir name="sip">
-<entry name="needs_terminal" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Run the command in a terminal">
-<default type="bool" value="false"/>
-<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
-</local_schema>
-</entry>
-<entry name="command" mtime="1414004611" type="schema" stype="string" owner="purple">
-<local_schema locale="C" short_desc="The handler for &quot;sip&quot; URLs">
-<default type="string">
-<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
-</default>
-<longdesc>The command used to handle &quot;sip&quot; URLs, if enabled.</longdesc>
-</local_schema>
-</entry>
-<entry name="enabled" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Whether the specified command should handle &quot;sip&quot; URLs">
-<default type="bool" value="true"/>
-<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;sip&quot; URLs.</longdesc>
-</local_schema>
-</entry>
-</dir>
-<dir name="msnim">
-<entry name="needs_terminal" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Run the command in a terminal">
-<default type="bool" value="false"/>
-<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
-</local_schema>
-</entry>
-<entry name="command" mtime="1414004611" type="schema" stype="string" owner="purple">
-<local_schema locale="C" short_desc="The handler for &quot;msnim&quot; URLs">
-<default type="string">
-<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
-</default>
-<longdesc>The command used to handle &quot;msnim&quot; URLs, if enabled.</longdesc>
-</local_schema>
-</entry>
-<entry name="enabled" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Whether the specified command should handle &quot;msnim&quot; URLs">
-<default type="bool" value="true"/>
-<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;msnim&quot; URLs.</longdesc>
-</local_schema>
-</entry>
-</dir>
-<dir name="irc">
-<entry name="needs_terminal" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Run the command in a terminal">
-<default type="bool" value="false"/>
-<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
-</local_schema>
-</entry>
-<entry name="command" mtime="1414004611" type="schema" stype="string" owner="purple">
-<local_schema locale="C" short_desc="The handler for &quot;irc&quot; URLs">
-<default type="string">
-<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
-</default>
-<longdesc>The command used to handle &quot;irc&quot; URLs, if enabled.</longdesc>
-</local_schema>
-</entry>
-<entry name="enabled" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Whether the specified command should handle &quot;irc&quot; URLs">
-<default type="bool" value="true"/>
-<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;irc&quot; URLs.</longdesc>
-</local_schema>
-</entry>
-</dir>
-<dir name="icq">
-<entry name="needs_terminal" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Run the command in a terminal">
-<default type="bool" value="false"/>
-<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
-</local_schema>
-</entry>
-<entry name="command" mtime="1414004611" type="schema" stype="string" owner="purple">
-<local_schema locale="C" short_desc="The handler for &quot;icq&quot; URLs">
-<default type="string">
-<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
-</default>
-<longdesc>The command used to handle &quot;icq&quot; URLs, if enabled.</longdesc>
-</local_schema>
-</entry>
-<entry name="enabled" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Whether the specified command should handle &quot;icq&quot; URLs">
-<default type="bool" value="true"/>
-<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;icq&quot; URLs.</longdesc>
-</local_schema>
-</entry>
-</dir>
-<dir name="gg">
-<entry name="needs_terminal" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Run the command in a terminal">
-<default type="bool" value="false"/>
-<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
-</local_schema>
-</entry>
-<entry name="command" mtime="1414004611" type="schema" stype="string" owner="purple">
-<local_schema locale="C" short_desc="The handler for &quot;gg&quot; URLs">
-<default type="string">
-<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
-</default>
-<longdesc>The command used to handle &quot;gg&quot; URLs, if enabled.</longdesc>
-</local_schema>
-</entry>
-<entry name="enabled" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Whether the specified command should handle &quot;gg&quot; URLs">
-<default type="bool" value="true"/>
-<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;gg&quot; URLs.</longdesc>
-</local_schema>
-</entry>
-</dir>
-<dir name="aim">
-<entry name="needs_terminal" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Run the command in a terminal">
-<default type="bool" value="false"/>
-<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
-</local_schema>
-</entry>
-<entry name="command" mtime="1414004611" type="schema" stype="string" owner="purple">
-<local_schema locale="C" short_desc="The handler for &quot;aim&quot; URLs">
-<default type="string">
-<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
-</default>
-<longdesc>The command used to handle &quot;aim&quot; URLs, if enabled.</longdesc>
-</local_schema>
-</entry>
-<entry name="enabled" mtime="1414004611" type="schema" stype="bool" owner="purple">
-<local_schema locale="C" short_desc="Whether the specified command should handle &quot;aim&quot; URLs">
-<default type="bool" value="true"/>
-<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;aim&quot; URLs.</longdesc>
-</local_schema>
-</entry>
-</dir>
-<dir name="apt">
-<entry name="needs_terminal" mtime="1414004611" type="schema" stype="bool" owner="apturl">
-<local_schema locale="C" short_desc="Run the command in a terminal">
-<default type="bool" value="false"/>
-<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
-</local_schema>
-</entry>
-<entry name="command" mtime="1414004611" type="schema" stype="string" owner="apturl">
-<local_schema locale="C" short_desc="The handler for &quot;apt&quot; URLs">
-<default type="string">
-<stringvalue>apturl &quot;%s&quot;</stringvalue>
-</default>
-<longdesc>The command used to handle &quot;apt&quot; URLs, if enabled.</longdesc>
-</local_schema>
-</entry>
-<entry name="enabled" mtime="1414004611" type="schema" stype="bool" owner="apturl">
-<local_schema locale="C" short_desc="Whether the specified command should handle &quot;apt&quot; URLs">
-<default type="bool" value="true"/>
-<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;apt&quot; URLs.</longdesc>
-</local_schema>
-</entry>
-</dir>
-</dir>
-</dir>
-</dir>
 <dir name="apps">
 <dir name="gksu">
-<entry name="save-keyring" mtime="1414004611" type="schema" stype="string" owner="gksu" gettext_domain="libgksu">
+<entry name="save-keyring" mtime="1427919240" type="schema" stype="string" owner="gksu" gettext_domain="libgksu">
 <local_schema locale="C" short_desc="Keyring to which passwords will be saved">
 <default type="string">
 <stringvalue>session</stringvalue>
@@ -270,7 +26,7 @@ password with no timeout.
 </longdesc>
 </local_schema>
 </entry>
-<entry name="save-to-keyring" mtime="1414004611" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
+<entry name="save-to-keyring" mtime="1427919240" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
 <local_schema locale="C" short_desc="Save password to gnome-keyring">
 <default type="bool" value="false"/>
 <longdesc>
@@ -279,7 +35,7 @@ not be asked everytime
 </longdesc>
 </local_schema>
 </entry>
-<entry name="display-no-pass-info" mtime="1414004611" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
+<entry name="display-no-pass-info" mtime="1427919240" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
 <local_schema locale="C" short_desc="Display information message when no password is needed">
 <default type="bool" value="false"/>
 <longdesc>
@@ -289,7 +45,7 @@ of a password being asked for some reason.
 </longdesc>
 </local_schema>
 </entry>
-<entry name="prompt" mtime="1414004611" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
+<entry name="prompt" mtime="1427919240" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
 <local_schema locale="C" short_desc="Prompt for grabbing">
 <default type="bool" value="false"/>
 <longdesc>
@@ -299,7 +55,7 @@ only has an effect if force-grab is disabled.
 </longdesc>
 </local_schema>
 </entry>
-<entry name="sudo-mode" mtime="1414004611" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
+<entry name="sudo-mode" mtime="1427919240" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
 <local_schema locale="C" short_desc="Sudo mode">
 <default type="bool" value="false"/>
 <longdesc>
@@ -309,7 +65,7 @@ Whether sudo should be the default backend method. This method
 </longdesc>
 </local_schema>
 </entry>
-<entry name="force-grab" mtime="1414004611" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
+<entry name="force-grab" mtime="1427919240" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
 <local_schema locale="C" short_desc="Force keyboard and mouse grab">
 <default type="bool" value="false"/>
 <longdesc>
@@ -318,7 +74,7 @@ on the command line.
 </longdesc>
 </local_schema>
 </entry>
-<entry name="disable-grab" mtime="1414004611" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
+<entry name="disable-grab" mtime="1427919240" type="schema" stype="bool" owner="gksu" gettext_domain="libgksu">
 <local_schema locale="C" short_desc="Disable keyboard and mouse grab">
 <default type="bool" value="false"/>
 <longdesc>
@@ -331,16 +87,260 @@ to shield from malicious applications which may be running.
 </entry>
 </dir>
 </dir>
+<dir name="desktop">
+<dir name="gnome">
+<dir name="url-handlers">
+<dir name="apt">
+<entry name="needs_terminal" mtime="1427919240" type="schema" stype="bool" owner="apturl">
+<local_schema locale="C" short_desc="Run the command in a terminal">
+<default type="bool" value="false"/>
+<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+</local_schema>
+</entry>
+<entry name="command" mtime="1427919240" type="schema" stype="string" owner="apturl">
+<local_schema locale="C" short_desc="The handler for &quot;apt&quot; URLs">
+<default type="string">
+<stringvalue>apturl &quot;%s&quot;</stringvalue>
+</default>
+<longdesc>The command used to handle &quot;apt&quot; URLs, if enabled.</longdesc>
+</local_schema>
+</entry>
+<entry name="enabled" mtime="1427919240" type="schema" stype="bool" owner="apturl">
+<local_schema locale="C" short_desc="Whether the specified command should handle &quot;apt&quot; URLs">
+<default type="bool" value="true"/>
+<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;apt&quot; URLs.</longdesc>
+</local_schema>
+</entry>
 </dir>
-<dir name="apps">
-<dir name="gksu">
-<entry name="save-keyring" mtime="1414004611" schema="/schemas/apps/gksu/save-keyring"/>
-<entry name="save-to-keyring" mtime="1414004611" schema="/schemas/apps/gksu/save-to-keyring"/>
-<entry name="display-no-pass-info" mtime="1414004611" schema="/schemas/apps/gksu/display-no-pass-info"/>
-<entry name="prompt" mtime="1414004611" schema="/schemas/apps/gksu/prompt"/>
-<entry name="sudo-mode" mtime="1414004611" schema="/schemas/apps/gksu/sudo-mode"/>
-<entry name="force-grab" mtime="1414004611" schema="/schemas/apps/gksu/force-grab"/>
-<entry name="disable-grab" mtime="1414004611" schema="/schemas/apps/gksu/disable-grab"/>
+<dir name="ymsgr">
+<entry name="needs_terminal" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Run the command in a terminal">
+<default type="bool" value="false"/>
+<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+</local_schema>
+</entry>
+<entry name="command" mtime="1427919240" type="schema" stype="string" owner="purple">
+<local_schema locale="C" short_desc="The handler for &quot;ymsgr&quot; URLs">
+<default type="string">
+<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
+</default>
+<longdesc>The command used to handle &quot;ymsgr&quot; URLs, if enabled.</longdesc>
+</local_schema>
+</entry>
+<entry name="enabled" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Whether the specified command should handle &quot;ymsgr&quot; URLs">
+<default type="bool" value="true"/>
+<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;ymsgr&quot; URLs.</longdesc>
+</local_schema>
+</entry>
+</dir>
+<dir name="xmpp">
+<entry name="needs_terminal" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Run the command in a terminal">
+<default type="bool" value="false"/>
+<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+</local_schema>
+</entry>
+<entry name="command" mtime="1427919240" type="schema" stype="string" owner="purple">
+<local_schema locale="C" short_desc="The handler for &quot;xmpp&quot; URLs">
+<default type="string">
+<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
+</default>
+<longdesc>The command used to handle &quot;xmpp&quot; URLs, if enabled.</longdesc>
+</local_schema>
+</entry>
+<entry name="enabled" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Whether the specified command should handle &quot;xmpp&quot; URLs">
+<default type="bool" value="true"/>
+<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;xmpp&quot; URLs.</longdesc>
+</local_schema>
+</entry>
+</dir>
+<dir name="sip">
+<entry name="needs_terminal" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Run the command in a terminal">
+<default type="bool" value="false"/>
+<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+</local_schema>
+</entry>
+<entry name="command" mtime="1427919240" type="schema" stype="string" owner="purple">
+<local_schema locale="C" short_desc="The handler for &quot;sip&quot; URLs">
+<default type="string">
+<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
+</default>
+<longdesc>The command used to handle &quot;sip&quot; URLs, if enabled.</longdesc>
+</local_schema>
+</entry>
+<entry name="enabled" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Whether the specified command should handle &quot;sip&quot; URLs">
+<default type="bool" value="true"/>
+<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;sip&quot; URLs.</longdesc>
+</local_schema>
+</entry>
+</dir>
+<dir name="msnim">
+<entry name="needs_terminal" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Run the command in a terminal">
+<default type="bool" value="false"/>
+<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+</local_schema>
+</entry>
+<entry name="command" mtime="1427919240" type="schema" stype="string" owner="purple">
+<local_schema locale="C" short_desc="The handler for &quot;msnim&quot; URLs">
+<default type="string">
+<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
+</default>
+<longdesc>The command used to handle &quot;msnim&quot; URLs, if enabled.</longdesc>
+</local_schema>
+</entry>
+<entry name="enabled" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Whether the specified command should handle &quot;msnim&quot; URLs">
+<default type="bool" value="true"/>
+<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;msnim&quot; URLs.</longdesc>
+</local_schema>
+</entry>
+</dir>
+<dir name="irc">
+<entry name="needs_terminal" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Run the command in a terminal">
+<default type="bool" value="false"/>
+<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+</local_schema>
+</entry>
+<entry name="command" mtime="1427919240" type="schema" stype="string" owner="purple">
+<local_schema locale="C" short_desc="The handler for &quot;irc&quot; URLs">
+<default type="string">
+<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
+</default>
+<longdesc>The command used to handle &quot;irc&quot; URLs, if enabled.</longdesc>
+</local_schema>
+</entry>
+<entry name="enabled" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Whether the specified command should handle &quot;irc&quot; URLs">
+<default type="bool" value="true"/>
+<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;irc&quot; URLs.</longdesc>
+</local_schema>
+</entry>
+</dir>
+<dir name="icq">
+<entry name="needs_terminal" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Run the command in a terminal">
+<default type="bool" value="false"/>
+<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+</local_schema>
+</entry>
+<entry name="command" mtime="1427919240" type="schema" stype="string" owner="purple">
+<local_schema locale="C" short_desc="The handler for &quot;icq&quot; URLs">
+<default type="string">
+<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
+</default>
+<longdesc>The command used to handle &quot;icq&quot; URLs, if enabled.</longdesc>
+</local_schema>
+</entry>
+<entry name="enabled" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Whether the specified command should handle &quot;icq&quot; URLs">
+<default type="bool" value="true"/>
+<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;icq&quot; URLs.</longdesc>
+</local_schema>
+</entry>
+</dir>
+<dir name="gg">
+<entry name="needs_terminal" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Run the command in a terminal">
+<default type="bool" value="false"/>
+<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+</local_schema>
+</entry>
+<entry name="command" mtime="1427919240" type="schema" stype="string" owner="purple">
+<local_schema locale="C" short_desc="The handler for &quot;gg&quot; URLs">
+<default type="string">
+<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
+</default>
+<longdesc>The command used to handle &quot;gg&quot; URLs, if enabled.</longdesc>
+</local_schema>
+</entry>
+<entry name="enabled" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Whether the specified command should handle &quot;gg&quot; URLs">
+<default type="bool" value="true"/>
+<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;gg&quot; URLs.</longdesc>
+</local_schema>
+</entry>
+</dir>
+<dir name="aim">
+<entry name="needs_terminal" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Run the command in a terminal">
+<default type="bool" value="false"/>
+<longdesc>True if the command used to handle this type of URL should be run in a terminal.</longdesc>
+</local_schema>
+</entry>
+<entry name="command" mtime="1427919240" type="schema" stype="string" owner="purple">
+<local_schema locale="C" short_desc="The handler for &quot;aim&quot; URLs">
+<default type="string">
+<stringvalue>purple-url-handler &quot;%s&quot;</stringvalue>
+</default>
+<longdesc>The command used to handle &quot;aim&quot; URLs, if enabled.</longdesc>
+</local_schema>
+</entry>
+<entry name="enabled" mtime="1427919240" type="schema" stype="bool" owner="purple">
+<local_schema locale="C" short_desc="Whether the specified command should handle &quot;aim&quot; URLs">
+<default type="bool" value="true"/>
+<longdesc>True if the command specified in the &quot;command&quot; key should handle &quot;aim&quot; URLs.</longdesc>
+</local_schema>
+</entry>
+</dir>
+</dir>
+</dir>
+</dir>
+</dir>
+<dir name="desktop">
+<dir name="gnome">
+<dir name="url-handlers">
+<dir name="apt">
+<entry name="needs_terminal" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/apt/needs_terminal"/>
+<entry name="command" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/apt/command"/>
+<entry name="enabled" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/apt/enabled"/>
+</dir>
+<dir name="ymsgr">
+<entry name="needs_terminal" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/ymsgr/needs_terminal"/>
+<entry name="command" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/ymsgr/command"/>
+<entry name="enabled" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/ymsgr/enabled"/>
+</dir>
+<dir name="xmpp">
+<entry name="needs_terminal" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/xmpp/needs_terminal"/>
+<entry name="command" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/xmpp/command"/>
+<entry name="enabled" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/xmpp/enabled"/>
+</dir>
+<dir name="sip">
+<entry name="needs_terminal" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/sip/needs_terminal"/>
+<entry name="command" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/sip/command"/>
+<entry name="enabled" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/sip/enabled"/>
+</dir>
+<dir name="msnim">
+<entry name="needs_terminal" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/msnim/needs_terminal"/>
+<entry name="command" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/msnim/command"/>
+<entry name="enabled" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/msnim/enabled"/>
+</dir>
+<dir name="irc">
+<entry name="needs_terminal" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/irc/needs_terminal"/>
+<entry name="command" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/irc/command"/>
+<entry name="enabled" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/irc/enabled"/>
+</dir>
+<dir name="icq">
+<entry name="needs_terminal" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/icq/needs_terminal"/>
+<entry name="command" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/icq/command"/>
+<entry name="enabled" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/icq/enabled"/>
+</dir>
+<dir name="gg">
+<entry name="needs_terminal" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/gg/needs_terminal"/>
+<entry name="command" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/gg/command"/>
+<entry name="enabled" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/gg/enabled"/>
+</dir>
+<dir name="aim">
+<entry name="needs_terminal" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/aim/needs_terminal"/>
+<entry name="command" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/aim/command"/>
+<entry name="enabled" mtime="1427919240" schema="/schemas/desktop/gnome/url-handlers/aim/enabled"/>
+</dir>
+</dir>
 </dir>
 </dir>
 </gconf>

@@ -7,9 +7,11 @@ libmagic.so.1 libmagic1 #MINVER#
  magic_errno@Base 5.12
  magic_error@Base 5.12
  magic_file@Base 5.12
+ magic_getparam@Base 1:5.19-1ubuntu1.2~
  magic_getpath@Base 5.12
  magic_list@Base 5.12
  magic_load@Base 5.12
  magic_open@Base 5.12
  magic_setflags@Base 5.12
+ magic_setparam@Base 1:5.19-1ubuntu1.2~
  magic_version@Base 5.13

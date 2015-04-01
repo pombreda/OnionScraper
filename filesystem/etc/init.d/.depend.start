@@ -1,17 +1,17 @@
-TARGETS = rsyslog cgmanager uuidd killprocs dns-clean pppd-dns apport irqbalance dbus cgproxy thermald cups single ntp cron rsync anacron lightdm bluetooth grub-common rc.local ondemand
+TARGETS = rsyslog cgmanager uuidd killprocs dns-clean pppd-dns apport dbus irqbalance cgproxy thermald cups single ntp anacron cron rsync bluetooth lightdm ondemand grub-common rc.local
 INTERACTIVE =
-irqbalance: rsyslog
 dbus: rsyslog
+irqbalance: rsyslog
 cgproxy: cgmanager
 thermald: rsyslog
 cups: rsyslog
 single: killprocs dns-clean pppd-dns
 ntp: rsyslog
+anacron: rsyslog
 cron: rsyslog
 rsync: rsyslog
-anacron: rsyslog
-lightdm: dbus
 bluetooth: rsyslog dbus
-grub-common: rsyslog irqbalance lightdm dbus cgproxy cgmanager bluetooth thermald uuidd cups dns-clean pppd-dns ntp cron rsync apport anacron
-rc.local: rsyslog irqbalance lightdm dbus cgproxy cgmanager bluetooth thermald uuidd cups dns-clean pppd-dns ntp cron rsync apport anacron
-ondemand: rsyslog irqbalance lightdm dbus cgproxy cgmanager bluetooth thermald uuidd cups dns-clean pppd-dns ntp cron rsync apport anacron
+lightdm: dbus
+ondemand: bluetooth rsyslog dbus lightdm cgmanager uuidd irqbalance cgproxy thermald cups dns-clean ntp pppd-dns anacron apport cron rsync
+grub-common: bluetooth rsyslog dbus lightdm cgmanager uuidd irqbalance cgproxy thermald cups dns-clean ntp pppd-dns anacron apport cron rsync
+rc.local: bluetooth rsyslog dbus lightdm cgmanager uuidd irqbalance cgproxy thermald cups dns-clean ntp pppd-dns anacron apport cron rsync

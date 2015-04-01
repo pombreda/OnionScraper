@@ -13,11 +13,11 @@ a0094dd726fdb5c759fa3fdd93ceb32e  usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodul
 103f46080c1f5ae59a19116cac0ec445  usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/printbackends/libprintbackend-file.so
 8f09c83d259966b0f0f5fcbc3c8b768b  usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/printbackends/libprintbackend-lpr.so
 5111e6dffc4d5cbb88abb750186d80a9  usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/printbackends/libprintbackend-test.so
-e6e2ebc304ca6fbd147a56b774ca3463  usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1200.2
-0df699a471adc32be5ce567b2372a86f  usr/lib/x86_64-linux-gnu/libgtk-3-0/gtk-query-immodules-3.0
-e1fce97f5fbbbd84f414a1009d33a3b3  usr/lib/x86_64-linux-gnu/libgtk-3-0/gtk-update-icon-cache-3.0
-a5bb64b06ed57ef4d85e1b2f488112b5  usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1200.2
+1db08c6f89f6f553c9dbdd307d5c9835  usr/lib/x86_64-linux-gnu/libgdk-3.so.0.1200.2
+1838f5895e8c91b6ee3ebb59ff4a0b2f  usr/lib/x86_64-linux-gnu/libgtk-3-0/gtk-query-immodules-3.0
+cf0a4f0947c8c0d9518490e997ba42ac  usr/lib/x86_64-linux-gnu/libgtk-3-0/gtk-update-icon-cache-3.0
+7940185f41deaa08bfb500fdaddc6295  usr/lib/x86_64-linux-gnu/libgtk-3.so.0.1200.2
 462252ce98d71b71c9ab7717e9fc4d40  usr/share/doc/libgtk-3-0/AUTHORS
 a0157655731f05de9f9f6e1d904e6448  usr/share/doc/libgtk-3-0/README.Debian
-4fc6fb9c30adcd4e95f1515d6d4a15d7  usr/share/doc/libgtk-3-0/changelog.Debian.gz
+e76ae502083b452f240beb59353b4e60  usr/share/doc/libgtk-3-0/changelog.Debian.gz
 e3924a72455b305ebdb983aed41b2be8  usr/share/doc/libgtk-3-0/copyright

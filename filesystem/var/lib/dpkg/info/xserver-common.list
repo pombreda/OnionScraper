@@ -1,4 +1,8 @@
 /.
+/var
+/var/lib
+/var/lib/xkb
+/var/lib/xkb/README.compiled
 /usr
 /usr/lib
 /usr/lib/xorg
@@ -11,7 +15,3 @@
 /usr/share/doc/xserver-common
 /usr/share/doc/xserver-common/copyright
 /usr/share/doc/xserver-common/changelog.Debian.gz
-/var
-/var/lib
-/var/lib/xkb
-/var/lib/xkb/README.compiled
