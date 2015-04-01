@@ -7,3 +7,7 @@ filesystem/tmp/
 filesystem/usr/share/icons/HighContrast/icon-theme.cache
 # Ignore redundant squashed filesystem
 extract-cd/casper/filesystem.squashfs
+# Ignore local mount path
+mnt/
+# Ignore filesystem log directory Issue #26
+filesystem/var/log/
