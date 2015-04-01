@@ -1,4 +1,4 @@
-#define DISKNAME  Lubuntu 14.10 "Utopic Unicorn" - Release amd64
+#define DISKNAME  Onion Scraper 14.10 "Utopic Unicorn" - Release amd64
 #define TYPE  binary
 #define TYPEbinary  1
 #define ARCH  amd64
