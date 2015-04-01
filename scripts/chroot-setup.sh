@@ -1,8 +1,8 @@
 #! /bin/bash
 
 # Mount non-standard files
-mount -t proc none /proc
-mount -t sysfs none /sys
+#mount -t proc none /proc
+#mount -t sysfs none /sys
 # Devpts causes umount bug in chroot
 #mount -t devpts none /dev/pts
 

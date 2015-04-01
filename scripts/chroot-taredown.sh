@@ -9,8 +9,8 @@ rm /sbin/initctl
 dpkg-divert --rename --remove /sbin/initctl
 
 # Taredown filesystem
-cd
-umount /proc || umount -lf /proc
-umount /sys
+#cd
+#umount /proc || umount -lf /proc
+#umount /sys
 #umount /dev/pts
 
