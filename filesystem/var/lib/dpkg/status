@@ -148,7 +148,7 @@ Original-Maintainer: Julian Andres Klode <jak@debian.org>
 
 Package: libtext-wrapi18n-perl
 Status: install ok installed
-Priority: required
+Priority: important
 Section: perl
 Installed-Size: 68
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -627,7 +627,7 @@ Homepage: http://pythonhosted.org/six/
 
 Package: libpam-cap
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: libs
 Installed-Size: 68
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -1073,7 +1073,7 @@ Original-Maintainer: Mark Buda <hermit@acm.org>
 
 Package: sudo
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: admin
 Installed-Size: 1484
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -1874,7 +1874,7 @@ Homepage: http://gtk2-perl.sourceforge.net/
 
 Package: libffi6
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: libs
 Installed-Size: 70
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -2228,7 +2228,7 @@ Homepage: https://metacpan.org/release/Net-HTTP
 
 Package: libmpdec2
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: libs
 Installed-Size: 268
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -2448,7 +2448,7 @@ Description: Ubuntu artwork for Ubiquity live installer
 
 Package: libtasn1-6
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: libs
 Installed-Size: 122
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -3217,7 +3217,7 @@ Original-Maintainer: Rene Engelhard <rene@debian.org>
 
 Package: libpython3.4-minimal
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: python
 Installed-Size: 3310
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -3269,7 +3269,7 @@ Homepage: http://linuxtv.org/downloads/v4l-utils/
 
 Package: libgnutls-deb0-28
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: libs
 Installed-Size: 1248
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -3832,7 +3832,7 @@ Description: Linux kernel image for version 3.16.0 on 64 bit x86 SMP
 
 Package: ucf
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: utils
 Installed-Size: 229
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -4362,7 +4362,7 @@ Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 
 Package: lsb-release
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: misc
 Installed-Size: 121
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -4720,7 +4720,7 @@ Homepage: http://liba52.sourceforge.net/
 
 Package: bzip2
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: utils
 Installed-Size: 114
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -5325,7 +5325,7 @@ Original-Maintainer: Jose Carlos Garcia Sogo <jsogo@debian.org>
 
 Package: libpython3-stdlib
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: python
 Installed-Size: 52
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -6299,7 +6299,7 @@ Original-Maintainer: Ricardo Mones <mones@debian.org>
 
 Package: libestr0
 Status: install ok installed
-Priority: extra
+Priority: important
 Section: libs
 Installed-Size: 49
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -6403,7 +6403,7 @@ Original-Maintainer: Matthias Klumpp <matthias@tenstral.net>
 
 Package: libmagic1
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: libs
 Installed-Size: 3029
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -7152,7 +7152,7 @@ Homepage: http://www.alsa-project.org/
 
 Package: libhogweed2
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: libs
 Installed-Size: 218
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -7924,7 +7924,7 @@ Orig-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Package: libapt-pkg4.12
 Status: install ok installed
 Priority: important
-Section: libs
+Section: admin
 Installed-Size: 2977
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
@@ -8565,7 +8565,7 @@ Original-Maintainer: Josselin Mouette <joss@debian.org>
 
 Package: resolvconf
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: net
 Installed-Size: 254
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -8886,7 +8886,7 @@ Original-Maintainer: Bdale Garbee <bdale@gag.com>
 
 Package: file
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: utils
 Installed-Size: 105
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -9014,7 +9014,7 @@ Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 
 Package: libcap2-bin
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: utils
 Installed-Size: 99
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -9297,7 +9297,7 @@ Original-Maintainer: Aron Xu <aron@debian.org>
 
 Package: libfribidi0
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: libs
 Installed-Size: 136
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -9563,7 +9563,7 @@ Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Package: libapt-inst1.5
 Status: install ok installed
 Priority: important
-Section: libs
+Section: admin
 Installed-Size: 739
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Architecture: amd64
@@ -11019,7 +11019,7 @@ Original-Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 
 Package: libsqlite3-0
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: libs
 Installed-Size: 891
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -11038,7 +11038,7 @@ Homepage: http://www.sqlite.org/
 
 Package: libtext-iconv-perl
 Status: install ok installed
-Priority: required
+Priority: important
 Section: perl
 Installed-Size: 94
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -11261,7 +11261,7 @@ Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debi
 
 Package: console-setup
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: utils
 Installed-Size: 1525
 Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
@@ -11805,7 +11805,7 @@ Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 
 Package: python3.4-minimal
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: python
 Installed-Size: 4506
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -11827,7 +11827,7 @@ Original-Maintainer: Matthias Klose <doko@debian.org>
 
 Package: lockfile-progs
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: misc
 Installed-Size: 78
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -12218,7 +12218,7 @@ Original-Maintainer: Kurt Roeckx <kurt@roeckx.be>
 
 Package: libexpat1
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: libs
 Installed-Size: 386
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -12917,7 +12917,7 @@ Original-Maintainer: Aurelien Jarno <aurel32@debian.org>
 
 Package: libdevmapper1.02.1
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: libs
 Installed-Size: 301
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -13653,7 +13653,7 @@ Homepage: https://launchpad.net/geis
 
 Package: liblockfile-bin
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: utils
 Installed-Size: 71
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -14192,7 +14192,7 @@ Original-Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 
 Package: python3.4
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: python
 Installed-Size: 336
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -14209,7 +14209,7 @@ Original-Maintainer: Matthias Klose <doko@debian.org>
 
 Package: libgnutls-openssl27
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: libs
 Installed-Size: 105
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -15605,7 +15605,7 @@ Description: Tracks runtime library calls in dynamically linked programs
 Original-Maintainer: Juan Cespedes <cespedes@debian.org>
 
 Package: libwhoopsie0
-Status: install ok installed
+Status: hold ok installed
 Priority: optional
 Section: libs
 Installed-Size: 53
@@ -16042,7 +16042,7 @@ Homepage: https://launchpad.net/libindicator
 Original-Maintainer: The Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debian.org>
 
 Package: whoopsie
-Status: install ok installed
+Status: hold ok installed
 Priority: optional
 Section: utils
 Installed-Size: 143
@@ -16210,7 +16210,7 @@ Original-Maintainer: Josselin Mouette <joss@debian.org>
 Package: debconf-i18n
 Status: install ok installed
 Priority: important
-Section: localization
+Section: admin
 Installed-Size: 1078
 Maintainer: Colin Watson <cjwatson@ubuntu.com>
 Architecture: all
@@ -16707,7 +16707,7 @@ Original-Maintainer: Matthias Klose <doko@debian.org>
 
 Package: kbd
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: utils
 Installed-Size: 1032
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -17013,7 +17013,7 @@ Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 
 Package: keyboard-configuration
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: utils
 Installed-Size: 2192
 Maintainer: Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>
@@ -17178,7 +17178,7 @@ Original-Maintainer: Tollef Fog Heen <tfheen@debian.org>
 
 Package: ureadahead
 Status: install ok installed
-Priority: required
+Priority: important
 Section: admin
 Installed-Size: 124
 Maintainer: Scott James Remnant <scott@ubuntu.com>
@@ -17640,7 +17640,7 @@ Homepage: http://www.netfilter.org/projects/libnetfilter_conntrack/
 
 Package: xkb-data
 Status: install ok installed
-Priority: extra
+Priority: important
 Section: x11
 Installed-Size: 2870
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
@@ -18299,7 +18299,7 @@ Original-Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian
 
 Package: python3-minimal
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: python
 Installed-Size: 139
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -18533,7 +18533,7 @@ Homepage: https://launchpad.net/lightdm
 
 Package: libbsd0
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: libs
 Installed-Size: 152
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -20319,7 +20319,7 @@ Homepage: http://www.freedesktop.org/wiki/Software/libevdev/
 
 Package: liblocale-gettext-perl
 Status: install ok installed
-Priority: required
+Priority: important
 Section: perl
 Installed-Size: 100
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -21014,7 +21014,7 @@ Homepage: http://www.draisberghof.de/usb_modeswitch/
 
 Package: dmsetup
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: admin
 Installed-Size: 181
 Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -21060,7 +21060,7 @@ Homepage: http://tslib.berlios.de/
 
 Package: eject
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: utils
 Installed-Size: 160
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -21364,7 +21364,7 @@ Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 
 Package: dh-python
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: python
 Installed-Size: 309
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -21482,7 +21482,7 @@ Original-Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
 
 Package: python3
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: python
 Installed-Size: 100
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -23190,7 +23190,7 @@ Description: Detect and install additional Ubuntu driver packages
 
 Package: libpython3.4-stdlib
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: python
 Installed-Size: 9480
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -23530,7 +23530,7 @@ Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian
 
 Package: mime-support
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: net
 Installed-Size: 146
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -24537,7 +24537,7 @@ Original-Maintainer: APT Development Team <deity@lists.debian.org>
 
 Package: libp11-kit0
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: libs
 Installed-Size: 317
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -24739,7 +24739,7 @@ Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.aliot
 
 Package: libnettle4
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: libs
 Installed-Size: 326
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -25060,7 +25060,7 @@ Original-Maintainer: Guus Sliepen <guus@debian.org>
 
 Package: ntpdate
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: net
 Installed-Size: 240
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -26077,7 +26077,7 @@ Original-Maintainer: Debian util-linux Maintainers <ah-util-linux@debian.org>
 
 Package: libgmp10
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: libs
 Installed-Size: 573
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -26386,7 +26386,7 @@ Homepage: http://www.geocities.jp/kosako3/oniguruma/
 
 Package: ubuntu-minimal
 Status: install ok installed
-Priority: optional
+Priority: important
 Section: metapackages
 Installed-Size: 60
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -27544,7 +27544,7 @@ Homepage: https://wiki.gnome.org/dconf
 
 Package: less
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: text
 Installed-Size: 288
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -27711,7 +27711,7 @@ Original-Maintainer: The Ayatana Packagers <pkg-ayatana-devel@lists.alioth.debia
 
 Package: libtext-charwidth-perl
 Status: install ok installed
-Priority: required
+Priority: important
 Section: perl
 Installed-Size: 84
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
@@ -28250,7 +28250,7 @@ Original-Maintainer: Matthias Klose <doko@debian.org>
 
 Package: liblockfile1
 Status: install ok installed
-Priority: standard
+Priority: important
 Section: libs
 Installed-Size: 57
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
