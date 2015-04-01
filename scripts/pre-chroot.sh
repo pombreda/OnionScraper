@@ -7,5 +7,5 @@ cp /etc/resolv.conf ../filesystem/etc/
 mount --bind /dev/ ../filesystem/dev
 
 #Symlink chroot scripts
-ln -s ./chroot-setup.sh ../filesystem/root/chroot-setup.sh
-ln -s ./chroot-taredown.sh ../filesystem/root/chroot-taredown.sh
+ln ./chroot-setup.sh ../filesystem/root/chroot-setup.sh
+ln ./chroot-taredown.sh ../filesystem/root/chroot-taredown.sh
