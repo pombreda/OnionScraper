@@ -11,3 +11,6 @@ extract-cd/casper/filesystem.squashfs
 mnt/
 # Ignore filesystem log directory Issue #26
 filesystem/var/log/
+
+filesystem/var/cache/apt/archives/
+filesystem/var/lib/apt/lists/
